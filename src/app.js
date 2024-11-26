@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.send('Farmacia Deserete')
 })
 
-app.get('/userRooms', async(req, res) =>{
+app.get('/users', async(req, res) =>{
   try {
     res.status(200).json(await getUsers())
   }
