@@ -3,9 +3,19 @@ import { getUsers, verifyUserCredentials } from './database/database.js';
 const app = express();
 const port = 3000;
 import { generateToken } from './coneccion/jwt.js';
-import { md5 } from "js-md5";
 
+import cors from 'cors';
 // Middleware para procesar el cuerpo de las solicitudes JSON
+
+
+const corsOptions = {
+  origin: ['http://127.0.0.1:3000', 'http://localhost:4000'], // Permite tanto el dominio de Netlify como el local
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get('/', (req, res) => {
@@ -14,7 +24,7 @@ app.get('/', (req, res) => {
 
 app.post('/login', async (req, res) => {
   try {
-    let password_login = md5(req.body.password);
+    let password_login = req.body.password;
     const uservalidate = await verifyUserCredentials(req.body.username, password_login);
 
     if (uservalidate.success) {
