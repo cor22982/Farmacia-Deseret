@@ -12,6 +12,14 @@ import InputAdornment from '@mui/material/InputAdornment';
 import { useRouter } from 'src/routes/hooks';
 
 import { Iconify } from 'src/components/iconify';
+import useForm from 'src/hooks/useForm';
+import { object, string } from 'yup';
+
+const schema = object({
+  username: string().required('El nombre es obligatorio'),
+  password: string().required('El contraseña es obligatoria'),
+
+})
 
 // ----------------------------------------------------------------------
 
@@ -34,10 +42,6 @@ export function SignInView() {
         InputLabelProps={{ shrink: true }}
         sx={{ mb: 3 }}
       />
-
-      <Link variant="body2" color="inherit" sx={{ mb: 1.5 }}>
-        Forgot password?
-      </Link>
 
       <TextField
         fullWidth
