@@ -7,7 +7,7 @@ import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgr
 import { varAlpha } from 'src/theme/styles';
 import { AuthLayout } from 'src/layouts/auth';
 import { DashboardLayout } from 'src/layouts/dashboard';
-
+import useToken from 'src/hooks/useToken';
 // ----------------------------------------------------------------------
 
 export const HomePage = lazy(() => import('src/pages/home'));
@@ -33,14 +33,18 @@ const renderFallback = (
 );
 
 export function Router() {
+  const {token} = useToken()
   return useRoutes([
     {
-      element: (
+      
+      element: token ? (
         <DashboardLayout>
           <Suspense fallback={renderFallback}>
             <Outlet />
           </Suspense>
         </DashboardLayout>
+      ) : (
+        <Navigate to="/sign-in" replace /> // Redirect to sign-in if token is null
       ),
       children: [
         { element: <HomePage />, index: true },

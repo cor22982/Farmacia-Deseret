@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react-swc';
 
 // ----------------------------------------------------------------------
 
-const PORT = 3039;
+const PORT = 4000;
 
 export default defineConfig({
   plugins: [
@@ -27,6 +27,10 @@ export default defineConfig({
       {
         find: /^~(.+)/,
         replacement: path.join(process.cwd(), 'node_modules/$1'),
+      },
+      {
+        find: '@contexts',
+        replacement: path.resolve(__dirname, 'src/contexts'),
       },
       {
         find: /^src(.+)/,
