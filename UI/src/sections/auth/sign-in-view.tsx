@@ -8,9 +8,11 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import LoadingButton from '@mui/lab/LoadingButton';
 import InputAdornment from '@mui/material/InputAdornment';
-
+import { md5 } from "js-md5";
 import { useRouter } from 'src/routes/hooks';
-
+import source_link from 'src/repository/source_repo';
+import useApi from 'src/hooks/useApi';
+import useToken from 'src/hooks/useToken';
 import { Iconify } from 'src/components/iconify';
 import useForm from 'src/hooks/useForm';
 import { object, string } from 'yup';
@@ -25,31 +27,60 @@ const schema = object({
 
 export function SignInView() {
   const router = useRouter();
+  const { values, setValue, validate, errors } = useForm(schema, { username: '', password: '' })
+  const {llamado} = useApi(`${source_link}/login`)
+  const { setToken } = useToken();
 
   const [showPassword, setShowPassword] = useState(false);
-
-  const handleSignIn = useCallback(() => {
-    router.push('/');
-  }, [router]);
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setValue(name as keyof typeof values, value); // Usa type assertion
+  };
+  
+  
+  const handleSignIn = useCallback(async() => {
+    const isValid = await validate();
+    if (isValid) {
+      const body = {
+        username: values.username,
+        password: md5(values.password)
+      };
+      const response = await llamado(body, 'POST');
+      if (response.success === true){
+        setToken(response.acces_token);
+        router.push('/');
+      }
+      
+      
+    }
+  }, [router, validate, values, llamado, setToken]);
 
   const renderForm = (
     <Box display="flex" flexDirection="column" alignItems="flex-end">
       <TextField
         fullWidth
-        name="Usuario"
+        name="username"
         label="Usuario"
         defaultValue=""
+        error={!!errors.username}
+        helperText={errors.username}
+        onChange={handleChange}
+        value={values.username}
         InputLabelProps={{ shrink: true }}
         sx={{ mb: 3 }}
       />
 
       <TextField
         fullWidth
-        name="Contraseña"
+        name="password"
         label="Contraseña"
         defaultValue=""
         InputLabelProps={{ shrink: true }}
         type={showPassword ? 'text' : 'password'}
+        value={values.password}
+        onChange={handleChange}
+        error={!!errors.password}
+        helperText={errors.password}
         InputProps={{
           endAdornment: (
             <InputAdornment position="end">
