@@ -9,6 +9,20 @@ const icon = (name: string) => (
 
 export const navData = [
   {
+    title: 'Productos',
+    path: '/products',
+    icon: icon('ic-cart'),
+    
+  },  
+  {
+    title: 'Agregar Productos',
+    path: '/blog',
+    icon: icon('add-square'),
+  },
+];
+
+export const navData_admin = [
+  {
     title: 'Dashboard',
     path: '/',
     icon: icon('ic-analytics'),

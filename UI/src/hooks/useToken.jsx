@@ -23,7 +23,7 @@ function parseJwt(token) {
 // Contexto para el manejo del token
 const TokenContext = createContext({
   token: '',
-  setToken: () => {},
+  setToken: (value) => {},
   isLoggedIn: false,
   getRawToken: () => null,
 });
