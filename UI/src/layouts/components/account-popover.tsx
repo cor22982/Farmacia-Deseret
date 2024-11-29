@@ -11,7 +11,6 @@ import MenuList from '@mui/material/MenuList';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuItem, { menuItemClasses } from '@mui/material/MenuItem';
-
 import { useRouter, usePathname } from 'src/routes/hooks';
 
 import { _myAccount } from 'src/_mock';
@@ -28,10 +27,10 @@ export type AccountPopoverProps = IconButtonProps & {
 };
 
 export function AccountPopover({ data = [], sx, ...other }: AccountPopoverProps) {
-  const {token} = useToken();
+  const {token, setToken} = useToken();
   const {rol, username} = parseJwt(token)
   const router = useRouter();
-
+  
   const pathname = usePathname();
 
   const [openPopover, setOpenPopover] = useState<HTMLButtonElement | null>(null);
@@ -131,8 +130,8 @@ export function AccountPopover({ data = [], sx, ...other }: AccountPopoverProps)
         <Divider sx={{ borderStyle: 'dashed' }} />
 
         <Box sx={{ p: 1 }}>
-          <Button fullWidth color="error" size="medium" variant="text">
-            Logout
+          <Button fullWidth color="error" size="medium" variant="text" onClick={() => {setToken(null); handleClickItem('/sign-in')}}>
+            Cerra Sesion
           </Button>
         </Box>
       </Popover>
