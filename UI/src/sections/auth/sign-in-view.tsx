@@ -3,6 +3,8 @@ import { useState, useCallback } from 'react';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Divider from '@mui/material/Divider';
+import { CircularProgress } from "@mui/material";
+import Swal from "sweetalert2";
 import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
@@ -30,7 +32,7 @@ export function SignInView() {
   const { values, setValue, validate, errors } = useForm(schema, { username: '', password: '' })
   const {llamado} = useApi(`${source_link}/login`)
   const { setToken } = useToken();
-
+  const [loading, setLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -46,10 +48,31 @@ export function SignInView() {
         password: md5(values.password)
       };
       const response = await llamado(body, 'POST');
-      if (response.success === true){
-        setToken(response.acces_token);
-        router.push('/');
+      if (response) {
+        if (response.success === true){
+          Swal.fire({
+            icon: "success",
+            title: "Se inicio Sesion",
+            text: "Se inicio sesion correctamente",
+          });
+          setToken(response.acces_token);
+          setLoading(true)
+          router.push('/');
+        }else{
+          Swal.fire({
+            icon: "error",
+            title: "Error",
+            text: "El usuario o contraseña no son validas",
+          });
+        }
+      }else{
+        Swal.fire({
+          icon: "error",
+          title: "Error",
+          text: "El usuario o contraseña no son validas",
+        });
       }
+      
       
       
     }
@@ -108,11 +131,15 @@ export function SignInView() {
 
   return (
     <>
-      <Box gap={1.5} display="flex" flexDirection="column" alignItems="center" sx={{ mb: 5 }}>
-        <Typography variant="h5">Iniciar Sesion Farmacia</Typography>
+      {loading ? (
+      <CircularProgress/>
+      ) : (
+       <Box gap={1.5} display="flex" flexDirection="column" alignItems="center" sx={{ mb: 5 }}>
+        <Typography variant="h5">Iniciar Sesión Farmacia</Typography>
+        {renderForm}
+        </Box>
+      )}
         
-      </Box>
-      {renderForm}   
     </>
   );
 }
