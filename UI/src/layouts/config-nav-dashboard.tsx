@@ -39,7 +39,7 @@ export const navData_admin = [
   },
   {
     title: 'Productos',
-    path: '/products',
+    path: '/products_farmacia',
     icon: icon('ic-medicine')
   },
   {
