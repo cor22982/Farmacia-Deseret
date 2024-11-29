@@ -30,7 +30,7 @@ const schema = object({
 export function SignInView() {
   const router = useRouter();
   const { values, setValue, validate, errors } = useForm(schema, { username: '', password: '' })
-  const {llamado} = useApi(`${source_link}/login`)
+  const {llamado, error} = useApi(`${source_link}/login`)
   const { setToken } = useToken();
   const [loading, setLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
@@ -69,14 +69,14 @@ export function SignInView() {
         Swal.fire({
           icon: "error",
           title: "Error",
-          text: "El usuario o contraseña no son validas",
+          text:  error || "No se conoce el",
         });
       }
       
       
       
     }
-  }, [router, validate, values, llamado, setToken]);
+  }, [router, validate, values, llamado, setToken, error]);
 
   const renderForm = (
     <Box display="flex" flexDirection="column" alignItems="flex-end">

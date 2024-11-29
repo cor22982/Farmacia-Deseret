@@ -23,38 +23,33 @@ export const navData = [
 
 export const navData_admin = [
   {
-    title: 'Dashboard',
+    title: 'Ventas',
     path: '/',
+    icon: icon('ic-sales'),
+  },
+  {
+    title: 'Dashboard',
+    path: '/dashboard',
     icon: icon('ic-analytics'),
   },
   {
-    title: 'User',
-    path: '/user',
-    icon: icon('ic-user'),
+    title: 'Ganancias',
+    path: '/adsfsd',
+    icon: icon('ic-money'),
   },
   {
-    title: 'Product',
+    title: 'Productos',
     path: '/products',
-    icon: icon('ic-cart'),
-    info: (
-      <Label color="error" variant="inverted">
-        +3
-      </Label>
-    ),
+    icon: icon('ic-medicine')
   },
   {
-    title: 'Blog',
+    title: 'Productos No Sistema',
     path: '/blog',
-    icon: icon('ic-blog'),
-  },
-  {
-    title: 'Sign in',
-    path: '/sign-in',
-    icon: icon('ic-lock'),
-  },
-  {
-    title: 'Not found',
-    path: '/404',
     icon: icon('ic-disabled'),
   },
+  {
+    title: 'Pedidos Farmacia',
+    path: '/farmacia',
+    icon: icon('ic-order'),
+  }
 ];

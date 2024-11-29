@@ -18,11 +18,21 @@ const useApi = (link) => {
       if (response.ok) {
         return data;
       }
-      setError(data);
-      return null; // Asegura un retorno en todos los casos
-    } catch (err) {
-      setError(err);
+      if (response.status === 401){
+        setError("Credenciales no validas");
+      }else if (response.status >= 500 && response.status < 600){
+        setError("Error en el servidor");
+      }
       return null;
+       // Asegura un retorno en todos los casos
+    } catch (err) {
+      if (error instanceof TypeError) {
+        // Error de red (fallo de fetch)
+        setError("No hay conexion con el servidor"); // No se pudo conectar al servidor
+      } else {
+        setError("No hay conexion con el servidor"); // Error desconocido
+      }
+      return null
     }
   };
 
