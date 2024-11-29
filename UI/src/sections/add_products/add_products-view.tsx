@@ -7,7 +7,9 @@ import { RouterLink } from 'src/routes/components';
 import { SimpleLayout } from 'src/layouts/simple';
 import { Iconify } from 'src/components/iconify';
 import { useState, useCallback } from 'react';
+import ProductCard from 'src/components/ProductCard/ProductCard';
 import { ProductsFilterList } from './components/products_filter_list';
+
 // ----------------------------------------------------------------------
 
 export function AddProductsView() {
@@ -91,8 +93,7 @@ export function AddProductsView() {
             />
         </Box>
         </Box>
-
-      
+    <ProductCard/>
     </DashboardContent>
   );
 }
