@@ -7,7 +7,8 @@ import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgr
 import { varAlpha } from 'src/theme/styles';
 import { AuthLayout } from 'src/layouts/auth';
 import { DashboardLayout } from 'src/layouts/dashboard';
-import useToken from 'src/hooks/useToken';
+import useToken, {parseJwt} from 'src/hooks/useToken';
+import { parse } from 'path';
 // ----------------------------------------------------------------------
 
 export const HomePage = lazy(() => import('src/pages/home'));
@@ -34,6 +35,8 @@ const renderFallback = (
 
 export function Router() {
   const {token} = useToken()
+  const jwt = token ? parseJwt(token) : null;
+  const rol = jwt ? jwt.rol : null;
   return useRoutes([
     {
       
@@ -47,7 +50,7 @@ export function Router() {
         <Navigate to="/sign-in" replace /> // Redirect to sign-in if token is null
       ),
       children: [
-        { element: <HomePage />, index: true },
+        { element: rol === 'admin' ? <HomePage />: <ProductsPage/>, index: true },
         { path: 'user', element: <UserPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
