@@ -8,12 +8,15 @@ import { SimpleLayout } from 'src/layouts/simple';
 import { Iconify } from 'src/components/iconify';
 import { useState, useCallback } from 'react';
 import ProductCard from 'src/components/ProductCard/ProductCard';
+import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { ProductsFilterList } from './components/products_filter_list';
+import { ProductSearchItem } from './components/products_search';
 
 // ----------------------------------------------------------------------
 
 export function AddProductsView() {
 
+  const [openm, setOpenM] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
 
   const handleSort = useCallback((newSort: string) => {
@@ -22,7 +25,10 @@ export function AddProductsView() {
 
   return (
     <DashboardContent>
-      
+      <ModalProduct
+        open={openm}
+        handleClose={() => setOpenM(false)}
+      />
       <Box display="flex" alignItems="center" mb={5}>
         
         <Typography variant="h4" flexGrow={1}>
@@ -33,6 +39,7 @@ export function AddProductsView() {
             variant="contained"
             color="inherit"
             startIcon={<Iconify icon="mingcute:add-line" />}
+            onClick={() => setOpenM(true)}
           >
           Agregar nuevo Producto
           </Button>
@@ -49,6 +56,7 @@ export function AddProductsView() {
         
       </Box>
       <Box display="flex" alignItems="center" mb={5} gap='2rem'>
+      <ProductSearchItem/>
         <Box display="flex" alignItems= 'center' flexDirection="column">
           <Typography variant="body2" flexGrow={1}>
             Proveedor
@@ -77,6 +85,7 @@ export function AddProductsView() {
                 { value: 'oldest', label: 'Oldest' },
               ]}
             />
+            
         </Box>
         <Box display="flex" alignItems= 'center' flexDirection="column">
           <Typography variant="body2" flexGrow={1}>
@@ -92,6 +101,7 @@ export function AddProductsView() {
               ]}
             />
         </Box>
+   
         </Box>
     <ProductCard/>
     </DashboardContent>
