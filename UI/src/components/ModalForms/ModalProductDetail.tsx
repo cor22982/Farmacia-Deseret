@@ -1,8 +1,8 @@
 import React, { forwardRef , useState} from 'react';
-import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button } from '@mui/material';
+import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid } from '@mui/material';
 import { UploadImage } from '../UploadImage/UploadImage';
 
-interface ModalProductProps {
+interface ModalProductDetailProps {
   open: boolean;
   handleClose: () => void;
   handleClick: () => void;
@@ -18,7 +18,7 @@ const style = {
   boxShadow: 24,
   p: 2,
 };
-export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
+export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailProps>(
   ({ open, handleClose, handleClick }, ref) => {
     const [value, setValue] = useState('Proveedor');
     const [image, setImage] = useState<string | null>(null);
@@ -31,14 +31,40 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
       <Box sx={style} gap="0.1rem">
           <Box display="flex" alignItems= 'center' justifyContent="center">
             <Typography id="modal-modal-title" variant="h3" component="h2">
-            INSERTAR PRODUCTO NUEVO
+            AÑADIR PRODUCTOS
             </Typography>
+          </Box>
+          <br/>
+          <Box display="flex" alignContent="center" justifyContent="center" paddingLeft="5rem">
+          <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 1, md: 1 }}>
+            
+            <Grid fontSize={6} display="flex" justifyContent="center" alignContent='center'>
+              <Box sx={{ display: 'flex', flexDirection: 'row', gap:'15rem'}} >
+                <Typography variant="body2">Cantidad: 20</Typography>
+                <Typography variant="body2">Fecha Vencimiento: 31/12/2024</Typography>
+              </Box>
+            </Grid>
+            <Grid fontSize={6}>
+              <Box sx={{ display: 'flex', flexDirection: 'row', gap:'15rem'}} >
+                <Typography variant="body2">Cantidad: 20</Typography>
+                <Typography variant="body2">Fecha Vencimiento: 31/12/2024</Typography>
+              </Box>
+            </Grid>
+            <Grid fontSize={6}>
+              <Box sx={{ display: 'flex', flexDirection: 'row', gap:'15rem'}} >
+                <Typography variant="body2">Cantidad: 20</Typography>
+                <Typography variant="body2">Fecha Vencimiento: 31/12/2024</Typography>
+              </Box>
+            </Grid>
+          
+          </Grid>    
           </Box>
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
             <TextField
               fullWidth
-              name="name"
-              label="Nombre"
+              name="cantidad"
+              label="Cantidad"
+              type='number'
               defaultValue=""
               InputLabelProps={{ shrink: true }}
               sx={{
@@ -59,9 +85,10 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             />
               <TextField
               fullWidth
-              name="tipo"
-              label="Forma Farmaceutica"
+              name="fechac"
+              label="Fecha Compra"
               defaultValue=""
+              type='date'
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 0.2,
@@ -79,8 +106,54 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
                 },
               }}
             />    
+             <TextField
+              fullWidth
+              name="fechav"
+              label="Fecha Vencimiento"
+              defaultValue=""
+              type='date'
+              InputLabelProps={{ shrink: true }}
+              sx={{
+                mb: 0.2,
+                '& .MuiOutlinedInput-root': {
+                  '& fieldset': {
+                    borderColor: '#919191',
+                  },
+                  '&:hover fieldset': {
+                    borderColor: '#262626',
+                  },
+                  '&.Mui-focused fieldset': {
+                    borderColor: '#050505',
+                    borderWidth: 2,
+                  },
+                },
+              }}
+            />  
           </Box>
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
+            <TextField
+                fullWidth
+                name="costo"
+                label="Costo"
+                type='number'
+                defaultValue=""
+                InputLabelProps={{ shrink: true }}
+                sx={{
+                  mb: 0.2,
+                  '& .MuiOutlinedInput-root': {
+                    '& fieldset': {
+                      borderColor: '#919191',
+                    },
+                    '&:hover fieldset': {
+                      borderColor: '#262626',
+                    },
+                    '&.Mui-focused fieldset': {
+                      borderColor: '#050505',
+                      borderWidth: 2,
+                    },
+                  },
+                }}
+              />
           <FormControl fullWidth>
           <Select
             labelId="demo-simple-select-label"
@@ -104,8 +177,8 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             value={value}
             onChange={(e) => {setValue(e.target.value)}}
           >
-            <MenuItem value="Proveedor">
-              <em>Presentacion</em>
+            <MenuItem value="Ubicacion">
+              <em>Ubicacion</em>
             </MenuItem>
             <MenuItem value="opcion1">Opción 1</MenuItem>
             <MenuItem value="opcion2">Opción 2</MenuItem>
@@ -145,16 +218,25 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
           </FormControl>      
           </Box>
          
-
-          <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
-            <TextField
+          <Button
+            variant="contained" color="inherit" component="label"
+            sx={{
+              width:'100%'
+            }}
+            onClick={handleClick}
+          >INSERTAR NUEVA CANTIDAD DE PRODUCTO</Button>
+          <br/>
+          <br/>
+          <Box display="flex" flexDirection="row" gap="1rem" alignItems="center">
+          <TextField
               fullWidth
-              name="activo"
-              label="Activo Principal"
+              name="pp"
+              label="Precio Publico"
+              type='number'
               defaultValue=""
               InputLabelProps={{ shrink: true }}
               sx={{
-                mb: 1,
+                mb: 0.2,
                 '& .MuiOutlinedInput-root': {
                   '& fieldset': {
                     borderColor: '#919191',
@@ -167,39 +249,23 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
                     borderWidth: 2,
                   },
                 },
-                width: '500px'
               }}
-            />   
-            <Box display="flex" flexDirection="column">
-              <FormLabel id="demo-radio-buttons-group-label">Controlado</FormLabel>
-                <RadioGroup
-                 row
-                 aria-labelledby="demo-row-radio-buttons-group-label"
-                 name="row-radio-buttons-group"
-                  
-                >
-                  <FormControlLabel value="si" control={<Radio />} label="Si" />
-                  <FormControlLabel value="no" control={<Radio />} label="No" />
-                </RadioGroup>
-            </Box>    
+            />
+            <Box width="100%" flexDirection="column" >
+              <Box flexDirection="row" width="300px">
+                <Typography variant='h5'>Ganancia: 100.00</Typography>
+                <Typography variant='h5'>Costo: 100.00</Typography>
+                <Typography variant='h5'>PP: 100.00</Typography>
+              </Box>
+             <Button
+                variant="contained" color="inherit" component="label"
+                sx={{
+                  width:'100%'
+                }}
+                onClick={handleClick}
+              >Actualizar Precio Publico</Button>
           </Box>
-          <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
-               
-             <TextareaAutosize
-             minRows={4}
-             style={{ width: '100%', borderRadius: '0.5rem' }}
-             placeholder="Descripcion Medicamento"
-             />
-          </Box>
-          <UploadImage image={image} setImage={setImage} />
-          <br/>
-          <Button
-            variant="contained" color="inherit" component="label"
-            sx={{
-              width:'100%'
-            }}
-            onClick={handleClick}
-          >INSERTAR PRODUCTO</Button>
+            </Box>
         </Box>
     </Modal>
     )

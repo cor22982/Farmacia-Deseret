@@ -9,6 +9,7 @@ import { Iconify } from 'src/components/iconify';
 import { useState, useCallback } from 'react';
 import ProductCard from 'src/components/ProductCard/ProductCard';
 import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
+import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
 import { ProductsFilterList } from './components/products_filter_list';
 import { ProductSearchItem } from './components/products_search';
 
@@ -17,17 +18,28 @@ import { ProductSearchItem } from './components/products_search';
 export function AddProductsView() {
 
   const [openm, setOpenM] = useState(false);
+  const [openm2, setOpenM2] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
 
   const handleSort = useCallback((newSort: string) => {
     setSortBy(newSort);
   }, []);
 
+  const handleClicked = () => {
+    setOpenM(false)
+    setOpenM2(true)
+  };
   return (
     <DashboardContent>
       <ModalProduct
         open={openm}
         handleClose={() => setOpenM(false)}
+        handleClick={handleClicked}
+      />
+      <ModalProductDetail
+        open={openm2}
+        handleClose={() => setOpenM2(false)}
+        handleClick={handleClicked}
       />
       <Box display="flex" alignItems="center" mb={5}>
         
