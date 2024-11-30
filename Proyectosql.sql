@@ -116,3 +116,5 @@ ALTER TABLE products
 ADD COLUMN tipo VARCHAR(200);
 
 
+ALTER TABLE venta 
+ADD COLUMN isOferta boolean;
