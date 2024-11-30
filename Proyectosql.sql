@@ -107,3 +107,5 @@ create table carrito_productos(
 	CONSTRAINT fk_producto FOREIGN KEY (producto) references  products(id)
 )
 
+-- SPRINT 2
+drop table ganancia;
