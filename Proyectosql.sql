@@ -109,3 +109,10 @@ create table carrito_productos(
 
 -- SPRINT 2
 drop table ganancia;
+ALTER TABLE products 
+ADD COLUMN ganancia NUMERIC(10, 4);
+
+ALTER TABLE products 
+ADD COLUMN tipo VARCHAR(200);
+
+
