@@ -11,6 +11,8 @@ import ProductCard from 'src/components/ProductCard/ProductCard';
 import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
 import SupplierCard from 'src/components/SupplierCard/SupplierCard';
+import { ModalSupplier } from 'src/components/ModalForms/ModalSupplier';
+import { ModalSupplierTime } from 'src/components/ModalForms/ModalSupplierTime';
 import { SupplierSearchItem } from './components/supplier_search';
 import { SupplierFilterList } from './components/supplier_filter_list';
 
@@ -32,12 +34,13 @@ export function AddSourcerView() {
   };
   return (
     <DashboardContent>
-      <ModalProduct
+     
+      <ModalSupplier
         open={openm}
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
       />
-      <ModalProductDetail
+      <ModalSupplierTime
         open={openm2}
         handleClose={() => setOpenM2(false)}
         handleClick={handleClicked}

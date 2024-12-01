@@ -22,8 +22,18 @@ export default function SupplierCard() {
             <Typography component="div" variant="h3">
               Nombre Proveedor
             </Typography>
-            <Chip label="No Sistema" color="primary"/>
+            <Chip label="Tipo: No Sistema" color="primary"/>
             <Chip label="Disponible" color="success"/>
+            <Button
+            startIcon={<Iconify icon="material-symbols:edit" />}
+            >
+            Editar
+          </Button>
+          <Button
+            startIcon={<Iconify icon="material-symbols:delete" />}
+            >
+            Eliminar
+          </Button>
           </Box>
          
           <Box sx={{ display: 'flex', flexDirection: 'row', gap:'2rem' }} >
