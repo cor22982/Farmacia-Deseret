@@ -10,6 +10,9 @@ import { useState, useCallback } from 'react';
 import ProductCard from 'src/components/ProductCard/ProductCard';
 import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
+import SupplierCard from 'src/components/SupplierCard/SupplierCard';
+import { SupplierSearchItem } from './components/supplier_search';
+import { SupplierFilterList } from './components/supplier_filter_list';
 
 // ----------------------------------------------------------------------
 
@@ -51,7 +54,7 @@ export function AddSourcerView() {
             startIcon={<Iconify icon="mingcute:add-line" />}
             onClick={() => setOpenM(true)}
           >
-          Agregar nuevo Producto
+          Agregar nuevo Proveedor
           </Button>
          
           <Button
@@ -66,30 +69,41 @@ export function AddSourcerView() {
         
       </Box>
       <Box display="flex" alignItems="center" mb={5} gap='2rem'>
-     
+      <SupplierSearchItem/>
         <Box display="flex" alignItems= 'center' flexDirection="column">
           <Typography variant="body2" flexGrow={1}>
-            Proveedor
+            Tipo
           </Typography>
+          <SupplierFilterList
+            sortBy={sortBy}
+            onSort={handleSort}
+              options={[
+                { value: 'latest', label: 'Latest' },
+                { value: 'popular', label: 'Popular' },
+                { value: 'oldest', label: 'Oldest' },
+              ]}
+            />
         
         </Box>
         
         <Box display="flex"  flexDirection="column">
           <Typography variant="body2" flexGrow={1}>
-           Fecha de Vencimiento
+           Disponibilidad
           </Typography>
-         
+          <SupplierFilterList
+            sortBy={sortBy}
+            onSort={handleSort}
+              options={[
+                { value: 'latest', label: 'Disponible' },
+                { value: 'popular', label: 'No Disponible' },
+              ]}
+            />
+        
             
-        </Box>
-        <Box display="flex" alignItems= 'center' flexDirection="column">
-          <Typography variant="body2" flexGrow={1}>
-           Presentacion
-          </Typography>
-         
         </Box>
    
         </Box>
-    <ProductCard/>
+    <SupplierCard/>
     </DashboardContent>
   );
 }

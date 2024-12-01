@@ -18,7 +18,7 @@ export const SignInPage = lazy(() => import('src/pages/sign-in'));
 export const ProductsPage = lazy(() => import('src/pages/products'));
 export const Page404 = lazy(() => import('src/pages/page-not-found'));
 export const AddProductsView = lazy(() => import('src/pages/add_products'));
-
+export const SourcerPage = lazy(() => import('src/pages/add_sourcer'));
 
 const renderFallback = (
   <Box display="flex" alignItems="center" justifyContent="center" flex="1 1 auto">
@@ -54,7 +54,8 @@ export function Router() {
         { path: 'user', element: <UserPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
-        { path: 'products_farmacia', element: < AddProductsView/> }
+        { path: 'products_farmacia', element: < AddProductsView/> },
+        { path: 'proveedores', element: < SourcerPage/> }
       ],
     },
     {

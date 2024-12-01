@@ -185,37 +185,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
             <MenuItem value="opcion3">Opción 3</MenuItem>
           </Select>
           </FormControl>
-          <FormControl fullWidth>
-          <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
-            sx={{
-              mb: 1,
-              '& .MuiOutlinedInput-root': {
-                '& fieldset': {
-                  borderColor: '#919191',
-                },
-                '&:hover fieldset': {
-                  borderColor: '#262626',
-                },
-                '&.Mui-focused fieldset': {
-                  borderColor: '#050505',
-                  borderWidth: 2,
-                },
-              },
-            }}
-            
-            value={value}
-            onChange={(e) => {setValue(e.target.value)}}
-          >
-            <MenuItem value="Proveedor">
-              <em>Proveedores</em>
-            </MenuItem>
-            <MenuItem value="opcion1">Opción 1</MenuItem>
-            <MenuItem value="opcion2">Opción 2</MenuItem>
-            <MenuItem value="opcion3">Opción 3</MenuItem>
-          </Select>
-          </FormControl>      
+          
           </Box>
          
           <Button

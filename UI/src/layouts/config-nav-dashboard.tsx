@@ -43,6 +43,16 @@ export const navData_admin = [
     icon: icon('ic-medicine')
   },
   {
+    title: 'Proveedores',
+    path: '/proveedores',
+    icon: icon('icon-park-outline--delivery'),
+  },
+  {
+    title: 'Ubicaciones',
+    path: '/ubicacion',
+    icon: icon('ic--baseline-place'),
+  },
+  {
     title: 'Productos No Sistema',
     path: '/blog',
     icon: icon('ic-disabled'),
