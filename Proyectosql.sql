@@ -118,3 +118,6 @@ ADD COLUMN tipo VARCHAR(200);
 
 ALTER TABLE venta 
 ADD COLUMN isOferta boolean;
+
+
+alter table proveedores add column estaDisponible boolean;
