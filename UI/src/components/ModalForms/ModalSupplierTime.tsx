@@ -35,7 +35,7 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
             </Typography>
           </Box>
           <br/>
-          <Box display="flex" alignContent="center" justifyContent="center" paddingLeft="1rem">
+          <Box display="flex" alignContent="center" justifyContent="center" paddingLeft="10rem">
           <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 1, md: 1 }}>
             
             <Grid fontSize={6} display="flex" justifyContent="center" alignContent='center'>
