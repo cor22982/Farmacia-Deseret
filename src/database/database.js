@@ -20,10 +20,8 @@ export async function getUbicaciones() {
     const places = await Ubicacion.findAll({
       attributes: ['id','ubicacion'],
     });
-    console.log('Se obtuvo las ubicaciones');
     return places;
   }catch (error) {
-    console.error('Error al obtener las ubicaciones:', error);
     throw error;
   }
 }
