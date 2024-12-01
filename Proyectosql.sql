@@ -121,3 +121,23 @@ ADD COLUMN isOferta boolean;
 
 
 alter table proveedores add column estaDisponible boolean;
+
+
+alter table proveedores drop column horario_cierre;
+
+
+alter table proveedores drop column horario_apertura;
+
+
+create table horario(
+	id serial primary key,
+	dia VARCHAR(200),
+	horario_apertura time,
+	horario_cierre time,
+	id_proveedor int,
+	CONSTRAINT fk_id_proveedor FOREIGN KEY (id_proveedor) references  proveedores(id)
+);
+
+
+ALTER TABLE horario 
+ADD CONSTRAINT fk_proveedor FOREIGN KEY (proveedor_alternativo) REFERENCES proveedores (id);
