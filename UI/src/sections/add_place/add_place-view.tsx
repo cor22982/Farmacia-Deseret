@@ -11,6 +11,7 @@ import ProductCard from 'src/components/ProductCard/ProductCard';
 import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
 import PlaceSupCard from 'src/components/PlaceCard/PlaceCard';
+import { ModalPlace } from 'src/components/ModalForms/ModalPlace';
 import { PlaceSearchItem } from './add_place-search';
 
 
@@ -30,16 +31,12 @@ export function AddPlaceView() {
   };
   return (
     <DashboardContent>
-      <ModalProduct
+      <ModalPlace
         open={openm}
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
       />
-      <ModalProductDetail
-        open={openm2}
-        handleClose={() => setOpenM2(false)}
-        handleClick={handleClicked}
-      />
+      
       <Box display="flex" alignItems="center" mb={5}>
         
         <Typography variant="h4" flexGrow={1}>
