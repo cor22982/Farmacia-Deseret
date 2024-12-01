@@ -25,12 +25,17 @@ app.get('/', (req, res) => {
 
 
 //GET
-app.get('/ubicaciones', async (req, res) => {
+app.post('/ubicaciones', async (req, res) => {
   try {
-    const allubicaciones = await getUbicaciones()
-    res.status(200).json({ ubicaciones: allubicaciones});
+    const validate_token = await validateToken(req.body.token)
+    if (validate_token){
+      const allubicaciones = await getUbicaciones()
+      res.status(200).json({ success: true, ubicaciones: allubicaciones});      
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para obtener las ubicaciones'});
+    }
   }catch (error) {
-    console.error('Error al insertar la ubicacion:', error);
+    console.error('Error al obtener las ubicacion:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });
   }
 });
