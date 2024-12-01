@@ -4,7 +4,7 @@ import source_link from "src/repository/source_repo";
 
 export class Place {
   id: string;
-  
+
   ubicacion: string;
 
   constructor(id: string, ubicacion: string) {
@@ -14,7 +14,7 @@ export class Place {
 }
 
 export const useGetPlaces = () => {
-  const { llamado } = useApi("");
+  const { llamado } = useApi(`${source_link}/ubicaciones`);
   const {token} = useToken();
   
   const getPlaces = async (): Promise<Place[]> => {
@@ -28,6 +28,7 @@ export const useGetPlaces = () => {
       );
       return places;
     }
+
     return [];
   };
 

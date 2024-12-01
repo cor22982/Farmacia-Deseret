@@ -1,6 +1,11 @@
 import React, { forwardRef , useState} from 'react';
 import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button } from '@mui/material';
+import useApi from 'src/hooks/useApi';
+import useToken from 'src/hooks/useToken';
+import source_link from 'src/repository/source_repo';
+import Swal from "sweetalert2";
 import { UploadImage } from '../UploadImage/UploadImage';
+
 
 interface ModalPlaceProps {
   open: boolean;
@@ -20,7 +25,44 @@ const style = {
 };
 export const ModalPlace = forwardRef<HTMLDivElement, ModalPlaceProps>(
   ({ open, handleClose, handleClick }, ref) => {
-    const [value, setValue] = useState('Proveedor');
+
+    const [place, setPlace] = useState('');
+    const {llamado, error} = useApi(`${source_link}/insertUbicacion`)
+    const {token} = useToken()
+
+    const onInsert = async() => {
+      try{
+        const body = { token, ubicacion:place };
+        const response = await llamado(body, 'POST')
+        if (response) {
+          if (response.success === true){
+            Swal.fire({
+              icon: "success",
+              title: "Se ingreso correctamente",
+              text: response.message,
+            });
+           
+          }else{
+            Swal.fire({
+              icon: "error",
+              title: "Error",
+              text: response.message,
+            });
+          }
+        }else{
+          Swal.fire({
+            icon: "error",
+            title: "Error",
+            text:  error || "No se conoce el error",
+          });
+        }
+
+      }catch(err){
+        console.log(err)
+      }
+      handleClick()
+    };
+
     return (
     <Modal 
       open={open} 
@@ -40,6 +82,9 @@ export const ModalPlace = forwardRef<HTMLDivElement, ModalPlaceProps>(
               label="Nombre"
               defaultValue=""
               InputLabelProps={{ shrink: true }}
+              onChange = {(e) => {
+                setPlace(e.target.value);
+             }}
               sx={{
                 mb: 0.2,
                 '& .MuiOutlinedInput-root': {
@@ -66,7 +111,7 @@ export const ModalPlace = forwardRef<HTMLDivElement, ModalPlaceProps>(
             sx={{
               width:'100%'
             }}
-            onClick={handleClick}
+            onClick={onInsert}
           >INSERTAR UBICACION</Button>
         </Box>
     </Modal>

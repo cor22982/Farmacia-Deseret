@@ -8,10 +8,16 @@ import Typography from '@mui/material/Typography';
 import { Button, Chip } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Iconify } from 'src/components/iconify';
+import { forwardRef, useState } from 'react';
 
-export default function PlaceSupCard() {
-  
+interface PlaceProps {
+  name: string;
+}
 
+export const  PlaceSupCard = forwardRef<HTMLDivElement,PlaceProps>(
+
+  ({ name }, ref) => {
+  const [value, setValue] = useState('Proveedor');
   return (
     <Card sx={{ display: 'flex', padding: '1rem' }} >
 
@@ -20,7 +26,7 @@ export default function PlaceSupCard() {
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Box sx={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
             <Typography component="div" variant="h4">
-              Nombre Proveedor
+              {name}
             </Typography>
           
             <Button
@@ -43,3 +49,4 @@ export default function PlaceSupCard() {
     </Card>
   );
 }
+)

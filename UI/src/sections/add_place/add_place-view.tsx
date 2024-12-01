@@ -6,12 +6,14 @@ import { DashboardContent } from 'src/layouts/dashboard';
 import { RouterLink } from 'src/routes/components';
 import { SimpleLayout } from 'src/layouts/simple';
 import { Iconify } from 'src/components/iconify';
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import ProductCard from 'src/components/ProductCard/ProductCard';
 import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
-import PlaceSupCard from 'src/components/PlaceCard/PlaceCard';
+import {PlaceSupCard} from 'src/components/PlaceCard/PlaceCard';
 import { ModalPlace } from 'src/components/ModalForms/ModalPlace';
+import { useGetPlaces, Place } from 'src/_mock/places';
+
 import { PlaceSearchItem } from './add_place-search';
 
 
@@ -20,10 +22,28 @@ export function AddPlaceView() {
   const [openm, setOpenM] = useState(false);
   const [openm2, setOpenM2] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
+  const { getPlaces } = useGetPlaces();
+  const [places, setPlaces] = useState<Place[]>([]);
+  const [place_set, setPlace] = useState("");
+
+  useEffect(() => {
+    const fetchPlaces = async () => {
+      try {
+        const fetchedPlaces = await getPlaces();
+        setPlaces(fetchedPlaces);
+      
+      } catch (error) {
+        console.error("Error fetching places:", error);
+      }
+    };
+
+    fetchPlaces();
+  }, [getPlaces]); 
 
   const handleSort = useCallback((newSort: string) => {
     setSortBy(newSort);
   }, []);
+
 
   const handleClicked = () => {
     setOpenM(false)
@@ -57,8 +77,13 @@ export function AddPlaceView() {
       <Box display="flex" alignItems="center" mb={5} gap='2rem'>
         <PlaceSearchItem/>
       </Box>
-    
-    <PlaceSupCard/>
+      <Box sx={{ maxHeight: '50vh', overflowY: 'auto' }}>
+      {places.map((place) => (
+        <Box paddingBottom="1rem">
+          <PlaceSupCard key={place.id} name={place.ubicacion} />
+          </Box>
+        ))}
+      </Box>
     </DashboardContent>
   );
 }
