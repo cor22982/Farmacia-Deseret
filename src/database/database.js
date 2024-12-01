@@ -1,4 +1,6 @@
 import User from "../entityes/user.js";
+import Ubicacion from "../entityes/ubicacion.js";
+
 export async function getUsers() {
   try{
     const users = await User.findAll({
@@ -9,6 +11,19 @@ export async function getUsers() {
     return userNames;
   }catch (error) {
     console.error('Error al obtener los nombres de los usuarios:', error);
+    throw error;
+  }
+}
+
+export async function getUbicaciones() {
+  try{
+    const places = await Ubicacion.findAll({
+      attributes: ['id','ubicacion'],
+    });
+    console.log('Se obtuvo las ubicaciones');
+    return places;
+  }catch (error) {
+    console.error('Error al obtener las ubicaciones:', error);
     throw error;
   }
 }
@@ -35,5 +50,18 @@ export async function verifyUserCredentials(userName, password) {
   } catch (error) {
     console.error('Error al verificar las credenciales:', error);
     throw error;
+  }
+}
+
+export async function insertarUbicacion(nuevaUbicacion) {
+  try {
+    const resultado = await Ubicacion.create({
+      ubicacion: nuevaUbicacion,
+    });
+    console.log('Registro insertado:', resultado);
+    return true;
+  } catch (error) {
+    console.error('Error al insertar ubicación:', error);
+    return false;
   }
 }
