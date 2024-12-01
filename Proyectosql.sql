@@ -141,3 +141,8 @@ create table horario(
 
 ALTER TABLE horario 
 ADD CONSTRAINT fk_proveedor FOREIGN KEY (proveedor_alternativo) REFERENCES proveedores (id);
+
+
+alter table ubicaciones drop column ubicacion;
+
+alter table ubicaciones add column ubicacion text;
