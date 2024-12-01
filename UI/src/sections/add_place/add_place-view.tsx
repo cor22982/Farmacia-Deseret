@@ -24,13 +24,20 @@ export function AddPlaceView() {
   const [sortBy, setSortBy] = useState('latest');
   const { getPlaces } = useGetPlaces();
   const [places, setPlaces] = useState<Place[]>([]);
+  const [filteredPlaces, setFilteredPlaces] = useState<Place[]>([]);
   const [place_set, setPlace] = useState("");
+  const [searchValue, setSearchValue] = useState<string>('');
+  const [call1, setCall1] = useState(0);
 
   useEffect(() => {
     const fetchPlaces = async () => {
       try {
         const fetchedPlaces = await getPlaces();
         setPlaces(fetchedPlaces);
+        if (call1 === 0){
+          setFilteredPlaces(fetchedPlaces)
+          setCall1(call1+1);
+        }
       
       } catch (error) {
         console.error("Error fetching places:", error);
@@ -38,7 +45,9 @@ export function AddPlaceView() {
     };
 
     fetchPlaces();
-  }, [getPlaces]); 
+  }, [getPlaces, setCall1, call1]); 
+
+  
 
   const handleSort = useCallback((newSort: string) => {
     setSortBy(newSort);
@@ -48,6 +57,18 @@ export function AddPlaceView() {
   const handleClicked = () => {
     setOpenM(false)
     setOpenM2(true)
+  };
+
+  const handleSearch = (value: string) => {
+    setSearchValue(value);
+    if (value) {
+      const filtered = places.filter((place) =>
+        place.ubicacion.toLowerCase().includes(value.toLowerCase())
+      );
+      setFilteredPlaces(filtered);
+    } else {
+      setFilteredPlaces(places); // Muestra todas las ubicaciones si no hay búsqueda
+    }
   };
   return (
     <DashboardContent>
@@ -75,12 +96,15 @@ export function AddPlaceView() {
         
       </Box>
       <Box display="flex" alignItems="center" mb={5} gap='2rem'>
-        <PlaceSearchItem/>
+        <PlaceSearchItem 
+         onSearch={handleSearch}
+        places={places}
+       />
       </Box>
-      <Box sx={{ maxHeight: '50vh', overflowY: 'auto' }}>
-      {places.map((place) => (
-        <Box paddingBottom="1rem">
-          <PlaceSupCard key={place.id} name={place.ubicacion} />
+      <Box sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
+      {filteredPlaces.map((place) => (
+          <Box key={place.id} paddingBottom="1rem">
+            <PlaceSupCard name={place.ubicacion} />
           </Box>
         ))}
       </Box>

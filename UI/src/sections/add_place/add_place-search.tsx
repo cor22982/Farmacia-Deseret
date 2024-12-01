@@ -3,7 +3,7 @@ import type { Theme, SxProps } from '@mui/material/styles';
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import Autocomplete, { autocompleteClasses } from '@mui/material/Autocomplete';
-
+import { Place } from 'src/_mock/places';
 import { Iconify } from 'src/components/iconify';
 
 
@@ -11,10 +11,12 @@ import { Iconify } from 'src/components/iconify';
 // ----------------------------------------------------------------------
 
 type PlaceSearchItemProps = {
+  places: Place[];
   sx?: SxProps<Theme>;
+  onSearch: (value: string) => void;
 };
 
-export function PlaceSearchItem({  sx }: PlaceSearchItemProps) {
+export function PlaceSearchItem({ places, sx, onSearch }: PlaceSearchItemProps) {
   return (
     <Autocomplete
       sx={{ width: 280 }}
@@ -31,8 +33,10 @@ export function PlaceSearchItem({  sx }: PlaceSearchItemProps) {
           },
         },
       }}
-      options={[]}
-      getOptionLabel={(post) => ""}
+      options={places}
+      getOptionLabel={(place) => place.ubicacion}
+      isOptionEqualToValue={(option, value) => option.id === value.id}
+      onInputChange={(event, value) => onSearch(value)}
       renderInput={(params) => (
         <TextField
           {...params}
