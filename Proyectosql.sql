@@ -150,3 +150,9 @@ alter table ubicaciones add column ubicacion text;
 alter table proveedores drop column contacto_2;
 
 alter table proveedores add column contacto_2 text;
+
+
+alter table proveedores drop column contacto;
+
+
+alter table proveedores add column contacto text;
