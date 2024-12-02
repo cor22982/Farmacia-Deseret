@@ -30,16 +30,16 @@ export class Schedule {
 
 
   getDetails(): string {
-    return `Horario ID: ${this.id}, Día: ${this.dia}, Apertura: ${this.horario_apertura}, Cierre: ${this.horario_cierre}, Proveedor ID: ${this.id_proveedor}`;
+    return `Abre a las: ${this.horario_apertura} y  Cierra a las: ${this.horario_cierre}`;
   }
 }
 
 
-export const useGetHorario_Proveedor = (provedor_id:number) => {
+export const useGetHorario_Proveedor = () => {
   const { llamado } = useApi(`${source_link}/horarios_byId`);
   const {token} = useToken();
   
-  const getHorarios_Byid = async (): Promise<Schedule[]> => {
+  const getHorarios_Byid = async (provedor_id:number): Promise<Schedule[]> => {
     const body = { token, proveedor: provedor_id };
     const response = await llamado(body, "POST");
 

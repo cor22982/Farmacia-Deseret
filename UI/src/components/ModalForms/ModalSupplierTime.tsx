@@ -1,5 +1,7 @@
-import React, { forwardRef , useState} from 'react';
+import React, { forwardRef , useState,  useEffect} from 'react';
 import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid } from '@mui/material';
+import { useGetHorario_Proveedor, Schedule } from 'src/_mock/schedule';
+import { obtenerNumeroDelDia, obtenerDiaDeLaSemana } from 'src/_mock/days';
 import { UploadImage } from '../UploadImage/UploadImage';
 
 interface ModalSupplierTimeProps {
@@ -21,7 +23,24 @@ const style = {
 export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimeProps>(
   ({ open, handleClose, handleClick }, ref) => {
     const [value, setValue] = useState('Proveedor');
+    const {getHorarios_Byid} = useGetHorario_Proveedor()
+    const [horarios, setHorarios] = useState<Schedule[]>([]);
     const [image, setImage] = useState<string | null>(null);
+
+    useEffect(() => {
+      const fetchHorarios= async () => {
+        try {
+          const fetchedhorarios = await getHorarios_Byid(6);
+          setHorarios(fetchedhorarios)
+
+        } catch (error) {
+          console.error("Error fetching places:", error);
+        }
+      };
+  
+      fetchHorarios();
+    }, [getHorarios_Byid, setHorarios]); 
+
     return (
     <Modal 
       open={open} 
@@ -33,15 +52,22 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
             <Typography id="modal-modal-title" variant="h3" component="h2">
             Agregar Horarios
             </Typography>
+            
           </Box>
           <br/>
           <Box display="flex" alignContent="center" justifyContent="center" paddingLeft="10rem">
           <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 1, md: 1 }}>
             
             <Grid fontSize={6} display="flex" justifyContent="center" alignContent='center'>
-              <Box sx={{ display: 'flex', flexDirection: 'row', gap:'5rem'}} >
-                <Typography variant="body2">Lunes</Typography>
-                <Typography variant="body2">Abre a las 6:00 am y Cierra a las 7:00 pm</Typography>
+              <Box sx={{ display: 'flex', flexDirection: 'column', gap:'1rem'}} >
+                  {horarios.map((horario) => (
+                    <Box sx={{display: 'flex', flexDirection: 'row', gap:'2rem'}}>
+                    <Typography variant="body2">{obtenerDiaDeLaSemana(horario.dia)}</Typography>
+                    <Typography variant="body2">{horario.getDetails()}</Typography>
+                    </Box>
+                  ))}
+                
+                
               </Box>
             </Grid>
            
