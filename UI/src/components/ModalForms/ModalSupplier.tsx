@@ -1,6 +1,8 @@
-import React, { forwardRef , useState} from 'react';
+import React, { forwardRef , useState, useEffect} from 'react';
 import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button } from '@mui/material';
+import { useGetProveedores, Supplier } from 'src/_mock/supplier';
 import { UploadImage } from '../UploadImage/UploadImage';
+
 
 interface ModalSupplierProps {
   open: boolean;
@@ -20,6 +22,25 @@ const style = {
 };
 export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
   ({ open, handleClose, handleClick }, ref) => {
+    const { getProvedor_ById } = useGetProveedores();
+    const [suppliers, setSupliers] = useState<Supplier[]>([]);
+
+    useEffect(() => {
+      const fetchSupplier = async () => {
+        try {
+          const fetchedSuppliers = await getProvedor_ById();
+          setSupliers(fetchedSuppliers)
+          
+        
+        } catch (error) {
+          console.error("Error fetching places:", error);
+        }
+      };
+  
+      fetchSupplier();
+    }, [getProvedor_ById, setSupliers, suppliers ]); 
+
+
     const [value, setValue] = useState('Proveedor');
     const [image, setImage] = useState<string | null>(null);
     return (
@@ -130,9 +151,11 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
             <MenuItem value="Proveedor">
               <em>Proveedor Alternativo</em>
             </MenuItem>
-            <MenuItem value="opcion1">Opción 1</MenuItem>
-            <MenuItem value="opcion2">Opción 2</MenuItem>
-            <MenuItem value="opcion3">Opción 3</MenuItem>
+            {suppliers.map((suplie) => (
+              <MenuItem value={suplie.id}>
+                <em>{suplie.nombre}</em>
+              </MenuItem>
+            ))}
           </Select>
           </FormControl>
               

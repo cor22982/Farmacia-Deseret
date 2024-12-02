@@ -1,5 +1,6 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import { Grid } from '@mui/material';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { DashboardContent } from 'src/layouts/dashboard';
@@ -101,13 +102,14 @@ export function AddPlaceView() {
         places={places}
        />
       </Box>
-      <Box sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
+      <Grid container
+  spacing={2}   sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
       {filteredPlaces.map((place) => (
-          <Box key={place.id} paddingBottom="1rem">
+          <Box key={place.id} paddingBottom="1rem" paddingLeft="1rem">
             <PlaceSupCard name={place.ubicacion} />
           </Box>
         ))}
-      </Box>
+      </Grid>
     </DashboardContent>
   );
 }
