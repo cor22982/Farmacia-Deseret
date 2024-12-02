@@ -1,6 +1,8 @@
 import User from "../entityes/user.js";
 import Ubicacion from "../entityes/ubicacion.js";
 import Supplier from "../entityes/supplier.js";
+import Schedule from "../entityes/schedule.js";
+import { response } from "express";
 
 export async function getUsers() {
   try{
@@ -58,6 +60,23 @@ export async function insertarUbicacion(nuevaUbicacion) {
       ubicacion: nuevaUbicacion,
     });
     console.log('Registro insertado:', resultado);
+    return true;
+  } catch (error) {
+    console.error('Error al insertar ubicación:', error);
+    return false;
+  }
+}
+
+
+export async function insertarHorario(dia, horario_a, horario_c, proveedor) {
+  try {
+    const response =  await  Schedule.create({
+        dia: dia,
+        horario_apertura: horario_a,
+        horario_cierre: horario_c,
+        id_proveedor: proveedor
+    });
+    console.log('Se inserto de manera exitosa',response)
     return true;
   } catch (error) {
     console.error('Error al insertar ubicación:', error);

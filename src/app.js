@@ -1,9 +1,9 @@
 import express from 'express';
 import { getUsers, verifyUserCredentials, 
-  insertarUbicacion, getUbicaciones, insertarSupplier } from './database/database.js';
+  insertarUbicacion, getUbicaciones, insertarSupplier, insertarHorario } from './database/database.js';
 const app = express();
 const port = 3000;
-import { generateToken, validateToken } from './coneccion/jwt.js';
+import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 
 import cors from 'cors';
 // Middleware para procesar el cuerpo de las solicitudes JSON
@@ -28,7 +28,8 @@ app.get('/', (req, res) => {
 app.post('/ubicaciones', async (req, res) => {
   try {
     const validate_token = await validateToken(req.body.token)
-    if (validate_token){
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
       const allubicaciones = await getUbicaciones()
       res.status(200).json({ success: true, ubicaciones: allubicaciones});      
     } else{
@@ -43,9 +44,10 @@ app.post('/ubicaciones', async (req, res) => {
 //POSTS
 
 app.post('/insertUbicacion', async (req, res) => {
-  try {  
+  try {
+    const {rol} = await decodeToken(req.body.token)
     const validate_token = await validateToken(req.body.token)
-    if (validate_token){
+    if (validate_token && rol ==='admin'){
       const response = await insertarUbicacion(req.body.ubicacion);
       if (response) {
         res.status(200).json({ success: true, message: 'Se inserto de manera exitosa'});
@@ -64,12 +66,38 @@ app.post('/insertUbicacion', async (req, res) => {
 });
 
 
+app.post('/insertHorario', async (req, res) => {
+  try {  
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    const {dia, horario_a, horario_c, proveedor}  = req.body;
+    if (validate_token && rol ==='admin'){
+      const response = await insertarHorario(dia, horario_a, horario_c, proveedor);
+      if (response) {
+        res.status(200).json({ success: true, message: 'Se inserto de manera exitosa'});
+      } else {
+        res.status(401).json({ success: false, message: 'No se inserto de manera exitosa'});
+      }
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para insertar'});
+    }
+
+    
+  } catch (error) {
+    console.error('Error al insertar la horario:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+
 
 app.post('/insertarSupplier', async (req, res) => {
   try {  
     const validate_token = await validateToken(req.body.token);
+    const {rol} = await decodeToken(req.body.token)
     const { nombre, direccion, telefono, proveedor_alternativo, contacto, segundo_contacto } = req.body;
-    if (validate_token){
+    if (validate_token && rol ==='admin'){
       const response = await insertarSupplier(nombre, direccion, telefono, proveedor_alternativo, contacto, segundo_contacto);
       if (response) {
         res.status(200).json({ success: true, message: 'Se inserto de manera exitosa', id: response});
