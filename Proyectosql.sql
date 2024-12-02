@@ -158,3 +158,11 @@ alter table proveedores drop column contacto;
 alter table proveedores add column contacto text;
 
 alter table proveedores add column nombre text;
+
+alter table horario drop column dia;
+
+alter table horario add column dia integer;
+
+ GRANT SELECT, INSERT, UPDATE, DELETE ON horario TO ownerfarmacia;
+
+  GRANT USAGE, SELECT, UPDATE ON SEQUENCE horario_id_seq TO ownerfarmacia;
