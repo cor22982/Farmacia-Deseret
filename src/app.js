@@ -1,6 +1,7 @@
 import express from 'express';
 import { getUsers, verifyUserCredentials, 
-  insertarUbicacion, getUbicaciones, insertarSupplier, insertarHorario } from './database/database.js';
+  insertarUbicacion, getUbicaciones, 
+  insertarSupplier, insertarHorario, getHorarios_byId } from './database/database.js';
 const app = express();
 const port = 3000;
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
@@ -34,6 +35,22 @@ app.post('/ubicaciones', async (req, res) => {
       res.status(200).json({ success: true, ubicaciones: allubicaciones});      
     } else{
       res.status(401).json({ success: false, message: 'No tienes permisos para obtener las ubicaciones'});
+    }
+  }catch (error) {
+    console.error('Error al obtener las ubicacion:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+app.post('/horarios_byId', async (req, res) => {
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const allhorarios = await getHorarios_byId(req.body.proveedor)
+      res.status(200).json({ success: true, allhorarios: allhorarios});      
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para obtener los horarios'});
     }
   }catch (error) {
     console.error('Error al obtener las ubicacion:', error);

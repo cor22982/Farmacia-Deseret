@@ -29,6 +29,21 @@ export async function getUbicaciones() {
   }
 }
 
+export async function getHorarios_byId(proveedor) {
+  try{
+    const horarios = await Schedule.findAll({
+      attributes: ['id','dia', 'horario_apertura', 'horario_cierre'],
+      where: {
+        id_proveedor: proveedor,
+      }
+    });
+    return horarios;
+  }catch (error) {
+    throw error;
+  }
+}
+
+
 export async function verifyUserCredentials(userName, password) {
   try {
     const user = await User.findOne({
