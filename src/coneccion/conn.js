@@ -9,6 +9,7 @@ dotenv.config({ path: 'src\\coneccion\\.env' });
 const sequelize = new Sequelize(process.env.database, process.env.user, process.env.password, {
   host: 'localhost',
   dialect: 'postgres',
+  logging: false,
 });
 
 export default sequelize;

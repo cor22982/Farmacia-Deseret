@@ -1,5 +1,6 @@
 import User from "../entityes/user.js";
 import Ubicacion from "../entityes/ubicacion.js";
+import Supplier from "../entityes/supplier.js";
 
 export async function getUsers() {
   try{
@@ -61,5 +62,26 @@ export async function insertarUbicacion(nuevaUbicacion) {
   } catch (error) {
     console.error('Error al insertar ubicación:', error);
     return false;
+  }
+}
+
+
+export async function insertarSupplier(nombre, direccion, telefono, proveedor_alternativo, contacto, segundo_contacto) {
+  try {
+    const resultado = await Supplier.create({
+      nombre: nombre,
+      direccion: direccion,
+      tipo: '',
+      telefono: telefono,
+      proveedor_alternativo: proveedor_alternativo,
+      estadisponible:true,
+      contacto: contacto,
+      contacto_2: segundo_contacto
+    });
+    console.error('Se inserto con el id:', resultado.id);
+    return resultado.id;
+  } catch (error) {
+    console.error('Error al insertar ubicación:', error);
+    return null;
   }
 }
