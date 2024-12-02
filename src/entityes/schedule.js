@@ -1,6 +1,7 @@
 import { Sequelize, DataTypes } from 'sequelize';
 import  sequelize from '../coneccion/conn.js';
- 
+import Supplier from './supplier.js';
+
 const Schedule = sequelize.define('horario', {
   id: {
     type: DataTypes.INTEGER,

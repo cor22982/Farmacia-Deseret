@@ -1,7 +1,6 @@
 import User from "../entityes/user.js";
 import Ubicacion from "../entityes/ubicacion.js";
-import Supplier from "../entityes/supplier.js";
-import Schedule from "../entityes/schedule.js";
+import {Supplier, Schedule} from "../entityes/relationships.js";
 import { response } from "express";
 
 export async function getUsers() {
@@ -39,6 +38,22 @@ export async function getHorarios_byId(proveedor) {
     });
     return horarios;
   }catch (error) {
+    throw error;
+  }
+}
+
+
+export async function getProveedoresConHorarios() {
+  try {
+    const proveedores = await Supplier.findAll({
+      include: {
+        model:Schedule,
+        as: 'horarios',
+      },
+    });
+    return proveedores;
+  } catch (error) {
+    console.error('Error al obtener proveedores con horarios:', error);
     throw error;
   }
 }

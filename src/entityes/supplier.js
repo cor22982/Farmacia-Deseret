@@ -1,6 +1,7 @@
 import { Sequelize, DataTypes } from 'sequelize';
 import  sequelize from '../coneccion/conn.js';
- 
+import Schedule from './schedule.js'; 
+
 const Supplier= sequelize.define('proveedores', {
   id: {
     type: DataTypes.INTEGER,
