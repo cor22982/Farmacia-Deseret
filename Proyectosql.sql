@@ -156,3 +156,5 @@ alter table proveedores drop column contacto;
 
 
 alter table proveedores add column contacto text;
+
+alter table proveedores add column nombre text;
