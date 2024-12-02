@@ -1,7 +1,8 @@
 import express from 'express';
 import { getUsers, verifyUserCredentials, 
   insertarUbicacion, getUbicaciones, 
-  insertarSupplier, insertarHorario, getHorarios_byId, getProveedoresConHorarios } from './database/database.js';
+  insertarSupplier, insertarHorario, 
+  getHorarios_byId, getProveedoresConHorarios, getProveedores_id } from './database/database.js';
 const app = express();
 const port = 3000;
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
@@ -49,6 +50,23 @@ app.post('/proveedores', async (req, res) => {
     const {rol} = await decodeToken(req.body.token)
     if (validate_token && rol ==='admin'){
       const allsuppliers = await getProveedoresConHorarios()
+      res.status(200).json({ success: true, proveedores: allsuppliers});
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para obtener los proveedores'});
+    }
+  }catch (error) {
+    console.error('Error al obtener los proveedores:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/proveedores_byid', async (req, res) => {
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const allsuppliers = await getProveedores_id()
       res.status(200).json({ success: true, proveedores: allsuppliers});
     } else{
       res.status(401).json({ success: false, message: 'No tienes permisos para obtener los proveedores'});

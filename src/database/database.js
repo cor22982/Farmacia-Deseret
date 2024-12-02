@@ -43,6 +43,17 @@ export async function getHorarios_byId(proveedor) {
 }
 
 
+export async function getProveedores_id() {
+  try{
+    const proveedores = await Supplier.findAll({
+      attributes: ['id','nombre'],
+    });
+    return proveedores;
+  }catch (error) {
+    throw error;
+  }
+}
+
 export async function getProveedoresConHorarios() {
   try {
     const proveedores = await Supplier.findAll({
@@ -57,6 +68,8 @@ export async function getProveedoresConHorarios() {
     throw error;
   }
 }
+
+
 
 
 export async function verifyUserCredentials(userName, password) {
