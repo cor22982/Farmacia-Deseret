@@ -1,7 +1,8 @@
 import React, { forwardRef , useState,  useEffect} from 'react';
 import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid } from '@mui/material';
 import { useGetHorario_Proveedor, Schedule } from 'src/_mock/schedule';
-import { obtenerNumeroDelDia, obtenerDiaDeLaSemana } from 'src/_mock/days';
+import { obtenerNumeroDelDia, obtenerDiaDeLaSemana, diasDeLaSemana } from 'src/_mock/days';
+
 import { UploadImage } from '../UploadImage/UploadImage';
 
 interface ModalSupplierTimeProps {
@@ -22,7 +23,7 @@ const style = {
 };
 export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimeProps>(
   ({ open, handleClose, handleClick }, ref) => {
-    const [value, setValue] = useState('Proveedor');
+    const [value, setValue] = useState(100);
     const {getHorarios_Byid} = useGetHorario_Proveedor()
     const [horarios, setHorarios] = useState<Schedule[]>([]);
     const [image, setImage] = useState<string | null>(null);
@@ -99,14 +100,25 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
             }}
             
             value={value}
-            onChange={(e) => {setValue(e.target.value)}}
+            onChange={(e) => setValue(Number(e.target.value))}
           >
-            <MenuItem value="Dia">
-              <em>Dia</em>
+            
+            <MenuItem value={100}>
+              <em>Dia de la semana</em>
             </MenuItem>
-            <MenuItem value="opcion1">Opción 1</MenuItem>
-            <MenuItem value="opcion2">Opción 2</MenuItem>
-            <MenuItem value="opcion3">Opción 3</MenuItem>
+            <MenuItem value={7}>
+              <em>Lunes-Viernes</em>
+            </MenuItem>
+            <MenuItem value={8}>
+              <em>Toda la semana</em>
+            </MenuItem>
+            {Object.entries(diasDeLaSemana).map(([dia, valor]) => (
+              <MenuItem key={valor} value={valor}>
+              {dia}
+              </MenuItem>
+            ))}
+            
+            
           </Select>
           </FormControl>
               

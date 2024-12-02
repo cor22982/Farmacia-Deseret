@@ -41,7 +41,7 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
     }, [getProvedor_ById, setSupliers, suppliers ]); 
 
 
-    const [value, setValue] = useState('Proveedor');
+    const [value, setValue] = useState(100); 
     const [image, setImage] = useState<string | null>(null);
     return (
     <Modal 
@@ -146,9 +146,9 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
             }}
             
             value={value}
-            onChange={(e) => {setValue(e.target.value)}}
+            onChange={(e) => setValue(Number(e.target.value))}
           >
-            <MenuItem value="Proveedor">
+            <MenuItem value={100}>
               <em>Proveedor Alternativo</em>
             </MenuItem>
             {suppliers.map((suplie) => (

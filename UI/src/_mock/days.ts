@@ -1,10 +1,10 @@
-type DiaDeLaSemana = "domingo" | "lunes" | "martes" | "miércoles" | "jueves" | "viernes" | "sábado";
+type DiaDeLaSemana = "domingo" | "lunes" | "martes" | "miercoles" | "jueves" | "viernes" | "sábado";
  
 export const diasDeLaSemana: Record<DiaDeLaSemana, number> = {
   "domingo": 0,
   "lunes": 1,
   "martes": 2,
-  "miércoles": 3,
+  "miercoles": 3,
   "jueves": 4,
   "viernes": 5,
   "sábado": 6,
@@ -16,7 +16,7 @@ export function obtenerNumeroDelDia(dia: string) {
 }
 
 export function obtenerDiaDeLaSemana(numero: number): string {
-  const diasDeLaSemanaArray: DiaDeLaSemana[] = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+  const diasDeLaSemanaArray: DiaDeLaSemana[] = ["domingo", "lunes", "martes", "miercoles", "jueves", "viernes", "sábado"];
   
   if (numero >= 0 && numero <= 6) {
     return diasDeLaSemanaArray[numero];
