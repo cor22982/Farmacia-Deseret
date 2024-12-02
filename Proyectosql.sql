@@ -146,3 +146,7 @@ ADD CONSTRAINT fk_proveedor FOREIGN KEY (proveedor_alternativo) REFERENCES prove
 alter table ubicaciones drop column ubicacion;
 
 alter table ubicaciones add column ubicacion text;
+
+alter table proveedores drop column contacto_2;
+
+alter table proveedores add column contacto_2 text;
