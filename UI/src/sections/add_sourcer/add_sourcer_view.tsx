@@ -30,8 +30,9 @@ export function AddSourcerView() {
   const {token} = useToken()
   const [suppliers, setSupliers] = useState<Supplier[]>([]);
   const [filteredSupplier, setFilteredSupplier] = useState<Supplier[]>([]);
-  const { getProveedores_Complete } = useGetProveedores();
+  const { getProveedores_Complete,  getProvedor_ById } = useGetProveedores();
   const [call1, setCall1] = useState(0);
+  const [searchValue, setSearchValue] = useState<string>('');
 
   useEffect(() => {
     const fetchSupplier = async () => {
@@ -57,6 +58,18 @@ export function AddSourcerView() {
   const handleClicked = () => {
     setOpenM(false)
     setOpenM2(true)
+  };
+
+  const handleSearch = (value: string) => {
+    setSearchValue(value);
+    if (value) {
+      const filtered = suppliers.filter((suplie) =>
+        suplie.nombre.toLowerCase().includes(value.toLowerCase())
+      );
+      setFilteredSupplier(filtered);
+    } else {
+      setFilteredSupplier(suppliers);
+    }
   };
   return (
     <DashboardContent>
@@ -100,7 +113,9 @@ export function AddSourcerView() {
         
       </Box>
       <Box display="flex" alignItems="center" mb={5} gap='2rem'>
-      <SupplierSearchItem/>
+      <SupplierSearchItem
+         onSearch={handleSearch}
+         suppliers={suppliers}/>
         <Box display="flex" alignItems= 'center' flexDirection="column">
           <Typography variant="body2" flexGrow={1}>
             Tipo
@@ -132,7 +147,7 @@ export function AddSourcerView() {
         
             
         </Box>
-   
+    
         </Box>
       <Box sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
         {filteredSupplier.map((suplier) => (

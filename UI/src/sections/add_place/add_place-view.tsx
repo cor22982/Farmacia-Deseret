@@ -101,7 +101,7 @@ export function AddPlaceView() {
          onSearch={handleSearch}
         places={places}
        />
-      </Box>
+      </Box> 
       <Grid container
   spacing={2}   sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
       {filteredPlaces.map((place) => (

@@ -3,7 +3,7 @@ import type { Theme, SxProps } from '@mui/material/styles';
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import Autocomplete, { autocompleteClasses } from '@mui/material/Autocomplete';
-
+import { Supplier } from 'src/_mock/supplier';
 import { Iconify } from 'src/components/iconify';
 
 
@@ -12,9 +12,11 @@ import { Iconify } from 'src/components/iconify';
 
 type SupplierSearchItemProps = {
   sx?: SxProps<Theme>;
+  suppliers: Supplier[];
+  onSearch: (value: string) => void;
 };
 
-export function SupplierSearchItem({  sx }: SupplierSearchItemProps) {
+export function SupplierSearchItem({  sx, suppliers, onSearch }: SupplierSearchItemProps) {
   return (
     <Autocomplete
       sx={{ width: 280 }}
@@ -31,8 +33,10 @@ export function SupplierSearchItem({  sx }: SupplierSearchItemProps) {
           },
         },
       }}
-      options={[]}
-      getOptionLabel={(post) => ""}
+      options={suppliers}
+      getOptionLabel={(suplie) => suplie.nombre}
+      isOptionEqualToValue={(option, value) => option.id === value.id}
+      onInputChange={(event, value) => onSearch(value)}
       renderInput={(params) => (
         <TextField
           {...params}
@@ -50,6 +54,6 @@ export function SupplierSearchItem({  sx }: SupplierSearchItemProps) {
           }}
         />
       )}
-    />
+    /> 
   );
 }
