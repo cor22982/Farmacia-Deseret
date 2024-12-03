@@ -1,6 +1,12 @@
-import React, { forwardRef , useState, useEffect} from 'react';
-import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button } from '@mui/material';
+import React, { forwardRef , useState, useEffect,  useCallback} from 'react';
+import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, SelectChangeEvent } from '@mui/material';
 import { useGetProveedores, Supplier } from 'src/_mock/supplier';
+import useForm from 'src/hooks/useForm';
+import { object, string, number } from 'yup';
+import useApi from 'src/hooks/useApi';
+import Swal from "sweetalert2";
+import useToken from 'src/hooks/useToken';
+import source_link from 'src/repository/source_repo';
 import { UploadImage } from '../UploadImage/UploadImage';
 
 
@@ -19,11 +25,31 @@ const style = {
   border: '2px solid #000',
   boxShadow: 24,
   p: 2,
-};
+}; 
+
+
+const schema = object({
+  nombre: string().required('El nombre es obligatorio'),
+  direccion: string().required('La direccion es obligatoria'),
+  telefono: string().required('El telefono es obligatoria'),
+  proveedor_alternativo: number(),
+  contacto: string(),
+  segundo_contacto: string(),
+})
+
 export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
   ({ open, handleClose, handleClick }, ref) => {
     const { getProvedor_ById } = useGetProveedores();
     const [suppliers, setSupliers] = useState<Supplier[]>([]);
+    const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { nombre: '', direccion: '', telefono: '', proveedor_alternativo: 100, contacto: '', segundo_contacto: ''})
+    const {llamado, error: error_Value} = useApi(`${source_link}/insertarSupplier`)
+    const {token} = useToken()
+    const [value_suplier, setValueSupplier] = useState(100); 
+    
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const { name, value } = e.target;
+      setValueForm(name as keyof typeof valueForm, value);
+    };
 
     useEffect(() => {
       const fetchSupplier = async () => {
@@ -40,9 +66,55 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
       fetchSupplier();
     }, [getProvedor_ById, setSupliers, suppliers ]); 
 
+    const handleInsertSupplier = useCallback(async() => {
+      const isValid = await validate();
+      if (isValid) {
+        const body = {
+          token,
+          nombre: valueForm.nombre,
+          direccion: valueForm.direccion,
+          telefono: valueForm.telefono,
+          proveedor_alternativo: value_suplier === 100 ? null : value_suplier,
+          contacto: valueForm.contacto,
+          segundo_contacto: valueForm.segundo_contacto === '' ? null : valueForm.segundo_contacto
+        };
+        const response = await llamado(body, 'POST');
+        if (response) {
+          if (response.success === true){
+            Swal.fire({
+              icon: "success",
+              title: "Se inicio Sesion",
+              text: response.message,
+            });
+            return true;
+          }Swal.fire({
+            icon: "error",
+            title: "Error",
+            text: response.message,
+          });
+          return false;
+        }
+          Swal.fire({
+            icon: "error",
+            title: "Error",
+            text:   error_Value|| "No se conoce el",
+          });
+        
+        
+        
+        
+      }
+      return false
+    }, [validate, valueForm, llamado, error_Value, token, value_suplier]);
 
-    const [value, setValue] = useState(100); 
-    const [image, setImage] = useState<string | null>(null);
+    const onClickButton = async() => {
+      const respuesta = await handleInsertSupplier();
+      if (respuesta){
+        await handleClick();
+      }
+      
+    }
+
     return (
     <Modal 
       open={open} 
@@ -58,9 +130,13 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
             <TextField
               fullWidth
-              name="name"
+              name="nombre"
               label="Nombre"
               defaultValue=""
+              error={!!errors.nombre}
+              helperText={errors.nombre}
+              onChange={handleChange}
+              value={valueForm.nombre}
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 0.2,
@@ -83,6 +159,12 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
               name="direccion"
               label="Direccion"
               defaultValue=""
+
+              error={!!errors.direccion}
+              helperText={errors.direccion}
+              onChange={handleChange}
+              value={valueForm.direccion}
+
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 0.2,
@@ -107,6 +189,12 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
               name="telefono"
               label="Telefono"
               defaultValue=""
+
+              error={!!errors.telefono}
+              helperText={errors.telefono}
+              onChange={handleChange}
+              value={valueForm.telefono}
+
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 1,
@@ -144,9 +232,8 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
                 },
               },
             }}
-            
-            value={value}
-            onChange={(e) => setValue(Number(e.target.value))}
+            value={value_suplier}
+            onChange={(e) => setValueSupplier(Number(e.target.value))}
           >
             <MenuItem value={100}>
               <em>Proveedor Alternativo</em>
@@ -165,9 +252,15 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
             <TextField
               fullWidth
-              name="contact"
+              name="contacto"
               label="Informacion Contacto"
               defaultValue=""
+
+              error={!!errors.contacto}
+              helperText={errors.contacto}
+              onChange={handleChange}
+              value={valueForm.contacto}
+
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 1,
@@ -187,9 +280,15 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
             />  
             <TextField
               fullWidth
-              name="contact2"
+              name="segundo_contacto"
               label="Informacion Segundo Contacto"
               defaultValue=""
+
+              error={!!errors.segundo_contacto}
+              helperText={errors.segundo_contacto}
+              onChange={handleChange}
+              value={valueForm.segundo_contacto}
+
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 1,
@@ -217,7 +316,7 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
             sx={{
               width:'100%'
             }}
-            onClick={handleClick}
+            onClick={onClickButton}
           >INSERTAR PROVEEDOR</Button>
         </Box>
     </Modal>
