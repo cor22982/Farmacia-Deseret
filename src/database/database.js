@@ -57,10 +57,17 @@ export async function getProveedores_id() {
 export async function getProveedoresConHorarios() {
   try {
     const proveedores = await Supplier.findAll({
-      include: {
-        model:Schedule,
-        as: 'horarios',
-      },
+      include: [
+        {
+          model: Schedule,
+          as: 'horarios',
+        },
+        {
+          model: Supplier, // Relación con proveedor alternativo
+          as: 'alternativo',
+          attributes: ['nombre'], // Solo trae el atributo `nombre`
+        },
+      ],
     });
     return proveedores;
   } catch (error) {
@@ -68,6 +75,7 @@ export async function getProveedoresConHorarios() {
     throw error;
   }
 }
+
 
 
 
