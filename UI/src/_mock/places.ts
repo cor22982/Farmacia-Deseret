@@ -7,9 +7,12 @@ export class Place {
 
   ubicacion: string;
 
-  constructor(id: string, ubicacion: string) {
+  lugar_farmacia: string;
+
+  constructor(id: string, ubicacion: string, lugar_farmacia: string) {
     this.id = id;
     this.ubicacion = ubicacion;
+    this.lugar_farmacia = lugar_farmacia
   }
 }
 
@@ -23,8 +26,8 @@ export const useGetPlaces = () => {
 
     if (response.success && Array.isArray(response.ubicaciones)) {
       const places = response.ubicaciones.map(
-        (ubicacion: { id: number; ubicacion: string }) =>
-          new Place(ubicacion.id.toString(), ubicacion.ubicacion)
+        (ubicacion: { id: number; ubicacion: string; lugar_farmacia: string; }) =>
+          new Place(ubicacion.id.toString(), ubicacion.ubicacion, ubicacion.lugar_farmacia === null ? '' : ubicacion.lugar_farmacia)
       );
       return places;
     }

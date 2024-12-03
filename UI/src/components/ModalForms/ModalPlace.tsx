@@ -27,12 +27,13 @@ export const ModalPlace = forwardRef<HTMLDivElement, ModalPlaceProps>(
   ({ open, handleClose, handleClick }, ref) => {
 
     const [place, setPlace] = useState('');
+    const [lugar, setLugar] = useState('Lugar');
     const {llamado, error} = useApi(`${source_link}/insertUbicacion`)
     const {token} = useToken()
 
     const onInsert = async() => {
       try{
-        const body = { token, ubicacion:place };
+        const body = { token, ubicacion:place, lugar_farmacia:lugar };
         const response = await llamado(body, 'POST')
         if (response) {
           if (response.success === true){
@@ -105,6 +106,43 @@ export const ModalPlace = forwardRef<HTMLDivElement, ModalPlaceProps>(
           </Box>
         
         
+         
+          <FormControl fullWidth>
+          <Select
+            labelId="demo-simple-select-label"
+            id="demo-simple-select"
+            sx={{
+              mb: 1,
+              '& .MuiOutlinedInput-root': {
+                '& fieldset': {
+                  borderColor: '#919191',
+                },
+                '&:hover fieldset': {
+                  borderColor: '#262626',
+                },
+                '&.Mui-focused fieldset': {
+                  borderColor: '#050505',
+                  borderWidth: 2,
+                },
+              },
+            }}
+            value={lugar}
+            onChange={(e) => setLugar(String(e.target.value))}
+          >
+            <MenuItem value='Lugar'>
+              <em>Ubicacion en el Local</em>
+            </MenuItem>
+            <MenuItem value='bodega'>
+              <em>Bodega</em>
+            </MenuItem>
+            <MenuItem value='farmacia'>
+              <em>Farmacia</em>
+            </MenuItem>
+           
+          </Select>
+          </FormControl>
+          <br/>
+          <br/>
           <br/>
           <Button
             variant="contained" color="inherit" component="label"

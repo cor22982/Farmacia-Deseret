@@ -12,11 +12,13 @@ import { forwardRef, useState } from 'react';
 
 interface PlaceProps {
   name: string;
+
+  lugar_farmacia: string;
 }
 
 export const  PlaceSupCard = forwardRef<HTMLDivElement,PlaceProps>(
 
-  ({ name }, ref) => {
+  ({ name, lugar_farmacia }, ref) => {
   const [value, setValue] = useState('Proveedor');
   return (
     <Card sx={{ display: 'flex', padding: '1rem' }} >
@@ -25,10 +27,18 @@ export const  PlaceSupCard = forwardRef<HTMLDivElement,PlaceProps>(
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Box sx={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
+            {
+              lugar_farmacia !== '' ?(
+                <Chip label={`${lugar_farmacia}`} color="primary" />
+              ):(
+                <></>
+              )
+            }
+          
             <Typography component="div" variant="h4">
               {name}
             </Typography>
-          
+
             <Button
             startIcon={<Iconify icon="material-symbols:edit" />}
             >

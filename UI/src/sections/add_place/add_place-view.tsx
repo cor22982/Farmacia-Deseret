@@ -106,7 +106,9 @@ export function AddPlaceView() {
   spacing={2}   sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
       {filteredPlaces.map((place) => (
           <Box key={place.id} paddingBottom="1rem" paddingLeft="1rem">
-            <PlaceSupCard name={place.ubicacion} />
+            <PlaceSupCard 
+            name={place.ubicacion}
+            lugar_farmacia={place.lugar_farmacia} />
           </Box>
         ))}
       </Grid>
