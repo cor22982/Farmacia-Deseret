@@ -166,3 +166,5 @@ alter table horario add column dia integer;
  GRANT SELECT, INSERT, UPDATE, DELETE ON horario TO ownerfarmacia;
 
   GRANT USAGE, SELECT, UPDATE ON SEQUENCE horario_id_seq TO ownerfarmacia;
+
+alter table ubicaciones add column lugar_farmacia varchar(500);
