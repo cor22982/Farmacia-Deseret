@@ -100,7 +100,7 @@ app.post('/insertUbicacion', async (req, res) => {
     const {rol} = await decodeToken(req.body.token)
     const validate_token = await validateToken(req.body.token)
     if (validate_token && rol ==='admin'){
-      const response = await insertarUbicacion(req.body.ubicacion);
+      const response = await insertarUbicacion(req.body.ubicacion, req.body.lugar_farmacia);
       if (response) {
         res.status(200).json({ success: true, message: 'Se inserto de manera exitosa'});
       } else {

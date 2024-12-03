@@ -11,6 +11,10 @@ const Ubicacion = sequelize.define('ubicaciones', {
   ubicacion: {
     type: DataTypes.STRING,
     allowNull: false,
+  },
+  lugar_farmacia:{
+    type: DataTypes.STRING,
+    allowNull: true,
   }
 }, {
   tableName: 'ubicaciones',

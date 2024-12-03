@@ -1,5 +1,7 @@
 import Supplier from "./supplier.js";
 import Schedule from "./schedule.js";
+import Product from "./product.js";
+
 Supplier.hasMany(Schedule, { foreignKey: 'id_proveedor', as: 'horarios' });
 Supplier.belongsTo(Supplier, {
   foreignKey: 'proveedor_alternativo', // Llave foránea que conecta con la misma tabla
@@ -7,4 +9,6 @@ Supplier.belongsTo(Supplier, {
 });
 Schedule.belongsTo(Supplier, { foreignKey: 'id_proveedor', as: 'proveedor' });
 
-export { Supplier, Schedule };
+
+
+export { Supplier, Schedule};

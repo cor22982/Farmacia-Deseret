@@ -20,7 +20,7 @@ export async function getUsers() {
 export async function getUbicaciones() {
   try{
     const places = await Ubicacion.findAll({
-      attributes: ['id','ubicacion'],
+      attributes: ['id','ubicacion', 'lugar_farmacia'],
     });
     return places;
   }catch (error) {
@@ -105,10 +105,11 @@ export async function verifyUserCredentials(userName, password) {
   }
 }
 
-export async function insertarUbicacion(nuevaUbicacion) {
+export async function insertarUbicacion(nuevaUbicacion, lugarf) {
   try {
     const resultado = await Ubicacion.create({
       ubicacion: nuevaUbicacion,
+      lugar_farmacia: lugarf
     });
     console.log('Registro insertado:', resultado);
     return true;
