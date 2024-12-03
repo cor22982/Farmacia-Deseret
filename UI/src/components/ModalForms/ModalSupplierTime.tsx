@@ -62,12 +62,12 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
       fetchHorarios();
     }, [getHorarios_Byid, setHorarios , id]); 
 
-    const handleInsertHorario = useCallback(async() => {
+    const handleInsertHorario = useCallback(async(number_id:number) => {
       const isValid = await validate();
       if (isValid) {
         const body = {
           token,
-          dia: value_day,
+          dia: number_id,
           horario_a: valueForm.horario_a,
           horario_c: valueForm.horario_c,
           proveedor: id
@@ -84,10 +84,21 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
     
       }
       return false
-    }, [validate, valueForm, llamado, token, id, value_day]);
+    }, [validate, valueForm, llamado, token, id]);
 
     const onClickButton = async() => {
-      await handleInsertHorario();
+      if (value_day === 7){
+        for (let i = 1; i <= 5; i+=1) {
+          handleInsertHorario(i);
+        }        
+      }else if ( value_day === 8){
+        for (let i = 0; i <= 6; i+=1) {
+          handleInsertHorario(i);
+        }
+      }else{
+        handleInsertHorario(value_day);
+      }
+      
     }
 
     return (
