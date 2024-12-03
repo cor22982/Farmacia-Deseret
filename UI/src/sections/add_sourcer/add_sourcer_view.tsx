@@ -23,6 +23,7 @@ export function AddSourcerView() {
   const [openm, setOpenM] = useState(false);
   const [openm2, setOpenM2] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
+  const [value_Id, setValueId] = useState(100000);
 
   const handleSort = useCallback((newSort: string) => {
     setSortBy(newSort);
@@ -36,11 +37,13 @@ export function AddSourcerView() {
     <DashboardContent>
      
       <ModalSupplier
+        setValueSupplierId={setValueId}
         open={openm}
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
       />
       <ModalSupplierTime
+        id={value_Id}
         open={openm2}
         handleClose={() => setOpenM2(false)}
         handleClick={handleClicked}

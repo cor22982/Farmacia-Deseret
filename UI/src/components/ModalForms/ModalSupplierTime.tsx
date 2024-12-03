@@ -1,12 +1,24 @@
-import React, { forwardRef , useState,  useEffect} from 'react';
+import React, { forwardRef , useState,  useEffect, useCallback} from 'react';
 import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid } from '@mui/material';
 import { useGetHorario_Proveedor, Schedule } from 'src/_mock/schedule';
 import { obtenerNumeroDelDia, obtenerDiaDeLaSemana, diasDeLaSemana } from 'src/_mock/days';
-
+import useForm from 'src/hooks/useForm';
+import { object, string, number } from 'yup';
+import useApi from 'src/hooks/useApi';
+import Swal from "sweetalert2";
+import useToken from 'src/hooks/useToken';
+import source_link from 'src/repository/source_repo';
 import { UploadImage } from '../UploadImage/UploadImage';
+
+
+const schema = object({
+  horario_a: string().required('El horario de apertura es obligatorio'),
+  horario_c: string().required('El horario de apertura es obligatorio'),
+})
 
 interface ModalSupplierTimeProps {
   open: boolean;
+  id: number;
   handleClose: () => void;
   handleClick: () => void;
 }
@@ -22,16 +34,24 @@ const style = {
   p: 2,
 };
 export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimeProps>(
-  ({ open, handleClose, handleClick }, ref) => {
-    const [value, setValue] = useState(100);
+  ({ open, handleClose, handleClick, id }, ref) => {
+    const [value_day, setValueDay] = useState(100000);
     const {getHorarios_Byid} = useGetHorario_Proveedor()
     const [horarios, setHorarios] = useState<Schedule[]>([]);
-    const [image, setImage] = useState<string | null>(null);
+    
+    const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { horario_a: '', horario_c: ''})
+    const {llamado, error: error_Value} = useApi(`${source_link}/insertHorario`)
+    const {token} = useToken()
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const { name, value } = e.target;
+      setValueForm(name as keyof typeof valueForm, value);
+    };
 
     useEffect(() => {
       const fetchHorarios= async () => {
         try {
-          const fetchedhorarios = await getHorarios_Byid(6);
+          const fetchedhorarios = await getHorarios_Byid(id);
           setHorarios(fetchedhorarios)
 
         } catch (error) {
@@ -40,7 +60,35 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
       };
   
       fetchHorarios();
-    }, [getHorarios_Byid, setHorarios]); 
+    }, [getHorarios_Byid, setHorarios , id]); 
+
+    const handleInsertHorario = useCallback(async() => {
+      const isValid = await validate();
+      if (isValid) {
+        const body = {
+          token,
+          dia: value_day,
+          horario_a: valueForm.horario_a,
+          horario_c: valueForm.horario_c,
+          proveedor: id
+        };
+        const response = await llamado(body, 'POST');
+        if (response) {
+          if (response.success === true){
+           
+            return true;
+          }
+          return false;
+        }
+          
+    
+      }
+      return false
+    }, [validate, valueForm, llamado, token, id, value_day]);
+
+    const onClickButton = async() => {
+      await handleInsertHorario();
+    }
 
     return (
     <Modal 
@@ -99,11 +147,11 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
               },
             }}
             
-            value={value}
-            onChange={(e) => setValue(Number(e.target.value))}
+            value={value_day}
+            onChange={(e) => setValueDay(Number(e.target.value))}
           >
             
-            <MenuItem value={100}>
+            <MenuItem value={100000}>
               <em>Dia de la semana</em>
             </MenuItem>
             <MenuItem value={7}>
@@ -128,10 +176,16 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
             <TextField
               fullWidth
-              name="ha"
+              name="horario_a"
               label="Hora Apertura"
               defaultValue=""
               type="time"
+
+              error={!!errors.horario_a}
+              helperText={errors.horario_a}
+              onChange={handleChange}
+              value={valueForm.horario_a}
+
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 1,
@@ -151,10 +205,16 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
             />  
             <TextField
               fullWidth
-              name="hc"
+              name="horario_c"
               label="Hora Cierre"
               type="time"
               defaultValue=""
+
+              error={!!errors.horario_c}
+              helperText={errors.horario_c}
+              onChange={handleChange}
+              value={valueForm.horario_c}
+
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 1,
@@ -182,7 +242,7 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
             sx={{
               width:'100%'
             }}
-            onClick={handleClick}
+            onClick={onClickButton}
           >Agregar Horario</Button>
         </Box>
     </Modal>

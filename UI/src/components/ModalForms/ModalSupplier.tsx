@@ -14,6 +14,7 @@ interface ModalSupplierProps {
   open: boolean;
   handleClose: () => void;
   handleClick: () => void;
+  setValueSupplierId: (id:number) => void;
 }
 const style = {
   position: 'absolute',
@@ -38,13 +39,13 @@ const schema = object({
 })
 
 export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
-  ({ open, handleClose, handleClick }, ref) => {
+  ({ open, handleClose, handleClick, setValueSupplierId }, ref) => {
     const { getProvedor_ById } = useGetProveedores();
     const [suppliers, setSupliers] = useState<Supplier[]>([]);
-    const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { nombre: '', direccion: '', telefono: '', proveedor_alternativo: 100, contacto: '', segundo_contacto: ''})
+    const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { nombre: '', direccion: '', telefono: '', proveedor_alternativo: 100000, contacto: '', segundo_contacto: ''})
     const {llamado, error: error_Value} = useApi(`${source_link}/insertarSupplier`)
     const {token} = useToken()
-    const [value_suplier, setValueSupplier] = useState(100); 
+    const [value_suplier, setValueSupplier] = useState(100000); 
     
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       const { name, value } = e.target;
@@ -74,16 +75,17 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
           nombre: valueForm.nombre,
           direccion: valueForm.direccion,
           telefono: valueForm.telefono,
-          proveedor_alternativo: value_suplier === 100 ? null : value_suplier,
+          proveedor_alternativo: value_suplier === 100000 ? null : value_suplier,
           contacto: valueForm.contacto,
           segundo_contacto: valueForm.segundo_contacto === '' ? null : valueForm.segundo_contacto
         };
         const response = await llamado(body, 'POST');
         if (response) {
           if (response.success === true){
+            setValueSupplierId(response.id)
             Swal.fire({
               icon: "success",
-              title: "Se inicio Sesion",
+              title: "Se Inserto de manera exitosa",
               text: response.message,
             });
             return true;
@@ -105,7 +107,7 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
         
       }
       return false
-    }, [validate, valueForm, llamado, error_Value, token, value_suplier]);
+    }, [validate, valueForm, llamado, error_Value, token, value_suplier, setValueSupplierId]);
 
     const onClickButton = async() => {
       const respuesta = await handleInsertSupplier();
@@ -235,7 +237,7 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
             value={value_suplier}
             onChange={(e) => setValueSupplier(Number(e.target.value))}
           >
-            <MenuItem value={100}>
+            <MenuItem value={100000}>
               <em>Proveedor Alternativo</em>
             </MenuItem>
             {suppliers.map((suplie) => (
