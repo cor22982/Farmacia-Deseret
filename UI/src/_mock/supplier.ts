@@ -24,6 +24,8 @@ export class Supplier {
 
   horarios: Schedule[];
 
+  alternativo: string | null;
+
   constructor(
     id: number,
     nombre: string,
@@ -34,7 +36,8 @@ export class Supplier {
     estadisponible: boolean,
     contacto: string,
     contacto_2: string | null,
-    horarios: Schedule[]
+    horarios: Schedule[],
+    alternativo: string | null
   ) {
     this.id = id;
     this.nombre = nombre;
@@ -46,6 +49,7 @@ export class Supplier {
     this.contacto = contacto;
     this.contacto_2 = contacto_2;
     this.horarios = horarios;
+    this.alternativo = alternativo;
   }
 }
 
@@ -59,6 +63,7 @@ export const useGetProveedores = () => {
     const response = await llamado(body, "POST");
 
     if (response.success && Array.isArray(response.proveedores)) {
+
       const proveedores = response.proveedores.map(
         (proveedor: {
           id: number;
@@ -71,6 +76,7 @@ export const useGetProveedores = () => {
           contacto_2: string;
           nombre: string;
           horarios: { id: number; dia: number; horario_apertura: string; horario_cierre: string; id_proveedor: number }[];
+          alternativo: { nombre: string } | null;
         }) => {
           const horarios = proveedor.horarios && Array.isArray(proveedor.horarios) && proveedor.horarios.length > 0
             ? proveedor.horarios.map((horario) => new Schedule(
@@ -92,7 +98,8 @@ export const useGetProveedores = () => {
             proveedor.estadisponible,
             proveedor.contacto,
             proveedor.contacto_2,
-            horarios // Setear los horarios
+            horarios,
+            proveedor.alternativo?.nombre || null
           );
         }
       );
@@ -118,7 +125,8 @@ export const useGetProveedores = () => {
             true,
             '',
             '',
-            []
+            [],
+            ''
           )
       );
     }
