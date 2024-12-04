@@ -221,3 +221,59 @@ export async function actualizarPP(id, pp) {
     return false;
   }
 }
+
+
+export async function getInfoId(id) {
+  try{
+    const products = await Product.findOne({
+      attributes: ['id','ganancia', 'costo','pp'],
+      where: { id: id }
+    });
+    console.log('Se otuvo los productos:');
+    return products;
+  }catch (error) {
+    console.error('Error al obtener los nombres de los usuarios:', error);
+    throw error;
+  }
+}
+
+
+export async function getProductDetails(id) {
+  try{
+    const products = await ProductDetail.findAll({
+      attributes: ['id', 'cantidad', 'fecha_compra', 'fecha_vencimiento', 'costo'],
+      where: { id_product: id },
+      include: [
+        {
+          model: Ubicacion,
+          as: 'ubicacion_product_detail',
+        },
+      ],
+   });
+    console.log('Se otuvo los productos:');
+    return products;
+  }catch (error) {
+    console.error('Error al obtener los productos:', error);
+    throw error;
+  }
+}
+
+
+export async function getProduct() {
+  try{
+    const products = await Product.findAll({
+      include: [
+        {
+          model: Supplier,
+          as: 'proveedor_id_product',
+          attributes: ['id', 'tipo', 'proveedor_alternativo', 'estadisponible', 'nombre'],
+        },
+      ],
+    });
+    console.log('Se otuvo los productos:');
+    return products;
+  }catch (error) {
+    console.error('Error al obtener los productos:', error);
+    throw error;
+  }
+}

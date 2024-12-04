@@ -6,7 +6,8 @@ import { getUsers, verifyUserCredentials,
   insertarUbicacion, getUbicaciones, 
   insertarSupplier, insertarHorario, 
   getHorarios_byId, getProveedoresConHorarios, getProveedores_id,
-insertarProducto, insertarProducto_Details, actualizarPP } from './database/database.js';
+insertarProducto, insertarProducto_Details, actualizarPP,
+getInfoId, getProductDetails, getProduct } from './database/database.js';
   
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
@@ -66,6 +67,76 @@ app.post('/upload', upload.single('file'), (req, res) => {
 
 
 //GET
+
+app.post('/getProdutsGanancia', async (req, res) => {
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const allproductsdetails = await getInfoId(req.body.id);
+      res.status(200).json({ success: true, message: 'Se obtuvo todas las ganancias', productinfoganancia: allproductsdetails});
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para obtener las ganancias'});
+    }
+  }catch (error) {
+    console.error('Error al obtener los productos:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+app.post('/getProductDetails', async (req, res) => {
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const allproductsdetails = await getProductDetails(req.body.id);
+      res.status(200).json({ success: true, message: 'Se obtuvo todos los detalles', productdetails: allproductsdetails});
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para obtener los detalles'});
+    }
+  }catch (error) {
+    console.error('Error al obtener los productos:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/getProducts', async (req, res) => {
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const allproducts = await getProduct();
+      res.status(200).json({ success: true, message: 'Se obtuvo todos los productos', products: allproducts});
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para obtener los productos'});
+    }
+  }catch (error) {
+    console.error('Error al obtener los productos:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/getImage',  (req, res) => {
+  const { image_product } = req.body;
+  const filePath = path.join('./imagenes_productos', image_product);
+  fs.readFile(filePath, (err, data) => {
+      if (err) {
+          return res.status(500).json({ error: err });
+      }
+      
+      // Encode the file to base64
+      const base64Image = data.toString('base64');
+      
+      // Create the JSON response
+      res.json({
+          success: true,
+          image: base64Image,
+      });
+  });
+});
+
 app.post('/ubicaciones', async (req, res) => {
   try {
     const validate_token = await validateToken(req.body.token)
