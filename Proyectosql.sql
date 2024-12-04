@@ -177,14 +177,18 @@ RETURNS TRIGGER AS $$
 BEGIN
     UPDATE products
     SET 
-			existencias = existencias + NEW.cantidad,
-			costo = NEW.costo,
-			ganancia = (pp - NEW.costo) / pp
-
+        existencias = existencias + NEW.cantidad,
+        costo = NEW.costo,
+        ganancia = CASE 
+                     WHEN pp <> 0 THEN (pp - NEW.costo) / pp
+                     ELSE 0
+                   END
     WHERE id = NEW.id_product;
+
     RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
+
 
 
 CREATE TRIGGER trigger_actualizar_products_por_details
@@ -202,10 +206,13 @@ EXECUTE FUNCTION actualizar_products_por_details();
 CREATE OR REPLACE FUNCTION actualizar_ganancia_al_actualizar_pp()
 RETURNS TRIGGER AS $$
 BEGIN
-    -- Recalcula la ganancia cuando pp es actualizado
+    -- Recalcula la ganancia cuando pp es actualizado, evitando división por cero
     UPDATE products
     SET 
-        ganancia = (NEW.pp - costo) / NEW.pp
+        ganancia = CASE 
+                     WHEN NEW.pp <> 0 THEN (NEW.pp - costo) / NEW.pp
+                     ELSE 0
+                   END
     WHERE id = NEW.id;
 
     RETURN NEW;
