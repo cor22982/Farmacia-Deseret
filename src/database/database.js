@@ -1,5 +1,5 @@
 import User from "../entityes/user.js";
-import {Supplier, Schedule, Ubicacion, Product} from "../entityes/relationships.js";
+import {Supplier, Schedule, Ubicacion, Product, ProductDetail} from "../entityes/relationships.js";
 import { response } from "express";
 
 export async function getUsers() {
@@ -178,5 +178,46 @@ export async function insertarProducto(nombre, forma_f, presentacion, id_supplie
   } catch (error) {
     console.error('Error al insertar el producto:', error);
     return null;
+  }
+}
+
+
+export async function insertarProducto_Details(cantidad, fechac, fechav, costo, id_product, id_ubicacion) {
+  try {
+    const resultado = await ProductDetail.create({
+      cantidad: cantidad,
+      fecha_compra: fechac,
+      fecha_vencimiento: fechav,
+      costo: costo,
+      id_product: id_product,
+      ubicacion_id: id_ubicacion
+    });
+    console.error('Se inserto con el id:', resultado.id);
+    return true;
+  } catch (error) {
+    console.error('Error al insertar los detalles del producto:', error);
+    return false;
+  }
+}
+
+
+export async function actualizarPP(id, pp) {
+  try {
+    const [updatedRows] = await Product.update({
+      pp: pp
+    }, {
+      where: { id: id }
+    });
+
+    if (updatedRows === 0) {
+      console.error('No se encontró ningún registro con el id proporcionado.');
+      return false;
+    }
+
+    console.log('Se actualizó el registro con id:', id);
+    return true;
+  } catch (error) {
+    console.error('Error al actualizar los detalles del producto:', error);
+    return false;
   }
 }
