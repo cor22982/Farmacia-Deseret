@@ -105,12 +105,43 @@ const useApi = (link) => {
     }
   };
 
+  const llamadowithFileAndBody = async (file, body, metodo) => {
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+
+      // Append body fields to FormData
+      Object.entries(body).forEach(([key, value]) => {
+        formData.append(key, value);
+      });
+
+      const fetchOptions = {
+        method: metodo,
+        body: formData,
+      };
+
+      const response = await fetch(link, fetchOptions);
+      const data = await response.json();
+
+      if (response.ok) {
+        return data;
+      }
+
+      setError(data);
+      return null;
+    } catch (err) {
+      setError(err);
+      return null;
+    }
+  };
+
   return {
     error,
     llamado,
     llamadowithoutbody,
     llamadowithheader,
     llamadowithheaderwithoutbody,
+    llamadowithFileAndBody,
     setError,
   };
 };

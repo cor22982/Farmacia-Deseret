@@ -191,7 +191,7 @@ export const ModalOferta = forwardRef<HTMLDivElement, ModalOfertaProps>(
              placeholder="Descripcion Medicamento"
              />
           </Box>
-          <UploadImage image={image} setImage={setImage} />
+          
           <br/>
           <Button
             variant="contained" color="inherit" component="label"

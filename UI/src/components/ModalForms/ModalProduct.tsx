@@ -1,6 +1,9 @@
 import React, { forwardRef , useState} from 'react';
 import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button } from '@mui/material';
+import useApi from 'src/hooks/useApi';
+import source_link from 'src/repository/source_repo';
 import { UploadImage } from '../UploadImage/UploadImage';
+
 
 interface ModalProductProps {
   open: boolean;
@@ -22,6 +25,30 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
   ({ open, handleClose, handleClick }, ref) => {
     const [value, setValue] = useState('Proveedor');
     const [image, setImage] = useState<string | null>(null);
+    const {llamadowithFileAndBody, error} = useApi(`${source_link}/upload`)
+    const [file, setFile] = useState<File | null>(null);
+
+    const handleSubmit = async () => {
+      if (!file) {
+        console.error('No file selected');
+        return;
+      }
+
+      const formData = {
+        name: 'Example Product',
+        tipo: 'Example Type',
+        activo: 'Example Active Ingredient',
+        descripcion: 'Example Description',
+      };
+
+      const response = await llamadowithFileAndBody(file, formData, 'POST');
+      if (response) {
+        console.log('Producto agregado exitosamente', response);
+      } else {
+        console.error('Error al insertar producto', error);
+      }
+    };
+
     return (
     <Modal 
       open={open} 
@@ -191,14 +218,14 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
              placeholder="Descripcion Medicamento"
              />
           </Box>
-          <UploadImage image={image} setImage={setImage} />
+          <UploadImage file={file} setFile={setFile} />
           <br/>
           <Button
             variant="contained" color="inherit" component="label"
             sx={{
               width:'100%'
             }}
-            onClick={handleClick}
+            onClick={handleSubmit}
           >INSERTAR PRODUCTO</Button>
         </Box>
     </Modal>
