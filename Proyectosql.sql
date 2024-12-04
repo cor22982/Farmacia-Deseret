@@ -196,3 +196,24 @@ EXECUTE FUNCTION actualizar_products_por_details();
 -- INSERT INTO productos_cantidades (cantidad, fecha_compra, fecha_vencimiento, costo, id_product, ubicacion_id)
 -- VALUES (100, '2024-12-01', '2025-12-01', 6.50, 3, 10);
 
+
+
+-- Crear función para actualizar ganancia cuando se modifica pp
+CREATE OR REPLACE FUNCTION actualizar_ganancia_al_actualizar_pp()
+RETURNS TRIGGER AS $$
+BEGIN
+    -- Recalcula la ganancia cuando pp es actualizado
+    UPDATE products
+    SET 
+        ganancia = (NEW.pp - costo) / NEW.pp
+    WHERE id = NEW.id;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Crear el trigger que se activa después de un UPDATE en el campo pp
+CREATE TRIGGER trigger_actualizar_ganancia_al_actualizar_pp
+AFTER UPDATE OF pp ON products
+FOR EACH ROW
+EXECUTE FUNCTION actualizar_ganancia_al_actualizar_pp();
