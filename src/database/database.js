@@ -1,6 +1,5 @@
 import User from "../entityes/user.js";
-import Ubicacion from "../entityes/ubicacion.js";
-import {Supplier, Schedule} from "../entityes/relationships.js";
+import {Supplier, Schedule, Ubicacion} from "../entityes/relationships.js";
 import { response } from "express";
 
 export async function getUsers() {

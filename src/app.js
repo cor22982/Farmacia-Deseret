@@ -1,15 +1,18 @@
 import express from 'express';
+import multer from 'multer';
+import fs from 'fs';
+import path from 'path';
 import { getUsers, verifyUserCredentials, 
   insertarUbicacion, getUbicaciones, 
   insertarSupplier, insertarHorario, 
   getHorarios_byId, getProveedoresConHorarios, getProveedores_id } from './database/database.js';
-const app = express();
-const port = 3000;
+  
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
-
 import cors from 'cors';
 // Middleware para procesar el cuerpo de las solicitudes JSON
 
+const app = express();
+const port = 3000;
 
 const corsOptions = {
   origin: ['http://127.0.0.1:3000', 'http://localhost:4000'], // Permite tanto el dominio de Netlify como el local
@@ -18,11 +21,31 @@ const corsOptions = {
   optionsSuccessStatus: 200,
 };
 
+
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, './imagenes_productos');
+  },
+  filename: (req, file, cb) => {
+    cb(null, file.originalname);
+  }
+});
+
 app.use(cors(corsOptions));
+const upload = multer({ storage });
 app.use(express.json());
 
 app.get('/', (req, res) => {
   res.send('Farmacia Deseret');
+});
+
+
+
+//Upload Imagen
+
+app.post('/upload', upload.single('image'), (req, res) => {
+    res.json({ message: 'Imagen subida correctamente'});
+  
 });
 
 
