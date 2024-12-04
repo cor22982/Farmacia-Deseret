@@ -191,3 +191,8 @@ CREATE TRIGGER trigger_actualizar_products_por_details
 AFTER INSERT ON productos_cantidades
 FOR EACH ROW
 EXECUTE FUNCTION actualizar_products_por_details();
+
+
+-- INSERT INTO productos_cantidades (cantidad, fecha_compra, fecha_vencimiento, costo, id_product, ubicacion_id)
+-- VALUES (100, '2024-12-01', '2025-12-01', 6.50, 3, 10);
+
