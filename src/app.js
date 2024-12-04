@@ -5,7 +5,8 @@ import path from 'path';
 import { getUsers, verifyUserCredentials, 
   insertarUbicacion, getUbicaciones, 
   insertarSupplier, insertarHorario, 
-  getHorarios_byId, getProveedoresConHorarios, getProveedores_id } from './database/database.js';
+  getHorarios_byId, getProveedoresConHorarios, getProveedores_id,
+insertarProducto } from './database/database.js';
   
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
@@ -132,6 +133,33 @@ app.post('/horarios_byId', async (req, res) => {
 });
 
 //POSTS
+
+
+app.post('/insertProduct', upload.single('file'), async(req, res) => {
+  const filePath = path.join('./imagenes_productos', req.file.filename);
+
+  try {
+    const {rol} = await decodeToken(req.body.token)
+    const validate_token = await validateToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const { nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion} = req.body;
+      const response = await insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, req.file.filename);
+      if (response) {
+        res.status(200).json({ success: true, message: 'Se inserto de manera exitosa', id: response});
+      } else {
+        res.status(401).json({ success: false, message: 'No se inserto de manera exitosa'});
+      }
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para insertar'});
+    }
+
+    
+  } catch (error) {
+    console.error('Error al insertar el producto:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+  
+});
 
 app.post('/insertUbicacion', async (req, res) => {
   try {

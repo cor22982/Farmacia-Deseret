@@ -1,5 +1,5 @@
 import User from "../entityes/user.js";
-import {Supplier, Schedule, Ubicacion} from "../entityes/relationships.js";
+import {Supplier, Schedule, Ubicacion, Product} from "../entityes/relationships.js";
 import { response } from "express";
 
 export async function getUsers() {
@@ -152,6 +152,31 @@ export async function insertarSupplier(nombre, direccion, telefono, proveedor_al
     return resultado.id;
   } catch (error) {
     console.error('Error al insertar ubicación:', error);
+    return null;
+  }
+}
+
+export async function insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, imagen) {
+  try {
+    const resultado = await Product.create({
+      nombre: nombre,
+      forma_farmaceutica: forma_f,
+      descripcion_uso: descripcion,
+      imagen: imagen,
+      costo: 0,
+      pp:0,
+      presentacion: presentacion,
+      principio_activo: activo_principal,
+      existencias: 0,
+      controlado: isControlado,
+      proveedor: id_supplier,
+      ganancia: 0,
+      tipo: 'normal'
+    });
+    console.error('Se inserto con el id:', resultado.id);
+    return resultado.id;
+  } catch (error) {
+    console.error('Error al insertar el producto:', error);
     return null;
   }
 }
