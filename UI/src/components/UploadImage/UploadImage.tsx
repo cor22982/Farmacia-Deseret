@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React, { forwardRef, useState } from 'react';
 import { Box, Button, Typography } from '@mui/material';
 
 interface UploadImageProps {
@@ -8,8 +8,10 @@ interface UploadImageProps {
 
 export const UploadImage = forwardRef<HTMLDivElement, UploadImageProps>(
   ({ file, setFile }, ref) => {
+    const [preview, setPreview] = useState<string | null>(null);
     const handleFile = (file_give: File) => {
       setFile(file_give); // Set the file object
+      setPreview(URL.createObjectURL(file_give));
     };
 
     const handleDrop = (event: React.DragEvent<HTMLDivElement>) => {
@@ -59,6 +61,20 @@ export const UploadImage = forwardRef<HTMLDivElement, UploadImageProps>(
         {file && (
           <Box mt={2}>
             <Typography variant="subtitle1">{file.name}</Typography>
+            {preview && (
+              <Box
+                mt={2}
+                component="img"
+                src={preview}
+                alt="Preview"
+                sx={{
+                  maxWidth: '20%',
+                  maxHeight: '300px',
+                  borderRadius: '8px',
+                  border: '1px solid #ccc',
+                }}
+              />
+            )}
           </Box>
         )}
       </Box>
