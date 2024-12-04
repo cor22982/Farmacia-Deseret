@@ -43,9 +43,24 @@ app.get('/', (req, res) => {
 
 //Upload Imagen
 
-app.post('/upload', upload.single('image'), (req, res) => {
-    res.json({ message: 'Imagen subida correctamente'});
-  
+app.post('/upload', upload.single('file'), (req, res) => {
+  const filePath = path.join('./imagenes_productos', req.file.filename);
+  console.log(req.body)
+  // Read the image file and encode it to base64
+  fs.readFile(filePath, (err, data) => {
+      if (err) {
+          return res.status(500).json({ error: err });
+      }
+      
+      // Encode the file to base64
+      const base64Image = data.toString('base64');
+      
+      // Create the JSON response
+      res.json({
+          filename: req.file.filename,
+          image: base64Image,
+      });
+  });
 });
 
 
