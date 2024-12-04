@@ -225,7 +225,7 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             sx={{
               width:'100%'
             }}
-            onClick={handleSubmit}
+            onClick={handleClick}
           >INSERTAR PRODUCTO</Button>
         </Box>
     </Modal>
