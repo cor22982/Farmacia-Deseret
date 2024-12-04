@@ -168,3 +168,26 @@ alter table horario add column dia integer;
   GRANT USAGE, SELECT, UPDATE ON SEQUENCE horario_id_seq TO ownerfarmacia;
 
 alter table ubicaciones add column lugar_farmacia varchar(500);
+
+
+
+
+CREATE OR REPLACE FUNCTION actualizar_products_por_details()
+RETURNS TRIGGER AS $$
+BEGIN
+    UPDATE products
+    SET 
+			existencias = existencias + NEW.cantidad,
+			costo = NEW.costo,
+			ganancia = (pp - NEW.costo) / pp
+
+    WHERE id = NEW.id_product;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+
+CREATE TRIGGER trigger_actualizar_products_por_details
+AFTER INSERT ON productos_cantidades
+FOR EACH ROW
+EXECUTE FUNCTION actualizar_products_por_details();
