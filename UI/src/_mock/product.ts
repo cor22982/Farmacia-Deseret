@@ -77,6 +77,8 @@ export class Product {
 export const useGetProducts = () =>{
   const { llamado } = useApi(`${source_link}/getProducts`);
   const { llamado:imagen_get } = useApi(`${source_link}/getImage`);
+  const {llamadowithoutbody} = useApi(`${source_link}/products_id`);
+  
   const { getDetails_ById } = useGetProduct_Details();
   const {token} = useToken();
   const { llamado: getGanancias_api } = useApi(`${source_link}/getProdutsGanancia`);
@@ -155,8 +157,7 @@ export const useGetProducts = () =>{
     return [];
   };
 
-  const getGanancia = async (product_id:number): Promise<Product | string> => {
-    
+  const getGanancia = async (product_id:number): Promise<Product | null> => {
     const body = { token, id:product_id };
     const response = await getGanancias_api(body, "POST");
 
@@ -180,10 +181,49 @@ export const useGetProducts = () =>{
     )
     return ganancia
   }
-    return response.message
+    return null
 
   }
 
-  return { getProductInfo, getGanancia };
+  const getProducts_OnlyId = async (): Promise<Product[]> => {
+
+    const response = await llamadowithoutbody("GET");
+
+    if (response.success && Array.isArray(response.products)) {
+      // Procesamos todos los productos con `Promise.all`
+      const products = await Promise.all(
+        response.products.map(async (product: {
+          id: number;
+          nombre: string;
+         
+          
+        }) =>  new Product(
+            product.id,
+            product.nombre,
+            '',
+            '',
+            '',
+            0,
+            0,
+            '',
+            '',
+            0,
+            true,
+            null,
+            0,
+            '',
+            []
+          )
+        )
+      );
+
+      return products;
+    }
+
+    return []
+
+  }
+
+  return { getProductInfo, getGanancia ,  getProducts_OnlyId};
 
 }
