@@ -32,8 +32,18 @@ const schema_pp = object({
   pp: number().required('El precio publico es requerido')
 })
 
+const schema = object({
+  cantidad: number().required('La cantidad es requerida'),
+  fechac: string().required('La fecha de compra es obligatoria'),
+  fechav: string().required('La fecha de vencimiento es obligatoria'),
+  costo: number().required('El costo es obligatorio'),
+  
+})
+
 export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailProps>(
   ({ open, handleClose, handleClick, id }, ref) => {
+
+
     const [value_ubicacion, setValueUbicacion] = useState(100000); 
     const [productdetails, setProductDetails] = useState<ProductDetail[]>([]);
     const {getDetails_ById} = useGetProduct_Details();
@@ -44,6 +54,8 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
     const {token} = useToken()
     const { getPlaces } = useGetPlaces();
     const {llamado} = useApi(`${source_link}/updatePP`)
+    const {llamado: insertdetail} = useApi(`${source_link}/insertProductDetails`)
+    const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { cantidad: 0, fechac: '', fechav: '', costo: 0})
 
 
     const { values: valuepp, setValue: setValuepp, validate: validatepp, errors: errorpp } = useForm(schema_pp, { pp:0})
@@ -51,6 +63,11 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
     const handleChange_Update = (e: React.ChangeEvent<HTMLInputElement>) => {
       const { name, value } = e.target;
       setValuepp(name as keyof typeof valuepp, value);
+    };
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const { name, value } = e.target;
+      setValueForm(name as keyof typeof valueForm, value);
     };
 
     useEffect(() => {
@@ -93,6 +110,33 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
     }, [validatepp, valuepp, llamado, id, token]);
 
 
+    const handleInsertDetail = useCallback(async() => {
+      const isValid = await validate();
+      if (isValid) {
+        const body = {
+          token,
+          cantidad: Number(valueForm.cantidad),
+          fechac: valueForm.fechac,
+          fechav: valueForm.fechav,
+          costo: Number(valueForm.costo),
+          id_product: id,
+          id_ubicacion: value_ubicacion
+
+        };
+        const response = await insertdetail(body, 'POST');
+        if (response) {
+          if (response.success === true){
+            console.log(response)            
+          }
+          
+        }
+        
+        
+      }
+      return false
+    }, [validate, valueForm, id, token, value_ubicacion, insertdetail]);
+
+
     return (
     <Modal 
       open={open} 
@@ -125,6 +169,12 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
               label="Cantidad"
               type='number'
               defaultValue=""
+              
+              error={!!errors.cantidad}
+              helperText={errors.cantidad}
+              onChange={handleChange}
+              value={valueForm.cantidad}
+
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 0.2,
@@ -148,6 +198,12 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
               label="Fecha Compra"
               defaultValue=""
               type='date'
+
+              error={!!errors.fechac}
+              helperText={errors.fechac}
+              onChange={handleChange}
+              value={valueForm.fechac}
+
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 0.2,
@@ -171,6 +227,11 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
               label="Fecha Vencimiento"
               defaultValue=""
               type='date'
+              error={!!errors.fechav}
+              helperText={errors.fechav}
+              onChange={handleChange}
+              value={valueForm.fechav}
+              
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 0.2,
@@ -196,6 +257,10 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
                 label="Costo"
                 type='number'
                 defaultValue=""
+                error={!!errors.costo}
+                helperText={errors.costo}
+                onChange={handleChange}
+                value={valueForm.costo}
                 InputLabelProps={{ shrink: true }}
                 sx={{
                   mb: 0.2,
@@ -251,10 +316,11 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
          
           <Button
             variant="contained" color="inherit" component="label"
+            
             sx={{
               width:'100%'
             }}
-            onClick={handleClick}
+            onClick={handleInsertDetail}
           >INSERTAR NUEVA CANTIDAD DE PRODUCTO</Button>
           <br/>
           <br/>
