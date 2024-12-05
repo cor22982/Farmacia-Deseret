@@ -6,9 +6,10 @@ import { DashboardContent } from 'src/layouts/dashboard';
 import { RouterLink } from 'src/routes/components';
 import { SimpleLayout } from 'src/layouts/simple';
 import { Iconify } from 'src/components/iconify';
-import { useState, useCallback } from 'react';
-import ProductCard from 'src/components/ProductCard/ProductCard';
+import { useState, useCallback, useEffect } from 'react';
+import {ProductCard} from 'src/components/ProductCard/ProductCard';
 import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
+import { useGetProducts, Product } from 'src/_mock/product';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
 import { ProductsFilterList } from './components/products_filter_list';
 import { ProductSearchItem } from './components/products_search';
@@ -21,7 +22,23 @@ export function AddProductsView() {
   const [openm2, setOpenM2] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
   const [valueProduct, setValueProduct] = useState(0);
+  const {getProductInfo} = useGetProducts();
+  const [product, setProductos] = useState<Product[]>([]);
 
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const fetchedProducts = await getProductInfo();
+        setProductos(fetchedProducts)
+        
+      
+      } catch (error) {
+        console.error("Error fetching places:", error);
+      }
+    };
+ 
+    fetchProducts();
+  }, [getProductInfo, setProductos ]); 
 
   const handleSort = useCallback((newSort: string) => {
     setSortBy(newSort);
@@ -119,7 +136,11 @@ export function AddProductsView() {
         </Box>
    
         </Box>
-    <ProductCard/>
+    {product.map((p) => (
+        <Box sx={{paddingBottom: '1rem'}}>
+            <ProductCard product={p}/>
+          </Box>
+        ))}
     </DashboardContent>
   );
 }

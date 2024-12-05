@@ -1,4 +1,5 @@
 import { useTheme } from '@mui/material/styles';
+import React, { forwardRef , useState, useEffect,  useCallback} from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -6,12 +7,19 @@ import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { Button } from '@mui/material';
+import useToken from 'src/hooks/useToken';
 import Grid from '@mui/material/Unstable_Grid2';
+import { Product} from 'src/_mock/product';
 import { Iconify } from 'src/components/iconify';
 
-export default function ProductCard() {
-  
+interface ProductCardProps {
+  product: Product;
+}
 
+export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
+  
+  ({ product }, ref) => {
+    const {token} = useToken()
   return (
     <Card sx={{ display: 'flex', padding: '1rem' }} >
       <CardMedia
@@ -22,6 +30,7 @@ export default function ProductCard() {
       />
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
+
           <Box sx={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
             <Typography component="div" variant="h5">
               Producto
@@ -103,5 +112,5 @@ export default function ProductCard() {
       </Box>
       
     </Card>
-  );
-}
+  )}
+)

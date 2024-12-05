@@ -7,7 +7,7 @@ import { RouterLink } from 'src/routes/components';
 import { SimpleLayout } from 'src/layouts/simple';
 import { Iconify } from 'src/components/iconify';
 import { useState, useCallback, useEffect } from 'react';
-import ProductCard from 'src/components/ProductCard/ProductCard';
+import { ProductCard} from 'src/components/ProductCard/ProductCard';
 import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
 import {SupplierCard} from 'src/components/SupplierCard/SupplierCard';
@@ -149,7 +149,7 @@ export function AddSourcerView() {
         </Box>
     
         </Box>
-      <Box sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
+      <Box >
         {filteredSupplier.map((suplier) => (
           <Box sx={{paddingBottom: '1rem'}}>
             <SupplierCard   key={suplier.id} suplier={suplier}/>

@@ -63,7 +63,7 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
           console.error("Error fetching places:", error);
         }
       };
-  
+   
       fetchSupplier();
     }, [getProvedor_ById, setSupliers, suppliers ]); 
 

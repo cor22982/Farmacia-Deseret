@@ -8,7 +8,7 @@ import { RouterLink } from 'src/routes/components';
 import { SimpleLayout } from 'src/layouts/simple';
 import { Iconify } from 'src/components/iconify';
 import { useState, useCallback, useEffect } from 'react';
-import ProductCard from 'src/components/ProductCard/ProductCard';
+import { ProductCard} from 'src/components/ProductCard/ProductCard';
 import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
 import {PlaceSupCard} from 'src/components/PlaceCard/PlaceCard';
