@@ -135,10 +135,12 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
               name="nombre"
               label="Nombre"
               defaultValue=""
+
               error={!!errors.nombre}
               helperText={errors.nombre}
               onChange={handleChange}
               value={valueForm.nombre}
+              
               InputLabelProps={{ shrink: true }}
               sx={{
                 mb: 0.2,
