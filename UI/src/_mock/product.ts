@@ -1,8 +1,8 @@
 import useApi from "src/hooks/useApi";
 import useToken from "src/hooks/useToken";
 import source_link from "src/repository/source_repo";
-import { Supplier } from "./supplier";
-import { ProductDetail } from "./product_detail";
+import { Supplier} from "./supplier";
+import { ProductDetail, useGetProduct_Details } from "./product_detail";
 
 
 export class Product {
@@ -10,7 +10,6 @@ export class Product {
 
   nombre: string;
 
-  horario_cierre: string;
 
   forma_farmaceutica: string;
 
@@ -30,7 +29,7 @@ export class Product {
 
   controlado: boolean;
 
-  proveedor: Supplier;
+  proveedor: Supplier | null;
 
   ganancia: number;
 
@@ -41,7 +40,6 @@ export class Product {
   constructor(
     id: number,
     nombre: string,
-    horario_cierre: string,
     forma_farmaceutica: string,
     descripcion_uso: string,
     imagen: string,
@@ -51,7 +49,7 @@ export class Product {
     principio_activo: string,
     existencias: number,
     controlado: boolean,
-    proveedor: Supplier,
+    proveedor: Supplier | null,
     ganancia: number,
     tipo: string,
     listdetails: ProductDetail[],
@@ -59,7 +57,6 @@ export class Product {
   ) {
     this.id = id;
     this.nombre = nombre;
-    this.horario_cierre = horario_cierre;
     this.forma_farmaceutica = forma_farmaceutica;
     this.descripcion_uso = descripcion_uso;
     this.imagen = imagen;
@@ -74,4 +71,119 @@ export class Product {
     this.tipo = tipo;
     this.listdetails = listdetails
   }
+}
+
+
+export const useGetProducts = () =>{
+  const { llamado } = useApi(`${source_link}/getProducts`);
+  const { llamado:imagen_get } = useApi(`${source_link}/getImage`);
+  const { getDetails_ById } = useGetProduct_Details();
+  const {token} = useToken();
+  const { llamado: getGanancias_api } = useApi(`${source_link}/getProdutsGanancia`);
+
+  const getProductInfo = async (): Promise<Product[]> => {
+    const body = { token };
+    const response = await llamado(body, "POST");
+
+    if (response.success && Array.isArray(response.products)) {
+      // Procesamos todos los productos con `Promise.all`
+      const products = await Promise.all(
+        response.products.map(async (product: {
+          id: number;
+          nombre: string;
+          forma_farmaceutica: string;
+          descripcion_uso: string;
+          imagen: string;
+          costo: string;
+          pp: string;
+          presentacion: string;
+          principio_activo: string;
+          existencias: number;
+          controlado: boolean;
+          proveedor: number;
+          ganancia: string;
+          tipo: string;
+          proveedor_id_product: {
+            id: number;
+            tipo: string;
+            proveedor_alternativo: number;
+            estadisponible: boolean;
+            nombre: string;
+          };
+        }) => {
+          const supplier = new Supplier(
+            product.proveedor_id_product.id,
+            product.proveedor_id_product.nombre,
+            '',
+            product.proveedor_id_product.tipo,
+            '',
+            product.proveedor_id_product.proveedor_alternativo,
+            product.proveedor_id_product.estadisponible,
+            '',
+            '',
+            [],
+            ''
+          );
+
+          const body2 = { image_product: product.imagen };
+          const response2 = await imagen_get(body2, "POST");
+          const product_details = await getDetails_ById(product.id);
+
+          return new Product(
+            product.id,
+            product.nombre,
+            product.forma_farmaceutica,
+            product.descripcion_uso,
+            response2.image,
+            Number(product.costo),
+            Number(product.pp),
+            product.presentacion,
+            product.principio_activo,
+            product.existencias,
+            product.controlado,
+            supplier,
+            Number(product.ganancia),
+            product.tipo,
+            product_details
+          );
+        })
+      );
+
+      return products;
+    }
+
+    return [];
+  };
+
+  const getGanancia = async (product_id:number): Promise<Product | string> => {
+    
+    const body = { token, id:product_id };
+    const response = await getGanancias_api(body, "POST");
+
+    if (response.success){
+    const ganancia = new Product(
+      product_id,
+      '',
+      '',
+      '',
+      '',
+      Number(response.productinfoganancia.costo),
+      Number(response.productinfoganancia.pp),
+      '',
+      '',
+      0,
+      true,
+      null,
+      Number(response.productinfoganancia.ganancia),
+      '',
+      []
+    )
+    return ganancia
+  }
+    return response.message
+
+  }
+
+  return { getProductInfo, getGanancia };
+
 }
