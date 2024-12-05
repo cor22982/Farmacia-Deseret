@@ -35,6 +35,20 @@ export class ProductDetail {
     this.id_product = id_product;
     this.ubicacion = ubicacion;
   }
+
+  getDetails_Products(): string {
+    return `${this.ubicacion.lugar_farmacia === 'bodega' ? 'Bodega' : 'Cantidad'}: ${this.cantidad}`;
+  }
+
+  get_fechas(): string {
+    const date = new Date(this.fecha_vencimiento); // Convierte la fecha en un objeto Date
+    const day = String(date.getDate()).padStart(2, '0'); // Asegura que el día tenga 2 dígitos
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // Asegura que el mes tenga 2 dígitos (getMonth es 0-indexado)
+    const year = String(date.getFullYear()).slice(-2); // Extrae los dos últimos dígitos del año
+  
+    return `Fecha de Vencimiento: ${day}/${month}/${year}`;
+  }
+  
 }
 
 
@@ -57,8 +71,8 @@ export const useGetProduct_Details = () =>{
         }) => {
           const ubicacion_delproducto = new Place(
             detail.ubicacion_product_detail.id.toString(),
+            detail.ubicacion_product_detail.ubicacion,
             detail.ubicacion_product_detail.lugar_farmacia,
-            detail.ubicacion_product_detail.ubicacion
           )
 
           return new ProductDetail(

@@ -15,6 +15,7 @@ interface ModalProductProps {
   open: boolean;
   handleClose: () => void;
   handleClick: () => void;
+  setValueProductId: (id:number) => void;
 }
 const style = {
   position: 'absolute',
@@ -37,7 +38,7 @@ const schema = object({
 })
 
 export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
-  ({ open, handleClose, handleClick }, ref) => {
+  ({ open, handleClose, handleClick, setValueProductId }, ref) => {
 
     const [value_suplier, setValueSupplier] = useState(100000); 
 
@@ -115,6 +116,7 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             title: "Se Inserto de manera exitosa",
             text: response.message,
           });
+          setValueProductId(response.id)
           handleClick();
           
         }else{Swal.fire({
@@ -328,7 +330,7 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             sx={{
               width:'100%'
             }}
-            onClick={handleSubmit}
+            onClick={handleClick}
           >INSERTAR PRODUCTO</Button>
         </Box>
     </Modal>

@@ -20,6 +20,8 @@ export function AddProductsView() {
   const [openm, setOpenM] = useState(false);
   const [openm2, setOpenM2] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
+  const [valueProduct, setValueProduct] = useState(3);
+
 
   const handleSort = useCallback((newSort: string) => {
     setSortBy(newSort);
@@ -32,11 +34,13 @@ export function AddProductsView() {
   return (
     <DashboardContent>
       <ModalProduct
+        setValueProductId={setValueProduct}
         open={openm}
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
       />
       <ModalProductDetail
+        id={valueProduct}
         open={openm2}
         handleClose={() => setOpenM2(false)}
         handleClick={handleClicked}

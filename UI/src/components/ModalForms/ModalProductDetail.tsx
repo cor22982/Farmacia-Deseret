@@ -1,11 +1,14 @@
-import React, { forwardRef , useState} from 'react';
+import React, { forwardRef , useState, useEffect} from 'react';
 import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid } from '@mui/material';
+import { Place, useGetPlaces} from 'src/_mock/places';
+import { useGetProduct_Details, ProductDetail } from 'src/_mock/product_detail';
 import { UploadImage } from '../UploadImage/UploadImage';
 
 interface ModalProductDetailProps {
   open: boolean;
   handleClose: () => void;
   handleClick: () => void;
+  id: number;
 }
 const style = {
   position: 'absolute',
@@ -19,9 +22,30 @@ const style = {
   p: 2,
 };
 export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailProps>(
-  ({ open, handleClose, handleClick }, ref) => {
-    const [value, setValue] = useState('Proveedor');
+  ({ open, handleClose, handleClick, id }, ref) => {
+    const [value_ubicacion, setValueUbicacion] = useState(100000); 
+    const [productdetails, setProductDetails] = useState<ProductDetail[]>([]);
+    const {getDetails_ById} = useGetProduct_Details();
     const [image, setImage] = useState<string | null>(null);
+    const [ubicaciones, setUbicaciones] = useState<Place[]>([]);
+    const { getPlaces } = useGetPlaces();
+
+
+    useEffect(() => {
+      const fetchPlaces = async () => {
+        try {
+          const fetchedPlaces = await getPlaces();
+          const details = await getDetails_ById(id);
+          setProductDetails(details)
+          setUbicaciones(fetchedPlaces)     
+        } catch (error) {
+          console.error("Error fetching places:", error);
+        }
+      };
+  
+      fetchPlaces();
+    }, [getPlaces, setUbicaciones, setProductDetails, getDetails_ById, id ]); 
+
     return (
     <Modal 
       open={open} 
@@ -37,26 +61,14 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
           <br/>
           <Box display="flex" alignContent="center" justifyContent="center" paddingLeft="5rem">
           <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 1, md: 1 }}>
-            
-            <Grid fontSize={6} display="flex" justifyContent="center" alignContent='center'>
-              <Box sx={{ display: 'flex', flexDirection: 'row', gap:'15rem'}} >
-                <Typography variant="body2">Cantidad: 20</Typography>
-                <Typography variant="body2">Fecha Vencimiento: 31/12/2024</Typography>
-              </Box>
-            </Grid>
-            <Grid fontSize={6}>
-              <Box sx={{ display: 'flex', flexDirection: 'row', gap:'15rem'}} >
-                <Typography variant="body2">Cantidad: 20</Typography>
-                <Typography variant="body2">Fecha Vencimiento: 31/12/2024</Typography>
-              </Box>
-            </Grid>
-            <Grid fontSize={6}>
-              <Box sx={{ display: 'flex', flexDirection: 'row', gap:'15rem'}} >
-                <Typography variant="body2">Cantidad: 20</Typography>
-                <Typography variant="body2">Fecha Vencimiento: 31/12/2024</Typography>
-              </Box>
-            </Grid>
-          
+          {productdetails.map((detail) => (
+              <Grid fontSize={6} display="flex" justifyContent="center" alignContent='center'>
+                <Box sx={{ display: 'flex', flexDirection: 'row', gap:'5rem', paddingLeft: '5rem'}} >
+                  <Typography variant="body2">{detail.getDetails_Products()}</Typography>  
+                  <Typography variant="body2">{detail.get_fechas()}</Typography>  
+                </Box>
+              </Grid>
+            ))}        
           </Grid>    
           </Box>
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
@@ -174,15 +186,17 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
               },
             }}
             
-            value={value}
-            onChange={(e) => {setValue(e.target.value)}}
+            value={value_ubicacion}
+            onChange={(e) => setValueUbicacion(Number(e.target.value))}
           >
-            <MenuItem value="Ubicacion">
+            <MenuItem value={100000}>
               <em>Ubicacion</em>
             </MenuItem>
-            <MenuItem value="opcion1">Opción 1</MenuItem>
-            <MenuItem value="opcion2">Opción 2</MenuItem>
-            <MenuItem value="opcion3">Opción 3</MenuItem>
+            {ubicaciones.map((ubicacion) => (
+              <MenuItem value={ubicacion.id}>
+                <em>{ubicacion.ubicacion}({ubicacion.lugar_farmacia})</em>
+              </MenuItem>
+            ))}
           </Select>
           </FormControl>
           
