@@ -2,6 +2,7 @@ import React, { forwardRef , useState, useEffect} from 'react';
 import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid } from '@mui/material';
 import { Place, useGetPlaces} from 'src/_mock/places';
 import { useGetProduct_Details, ProductDetail } from 'src/_mock/product_detail';
+import { Product, useGetProducts } from 'src/_mock/product';
 import { UploadImage } from '../UploadImage/UploadImage';
 
 interface ModalProductDetailProps {
@@ -28,6 +29,9 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
     const {getDetails_ById} = useGetProduct_Details();
     const [image, setImage] = useState<string | null>(null);
     const [ubicaciones, setUbicaciones] = useState<Place[]>([]);
+    const {getGanancia} = useGetProducts();
+    const [ganancia, setGanancia]  = useState<Product | null>(null);
+
     const { getPlaces } = useGetPlaces();
 
 
@@ -36,6 +40,8 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
         try {
           const fetchedPlaces = await getPlaces();
           const details = await getDetails_ById(id);
+          const ganancia_give = await getGanancia(id);
+          setGanancia(ganancia_give)
           setProductDetails(details)
           setUbicaciones(fetchedPlaces)     
         } catch (error) {
@@ -44,7 +50,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
       };
   
       fetchPlaces();
-    }, [getPlaces, setUbicaciones, setProductDetails, getDetails_ById, id ]); 
+    }, [getPlaces, setUbicaciones, setProductDetails, getDetails_ById, id, getGanancia, setGanancia ]); 
 
     return (
     <Modal 
@@ -237,9 +243,11 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
             />
             <Box width="100%" flexDirection="column" >
               <Box flexDirection="row" width="300px">
-                <Typography variant='h5'>Ganancia: 100.00</Typography>
-                <Typography variant='h5'>Costo: 100.00</Typography>
-                <Typography variant='h5'>PP: 100.00</Typography>
+              <Typography variant='h5'>
+                Ganancia: {ganancia && ganancia.ganancia !== null ? parseFloat((ganancia.ganancia * 100).toFixed(1)) : 0}%
+              </Typography>
+                <Typography variant='h5'>Costo: Q {ganancia?.costo}</Typography>
+                <Typography variant='h5'>PP: Q {ganancia?.pp}</Typography>
               </Box>
              <Button
                 variant="contained" color="inherit" component="label"
