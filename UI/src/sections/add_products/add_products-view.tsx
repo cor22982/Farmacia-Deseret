@@ -30,7 +30,6 @@ export function AddProductsView() {
       try {
         const fetchedProducts = await getProductInfo();
         setProductos(fetchedProducts)
-        
       
       } catch (error) {
         console.error("Error fetching places:", error);
