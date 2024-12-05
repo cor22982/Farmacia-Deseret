@@ -20,7 +20,7 @@ export function AddProductsView() {
   const [openm, setOpenM] = useState(false);
   const [openm2, setOpenM2] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
-  const [valueProduct, setValueProduct] = useState(3);
+  const [valueProduct, setValueProduct] = useState(0);
 
 
   const handleSort = useCallback((newSort: string) => {
