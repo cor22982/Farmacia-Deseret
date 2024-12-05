@@ -53,6 +53,17 @@ export async function getProveedores_id() {
   }
 }
 
+export async function getProduct_id() {
+  try{
+    const products = await Product.findAll({
+      attributes: ['id','nombre'],
+    });
+    return products;
+  }catch (error) {
+    throw error;
+  }
+}
+
 export async function getProveedoresConHorarios() {
   try {
     const proveedores = await Supplier.findAll({

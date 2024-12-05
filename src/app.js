@@ -7,7 +7,7 @@ import { getUsers, verifyUserCredentials,
   insertarSupplier, insertarHorario, 
   getHorarios_byId, getProveedoresConHorarios, getProveedores_id,
 insertarProducto, insertarProducto_Details, actualizarPP,
-getInfoId, getProductDetails, getProduct } from './database/database.js';
+getInfoId, getProductDetails, getProduct, getProduct_id } from './database/database.js';
   
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
@@ -181,6 +181,17 @@ app.post('/proveedores_byid', async (req, res) => {
     } else{
       res.status(401).json({ success: false, message: 'No tienes permisos para obtener los proveedores'});
     }
+  }catch (error) {
+    console.error('Error al obtener los proveedores:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.get('/products_id', async (req, res) => {
+  try {
+    const allproducts = await getProduct_id()
+    res.status(200).json({ success: true, products: allproducts});
   }catch (error) {
     console.error('Error al obtener los proveedores:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });
