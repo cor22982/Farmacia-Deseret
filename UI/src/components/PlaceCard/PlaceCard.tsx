@@ -29,35 +29,49 @@ export const  PlaceSupCard = forwardRef<HTMLDivElement,PlaceProps>(
   const {token} = useToken();
 
   const onDeleteButton = async() => {
-    const body = {
-      token,
-      id
-    };
-    const respuesta = await delete_place(body, 'DELETE');
-    if (respuesta) {
+    Swal.fire({
+      title: "Seguro que lo quieres eliminar?",
+      text: "No sera posible revertir los cambios!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Si elimina la ubicacion"
+    }).then(async(result) => {
+      if (result.isConfirmed) {
 
-      if (respuesta.success === true){
-        setCall(0)
-        Swal.fire({
-          icon: "success",
-          title: "Se elimino de manera exitosa",
-          text: respuesta.message,
-        });
-      }else{
-        Swal.fire({
-          icon: "error",
-          title: "No se puede eliminar",
-          text: "No tienes permiso para eliminar",
-        });
+        const body = {
+          token,
+          id
+        };
+        const respuesta = await delete_place(body, 'DELETE');
+        if (respuesta) {
+    
+          if (respuesta.success === true){
+            setCall(0)
+            Swal.fire({
+              icon: "success",
+              title: "Se elimino de manera exitosa",
+              text: respuesta.message,
+            });
+          }else{
+            Swal.fire({
+              icon: "error",
+              title: "No se puede eliminar",
+              text: "No tienes permiso para eliminar",
+            });
+          }
+    
+        }else{
+          Swal.fire({
+            icon: "error",
+            title: "Error",
+            text:  "No se puede eliminar"
+          });
+        }
       }
-
-    }else{
-      Swal.fire({
-        icon: "error",
-        title: "Error",
-        text:  "No se puede eliminar"
-      });
-    }
+    });
+   
     
   }
 
