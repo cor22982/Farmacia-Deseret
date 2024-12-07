@@ -225,6 +225,9 @@ AFTER UPDATE OF pp ON products
 FOR EACH ROW
 EXECUTE FUNCTION actualizar_ganancia_al_actualizar_pp();
 
+
+
+
 -- Eliminar restricciones existentes
 ALTER TABLE horario DROP CONSTRAINT fk_id_proveedor;
 ALTER TABLE proveedores DROP CONSTRAINT fk_proveedor;
@@ -243,3 +246,10 @@ ALTER TABLE products
     ADD CONSTRAINT fk_proveedor FOREIGN KEY (proveedor)
     REFERENCES proveedores(id) ON DELETE CASCADE;
 
+-- Eliminar la restricción actual si es necesario
+ALTER TABLE productos_cantidades DROP CONSTRAINT fk_ubicaciones;
+
+-- Agregar la restricción con ON DELETE CASCADE
+ALTER TABLE productos_cantidades
+    ADD CONSTRAINT fk_ubicaciones FOREIGN KEY (ubicacion_id)
+    REFERENCES ubicaciones(id) ON DELETE CASCADE ON UPDATE CASCADE;
