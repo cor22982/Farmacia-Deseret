@@ -9,17 +9,58 @@ import { Button, Chip } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Iconify } from 'src/components/iconify';
 import { forwardRef, useState } from 'react';
+import useToken from 'src/hooks/useToken';
+import useApi from 'src/hooks/useApi';
+import source_link from 'src/repository/source_repo';
+import Swal from "sweetalert2";
 
 interface PlaceProps {
   name: string;
-
+  id: number;
   lugar_farmacia: string;
+  setCall: (call:number) => void;
 }
 
 export const  PlaceSupCard = forwardRef<HTMLDivElement,PlaceProps>(
 
-  ({ name, lugar_farmacia }, ref) => {
+  ({ name, lugar_farmacia, id, setCall }, ref) => {
   const [value, setValue] = useState('Proveedor');
+  const {llamado: delete_place} = useApi(`${source_link}/deleteubicacion`)
+  const {token} = useToken();
+
+  const onDeleteButton = async() => {
+    const body = {
+      token,
+      id
+    };
+    const respuesta = await delete_place(body, 'DELETE');
+    if (respuesta) {
+
+      if (respuesta.success === true){
+        setCall(0)
+        Swal.fire({
+          icon: "success",
+          title: "Se elimino de manera exitosa",
+          text: respuesta.message,
+        });
+      }else{
+        Swal.fire({
+          icon: "error",
+          title: "No se puede eliminar",
+          text: "No tienes permiso para eliminar",
+        });
+      }
+
+    }else{
+      Swal.fire({
+        icon: "error",
+        title: "Error",
+        text:  "No se puede eliminar"
+      });
+    }
+    
+  }
+
   return (
     <Card sx={{ display: 'flex', padding: '1rem' }} >
 
@@ -46,6 +87,7 @@ export const  PlaceSupCard = forwardRef<HTMLDivElement,PlaceProps>(
           </Button>
           <Button
             startIcon={<Iconify icon="material-symbols:delete" />}
+            onClick={onDeleteButton}
             >
             Eliminar
           </Button>
