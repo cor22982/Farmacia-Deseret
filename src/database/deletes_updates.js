@@ -19,3 +19,22 @@ export async function deleteUbicacionById(id) {
     throw error;
   }
 }
+
+
+// Delete Prooveedores
+export async function deleteProveedoresById(id) {
+  try {
+    const deletedRows = await Supplier.destroy({
+      where: { id }
+    });
+
+    if (deletedRows === 0) {
+      throw new Error('Proveedor no encontrada');
+    }
+
+    return { message: 'Proveedor eliminada exitosamente' };
+  } catch (error) {
+    console.log(error)
+    throw error;
+  }
+}
