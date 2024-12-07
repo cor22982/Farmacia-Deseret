@@ -32,10 +32,10 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Box sx={{ display: 'flex', flexDirection: 'row', gap: '1rem', alignContent: 'center', alignItems: 'center' }}>
             
-            <Typography component="div" variant="h3">
+            <Typography component="div" variant="h4">
               {product.nombre}
             </Typography>
-            <Chip label={`${product.presentacion.toUpperCase()}`} color="primary" />
+            <Chip label={`${product.forma_farmaceutica} (${product.presentacion.toUpperCase()})`} color="primary" />
             <Chip label={`Existencias: ${product.existencias}`} color="success"/>
             
           </Box>
@@ -52,14 +52,13 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
             </Typography>
           </Box>
           <br/>
-          <Box sx={{ display: 'flex', flexDirection: 'row', gap:'2rem' }} >
+          <Box sx={{ display: 'flex', flexDirection: 'column', gap:'2rem' }} >
             <Typography
               variant="body2"
               component="div"
               sx={{
                 color: 'text.secondary',
-                maxWidth: 500,
-                maxHeight: 200,
+                maxHeight: 'auto',
                 overflowY: 'auto',
                 whiteSpace: 'normal',
                 textOverflow: 'ellipsis',

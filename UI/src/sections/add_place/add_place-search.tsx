@@ -11,7 +11,7 @@ import { Iconify } from 'src/components/iconify';
 // ----------------------------------------------------------------------
 
 type PlaceSearchItemProps = {
-  places: Place[];
+  places: Place[]; 
   sx?: SxProps<Theme>;
   onSearch: (value: string) => void;
 };
@@ -37,6 +37,7 @@ export function PlaceSearchItem({ places, sx, onSearch }: PlaceSearchItemProps) 
       getOptionLabel={(place) => place.ubicacion}
       isOptionEqualToValue={(option, value) => option.id === value.id}
       onInputChange={(event, value) => onSearch(value)}
+      
       renderInput={(params) => (
         <TextField
           {...params}

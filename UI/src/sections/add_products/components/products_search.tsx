@@ -3,7 +3,7 @@ import type { Theme, SxProps } from '@mui/material/styles';
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
 import Autocomplete, { autocompleteClasses } from '@mui/material/Autocomplete';
-
+import { Product } from 'src/_mock/product';
 import { Iconify } from 'src/components/iconify';
 
 
@@ -12,9 +12,11 @@ import { Iconify } from 'src/components/iconify';
 
 type ProductSearchItemProps = {
   sx?: SxProps<Theme>;
+  products: Product[]; 
+  onSearch: (value: string) => void;
 };
 
-export function ProductSearchItem({  sx }: ProductSearchItemProps) {
+export function ProductSearchItem({  sx, products, onSearch }: ProductSearchItemProps) {
   return (
     <Autocomplete
       sx={{ width: 280 }}
@@ -31,8 +33,10 @@ export function ProductSearchItem({  sx }: ProductSearchItemProps) {
           },
         },
       }}
-      options={[]}
-      getOptionLabel={(post) => ""}
+      options={products}
+      getOptionLabel={(product) => product.nombre}
+      isOptionEqualToValue={(option, value) => option.id === value.id}
+      onInputChange={(event, value) => onSearch(value)}
       renderInput={(params) => (
         <TextField
           {...params}

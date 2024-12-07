@@ -24,12 +24,32 @@ export function AddProductsView() {
   const [valueProduct, setValueProduct] = useState(0);
   const {getProductInfo} = useGetProducts();
   const [product, setProductos] = useState<Product[]>([]);
+  const [filterproduct, setFilterProductos] = useState<Product[]>([]);
+  const [searchValue, setSearchValue] = useState<string>('');
+  const [call1, setCall1] = useState(0);
+
+
+  const handleSearch = (value: string) => {
+    setSearchValue(value);
+    if (value) {
+      const filtered = product.filter((p) =>
+        p.nombre.toLowerCase().includes(value.toLowerCase())
+      );
+      setFilterProductos(filtered);
+    } else {
+      setFilterProductos(product);
+    }
+  };
 
   useEffect(() => {
     const fetchProducts = async () => {
       try {
         const fetchedProducts = await getProductInfo();
         setProductos(fetchedProducts)
+        if (call1 === 0){
+          setFilterProductos(fetchedProducts)
+          setCall1(call1+1);
+        }
       
       } catch (error) {
         console.error("Error fetching places:", error);
@@ -37,7 +57,7 @@ export function AddProductsView() {
     };
  
     fetchProducts();
-  }, [getProductInfo, setProductos ]); 
+  }, [getProductInfo, setProductos, setCall1, setFilterProductos, call1 ]); 
 
   const handleSort = useCallback((newSort: string) => {
     setSortBy(newSort);
@@ -88,7 +108,10 @@ export function AddProductsView() {
         
       </Box>
       <Box display="flex" alignItems="center" mb={5} gap='2rem'>
-      <ProductSearchItem/>
+      <ProductSearchItem
+        
+        onSearch={handleSearch}
+        products={product}/>
         <Box display="flex" alignItems= 'center' flexDirection="column">
           <Typography variant="body2" flexGrow={1}>
             Proveedor
@@ -134,8 +157,8 @@ export function AddProductsView() {
             />
         </Box>
    
-        </Box>
-    {product.map((p) => (
+        </Box> 
+    {filterproduct.map((p) => (
         <Box sx={{paddingBottom: '1rem'}}>
             <ProductCard product={p}/>
           </Box>
