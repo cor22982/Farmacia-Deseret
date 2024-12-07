@@ -224,3 +224,22 @@ CREATE TRIGGER trigger_actualizar_ganancia_al_actualizar_pp
 AFTER UPDATE OF pp ON products
 FOR EACH ROW
 EXECUTE FUNCTION actualizar_ganancia_al_actualizar_pp();
+
+-- Eliminar restricciones existentes
+ALTER TABLE horario DROP CONSTRAINT fk_id_proveedor;
+ALTER TABLE proveedores DROP CONSTRAINT fk_proveedor;
+ALTER TABLE products DROP CONSTRAINT fk_proveedor;
+
+-- Crear nuevas restricciones con ON DELETE CASCADE
+ALTER TABLE horario
+    ADD CONSTRAINT fk_id_proveedor FOREIGN KEY (id_proveedor)
+    REFERENCES proveedores(id) ON DELETE CASCADE;
+
+ALTER TABLE proveedores
+    ADD CONSTRAINT fk_proveedor FOREIGN KEY (proveedor_alternativo)
+    REFERENCES proveedores(id) ON DELETE CASCADE;
+
+ALTER TABLE products
+    ADD CONSTRAINT fk_proveedor FOREIGN KEY (proveedor)
+    REFERENCES proveedores(id) ON DELETE CASCADE;
+
