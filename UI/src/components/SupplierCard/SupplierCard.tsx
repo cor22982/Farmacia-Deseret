@@ -14,15 +14,68 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import {obtenerDiaDeLaSemana, diasDeLaSemana } from 'src/_mock/days';
+import useToken from 'src/hooks/useToken';
+import useApi from 'src/hooks/useApi';
+import source_link from 'src/repository/source_repo';
+import Swal from "sweetalert2";
 
 interface SupplierCardProps {
   suplier: Supplier;
+  setCall: (call:number) => void;
+  
 }
 
 export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
-  ({ suplier }, ref) => {
-  const [value_suplier, setValueSupplier] = useState(100000); 
+  ({ suplier, setCall }, ref) => {
+  const {llamado: delete_supplier} = useApi(`${source_link}/deleteproveedores`)
+  const {token} = useToken(); 
   
+  const onDeleteButton = async() => {
+    Swal.fire({
+      title: "Seguro que lo quieres eliminar?",
+      text: "No sera posible revertir los cambios!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Si elimina el proveedor"
+    }).then(async(result) => {
+      if (result.isConfirmed) {
+
+        const body = {
+          token,
+          id: suplier.id
+        };
+        const respuesta = await delete_supplier(body, 'DELETE');
+        if (respuesta) {
+    
+          if (respuesta.success === true){
+            setCall(0)
+            Swal.fire({
+              icon: "success",
+              title: "Se elimino de manera exitosa",
+              text: respuesta.message,
+            });
+          }else{
+            Swal.fire({
+              icon: "error",
+              title: "No se puede eliminar",
+              text: "No tienes permiso para eliminar",
+            });
+          }
+    
+        }else{
+          Swal.fire({
+            icon: "error",
+            title: "Error",
+            text:  "No se puede eliminar"
+          });
+        }
+      }
+    });
+   
+    
+  }
   return (
     <Card sx={{ display: 'flex', padding: '1rem' }} >
 
@@ -48,6 +101,7 @@ export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
           </Button>
           <Button
             startIcon={<Iconify icon="material-symbols:delete" />}
+            onClick={onDeleteButton}
             >
             Eliminar
           </Button>

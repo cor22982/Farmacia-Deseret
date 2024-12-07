@@ -152,7 +152,9 @@ export function AddSourcerView() {
       <Box >
         {filteredSupplier.map((suplier) => (
           <Box sx={{paddingBottom: '1rem'}}>
-            <SupplierCard   key={suplier.id} suplier={suplier}/>
+            <SupplierCard   
+              key={suplier.id} suplier={suplier}
+              setCall={setCall1}/>
           </Box>
         ))}
       </Box>
