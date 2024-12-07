@@ -253,3 +253,22 @@ ALTER TABLE productos_cantidades DROP CONSTRAINT fk_ubicaciones;
 ALTER TABLE productos_cantidades
     ADD CONSTRAINT fk_ubicaciones FOREIGN KEY (ubicacion_id)
     REFERENCES ubicaciones(id) ON DELETE CASCADE ON UPDATE CASCADE;
+
+
+
+-- AGREGAR ELIMINAR DELETE
+
+-- Modificar la restricción de clave foránea en la tabla productos_cantidades
+ALTER TABLE productos_cantidades
+DROP CONSTRAINT fk_product,
+ADD CONSTRAINT fk_product FOREIGN KEY (id_product) REFERENCES products(id) ON DELETE CASCADE;
+
+-- Modificar la restricción de clave foránea en la tabla carrito_productos
+ALTER TABLE carrito_productos
+DROP CONSTRAINT fk_producto,
+ADD CONSTRAINT fk_producto FOREIGN KEY (producto) REFERENCES products(id) ON DELETE CASCADE;
+
+-- Modificar la restricción de clave foránea en la tabla venta
+ALTER TABLE venta
+DROP CONSTRAINT fk_venta,
+ADD CONSTRAINT fk_venta FOREIGN KEY (product) REFERENCES products(id) ON DELETE CASCADE;
