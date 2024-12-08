@@ -67,19 +67,26 @@ export function AddProductsView() {
     setOpenM(false)
     setOpenM2(true)
   };
+
+  const handleClicked2 = () => {
+    setOpenM(true)
+    setOpenM2(false)
+  };
   return (
     <DashboardContent>
       <ModalProduct
+        setCall={setCall1}
         setValueProductId={setValueProduct}
         open={openm}
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
       />
       <ModalProductDetail
+        setCall={setCall1}
         id={valueProduct}
         open={openm2}
         handleClose={() => setOpenM2(false)}
-        handleClick={handleClicked}
+        handleClick={handleClicked2}
       />
       <Box display="flex" alignItems="center" mb={5}>
         
@@ -160,7 +167,9 @@ export function AddProductsView() {
         </Box> 
     {filterproduct.map((p) => (
         <Box sx={{paddingBottom: '1rem'}}>
-            <ProductCard product={p}/>
+            <ProductCard 
+              setCall={setCall1}
+              product={p}/>
           </Box>
         ))}
     </DashboardContent>

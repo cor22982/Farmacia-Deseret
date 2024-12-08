@@ -74,6 +74,7 @@ export function AddPlaceView() {
   return (
     <DashboardContent>
       <ModalPlace
+        setCall={setCall1}
         open={openm}
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}

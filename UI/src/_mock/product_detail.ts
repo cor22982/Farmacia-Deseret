@@ -48,6 +48,15 @@ export class ProductDetail {
   
     return `Fecha de Vencimiento: ${day}/${month}/${year}`;
   }
+
+  get_Fechasformated(): string {
+    const date = new Date(this.fecha_vencimiento); // Convierte la fecha en un objeto Date
+    const day = String(date.getDate()).padStart(2, '0'); // Asegura que el día tenga 2 dígitos
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // Asegura que el mes tenga 2 dígitos (getMonth es 0-indexado)
+    const year = String(date.getFullYear()).slice(-2); // Extrae los dos últimos dígitos del año
+  
+    return `${day}/${month}/${year}`;
+  }
   
 }
 

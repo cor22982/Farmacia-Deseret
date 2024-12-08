@@ -6,53 +6,116 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { Button, Chip } from '@mui/material';
+import { Accordion, AccordionDetails, AccordionSummary, Button, Chip, Divider, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
 import useToken from 'src/hooks/useToken';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Product} from 'src/_mock/product';
 import { Iconify } from 'src/components/iconify';
+import useApi from 'src/hooks/useApi';
+import source_link from 'src/repository/source_repo';
+import Swal from 'sweetalert2';
 
 interface ProductCardProps {
   product: Product;
+  setCall: (call:number) => void;
 }
 
 export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
   
-  ({ product }, ref) => {
+  ({ product, setCall }, ref) => {
+    const {llamado: delete_product} = useApi(`${source_link}/deleteproducts`)
     const {token} = useToken()
+    
+    const onDeleteButton = async() => {
+      Swal.fire({
+        title: "Seguro que lo quieres eliminar?",
+        text: "No sera posible revertir los cambios!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Si elimina el producto"
+      }).then(async(result) => {
+        if (result.isConfirmed) {
+  
+          const body = {
+            token,
+            id: product.id
+          };
+          const respuesta = await delete_product(body, 'DELETE');
+          if (respuesta) {
+      
+            if (respuesta.success === true){
+              setCall(0)
+              Swal.fire({
+                icon: "success",
+                title: "Se elimino de manera exitosa",
+                text: respuesta.message,
+              });
+            }else{
+              Swal.fire({
+                icon: "error",
+                title: "No se puede eliminar",
+                text: "No tienes permiso para eliminar",
+              });
+            }
+      
+          }else{
+            Swal.fire({
+              icon: "error",
+              title: "Error",
+              text:  "No se puede eliminar"
+            });
+          }
+        }
+      });
+     
+      
+    }
+
   return (
     <Card sx={{ display: 'flex', padding: '1rem' }} >
       <CardMedia
         component="img"
-        sx={{ width: 151 }}
+        sx={{ width: 200 }}
         image={`data:image/jpeg;base64,${product.imagen}`}
         alt="Live from space album cover"
       />
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
-          <Box sx={{ display: 'flex', flexDirection: 'row', gap: '1rem', alignContent: 'center', alignItems: 'center' }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignContent: 'start', alignItems: 'start' }}>
             
-            <Typography component="div" variant="h4">
+            <Typography component="div" variant="h3">
               {product.nombre}
             </Typography>
-            <Chip label={`${product.forma_farmaceutica} (${product.presentacion.toUpperCase()})`} color="primary" />
-            <Chip label={`Existencias: ${product.existencias}`} color="success"/>
-            
+            <Box display="flex" flexDirection="row" gap="0.5rem">
+              <Chip label={`${product.forma_farmaceutica} (${product.presentacion.toUpperCase()})`} color="primary" />
+              <Chip label={`Existencias: ${product.existencias}`} color="success"/>
+              <Chip label={`Tipo: ${product.tipo}`} color="error"/>
+            </Box>
           </Box>
+          <br/>
           <Box sx={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
             
-            <Typography component="div" variant="h5">
+            <Typography component="div" variant="h6">
               PP: Q{product.pp}
             </Typography>
-            <Typography component="div" variant="h5">
+            <Typography component="div" variant="h6">
               Costo: Q{product.costo}
             </Typography>
-            <Typography component="div" variant="h5">
+            <Typography component="div" variant="h6">
+            Ganancia: {product.ganancia * 100}%
+            </Typography>
+            <Typography component="div" variant="h6">
               Proveedor: {product.proveedor?.nombre.toUpperCase()}
             </Typography>
           </Box>
           <br/>
           <Box sx={{ display: 'flex', flexDirection: 'column', gap:'2rem' }} >
+          <Divider sx={{borderColor: 'black'}}/>
+            <Typography component="div" variant="h6">
+              Descripcion
+            </Typography>
             <Typography
               variant="body2"
               component="div"
@@ -68,20 +131,40 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
             {product.descripcion_uso}
           </Typography>
           
-          <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 1, md: 1 }}>
-            
-          {product.listdetails.map((p) => (
-            <Grid fontSize={6}>
-              <Box sx={{ display: 'flex', flexDirection: 'row', gap:'1rem'}} >
-                <Typography variant="body2">{p.getDetails_Products()}</Typography>
-                <Typography variant="body2">{p.get_fechas()}</Typography>
-              </Box>
-            </Grid>
-          ))}
-           
-            
-          
-          </Grid>     
+
+            <Accordion>
+              <AccordionSummary
+                expandIcon={<Iconify icon="material-symbols-light:list" />}
+                aria-controls="product-details-content"
+                id="product-details-header"
+              >
+                <Typography variant="h6">Detalles del Producto</Typography>
+              </AccordionSummary>
+                <AccordionDetails>
+                  <TableContainer component={Paper}>
+                    <Table size="small" aria-label="tabla de detalles de productos">
+                      <TableHead>
+                        <TableRow>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Detalles</Typography>
+                          </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Fecha Vencimiento</Typography>
+                          </TableCell>
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {product.listdetails.map((p, index) => (
+                          <TableRow key={index}>
+                            <TableCell>{p.getDetails_Products()}</TableCell>
+                            <TableCell>{p.get_Fechasformated()}</TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                </AccordionDetails>
+            </Accordion>
           </Box>
           <br/>
           <Box sx={{ display: 'flex', flexDirection: 'row', gap:'1rem' }} >
@@ -96,6 +179,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
           </Button>
           <Button
             startIcon={<Iconify icon="material-symbols:delete" />}
+            onClick={onDeleteButton}
             >
             Eliminar
           </Button>

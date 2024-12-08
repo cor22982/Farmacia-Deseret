@@ -1,5 +1,5 @@
 import React, { forwardRef , useState, useEffect, useCallback} from 'react';
-import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid } from '@mui/material';
+import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton } from '@mui/material';
 import { Place, useGetPlaces} from 'src/_mock/places';
 import { useGetProduct_Details, ProductDetail } from 'src/_mock/product_detail';
 import { Product, useGetProducts } from 'src/_mock/product';
@@ -7,6 +7,7 @@ import useApi from 'src/hooks/useApi';
 import source_link from 'src/repository/source_repo';
 import useForm from 'src/hooks/useForm';
 import useToken from 'src/hooks/useToken';
+import { Icon } from "@iconify/react"; 
 import { object, string, number } from 'yup';
 import { UploadImage } from '../UploadImage/UploadImage';
 
@@ -14,6 +15,7 @@ interface ModalProductDetailProps {
   open: boolean;
   handleClose: () => void;
   handleClick: () => void;
+  setCall: (call:number) => void;
   id: number;
 }
 const style = {
@@ -41,7 +43,7 @@ const schema = object({
 })
 
 export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailProps>(
-  ({ open, handleClose, handleClick, id }, ref) => {
+  ({ open, handleClose, handleClick, id, setCall }, ref) => {
 
 
     const [value_ubicacion, setValueUbicacion] = useState(100000); 
@@ -100,6 +102,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
         const response = await llamado(body, 'PUT');
         if (response) {
           if (response.success === true){
+            setCall(0)
             console.log(response)            
           }
           
@@ -107,7 +110,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
         
       }
       return false
-    }, [validatepp, valuepp, llamado, id, token]);
+    }, [validatepp, valuepp, llamado, id, token, setCall]);
 
 
     const handleInsertDetail = useCallback(async() => {
@@ -126,6 +129,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
         const response = await insertdetail(body, 'POST');
         if (response) {
           if (response.success === true){
+            setCall(0)
             console.log(response)            
           }
           
@@ -134,7 +138,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
         
       }
       return false
-    }, [validate, valueForm, id, token, value_ubicacion, insertdetail]);
+    }, [validate, valueForm, id, token, value_ubicacion, insertdetail, setCall]);
 
 
     return (
@@ -144,6 +148,10 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description">
       <Box sx={style} gap="0.1rem">
+      <IconButton
+          onClick={handleClick}>
+           <Icon icon="material-symbols:arrow-back" width="24" height="24" />
+        </IconButton>
           <Box display="flex" alignItems= 'center' justifyContent="center">
             <Typography id="modal-modal-title" variant="h3" component="h2">
             AÑADIR PRODUCTOS

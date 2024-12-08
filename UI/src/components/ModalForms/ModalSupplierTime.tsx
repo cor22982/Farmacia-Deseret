@@ -1,10 +1,11 @@
 import React, { forwardRef , useState,  useEffect, useCallback} from 'react';
-import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid } from '@mui/material';
+import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton } from '@mui/material';
 import { useGetHorario_Proveedor, Schedule } from 'src/_mock/schedule';
 import { obtenerNumeroDelDia, obtenerDiaDeLaSemana, diasDeLaSemana } from 'src/_mock/days';
 import useForm from 'src/hooks/useForm';
 import { object, string, number } from 'yup';
 import useApi from 'src/hooks/useApi';
+import { Icon } from "@iconify/react"; 
 import Swal from "sweetalert2";
 import useToken from 'src/hooks/useToken';
 import source_link from 'src/repository/source_repo';
@@ -21,6 +22,7 @@ interface ModalSupplierTimeProps {
   id: number;
   handleClose: () => void;
   handleClick: () => void;
+  setCall: (call:number) => void;
 }
 const style = {
   position: 'absolute',
@@ -32,9 +34,10 @@ const style = {
   border: '2px solid #000',
   boxShadow: 24,
   p: 2,
+  
 };
 export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimeProps>(
-  ({ open, handleClose, handleClick, id }, ref) => {
+  ({ open, handleClose, handleClick, id, setCall }, ref) => {
     const [value_day, setValueDay] = useState(100000);
     const {getHorarios_Byid} = useGetHorario_Proveedor()
     const [horarios, setHorarios] = useState<Schedule[]>([]);
@@ -75,7 +78,7 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
         const response = await llamado(body, 'POST');
         if (response) {
           if (response.success === true){
-           
+            setCall(0)
             return true;
           }
           return false;
@@ -84,7 +87,7 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
     
       }
       return false
-    }, [validate, valueForm, llamado, token, id]);
+    }, [validate, valueForm, llamado, token, id, setCall]);
 
     const onClickButton = async() => {
       if (value_day === 7){
@@ -107,8 +110,13 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
       onClose={handleClose}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description">
-      <Box sx={style} gap="0.1rem">
+      <Box sx={style} gap="0.1rem" flexDirection="row" >
+        <IconButton
+          onClick={handleClick}>
+           <Icon icon="material-symbols:arrow-back" width="24" height="24" />
+        </IconButton>
           <Box display="flex" alignItems= 'center' justifyContent="center">
+            
             <Typography id="modal-modal-title" variant="h3" component="h2">
             Agregar Horarios
             </Typography>

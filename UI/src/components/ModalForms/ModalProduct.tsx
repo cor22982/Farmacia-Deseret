@@ -16,6 +16,7 @@ interface ModalProductProps {
   handleClose: () => void;
   handleClick: () => void;
   setValueProductId: (id:number) => void;
+  setCall: (call:number) => void;
 }
 const style = {
   position: 'absolute',
@@ -38,7 +39,7 @@ const schema = object({
 })
 
 export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
-  ({ open, handleClose, handleClick, setValueProductId }, ref) => {
+  ({ open, handleClose, handleClick, setValueProductId, setCall }, ref) => {
 
     const [value_suplier, setValueSupplier] = useState(100000); 
 
@@ -111,6 +112,13 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
       const response = await llamadowithFileAndBody(file, formData, 'POST');
       if (response) {
         if (response.success === true){
+          setCall(0)
+
+          setValueForm('nombre', '');
+          setValueForm('forma_f', '');
+          setValueForm('activo_principal', '');
+          setValueForm('descripcion', '');
+          
           Swal.fire({
             icon: "success",
             title: "Se Inserto de manera exitosa",

@@ -11,6 +11,7 @@ interface ModalPlaceProps {
   open: boolean;
   handleClose: () => void;
   handleClick: () => void;
+  setCall: (call:number) => void;
 }
 const style = {
   position: 'absolute',
@@ -21,10 +22,10 @@ const style = {
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
-  p: 2,
+  p: 2, 
 };
 export const ModalPlace = forwardRef<HTMLDivElement, ModalPlaceProps>(
-  ({ open, handleClose, handleClick }, ref) => {
+  ({ open, handleClose, handleClick, setCall }, ref) => {
 
     const [place, setPlace] = useState('');
     const [lugar, setLugar] = useState('Lugar');
@@ -37,6 +38,9 @@ export const ModalPlace = forwardRef<HTMLDivElement, ModalPlaceProps>(
         const response = await llamado(body, 'POST')
         if (response) {
           if (response.success === true){
+            setPlace('')
+
+            setCall(0)
             Swal.fire({
               icon: "success",
               title: "Se ingreso correctamente",
@@ -61,7 +65,7 @@ export const ModalPlace = forwardRef<HTMLDivElement, ModalPlaceProps>(
       }catch(err){
         console.log(err)
       }
-      handleClick()
+     
     };
 
     return (
@@ -82,6 +86,7 @@ export const ModalPlace = forwardRef<HTMLDivElement, ModalPlaceProps>(
               name="name"
               label="Nombre"
               defaultValue=""
+              value={place}
               InputLabelProps={{ shrink: true }}
               onChange = {(e) => {
                 setPlace(e.target.value);

@@ -15,6 +15,7 @@ interface ModalSupplierProps {
   handleClose: () => void;
   handleClick: () => void;
   setValueSupplierId: (id:number) => void;
+  setCall: (call:number) => void;
 }
 const style = {
   position: 'absolute',
@@ -39,7 +40,7 @@ const schema = object({
 })
 
 export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
-  ({ open, handleClose, handleClick, setValueSupplierId }, ref) => {
+  ({ open, handleClose, handleClick, setValueSupplierId, setCall }, ref) => {
     const { getProvedor_ById } = useGetProveedores();
     const [suppliers, setSupliers] = useState<Supplier[]>([]);
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { nombre: '', direccion: '', telefono: '', proveedor_alternativo: 100000, contacto: '', segundo_contacto: ''})
@@ -82,7 +83,15 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
         const response = await llamado(body, 'POST');
         if (response) {
           if (response.success === true){
+            setCall(0)
             setValueSupplierId(response.id)
+            // Restaurar valores por defecto
+            setValueForm('nombre', '');
+            setValueForm('direccion', '');
+            setValueForm('telefono', '');
+            setValueForm('proveedor_alternativo', 100000);
+            setValueForm('contacto', '');
+            setValueForm('segundo_contacto', '');
             Swal.fire({
               icon: "success",
               title: "Se Inserto de manera exitosa",
@@ -107,7 +116,7 @@ export const ModalSupplier = forwardRef<HTMLDivElement, ModalSupplierProps>(
         
       }
       return false
-    }, [validate, valueForm, llamado, error_Value, token, value_suplier, setValueSupplierId]);
+    }, [validate, valueForm, llamado, error_Value, token, value_suplier, setValueSupplierId, setCall, setValueForm]);
 
     const onClickButton = async() => {
       const respuesta = await handleInsertSupplier();

@@ -59,6 +59,10 @@ export function AddSourcerView() {
     setOpenM(false)
     setOpenM2(true)
   };
+  const handleClicked2 = () => {
+    setOpenM(true)
+    setOpenM2(false)
+  };
 
   const handleSearch = (value: string) => {
     setSearchValue(value);
@@ -75,16 +79,18 @@ export function AddSourcerView() {
     <DashboardContent>
      
       <ModalSupplier
+        setCall={setCall1}
         setValueSupplierId={setValueId}
         open={openm}
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
       />
       <ModalSupplierTime
+        setCall={setCall1}
         id={value_Id}
         open={openm2}
         handleClose={() => setOpenM2(false)}
-        handleClick={handleClicked}
+        handleClick={handleClicked2}
       />
       <Box display="flex" alignItems="center" mb={5}>
         
