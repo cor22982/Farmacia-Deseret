@@ -13,21 +13,27 @@ import useToken from 'src/hooks/useToken';
 import useApi from 'src/hooks/useApi';
 import source_link from 'src/repository/source_repo';
 import Swal from "sweetalert2";
+import { strict } from 'assert';
+import { string } from 'prop-types';
 
 interface PlaceProps {
   name: string;
   id: number;
   lugar_farmacia: string;
   setCall: (call:number) => void;
+  setplaceid: (id:string) => void;
 }
 
 export const  PlaceSupCard = forwardRef<HTMLDivElement,PlaceProps>(
 
-  ({ name, lugar_farmacia, id, setCall }, ref) => {
+  ({ name, lugar_farmacia, id, setCall, setplaceid }, ref) => {
   const [value, setValue] = useState('Proveedor');
   const {llamado: delete_place} = useApi(`${source_link}/deleteubicacion`)
   const {token} = useToken();
 
+  const onEdit = () => {
+    setplaceid(id.toString())
+  }
   const onDeleteButton = async() => {
     Swal.fire({
       title: "Seguro que lo quieres eliminar?",
@@ -95,7 +101,9 @@ export const  PlaceSupCard = forwardRef<HTMLDivElement,PlaceProps>(
             </Typography>
 
             <Button
-            startIcon={<Iconify icon="material-symbols:edit" />}
+              startIcon={<Iconify icon="material-symbols:edit" />}
+              onClick={onEdit}
+
             >
             Editar
           </Button>

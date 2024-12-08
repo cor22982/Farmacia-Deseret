@@ -35,5 +35,11 @@ export const useGetPlaces = () => {
     return [];
   };
 
-  return { getPlaces };
+  const getPlaceById = async (id: string): Promise<Place | null> => {
+    const places = await getPlaces();
+    const place = places.find((place_get) => place_get.id === id);
+    return place || null;
+  };
+
+  return { getPlaces, getPlaceById };
 };

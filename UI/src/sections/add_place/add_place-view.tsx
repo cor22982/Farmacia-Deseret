@@ -13,6 +13,7 @@ import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
 import {PlaceSupCard} from 'src/components/PlaceCard/PlaceCard';
 import { ModalPlace } from 'src/components/ModalForms/ModalPlace';
+import { ModalPlaceUpdate } from 'src/components/ModalUpdateForms/UpdateUbicacion';
 import { useGetPlaces, Place } from 'src/_mock/places';
 
 import { PlaceSearchItem } from './add_place-search';
@@ -21,6 +22,7 @@ import { PlaceSearchItem } from './add_place-search';
 export function AddPlaceView() {
 
   const [openm, setOpenM] = useState(false);
+  const [openupdate, setOpenUpdate] = useState(false);
   const [openm2, setOpenM2] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
   const { getPlaces } = useGetPlaces();
@@ -29,6 +31,7 @@ export function AddPlaceView() {
   const [place_set, setPlace] = useState("");
   const [searchValue, setSearchValue] = useState<string>('');
   const [call1, setCall1] = useState(0);
+  const [idplace, setPlaceId] = useState<string>('');
 
   useEffect(() => {
     const fetchPlaces = async () => {
@@ -60,6 +63,11 @@ export function AddPlaceView() {
     setOpenM2(true)
   };
 
+  const setUpdate_Open = (id:string) => {
+    setPlaceId(id)
+    setOpenUpdate(true)
+  };
+
   const handleSearch = (value: string) => {
     setSearchValue(value);
     if (value) {
@@ -78,6 +86,14 @@ export function AddPlaceView() {
         open={openm}
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
+      />
+
+      <ModalPlaceUpdate
+        setCall={setCall1}
+        id={idplace}
+        open={openupdate}
+        handleClose={() => setOpenUpdate(false)}
+        handleClick={() => setOpenUpdate(false)}
       />
       
       <Box display="flex" alignItems="center" mb={5}>
@@ -108,10 +124,11 @@ export function AddPlaceView() {
       {filteredPlaces.map((place) => (
           <Box key={place.id} paddingBottom="1rem" paddingLeft="1rem">
             <PlaceSupCard
-            setCall={setCall1}
-            id={Number(place.id)} 
-            name={place.ubicacion}
-            lugar_farmacia={place.lugar_farmacia} />
+              setCall={setCall1}
+              id={Number(place.id)}
+              setplaceid={setUpdate_Open} 
+              name={place.ubicacion}
+              lugar_farmacia={place.lugar_farmacia} />
           </Box>
         ))}
       </Grid>
