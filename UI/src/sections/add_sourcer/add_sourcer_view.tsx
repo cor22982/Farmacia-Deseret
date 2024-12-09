@@ -37,9 +37,16 @@ export function AddSourcerView() {
   const [searchValue, setSearchValue] = useState<string>('');
 
 
+
+
   const updateOpen = (id:number) => {
     setValueId(id)
     setOpenUpdate(true)
+  }
+
+  const AgregarOpen = (id:number) => {
+    setValueId(id)
+    setOpenM2(true)
   }
 
   useEffect(() => {
@@ -103,6 +110,7 @@ export function AddSourcerView() {
           handleClick={() => setOpenUpdate(false)}
       />
       <ModalSupplierTime
+      
         setCall={setCall1}
         id={value_Id}
         open={openm2}
@@ -175,7 +183,8 @@ export function AddSourcerView() {
       <Box >
         {filteredSupplier.map((suplier) => (
           <Box sx={{paddingBottom: '1rem'}}>
-            <SupplierCard   
+            <SupplierCard
+              setOpenAgregar={AgregarOpen}   
               setIdSupplier={updateOpen}
               key={suplier.id} suplier={suplier}
               setCall={setCall1}/>

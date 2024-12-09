@@ -44,6 +44,8 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
     
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { horario_a: '', horario_c: ''})
     const {llamado, error: error_Value} = useApi(`${source_link}/insertHorario`)
+    const {llamado: deleteHorario, error: error_delete} = useApi(`${source_link}/deletehorarios`)
+
     const {token} = useToken()
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -64,6 +66,19 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
   
       fetchHorarios();
     }, [getHorarios_Byid, setHorarios , id]); 
+
+    const deleteHorario_byid  = async(id_todelete:number) => {
+      console.log(id_todelete)
+      try{
+       const respuesta = await deleteHorario({token, id: id_todelete}, 'DELETE');
+       
+       if (respuesta.success === true){
+          setCall(0)
+       }
+      }catch(error_delete_horario){
+        console.log(error_delete_horario)
+      }
+    }
 
     const handleInsertHorario = useCallback(async(number_id:number) => {
       const isValid = await validate();
@@ -129,9 +144,14 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
             <Grid fontSize={6} display="flex" justifyContent="center" alignContent='center'>
               <Box sx={{ display: 'flex', flexDirection: 'column', gap:'1rem'}} >
                   {horarios.map((horario) => (
-                    <Box sx={{display: 'flex', flexDirection: 'row', gap:'2rem'}}>
+                    <Box sx={{display: 'flex', flexDirection: 'row', gap:'1.2rem'}}>
+                       <IconButton
+                      onClick={() => {deleteHorario_byid(horario.id)}}>
+                      <Icon icon="iwwa:delete" width="14" height="14" color='red' />
+                    </IconButton>
                     <Typography variant="body2">{obtenerDiaDeLaSemana(horario.dia)}</Typography>
                     <Typography variant="body2">{horario.getDetails()}</Typography>
+                   
                     </Box>
                   ))}
                 

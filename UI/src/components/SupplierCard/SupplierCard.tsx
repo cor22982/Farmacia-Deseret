@@ -6,7 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { Button, Chip } from '@mui/material';
+import { Button, Chip, Divider } from '@mui/material';
 import { Supplier } from 'src/_mock/supplier';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Iconify } from 'src/components/iconify';
@@ -23,11 +23,12 @@ interface SupplierCardProps {
   suplier: Supplier;
   setCall: (call:number) => void;
   setIdSupplier: (id:number) => void;
+  setOpenAgregar: (id:number) => void;
   
 }
 
 export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
-  ({ suplier, setCall, setIdSupplier }, ref) => {
+  ({ suplier, setCall, setIdSupplier, setOpenAgregar }, ref) => {
   const {llamado: delete_supplier} = useApi(`${source_link}/deleteproveedores`)
   const {token} = useToken(); 
   
@@ -81,6 +82,9 @@ export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
   const onEdit = () => {
     setIdSupplier(suplier.id)
   }
+  const onAgregarHorio = () => {
+    setOpenAgregar(suplier.id)
+  }
   return (
     <Card sx={{ display: 'flex', padding: '1rem' }} >
 
@@ -130,7 +134,7 @@ export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
      
           </Box>
           <br/>
-          
+          <Divider/>
           <Accordion>
               <AccordionSummary expandIcon={<Iconify icon="mingcute:time-line" />}>
                 <Typography variant="h6">Horarios</Typography>
@@ -147,7 +151,7 @@ export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
                 )}
               </AccordionDetails>
             </Accordion>
-            
+            <Divider />
             
           
           <br/>
@@ -168,7 +172,7 @@ export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
             </Button>
             <Button
               startIcon={<Iconify icon="mingcute:time-line" />}
-              onClick={onDeleteButton}
+              onClick={onAgregarHorio}
               variant="contained"
               >
               Agregar Horarios
