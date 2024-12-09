@@ -131,8 +131,9 @@ export const useGetProducts = () =>{
             ''
           );
 
-          const body2 = { image_product: product.imagen };
-          const response2 = await imagen_get(body2, "POST");
+          const body2 = { image_product: product.imagen || '' };
+          const response2 = product.imagen ? await imagen_get(body2, "POST") : { image: '' };
+
           const product_details = await getDetails_ById(product.id);
 
           return new Product(

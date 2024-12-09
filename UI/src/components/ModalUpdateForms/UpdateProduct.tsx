@@ -87,6 +87,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
           setValueForm('activo_principal', product_geted?.principio_activo || '');
           setValueForm('descripcion', product_geted?.descripcion_uso || '');
           setControlado(product_geted?.controlado || false)
+          setValueSupplier(product_geted?.proveedor?.id || 100000)
           setPresentacion(product_geted?.presentacion || 'ninguno')
           setSupliers(fetchedSuppliers)
           setOne(1)
