@@ -11,6 +11,7 @@ import {ProductCard} from 'src/components/ProductCard/ProductCard';
 import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { useGetProducts, Product } from 'src/_mock/product';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
+import { UpdateProduct } from 'src/components/ModalUpdateForms/UpdateProduct';
 import { ProductsFilterList } from './components/products_filter_list';
 import { ProductSearchItem } from './components/products_search';
 
@@ -28,6 +29,12 @@ export function AddProductsView() {
   const [searchValue, setSearchValue] = useState<string>('');
   const [call1, setCall1] = useState(0);
 
+  const [openUpdate, setOpenUpdate] = useState(false);
+
+  const updateOpen = (id:number) => {
+    setValueProduct(id)
+    setOpenUpdate(true)
+  }
 
   const handleSearch = (value: string) => {
     setSearchValue(value);
@@ -89,6 +96,14 @@ export function AddProductsView() {
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
       />
+      <UpdateProduct
+        setCall={setCall1}
+        setValueProductId={setValueProduct}
+        open={openUpdate}
+        id_product={valueProduct}
+        close={setOpenUpdate}
+        handleClick={handleClicked}
+        />
       <ModalProductDetail
         setCall={setCall1}
         id={valueProduct}
@@ -178,9 +193,10 @@ export function AddProductsView() {
             <ProductCard 
               setid={handleClicked_agregarProductos}
               setCall={setCall1}
+              setIdProduct={updateOpen}
               product={p}/>
           </Box>
-        ))}
+        ))}  
     </DashboardContent>
   );
 }

@@ -37,6 +37,8 @@ export class Product {
 
   listdetails : ProductDetail[];
 
+  nombre_image: string;
+
   constructor(
     id: number,
     nombre: string,
@@ -53,6 +55,7 @@ export class Product {
     ganancia: number,
     tipo: string,
     listdetails: ProductDetail[],
+    nombre_image: string,
 
   ) {
     this.id = id;
@@ -69,7 +72,8 @@ export class Product {
     this.proveedor = proveedor;
     this.ganancia = ganancia;
     this.tipo = tipo;
-    this.listdetails = listdetails
+    this.listdetails = listdetails;
+    this.nombre_image = nombre_image;
   }
 }
 
@@ -146,7 +150,8 @@ export const useGetProducts = () =>{
             supplier,
             Number(product.ganancia),
             product.tipo,
-            product_details
+            product_details,
+            product.imagen
           );
         })
       );
@@ -177,7 +182,8 @@ export const useGetProducts = () =>{
       null,
       Number(response.productinfoganancia.ganancia),
       '',
-      []
+      [],
+      ''
     )
     return ganancia
   }
@@ -212,7 +218,8 @@ export const useGetProducts = () =>{
             null,
             0,
             '',
-            []
+            [],
+            ''
           )
         )
       );
@@ -223,7 +230,11 @@ export const useGetProducts = () =>{
     return []
 
   }
-
-  return { getProductInfo, getGanancia ,  getProducts_OnlyId};
+  const getOneProductById = async (id: number): Promise<Product | null> => {
+    const products = await getProductInfo();
+    const product = products.find((product_get) => product_get.id === id);
+    return product || null;
+  };
+  return { getProductInfo, getGanancia ,  getProducts_OnlyId, getOneProductById};
 
 }

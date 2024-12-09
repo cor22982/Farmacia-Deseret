@@ -19,11 +19,12 @@ interface ProductCardProps {
   product: Product;
   setCall: (call:number) => void;
   setid: (id_number:number) => void;
+  setIdProduct: (id_number:number) => void;
 }
 
 export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
   
-  ({ product, setCall,  setid }, ref) => {
+  ({ product, setCall,  setid ,  setIdProduct}, ref) => {
     const {llamado: delete_product} = useApi(`${source_link}/deleteproducts`)
     const {token} = useToken()
     
@@ -175,6 +176,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
 
           <Button
             startIcon={<Iconify icon="material-symbols:edit" />}
+            onClick={() => {setIdProduct(product.id)}}
             >
             Editar
           </Button>
