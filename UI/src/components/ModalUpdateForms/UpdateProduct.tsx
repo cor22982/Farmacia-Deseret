@@ -153,7 +153,9 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
           setValueProductId(response.id)
           handleClose()
           
-        }else{Swal.fire({
+        }else{
+          handleClose()
+          Swal.fire({
           icon: "error",
           title: "Error",
           text: response.message,
