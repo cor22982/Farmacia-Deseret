@@ -1,5 +1,5 @@
 import React, { forwardRef , useState, useEffect} from 'react';
-import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button } from '@mui/material';
+import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, CardMedia } from '@mui/material';
 import useApi from 'src/hooks/useApi';
 import source_link from 'src/repository/source_repo';
 import useForm from 'src/hooks/useForm';
@@ -51,6 +51,8 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
       close(false)
     }
 
+    const [imagen_geted, setImagenGeted] = useState('')
+
     const [value_suplier, setValueSupplier] = useState(100000); 
 
     const {token} = useToken()
@@ -90,7 +92,9 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
           setValueSupplier(product_geted?.proveedor?.id || 100000)
           setPresentacion(product_geted?.presentacion || 'ninguno')
           setSupliers(fetchedSuppliers)
+          setImagenGeted(product_geted?.imagen || '')
           setOne(1)
+          setImage(product_geted?.nombre_image||'')
         }else if (open === false){
           setOne(0)
         }
@@ -102,7 +106,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
       };
   
       fetchSupplier();
-    }, [getProvedor_ById, setSupliers, suppliers, open, one , id_product, getOneProductById, setValueForm, setControlado]);
+    }, [getProvedor_ById, setSupliers, suppliers, open, one , id_product, getOneProductById, setValueForm, setControlado, setImage]);
     
 
     const handleChange_RadioButton = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -119,20 +123,18 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
       setValueForm(name as keyof typeof valueForm, value);
     };
     const handleSubmit = async () => {
-      if (!file) {
-        console.error('No file selected');
-        return;
-      }
-
+      
       const formData = {
         token,
+        id: id_product,
         nombre: valueForm.nombre,
         forma_f: valueForm.forma_f,
         presentacion,
         id_supplier: value_suplier,
         activo_principal: valueForm.activo_principal,
         isControlado,
-        descripcion: valueForm.descripcion
+        descripcion: valueForm.descripcion,
+        oldImage: file === null ? '' : image
       };
 
       
@@ -141,10 +143,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
         if (response.success === true){
           setCall(0)
 
-          setValueForm('nombre', '');
-          setValueForm('forma_f', '');
-          setValueForm('activo_principal', '');
-          setValueForm('descripcion', '');
+         
           
           Swal.fire({
             icon: "success",
@@ -152,7 +151,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             text: response.message,
           });
           setValueProductId(response.id)
-          close(false) 
+          handleClose()
           
         }else{Swal.fire({
           icon: "error",
@@ -358,7 +357,20 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
               value={valueForm.descripcion}
              />
           </Box>
-          <UploadImage file={file} setFile={setFile} />
+          <Box display="flex" flexDirection="row" gap="1rem">
+            <Box>
+              <Typography variant="body2" >Imagen Anterior</Typography>
+              <CardMedia
+                component="img"
+                  sx={{ width: 200 }}
+                  image={`data:image/jpeg;base64,${imagen_geted}`}
+                  alt="Live from space album cover"
+                />
+              <Typography variant="body2" >{image}</Typography>
+              </Box>
+              
+            <UploadImage file={file} setFile={setFile} />
+          </Box>
           <br/>
           <Button
             variant="contained" color="inherit" component="label"
