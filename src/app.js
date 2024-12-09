@@ -501,7 +501,18 @@ app.put('/updateProduct', upload.single('file'), async(req, res) => {
     const {rol} = await decodeToken(req.body.token)
     const validate_token = await validateToken(req.body.token)
     if (validate_token && rol ==='admin'){
-      const { id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion} = req.body;
+      const { id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, oldImage} = req.body;
+      
+      if (oldImage !=='') {
+        const oldImagePath = path.join('./imagenes_productos', oldImage);
+        fs.unlink(oldImagePath, (err) => {
+          if (err) {
+            console.error('Error al eliminar la imagen antigua:', err);
+          } else {
+            console.log('Imagen antigua eliminada:', oldImage);
+          }
+        });
+      }
       const response = await actualizarProducto(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, req.file.filename);
       if (response) {
         res.status(200).json({ success: true, message: 'Se actualizo de manera exitosa'});
