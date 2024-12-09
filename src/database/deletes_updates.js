@@ -25,6 +25,33 @@ export async function actualizarUbicaciones(id, nuevaUbicacion, lugarf) {
   }
 }
 
+//Update Proveedor
+export async function actualizarProveedor(id, nombre, direccion, telefono, proveedorid, contacto, contacto2) {
+  try {
+    const [updatedRows] = await Supplier.update({
+      nombre: nombre,
+      direccion: direccion,
+      contacto: contacto,
+      telefono: telefono,
+      proveedor_alternativo: proveedorid,
+      contacto_2: contacto2
+    }, {
+      where: { id: id }
+    });
+
+    if (updatedRows === 0) {
+      console.error('No se encontró ningún registro con el id proporcionado.');
+      return false;
+    }
+
+    console.log('Se actualizó el registro con id:', id);
+    return true;
+  } catch (error) {
+    console.error('Error al actualizar los detalles del proveedor:', error);
+    return false;
+  }
+}
+
 
 //Delete Ubicaciones
 export async function deleteUbicacionById(id) {
