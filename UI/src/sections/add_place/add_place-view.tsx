@@ -31,7 +31,9 @@ export function AddPlaceView() {
   const [place_set, setPlace] = useState("");
   const [searchValue, setSearchValue] = useState<string>('');
   const [call1, setCall1] = useState(0);
+  
   const [idplace, setPlaceId] = useState<string>('');
+
 
   useEffect(() => {
     const fetchPlaces = async () => {
@@ -42,6 +44,7 @@ export function AddPlaceView() {
           setFilteredPlaces(fetchedPlaces)
           setCall1(call1+1);
         }
+        
       
       } catch (error) {
         console.error("Error fetching places:", error);
@@ -92,7 +95,7 @@ export function AddPlaceView() {
         setCall={setCall1}
         id={idplace}
         open={openupdate}
-        handleClose={() => setOpenUpdate(false)}
+        close={setOpenUpdate}
         handleClick={() => setOpenUpdate(false)}
       />
       

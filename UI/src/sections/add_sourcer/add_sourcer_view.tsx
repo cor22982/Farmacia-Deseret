@@ -14,6 +14,7 @@ import {SupplierCard} from 'src/components/SupplierCard/SupplierCard';
 import { ModalSupplier } from 'src/components/ModalForms/ModalSupplier';
 import { ModalSupplierTime } from 'src/components/ModalForms/ModalSupplierTime';
 import useToken from 'src/hooks/useToken';
+import { UpdateSupplierModal } from 'src/components/ModalUpdateForms/UpdateSupplier';
 import { useGetProveedores,  Supplier } from 'src/_mock/supplier';
 import { SupplierSearchItem } from './components/supplier_search';
 import { SupplierFilterList } from './components/supplier_filter_list';
@@ -25,6 +26,7 @@ export function AddSourcerView() {
 
   const [openm, setOpenM] = useState(false);
   const [openm2, setOpenM2] = useState(false);
+  const [openUpdate, setOpenUpdate] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
   const [value_Id, setValueId] = useState(100000);
   const {token} = useToken()
@@ -33,6 +35,12 @@ export function AddSourcerView() {
   const { getProveedores_Complete,  getProvedor_ById } = useGetProveedores();
   const [call1, setCall1] = useState(0);
   const [searchValue, setSearchValue] = useState<string>('');
+
+
+  const updateOpen = (id:number) => {
+    setValueId(id)
+    setOpenUpdate(true)
+  }
 
   useEffect(() => {
     const fetchSupplier = async () => {
@@ -84,6 +92,15 @@ export function AddSourcerView() {
         open={openm}
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
+      />
+
+      <UpdateSupplierModal
+          setCall={setCall1}
+          setValueSupplierId={setValueId}
+          valueId = {value_Id}
+          open={openUpdate}
+          close={setOpenUpdate}
+          handleClick={() => setOpenUpdate(false)}
       />
       <ModalSupplierTime
         setCall={setCall1}
@@ -159,6 +176,7 @@ export function AddSourcerView() {
         {filteredSupplier.map((suplier) => (
           <Box sx={{paddingBottom: '1rem'}}>
             <SupplierCard   
+              setIdSupplier={updateOpen}
               key={suplier.id} suplier={suplier}
               setCall={setCall1}/>
           </Box>

@@ -22,11 +22,12 @@ import Swal from "sweetalert2";
 interface SupplierCardProps {
   suplier: Supplier;
   setCall: (call:number) => void;
+  setIdSupplier: (id:number) => void;
   
 }
 
 export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
-  ({ suplier, setCall }, ref) => {
+  ({ suplier, setCall, setIdSupplier }, ref) => {
   const {llamado: delete_supplier} = useApi(`${source_link}/deleteproveedores`)
   const {token} = useToken(); 
   
@@ -76,6 +77,10 @@ export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
    
     
   }
+
+  const onEdit = () => {
+    setIdSupplier(suplier.id)
+  }
   return (
     <Card sx={{ display: 'flex', padding: '1rem' }} >
 
@@ -94,18 +99,9 @@ export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
               )
             }
             
-            <Button
-            startIcon={<Iconify icon="material-symbols:edit" />}
-            >
-            Editar
-          </Button>
-          <Button
-            startIcon={<Iconify icon="material-symbols:delete" />}
-            onClick={onDeleteButton}
-            >
-            Eliminar
-          </Button>
+          
           </Box>
+          
          
           <Box sx={{ display: 'flex', flexDirection: 'row', gap:'2rem' }} >
             <Typography variant='h6'>
@@ -155,7 +151,29 @@ export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
             
           
           <br/>
-          
+          <Box display="flex" gap="1rem">
+            <Button
+              startIcon={<Iconify icon="material-symbols:edit" />}
+              onClick={onEdit}
+              >
+              Editar
+            </Button>
+            
+            <Button
+              startIcon={<Iconify icon="material-symbols:delete" />}
+              onClick={onDeleteButton}
+              variant="contained" color="error"
+              >
+              Eliminar
+            </Button>
+            <Button
+              startIcon={<Iconify icon="mingcute:time-line" />}
+              onClick={onDeleteButton}
+              variant="contained"
+              >
+              Agregar Horarios
+            </Button>
+          </Box>
         </CardContent>
       </Box>
       

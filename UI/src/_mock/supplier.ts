@@ -132,7 +132,14 @@ export const useGetProveedores = () => {
     }
     return [];
   };
+
+  const getOneSupplierById = async (id: number): Promise<Supplier | null> => {
+    const suppliers = await getProveedores_Complete();
+    const supplier = suppliers.find((supplier_get) => supplier_get.id === id);
+    return supplier || null;
+  };
   
 
-  return { getProveedores_Complete, getProvedor_ById };
+  return { getProveedores_Complete, getProvedor_ById, getOneSupplierById };
 };
+ 

@@ -8,7 +8,7 @@ import { Place, useGetPlaces } from 'src/_mock/places';
 
 interface ModalPlaceProps {
   open: boolean;
-  handleClose: () => void;
+  close: (set: boolean) => void;
   handleClick: () => void;
   setCall: (call: number) => void;
   id: string;
@@ -27,7 +27,14 @@ const style = {
 };
 
 export const ModalPlaceUpdate = forwardRef<HTMLDivElement, ModalPlaceProps>(
-  ({ open, handleClose, handleClick, setCall, id }, ref) => {
+  ({ open, close, handleClick, setCall, id }, ref) => {
+
+
+    const handleClose = async() => {
+      await setPlace('')
+      await setLugar('Lugar')
+      close(false)
+    }
     const [place_get, setPlace_id] = useState<Place | null>(null);
     const [place, setPlace] = useState('');
     const [lugar, setLugar] = useState('Lugar');
@@ -39,23 +46,28 @@ export const ModalPlaceUpdate = forwardRef<HTMLDivElement, ModalPlaceProps>(
     useEffect(() => {
       const fetchPlace = async () => {
         try {
-          const fetchedplace = await getPlaceById(id);
-          setPlace_id(fetchedplace);
+          
+          if (open === true && one===0){
+            const fetchedplace = await getPlaceById(id);
+            setPlace(fetchedplace?.ubicacion || '')
+            setLugar(fetchedplace?.lugar_farmacia || 'Lugar')
+            console.log(fetchedplace)
+           
+            setOne(1)
+          }
+          else if (open === false){
+            setOne(0)
+          }
+          
         } catch (error_er) {
           console.error('Error fetching places:', error_er);
         }
       };
       fetchPlace();
-    }, [id , getPlaceById]);
+    }, [id , getPlaceById, open, setPlace, setOne, one]);
 
    
-    useEffect(() => {
-      if (place_get && one === 0) {
-        setPlace(place_get.ubicacion);
-        setOne(1)
-        setLugar(place_get.lugar_farmacia || 'Lugar');
-      }
-    }, [place_get, setOne]);
+    
 
     const onInsert = async () => {
       try {
@@ -87,7 +99,7 @@ export const ModalPlaceUpdate = forwardRef<HTMLDivElement, ModalPlaceProps>(
       } catch (err) {
         console.log(err);
       }
-    };
+    }; 
 
     return (
       <Modal open={open} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">

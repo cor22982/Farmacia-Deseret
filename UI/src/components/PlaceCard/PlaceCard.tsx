@@ -110,6 +110,7 @@ export const  PlaceSupCard = forwardRef<HTMLDivElement,PlaceProps>(
           <Button
             startIcon={<Iconify icon="material-symbols:delete" />}
             onClick={onDeleteButton}
+            variant="contained" color="error"
             >
             Eliminar
           </Button>
