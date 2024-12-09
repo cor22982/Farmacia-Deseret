@@ -52,6 +52,34 @@ export async function actualizarProveedor(id, nombre, direccion, telefono, prove
   }
 }
 
+//Update Productos
+export async function actualizarProducto(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, imagen) {
+  try {
+    const [updatedRows] = await Product.update({
+      nombre: nombre,
+      forma_farmaceutica: forma_f,
+      descripcion_uso: descripcion,
+      imagen: imagen,
+      presentacion: presentacion,
+      principio_activo: activo_principal,
+      controlado: isControlado,
+      proveedor: id_supplier      
+    }, {
+      where: { id: id }
+    });
+
+    if (updatedRows === 0) {
+      console.error('No se encontró ningún registro con el id proporcionado.');
+      return false;
+    }
+
+    console.log('Se actualizó el registro con id:', id);
+    return true;
+  } catch (error) {
+    console.error('Error al actualizar los detalles del producto:', error);
+    return false;
+  }
+}
 
 //Delete Ubicaciones
 export async function deleteUbicacionById(id) {

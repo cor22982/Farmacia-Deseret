@@ -9,7 +9,8 @@ import { getUsers, verifyUserCredentials,
 insertarProducto, insertarProducto_Details, actualizarPP,
 getInfoId, getProductDetails, getProduct, getProduct_id } from './database/database.js';
 import { deleteUbicacionById , deleteProveedoresById, 
-  deleteProductsById, actualizarUbicaciones, actualizarProveedor, deleteHorariosById} from './database/deletes_updates.js';  
+  deleteProductsById, actualizarUbicaciones, 
+  actualizarProveedor, deleteHorariosById, actualizarProducto} from './database/deletes_updates.js';  
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
 // Middleware para procesar el cuerpo de las solicitudes JSON
@@ -491,6 +492,33 @@ app.put('/updateProveedor', async(req,res)=>{
     res.status(500).json({ success: false, message: 'Error en el servidor' });
   }
 })
+
+
+app.put('/updateProduct', upload.single('file'), async(req, res) => {
+  const filePath = path.join('./imagenes_productos', req.file.filename);
+
+  try {
+    const {rol} = await decodeToken(req.body.token)
+    const validate_token = await validateToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const { id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion} = req.body;
+      const response = await actualizarProducto(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, req.file.filename);
+      if (response) {
+        res.status(200).json({ success: true, message: 'Se actualizo de manera exitosa'});
+      } else {
+        res.status(401).json({ success: false, message: 'No se actualizo de manera exitosa'});
+      }
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para actualizar'});
+    }
+
+    
+  } catch (error) {
+    console.error('Error al actualizar el producto:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+  
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
