@@ -18,11 +18,12 @@ import Swal from 'sweetalert2';
 interface ProductCardProps {
   product: Product;
   setCall: (call:number) => void;
+  setid: (id_number:number) => void;
 }
 
 export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
   
-  ({ product, setCall }, ref) => {
+  ({ product, setCall,  setid }, ref) => {
     const {llamado: delete_product} = useApi(`${source_link}/deleteproducts`)
     const {token} = useToken()
     
@@ -168,7 +169,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
           </Box>
           <br/>
           <Box sx={{ display: 'flex', flexDirection: 'row', gap:'1rem' }} >
-          <Button sx={{ bgcolor: 'red', '&:hover': { bgcolor: 'darkred' } }} variant="contained">
+          <Button sx={{ bgcolor: 'black', '&:hover': { bgcolor: 'darkred' } }} variant="contained">
             Hacer una Oferta
           </Button>
 
@@ -180,11 +181,14 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
           <Button
             startIcon={<Iconify icon="material-symbols:delete" />}
             onClick={onDeleteButton}
+             variant="contained" color="error"
             >
             Eliminar
           </Button>
           <Button
             startIcon={<Iconify icon="material-symbols:list" />}
+             variant="contained"
+             onClick={() => {setid(product.id)}}
             >
             Agregar nueva cantidad
           </Button>

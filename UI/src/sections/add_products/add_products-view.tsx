@@ -68,6 +68,14 @@ export function AddProductsView() {
     setOpenM2(true)
   };
 
+  const handleClicked_agregarProductos = (id:number) => {
+    setValueProduct(id)
+    setOpenM2(true)
+  };
+
+
+
+
   const handleClicked2 = () => {
     setOpenM(true)
     setOpenM2(false)
@@ -168,6 +176,7 @@ export function AddProductsView() {
     {filterproduct.map((p) => (
         <Box sx={{paddingBottom: '1rem'}}>
             <ProductCard 
+              setid={handleClicked_agregarProductos}
               setCall={setCall1}
               product={p}/>
           </Box>
