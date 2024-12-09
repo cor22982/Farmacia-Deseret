@@ -9,7 +9,7 @@ import { getUsers, verifyUserCredentials,
 insertarProducto, insertarProducto_Details, actualizarPP,
 getInfoId, getProductDetails, getProduct, getProduct_id } from './database/database.js';
 import { deleteUbicacionById , deleteProveedoresById, 
-  deleteProductsById, actualizarUbicaciones, actualizarProveedor} from './database/deletes_updates.js';  
+  deleteProductsById, actualizarUbicaciones, actualizarProveedor, deleteHorariosById} from './database/deletes_updates.js';  
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
 // Middleware para procesar el cuerpo de las solicitudes JSON
@@ -421,6 +421,23 @@ app.delete('/deleteproveedores', async(req,res)=>{
 })
 
 
+app.delete('/deletehorarios', async(req,res)=>{  
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      await deleteHorariosById(req.body.id);
+      res.status(200).json({ success: true, message: 'Se elimino el horario'});
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para eliminar'});
+    }
+  }catch (error) {
+    console.error('Error al obtener al eliminar:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+})
+
+
 app.delete('/deleteproducts', async(req,res)=>{  
   try {
     const validate_token = await validateToken(req.body.token)
@@ -436,6 +453,9 @@ app.delete('/deleteproducts', async(req,res)=>{
     res.status(500).json({ success: false, message: 'Error en el servidor' });
   }
 })
+
+
+// UPDATE
 
 app.put('/updateUbicaciones', async(req,res)=>{  
   try {

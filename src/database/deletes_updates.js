@@ -91,6 +91,25 @@ export async function deleteProveedoresById(id) {
 }
 
 
+// Delete Horarios
+export async function deleteHorariosById(id) {
+  try {
+    const deletedRows = await Schedule.destroy({
+      where: { id }
+    });
+
+    if (deletedRows === 0) {
+      throw new Error('Proveedor no encontrada');
+    }
+
+    return { message: 'Proveedor eliminada exitosamente' };
+  } catch (error) {
+    console.log(error)
+    throw error;
+  }
+}
+
+
 // Delete Productos
 export async function deleteProductsById(id) {
   try {
