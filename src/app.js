@@ -12,6 +12,7 @@ import { deleteUbicacionById , deleteProveedoresById,
   deleteProductsById, actualizarUbicaciones, 
   actualizarProveedor, deleteHorariosById, actualizarProducto,
   actualizarProducto_whitoutimage} from './database/deletes_updates.js';  
+import { getProduct_usuario } from './database/usuario_methods.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
 // Middleware para procesar el cuerpo de las solicitudes JSON
@@ -42,6 +43,21 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.send('Farmacia Deseret');
+});
+
+
+
+
+//Obtener informacion producto
+
+app.get('/infoproductos', async (req, res) => {
+  try {
+    const allproducto = await getProduct_usuario()
+    res.status(200).json({ success: true, productos: allproducto});
+  }catch (error) {
+    console.error('Error al obtener el producto:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
 });
 
 
