@@ -69,3 +69,14 @@ export async function getProduct_usuario() {
   }
 }
 
+
+export async function getUbicaciones_usuario() {
+  try{
+    const products = await Ubicacion.findAll();
+    console.log('Se otuvo las ubicaciones:');
+    return products;
+  }catch (error) {
+    console.error('Error al obtener las ubicaciones:', error);
+    throw error;
+  }
+}

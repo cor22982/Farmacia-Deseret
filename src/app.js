@@ -12,7 +12,7 @@ import { deleteUbicacionById , deleteProveedoresById,
   deleteProductsById, actualizarUbicaciones, 
   actualizarProveedor, deleteHorariosById, actualizarProducto,
   actualizarProducto_whitoutimage} from './database/deletes_updates.js';  
-import { getProduct_usuario, getProduct__info_usuario } from './database/usuario_methods.js';
+import { getProduct_usuario, getProduct__info_usuario, getUbicaciones_usuario } from './database/usuario_methods.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
 // Middleware para procesar el cuerpo de las solicitudes JSON
@@ -70,6 +70,34 @@ app.get('/infoproductos_allinfo', async (req, res) => {
   }
 });
 
+
+app.get('/ubicaciones_usuario', async (req, res) => {
+  try {
+    const ubicaciones = await getUbicaciones_usuario();
+    res.status(200).json({ success: true, ubicaciones: ubicaciones});
+  }catch (error) {
+    console.error('Error al obtener ubicaciones:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/insertProductDetails_usuario', async(req, res) => {
+  try {
+    const { cantidad, fechac, fechav, costo, id_product, id_ubicacion } = req.body;
+    const response = await insertarProducto_Details(cantidad, fechac, fechav, costo, id_product, id_ubicacion);
+    if (response) {
+      res.status(200).json({ success: true, message: 'Se inserto de manera exitosa'});
+    } else {
+      res.status(401).json({ success: false, message: 'No se inserto de manera exitosa'});
+    }
+    
+  } catch (error) {
+    console.error('Error al insertar el producto details:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+  
+});
 
 
 //Upload Imagen
