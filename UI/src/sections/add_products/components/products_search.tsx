@@ -7,7 +7,7 @@ import { Product } from 'src/_mock/product';
 import { Iconify } from 'src/components/iconify';
 
 
-
+ 
 // ----------------------------------------------------------------------
 
 type ProductSearchItemProps = {

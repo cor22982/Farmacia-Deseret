@@ -5,6 +5,7 @@ import { DashboardContent } from 'src/layouts/dashboard'
 import { useGetProducts, Product } from 'src/_mock/product';
 import { ProductAddCard } from 'src/components/ProductAddCard/ProductAddCard';
 import { ModalUpdateProduct } from 'src/components/ModalsUser/ModalUpdateProduct';
+import { ProductSearchItem } from '../add_products/components/products_search';
 
 export function AddProductUserView() {
   const {getProductInfo_whitout_info} = useGetProducts();
@@ -13,7 +14,19 @@ export function AddProductUserView() {
   const [call1, setCall1] = useState(0);
   const [valueProduct, setValueProduct] = useState<Product | null>(null);
   const [openUpdate , setOpenUpdate] = useState(false);
-
+  const [searchValue, setSearchValue] = useState<string>('');
+  
+  const handleSearch = (value: string) => {
+    setSearchValue(value);
+    if (value) {
+      const filtered = products.filter((p) =>
+        p.nombre.toLowerCase().includes(value.toLowerCase())
+      );
+      setFilteredProducts(filtered);
+    } else {
+      setFilteredProducts(products);
+    }
+  };
   const openUpdate_function = (product:Product) => {
     setValueProduct(product)
     setOpenUpdate(true)
@@ -36,7 +49,7 @@ export function AddProductUserView() {
 
     fetchProducts();
   }, [getProductInfo_whitout_info, setProducts, call1, setCall1, setFilteredProducts]); 
-  return (
+  return ( 
     <DashboardContent>
        <Box display="flex" mb={5} flexDirection="column">
         <ModalUpdateProduct
@@ -48,7 +61,12 @@ export function AddProductUserView() {
         <Typography variant="h4" flexGrow={1}>
           Agregar Cantidades a Productos
         </Typography>
-
+        <br/>
+        <ProductSearchItem
+        
+        onSearch={handleSearch}
+        products={products}/>
+        <br/>
         {filteredProducts.map((p) => (
         <Box sx={{paddingBottom: '1rem'}}>
             <ProductAddCard
