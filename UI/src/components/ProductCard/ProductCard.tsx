@@ -106,7 +106,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
               Costo: Q{product.costo}
             </Typography>
             <Typography component="div" variant="h6">
-            Ganancia: {product.ganancia * 100}%
+            Ganancia: {(product.ganancia * 100).toFixed(2)}%
             </Typography>
             <Typography component="div" variant="h6">
               Proveedor: {product.proveedor?.nombre.toUpperCase()}

@@ -82,10 +82,13 @@ export const useGetProducts = () =>{
   const { llamado } = useApi(`${source_link}/getProducts`);
   const { llamado:imagen_get } = useApi(`${source_link}/getImage`);
   const {llamadowithoutbody} = useApi(`${source_link}/products_id`);
-  
+  const {llamadowithoutbody: get_productos} = useApi(`${source_link}/infoproductos`);
+
   const { getDetails_ById } = useGetProduct_Details();
   const {token} = useToken();
   const { llamado: getGanancias_api } = useApi(`${source_link}/getProdutsGanancia`);
+
+
 
   const getProductInfo = async (): Promise<Product[]> => {
     const body = { token };
@@ -236,6 +239,68 @@ export const useGetProducts = () =>{
     const product = products.find((product_get) => product_get.id === id);
     return product || null;
   };
-  return { getProductInfo, getGanancia ,  getProducts_OnlyId, getOneProductById};
+
+  const getProductInfo_whitout = async (): Promise<Product[]> => {
+    const response = await get_productos("GET");
+
+    if (response.success && Array.isArray(response.productos)) {
+      // Procesamos todos los productos con `Promise.all`
+      const products = await Promise.all(
+        response.productos.map(async (product: {
+          id: number;
+          nombre: string;
+          forma_farmaceutica: string;
+          imagen: string;
+          pp: string;
+          presentacion: string;
+          proveedor_id_product: {
+            id: number;
+            nombre: string;
+          };
+        }) => {
+          const supplier = new Supplier(
+            product.proveedor_id_product.id,
+            product.proveedor_id_product.nombre,
+            '',
+            '',
+            '',
+            0,
+            true,
+            '',
+            '',
+            [],
+            ''
+          );
+
+          const body2 = { image_product: product.imagen || '' };
+          const response2 = product.imagen ? await imagen_get(body2, "POST") : { image: '' };
+
+          return new Product(
+            product.id,
+            product.nombre,
+            product.forma_farmaceutica,
+            '',
+            response2.image,
+            0,
+            Number(product.pp),
+            product.presentacion,
+            '',
+            0,
+            false,
+            supplier,
+            0,
+            '',
+            [],
+            product.imagen
+          );
+        })
+      );
+
+      return products;
+    }
+
+    return [];
+  };
+  return { getProductInfo, getGanancia ,  getProducts_OnlyId, getOneProductById, getProductInfo_whitout};
 
 }

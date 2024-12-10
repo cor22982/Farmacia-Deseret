@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2';
@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 
 import { _products } from 'src/_mock';
 import { DashboardContent } from 'src/layouts/dashboard';
-
+import { Product, useGetProducts } from 'src/_mock/product';
 import { ProductItem } from '../product-item';
 import { ProductSort } from '../product-sort';
 import { CartIcon } from '../product-cart-widget';
@@ -58,11 +58,29 @@ const defaultFilters = {
 };
 
 export function ProductsView() {
+  const {getProductInfo_whitout} = useGetProducts();
+
   const [sortBy, setSortBy] = useState('featured');
 
   const [openFilter, setOpenFilter] = useState(false);
 
   const [filters, setFilters] = useState<FiltersProps>(defaultFilters);
+
+  const [product_geted, setProductos] = useState<Product[]>([]);
+  
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const fetchedProducts = await getProductInfo_whitout();
+        setProductos(fetchedProducts)      
+      } catch (error) {
+        console.error("Error fetching places:", error);
+      }
+    };
+ 
+    fetchProducts();
+  }, [getProductInfo_whitout, setProductos]); 
+
 
   const handleOpenFilter = useCallback(() => {
     setOpenFilter(true);
@@ -87,7 +105,7 @@ export function ProductsView() {
   return (
     <DashboardContent>
       <Typography variant="h4" sx={{ mb: 5 }}>
-        Products
+        Farmacia Deseret
       </Typography>
 
       <CartIcon totalItems={8} />
@@ -131,7 +149,7 @@ export function ProductsView() {
       </Box>
 
       <Grid container spacing={3}>
-        {_products.map((product) => (
+        {product_geted.map((product) => (
           <Grid key={product.id} xs={12} sm={6} md={3}>
             <ProductItem product={product} />
           </Grid>
