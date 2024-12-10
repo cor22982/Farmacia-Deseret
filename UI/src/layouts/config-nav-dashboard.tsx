@@ -9,14 +9,14 @@ const icon = (name: string) => (
 
 export const navData = [
   {
-    title: 'Productos',
+    title: 'Tienda Farmacia',
     path: '/products',
     icon: icon('ic-cart'),
     
   },  
   {
     title: 'Agregar Productos',
-    path: '/blog',
+    path: '/agregarproducto',
     icon: icon('add-square'),
   },
 ];

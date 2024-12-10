@@ -18,11 +18,26 @@ export class Place {
 
 export const useGetPlaces = () => {
   const { llamado } = useApi(`${source_link}/ubicaciones`);
+  const { llamadowithoutbody } = useApi(`${source_link}/ubicaciones_usuario`);
   const {token} = useToken();
   
   const getPlaces = async (): Promise<Place[]> => {
     const body = { token };
     const response = await llamado(body, "POST");
+
+    if (response.success && Array.isArray(response.ubicaciones)) {
+      const places = response.ubicaciones.map(
+        (ubicacion: { id: number; ubicacion: string; lugar_farmacia: string; }) =>
+          new Place(ubicacion.id.toString(), ubicacion.ubicacion, ubicacion.lugar_farmacia === null ? '' : ubicacion.lugar_farmacia)
+      );
+      return places;
+    }
+
+    return [];
+  };
+
+  const getPlaces_usuario = async (): Promise<Place[]> => {
+    const response = await llamadowithoutbody("GET");
 
     if (response.success && Array.isArray(response.ubicaciones)) {
       const places = response.ubicaciones.map(
@@ -41,5 +56,5 @@ export const useGetPlaces = () => {
     return place || null;
   };
 
-  return { getPlaces, getPlaceById };
+  return { getPlaces, getPlaceById, getPlaces_usuario };
 };

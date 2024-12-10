@@ -9,6 +9,8 @@ import { Product } from 'src/_mock/product';
 import { Label } from 'src/components/label';
 import { ColorPreview } from 'src/components/color-utils';
 import { forwardRef } from 'react';
+import { IconButton } from '@mui/material';
+import { Icon } from "@iconify/react"; 
 
 // ----------------------------------------------------------------------
 
@@ -21,16 +23,16 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
   const renderStatus = (
     <Label
       variant="inverted"
-      // color={(product.status === 'sale' && 'error') || 'info'}
+      color='primary'
       sx={{
         zIndex: 9,
         top: 16,
-        right: 16,
+        right: 16, 
         position: 'absolute',
         textTransform: 'uppercase',
       }}
     >
-      {/* {product.status} */}
+     {product.presentacion}
     </Label>
   );
 
@@ -43,33 +45,24 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
         top: 0,
         width: 1,
         height: 1,
-        objectFit: 'cover',
+       
         position: 'absolute',
       }}
     />
   );
 
   const renderPrice = (
-    <Typography variant="subtitle1">
-      <Typography
-        component="span"
-        variant="body1"
-        sx={{
-          color: 'text.disabled',
-          textDecoration: 'line-through',
-        }}
-      >
-        {product.pp && fCurrency(product.pp)}
-      </Typography>
-      &nbsp;
-      {fCurrency(product.pp)}
+    <Typography variant="subtitle1" >
+      <strong>&nbsp;
+      {fCurrency(product.pp)}</strong>
+      
     </Typography>
   );
 
   return (
     <Card>
       <Box sx={{ pt: '100%', position: 'relative' }}>
-        {/* {product.status && renderStatus} */}
+        {product.presentacion && renderStatus}
 
         {renderImg}
       </Box>
@@ -79,10 +72,15 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
           {product.nombre}
         </Link>
 
-        <Box display="flex" alignItems="center" justifyContent="space-between">
+        <Box display="flex"  justifyContent="space-between" alignContent="center" alignItems="center">
           {/* <ColorPreview colors={product.colors} /> */}
           {renderPrice}
+          <IconButton
+          >
+           <Icon icon="icon-park-outline:add" width="24" height="24" color='blue'/>
+        </IconButton>
         </Box>
+
       </Stack>
     </Card>
   );

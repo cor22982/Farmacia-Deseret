@@ -20,6 +20,7 @@ export const Page404 = lazy(() => import('src/pages/page-not-found'));
 export const AddProductsView = lazy(() => import('src/pages/add_products'));
 export const SourcerPage = lazy(() => import('src/pages/add_sourcer'));
 export const PlacePage = lazy(() => import('src/pages/add_place'));
+export const AddProductUserPage = lazy(() => import('src/pages/add_product_user'));
 
 const renderFallback = (
   <Box display="flex" alignItems="center" justifyContent="center" flex="1 1 auto">
@@ -57,7 +58,8 @@ export function Router() {
         { path: 'blog', element: <BlogPage /> },
         { path: 'products_farmacia', element: < AddProductsView/> },
         { path: 'proveedores', element: < SourcerPage/> },
-        { path: 'ubicacion', element: < PlacePage/> }
+        { path: 'ubicacion', element: < PlacePage/> },
+        { path: 'agregarproducto', element: < AddProductUserPage/> }
       ],
     },
     {

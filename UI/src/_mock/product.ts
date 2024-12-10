@@ -3,6 +3,7 @@ import useToken from "src/hooks/useToken";
 import source_link from "src/repository/source_repo";
 import { Supplier} from "./supplier";
 import { ProductDetail, useGetProduct_Details } from "./product_detail";
+import { Place } from "./places";
 
 
 export class Product {
@@ -83,6 +84,7 @@ export const useGetProducts = () =>{
   const { llamado:imagen_get } = useApi(`${source_link}/getImage`);
   const {llamadowithoutbody} = useApi(`${source_link}/products_id`);
   const {llamadowithoutbody: get_productos} = useApi(`${source_link}/infoproductos`);
+  const {llamadowithoutbody: get_productos_info} = useApi(`${source_link}/infoproductos_allinfo`);
 
   const { getDetails_ById } = useGetProduct_Details();
   const {token} = useToken();
@@ -301,6 +303,99 @@ export const useGetProducts = () =>{
 
     return [];
   };
-  return { getProductInfo, getGanancia ,  getProducts_OnlyId, getOneProductById, getProductInfo_whitout};
+
+  const getProductInfo_whitout_info = async (): Promise<Product[]> => {
+    const response = await get_productos_info("GET");
+
+    if (response.success && Array.isArray(response.productos)) {
+      // Procesamos todos los productos con `Promise.all`
+      const products = await Promise.all(
+        response.productos.map(async (product: {
+          id: number;
+          nombre: string;
+          forma_farmaceutica: string;
+          descripcion_uso: string;
+          pp: number;
+          imagen: string;
+          presentacion: string;
+          principio_activo: string;
+          existencias: number;
+          proveedor_id_product: {
+            id: number;
+            nombre: string;
+          };
+          product_details: Array<{
+            id: number;
+            cantidad: number;
+            fecha_compra: string;
+            fecha_vencimiento: string;
+            ubicacion_product_detail: {
+              id: number;
+              ubicacion: string;
+              lugar_farmacia: string;
+            };
+          }>;
+        }) => {
+          const supplier = new Supplier(
+            product.proveedor_id_product?.id || 0, // Usar 0 si `id` no existe
+            product.proveedor_id_product?.nombre || "Desconocido",
+            '',
+            '',
+            '',
+            0,
+            true,
+            '',
+            '',
+            [],
+            ''
+          );
+
+          const body2 = { image_product: product.imagen || '' };
+          const response2 = product.imagen ? await imagen_get(body2, "POST") : { image: '' };
+
+          const productDetails = product.product_details.map(detail => {
+            const place = new Place(
+              detail.ubicacion_product_detail.id.toString(),
+              detail.ubicacion_product_detail.ubicacion,
+              detail.ubicacion_product_detail.lugar_farmacia
+            );
+            return new ProductDetail(
+              detail.id,
+              detail.cantidad,
+              detail.fecha_compra,
+              detail.fecha_vencimiento,
+              0,
+              product.id,
+              place
+            );
+          });
+          
+          return new Product(
+            product.id,
+            product.nombre,
+            product.forma_farmaceutica,
+            '',
+            response2.image,
+            0,
+            Number(product.pp),
+            product.presentacion,
+            '',
+            product.existencias,
+            false,
+            supplier,
+            0,
+            '',
+            productDetails,
+            product.imagen
+          );
+        })
+      );
+
+      return products;
+    }
+
+    return [];
+  };
+  return { getProductInfo, getGanancia ,  getProducts_OnlyId, getOneProductById, getProductInfo_whitout, getProductInfo_whitout_info};
 
 }
