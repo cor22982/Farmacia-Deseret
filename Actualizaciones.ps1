@@ -9,7 +9,7 @@ Write-Host "Actualizando fronted..."
 Set-Location "C:\Users\HP\Videos\Farmacia-Deseret\UI"
 git pull
 npm install
-if (Test-Path "build") {
+if (Test-Path "dist") {
     Write-Host "Eliminando carpeta 'dist'..."
     Remove-Item -Recurse -Force "dist"
 } else {
