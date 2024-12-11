@@ -2,4 +2,5 @@
 2. Cambiar el .env en src de backend y colocar la ip de la computadora
 3. Cambiar la ip de la computadora en fronted
 4. Ejecutar los script sql de backend para contruir la base de datos
+6. Cambiar las rutas de el archivo de actualizaciones
 5. Ejecutar el archivo Actualizaciones.ps1 con powershell
