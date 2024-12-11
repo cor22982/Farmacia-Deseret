@@ -2,6 +2,7 @@ import express, { response } from 'express';
 import multer from 'multer';
 import fs from 'fs';
 import path from 'path';
+import dotenv from 'dotenv';
 import { getUsers, verifyUserCredentials, 
   insertarUbicacion, getUbicaciones, 
   insertarSupplier, insertarHorario, 
@@ -15,13 +16,14 @@ import { deleteUbicacionById , deleteProveedoresById,
 import { getProduct_usuario, getProduct__info_usuario, getUbicaciones_usuario } from './database/usuario_methods.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
+
 // Middleware para procesar el cuerpo de las solicitudes JSON
 
 const app = express();
 const port = 3000;
-
+dotenv.config({ path: 'src\\.env' });
 const corsOptions = {
-  origin: ['http://127.0.0.1:3000', 'http://localhost:4000', 'http://192.168.1.5:4000'], // Permite tanto el dominio de Netlify como el local
+  origin: ['http://127.0.0.1:3000', 'http://localhost:4000', `${process.env.myip}:4000`],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   optionsSuccessStatus: 200,
