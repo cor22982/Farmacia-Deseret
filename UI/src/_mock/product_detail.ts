@@ -63,7 +63,9 @@ export class ProductDetail {
 
 export const useGetProduct_Details = () =>{
   const { llamado } = useApi(`${source_link}/getProductDetails`);
+  const { llamado:getDetails_user } = useApi(`${source_link}/getDetails_user`);
   const {token} = useToken();
+
   const getDetails_ById = async (product_id:number): Promise<ProductDetail[]> => {
     const body = { token, id: product_id };
     const response = await llamado(body, "POST");
@@ -101,6 +103,43 @@ export const useGetProduct_Details = () =>{
     return [];
   };
 
-  return { getDetails_ById };
+  const getDetails_ById_user = async (product_id:number): Promise<ProductDetail[]> => {
+    const body = { id: product_id };
+    const response = await getDetails_user(body, "POST");
+
+    if (response.success && Array.isArray(response.details_user)) {
+      const details = response.details_user.map(
+        (detail: {
+          id: number;
+          cantidad: number;
+          fecha_compra: string;
+          fecha_vencimiento: string;
+          costo: string;
+          ubicacion_product_detail: { id: number; ubicacion: string; lugar_farmacia: string; };
+        }) => {
+          const ubicacion_delproducto = new Place(
+            detail.ubicacion_product_detail.id.toString(),
+            detail.ubicacion_product_detail.ubicacion,
+            detail.ubicacion_product_detail.lugar_farmacia,
+          )
+
+          return new ProductDetail(
+            detail.id,
+            detail.cantidad,
+            detail.fecha_compra,
+            detail.fecha_vencimiento,
+            Number(detail.costo),
+            detail.ubicacion_product_detail.id,
+            ubicacion_delproducto
+          );
+        }
+      );
+      return details;
+    }
+
+    return [];
+  };
+
+  return { getDetails_ById, getDetails_ById_user };
 
 }

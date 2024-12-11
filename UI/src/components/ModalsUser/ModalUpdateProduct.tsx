@@ -7,7 +7,7 @@ import useApi from 'src/hooks/useApi';
 import source_link from 'src/repository/source_repo';
 import useForm from 'src/hooks/useForm';
 import useToken from 'src/hooks/useToken';
-import { Icon } from "@iconify/react"; 
+import { Icon } from "@iconify/react";
 import { object, string, number } from 'yup';
 import { UploadImage } from '../UploadImage/UploadImage';
 
@@ -46,7 +46,9 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
 
     const [value_ubicacion, setValueUbicacion] = useState(100000); 
     const [ubicaciones, setUbicaciones] = useState<Place[]>([]);
+    const {getDetails_ById_user} = useGetProduct_Details()
     const { getPlaces_usuario } = useGetPlaces();
+    const [details, setDetails] = useState<ProductDetail[]>([]);
     const {llamado: insertdetail} = useApi(`${source_link}/insertProductDetails_usuario`)
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { cantidad: 0, fechac: '', fechav: '', costo: 0})
 
@@ -60,6 +62,8 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
       const fetchPlaces = async () => {
         try {
           const fetchedPlaces = await getPlaces_usuario();
+          const product_details_geted = await getDetails_ById_user(product?.id || 0)
+          setDetails(product_details_geted)
           setUbicaciones(fetchedPlaces)     
         } catch (error) {
           console.error("Error fetching places:", error);
@@ -67,7 +71,7 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
       };
   
       fetchPlaces();
-    }, [getPlaces_usuario, setUbicaciones ]); 
+    }, [getPlaces_usuario, setUbicaciones, getDetails_ById_user, setDetails, product?.id ]); 
 
    
     const handleInsertDetail = useCallback(async() => {
@@ -129,7 +133,7 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
               </TableRow>
             </TableHead>
             <TableBody>
-              {product?.listdetails.map((p, index) => (
+              {details.map((p, index) => (
                 <TableRow key={index}>
                   <TableCell>{p.ubicacion.lugar_farmacia}</TableCell>
                   <TableCell>{p.cantidad}</TableCell>
