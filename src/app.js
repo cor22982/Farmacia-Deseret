@@ -13,7 +13,8 @@ import { deleteUbicacionById , deleteProveedoresById,
   deleteProductsById, actualizarUbicaciones, 
   actualizarProveedor, deleteHorariosById, actualizarProducto,
   actualizarProducto_whitoutimage} from './database/deletes_updates.js';  
-import { getProduct_usuario, getProduct__info_usuario, getUbicaciones_usuario } from './database/usuario_methods.js';
+import { getProduct_usuario, getProduct__info_usuario, 
+  getUbicaciones_usuario, getDetailsProduct_user } from './database/usuario_methods.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
 
@@ -77,6 +78,17 @@ app.get('/ubicaciones_usuario', async (req, res) => {
   try {
     const ubicaciones = await getUbicaciones_usuario();
     res.status(200).json({ success: true, ubicaciones: ubicaciones});
+  }catch (error) {
+    console.error('Error al obtener ubicaciones:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/getDetails_user', async (req, res) => {
+  try {
+    const details_user = await getDetailsProduct_user(req.body.id);
+    res.status(200).json({ success: true, details_user: details_user});
   }catch (error) {
     console.error('Error al obtener ubicaciones:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });

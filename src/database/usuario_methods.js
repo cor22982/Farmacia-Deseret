@@ -80,3 +80,25 @@ export async function getUbicaciones_usuario() {
     throw error;
   }
 }
+
+
+export async function getDetailsProduct_user(id) {
+  try{
+    const products = await ProductDetail.findAll({
+      attributes: ['id','cantidad', 'fecha_compra','fecha_vencimiento', 'costo'],
+      include: [
+        {
+            model: Ubicacion,
+            as: 'ubicacion_product_detail',
+            attributes: ['id','ubicacion', 'lugar_farmacia'],
+        }
+      ],
+      where: { id_product: id }
+    });
+    console.log('Se otuvo los productos:');
+    return products;
+  }catch (error) {
+    console.error('Error al obtener los nombres de los usuarios:', error);
+    throw error;
+  }
+}
