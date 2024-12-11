@@ -1,0 +1,5 @@
+1. hacer pull para backend, fronted, database y main.
+2. Cambiar el .env en src de backend y colocar la ip de la computadora
+3. Cambiar la ip de la computadora en fronted
+4. Ejecutar los script sql de backend para contruir la base de datos
+5. Ejecutar el archivo Actualizaciones.ps1 con powershell
