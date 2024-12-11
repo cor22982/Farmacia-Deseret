@@ -1,2 +1,2 @@
-const source_link = 'http://127.0.0.1:3000';
+const source_link = `${process.env.MYIP}:3000`;
 export default source_link;
