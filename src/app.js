@@ -21,7 +21,7 @@ const app = express();
 const port = 3000;
 
 const corsOptions = {
-  origin: ['http://127.0.0.1:3000', 'http://localhost:4000'], // Permite tanto el dominio de Netlify como el local
+  origin: ['http://127.0.0.1:3000', 'http://localhost:4000', 'http://192.168.1.5:4000'], // Permite tanto el dominio de Netlify como el local
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   optionsSuccessStatus: 200,
