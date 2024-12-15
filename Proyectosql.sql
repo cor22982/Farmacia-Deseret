@@ -337,3 +337,8 @@ CREATE TRIGGER trigger_aldetallar_productos_carrito
 AFTER DELETE ON carrito_productos
 FOR EACH ROW
 EXECUTE FUNCTION actualizar_aleliminar_productos_carrito();
+
+
+-- Otorgar permisos de USAGE y UPDATE sobre la secuencia
+GRANT USAGE, SELECT, UPDATE ON SEQUENCE carrito_productos_id_seq TO ownerfarmacia;
+
