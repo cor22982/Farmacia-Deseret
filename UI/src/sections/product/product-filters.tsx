@@ -168,7 +168,7 @@ export function ProductFilters({
 
   return (
     <>
-      <Button
+      {/* <Button
         disableRipple
         color="inherit"
         endIcon={
@@ -179,7 +179,7 @@ export function ProductFilters({
         onClick={onOpenFilter}
       >
         Filters
-      </Button>
+      </Button> */}
 
       <Drawer
         anchor="right"
@@ -191,7 +191,7 @@ export function ProductFilters({
       >
         <Box display="flex" alignItems="center" sx={{ pl: 2.5, pr: 1.5, py: 2 }}>
           <Typography variant="h6" flexGrow={1}>
-            Filters
+            Carrito
           </Typography>
 
           <IconButton onClick={onResetFilter}>

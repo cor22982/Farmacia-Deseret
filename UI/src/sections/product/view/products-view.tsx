@@ -4,16 +4,21 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2';
 import Pagination from '@mui/material/Pagination';
 import Typography from '@mui/material/Typography';
-
+import { ModalProductShow } from 'src/components/ModalProductShow/ModalProductShow';
 import { _products } from 'src/_mock';
 import { DashboardContent } from 'src/layouts/dashboard';
 import { Product, useGetProducts } from 'src/_mock/product';
+import useProductId from 'src/hooks/useIdProduct';
+import { Button } from '@mui/material';
+import { Iconify } from 'src/components/iconify';
+import { useCarrito } from 'src/_mock/carrito';
 import { ProductItem } from '../product-item';
 import { ProductSort } from '../product-sort';
 import { CartIcon } from '../product-cart-widget';
 import { ProductFilters } from '../product-filters';
 
 import type { FiltersProps } from '../product-filters';
+
 
 // ----------------------------------------------------------------------
 
@@ -64,23 +69,35 @@ export function ProductsView() {
 
   const [openFilter, setOpenFilter] = useState(false);
 
+  const [openProducts, setOpenProducts] = useState(false);
+
+  const {carId, setCarId} = useProductId();
+
+  const {newCarrito} = useCarrito();
+
+  const [idProduct, setIdProduct] = useState(0);
+
   const [filters, setFilters] = useState<FiltersProps>(defaultFilters);
 
   const [product_geted, setProductos] = useState<Product[]>([]);
+
+  const onSetCarrito = async() => {
+    const respuesta_id = await newCarrito();
+    setCarId(respuesta_id)
+  }
   
   useEffect(() => {
     const fetchProducts = async () => {
       try {
         const fetchedProducts = await getProductInfo_whitout();
-        setProductos(fetchedProducts)      
+        setProductos(fetchedProducts);
       } catch (error) {
         console.error("Error fetching places:", error);
       }
     };
- 
+  
     fetchProducts();
-  }, [getProductInfo_whitout, setProductos]); 
-
+  }, [getProductInfo_whitout, setProductos]);
 
   const handleOpenFilter = useCallback(() => {
     setOpenFilter(true);
@@ -104,12 +121,23 @@ export function ProductsView() {
 
   return (
     <DashboardContent>
+      <ModalProductShow
+        open={openProducts}
+        handleClose={() => {setOpenProducts(false)}}
+      />
       <Typography variant="h4" sx={{ mb: 5 }}>
         Farmacia Deseret
       </Typography>
 
-      <CartIcon totalItems={8} />
 
+      
+     
+        <CartIcon
+        onSetCarrito={onSetCarrito} 
+        onOpenFilter={handleOpenFilter}
+          precio={100.5}
+          totalItems={8} />
+  
       <Box
         display="flex"
         alignItems="center"
@@ -139,10 +167,10 @@ export function ProductsView() {
             sortBy={sortBy}
             onSort={handleSort}
             options={[
-              { value: 'featured', label: 'Featured' },
-              { value: 'newest', label: 'Newest' },
-              { value: 'priceDesc', label: 'Price: High-Low' },
-              { value: 'priceAsc', label: 'Price: Low-High' },
+              { value: 'caja', label: 'Caja' },
+              { value: 'blister', label: 'Blister' },
+              { value: 'unidades', label: 'Unidades' },
+              
             ]}
           />
         </Box>
@@ -151,7 +179,9 @@ export function ProductsView() {
       <Grid container spacing={3}>
         {product_geted.map((product) => (
           <Grid key={product.id} xs={12} sm={6} md={3}>
-            <ProductItem product={product} />
+            <ProductItem 
+               openProduct={()=>{setOpenProducts(true)} }
+              product={product} />
           </Grid>
         ))}
       </Grid>

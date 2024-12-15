@@ -16,10 +16,11 @@ import { Icon } from "@iconify/react";
 
 export type ProductItemProps = {
   product: Product;
+  openProduct:  () => void;
 };
 
 export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
-  ({ product }, ref) => {
+  ({ product,  openProduct }, ref) => {
   const renderStatus = (
     <Label
       variant="inverted"
@@ -38,10 +39,12 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
 
   const renderImg = (
     <Box
+      onClick={ openProduct}
       component="img"
       alt={product.nombre}
       src={`data:image/jpeg;base64,${product.imagen}`}
       sx={{
+        cursor: 'pointer',
         top: 0,
         width: 1,
         height: 1,
@@ -68,9 +71,14 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
       </Box>
 
       <Stack spacing={2} sx={{ p: 3 }}>
-        <Link color="inherit" underline="hover" variant="subtitle2" noWrap>
-          {product.nombre}
-        </Link>
+      <Link
+        color="inherit"
+        underline="hover"
+        variant="subtitle2"
+        sx={{ whiteSpace: 'normal', wordBreak: 'break-word' ,  textAlign: 'center' }}
+      >
+        {product.nombre}
+      </Link>
 
         <Box display="flex"  justifyContent="space-between" alignContent="center" alignItems="center">
           {/* <ColorPreview colors={product.colors} /> */}
