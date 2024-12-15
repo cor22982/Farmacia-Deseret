@@ -8,7 +8,8 @@ import { getUsers, verifyUserCredentials,
   insertarSupplier, insertarHorario, 
   getHorarios_byId, getProveedoresConHorarios, getProveedores_id,
 insertarProducto, insertarProducto_Details, actualizarPP,
-getInfoId, getProductDetails, getProduct, getProduct_id } from './database/database.js';
+getInfoId, getProductDetails, getProduct, getProduct_id, 
+insertarCarrito, getCarritos , getCarritoId} from './database/database.js';
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
   actualizarProveedor, deleteHorariosById, actualizarProducto,
@@ -73,6 +74,36 @@ app.get('/infoproductos_allinfo', async (req, res) => {
   }
 });
 
+app.get('/carritonuevo', async (req, res) => {
+  try {
+    const carrito = await insertarCarrito();
+    res.status(200).json({ success: true, carrito: carrito});
+  }catch (error) {
+    console.error('Error al obtener el carrito nuevo:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+app.get('/getcarritos', async (req, res) => {
+  try {
+    const carritos = await getCarritos();
+    res.status(200).json({ success: true, carritos: carritos});
+  }catch (error) {
+    console.error('Error al obtener el carrito nuevo:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/getcarritoid', async (req, res) => {
+  try {
+    const carrito = await getCarritoId(Number(req.body.id));
+    res.status(200).json({ success: true, carrito: carrito });
+  }catch (error) {
+    console.error('Error al obtener el carrito:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
 
 app.get('/ubicaciones_usuario', async (req, res) => {
   try {

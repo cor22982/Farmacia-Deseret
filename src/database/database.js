@@ -1,6 +1,51 @@
 import User from "../entityes/user.js";
-import {Supplier, Schedule, Ubicacion, Product, ProductDetail} from "../entityes/relationships.js";
+import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car} from "../entityes/relationships.js";
 import { response } from "express";
+
+
+export async function insertarCarrito() {
+  try {
+    const fechaHoraActual = new Date();
+
+
+    const hora = fechaHoraActual.toLocaleTimeString('es-ES', { hour12: false })
+    const fecha = fechaHoraActual.toISOString();
+
+    const resultado = await Car.create({
+      total: 0,
+      hora: hora,
+      fecha: fecha,
+    });
+
+    console.log('Se insertó con el id:', resultado.id);
+    return resultado.id;
+  } catch (error) {
+    console.error('Error al insertar el carrito:', error);
+    return null;
+  }
+}
+
+export async function getCarritos() {
+  try{
+    const carritos = await Car.findAll({});
+    return carritos;
+  }catch (error) {
+    throw error;
+  }
+}
+
+
+export async function getCarritoId(id) {
+  try{
+    const carrito = await Car.findOne({
+      where: { id: id }
+    });
+    return carrito;
+  }catch (error) {
+    console.error('Error al obtener el carrito:', error);
+    throw error;
+  }
+}
 
 export async function getUsers() {
   try{
