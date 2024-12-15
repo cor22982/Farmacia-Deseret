@@ -70,7 +70,7 @@ export function CartIcon({ precio, onOpenFilter, onSetCarrito, totalItems, sx, .
         
         <Button onClick={() => {onSetCarrito()}}>
           Nueva Compra
-          <Iconify icon="tabler:reload" width={24}/>
+          <Iconify icon="ph:plus-fill" width={24}/>
         </Button>
     </Box>
   );

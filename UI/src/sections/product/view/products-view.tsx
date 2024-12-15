@@ -11,7 +11,7 @@ import { Product, useGetProducts } from 'src/_mock/product';
 import useProductId from 'src/hooks/useIdProduct';
 import { Button } from '@mui/material';
 import { Iconify } from 'src/components/iconify';
-import { useCarrito } from 'src/_mock/carrito';
+import { useCarrito , Carrito} from 'src/_mock/carrito';
 import { ProductItem } from '../product-item';
 import { ProductSort } from '../product-sort';
 import { CartIcon } from '../product-cart-widget';
@@ -73,7 +73,9 @@ export function ProductsView() {
 
   const {carId, setCarId} = useProductId();
 
-  const {newCarrito} = useCarrito();
+  const {newCarrito, getCarrito_byId} = useCarrito();
+
+  const [micarrito, setMiCarrito] = useState<Carrito | null>(null)
 
   const [idProduct, setIdProduct] = useState(0);
 
@@ -90,6 +92,10 @@ export function ProductsView() {
     const fetchProducts = async () => {
       try {
         const fetchedProducts = await getProductInfo_whitout();
+        if (carId !== null) {
+          const carrito =  await getCarrito_byId(carId)
+          setMiCarrito(carrito)
+        }
         setProductos(fetchedProducts);
       } catch (error) {
         console.error("Error fetching places:", error);
@@ -97,7 +103,7 @@ export function ProductsView() {
     };
   
     fetchProducts();
-  }, [getProductInfo_whitout, setProductos]);
+  }, [getProductInfo_whitout, setProductos, carId, getCarrito_byId, setMiCarrito]);
 
   const handleOpenFilter = useCallback(() => {
     setOpenFilter(true);
@@ -133,9 +139,9 @@ export function ProductsView() {
       
      
         <CartIcon
-        onSetCarrito={onSetCarrito} 
-        onOpenFilter={handleOpenFilter}
-          precio={100.5}
+          onSetCarrito={onSetCarrito} 
+          onOpenFilter={handleOpenFilter}
+          precio={micarrito !== null ? micarrito.total : 0.0}
           totalItems={8} />
   
       <Box
