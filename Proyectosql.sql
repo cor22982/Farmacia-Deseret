@@ -283,3 +283,57 @@ create table metodo_pago(
 	CONSTRAINT fk_id_carrito FOREIGN KEY (id_carrito) references  carrito(id)
 );
 alter table carrito_productos add column id serial primary key;
+
+
+CREATE OR REPLACE FUNCTION actualizar_alinsertar_productos_carrito()
+RETURNS TRIGGER AS $$
+BEGIN
+    UPDATE carrito
+    SET 
+        total = total + (
+            SELECT 
+                carrito_productos.cantidad * p.pp AS precio_nuevo
+            FROM 
+                carrito_productos
+            JOIN 
+                products p ON p.id = carrito_productos.producto
+            WHERE 
+                carrito_productos.id = NEW.id
+        )
+    WHERE id = NEW.carrito;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+
+CREATE TRIGGER trigger_actualizar_alinsertar_productos_carrito
+AFTER INSERT ON carrito_productos
+FOR EACH ROW
+EXECUTE FUNCTION actualizar_alinsertar_productos_carrito();
+
+
+CREATE OR REPLACE FUNCTION actualizar_aleliminar_productos_carrito()
+RETURNS TRIGGER AS $$
+BEGIN
+    UPDATE carrito
+    SET 
+        total = total - (
+            SELECT 
+                OLD.cantidad * p.pp AS precio_eliminado
+            FROM 
+                products p
+            WHERE 
+                p.id = OLD.producto
+        )
+    WHERE id = OLD.carrito;
+
+    RETURN OLD;
+END;
+$$ LANGUAGE plpgsql;
+
+
+CREATE TRIGGER trigger_aldetallar_productos_carrito
+AFTER DELETE ON carrito_productos
+FOR EACH ROW
+EXECUTE FUNCTION actualizar_aleliminar_productos_carrito();
