@@ -272,3 +272,14 @@ ADD CONSTRAINT fk_producto FOREIGN KEY (producto) REFERENCES products(id) ON DEL
 ALTER TABLE venta
 DROP CONSTRAINT fk_venta,
 ADD CONSTRAINT fk_venta FOREIGN KEY (product) REFERENCES products(id) ON DELETE CASCADE;
+
+-- Carrito
+
+create table metodo_pago(
+	id serial primary key,
+	pago  NUMERIC(10, 4),
+	tipo VARCHAR(200),
+	id_carrito int,
+	CONSTRAINT fk_id_carrito FOREIGN KEY (id_carrito) references  carrito(id)
+);
+alter table carrito_productos add column id serial primary key;
