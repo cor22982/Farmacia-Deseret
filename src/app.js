@@ -9,7 +9,8 @@ import { getUsers, verifyUserCredentials,
   getHorarios_byId, getProveedoresConHorarios, getProveedores_id,
 insertarProducto, insertarProducto_Details, actualizarPP,
 getInfoId, getProductDetails, getProduct, getProduct_id, 
-insertarCarrito, getCarritos , getCarritoId} from './database/database.js';
+insertarCarrito, getCarritos , getCarritoId, AgregarProductosCarrito} from './database/database.js';
+
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
   actualizarProveedor, deleteHorariosById, actualizarProducto,
@@ -99,6 +100,37 @@ app.post('/getcarritoid', async (req, res) => {
   try {
     const carrito = await getCarritoId(Number(req.body.id));
     res.status(200).json({ success: true, carrito: carrito });
+  }catch (error) {
+    console.error('Error al obtener el carrito:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/agregar_carrito', async (req, res) => {
+  try {
+    let respuesta = null;
+    if (req.body.opcion === 'uno'){
+      const {carrito , producto} = req.body;
+      
+      respuesta = await AgregarProductosCarrito(carrito , producto , 1);
+      if (respuesta === true) {
+
+        res.status(200).json({ success: true, message: 'Se inserto de manera correcta' });
+      }else{
+        res.status(200).json({ success: false, message: 'No se inserto de manera correcta' });
+      }
+    }else if (req.body.opcion === 'varios'){
+      const {carrito , producto , cantidad} = req.body
+      respuesta = await AgregarProductosCarrito(carrito , producto , cantidad);
+      if (respuesta === true) {
+
+        res.status(200).json({ success: true, message: 'Se inserto de manera correcta' });
+      }else{
+        res.status(200).json({ success: false, message: 'No se inserto de manera correcta' });
+      }
+    }
+    
   }catch (error) {
     console.error('Error al obtener el carrito:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });

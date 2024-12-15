@@ -1,7 +1,7 @@
 import User from "../entityes/user.js";
-import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car} from "../entityes/relationships.js";
+import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car, Car_Products} from "../entityes/relationships.js";
 import { response } from "express";
-
+import { Sequelize, DataTypes } from 'sequelize';
 
 export async function insertarCarrito() {
   try {
@@ -25,6 +25,22 @@ export async function insertarCarrito() {
   }
 }
 
+
+export async function AgregarProductosCarrito(carrito , producto , cantidad) {
+  try {
+    const resultado = await Car_Products.create({
+      carrito: carrito,
+      producto: producto,
+      cantidad: cantidad
+    });
+    console.log('Registro insertado:', resultado);
+    return true;
+  } catch (error) {
+    console.error('Error al insertar productos al carrito:', error);
+    return false;
+  }
+}
+
 export async function getCarritos() {
   try{
     const carritos = await Car.findAll({});
@@ -36,16 +52,33 @@ export async function getCarritos() {
 
 
 export async function getCarritoId(id) {
-  try{
+  try {
     const carrito = await Car.findOne({
-      where: { id: id }
+      where: { id: id },
+      attributes: [
+        'id',
+        'total',
+        'hora',
+        'fecha',
+        [Sequelize.fn('SUM', Sequelize.col('carrito_detalles_carrito.cantidad')), 'cantidad_total']
+      ],
+      include: [
+        {
+          model: Car_Products,
+          as: 'carrito_detalles_carrito', 
+          attributes: []
+        }
+      ],
+      group: ['carrito.id']
     });
+
     return carrito;
-  }catch (error) {
+  } catch (error) {
     console.error('Error al obtener el carrito:', error);
     throw error;
   }
 }
+
 
 export async function getUsers() {
   try{
