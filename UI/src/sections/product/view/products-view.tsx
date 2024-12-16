@@ -138,8 +138,12 @@ export function ProductsView() {
       <Typography variant="h4" sx={{ mb: 5 }}>
         Farmacia Deseret
       </Typography>
-
-
+      <Box>
+        <Button variant='contained' color='success'
+         startIcon={<Iconify icon="tdesign:money" />}>
+          Pagar Carrito
+        </Button>
+      </Box>
       
      
         <CartIcon
