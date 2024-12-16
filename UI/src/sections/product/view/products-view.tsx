@@ -8,7 +8,7 @@ import { ModalProductShow } from 'src/components/ModalProductShow/ModalProductSh
 import { _products } from 'src/_mock';
 import { DashboardContent } from 'src/layouts/dashboard';
 import { Product, useGetProducts } from 'src/_mock/product';
-import useProductId from 'src/hooks/useIdProduct';
+import useCarId  from 'src/hooks/useIdProduct';
 import { Button } from '@mui/material';
 import { Iconify } from 'src/components/iconify';
 import { useCarrito , Carrito} from 'src/_mock/carrito';
@@ -71,7 +71,7 @@ export function ProductsView() {
 
   const [openProducts, setOpenProducts] = useState(false);
 
-  const {carId, setCarId} = useProductId();
+  const {carId, setCarId} = useCarId ();
 
   const {newCarrito, getCarrito_byId} = useCarrito();
 
@@ -93,8 +93,12 @@ export function ProductsView() {
       try {
         const fetchedProducts = await getProductInfo_whitout();
         if (carId !== null) {
+          try{
           const carrito =  await getCarrito_byId(carId)
           setMiCarrito(carrito)
+        }catch(err){
+          console.log(err)
+        }
         }
         setProductos(fetchedProducts);
       } catch (error) {
@@ -139,10 +143,11 @@ export function ProductsView() {
       
      
         <CartIcon
+          isCarrito={!!micarrito}
           onSetCarrito={onSetCarrito} 
           onOpenFilter={handleOpenFilter}
           precio={micarrito !== null ? micarrito.total : 0.0}
-          totalItems={8} />
+          totalItems={ micarrito !== null ? micarrito.cantidad_total !== null ? micarrito.cantidad_total : 0 : 0} />
   
       <Box
         display="flex"

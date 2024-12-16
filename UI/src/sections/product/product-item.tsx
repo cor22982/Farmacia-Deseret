@@ -3,7 +3,9 @@ import Link from '@mui/material/Link';
 import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-
+import useCarId from 'src/hooks/useIdProduct';
+import useApi from "src/hooks/useApi";
+import source_link from "src/repository/source_repo";
 import { fCurrency } from 'src/utils/format-number';
 import { Product } from 'src/_mock/product';
 import { Label } from 'src/components/label';
@@ -11,6 +13,7 @@ import { ColorPreview } from 'src/components/color-utils';
 import { forwardRef } from 'react';
 import { IconButton } from '@mui/material';
 import { Icon } from "@iconify/react"; 
+import Swal from "sweetalert2";
 
 // ----------------------------------------------------------------------
 
@@ -21,6 +24,21 @@ export type ProductItemProps = {
 
 export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
   ({ product,  openProduct }, ref) => {
+  const {carId, setCarId} = useCarId ();
+  const {llamado} = useApi(`${source_link}/agregar_carrito`);
+
+  const addtoCarrito = async()=>{
+    const body = {opcion: 'uno' , carrito:carId, producto: product.id }
+    const respuesta = await llamado(body, 'POST')
+    console.log(respuesta)
+    if (respuesta.success === false) {
+      Swal.fire({
+                    icon: "error",
+                    title: "Error",
+                    text: respuesta.message,
+                  });
+    }
+  }
   const renderStatus = (
     <Label
       variant="inverted"
@@ -84,6 +102,7 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
           {/* <ColorPreview colors={product.colors} /> */}
           {renderPrice}
           <IconButton
+            onClick={addtoCarrito }
           >
            <Icon icon="icon-park-outline:add" width="24" height="24" color='blue'/>
         </IconButton>

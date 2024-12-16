@@ -6,7 +6,7 @@ import Badge from '@mui/material/Badge';
 import { RouterLink } from 'src/routes/components';
 
 import { Iconify } from 'src/components/iconify';
-import { Button, Typography } from '@mui/material';
+import { Button, Typography , Chip} from '@mui/material';
 
 // ----------------------------------------------------------------------
 
@@ -15,9 +15,10 @@ type Props = BoxProps & {
   precio: number;
   onOpenFilter: () => void;
   onSetCarrito: () => void;
+  isCarrito: boolean;
 };
 
-export function CartIcon({ precio, onOpenFilter, onSetCarrito, totalItems, sx, ...other }: Props) {
+export function CartIcon({ precio, isCarrito, onOpenFilter, onSetCarrito, totalItems, sx, ...other }: Props) {
   return (
     
     <Box
@@ -47,29 +48,32 @@ export function CartIcon({ precio, onOpenFilter, onSetCarrito, totalItems, sx, .
       
     >
 
-      <Box 
-        onClick={() =>  onOpenFilter()} 
-        display="flex" 
-        flexDirection="row" 
-        gap="1rem"  sx={{
-          '&:hover': {
-            opacity: 0.5,
-            filter: 'brightness(0.5)',
-          },
-        }}>
-      <Badge showZero badgeContent={totalItems} color="error" max={99}>
-        
-        
-        <Iconify icon="map:grocery-or-supermarket" width={24} />
-     
-      </Badge>
-      <Typography variant='h5'>
-      Total: Q {precio}
-        </Typography>
+{!isCarrito ? (
+        // Mostrar el chip cuando no hay carrito
+        <Chip label="No se encontró ningún carrito" color="error" />
+      ) : (
+        <Box
+          onClick={() => onOpenFilter()}
+          display="flex"
+          flexDirection="row"
+          gap="1rem"
+          sx={{
+            '&:hover': {
+              opacity: 0.5,
+              filter: 'brightness(0.5)',
+            },
+          }}
+        >
+          <Badge showZero badgeContent={totalItems} color="error" max={99}>
+            <Iconify icon="map:grocery-or-supermarket" width={24} />
+          </Badge>
+          <Typography variant="h5">Total: Q {precio}</Typography>
         </Box>
+      )}
+
         
         <Button onClick={() => {onSetCarrito()}}>
-          Nueva Compra
+          Nuevo Carrito
           <Iconify icon="ph:plus-fill" width={24}/>
         </Button>
     </Box>

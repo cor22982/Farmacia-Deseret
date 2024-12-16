@@ -10,11 +10,14 @@ export class Carrito {
 
   fecha: string;
 
-  constructor(id: number, total: number, hora: string, fecha: string) {
+  cantidad_total: number | null;
+
+  constructor(id: number, total: number, hora: string, fecha: string, cantidad_total: number | null) {
     this.id = id;
     this.total = total;
     this.hora = hora;
     this.fecha = fecha;
+    this.cantidad_total = cantidad_total;
   }
 }
 
@@ -39,7 +42,7 @@ export const useCarrito = () => {
     if (response.success && Array.isArray(response.carritos)) {
       const carritos = response.carritos.map(
         (carrito: { id: number; total: string; hora: string;  fecha: string;}) =>
-          new Carrito(carrito.id, Number(carrito.total), carrito.hora, carrito.fecha)
+          new Carrito(carrito.id, Number(carrito.total), carrito.hora, carrito.fecha, null)
       );
       return  carritos ;
     }
@@ -50,11 +53,13 @@ export const useCarrito = () => {
     const body = { id };
     const response = await llamado(body, "POST");
     if (response.success) {
-      const carrito = new Carrito(response.carrito.id,Number(response.carrito.total), response.carrito.hora, response.carrito.fecha );
+      const carrito = new Carrito(response.carrito.id,Number(response.carrito.total), response.carrito.hora, response.carrito.fecha , response.carrito.cantidad_total);
       return carrito ;
     }
     return null;
   };
+
+  
 
   return { newCarrito , getCarritos, getCarrito_byId};
 };
