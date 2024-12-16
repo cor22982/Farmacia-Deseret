@@ -158,6 +158,7 @@ export function ProductsView() {
       >
         <Box gap={1} display="flex" flexShrink={0} sx={{ my: 1 }}>
           <ProductFilters
+            micarrito={micarrito}
             canReset={canReset}
             filters={filters}
             onSetFilters={handleSetFilters}
