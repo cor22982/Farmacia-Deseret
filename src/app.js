@@ -14,7 +14,7 @@ insertarCarrito, getCarritos , getCarritoId, AgregarProductosCarrito} from './da
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
   actualizarProveedor, deleteHorariosById, actualizarProducto,
-  actualizarProducto_whitoutimage} from './database/deletes_updates.js';  
+  actualizarProducto_whitoutimage, deleteProductosCarrito} from './database/deletes_updates.js';  
 import { getProduct_usuario, getProduct__info_usuario, 
   getUbicaciones_usuario, getDetailsProduct_user } from './database/usuario_methods.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
@@ -566,6 +566,17 @@ app.delete('/deletehorarios', async(req,res)=>{
     }
   }catch (error) {
     console.error('Error al obtener al eliminar:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+})
+
+
+app.delete('/deleteproductoscarritos', async(req,res)=>{  
+  try {
+      await deleteProductosCarrito(req.body.id_carrito, req.body.id_product);
+      res.status(200).json({ success: true, message: 'Se elimino el producto'});
+  }catch (error) {
+    console.error('Error al eliminar producto del carrito:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });
   }
 })

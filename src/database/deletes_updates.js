@@ -1,5 +1,5 @@
 import User from "../entityes/user.js";
-import {Supplier, Schedule, Ubicacion, Product, ProductDetail} from "../entityes/relationships.js";
+import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car_Products} from "../entityes/relationships.js";
 
 //Update Ubicaciones
 
@@ -177,6 +177,23 @@ export async function deleteProductsById(id) {
     }
 
     return { message: 'Producto eliminada exitosamente' };
+  } catch (error) {
+    console.log(error)
+    throw error;
+  }
+}
+
+export async function deleteProductosCarrito(id_carrito, id_product) {
+  try {
+    const deletedRows = await Car_Products.destroy({
+      where: { carrito: id_carrito, producto: id_product }
+    });
+
+    if (deletedRows === 0) {
+      throw new Error('No se encontro el carrito');
+    }
+
+    return { message: 'Se elimino el producto del carrito ' };
   } catch (error) {
     console.log(error)
     throw error;
