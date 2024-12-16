@@ -30,7 +30,7 @@ Ubicacion.hasMany(ProductDetail, { foreignKey: 'ubicacion_id', as: 'product_deta
 Car_Products.belongsTo(Car,{foreignKey: 'carrito', as:'carrito_detalles_carproducts'});
 Car.hasMany(Car_Products,{foreignKey: 'carrito', as:'carrito_detalles_carrito'});
 
-Car_Products.belongsTo(Car,{foreignKey: 'producto', as:'producto_detalles_carproducts'});
+Car_Products.belongsTo(Product,{foreignKey: 'producto', as:'producto_detalles_carproducts'});
 Product.hasMany(Car_Products, { foreignKey: 'producto', as: 'producto_detalles_producto' });
 
 Pago.belongsTo(Car,{foreignKey: 'id_carrito', as:'carritopago_pago'});

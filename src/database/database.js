@@ -80,6 +80,41 @@ export async function getCarritoId(id) {
 }
 
 
+export async function getCarritoProducts(id_carrito) {
+  try {
+    const productos = await Car_Products.findAll({
+      where: { carrito: id_carrito },
+      attributes: [
+        'carrito',
+        'producto',
+        [Sequelize.fn('SUM', Sequelize.col('cantidad')), 'cantidad_total'],
+        'producto_detalles_carproducts.pp',
+        'producto_detalles_carproducts.nombre'
+      ],
+      include: [
+        {
+          model: Product,
+          as: 'producto_detalles_carproducts', 
+          attributes: ['id', 'pp', 'nombre']
+        }
+      ],
+    
+      group: [
+        'carrito_productos.carrito',
+        'carrito_productos.producto',
+        'producto_detalles_carproducts.id',
+        'producto_detalles_carproducts.pp',
+        'producto_detalles_carproducts.nombre'
+      ]
+    });
+
+    return productos;
+  } catch (error) {
+    console.error(`Error al obtener los productos del carrito con ID ${id_carrito}:`, error);
+    throw new Error('No se pudieron obtener los productos del carrito.');
+  }
+}
+
 export async function getUsers() {
   try{
     const users = await User.findAll({
@@ -318,7 +353,7 @@ export async function getInfoId(id) {
       attributes: ['id','ganancia', 'costo','pp'],
       where: { id: id }
     });
-    console.log('Se otuvo los productos:');
+    
     return products;
   }catch (error) {
     console.error('Error al obtener los nombres de los usuarios:', error);
@@ -339,7 +374,7 @@ export async function getProductDetails(id) {
         },
       ],
    });
-    console.log('Se otuvo los productos:');
+   
     return products;
   }catch (error) {
     console.error('Error al obtener los productos:', error);
@@ -359,7 +394,7 @@ export async function getProduct() {
         },
       ],
     });
-    console.log('Se otuvo los productos:');
+   
     return products;
   }catch (error) {
     console.error('Error al obtener los productos:', error);

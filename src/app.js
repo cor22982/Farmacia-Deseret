@@ -7,9 +7,10 @@ import { getUsers, verifyUserCredentials,
   insertarUbicacion, getUbicaciones, 
   insertarSupplier, insertarHorario, 
   getHorarios_byId, getProveedoresConHorarios, getProveedores_id,
-insertarProducto, insertarProducto_Details, actualizarPP,
-getInfoId, getProductDetails, getProduct, getProduct_id, 
-insertarCarrito, getCarritos , getCarritoId, AgregarProductosCarrito} from './database/database.js';
+  insertarProducto, insertarProducto_Details, actualizarPP,
+  getInfoId, getProductDetails, getProduct, getProduct_id, 
+  insertarCarrito, getCarritos , getCarritoId, 
+  AgregarProductosCarrito, getCarritoProducts} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
@@ -102,6 +103,16 @@ app.post('/getcarritoid', async (req, res) => {
     res.status(200).json({ success: true, carrito: carrito });
   }catch (error) {
     console.error('Error al obtener el carrito:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+app.post('/getcarritoproducts', async (req, res) => {
+  try {
+    const productos_carrito = await getCarritoProducts(req.body.id_carrito);
+    res.status(200).json({ success: true, productos_carrito: productos_carrito });
+  }catch (error) {
+    console.error('Error al obtener los productos:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });
   }
 });
