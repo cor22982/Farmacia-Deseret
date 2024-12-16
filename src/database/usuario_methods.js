@@ -33,7 +33,7 @@ export async function getProduct__info_usuario() {
         },
       ],
     });
-    console.log('Se otuvo los productos:');
+   
     return products;
   }catch (error) {
     console.error('Error al obtener los productos:', error);
@@ -61,7 +61,7 @@ export async function getProduct_usuario() {
         
       ],
     });
-    console.log('Se otuvo los productos:');
+   
     return products;
   }catch (error) {
     console.error('Error al obtener los productos:', error);
@@ -95,7 +95,7 @@ export async function getDetailsProduct_user(id) {
       ],
       where: { id_product: id }
     });
-    console.log('Se otuvo los productos:');
+
     return products;
   }catch (error) {
     console.error('Error al obtener los nombres de los usuarios:', error);
