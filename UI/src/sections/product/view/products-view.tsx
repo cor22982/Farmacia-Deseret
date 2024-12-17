@@ -12,11 +12,11 @@ import useCarId  from 'src/hooks/useIdProduct';
 import { Button } from '@mui/material';
 import { Iconify } from 'src/components/iconify';
 import { useCarrito , Carrito} from 'src/_mock/carrito';
+import { ProductSearchItem } from 'src/sections/add_products/components/products_search';
 import { ProductItem } from '../product-item';
 import { ProductSort } from '../product-sort';
 import { CartIcon } from '../product-cart-widget';
 import { ProductFilters } from '../product-filters';
-
 import type { FiltersProps } from '../product-filters';
 
 
@@ -83,10 +83,28 @@ export function ProductsView() {
 
   const [product_geted, setProductos] = useState<Product[]>([]);
 
+  const [searchValue, setSearchValue] = useState<string>('');
+
+  const [filterproduct, setFilterProductos] = useState<Product[]>([]);
+
+  const [call1, setCall1] = useState(0);
+
   const onSetCarrito = async() => {
     const respuesta_id = await newCarrito();
     setCarId(respuesta_id)
   }
+
+  const handleSearch = (value: string) => {
+    setSearchValue(value);
+    if (value) {
+      const filtered = product_geted.filter((p) =>
+        p.nombre.toLowerCase().includes(value.toLowerCase())
+      );
+      setFilterProductos(filtered);
+    } else {
+      setFilterProductos(product_geted);
+    }
+  };
   
   useEffect(() => {
     const fetchProducts = async () => {
@@ -100,6 +118,10 @@ export function ProductsView() {
           console.log(err)
         }
         }
+        if (call1 === 0){
+          setFilterProductos(fetchedProducts)
+          setCall1(call1+1);
+        }
         setProductos(fetchedProducts);
       } catch (error) {
         console.error("Error fetching places:", error);
@@ -107,7 +129,7 @@ export function ProductsView() {
     };
   
     fetchProducts();
-  }, [getProductInfo_whitout, setProductos, carId, getCarrito_byId, setMiCarrito]);
+  }, [getProductInfo_whitout, setProductos, carId, getCarrito_byId, setMiCarrito, call1]);
 
   const handleOpenFilter = useCallback(() => {
     setOpenFilter(true);
@@ -144,7 +166,9 @@ export function ProductsView() {
           Pagar Carrito
         </Button>
       </Box>
+      <br />
       
+     
      
         <CartIcon
           isCarrito={!!micarrito}
@@ -153,15 +177,7 @@ export function ProductsView() {
           precio={micarrito !== null ? micarrito.total : 0.0}
           totalItems={ micarrito !== null ? micarrito.cantidad_total !== null ? micarrito.cantidad_total : 0 : 0} />
   
-      <Box
-        display="flex"
-        alignItems="center"
-        flexWrap="wrap-reverse"
-        justifyContent="flex-end"
-        sx={{ mb: 5 }}
-      >
-        <Box gap={1} display="flex" flexShrink={0} sx={{ my: 1 }}>
-          <ProductFilters
+      <ProductFilters
             micarrito={micarrito}
             canReset={canReset}
             filters={filters}
@@ -178,6 +194,17 @@ export function ProductsView() {
               colors: COLOR_OPTIONS,
             }}
           />
+    <Box  display="flex">
+      <Box display="flex" justifyContent="flex-start" >
+            <ProductSearchItem
+            
+            onSearch={handleSearch}
+            products={product_geted}/>
+          </Box>        
+    
+
+        <Box display="flex" ml="auto">
+
 
           <ProductSort
             sortBy={sortBy}
@@ -190,10 +217,11 @@ export function ProductsView() {
             ]}
           />
         </Box>
+      
       </Box>
-
+      <br/>
       <Grid container spacing={3}>
-        {product_geted.map((product) => (
+        {filterproduct.map((product) => (
           <Grid key={product.id} xs={12} sm={6} md={3}>
             <ProductItem 
                openProduct={()=>{setOpenProducts(true)} }
