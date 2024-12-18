@@ -12,6 +12,7 @@ import useCarId  from 'src/hooks/useIdProduct';
 import { Button } from '@mui/material';
 import { Iconify } from 'src/components/iconify';
 import { useCarrito , Carrito} from 'src/_mock/carrito';
+import { ModalPay } from 'src/components/ModalPay/ModalPay';
 import { ProductSearchItem } from 'src/sections/add_products/components/products_search';
 import { ProductItem } from '../product-item';
 import { ProductSort } from '../product-sort';
@@ -70,6 +71,8 @@ export function ProductsView() {
   const [openFilter, setOpenFilter] = useState(false);
 
   const [openProducts, setOpenProducts] = useState(false);
+
+  const [openPay, setOpenPay] = useState(false);
 
   const {carId, setCarId} = useCarId ();
 
@@ -155,6 +158,12 @@ export function ProductsView() {
 
   return (
     <DashboardContent>
+      <ModalPay
+        carrito={micarrito}
+        setCall={setCall1}
+        open={openPay}
+        handleClose={() => {setOpenPay(false)}}
+        />
       <ModalProductShow
         product={product_selected}
         open={openProducts}
@@ -165,6 +174,7 @@ export function ProductsView() {
       </Typography>
       <Box>
         <Button variant='contained' color='success'
+         onClick={() => {setOpenPay(true)}}
          startIcon={<Iconify icon="tdesign:money" />}>
           Pagar Carrito
         </Button>
