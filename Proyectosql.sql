@@ -347,3 +347,7 @@ DROP CONSTRAINT fk_carrito,
 ADD CONSTRAINT fk_carrito
 FOREIGN KEY (carrito) REFERENCES carrito(id)
 ON DELETE CASCADE;
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE metodo_pago TO ownerfarmacia;
+GRANT USAGE, SELECT, UPDATE ON SEQUENCE metodo_pago_id_seq TO ownerfarmacia;
+GRANT SELECT ON TABLE carrito TO ownerfarmacia;
