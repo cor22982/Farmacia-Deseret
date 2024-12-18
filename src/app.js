@@ -16,7 +16,8 @@ import { getUsers, verifyUserCredentials,
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
   actualizarProveedor, deleteHorariosById, actualizarProducto,
-  actualizarProducto_whitoutimage, deleteProductosCarrito} from './database/deletes_updates.js';  
+  actualizarProducto_whitoutimage, deleteProductosCarrito, 
+  deletePagoById} from './database/deletes_updates.js';  
 import { getProduct_usuario, getProduct__info_usuario, 
   getUbicaciones_usuario, getDetailsProduct_user } from './database/usuario_methods.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
@@ -621,6 +622,17 @@ app.delete('/deleteproductoscarritos', async(req,res)=>{
   }
 })
 
+
+
+app.delete('/deletepago', async(req,res)=>{  
+  try {
+      await deletePagoById(req.body.id);
+      res.status(200).json({ success: true, message: 'Se elimino el pago'});
+  }catch (error) {
+    console.error('Error al eliminar el pago del carrito:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+})
 
 app.delete('/deleteproducts', async(req,res)=>{  
   try {

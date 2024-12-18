@@ -1,5 +1,5 @@
 import User from "../entityes/user.js";
-import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car_Products} from "../entityes/relationships.js";
+import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car_Products, Pago} from "../entityes/relationships.js";
 
 //Update Ubicaciones
 
@@ -126,6 +126,23 @@ export async function deleteUbicacionById(id) {
   }
 }
 
+//Delete Pagos
+export async function deletePagoById(id) {
+  try {
+    const deletedRows = await Pago.destroy({
+      where:{id: id}
+    });
+
+    if (deletedRows === 0) {
+      throw new Error('Pago no encontrado');
+    }
+
+    return { message: 'Pago eliminado' };
+  } catch (error) {
+    console.log(error)
+    throw error;
+  }
+}
 
 // Delete Prooveedores
 export async function deleteProveedoresById(id) {
