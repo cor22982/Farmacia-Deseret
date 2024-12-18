@@ -242,6 +242,7 @@ export const useGetProducts = () =>{
     return product || null;
   };
 
+  
   const getProductInfo_whitout = async (): Promise<Product[]> => {
     const response = await get_productos("GET");
 
@@ -374,7 +375,7 @@ export const useGetProducts = () =>{
             product.id,
             product.nombre,
             product.forma_farmaceutica,
-            '',
+            product.descripcion_uso,
             response2.image,
             0,
             Number(product.pp),

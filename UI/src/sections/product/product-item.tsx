@@ -20,10 +20,18 @@ import Swal from "sweetalert2";
 export type ProductItemProps = {
   product: Product;
   openProduct:  () => void;
+  setProductSelected: (p:Product) => void;
 };
 
 export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
-  ({ product,  openProduct }, ref) => {
+  ({ product,  openProduct, setProductSelected }, ref) => {
+
+
+  const onproduct = () => {
+    openProduct()
+    setProductSelected(product)
+
+  }
   const {carId, setCarId} = useCarId ();
   const {llamado} = useApi(`${source_link}/agregar_carrito`);
 
@@ -57,7 +65,7 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
 
   const renderImg = (
     <Box
-      onClick={ openProduct}
+      onClick={ onproduct}
       component="img"
       alt={product.nombre}
       src={`data:image/jpeg;base64,${product.imagen}`}

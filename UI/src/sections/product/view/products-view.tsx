@@ -63,7 +63,7 @@ const defaultFilters = {
 };
 
 export function ProductsView() {
-  const {getProductInfo_whitout} = useGetProducts();
+  const {getProductInfo_whitout_info} = useGetProducts();
 
   const [sortBy, setSortBy] = useState('featured');
 
@@ -89,6 +89,8 @@ export function ProductsView() {
 
   const [call1, setCall1] = useState(0);
 
+  const [product_selected, setProductSelected] = useState<Product| null>(null)
+
   const onSetCarrito = async() => {
     const respuesta_id = await newCarrito();
     setCarId(respuesta_id)
@@ -109,7 +111,7 @@ export function ProductsView() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const fetchedProducts = await getProductInfo_whitout();
+        const fetchedProducts = await getProductInfo_whitout_info();
         if (carId !== null) {
           try{
           const carrito =  await getCarrito_byId(carId)
@@ -127,9 +129,9 @@ export function ProductsView() {
         console.error("Error fetching places:", error);
       }
     };
-  
+   // console.log(product_geted)
     fetchProducts();
-  }, [getProductInfo_whitout, setProductos, carId, getCarrito_byId, setMiCarrito, call1]);
+  }, [getProductInfo_whitout_info, setProductos, carId, getCarrito_byId, setMiCarrito, call1, product_geted]);
 
   const handleOpenFilter = useCallback(() => {
     setOpenFilter(true);
@@ -154,6 +156,7 @@ export function ProductsView() {
   return (
     <DashboardContent>
       <ModalProductShow
+        product={product_selected}
         open={openProducts}
         handleClose={() => {setOpenProducts(false)}}
       />
@@ -223,7 +226,8 @@ export function ProductsView() {
       <Grid container spacing={3}>
         {filterproduct.map((product) => (
           <Grid key={product.id} xs={12} sm={6} md={3}>
-            <ProductItem 
+            <ProductItem
+              setProductSelected = {setProductSelected} 
                openProduct={()=>{setOpenProducts(true)} }
               product={product} />
           </Grid>
