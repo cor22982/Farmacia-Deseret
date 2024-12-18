@@ -351,3 +351,12 @@ ON DELETE CASCADE;
 GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE metodo_pago TO ownerfarmacia;
 GRANT USAGE, SELECT, UPDATE ON SEQUENCE metodo_pago_id_seq TO ownerfarmacia;
 GRANT SELECT ON TABLE carrito TO ownerfarmacia;
+
+
+ALTER TABLE metodo_pago DROP CONSTRAINT fk_id_carrito;
+
+ALTER TABLE metodo_pago
+ADD CONSTRAINT fk_id_carrito
+FOREIGN KEY (id_carrito)
+REFERENCES carrito(id)
+ON DELETE CASCADE;
