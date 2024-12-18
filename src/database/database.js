@@ -1,7 +1,24 @@
 import User from "../entityes/user.js";
-import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car, Car_Products} from "../entityes/relationships.js";
+import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car, Car_Products, Pago} from "../entityes/relationships.js";
 import { response } from "express";
-import { Sequelize, DataTypes } from 'sequelize';
+import { Sequelize } from 'sequelize';
+
+export async function insertarPago(pago, tipo, id_carrito) {
+  try {
+    const resultado = await Pago.create({
+      pago: pago,
+      tipo: tipo,
+      id_carrito: id_carrito,
+    });
+
+    console.log('Se insertó con el id:', resultado.id);
+    return resultado.id;
+  } catch (error) {
+    console.error('Error al insertar el pago:', error);
+    return null;
+  }
+}
+
 
 export async function insertarCarrito() {
   try {
@@ -38,6 +55,17 @@ export async function AgregarProductosCarrito(carrito , producto , cantidad) {
   } catch (error) {
     console.error('Error al insertar productos al carrito:', error);
     return false;
+  }
+}
+
+export async function getPagos_bycarrito(id_carrito) {
+  try{
+    const pagos = await Pago.findAll({
+      where:{id_carrito: id_carrito}
+    });
+    return pagos;
+  }catch (error) {
+    throw error;
   }
 }
 

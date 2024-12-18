@@ -10,7 +10,8 @@ import { getUsers, verifyUserCredentials,
   insertarProducto, insertarProducto_Details, actualizarPP,
   getInfoId, getProductDetails, getProduct, getProduct_id, 
   insertarCarrito, getCarritos , getCarritoId, 
-  AgregarProductosCarrito, getCarritoProducts} from './database/database.js';
+  AgregarProductosCarrito, getCarritoProducts, 
+  insertarPago, getPagos_bycarrito} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
@@ -169,6 +170,34 @@ app.post('/getDetails_user', async (req, res) => {
   }
 });
 
+
+app.post('/getPagosCarrito', async (req, res) => {
+  try {
+    const pagos = await getPagos_bycarrito(req.body.id_carrito);
+    res.status(200).json({ success: true, pagos});
+  }catch (error) {
+    console.error('Error al obtener pagos:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/insertMetodo_Pago', async(req, res) => {
+  try {
+    const { pago, tipo, id_carrito } = req.body;
+    const response = await insertarPago(pago, tipo, id_carrito);
+    if (response) {
+      res.status(200).json({ success: true, message: 'Se inserto de manera exitosa'});
+    } else {
+      res.status(401).json({ success: false, message: 'No se inserto de manera exitosa'});
+    }
+    
+  } catch (error) {
+    console.error('Error al insertar el metodo de pago:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+  
+});
 
 app.post('/insertProductDetails_usuario', async(req, res) => {
   try {
