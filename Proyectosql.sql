@@ -393,3 +393,15 @@ CREATE TABLE presentacion_producto (
     CONSTRAINT fk_presentacion FOREIGN KEY (presentacion_id) REFERENCES presentaciones (id) ON DELETE CASCADE,
 		CONSTRAINT fk_product FOREIGN KEY (product_id) REFERENCES products (id) ON DELETE CASCADE
 );
+
+-- Otorgar permisos al usuario sobre la tabla presentaciones
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.presentaciones TO ownerfarmacia;
+
+-- Otorgar permisos sobre la secuencia presentaciones_id_seq
+GRANT USAGE, SELECT, UPDATE ON SEQUENCE public.presentaciones_id_seq TO ownerfarmacia;
+
+-- Otorgar permisos al usuario sobre la tabla presentacion_producto
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.presentacion_producto TO ownerfarmacia;
+
+-- Otorgar permisos sobre la secuencia presentacion_producto_id_seq
+GRANT USAGE, SELECT, UPDATE ON SEQUENCE public.presentacion_producto_id_seq TO ownerfarmacia;
