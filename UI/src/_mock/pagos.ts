@@ -22,7 +22,7 @@ export class Pago {
 export const usePagos = () => {
   const { llamado: getPagosCarrito } = useApi(`${source_link}/getPagosCarrito`);
 
-  const getPagos= async (id_carrito: number): Promise<Pago[]> => {
+  const getPagos= async (id_carrito: number|null): Promise<Pago[]> => {
       const body = { id_carrito };
       const response = await getPagosCarrito(body, "POST");
   
