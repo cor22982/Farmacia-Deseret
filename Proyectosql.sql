@@ -373,3 +373,23 @@ ALTER SEQUENCE proveedores_id_seq RESTART WITH 1;
 ALTER SEQUENCE ubicaciones_id_seq RESTART WITH 1;
 ALTER SEQUENCE venta_id_seq RESTART WITH 1;
 
+-- Tercer sprint
+
+
+CREATE TABLE presentaciones (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(255),
+    descripcion TEXT
+);
+
+
+CREATE TABLE presentacion_producto (
+    id SERIAL PRIMARY KEY,
+    porcentaje_ganancia NUMERIC(5, 2),
+    pp NUMERIC(10, 2),
+    cantidad_presentacion INTEGER,
+    presentacion_id INTEGER,
+		product_id INTEGER,
+    CONSTRAINT fk_presentacion FOREIGN KEY (presentacion_id) REFERENCES presentaciones (id) ON DELETE CASCADE,
+		CONSTRAINT fk_product FOREIGN KEY (product_id) REFERENCES products (id) ON DELETE CASCADE
+);
