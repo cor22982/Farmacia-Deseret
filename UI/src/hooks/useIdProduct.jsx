@@ -8,9 +8,13 @@ const CarIdContext = createContext({
 });
 
 const CarIdProvider = ({ children }) => {
-  const [carId, setCarId] = useState(
-    typeof window !== 'undefined' ? localStorage.getItem('car_id') : null
-  );
+  const [carId, setCarId] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const storedCarId = localStorage.getItem('car_id');
+      return storedCarId !== null ? storedCarId : '1'; // Valor predeterminado: '1'
+    }
+    return '1'; // Valor predeterminado: '1'
+  });
 
   // Sincroniza el carId con localStorage
   useEffect(() => {
@@ -23,11 +27,7 @@ const CarIdProvider = ({ children }) => {
     }
   }, [carId]);
 
- 
-  const contextValue = useMemo(
-    () => ({ carId, setCarId }),
-    [carId]
-  );
+  const contextValue = useMemo(() => ({ carId, setCarId }), [carId]);
 
   return (
     <CarIdContext.Provider value={contextValue}>
