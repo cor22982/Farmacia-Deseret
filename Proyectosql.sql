@@ -360,3 +360,16 @@ ADD CONSTRAINT fk_id_carrito
 FOREIGN KEY (id_carrito)
 REFERENCES carrito(id)
 ON DELETE CASCADE;
+
+
+ALTER SEQUENCE carrito_id_seq RESTART WITH 1;
+ALTER SEQUENCE carrito_productos_id_seq RESTART WITH 1;
+ALTER SEQUENCE horario_id_seq RESTART WITH 1;
+ALTER SEQUENCE metodo_pago_id_seq RESTART WITH 1;
+ALTER SEQUENCE pedidos_bodega_id_seq RESTART WITH 1;
+ALTER SEQUENCE productos_cantidades_id_seq RESTART WITH 1;
+ALTER SEQUENCE products_id_seq RESTART WITH 1;
+ALTER SEQUENCE proveedores_id_seq RESTART WITH 1;
+ALTER SEQUENCE ubicaciones_id_seq RESTART WITH 1;
+ALTER SEQUENCE venta_id_seq RESTART WITH 1;
+
