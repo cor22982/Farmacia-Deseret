@@ -1,3 +1,4 @@
+-- SPRINT 2
 drop table ganancia;
 ALTER TABLE products 
 ADD COLUMN ganancia NUMERIC(10, 4);
@@ -162,3 +163,91 @@ ADD CONSTRAINT fk_producto FOREIGN KEY (producto) REFERENCES products(id) ON DEL
 ALTER TABLE venta
 DROP CONSTRAINT fk_venta,
 ADD CONSTRAINT fk_venta FOREIGN KEY (product) REFERENCES products(id) ON DELETE CASCADE;
+
+-- Carrito
+
+create table metodo_pago(
+	id serial primary key,
+	pago  NUMERIC(10, 4),
+	tipo VARCHAR(200),
+	id_carrito int,
+	CONSTRAINT fk_id_carrito FOREIGN KEY (id_carrito) references  carrito(id)
+);
+alter table carrito_productos add column id serial primary key;
+
+
+CREATE OR REPLACE FUNCTION actualizar_alinsertar_productos_carrito()
+RETURNS TRIGGER AS $$
+BEGIN
+    UPDATE carrito
+    SET 
+        total = total + (
+            SELECT 
+                carrito_productos.cantidad * p.pp AS precio_nuevo
+            FROM 
+                carrito_productos
+            JOIN 
+                products p ON p.id = carrito_productos.producto
+            WHERE 
+                carrito_productos.id = NEW.id
+        )
+    WHERE id = NEW.carrito;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+
+CREATE TRIGGER trigger_actualizar_alinsertar_productos_carrito
+AFTER INSERT ON carrito_productos
+FOR EACH ROW
+EXECUTE FUNCTION actualizar_alinsertar_productos_carrito();
+
+
+CREATE OR REPLACE FUNCTION actualizar_aleliminar_productos_carrito()
+RETURNS TRIGGER AS $$
+BEGIN
+    UPDATE carrito
+    SET 
+        total = total - (
+            SELECT 
+                OLD.cantidad * p.pp AS precio_eliminado
+            FROM 
+                products p
+            WHERE 
+                p.id = OLD.producto
+        )
+    WHERE id = OLD.carrito;
+
+    RETURN OLD;
+END;
+$$ LANGUAGE plpgsql;
+
+
+CREATE TRIGGER trigger_aldetallar_productos_carrito
+AFTER DELETE ON carrito_productos
+FOR EACH ROW
+EXECUTE FUNCTION actualizar_aleliminar_productos_carrito();
+
+
+-- Otorgar permisos de USAGE y UPDATE sobre la secuencia
+GRANT USAGE, SELECT, UPDATE ON SEQUENCE carrito_productos_id_seq TO ownerfarmacia;
+
+ALTER TABLE carrito_productos
+DROP CONSTRAINT fk_carrito,
+ADD CONSTRAINT fk_carrito
+FOREIGN KEY (carrito) REFERENCES carrito(id)
+ON DELETE CASCADE;
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE metodo_pago TO ownerfarmacia;
+GRANT USAGE, SELECT, UPDATE ON SEQUENCE metodo_pago_id_seq TO ownerfarmacia;
+GRANT SELECT ON TABLE carrito TO ownerfarmacia;
+
+
+ALTER TABLE metodo_pago DROP CONSTRAINT fk_id_carrito;
+
+ALTER TABLE metodo_pago
+ADD CONSTRAINT fk_id_carrito
+FOREIGN KEY (id_carrito)
+REFERENCES carrito(id)
+ON DELETE CASCADE;
