@@ -25,6 +25,29 @@ export async function actualizarUbicaciones(id, nuevaUbicacion, lugarf) {
   }
 }
 
+
+export async function actualizarPresentaciones(id, nuevoNombre, nuevaDescripcion) {
+  try {
+    const [updatedRows] = await Presentaciones.update({
+      nombre: nuevoNombre,
+      descripcion: nuevaDescripcion,
+    }, {
+      where: { id: id },
+    });
+
+    if (updatedRows === 0) {
+      console.error('No se encontró ningún registro con el id proporcionado.');
+      return false;
+    }
+
+    console.log('Se actualizó el registro con id:', id);
+    return true;
+  } catch (error) {
+    console.error('Error al actualizar los detalles de la presentación:', error);
+    return false;
+  }
+}
+
 //Update Proveedor
 export async function actualizarProveedor(id, nombre, direccion, telefono, proveedorid, contacto, contacto2) {
   try {

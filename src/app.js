@@ -18,7 +18,8 @@ import { deleteUbicacionById , deleteProveedoresById,
   actualizarProveedor, deleteHorariosById, actualizarProducto,
   actualizarProducto_whitoutimage, deleteProductosCarrito, 
   deletePagoById, 
-  deletePresentacionById} from './database/deletes_updates.js';  
+  deletePresentacionById, 
+  actualizarPresentaciones} from './database/deletes_updates.js';  
 import { getProduct_usuario, getProduct__info_usuario, 
   getUbicaciones_usuario, getDetailsProduct_user } from './database/usuario_methods.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
@@ -721,6 +722,24 @@ app.put('/updateUbicaciones', async(req,res)=>{
     if (validate_token && rol ==='admin'){
       await actualizarUbicaciones(id, nuevaUbicacion, lugarf);
       res.status(200).json({ success: true, message: 'Se actualizo la ubicacion'});
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para actualizar'});
+    }
+  }catch (error) {
+    console.error('Error al obtener al actualizar:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+})
+
+
+app.put('/updatePresentaciones', async(req,res)=>{  
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    const {id, nuevoNombre, nuevaDescripcion} = req.body
+    if (validate_token && rol ==='admin'){
+      await actualizarPresentaciones(id, nuevoNombre, nuevaDescripcion);
+      res.status(200).json({ success: true, message: 'Se actualizo la presentacion'});
     } else{
       res.status(401).json({ success: false, message: 'No tienes permisos para actualizar'});
     }
