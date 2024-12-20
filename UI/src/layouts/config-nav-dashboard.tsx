@@ -22,25 +22,30 @@ export const navData = [
 ];
 
 export const navData_admin = [
-  {
-    title: 'Ventas',
-    path: '/',
-    icon: icon('ic-sales'),
-  },
-  {
-    title: 'Dashboard',
-    path: '/dashboard',
-    icon: icon('ic-analytics'),
-  },
-  {
-    title: 'Ganancias',
-    path: '/adsfsd',
-    icon: icon('ic-money'),
-  },
+  // {
+  //   title: 'Ventas',
+  //   path: '/',
+  //   icon: icon('ic-sales'),
+  // },
+  // {
+  //   title: 'Dashboard',
+  //   path: '/dashboard',
+  //   icon: icon('ic-analytics'),
+  // },
+  // {
+  //   title: 'Ganancias',
+  //   path: '/adsfsd',
+  //   icon: icon('ic-money'),
+  // },
   {
     title: 'Productos',
     path: '/products_farmacia',
     icon: icon('ic-medicine')
+  },
+  {
+    title: 'Presentaciones Productos',
+    path: '/presentaciones',
+    icon: icon('ic-packing'),
   },
   {
     title: 'Proveedores',
@@ -52,14 +57,15 @@ export const navData_admin = [
     path: '/ubicacion',
     icon: icon('ic--baseline-place'),
   },
-  {
-    title: 'Productos No Sistema',
-    path: '/blog',
-    icon: icon('ic-disabled'),
-  },
-  {
-    title: 'Pedidos Farmacia',
-    path: '/farmacia',
-    icon: icon('ic-order'),
-  }
+  // {
+  //   title: 'Productos No Sistema',
+  //   path: '/blog',
+  //   icon: icon('ic-disabled'),
+  // },
+  // {
+  //   title: 'Pedidos Farmacia',
+  //   path: '/farmacia',
+  //   icon: icon('ic-order'),
+  // }
+
 ];
