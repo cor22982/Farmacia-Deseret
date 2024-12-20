@@ -6,6 +6,8 @@ import Ubicacion from "./ubicacion.js";
 import Car from "./Car.js";
 import Car_Products from "./Car_Products.js";
 import Pago from "./Pago.js";
+import PresentacionProducto from "./PresentacionProducto.js";
+import Presentaciones from "./Presentaciones.js";
 
 
 Supplier.hasMany(Schedule, { foreignKey: 'id_proveedor', as: 'horarios' });
@@ -36,4 +38,38 @@ Product.hasMany(Car_Products, { foreignKey: 'producto', as: 'producto_detalles_p
 Pago.belongsTo(Car,{foreignKey: 'id_carrito', as:'carritopago_pago'});
 Car.hasMany(Pago,{foreignKey: 'id_carrito', as:'carritopago_carrito'});
 
-export { Supplier, Schedule, Product, ProductDetail, Ubicacion, Car, Pago, Car_Products};
+PresentacionProducto.belongsTo(Presentaciones, {
+  foreignKey: 'presentacion_id',
+  as: 'presentacion',
+  onDelete: 'CASCADE',
+});
+
+Presentaciones.hasMany(PresentacionProducto, {
+  foreignKey: 'presentacion_id',
+  as: 'productos_presentacion',
+  onDelete: 'CASCADE',
+});
+
+PresentacionProducto.belongsTo(Product, {
+  foreignKey: 'product_id',
+  as: 'producto',
+  onDelete: 'CASCADE',
+});
+
+Product.hasMany(PresentacionProducto, {
+  foreignKey: 'product_id',
+  as: 'productos_presentacion_producto', // Cambié el alias para evitar conflicto
+  onDelete: 'CASCADE',
+});
+
+export { 
+  Supplier, 
+  Schedule, 
+  Product, 
+  ProductDetail, 
+  Ubicacion, 
+  Car, 
+  Pago, 
+  Car_Products, 
+  Presentaciones, 
+  PresentacionProducto};

@@ -11,13 +11,14 @@ import { getUsers, verifyUserCredentials,
   getInfoId, getProductDetails, getProduct, getProduct_id, 
   insertarCarrito, getCarritos , getCarritoId, 
   AgregarProductosCarrito, getCarritoProducts, 
-  insertarPago, getPagos_bycarrito} from './database/database.js';
+  insertarPago, getPagos_bycarrito, insertarPresentaciones, obtenerPresentaciones} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
   actualizarProveedor, deleteHorariosById, actualizarProducto,
   actualizarProducto_whitoutimage, deleteProductosCarrito, 
-  deletePagoById} from './database/deletes_updates.js';  
+  deletePagoById, 
+  deletePresentacionById} from './database/deletes_updates.js';  
 import { getProduct_usuario, getProduct__info_usuario, 
   getUbicaciones_usuario, getDetailsProduct_user } from './database/usuario_methods.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
@@ -329,6 +330,24 @@ app.post('/ubicaciones', async (req, res) => {
 });
 
 
+
+app.post('/presentaciones', async (req, res) => {
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const  allpresentaciones = await obtenerPresentaciones()
+      res.status(200).json({ success: true, presentaciones: allpresentaciones});      
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para obtener las presentaciones'});
+    }
+  }catch (error) {
+    console.error('Error al obtener las presentaciones:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
 app.post('/proveedores', async (req, res) => {
   try {
     const validate_token = await validateToken(req.body.token)
@@ -467,6 +486,30 @@ app.post('/insertUbicacion', async (req, res) => {
 });
 
 
+app.post('/insertPresentaciones', async (req, res) => {
+  try {
+    const {rol} = await decodeToken(req.body.token)
+    const validate_token = await validateToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const {nombre, descripcion} = req.body
+      const response = await insertarPresentaciones(nombre, descripcion) ;
+      if (response) {
+        res.status(200).json({ success: true, message: 'Se inserto de manera exitosa'});
+      } else {
+        res.status(401).json({ success: false, message: 'No se inserto de manera exitosa'});
+      }
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para insertar'});
+    }
+
+    
+  } catch (error) {
+    console.error('Error al insertar la presentacion:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
 app.post('/insertHorario', async (req, res) => {
   try {  
     const validate_token = await validateToken(req.body.token)
@@ -569,6 +612,23 @@ app.delete('/deleteubicacion', async(req,res)=>{
     if (validate_token && rol ==='admin'){
       await deleteUbicacionById(req.body.id);
       res.status(200).json({ success: true, message: 'Se elimino la ubicacion'});
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para eliminar'});
+    }
+  }catch (error) {
+    console.error('Error al obtener al eliminar:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+})
+
+
+app.delete('/delepresentacion', async(req,res)=>{
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      await deletePresentacionById(req.body.id);
+      res.status(200).json({ success: true, message: 'Se elimino la presentacion'});
     } else{
       res.status(401).json({ success: false, message: 'No tienes permisos para eliminar'});
     }

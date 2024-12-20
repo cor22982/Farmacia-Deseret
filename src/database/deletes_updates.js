@@ -1,5 +1,5 @@
 import User from "../entityes/user.js";
-import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car_Products, Pago} from "../entityes/relationships.js";
+import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car_Products, Pago, Presentaciones} from "../entityes/relationships.js";
 
 //Update Ubicaciones
 
@@ -120,6 +120,24 @@ export async function deleteUbicacionById(id) {
     }
 
     return { message: 'Ubicación eliminada exitosamente' };
+  } catch (error) {
+    console.log(error)
+    throw error;
+  }
+}
+
+
+export async function deletePresentacionById(id) {
+  try {
+    const deletedRows = await Presentaciones.destroy({
+      where: { id }
+    });
+
+    if (deletedRows === 0) {
+      throw new Error('Presentacion no encontrada');
+    }
+
+    return { message: 'Presentacion eliminada exitosamente' };
   } catch (error) {
     console.log(error)
     throw error;

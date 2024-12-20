@@ -1,5 +1,15 @@
 import User from "../entityes/user.js";
-import {Supplier, Schedule, Ubicacion, Product, ProductDetail, Car, Car_Products, Pago} from "../entityes/relationships.js";
+import {
+  Supplier, 
+  Schedule, 
+  Ubicacion, 
+  Product, 
+  ProductDetail, 
+  Car, 
+  Car_Products, 
+  Pago, 
+  Presentaciones,
+  PresentacionProducto} from "../entityes/relationships.js";
 import { response } from "express";
 import { Sequelize } from 'sequelize';
 
@@ -18,6 +28,33 @@ export async function insertarPago(pago, tipo, id_carrito) {
     return null;
   }
 }
+
+
+export async function insertarPresentaciones(nombre, descripcion) {
+  try {
+    const resultado = await Presentaciones.create({
+      nombre: nombre,
+      descripcion: descripcion,
+    });
+
+    console.log('Se insertó con el id:', resultado.id);
+    return resultado.id;
+  } catch (error) {
+    console.error('Error al insertar la presentación:', error);
+    return null;
+  }
+}
+
+export async function obtenerPresentaciones() {
+  try {
+    const resultados = await Presentaciones.findAll();
+    return resultados;
+  } catch (error) {
+    console.error('Error al obtener las presentaciones:', error);
+    return [];
+  }
+}
+
 
 
 export async function insertarCarrito() {
