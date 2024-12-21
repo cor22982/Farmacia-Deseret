@@ -477,10 +477,6 @@ EXECUTE FUNCTION actualizar_aleliminar_productos_carrito();
 
 
 
-INSERT INTO productos_cantidades (cantidad, fecha_compra, fecha_vencimiento, costo, id_product)
-VALUES (50, '2024-12-01', '2025-12-01', 10.00, 1);
-
-
 CREATE OR REPLACE FUNCTION actualizar_products_por_details()
 RETURNS TRIGGER AS $$
 BEGIN
