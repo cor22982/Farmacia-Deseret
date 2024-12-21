@@ -484,10 +484,11 @@ VALUES (50, '2024-12-01', '2025-12-01', 10.00, 1);
 CREATE OR REPLACE FUNCTION actualizar_products_por_details()
 RETURNS TRIGGER AS $$
 BEGIN
-  -- Obtén el precio más bajo (pp) del producto relacionado
+  -- Declara una variable para almacenar el precio más bajo (pp_min)
   DECLARE
     pp_min numeric(10, 4);
   BEGIN
+    -- Obtén el precio más bajo (pp) para el producto relacionado
     SELECT MIN(pp)
     INTO pp_min
     FROM presentacion_producto
@@ -498,13 +499,15 @@ BEGIN
       pp_min := 0;
     END IF;
 
-    -- Calcula la ganancia basada en el precio más bajo obtenido
-    NEW.ganancia = CASE 
+    -- Actualiza la ganancia en la tabla products
+    UPDATE products
+    SET ganancia = CASE 
                      WHEN pp_min <> 0 THEN (pp_min - NEW.costo) / pp_min
                      ELSE 0
-                   END;
+                   END
+    WHERE id = NEW.id_product;
 
-    -- Retorna el nuevo registro modificado
+    -- Retorna la nueva fila en productos_cantidades
     RETURN NEW;
   END;
 END;
