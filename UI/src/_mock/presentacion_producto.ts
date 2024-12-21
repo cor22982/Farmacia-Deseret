@@ -40,6 +40,9 @@ export class PresentacionProducto {
 
 export const useGetPresentacionesProducto = () => {
   const { llamado: presentacionesproductos } = useApi(`${source_link}/presentaciones_by_product`);
+  const { llamado: getpresentacionbyID } = useApi(`${source_link}/getpresentacionbyID`);
+
+
   const { token } = useToken();
   const { getOnePresentacion } = useGetPresentaciones();
 
@@ -81,5 +84,25 @@ export const useGetPresentacionesProducto = () => {
     }
   };
 
-  return { getPresentacionesProducto };
+  const getPresentacionProductobyID = async (id: number): Promise<PresentacionProducto | null> => {
+      const body = { id_presentacion:id };
+      const response = await getpresentacionbyID(body, "POST");
+      if (response.success) {
+        const presentacion_geted = await getOnePresentacion(response.producto_presentacion.presentacion_id);
+
+        const carrito = new PresentacionProducto(
+          response.producto_presentacion.id,
+          response.producto_presentacion.porcentaje_ganancia, 
+          Number(response.producto_presentacion.pp), 
+          response.producto_presentacion.cantidad_presentacion , 
+          response.producto_presentacion.presentacion_id,
+          response.producto_presentacion.product_id,
+          presentacion_geted
+        );
+        return carrito ;
+      }
+      return null;
+    };
+
+  return { getPresentacionesProducto, getPresentacionProductobyID  };
 };

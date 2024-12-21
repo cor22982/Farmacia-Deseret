@@ -106,9 +106,15 @@ export const ModalPay = forwardRef<HTMLDivElement, ModalPayProps>(
                 <Typography id="modal-modal-title" variant="h4" component="h2" color="primary">
                 Cambio
                 </Typography>
-                <Typography id="modal-modal-title" variant="h2" component="h2" color="primary">
-                Q {cambio}
+                <Typography 
+                  id="modal-modal-title" 
+                  variant="h2" 
+                  component="h2" 
+                  color="primary"
+                >
+                  Q {cambio >= 0 ? cambio : 0}
                 </Typography>
+
               </Box>
             </Box>
 
@@ -135,6 +141,9 @@ export const ModalPay = forwardRef<HTMLDivElement, ModalPayProps>(
                                 <Typography variant="body2" fontWeight="bold">Producto</Typography>
                               </TableCell>
                               <TableCell>
+                                <Typography variant="body2" fontWeight="bold">Presentacion</Typography>
+                              </TableCell>
+                              <TableCell>
                                 <Typography variant="body2" fontWeight="bold">Precio Unitario</Typography>
                               </TableCell>
                               <TableCell>
@@ -149,10 +158,12 @@ export const ModalPay = forwardRef<HTMLDivElement, ModalPayProps>(
                               <TableRow key={index}>
                                 
                                 <TableCell>{producto.cantidad}</TableCell>
-                                <TableCell sx={{ width: '50px', fontSize: '12px'}}>
+                                <TableCell sx={{ width: '1000px', fontSize: '10px'}}>
                                   {producto.producto_nombre}</TableCell>
-                                  <TableCell>Q {producto.precio_unitario}</TableCell>
-                                  <TableCell>Q {(producto.precio_unitario)*(producto.cantidad)}</TableCell>
+                                  <TableCell>{producto.presentacion?.presentacion?.nombre} X {producto.presentacion?.cantidad_presentacion}</TableCell>
+                                  <TableCell>Q {producto.presentacion?.pp}</TableCell>
+                                  <TableCell>Q {(producto.presentacion?.pp ?? 0) * producto.cantidad}</TableCell>
+
                                 
                               </TableRow>
 

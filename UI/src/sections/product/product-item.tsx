@@ -40,7 +40,7 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
   const {llamado} = useApi(`${source_link}/agregar_carrito`);
 
   const addtoCarrito = async()=>{
-    const body = {opcion: 'uno' , carrito:carId, producto: product.id }
+    const body = {opcion: 'uno' , carrito:carId, producto: product.id, presentacion: presentacion.id }
     const respuesta = await llamado(body, 'POST')
     console.log(respuesta)
     if (respuesta.success === false) {
@@ -63,7 +63,7 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
         textTransform: 'uppercase',
       }}
     >
-     {presentacion.presentacion?.nombre}
+     {presentacion.presentacion?.nombre} X {presentacion.cantidad_presentacion}
     </Label>
   );
 

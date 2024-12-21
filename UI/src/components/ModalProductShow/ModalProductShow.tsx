@@ -80,7 +80,7 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
   
     
      const addtoCarrito = async()=>{
-        const body = {opcion: 'varios' , carrito:carId, producto: product?.id, cantidad  }
+        const body = {opcion: 'varios' , carrito:carId, producto: product?.id, cantidad, presentacion: presentacion?.id   }
         const respuesta = await llamado(body, 'POST')
         console.log(respuesta)
         if (respuesta.success === true) {
@@ -140,7 +140,7 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
                   {product?.nombre}
                 </Typography>
                 <Chip 
-                    label={`${presentacion?.presentacion?.nombre.toUpperCase()}-${product?.forma_farmaceutica.toUpperCase()}`}
+                    label={`${presentacion?.presentacion?.nombre.toUpperCase()} X ${presentacion?.cantidad_presentacion}`}
                     color='error'/>
               </Box>
               <br/>

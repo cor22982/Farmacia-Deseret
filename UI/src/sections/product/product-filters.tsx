@@ -71,8 +71,8 @@ export function ProductFilters({
   const [carritoproductos, setCarritoProductos] = useState<ProductoCarrito[]>([])
   const {getCarritoProducts} = useGetProductosCarrito ();
 
-  const deleteProducto = async (id_product: number) => {
-    const body = { id_carrito: carId, id_product };
+  const deleteProducto = async (id_product: number, id_presentacion: number) => {
+    const body = { id_carrito: carId, id_product, id_presentacion};
     const respuesta = await deleteproducto(body, 'DELETE');
     
     if (respuesta?.success) { // Verifica que la eliminación fue exitosa
@@ -255,7 +255,15 @@ export function ProductFilters({
                     <Table size="small" aria-label="tabla de detalles de productos" >
                       <TableHead>
                         <TableRow>
-                          
+                        <TableCell
+                              sx={{
+                                 width: '5px',
+                                fontWeight: 'normal',
+                                backgroundColor: 'transparent',
+                              }}
+                            >
+                              <Typography variant="body2"/>
+                            </TableCell> 
                           <TableCell>
                             <Typography variant="body2" fontWeight="bold">Cantidad</Typography>
                           </TableCell>
@@ -263,28 +271,33 @@ export function ProductFilters({
                             <Typography variant="body2" fontWeight="bold">Producto</Typography>
                           </TableCell>
                           <TableCell>
-                            <Typography variant="body2" fontWeight="bold">Precio Unitario</Typography>
+                            <Typography variant="body2" fontWeight="bold">Presentacion</Typography>
                           </TableCell>
                           <TableCell>
-                            <Typography variant="body2" fontWeight="bold"/>
+                            <Typography variant="body2" fontWeight="bold">Precio Unitario</Typography>
                           </TableCell>
+                          
                          
                         </TableRow>
                       </TableHead>
                       <TableBody>
                         {carritoproductos.map((producto, index) => (
                           <TableRow key={index}>
-                            
+                            <TableCell>
+                            <Button
+                              onClick={() => {
+                                deleteProducto(producto.producto_id, producto.presentacion?.id ?? 0);
+                              }}
+                            >
+                              <Icon icon="mdi:trash" width="20" height="20" color="red" />
+                            </Button>
+                            </TableCell> 
                             <TableCell>{producto.cantidad}</TableCell>
                             <TableCell sx={{ width: '50px', fontSize: '12px'}}>
                               {producto.producto_nombre}</TableCell>
-                              <TableCell>Q {producto.precio_unitario}</TableCell>
-                              <TableCell>
-                                <Button
-                                onClick={()=>{deleteProducto(producto.producto_id)}}>
-                                  <Icon icon="mdi:trash" width="20" height="20" color='red' />
-                                </Button>
-                            </TableCell> 
+                              <TableCell>{producto.presentacion?.presentacion?.nombre}</TableCell>
+                              <TableCell>Q {producto.presentacion?.pp}</TableCell>
+                              
                           </TableRow>
 
                         ))}
