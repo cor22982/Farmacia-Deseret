@@ -30,6 +30,24 @@ export async function insertarPago(pago, tipo, id_carrito) {
 }
 
 
+export async function insertarPresentacionProducto(pp, cantidad_presentacion, presentacion_id, product_id) {
+  try {
+    const resultado = await PresentacionProducto.create({
+      pp,
+      cantidad_presentacion,
+      presentacion_id,
+      product_id,
+    });
+
+    console.log('Se insertó con el id:', resultado.id);
+    return resultado.id;
+  } catch (error) {
+    console.error('Error al insertar la presentación del producto:', error);
+    return null;
+  }
+}
+
+
 export async function insertarPresentaciones(nombre, descripcion) {
   try {
     const resultado = await Presentaciones.create({
@@ -101,6 +119,17 @@ export async function getPagos_bycarrito(id_carrito) {
       where:{id_carrito: id_carrito}
     });
     return pagos;
+  }catch (error) {
+    throw error;
+  }
+}
+
+export async function getPresentacionesbyProduct_Id(id_product) {
+  try{
+    const presentaciones= await PresentacionProducto.findAll({
+      where:{product_id: id_product}
+    });
+    return presentaciones;
   }catch (error) {
     throw error;
   }

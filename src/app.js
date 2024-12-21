@@ -11,7 +11,9 @@ import { getUsers, verifyUserCredentials,
   getInfoId, getProductDetails, getProduct, getProduct_id, 
   insertarCarrito, getCarritos , getCarritoId, 
   AgregarProductosCarrito, getCarritoProducts, 
-  insertarPago, getPagos_bycarrito, insertarPresentaciones, obtenerPresentaciones} from './database/database.js';
+  insertarPago, getPagos_bycarrito, insertarPresentaciones, 
+  obtenerPresentaciones, getPresentacionesbyProduct_Id,
+  insertarPresentacionProducto} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
@@ -348,6 +350,23 @@ app.post('/presentaciones', async (req, res) => {
   }
 });
 
+app.post('/presentaciones_by_product', async (req, res) => {
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const  allpresentaciones = await getPresentacionesbyProduct_Id(req.body.id_product)
+      res.status(200).json({ success: true, presentaciones: allpresentaciones});      
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para obtener las presentaciones'});
+    }
+  }catch (error) {
+    console.error('Error al obtener las presentaciones:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
 
 app.post('/proveedores', async (req, res) => {
   try {
@@ -494,6 +513,30 @@ app.post('/insertPresentaciones', async (req, res) => {
     if (validate_token && rol ==='admin'){
       const {nombre, descripcion} = req.body
       const response = await insertarPresentaciones(nombre, descripcion) ;
+      if (response) {
+        res.status(200).json({ success: true, message: 'Se inserto de manera exitosa'});
+      } else {
+        res.status(401).json({ success: false, message: 'No se inserto de manera exitosa'});
+      }
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para insertar'});
+    }
+
+    
+  } catch (error) {
+    console.error('Error al insertar la presentacion:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/insertPresentacionesProducto', async (req, res) => {
+  try {
+    const {rol} = await decodeToken(req.body.token)
+    const validate_token = await validateToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const {pp, cantidad_presentacion, presentacion_id, product_id} = req.body
+      const response = await insertarPresentacionProducto(pp, cantidad_presentacion, presentacion_id, product_id);
       if (response) {
         res.status(200).json({ success: true, message: 'Se inserto de manera exitosa'});
       } else {
