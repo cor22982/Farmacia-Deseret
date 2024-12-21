@@ -405,3 +405,7 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON public.presentacion_producto TO ownerfar
 
 -- Otorgar permisos sobre la secuencia presentacion_producto_id_seq
 GRANT USAGE, SELECT, UPDATE ON SEQUENCE public.presentacion_producto_id_seq TO ownerfarmacia;
+
+
+ALTER TABLE presentacion_producto
+ADD COLUMN habilitado BOOLEAN DEFAULT TRUE;
