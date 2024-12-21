@@ -332,51 +332,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
           >INSERTAR NUEVA CANTIDAD DE PRODUCTO</Button>
           <br/>
           <br/>
-          <Box display="flex" flexDirection="row" gap="1rem" alignItems="center">
-          <TextField
-              fullWidth
-              name="pp"
-              label="Precio Publico"
-              type='number'
-              error={!!errorpp.pp}
-              helperText={errorpp.pp}
-              onChange={handleChange_Update}
-              value={valuepp.pp}
-              defaultValue=""
-              InputLabelProps={{ shrink: true }}
-              sx={{
-                mb: 0.2,
-                '& .MuiOutlinedInput-root': {
-                  '& fieldset': {
-                    borderColor: '#919191',
-                  },
-                  '&:hover fieldset': {
-                    borderColor: '#262626',
-                  },
-                  '&.Mui-focused fieldset': {
-                    borderColor: '#050505',
-                    borderWidth: 2,
-                  },
-                },
-              }}
-            />
-            <Box width="100%" flexDirection="column" >
-              <Box flexDirection="row" width="300px">
-              <Typography variant='h5'>
-                Ganancia: {ganancia && ganancia.ganancia !== null ? parseFloat((ganancia.ganancia * 100).toFixed(1)) : 0}%
-              </Typography>
-                <Typography variant='h5'>Costo: Q {ganancia?.costo}</Typography>
-                <Typography variant='h5'>PP: Q {ganancia?.pp}</Typography>
-              </Box>
-             <Button
-                variant="contained" color="inherit" component="label"
-                sx={{
-                  width:'100%'
-                }}
-                onClick={handleUpdatePp}
-              >Actualizar Precio Publico</Button>
-          </Box>
-            </Box>
+          
         </Box>
     </Modal>
     )

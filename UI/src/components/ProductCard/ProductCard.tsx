@@ -14,6 +14,7 @@ import { Iconify } from 'src/components/iconify';
 import useApi from 'src/hooks/useApi';
 import source_link from 'src/repository/source_repo';
 import Swal from 'sweetalert2';
+import { Icon } from '@iconify/react';
 
 interface ProductCardProps {
   product: Product;
@@ -170,9 +171,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
           </Box>
           <br/>
           <Box sx={{ display: 'flex', flexDirection: 'row', gap:'1rem' }} >
-          <Button sx={{ bgcolor: 'black', '&:hover': { bgcolor: 'darkred' } }} variant="contained">
-            Hacer una Oferta
-          </Button>
+          
 
           <Button
             startIcon={<Iconify icon="material-symbols:edit" />}
@@ -192,7 +191,14 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
              variant="contained"
              onClick={() => {setid(product.id)}}
             >
-            Agregar nueva cantidad
+            Nueva cantidad
+          </Button>
+          <Button 
+            sx={{ bgcolor: 'black', '&:hover': { bgcolor: 'darkred' } }} 
+            variant="contained"
+            startIcon={<Iconify icon="cuida:medicine-outline" />}
+            >
+            Nueva Presentacion
           </Button>
             </Box>
         </CardContent>
