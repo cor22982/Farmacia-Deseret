@@ -409,3 +409,42 @@ GRANT USAGE, SELECT, UPDATE ON SEQUENCE public.presentacion_producto_id_seq TO o
 
 ALTER TABLE presentacion_producto
 ADD COLUMN habilitado BOOLEAN DEFAULT TRUE;
+
+
+ALTER TABLE carrito_productos
+ADD COLUMN presentacion INTEGER;
+
+ALTER TABLE carrito_productos
+ADD CONSTRAINT fk_presentacion
+FOREIGN KEY (presentacion) REFERENCES presentacion_producto(id)
+ON DELETE CASCADE;
+
+
+
+CREATE OR REPLACE FUNCTION actualizar_alinsertar_productos_carrito()
+RETURNS TRIGGER AS $$
+BEGIN
+    UPDATE carrito
+    SET 
+        total = total + (
+            SELECT 
+                carrito_productos.cantidad * p.pp AS precio_nuevo
+            FROM 
+                carrito_productos
+            JOIN 
+                presentacion_producto p ON p.id = carrito_productos.presentacion
+            WHERE 
+                carrito_productos.id = NEW.id
+        )
+    WHERE id = NEW.carrito;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+
+
+CREATE OR REPLACE TRIGGER trigger_actualizar_alinsertar_productos_carrito
+AFTER INSERT ON carrito_productos
+FOR EACH ROW
+EXECUTE FUNCTION actualizar_alinsertar_productos_carrito();
