@@ -21,7 +21,7 @@ import { deleteUbicacionById , deleteProveedoresById,
   actualizarProducto_whitoutimage, deleteProductosCarrito, 
   deletePagoById, 
   deletePresentacionById, 
-  actualizarPresentaciones} from './database/deletes_updates.js';  
+  actualizarPresentaciones, deletePresentacionProductoById} from './database/deletes_updates.js';  
 import { getProduct_usuario, getProduct__info_usuario, 
   getUbicaciones_usuario, getDetailsProduct_user } from './database/usuario_methods.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
@@ -656,6 +656,23 @@ app.delete('/deleteubicacion', async(req,res)=>{
     if (validate_token && rol ==='admin'){
       await deleteUbicacionById(req.body.id);
       res.status(200).json({ success: true, message: 'Se elimino la ubicacion'});
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para eliminar'});
+    }
+  }catch (error) {
+    console.error('Error al obtener al eliminar:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+})
+
+
+app.delete('/deletepresentacionproducto', async(req,res)=>{
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      await deletePresentacionProductoById(req.body.id);
+      res.status(200).json({ success: true, message: 'Se elimino la presentacion producto'});
     } else{
       res.status(401).json({ success: false, message: 'No tienes permisos para eliminar'});
     }
