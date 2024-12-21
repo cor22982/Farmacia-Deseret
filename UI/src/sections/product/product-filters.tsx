@@ -255,15 +255,7 @@ export function ProductFilters({
                     <Table size="small" aria-label="tabla de detalles de productos" >
                       <TableHead>
                         <TableRow>
-                        <TableCell
-                              sx={{
-                                 width: '5px',
-                                fontWeight: 'normal',
-                                backgroundColor: 'transparent',
-                              }}
-                            >
-                              <Typography variant="body2"/>
-                            </TableCell> 
+                        
                           <TableCell>
                             <Typography variant="body2" fontWeight="bold">Cantidad</Typography>
                           </TableCell>
@@ -276,6 +268,9 @@ export function ProductFilters({
                           <TableCell>
                             <Typography variant="body2" fontWeight="bold">Precio Unitario</Typography>
                           </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Eiminar Producto</Typography>
+                          </TableCell> 
                           
                          
                         </TableRow>
@@ -283,7 +278,13 @@ export function ProductFilters({
                       <TableBody>
                         {carritoproductos.map((producto, index) => (
                           <TableRow key={index}>
-                            <TableCell>
+                            
+                            <TableCell>{producto.cantidad}</TableCell>
+                            <TableCell sx={{ width: '50px', fontSize: '12px'}}>
+                              {producto.producto_nombre}</TableCell>
+                              <TableCell>{producto.presentacion?.presentacion?.nombre}</TableCell>
+                              <TableCell>Q {producto.presentacion?.pp}</TableCell>
+                              <TableCell>
                             <Button
                               onClick={() => {
                                 deleteProducto(producto.producto_id, producto.presentacion?.id ?? 0);
@@ -291,13 +292,7 @@ export function ProductFilters({
                             >
                               <Icon icon="mdi:trash" width="20" height="20" color="red" />
                             </Button>
-                            </TableCell> 
-                            <TableCell>{producto.cantidad}</TableCell>
-                            <TableCell sx={{ width: '50px', fontSize: '12px'}}>
-                              {producto.producto_nombre}</TableCell>
-                              <TableCell>{producto.presentacion?.presentacion?.nombre}</TableCell>
-                              <TableCell>Q {producto.presentacion?.pp}</TableCell>
-                              
+                            </TableCell>
                           </TableRow>
 
                         ))}
