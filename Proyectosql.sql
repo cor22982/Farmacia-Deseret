@@ -513,10 +513,12 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+
 -- Actualizar el Trigger
 DROP TRIGGER IF EXISTS trigger_actualizar_products_por_details ON productos_cantidades;
 
-CREATE TRIGGER trigger_actualizar_products_por_details
+CREATE OR REPLACE TRIGGER trigger_actualizar_products_por_details
 AFTER INSERT ON productos_cantidades
 FOR EACH ROW
 EXECUTE FUNCTION actualizar_products_por_details();
+
