@@ -93,7 +93,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
               {product.nombre}
             </Typography>
             <Box display="flex" flexDirection="row" gap="0.5rem">
-              <Chip label={`${product.forma_farmaceutica} (${product.presentacion.toUpperCase()})`} color="primary" />
+              <Chip label={`${product.forma_farmaceutica}`} color="primary" />
               <Chip label={`Existencias: ${product.existencias}`} color="success"/>
               <Chip label={`Tipo: ${product.tipo}`} color="error"/>
             </Box>
@@ -142,7 +142,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
                 aria-controls="product-details-content"
                 id="product-details-header"
               >
-                <Typography variant="h6">Detalles del Producto</Typography>
+                <Typography variant="h6">Cantidades del Producto</Typography>
               </AccordionSummary>
                 <AccordionDetails>
                   <TableContainer component={Paper}>
@@ -162,6 +162,39 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
                           <TableRow key={index}>
                             <TableCell>{p.getDetails_Products()}</TableCell>
                             <TableCell>{p.get_Fechasformated()}</TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                </AccordionDetails>
+            </Accordion>
+            <Accordion>
+              <AccordionSummary
+                expandIcon={<Iconify icon="material-symbols-light:list" />}
+                aria-controls="product-details-content"
+                id="product-details-header"
+              >
+                <Typography variant="h6">Presentaciones del Producto</Typography>
+              </AccordionSummary>
+                <AccordionDetails>
+                  <TableContainer component={Paper}>
+                    <Table size="small" aria-label="tabla de detalles de productos">
+                      <TableHead>
+                        <TableRow>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Presentacion</Typography>
+                          </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Precio</Typography>
+                          </TableCell>
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {product.listpresentaciones.map((p, index) => (
+                          <TableRow key={index}>
+                            <TableCell>{p.presentacion?.nombre} X {p.cantidad_presentacion}</TableCell>
+                            <TableCell>Q {p.pp} c/u</TableCell>
                           </TableRow>
                         ))}
                       </TableBody>

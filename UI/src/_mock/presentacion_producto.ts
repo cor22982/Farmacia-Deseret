@@ -45,7 +45,7 @@ export const useGetPresentacionesProducto = () => {
 
   const getPresentacionesProducto = async (id_product: number): Promise<PresentacionProducto[]> => {
     try {
-      const body = { token, id_product };
+      const body = { id_product };
       const response = await presentacionesproductos(body, "POST");
 
       if (response.success && Array.isArray(response.presentaciones)) {

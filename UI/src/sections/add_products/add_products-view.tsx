@@ -80,7 +80,7 @@ export function AddProductsView() {
 
   const handleClicked = () => {
     setOpenM(false)
-    setOpenM2(true)
+    setOpenPresentaciones(true)
   };
 
   const handleClicked_agregarProductos = (id:number) => {

@@ -22,7 +22,7 @@ export const useGetPresentaciones = () => {
   const {token} = useToken();
 
   const getPresentaciones = async (): Promise<Presentacion[]> => {
-      const body = { token };
+      const body = {  };
       const response = await presentaciones(body, "POST");
   
       if (response.success && Array.isArray(response.presentaciones)) {

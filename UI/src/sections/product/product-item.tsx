@@ -14,22 +14,26 @@ import { forwardRef } from 'react';
 import { IconButton } from '@mui/material';
 import { Icon } from "@iconify/react"; 
 import Swal from "sweetalert2";
+import { PresentacionProducto } from 'src/_mock/presentacion_producto';
 
 // ----------------------------------------------------------------------
 
 export type ProductItemProps = {
   product: Product;
+  presentacion: PresentacionProducto;
   openProduct:  () => void;
   setProductSelected: (p:Product) => void;
+  setPresentacionSelected: (ps: PresentacionProducto) => void;
 };
 
 export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
-  ({ product,  openProduct, setProductSelected }, ref) => {
+  ({ product,  openProduct, setProductSelected,  presentacion, setPresentacionSelected }, ref) => {
 
 
   const onproduct = () => {
     openProduct()
     setProductSelected(product)
+    setPresentacionSelected(presentacion)
 
   }
   const {carId, setCarId} = useCarId ();
@@ -59,7 +63,7 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
         textTransform: 'uppercase',
       }}
     >
-     {product.presentacion}
+     {presentacion.presentacion?.nombre}
     </Label>
   );
 
@@ -83,7 +87,7 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
   const renderPrice = (
     <Typography variant="subtitle1" >
       <strong>&nbsp;
-      {fCurrency(product.pp)}</strong>
+      {fCurrency(presentacion.pp)}</strong>
       
     </Typography>
   );

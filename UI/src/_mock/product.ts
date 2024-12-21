@@ -4,6 +4,7 @@ import source_link from "src/repository/source_repo";
 import { Supplier} from "./supplier";
 import { ProductDetail, useGetProduct_Details } from "./product_detail";
 import { Place } from "./places";
+import { PresentacionProducto, useGetPresentacionesProducto } from "./presentacion_producto";
 
 
 export class Product {
@@ -40,6 +41,8 @@ export class Product {
 
   nombre_image: string;
 
+  listpresentaciones: PresentacionProducto[];
+
   constructor(
     id: number,
     nombre: string,
@@ -57,6 +60,7 @@ export class Product {
     tipo: string,
     listdetails: ProductDetail[],
     nombre_image: string,
+    listpresentaciones: PresentacionProducto[],
 
   ) {
     this.id = id;
@@ -75,6 +79,7 @@ export class Product {
     this.tipo = tipo;
     this.listdetails = listdetails;
     this.nombre_image = nombre_image;
+    this.listpresentaciones = listpresentaciones;
   }
 }
 
@@ -85,7 +90,7 @@ export const useGetProducts = () =>{
   const {llamadowithoutbody} = useApi(`${source_link}/products_id`);
   const {llamadowithoutbody: get_productos} = useApi(`${source_link}/infoproductos`);
   const {llamadowithoutbody: get_productos_info} = useApi(`${source_link}/infoproductos_allinfo`);
-
+  const {getPresentacionesProducto} = useGetPresentacionesProducto();
   const { getDetails_ById } = useGetProduct_Details();
   const {token} = useToken();
   const { llamado: getGanancias_api } = useApi(`${source_link}/getProdutsGanancia`);
@@ -135,7 +140,7 @@ export const useGetProducts = () =>{
             [],
             ''
           );
-
+          const productos_presentaciones = await getPresentacionesProducto( product.id);
           const body2 = { image_product: product.imagen || '' };
           const response2 = product.imagen ? await imagen_get(body2, "POST") : { image: '' };
 
@@ -157,7 +162,8 @@ export const useGetProducts = () =>{
             Number(product.ganancia),
             product.tipo,
             product_details,
-            product.imagen
+            product.imagen,
+            productos_presentaciones,
           );
         })
       );
@@ -189,7 +195,8 @@ export const useGetProducts = () =>{
       Number(response.productinfoganancia.ganancia),
       '',
       [],
-      ''
+      '',
+      []
     )
     return ganancia
   }
@@ -225,7 +232,8 @@ export const useGetProducts = () =>{
             0,
             '',
             [],
-            ''
+            '',
+            []
           )
         )
       );
@@ -274,7 +282,8 @@ export const useGetProducts = () =>{
             [],
             ''
           );
-
+          
+          const productos_presentaciones = await getPresentacionesProducto( product.id);
           const body2 = { image_product: product.imagen || '' };
           const response2 = product.imagen ? await imagen_get(body2, "POST") : { image: '' };
 
@@ -294,7 +303,8 @@ export const useGetProducts = () =>{
             0,
             '',
             [],
-            product.imagen
+            product.imagen,
+            productos_presentaciones
           );
         })
       );
@@ -350,7 +360,9 @@ export const useGetProducts = () =>{
             [],
             ''
           );
-
+          
+          const productos_presentaciones = await getPresentacionesProducto(product.id);
+          
           const body2 = { image_product: product.imagen || '' };
           const response2 = product.imagen ? await imagen_get(body2, "POST") : { image: '' };
 
@@ -387,7 +399,8 @@ export const useGetProducts = () =>{
             0,
             '',
             productDetails,
-            product.imagen
+            product.imagen,
+            productos_presentaciones
           );
         })
       );

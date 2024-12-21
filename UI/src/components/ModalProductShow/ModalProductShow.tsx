@@ -12,8 +12,10 @@ import { object, string, number } from 'yup';
 import useCarId from 'src/hooks/useIdProduct';
 import Swal from 'sweetalert2';
 import { Carrito, useCarrito } from 'src/_mock/carrito';
+import { PresentacionProducto } from 'src/_mock/presentacion_producto';
 import { UploadImage } from '../UploadImage/UploadImage';
 import { Iconify } from '../iconify';
+
 
 
 
@@ -21,6 +23,7 @@ interface ModalProductShowProps {
   open: boolean;
   handleClose: () => void;
   product: Product | null;
+  presentacion: PresentacionProducto | null;
 }
 const style = {
   position: 'absolute',
@@ -45,7 +48,7 @@ const schema = object({
 })
 
 export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps>(
-  ({ open, handleClose,  product }, ref) => {
+  ({ open, handleClose,  product, presentacion }, ref) => {
     const {carId, setCarId} = useCarId ();
     const {llamado} = useApi(`${source_link}/agregar_carrito`);
     const [error, setError] = useState<string|null>(null);
@@ -137,7 +140,7 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
                   {product?.nombre}
                 </Typography>
                 <Chip 
-                    label={`${product?.presentacion.toUpperCase()}-${product?.forma_farmaceutica.toUpperCase()}`}
+                    label={`${presentacion?.presentacion?.nombre.toUpperCase()}-${product?.forma_farmaceutica.toUpperCase()}`}
                     color='error'/>
               </Box>
               <br/>
@@ -151,7 +154,7 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
                     color: 'white',
                   
                   }}/>
-                  <Typography variant='h2'>Q {product?.pp} c/u</Typography>
+                  <Typography variant='h2'>Q {presentacion?.pp} c/u</Typography>
                 </Box>
                 <Box flex="1" maxWidth="50%">
                   <Chip 

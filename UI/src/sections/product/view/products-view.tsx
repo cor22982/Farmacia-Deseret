@@ -13,12 +13,14 @@ import { Button } from '@mui/material';
 import { Iconify } from 'src/components/iconify';
 import { useCarrito , Carrito} from 'src/_mock/carrito';
 import { ModalPay } from 'src/components/ModalPay/ModalPay';
+import { PresentacionProducto } from 'src/_mock/presentacion_producto';
 import { ProductSearchItem } from 'src/sections/add_products/components/products_search';
 import { ProductItem } from '../product-item';
 import { ProductSort } from '../product-sort';
 import { CartIcon } from '../product-cart-widget';
 import { ProductFilters } from '../product-filters';
 import type { FiltersProps } from '../product-filters';
+
 
 
 // ----------------------------------------------------------------------
@@ -74,7 +76,7 @@ export function ProductsView() {
 
   const [openPay, setOpenPay] = useState(false);
 
-  const {carId, setCarId} = useCarId ();
+  const {carId, setCarId} = useCarId (); 
 
   const {newCarrito, getCarrito_byId} = useCarrito();
 
@@ -93,6 +95,8 @@ export function ProductsView() {
   const [call1, setCall1] = useState(0);
 
   const [product_selected, setProductSelected] = useState<Product| null>(null)
+
+  const [presentacion_selected, setPresentacionSelected] = useState<PresentacionProducto | null>(null)
 
   const onSetCarrito = async() => {
     const respuesta_id = await newCarrito();
@@ -128,13 +132,14 @@ export function ProductsView() {
           setCall1(call1+1);
         }
         setProductos(fetchedProducts);
+       
       } catch (error) {
         console.error("Error fetching places:", error);
       }
     };
    // console.log(product_geted)
     fetchProducts();
-  }, [getProductInfo_whitout_info, setProductos, carId, getCarrito_byId, setMiCarrito, call1, product_geted]);
+  }, [getProductInfo_whitout_info, setProductos, carId, getCarrito_byId, setMiCarrito, call1, product_geted, filterproduct]);
 
   const handleOpenFilter = useCallback(() => {
     setOpenFilter(true);
@@ -165,6 +170,7 @@ export function ProductsView() {
         handleClose={() => {setOpenPay(false)}}
         />
       <ModalProductShow
+        presentacion={presentacion_selected}
         product={product_selected}
         open={openProducts}
         handleClose={() => {setOpenProducts(false)}}
@@ -234,13 +240,22 @@ export function ProductsView() {
       </Box>
       <br/>
       <Grid container spacing={3}>
+       
         {filterproduct.map((product) => (
-          <Grid key={product.id} xs={12} sm={6} md={3}>
-            <ProductItem
-              setProductSelected = {setProductSelected} 
-               openProduct={()=>{setOpenProducts(true)} }
-              product={product} />
-          </Grid>
+            product.listpresentaciones.map((presentacion) => (
+              <Grid key={product.id} xs={12} sm={6} md={3}>
+              <ProductItem
+                setPresentacionSelected={setPresentacionSelected}
+                presentacion={presentacion}
+                setProductSelected = {setProductSelected} 
+                  openProduct={()=>{setOpenProducts(true)} }
+                 product={product} />
+             </Grid>
+            ))  
+         
+            
+       
+          
         ))}
       </Grid>
 
