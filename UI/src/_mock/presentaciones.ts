@@ -35,5 +35,10 @@ export const useGetPresentaciones = () => {
   
       return [];
     };
-    return { getPresentaciones };
+  const getOnePresentacion = async (id: number): Promise<Presentacion | null> => {
+      const presentaciones_obtain = await getPresentaciones();
+      const presentacion = presentaciones_obtain.find((presentacion_get) => presentacion_get.id === id);
+      return  presentacion  || null;
+    }; 
+    return { getPresentaciones, getOnePresentacion };
 }

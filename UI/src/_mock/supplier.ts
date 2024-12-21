@@ -137,7 +137,7 @@ export const useGetProveedores = () => {
     const suppliers = await getProveedores_Complete();
     const supplier = suppliers.find((supplier_get) => supplier_get.id === id);
     return supplier || null;
-  };
+  }; 
   
 
   return { getProveedores_Complete, getProvedor_ById, getOneSupplierById };

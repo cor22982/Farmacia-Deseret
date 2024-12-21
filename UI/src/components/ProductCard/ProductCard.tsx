@@ -21,11 +21,12 @@ interface ProductCardProps {
   setCall: (call:number) => void;
   setid: (id_number:number) => void;
   setIdProduct: (id_number:number) => void;
+  openpresentacion: (id_number:number) => void;
 }
 
 export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
   
-  ({ product, setCall,  setid ,  setIdProduct}, ref) => {
+  ({ product, setCall,  setid ,  setIdProduct, openpresentacion}, ref) => {
     const {llamado: delete_product} = useApi(`${source_link}/deleteproducts`)
     const {token} = useToken()
     
@@ -191,14 +192,15 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
              variant="contained"
              onClick={() => {setid(product.id)}}
             >
-            Nueva cantidad
+            Cantidades
           </Button>
           <Button 
             sx={{ bgcolor: 'black', '&:hover': { bgcolor: 'darkred' } }} 
             variant="contained"
             startIcon={<Iconify icon="cuida:medicine-outline" />}
+            onClick={() => {openpresentacion(product.id)}}
             >
-            Nueva Presentacion
+            Presentaciones
           </Button>
             </Box>
         </CardContent>

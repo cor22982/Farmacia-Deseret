@@ -12,8 +12,10 @@ import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { useGetProducts, Product } from 'src/_mock/product';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
 import { UpdateProduct } from 'src/components/ModalUpdateForms/UpdateProduct';
+import { ModalPresentacionProduct } from 'src/components/ModalForms/ModalPresentacionProduct';
 import { ProductsFilterList } from './components/products_filter_list';
 import { ProductSearchItem } from './components/products_search';
+
 
 // ----------------------------------------------------------------------
 
@@ -21,6 +23,7 @@ export function AddProductsView() {
 
   const [openm, setOpenM] = useState(false);
   const [openm2, setOpenM2] = useState(false);
+  const [openPresentaciones, setOpenPresentaciones] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
   const [valueProduct, setValueProduct] = useState(0);
   const {getProductInfo} = useGetProducts();
@@ -34,6 +37,11 @@ export function AddProductsView() {
   const updateOpen = (id:number) => {
     setValueProduct(id)
     setOpenUpdate(true)
+  }
+
+  const presentacionOpen = (id:number) => {
+    setValueProduct(id)
+    setOpenPresentaciones(true)
   }
 
   const handleSearch = (value: string) => {
@@ -109,6 +117,13 @@ export function AddProductsView() {
         id={valueProduct}
         open={openm2}
         handleClose={() => setOpenM2(false)}
+        handleClick={handleClicked2}
+      />
+      <ModalPresentacionProduct
+        setCall={setCall1}
+        id={valueProduct}
+        open={openPresentaciones}
+        handleClose={() => setOpenPresentaciones(false)}
         handleClick={handleClicked2}
       />
       <Box display="flex" alignItems="center" mb={5}>
@@ -191,6 +206,7 @@ export function AddProductsView() {
     {filterproduct.map((p) => (
         <Box sx={{paddingBottom: '1rem'}}>
             <ProductCard 
+              openpresentacion={presentacionOpen}
               setid={handleClicked_agregarProductos}
               setCall={setCall1}
               setIdProduct={updateOpen}
