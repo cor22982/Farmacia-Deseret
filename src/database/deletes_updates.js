@@ -259,10 +259,10 @@ export async function deleteProductsById(id) {
   }
 }
 
-export async function deleteProductosCarrito(id_carrito, id_product) {
+export async function deleteProductosCarrito(id_carrito, id_product, id_presentacion) {
   try {
     const deletedRows = await Car_Products.destroy({
-      where: { carrito: id_carrito, producto: id_product }
+      where: { carrito: id_carrito, producto: id_product, presentacion: id_presentacion }
     });
 
     if (deletedRows === 0) {

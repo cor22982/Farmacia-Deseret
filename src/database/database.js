@@ -147,6 +147,18 @@ export async function getCarritos() {
 }
 
 
+export async function getPresentacionProducto_biId(presentacion_id) {
+  try{
+    const presentacion = await PresentacionProducto.findOne({
+      where: {id: presentacion_id}
+    });
+    return presentacion;
+  }catch (error) {
+    throw error;
+  }
+}
+
+
 export async function getCarritoId(id) {
   try {
     const carrito = await Car.findOne({
@@ -183,6 +195,7 @@ export async function getCarritoProducts(id_carrito) {
       attributes: [
         'carrito',
         'producto',
+        'presentacion',
         [Sequelize.fn('SUM', Sequelize.col('cantidad')), 'cantidad_total'],
         'producto_detalles_carproducts.pp',
         'producto_detalles_carproducts.nombre'
@@ -200,7 +213,8 @@ export async function getCarritoProducts(id_carrito) {
         'carrito_productos.producto',
         'producto_detalles_carproducts.id',
         'producto_detalles_carproducts.pp',
-        'producto_detalles_carproducts.nombre'
+        'producto_detalles_carproducts.nombre',
+        'carrito_productos.presentacion'
       ]
     });
 

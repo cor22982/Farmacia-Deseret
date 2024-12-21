@@ -13,7 +13,8 @@ import { getUsers, verifyUserCredentials,
   AgregarProductosCarrito, getCarritoProducts, 
   insertarPago, getPagos_bycarrito, insertarPresentaciones, 
   obtenerPresentaciones, getPresentacionesbyProduct_Id,
-  insertarPresentacionProducto} from './database/database.js';
+  insertarPresentacionProducto,
+  getPresentacionProducto_biId} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
@@ -117,6 +118,16 @@ app.post('/getcarritoproducts', async (req, res) => {
   try {
     const productos_carrito = await getCarritoProducts(req.body.id_carrito);
     res.status(200).json({ success: true, productos_carrito: productos_carrito });
+  }catch (error) {
+    console.error('Error al obtener los productos:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+app.post('/getpresentacionbyID', async (req, res) => {
+  try {
+    const producto_presentacion = await getPresentacionProducto_biId(req.body.id_presentacion);
+    res.status(200).json({ success: true, producto_presentacion: producto_presentacion });
   }catch (error) {
     console.error('Error al obtener los productos:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });
@@ -728,7 +739,7 @@ app.delete('/deletehorarios', async(req,res)=>{
 
 app.delete('/deleteproductoscarritos', async(req,res)=>{  
   try {
-      await deleteProductosCarrito(req.body.id_carrito, req.body.id_product);
+      await deleteProductosCarrito(req.body.id_carrito, req.body.id_product, req.body.id_presentacion);
       res.status(200).json({ success: true, message: 'Se elimino el producto'});
   }catch (error) {
     console.error('Error al eliminar producto del carrito:', error);
