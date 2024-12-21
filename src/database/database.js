@@ -98,12 +98,14 @@ export async function insertarCarrito() {
 }
 
 
-export async function AgregarProductosCarrito(carrito , producto , cantidad) {
+export async function AgregarProductosCarrito(carrito , producto , cantidad, presentacion) {
   try {
     const resultado = await Car_Products.create({
       carrito: carrito,
       producto: producto,
-      cantidad: cantidad
+      cantidad: cantidad,
+      presentacion: presentacion,
+
     });
     console.log('Registro insertado:', resultado);
     return true;

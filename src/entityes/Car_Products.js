@@ -19,6 +19,10 @@ const Car_Products = sequelize.define('carrito_productos', {
   cantidad: {
     type: DataTypes.INTEGER,
     allowNull: false,
+  },
+  presentacion:{
+    type: DataTypes.INTEGER,
+    allowNull: false,
   }
 }, {
   tableName: 'carrito_productos',

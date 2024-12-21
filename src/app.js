@@ -128,9 +128,9 @@ app.post('/agregar_carrito', async (req, res) => {
   try {
     let respuesta = null;
     if (req.body.opcion === 'uno'){
-      const {carrito , producto} = req.body;
+      const {carrito , producto, presentacion} = req.body;
       
-      respuesta = await AgregarProductosCarrito(carrito , producto , 1);
+      respuesta = await AgregarProductosCarrito(carrito , producto , 1, presentacion);
       if (respuesta === true) {
 
         res.status(200).json({ success: true, message: 'Se inserto de manera correcta' });
@@ -138,8 +138,8 @@ app.post('/agregar_carrito', async (req, res) => {
         res.status(200).json({ success: false, message: 'No se inserto de manera correcta' });
       }
     }else if (req.body.opcion === 'varios'){
-      const {carrito , producto , cantidad} = req.body
-      respuesta = await AgregarProductosCarrito(carrito , producto , cantidad);
+      const {carrito , producto , cantidad, presentacion} = req.body
+      respuesta = await AgregarProductosCarrito(carrito , producto , cantidad, presentacion);
       if (respuesta === true) {
 
         res.status(200).json({ success: true, message: 'Se inserto de manera correcta' });
