@@ -474,3 +474,46 @@ CREATE OR REPLACE TRIGGER trigger_aldetallar_productos_carrito
 AFTER DELETE ON carrito_productos
 FOR EACH ROW
 EXECUTE FUNCTION actualizar_aleliminar_productos_carrito();
+
+
+
+INSERT INTO productos_cantidades (cantidad, fecha_compra, fecha_vencimiento, costo, id_product)
+VALUES (50, '2024-12-01', '2025-12-01', 10.00, 1);
+
+
+CREATE OR REPLACE FUNCTION actualizar_products_por_details()
+RETURNS TRIGGER AS $$
+BEGIN
+  -- Obtén el precio más bajo (pp) del producto relacionado
+  DECLARE
+    pp_min numeric(10, 4);
+  BEGIN
+    SELECT MIN(pp)
+    INTO pp_min
+    FROM presentacion_producto
+    WHERE product_id = NEW.id_product AND habilitado = true;
+
+    -- Si no se encuentra ningún precio (pp), usar 0 como fallback
+    IF pp_min IS NULL THEN
+      pp_min := 0;
+    END IF;
+
+    -- Calcula la ganancia basada en el precio más bajo obtenido
+    NEW.ganancia = CASE 
+                     WHEN pp_min <> 0 THEN (pp_min - NEW.costo) / pp_min
+                     ELSE 0
+                   END;
+
+    -- Retorna el nuevo registro modificado
+    RETURN NEW;
+  END;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Actualizar el Trigger
+DROP TRIGGER IF EXISTS trigger_actualizar_products_por_details ON productos_cantidades;
+
+CREATE TRIGGER trigger_actualizar_products_por_details
+AFTER INSERT ON productos_cantidades
+FOR EACH ROW
+EXECUTE FUNCTION actualizar_products_por_details();
