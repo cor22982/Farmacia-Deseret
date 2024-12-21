@@ -352,14 +352,11 @@ app.post('/presentaciones', async (req, res) => {
 
 app.post('/presentaciones_by_product', async (req, res) => {
   try {
-    const validate_token = await validateToken(req.body.token)
-    const {rol} = await decodeToken(req.body.token)
-    if (validate_token && rol ==='admin'){
+   
+    
       const  allpresentaciones = await getPresentacionesbyProduct_Id(req.body.id_product)
       res.status(200).json({ success: true, presentaciones: allpresentaciones});      
-    } else{
-      res.status(401).json({ success: false, message: 'No tienes permisos para obtener las presentaciones'});
-    }
+   
   }catch (error) {
     console.error('Error al obtener las presentaciones:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });
