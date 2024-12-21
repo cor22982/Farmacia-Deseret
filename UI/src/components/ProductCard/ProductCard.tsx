@@ -101,11 +101,9 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
           <br/>
           <Box sx={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
             
+          
             <Typography component="div" variant="h6">
-              PP: Q{product.pp}
-            </Typography>
-            <Typography component="div" variant="h6">
-              Costo: Q{product.costo}
+              Costo por unidad: Q{product.costo}
             </Typography>
             <Typography component="div" variant="h6">
             Ganancia: {(product.ganancia * 100).toFixed(2)}%
