@@ -448,3 +448,29 @@ CREATE OR REPLACE TRIGGER trigger_actualizar_alinsertar_productos_carrito
 AFTER INSERT ON carrito_productos
 FOR EACH ROW
 EXECUTE FUNCTION actualizar_alinsertar_productos_carrito();
+
+
+CREATE OR REPLACE FUNCTION actualizar_aleliminar_productos_carrito()
+RETURNS TRIGGER AS $$
+BEGIN
+    UPDATE carrito
+    SET 
+        total = total - (
+            SELECT 
+                OLD.cantidad * p.pp AS precio_eliminado
+            FROM 
+                presentacion_producto p
+            WHERE 
+                p.id = OLD.presentacion
+        )
+    WHERE id = OLD.carrito;
+
+    RETURN OLD;
+END;
+$$ LANGUAGE plpgsql;
+
+
+CREATE OR REPLACE TRIGGER trigger_aldetallar_productos_carrito
+AFTER DELETE ON carrito_productos
+FOR EACH ROW
+EXECUTE FUNCTION actualizar_aleliminar_productos_carrito();
