@@ -17,7 +17,8 @@
     "re:start": "yarn rm:all && yarn install && yarn dev",
     "re:build": "yarn rm:all && yarn install && yarn build",
     "re:build-npm": "npm run rm:all && npm install && npm run build",
-    "dev:host": "vite --host"
+    "dev:host": "vite --host",
+    "storybook": "storybook dev -p 6006"
   },
   "engines": {
     "node": "20.x"
@@ -32,6 +33,9 @@
     "@iconify/react": "^5.0.2",
     "@mui/lab": "^5.0.0-alpha.173",
     "@mui/material": "^5.16.8",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-links": "^8.4.7",
+    "@storybook/react-vite": "^8.4.7",
     "apexcharts": "^3.52.0",
     "dayjs": "^1.11.13",
     "dotenv": "^16.4.7",
@@ -43,7 +47,9 @@
     "react-dom": "^18.3.1",
     "react-helmet-async": "^2.0.5",
     "react-router-dom": "^6.26.1",
+    "react-to-print": "^3.0.3",
     "simplebar-react": "^3.2.6",
+    "storybook": "^8.4.7",
     "sweetalert2": "^11.14.5",
     "yup": "^1.4.0"
   },

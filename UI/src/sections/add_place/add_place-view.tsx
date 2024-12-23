@@ -7,7 +7,7 @@ import { DashboardContent } from 'src/layouts/dashboard';
 import { RouterLink } from 'src/routes/components';
 import { SimpleLayout } from 'src/layouts/simple';
 import { Iconify } from 'src/components/iconify';
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { ProductCard} from 'src/components/ProductCard/ProductCard';
 import { ModalProduct } from 'src/components/ModalForms/ModalProduct';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
@@ -15,8 +15,11 @@ import {PlaceSupCard} from 'src/components/PlaceCard/PlaceCard';
 import { ModalPlace } from 'src/components/ModalForms/ModalPlace';
 import { ModalPlaceUpdate } from 'src/components/ModalUpdateForms/UpdateUbicacion';
 import { useGetPlaces, Place } from 'src/_mock/places';
-
+import { useReactToPrint } from 'react-to-print';
+import './add_place.css'
+import { UbicacionesPrintList } from 'src/components/PlaceList/PlaceList';
 import { PlaceSearchItem } from './add_place-search';
+
 
 
 export function AddPlaceView() {
@@ -33,6 +36,10 @@ export function AddPlaceView() {
   const [call1, setCall1] = useState(0);
   
   const [idplace, setPlaceId] = useState<string>('');
+
+  
+  const contentRef = useRef<HTMLDivElement>(null);
+  const reactToPrintFn = useReactToPrint({ contentRef });
 
 
   useEffect(() => {
@@ -84,6 +91,15 @@ export function AddPlaceView() {
   };
   return (
     <DashboardContent>
+      <div className='ubicacionestoprint'>
+        <div className='ubicaciones'>
+          
+        <UbicacionesPrintList
+          ref={contentRef}
+          lista={filteredPlaces}
+        />
+        </div>
+      </div>
       <ModalPlace
         setCall={setCall1}
         open={openm}
@@ -105,6 +121,7 @@ export function AddPlaceView() {
          Ubicaciones de la Farmacia
         </Typography>
         <Box display="flex" flexDirection="row" gap="20px">
+         
           <Button
             variant="contained"
             color="inherit"
@@ -112,6 +129,15 @@ export function AddPlaceView() {
             onClick={() => setOpenM(true)}
           >
           Agregar nueva Ubicacion
+          </Button>
+
+          <Button
+            variant="contained"
+            color="inherit"
+            startIcon={<Iconify icon="material-symbols:print-outline" />}
+            onClick={() => reactToPrintFn()}
+          >
+          Imprimir Ubicaciones
           </Button>
         </Box>
         
