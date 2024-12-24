@@ -31,13 +31,15 @@ export function SignInView() {
   const router = useRouter();
   const { values, setValue, validate, errors } = useForm(schema, { username: '', password: '' })
   const {llamado, error} = useApi(`${source_link}/login`)
+  const {llamadowithoutbody} = useApi(`${source_link}/actualizar`)
+
   const { setToken } = useToken();
   const [loading, setLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setValue(name as keyof typeof values, value); // Usa type assertion
-  };
+  }; 
   
   
   const handleSignIn = useCallback(async() => {
@@ -50,13 +52,24 @@ export function SignInView() {
       const response = await llamado(body, 'POST');
       if (response) {
         if (response.success === true){
-          Swal.fire({
-            icon: "success",
-            title: "Se inicio Sesion",
-            text: "Se inicio sesion correctamente",
-          });
+          
           setToken(response.acces_token);
           setLoading(true)
+          const respuesta_actualizar = await llamadowithoutbody("GET")
+          if (respuesta_actualizar.respuesta !==null) {
+            Swal.fire({
+              icon: "success",
+              title: "Se actualizo la base de datos",
+              text: "Se actualizo correctamente",
+            });
+
+          }else{
+            Swal.fire({
+              icon: "success",
+              title: "Se inicio Sesion",
+              text: "Se inicio sesion correctamente",
+            });
+          }
           router.push('/');
         }else{
           Swal.fire({
@@ -76,7 +89,7 @@ export function SignInView() {
       
       
     }
-  }, [router, validate, values, llamado, setToken, error]);
+  }, [router, validate, values, llamado, setToken, error, llamadowithoutbody]);
 
   const renderForm = (
     <Box display="flex" flexDirection="column" alignItems="flex-end">
