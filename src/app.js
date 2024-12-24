@@ -71,7 +71,7 @@ app.get('/actualizar', async (req, res) => {
     res.status(200).json({ success: true, respuesta});
   }catch (error) {
     console.error('Error al obtener el producto:', error);
-    res.status(500).json({ success: false, message: 'Error en el servidor' });
+    res.status(200).json({ success: false, message: 'Error en el servidor' });
   }
 });
 
