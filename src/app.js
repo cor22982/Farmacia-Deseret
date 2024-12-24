@@ -25,6 +25,8 @@ import { deleteUbicacionById , deleteProveedoresById,
   actualizarPresentaciones, deletePresentacionProductoById} from './database/deletes_updates.js';  
 import { getProduct_usuario, getProduct__info_usuario, 
   getUbicaciones_usuario, getDetailsProduct_user } from './database/usuario_methods.js';
+
+import { actualizar } from './database/actualizaciones/actualizaciones.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
 
@@ -62,6 +64,16 @@ app.get('/', (req, res) => {
 
 
 //Obtener informacion producto
+
+app.get('/actualizar', async (req, res) => {
+  try {
+    const respuesta = await actualizar()
+    res.status(200).json({ success: true, respuesta});
+  }catch (error) {
+    console.error('Error al obtener el producto:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
 
 app.get('/infoproductos', async (req, res) => {
   try {
