@@ -107,3 +107,40 @@ CREATE OR REPLACE TRIGGER trigger_actualizar_presentaciones
 AFTER INSERT ON presentacion_producto
 FOR EACH ROW
 EXECUTE FUNCTION actualizar_presentaciones();
+
+
+
+
+
+
+CREATE OR REPLACE FUNCTION actualizar_presentaciones_onDelete()
+RETURNS TRIGGER AS $$
+BEGIN
+  DECLARE
+    ganancia_min numeric(10, 4);
+  BEGIN
+    -- Obtener el mínimo porcentaje de ganancia para el producto afectado
+    SELECT MIN(porcentaje_ganancia)
+    INTO ganancia_min
+    FROM presentacion_producto
+    WHERE product_id = OLD.product_id;
+
+    -- Actualizar la tabla products con el mínimo porcentaje de ganancia encontrado
+    UPDATE products
+    SET 
+        ganancia = COALESCE(ganancia_min, 0)
+    WHERE id = OLD.product_id;
+
+    RETURN OLD;
+  END;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Eliminar el trigger existente si lo hubiera
+DROP TRIGGER IF EXISTS trigger_actualizar_presentaciones_onDelete ON presentacion_producto;
+
+-- Crear el trigger nuevamente
+CREATE TRIGGER trigger_actualizar_presentaciones_onDelete
+AFTER DELETE ON presentacion_producto
+FOR EACH ROW
+EXECUTE FUNCTION actualizar_presentaciones_onDelete();
