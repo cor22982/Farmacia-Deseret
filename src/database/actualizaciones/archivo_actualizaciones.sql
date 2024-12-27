@@ -144,3 +144,9 @@ CREATE TRIGGER trigger_actualizar_presentaciones_onDelete
 AFTER DELETE ON presentacion_producto
 FOR EACH ROW
 EXECUTE FUNCTION actualizar_presentaciones_onDelete();
+
+
+
+
+alter table presentacion_producto add column 
+imagen_presentacion text;
