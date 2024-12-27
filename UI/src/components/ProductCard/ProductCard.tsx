@@ -186,6 +186,9 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
                           <TableCell>
                             <Typography variant="body2" fontWeight="bold">Precio</Typography>
                           </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">% Ganancia</Typography>
+                          </TableCell>
                         </TableRow>
                       </TableHead>
                       <TableBody>
@@ -193,6 +196,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
                           <TableRow key={index}>
                             <TableCell>{p.presentacion?.nombre} X {p.cantidad_presentacion}</TableCell>
                             <TableCell>Q {p.pp} c/u</TableCell>
+                            <TableCell>{p.porcentaje_ganancia === null ? 0 : p.porcentaje_ganancia * 100}%</TableCell>
                           </TableRow>
                         ))}
                       </TableBody>
