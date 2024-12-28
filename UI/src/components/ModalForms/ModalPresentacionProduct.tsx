@@ -50,7 +50,7 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
     const {token} = useToken()
     const {getPresentaciones} = useGetPresentaciones()
     const {getPresentacionesProducto} =  useGetPresentacionesProducto()
-    
+    const [file, setFile] = useState<File | null>(null);
     const {llamado: insertPresentacionesProducto} = useApi(`${source_link}/insertPresentacionesProducto`)
     const {llamado: deletepresentacionproducto} = useApi(`${source_link}/deletepresentacionproducto`)
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { pp: 0, cantidad_presentacion: 0})
@@ -258,8 +258,9 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
               
            
           </Box>
-         
-         
+           <UploadImage file={file} setFile={setFile} />
+           <br/>
+           <br/>
           <Button
             variant="contained" color="inherit" component="label"
             
