@@ -30,13 +30,14 @@ export async function insertarPago(pago, tipo, id_carrito) {
 }
 
 
-export async function insertarPresentacionProducto(pp, cantidad_presentacion, presentacion_id, product_id) {
+export async function insertarPresentacionProducto(pp, cantidad_presentacion, presentacion_id, product_id, imagen_presentacion) {
   try {
     const resultado = await PresentacionProducto.create({
       pp,
       cantidad_presentacion,
       presentacion_id,
       product_id,
+      imagen_presentacion,
     });
 
     console.log('Se insertó con el id:', resultado.id);
@@ -264,6 +265,20 @@ export async function getHorarios_byId(proveedor) {
   }
 }
 
+
+export async function getPresentacion_byId(presentacion_id) {
+  try{
+    const presentacion = await Presentaciones.findOne({
+      attributes: ['nombre'],
+      where: {
+        id: presentacion_id,
+      }
+    });
+    return presentacion;
+  }catch (error) {
+    throw error;
+  }
+}
 
 export async function getProveedores_id() {
   try{

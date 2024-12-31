@@ -14,7 +14,8 @@ import { getUsers, verifyUserCredentials,
   insertarPago, getPagos_bycarrito, insertarPresentaciones, 
   obtenerPresentaciones, getPresentacionesbyProduct_Id,
   insertarPresentacionProducto,
-  getPresentacionProducto_biId} from './database/database.js';
+  getPresentacionProducto_biId, 
+  getPresentacion_byId} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
@@ -447,22 +448,42 @@ app.post('/horarios_byId', async (req, res) => {
 //POSTS
 
 
-app.post('/insertProduct', upload.single('file'), async(req, res) => {
-  const filePath = path.join('./imagenes_productos', req.file.filename);
-
+app.post('/insertProduct', upload.single('file'), async (req, res) => {
   try {
-    const {rol} = await decodeToken(req.body.token)
-    const validate_token = await validateToken(req.body.token)
-    if (validate_token && rol ==='admin'){
-      const { nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion} = req.body;
-      const response = await insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, req.file.filename);
-      if (response) {
-        res.status(200).json({ success: true, message: 'Se inserto de manera exitosa', id: response});
+    // Verificar si el archivo está presente
+    if (!req.file) {
+      const { rol } = await decodeToken(req.body.token);
+      const validate_token = await validateToken(req.body.token);
+
+      if (validate_token && rol === 'admin') {
+        const { nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion } = req.body;
+        const response = await insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, 'Image-not-found.png');
+        if (response) {
+          res.status(200).json({ success: true, message: 'Se insertó de manera exitosa', id: response });
+        } else {
+          res.status(401).json({ success: false, message: 'No se insertó de manera exitosa' });
+        }
       } else {
-        res.status(401).json({ success: false, message: 'No se inserto de manera exitosa'});
+        res.status(401).json({ success: false, message: 'No tienes permisos para insertar' });
       }
-    } else{
-      res.status(401).json({ success: false, message: 'No tienes permisos para insertar'});
+    }
+    else {
+      const filePath = path.join('./imagenes_productos', req.file.filename);
+
+      const { rol } = await decodeToken(req.body.token);
+      const validate_token = await validateToken(req.body.token);
+
+      if (validate_token && rol === 'admin') {
+        const { nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion } = req.body;
+        const response = await insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, req.file.filename);
+        if (response) {
+          res.status(200).json({ success: true, message: 'Se insertó de manera exitosa', id: response });
+        } else {
+          res.status(401).json({ success: false, message: 'No se insertó de manera exitosa' });
+        }
+      } else {
+        res.status(401).json({ success: false, message: 'No tienes permisos para insertar' });
+      }
     }
 
     
@@ -470,8 +491,8 @@ app.post('/insertProduct', upload.single('file'), async(req, res) => {
     console.error('Error al insertar el producto:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });
   }
-  
 });
+
 
 
 app.post('/insertProductDetails', async(req, res) => {
@@ -546,28 +567,62 @@ app.post('/insertPresentaciones', async (req, res) => {
 });
 
 
-app.post('/insertPresentacionesProducto', async (req, res) => {
+app.post('/insertPresentacionesProducto', upload.single('file'), async (req, res) => {
   try {
-    const {rol} = await decodeToken(req.body.token)
-    const validate_token = await validateToken(req.body.token)
-    if (validate_token && rol ==='admin'){
-      const {pp, cantidad_presentacion, presentacion_id, product_id} = req.body
-      const response = await insertarPresentacionProducto(pp, cantidad_presentacion, presentacion_id, product_id);
-      if (response) {
-        res.status(200).json({ success: true, message: 'Se inserto de manera exitosa'});
-      } else {
-        res.status(401).json({ success: false, message: 'No se inserto de manera exitosa'});
-      }
-    } else{
-      res.status(401).json({ success: false, message: 'No tienes permisos para insertar'});
+    const { rol } = await decodeToken(req.body.token);
+    const validate_token = await validateToken(req.body.token);
+
+    if (!validate_token || rol !== 'admin') {
+      return res.status(401).json({ success: false, message: 'No tienes permisos para insertar' });
     }
 
-    
+    const { pp, cantidad_presentacion, presentacion_id, product_id } = req.body;
+
+    // Determinar imagen de presentación
+    let imagen_presentacion = req.file ? req.file.filename : 'Image-not-found.png';
+
+    if (!req.file) {
+      const presentaciones_geted = await getPresentacion_byId(presentacion_id);
+
+      // Asegúrate de acceder al campo 'nombre' antes de compararlo
+      const nombre_presentacion = presentaciones_geted ? presentaciones_geted.nombre.toLowerCase() : '';
+
+      switch (nombre_presentacion) {
+        case 'caja':
+          imagen_presentacion = 'caja.png';
+          break;
+        case 'blister':
+          imagen_presentacion = 'blister.png';
+          break;
+        case 'frasco':
+        case 'bote':
+          imagen_presentacion = 'frasco.png';
+          break;
+        case 'tableta':
+          imagen_presentacion = 'tableta.png';
+          break;
+        case 'unidad':
+          imagen_presentacion = 'unidad.png';
+          break;
+        default:
+          imagen_presentacion = 'cualquiera.png';
+      }
+    }
+
+    // Insertar presentación
+    const response = await insertarPresentacionProducto(pp, cantidad_presentacion, presentacion_id, product_id, imagen_presentacion);
+
+    if (response) {
+      res.status(200).json({ success: true, message: 'Se insertó de manera exitosa' });
+    } else {
+      res.status(401).json({ success: false, message: 'No se insertó de manera exitosa' });
+    }
   } catch (error) {
-    console.error('Error al insertar la presentacion:', error);
-    res.status(500).json({ success: false, message: 'Error en el servidor' });
+    console.error('Error al insertar la presentación:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor', error: error.message });
   }
 });
+
 
 
 app.post('/insertHorario', async (req, res) => {

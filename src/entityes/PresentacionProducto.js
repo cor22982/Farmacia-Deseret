@@ -28,6 +28,11 @@ const PresentacionProducto = sequelize.define('presentacion_producto', {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
+
+  imagen_presentacion: {
+    type: DataTypes.STRING,
+    allowNull: true,
+  }
 }, {
   tableName: 'presentacion_producto',
   timestamps: false,
