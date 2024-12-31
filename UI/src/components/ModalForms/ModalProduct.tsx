@@ -92,10 +92,10 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
       setValueForm(name as keyof typeof valueForm, value);
     };
     const handleSubmit = async () => {
-      if (!file) {
-        console.error('No file selected');
-        return;
-      }
+      // if (!file) {
+      //   console.error('No file selected');
+      //   return;
+      // }
 
       const formData = {
         token,
@@ -250,7 +250,7 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             <TextField
               fullWidth
               name="activo_principal"
-              label="Activo Principal"
+              label="Principio Activo (Que contiene)"
               defaultValue=""
 
               error={!!errors.activo_principal}
@@ -296,12 +296,12 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
               minRows={4}
               name="descripcion"
               style={{ width: '100%', borderRadius: '0.5rem' }}
-              placeholder="Descripcion Medicamento"
+              placeholder="Para que sirve el medicamento"
               onChange={handleChange_TextArea}
               value={valueForm.descripcion}
              />
           </Box>
-          <UploadImage file={file} setFile={setFile} />
+          {/* <UploadImage file={file} setFile={setFile} /> */}
           <br/>
           <Button
             variant="contained" color="inherit" component="label"

@@ -237,37 +237,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             />    
           </Box>
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
-          <FormControl fullWidth>
-          <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
-            sx={{
-              mb: 1,
-              '& .MuiOutlinedInput-root': {
-                '& fieldset': {
-                  borderColor: '#919191',
-                },
-                '&:hover fieldset': {
-                  borderColor: '#262626',
-                },
-                '&.Mui-focused fieldset': {
-                  borderColor: '#050505',
-                  borderWidth: 2,
-                },
-              },
-            }}
-            
-            value={presentacion}
-            onChange={(e) => {setPresentacion(e.target.value)}}
-          >
-            <MenuItem value="ninguno">
-              <em>Presentacion</em>
-            </MenuItem>
-            <MenuItem value="caja">Caja</MenuItem>
-            <MenuItem value="blister">Blister</MenuItem>
-            <MenuItem value="unidades">Unidades</MenuItem>
-          </Select>
-          </FormControl>
+        
           <FormControl fullWidth>
           <Select
             labelId="demo-simple-select-label"
@@ -359,7 +329,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
               value={valueForm.descripcion}
              />
           </Box>
-          <Box display="flex" flexDirection="row" gap="1rem">
+          {/* <Box display="flex" flexDirection="row" gap="1rem">
             <Box>
               <Typography variant="body2" >Imagen Anterior</Typography>
               <CardMedia
@@ -372,7 +342,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
               </Box>
               
             <UploadImage file={file} setFile={setFile} />
-          </Box>
+          </Box> */}
           <br/>
           <Button
             variant="contained" color="inherit" component="label"

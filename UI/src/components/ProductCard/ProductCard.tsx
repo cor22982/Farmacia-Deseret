@@ -79,12 +79,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
 
   return (
     <Card sx={{ display: 'flex', padding: '1rem' }} >
-      <CardMedia
-        component="img"
-        sx={{ width: 200 }}
-        image={`data:image/jpeg;base64,${product.imagen}`}
-        alt="Live from space album cover"
-      />
+     
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignContent: 'start', alignItems: 'start' }}>

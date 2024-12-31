@@ -99,12 +99,12 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
       aria-describedby="modal-modal-description">
       <Box sx={style} gap="0.1rem">
     
-          <Box display="flex"  flexDirection="row">
+          <Box display="flex"  flexDirection="row" gap='1rem'>
            <Box display="flex" flexDirection="column"  maxWidth="50%">
               <CardMedia
                 component="img"
                 sx={{ width: 504 ,height: 400 }}
-                image={`data:image/jpeg;base64,${product?.imagen === null ? '' : product?.imagen}`}
+                image={`data:image/jpeg;base64,${presentacion?.imagen_presentacion === null ? '' : presentacion?.imagen_presentacion}`}
                 alt="Live from space album cover"
               />
               <Box maxWidth="95%" sx={{ paddingTop: 0 }}>

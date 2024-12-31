@@ -51,7 +51,7 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
     const {getPresentaciones} = useGetPresentaciones()
     const {getPresentacionesProducto} =  useGetPresentacionesProducto()
     const [file, setFile] = useState<File | null>(null);
-    const {llamado: insertPresentacionesProducto} = useApi(`${source_link}/insertPresentacionesProducto`)
+    const {llamadowithFileAndBody: insertPresentacionesProducto} = useApi(`${source_link}/insertPresentacionesProducto`)
     const {llamado: deletepresentacionproducto} = useApi(`${source_link}/deletepresentacionproducto`)
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { pp: 0, cantidad_presentacion: 0})
 
@@ -89,7 +89,7 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
           presentacion_id, 
           product_id: id
         };
-        const response = await insertPresentacionesProducto(body, 'POST');
+        const response = await insertPresentacionesProducto(file, body, 'POST');
         if (response) {
           if (response.success === true){
             setCall(0)
@@ -102,7 +102,7 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
         
       }
       return false
-    }, [validate, valueForm,  token,  setCall, insertPresentacionesProducto, presentacion_id, id]);
+    }, [validate, valueForm,  token,  setCall, insertPresentacionesProducto, presentacion_id, id, file]);
 
     const onDeletePresentacion = async(id_presentacion:number)=> {
       const body = {token, id:id_presentacion}

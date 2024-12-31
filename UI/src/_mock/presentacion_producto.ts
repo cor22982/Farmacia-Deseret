@@ -18,6 +18,8 @@ export class PresentacionProducto {
 
   presentacion: Presentacion | null;
 
+  imagen_presentacion: String | null;
+
   constructor(
     id: number,
     porcentaje_ganancia: number | null,
@@ -26,6 +28,7 @@ export class PresentacionProducto {
     presentacion_id: number,
     product_id: number,
     presentacion: Presentacion | null,
+    imagen_presentacion: String | null
   ) {
     this.id = id;
     this.porcentaje_ganancia = porcentaje_ganancia;
@@ -33,7 +36,8 @@ export class PresentacionProducto {
     this.cantidad_presentacion = cantidad_presentacion;
     this.presentacion_id = presentacion_id;
     this.product_id = product_id;
-    this.presentacion = presentacion
+    this.presentacion = presentacion;
+    this.imagen_presentacion = imagen_presentacion;
   }
 }
 
@@ -41,7 +45,7 @@ export class PresentacionProducto {
 export const useGetPresentacionesProducto = () => {
   const { llamado: presentacionesproductos } = useApi(`${source_link}/presentaciones_by_product`);
   const { llamado: getpresentacionbyID } = useApi(`${source_link}/getpresentacionbyID`);
-
+  const { llamado:imagen_get } = useApi(`${source_link}/getImage`);
 
   const { token } = useToken();
   const { getOnePresentacion } = useGetPresentaciones();
@@ -60,8 +64,13 @@ export const useGetPresentacionesProducto = () => {
             cantidad_presentacion: number;
             presentacion_id: number;
             product_id: number;
+            imagen_presentacion: string | null;
           }) => {
+
             const presentacion_geted = await getOnePresentacion(p.presentacion_id);
+            const body2 = { image_product: p.imagen_presentacion || '' };
+            const response2 = p.imagen_presentacion ? await imagen_get(body2, "POST") : { image: '' };
+
             return new PresentacionProducto(
               p.id,
               p.porcentaje_ganancia,
@@ -69,7 +78,8 @@ export const useGetPresentacionesProducto = () => {
               p.cantidad_presentacion,
               p.presentacion_id,
               p.product_id,
-              presentacion_geted
+              presentacion_geted,
+              response2.image
             );
           })
         );
@@ -89,6 +99,8 @@ export const useGetPresentacionesProducto = () => {
       const response = await getpresentacionbyID(body, "POST");
       if (response.success) {
         const presentacion_geted = await getOnePresentacion(response.producto_presentacion.presentacion_id);
+        const body2 = { image_product: response.imagen_presentacion || '' };
+        const response2 = response.imagen_presentacion ? await imagen_get(body2, "POST") : { image: '' };
 
         const carrito = new PresentacionProducto(
           response.producto_presentacion.id,
@@ -97,7 +109,8 @@ export const useGetPresentacionesProducto = () => {
           response.producto_presentacion.cantidad_presentacion , 
           response.producto_presentacion.presentacion_id,
           response.producto_presentacion.product_id,
-          presentacion_geted
+          presentacion_geted,
+          response2
         );
         return carrito ;
       }
