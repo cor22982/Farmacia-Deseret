@@ -91,6 +91,19 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
               <Chip label={`${product.forma_farmaceutica}`} color="primary" />
               <Chip label={`Existencias: ${product.existencias}`} color="success"/>
               <Chip label={`Tipo: ${product.tipo}`} color="error"/>
+              <Chip
+                label={`Ubicaciones: ${product.listdetails
+                  .map((p) => `${p.ubicacion.ubicacion} (${p.ubicacion.lugar_farmacia})`)
+                  .join(', ')}`}
+                color="info"
+                sx={{
+                  whiteSpace: 'normal',
+                  height: 'auto',
+                  wordBreak: 'break-word',
+                  maxWidth: '300px',
+                  overflowY: 'auto',
+                }}
+              />
             </Box>
           </Box>
           <br/>
@@ -111,7 +124,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
           <Box sx={{ display: 'flex', flexDirection: 'column', gap:'2rem' }} >
           <Divider sx={{borderColor: 'black'}}/>
             <Typography component="div" variant="h6">
-              Descripcion
+              Uso del Medicamento
             </Typography>
             <Typography
               variant="body2"
@@ -146,6 +159,9 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
                             <Typography variant="body2" fontWeight="bold">Detalles</Typography>
                           </TableCell>
                           <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Ubicacion</Typography>
+                          </TableCell>
+                          <TableCell>
                             <Typography variant="body2" fontWeight="bold">Fecha Vencimiento</Typography>
                           </TableCell>
                         </TableRow>
@@ -154,6 +170,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
                         {product.listdetails.map((p, index) => (
                           <TableRow key={index}>
                             <TableCell>{p.getDetails_Products()}</TableCell>
+                            <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
                             <TableCell>{p.get_Fechasformated()}</TableCell>
                           </TableRow>
                         ))}

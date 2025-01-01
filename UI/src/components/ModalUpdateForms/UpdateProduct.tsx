@@ -175,7 +175,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
       <Box sx={style} gap="0.1rem">
           <Box display="flex" alignItems= 'center' justifyContent="center">
             <Typography id="modal-modal-title" variant="h3" component="h2">
-            ACTUALIZAR PRODUCTO NUEVO
+            ACTUALIZAR PRODUCTO
             </Typography>
           </Box>
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
@@ -278,7 +278,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             <TextField
               fullWidth
               name="activo_principal"
-              label="Activo Principal"
+              label="Principio Activo (Que contiene)"
               defaultValue=""
 
               error={!!errors.activo_principal}
@@ -324,7 +324,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
               minRows={4}
               name="descripcion"
               style={{ width: '100%', borderRadius: '0.5rem' }}
-              placeholder="Descripcion Medicamento"
+              placeholder="Para que sirve el medicamento"
               onChange={handleChange_TextArea}
               value={valueForm.descripcion}
              />

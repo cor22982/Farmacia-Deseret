@@ -28,31 +28,22 @@ export const ProductAddCard =  forwardRef<HTMLDivElement, ProductCardProps> (
   const {llamado: delete_product} = useApi(`${source_link}/deleteproducts`)
 
   return (
-    <Card sx={{ display: 'flex', padding: '1rem' }} >
-      <CardMedia
-        component="img"
-        sx={{ width: 250 }}
-        image={`data:image/jpeg;base64,${product.imagen}`}
-        alt="Live from space album cover"
-      />
-      <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-        <CardContent sx={{ flex: '1 0 auto' }}>
-          <Box sx={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignContent: 'start', alignItems: 'start' }}>
-            
-            <Typography component="div" variant="h3">
-              {product.nombre}
-            </Typography>
-            <Box display="flex" flexDirection="row" gap="0.5rem">
-              <Chip label={`${product.forma_farmaceutica} (${product.presentacion.toUpperCase()})`} color="error" />
-              <Chip label={`Proveedor: ${product.proveedor?.nombre}`} color="primary"/>
-              <Chip label={`Existencias: ${product.existencias}`} color="success"/>
-              
-            </Box>
-          </Box>
-          <br/>
-          
-          <Box sx={{ display: 'flex', flexDirection: 'column', gap:'2rem' }} >        
-          <TableContainer component={Paper}>
+    <Card sx={{ display: 'flex', padding: '1rem', height: '100%' }}>
+  <Box sx={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
+    <CardContent sx={{ flex: '1 0 auto', display: 'flex', flexDirection: 'column', height: '100%' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignContent: 'start', alignItems: 'start', flex: '0 0 auto' }}>
+        <Typography component="div" variant="h3">
+          {product.nombre}
+        </Typography>
+        <Box display="flex" flexDirection="row" gap="0.5rem">
+          <Chip label={`${product.forma_farmaceutica} (${product.presentacion.toUpperCase()})`} color="error" />
+          <Chip label={`Proveedor: ${product.proveedor?.nombre}`} color="primary" />
+          <Chip label={`Existencias: ${product.existencias}`} color="success" />
+        </Box>
+      </Box>
+      <br />
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: '2rem', flex: 1 }}>
+        <TableContainer component={Paper} sx={{ flexGrow: 1 }}>
           <Table size="small" aria-label="tabla de detalles de productos">
             <TableHead>
               <TableRow>
@@ -78,18 +69,15 @@ export const ProductAddCard =  forwardRef<HTMLDivElement, ProductCardProps> (
             </TableBody>
           </Table>
         </TableContainer>
-        
-            <Button 
-            variant='contained'
-            onClick={() => {openUpdate_function(product)}}>
-            Agregar Nuevas Unidades</Button> 
-          
-        </Box>
-  
-          
-        </CardContent>
+        <Button 
+          variant='contained'
+          onClick={() => { openUpdate_function(product); }}
+        >
+          Agregar Nuevas Unidades
+        </Button>
       </Box>
-      
-    </Card>
+    </CardContent>
+  </Box>
+</Card>
   )}
 )

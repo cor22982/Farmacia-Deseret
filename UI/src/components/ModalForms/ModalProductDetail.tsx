@@ -1,5 +1,5 @@
 import React, { forwardRef , useState, useEffect, useCallback} from 'react';
-import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton } from '@mui/material';
+import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton, TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Paper } from '@mui/material';
 import { Place, useGetPlaces} from 'src/_mock/places';
 import { useGetProduct_Details, ProductDetail } from 'src/_mock/product_detail';
 import { Product, useGetProducts } from 'src/_mock/product';
@@ -158,18 +158,33 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
             </Typography>
           </Box>
           <br/>
-          <Box display="flex" alignContent="center" justifyContent="center" paddingLeft="5rem">
-          <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 1, md: 1 }}>
-          {productdetails.map((detail) => (
-              <Grid fontSize={6} display="flex" justifyContent="center" alignContent='center'>
-                <Box sx={{ display: 'flex', flexDirection: 'row', gap:'5rem', paddingLeft: '5rem'}} >
-                  <Typography variant="body2">{detail.getDetails_Products()}</Typography>  
-                  <Typography variant="body2">{detail.get_fechas()}</Typography>  
-                </Box>
-              </Grid>
-            ))}        
-          </Grid>    
-          </Box>
+          <TableContainer component={Paper}>
+                    <Table size="small" aria-label="tabla de detalles de productos">
+                      <TableHead>
+                        <TableRow>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Detalles</Typography>
+                          </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Ubicacion</Typography>
+                          </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Fecha Vencimiento</Typography>
+                          </TableCell>
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {productdetails.map((p, index) => (
+                          <TableRow key={index}>
+                            <TableCell>{p.getDetails_Products()}</TableCell>
+                            <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
+                            <TableCell>{p.get_Fechasformated()}</TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+          </TableContainer>
+          
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
             <TextField
               fullWidth
