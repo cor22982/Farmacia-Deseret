@@ -12,7 +12,9 @@ export async function getProduct__info_usuario() {
           'imagen',
           'presentacion',
           'principio_activo',
-          'existencias'],
+          'existencias',
+          'dosificacion',
+          'accion_farmacologica'],
       include: [
         {
           model: Supplier,
@@ -51,6 +53,8 @@ export async function getProduct_usuario() {
           'pp',
           'imagen',
           'presentacion',
+          'dosificacion',
+          'accion_farmacologica'
           ],
       include: [
         {

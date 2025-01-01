@@ -456,8 +456,16 @@ app.post('/insertProduct', upload.single('file'), async (req, res) => {
       const validate_token = await validateToken(req.body.token);
 
       if (validate_token && rol === 'admin') {
-        const { nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion } = req.body;
-        const response = await insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, 'Image-not-found.png');
+        const { nombre, 
+                forma_f, 
+                presentacion, 
+                id_supplier, 
+                activo_principal, 
+                isControlado, 
+                descripcion,
+                dosificacion,
+                accion_farmacologica } = req.body;
+        const response = await insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, 'Image-not-found.png', dosificacion, accion_farmacologica);
         if (response) {
           res.status(200).json({ success: true, message: 'Se insertó de manera exitosa', id: response });
         } else {
@@ -474,8 +482,16 @@ app.post('/insertProduct', upload.single('file'), async (req, res) => {
       const validate_token = await validateToken(req.body.token);
 
       if (validate_token && rol === 'admin') {
-        const { nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion } = req.body;
-        const response = await insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, req.file.filename);
+        const { nombre, 
+                forma_f, 
+                presentacion, 
+                id_supplier, 
+                activo_principal, 
+                isControlado, 
+                descripcion,
+                dosificacion,
+                accion_farmacologica } = req.body;
+        const response = await insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, req.file.filename, dosificacion, accion_farmacologica);
         if (response) {
           res.status(200).json({ success: true, message: 'Se insertó de manera exitosa', id: response });
         } else {

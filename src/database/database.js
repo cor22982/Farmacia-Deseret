@@ -405,7 +405,7 @@ export async function insertarSupplier(nombre, direccion, telefono, proveedor_al
   }
 }
 
-export async function insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, imagen) {
+export async function insertarProducto(nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, imagen, dosificacion, accion_farmacologica) {
   try {
     const resultado = await Product.create({
       nombre: nombre,
@@ -420,7 +420,9 @@ export async function insertarProducto(nombre, forma_f, presentacion, id_supplie
       controlado: isControlado,
       proveedor: id_supplier,
       ganancia: 0,
-      tipo: 'normal'
+      tipo: 'normal',
+      dosificacion,
+      accion_farmacologica
     });
     console.error('Se inserto con el id:', resultado.id);
     return resultado.id;

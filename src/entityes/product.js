@@ -60,6 +60,15 @@ const Product = sequelize.define('products', {
     type: DataTypes.STRING,
     allowNull: true,
   },
+  dosificacion: {
+    type: DataTypes.STRING,
+    allowNull: true,
+  },
+
+  accion_farmacologica: {
+    type: DataTypes.STRING,
+    allowNull: true,
+  },
 
 }, {
   tableName: 'products',
