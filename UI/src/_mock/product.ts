@@ -43,6 +43,11 @@ export class Product {
 
   listpresentaciones: PresentacionProducto[];
 
+  dosificacion: String | null;
+
+  accion_farmacologica: String | null;
+
+
   constructor(
     id: number,
     nombre: string,
@@ -61,6 +66,8 @@ export class Product {
     listdetails: ProductDetail[],
     nombre_image: string,
     listpresentaciones: PresentacionProducto[],
+    dosificacion: String | null,
+    accion_farmacologica: String | null
 
   ) {
     this.id = id;
@@ -80,6 +87,8 @@ export class Product {
     this.listdetails = listdetails;
     this.nombre_image = nombre_image;
     this.listpresentaciones = listpresentaciones;
+    this.dosificacion = dosificacion;
+    this.accion_farmacologica = accion_farmacologica;
   }
 }
 
@@ -126,6 +135,8 @@ export const useGetProducts = () =>{
             estadisponible: boolean;
             nombre: string;
           };
+          dosificacion: string | null;
+          accion_farmacologica: string | null;
         }) => {
           const supplier = new Supplier(
             product.proveedor_id_product.id,
@@ -164,6 +175,8 @@ export const useGetProducts = () =>{
             product_details,
             product.imagen,
             productos_presentaciones,
+            product.dosificacion,
+            product.accion_farmacologica
           );
         })
       );
@@ -196,7 +209,9 @@ export const useGetProducts = () =>{
       '',
       [],
       '',
-      []
+      [],
+      null,
+      null
     )
     return ganancia
   }
@@ -233,7 +248,9 @@ export const useGetProducts = () =>{
             '',
             [],
             '',
-            []
+            [],
+            null,
+            null
           )
         )
       );
@@ -264,6 +281,8 @@ export const useGetProducts = () =>{
           imagen: string;
           pp: string;
           presentacion: string;
+          dosificacion: string | null;
+          accion_farmacologica : string | null;
           proveedor_id_product: {
             id: number;
             nombre: string;
@@ -304,7 +323,9 @@ export const useGetProducts = () =>{
             '',
             [],
             product.imagen,
-            productos_presentaciones
+            productos_presentaciones,
+            product.dosificacion,
+            product.accion_farmacologica
           );
         })
       );
@@ -331,6 +352,8 @@ export const useGetProducts = () =>{
           presentacion: string;
           principio_activo: string;
           existencias: number;
+          dosificacion: string | null;
+          accion_farmacologica: string | null;
           proveedor_id_product: {
             id: number;
             nombre: string;
@@ -400,7 +423,10 @@ export const useGetProducts = () =>{
             '',
             productDetails,
             product.imagen,
-            productos_presentaciones
+            productos_presentaciones,
+            product.dosificacion,
+            product.accion_farmacologica
+
           );
         })
       );

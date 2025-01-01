@@ -141,6 +141,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
             {product.descripcion_uso}
           </Typography>
           
+          
 
             <Accordion>
               <AccordionSummary

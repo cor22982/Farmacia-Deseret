@@ -35,7 +35,9 @@ const schema = object({
   nombre: string().required('El nombre es obligatorio'),
   forma_f: string().required('La forma farmaceutica es obligatoria'),
   activo_principal: string().required('El activo principal es obligatorio'),
-  descripcion: string().required('La descripcion es obligatoria')
+  descripcion: string().required('La descripcion es obligatoria'),
+  dosificacion: string(),
+  accion_farmacologica: string()
 })
 
 export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
@@ -56,7 +58,7 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
 
     const [isControlado, setControlado] = useState(false);
 
-    const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { nombre: '', forma_f: '', activo_principal: '', descripcion: ''})
+    const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { nombre: '', forma_f: '', activo_principal: '', descripcion: '', dosificacion: '',accion_farmacologica: ''})
 
     const [image, setImage] = useState<string | null>(null);
 
@@ -105,7 +107,9 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
         id_supplier: value_suplier,
         activo_principal: valueForm.activo_principal,
         isControlado,
-        descripcion: valueForm.descripcion
+        descripcion: valueForm.descripcion,
+        dosificacion: valueForm.dosificacion,
+        accion_farmacologica: valueForm.accion_farmacologica
       };
 
       
@@ -209,7 +213,34 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             />    
           </Box>
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
-         
+          <TextField
+              fullWidth
+              name="accion_farmacologica"
+              label="¿ Que es ? "
+              defaultValue=""
+
+              error={!!errors.accion_farmacologica}
+              helperText={errors.accion_farmacologica}
+              onChange={handleChange}
+              value={valueForm.accion_farmacologica}
+              
+              InputLabelProps={{ shrink: true }}
+              sx={{
+                mb: 0.2,
+                '& .MuiOutlinedInput-root': {
+                  '& fieldset': {
+                    borderColor: '#919191',
+                  },
+                  '&:hover fieldset': {
+                    borderColor: '#262626',
+                  },
+                  '&.Mui-focused fieldset': {
+                    borderColor: '#050505',
+                    borderWidth: 2,
+                  },
+                },
+              }}
+            />  
           <FormControl fullWidth>
           <Select
             labelId="demo-simple-select-label"
@@ -300,6 +331,19 @@ export const ModalProduct = forwardRef<HTMLDivElement, ModalProductProps>(
               onChange={handleChange_TextArea}
               value={valueForm.descripcion}
              />
+             
+          </Box>
+          <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
+               
+             <TextareaAutosize
+              minRows={4}
+              name="dosificacion"
+              style={{ width: '100%', borderRadius: '0.5rem' }}
+              placeholder="Dosificacion del medicamento"
+              onChange={handleChange_TextArea}
+              value={valueForm.dosificacion}
+             />
+             
           </Box>
           {/* <UploadImage file={file} setFile={setFile} /> */}
           <br/>
