@@ -90,7 +90,12 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
             <Box display="flex" flexDirection="row" gap="0.5rem">
               <Chip label={`${product.forma_farmaceutica}`} color="primary" />
               <Chip label={`Existencias: ${product.existencias}`} color="success"/>
-              <Chip label={`Tipo: ${product.tipo}`} color="error"/>
+              
+              <Chip 
+                label={product.accion_farmacologica ? product.accion_farmacologica : "No se definio un tipo"} 
+                color="error" 
+              />
+      
               <Chip
                 label={`Ubicaciones: ${product.listdetails
                   .map((p) => `${p.ubicacion.ubicacion} (${p.ubicacion.lugar_farmacia})`)
@@ -140,83 +145,106 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
             >
             {product.descripcion_uso}
           </Typography>
+
+          <Typography component="div" variant="h6">
+              Dosificacion
+            </Typography>
+            <Typography
+              variant="body2"
+              component="div"
+              sx={{
+                color: 'text.secondary',
+                maxHeight: 'auto',
+                overflowY: 'auto',
+                whiteSpace: 'normal',
+                textOverflow: 'ellipsis',
+                textAlign: 'justify'
+              }}
+            >
+            {product.descripcion_uso}
+          </Typography>
+          
           
           
 
-            <Accordion>
-              <AccordionSummary
-                expandIcon={<Iconify icon="material-symbols-light:list" />}
-                aria-controls="product-details-content"
-                id="product-details-header"
-              >
-                <Typography variant="h6">Cantidades del Producto</Typography>
-              </AccordionSummary>
-                <AccordionDetails>
-                  <TableContainer component={Paper}>
-                    <Table size="small" aria-label="tabla de detalles de productos">
-                      <TableHead>
-                        <TableRow>
-                          <TableCell>
-                            <Typography variant="body2" fontWeight="bold">Detalles</Typography>
-                          </TableCell>
-                          <TableCell>
-                            <Typography variant="body2" fontWeight="bold">Ubicacion</Typography>
-                          </TableCell>
-                          <TableCell>
-                            <Typography variant="body2" fontWeight="bold">Fecha Vencimiento</Typography>
-                          </TableCell>
-                        </TableRow>
-                      </TableHead>
-                      <TableBody>
-                        {product.listdetails.map((p, index) => (
-                          <TableRow key={index}>
-                            <TableCell>{p.getDetails_Products()}</TableCell>
-                            <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
-                            <TableCell>{p.get_Fechasformated()}</TableCell>
-                          </TableRow>
-                        ))}
-                      </TableBody>
-                    </Table>
-                  </TableContainer>
-                </AccordionDetails>
-            </Accordion>
-            <Accordion>
-              <AccordionSummary
-                expandIcon={<Iconify icon="material-symbols-light:list" />}
-                aria-controls="product-details-content"
-                id="product-details-header"
-              >
-                <Typography variant="h6">Presentaciones del Producto</Typography>
-              </AccordionSummary>
-                <AccordionDetails>
-                  <TableContainer component={Paper}>
-                    <Table size="small" aria-label="tabla de detalles de productos">
-                      <TableHead>
-                        <TableRow>
-                          <TableCell>
-                            <Typography variant="body2" fontWeight="bold">Presentacion</Typography>
-                          </TableCell>
-                          <TableCell>
-                            <Typography variant="body2" fontWeight="bold">Precio</Typography>
-                          </TableCell>
-                          <TableCell>
-                            <Typography variant="body2" fontWeight="bold">% Ganancia</Typography>
-                          </TableCell>
-                        </TableRow>
-                      </TableHead>
-                      <TableBody>
-                        {product.listpresentaciones.map((p, index) => (
-                          <TableRow key={index}>
-                            <TableCell>{p.presentacion?.nombre} X {p.cantidad_presentacion}</TableCell>
-                            <TableCell>Q {p.pp} c/u</TableCell>
-                            <TableCell>{p.porcentaje_ganancia === null ? 0 : p.porcentaje_ganancia * 100}%</TableCell>
-                          </TableRow>
-                        ))}
-                      </TableBody>
-                    </Table>
-                  </TableContainer>
-                </AccordionDetails>
-            </Accordion>
+          <Box sx={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
+  <Accordion sx={{ flex: 1 }}>
+    <AccordionSummary
+      expandIcon={<Iconify icon="material-symbols-light:list" />}
+      aria-controls="product-details-content"
+      id="product-details-header"
+    >
+      <Typography variant="h6">Cantidades del Producto</Typography>
+    </AccordionSummary>
+    <AccordionDetails>
+      <TableContainer component={Paper}>
+        <Table size="small" aria-label="tabla de detalles de productos">
+          <TableHead>
+            <TableRow>
+              <TableCell>
+                <Typography variant="body2" fontWeight="bold">Cantidades</Typography>
+              </TableCell>
+              <TableCell>
+                <Typography variant="body2" fontWeight="bold">Ubicacion</Typography>
+              </TableCell>
+              <TableCell>
+                <Typography variant="body2" fontWeight="bold">Fecha Vencimiento</Typography>
+              </TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {product.listdetails.map((p, index) => (
+              <TableRow key={index}>
+                <TableCell>{p.cantidad}</TableCell>
+                <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
+                <TableCell>{p.get_Fechasformated()}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </AccordionDetails>
+  </Accordion>
+
+  <Accordion sx={{ flex: 1 }}>
+    <AccordionSummary
+      expandIcon={<Iconify icon="material-symbols-light:list" />}
+      aria-controls="product-details-content"
+      id="product-details-header"
+    >
+      <Typography variant="h6">Presentaciones del Producto</Typography>
+    </AccordionSummary>
+    <AccordionDetails>
+      <TableContainer component={Paper}>
+        <Table size="small" aria-label="tabla de detalles de productos">
+          <TableHead>
+            <TableRow>
+              <TableCell>
+                <Typography variant="body2" fontWeight="bold">Presentacion</Typography>
+              </TableCell>
+              <TableCell>
+                <Typography variant="body2" fontWeight="bold">Precio</Typography>
+              </TableCell>
+              <TableCell>
+                <Typography variant="body2" fontWeight="bold">% Ganancia</Typography>
+              </TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {product.listpresentaciones.map((p, index) => (
+              <TableRow key={index}>
+                <TableCell>{p.presentacion?.nombre} X {p.cantidad_presentacion}</TableCell>
+                <TableCell>Q {p.pp} c/u</TableCell>
+                <TableCell>{p.porcentaje_ganancia === null ? 0 : p.porcentaje_ganancia * 100}%</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </AccordionDetails>
+  </Accordion>
+</Box>
+
           </Box>
           <br/>
           <Box sx={{ display: 'flex', flexDirection: 'row', gap:'1rem' }} >
