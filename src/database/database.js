@@ -159,6 +159,17 @@ export async function getPresentacionProducto_biId(presentacion_id) {
   }
 }
 
+export async function getProduct_ById (id_product) {
+  try{
+    const product = await Product.findOne({
+      where: {id: id_product}
+    });
+    return product;
+  }catch (error) {
+    throw error;
+  }
+}
+
 
 export async function getCarritoId(id) {
   try {

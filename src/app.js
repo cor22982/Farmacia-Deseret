@@ -15,7 +15,7 @@ import { getUsers, verifyUserCredentials,
   obtenerPresentaciones, getPresentacionesbyProduct_Id,
   insertarPresentacionProducto,
   getPresentacionProducto_biId, 
-  getPresentacion_byId} from './database/database.js';
+  getPresentacion_byId, getProduct_ById} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
@@ -116,6 +116,16 @@ app.get('/getcarritos', async (req, res) => {
   }
 });
 
+
+app.post('/getproductid', async (req, res) => {
+  try {
+    const producto = await getProduct_ById(Number(req.body.id_product));
+    res.status(200).json({ success: true, producto: producto });
+  }catch (error) {
+    console.error('Error al obtener el producto:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
 
 app.post('/getcarritoid', async (req, res) => {
   try {
@@ -921,7 +931,7 @@ app.put('/updateProduct', upload.single('file'), async (req, res) => {
     const validate_token = await validateToken(req.body.token);
 
     if (validate_token && rol === 'admin') {
-      const { id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, oldImage } = req.body;
+      const { id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, oldImage, dosificacion, accion_farmacologica } = req.body;
       let response = null;
 
       // Si existe un archivo subido, definimos la ruta; de lo contrario, la dejamos como null.
@@ -940,9 +950,9 @@ app.put('/updateProduct', upload.single('file'), async (req, res) => {
 
       // Llamamos la función correspondiente dependiendo de si hay un nuevo archivo o no.
       if (fileName) {
-        response = await actualizarProducto(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, fileName);
+        response = await actualizarProducto(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, fileName , dosificacion, accion_farmacologica);
       } else {
-        response = await actualizarProducto_whitoutimage(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion);
+        response = await actualizarProducto_whitoutimage(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, dosificacion, accion_farmacologica);
       }
 
       if (response) {

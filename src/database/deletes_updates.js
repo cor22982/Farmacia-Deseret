@@ -76,7 +76,7 @@ export async function actualizarProveedor(id, nombre, direccion, telefono, prove
 }
 
 //Update Productos
-export async function actualizarProducto(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, imagen) {
+export async function actualizarProducto(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, imagen, dosificacion, accion_farmacologica) {
   try {
     const [updatedRows] = await Product.update({
       nombre: nombre,
@@ -86,7 +86,9 @@ export async function actualizarProducto(id, nombre, forma_f, presentacion, id_s
       presentacion: presentacion,
       principio_activo: activo_principal,
       controlado: isControlado,
-      proveedor: id_supplier      
+      proveedor: id_supplier,
+      dosificacion: dosificacion,
+      accion_farmacologica: accion_farmacologica,
     }, {
       where: { id: id }
     });
@@ -104,7 +106,7 @@ export async function actualizarProducto(id, nombre, forma_f, presentacion, id_s
   }
 }
 
-export async function actualizarProducto_whitoutimage(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion) {
+export async function actualizarProducto_whitoutimage(id, nombre, forma_f, presentacion, id_supplier, activo_principal, isControlado, descripcion, dosificacion, accion_farmacologica) {
   try {
     const [updatedRows] = await Product.update({
       nombre: nombre,
@@ -113,7 +115,9 @@ export async function actualizarProducto_whitoutimage(id, nombre, forma_f, prese
       presentacion: presentacion,
       principio_activo: activo_principal,
       controlado: isControlado,
-      proveedor: id_supplier      
+      proveedor: id_supplier,
+      dosificacion: dosificacion,
+      accion_farmacologica: accion_farmacologica,      
     }, {
       where: { id: id }
     });
