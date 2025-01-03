@@ -30,7 +30,7 @@ export class Schedule {
 
 
   getDetails(): string {
-    return `Abre a las: ${this.horario_apertura} y  Cierra a las: ${this.horario_cierre}`;
+    return `Abre a las: ${this.horario_apertura.slice(0, 5)} y  Cierra a las: ${this.horario_cierre.slice(0, 5)}`;
   }
 }
 

@@ -141,15 +141,19 @@ export const SupplierCard = forwardRef<HTMLDivElement,SupplierCardProps> (
               </AccordionSummary>
               <AccordionDetails>
                 {suplier.horarios.length > 0 ? (
-                  suplier.horarios.map((horario, index) => (
-                    <Typography key={index} variant="body1">
-                      {obtenerDiaDeLaSemana(horario.dia)}: {horario.horario_apertura} - {horario.horario_cierre}
-                    </Typography>
-                  ))
+                  suplier.horarios
+                    .sort((a, b) => a.dia - b.dia) // Ordenamos por el número del día
+                    .map((horario, index) => (
+                      <Typography key={index} variant="body1">
+                        {obtenerDiaDeLaSemana(horario.dia)}: {horario.horario_apertura.slice(0, 5)} - {horario.horario_cierre.slice(0, 5)}
+                      </Typography> 
+                    ))
                 ) : (
                   <Typography variant="body1">No hay horarios disponibles</Typography>
                 )}
               </AccordionDetails>
+
+
             </Accordion>
             <Divider />
             

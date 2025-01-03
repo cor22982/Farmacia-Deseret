@@ -115,6 +115,14 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
                     whiteSpace: 'normal',
                     textAlign: 'justify',
                   }}>{product?.descripcion_uso}</Typography>
+                <Typography variant='h5' sx={{ marginTop: 3 }}>Dosificacion</Typography>               
+                <Typography  sx={{
+                    
+                    textOverflow: 'ellipsis',
+                    whiteSpace: 'normal',
+                    textAlign: 'justify',
+                  }}>{product?.dosificacion}</Typography>
+                
               </Box>
            </Box>
            <Box flex="1" maxWidth="70%" display="flex" flexDirection="column" >
@@ -141,17 +149,27 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
                 </Typography>
                 <Chip 
                     label={`${presentacion?.presentacion?.nombre.toUpperCase()} X ${presentacion?.cantidad_presentacion}`}
-                    color='error'/>
+                    color='error'
+                    sx={{
+                      marginRight: 1
+                    }}/>
+                
+                <Chip 
+                    label={`${product?.accion_farmacologica}`}
+                    color='info'/>
               </Box>
               <br/>
               <Box display="flex" flexDirection="row">
                 <Box flex="1" maxWidth="50%">
                   
                   <Chip 
-                  label={`Disponibles ${product?.existencias}`}
+                  label={`Disponibles ${Math.floor((product?.existencias ?? 0) / (presentacion?.cantidad_presentacion ?? 1))}`}
+
+
                   sx={{
                     backgroundColor: 'black',
                     color: 'white',
+                    fontSize: '0.9rem'
                   
                   }}/>
                   <Typography variant='h2'>Q {presentacion?.pp} c/u</Typography>

@@ -142,21 +142,24 @@ export const ModalSupplierTime = forwardRef<HTMLDivElement, ModalSupplierTimePro
           <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 1, md: 1 }}>
             
             <Grid fontSize={6} display="flex" justifyContent="center" alignContent='center'>
-              <Box sx={{ display: 'flex', flexDirection: 'column', gap:'1rem'}} >
-                  {horarios.map((horario) => (
-                    <Box sx={{display: 'flex', flexDirection: 'row', gap:'1.2rem'}}>
-                       <IconButton
-                      onClick={() => {deleteHorario_byid(horario.id)}}>
-                      <Icon icon="iwwa:delete" width="14" height="14" color='red' />
-                    </IconButton>
-                    <Typography variant="body2">{obtenerDiaDeLaSemana(horario.dia)}</Typography>
-                    <Typography variant="body2">{horario.getDetails()}</Typography>
-                   
-                    </Box>
-                  ))}
-                
-                
-              </Box>
+            <Box sx={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+  {horarios.length > 0 ? (
+    horarios
+      .sort((a, b) => a.dia - b.dia) // Ordenamos por el número del día de la semana
+      .map((horario) => (
+        <Box sx={{ display: 'flex', flexDirection: 'row', gap: '1.2rem' }} key={horario.id}>
+          <IconButton onClick={() => { deleteHorario_byid(horario.id) }}>
+            <Icon icon="iwwa:delete" width="14" height="14" color="red" />
+          </IconButton>
+          <Typography variant="body2">{obtenerDiaDeLaSemana(horario.dia)}</Typography>
+          <Typography variant="body2">{horario.getDetails()}</Typography>
+        </Box>
+      ))
+  ) : (
+    <Typography variant="body2">No hay horarios disponibles</Typography>
+  )}
+</Box>
+
             </Grid>
            
           

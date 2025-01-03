@@ -1,7 +1,7 @@
 import useApi from "src/hooks/useApi";
 import useToken from "src/hooks/useToken";
 import source_link from "src/repository/source_repo";
-import { Supplier} from "./supplier";
+import { Supplier, useGetProveedores} from "./supplier";
 import { ProductDetail, useGetProduct_Details } from "./product_detail";
 import { Place } from "./places";
 import { PresentacionProducto, useGetPresentacionesProducto } from "./presentacion_producto";
@@ -96,10 +96,12 @@ export class Product {
 export const useGetProducts = () =>{
   const { llamado } = useApi(`${source_link}/getProducts`);
   const { llamado:imagen_get } = useApi(`${source_link}/getImage`);
+  const { llamado:getproductid } = useApi(`${source_link}/getproductid`);
   const {llamadowithoutbody} = useApi(`${source_link}/products_id`);
   const {llamadowithoutbody: get_productos} = useApi(`${source_link}/infoproductos`);
   const {llamadowithoutbody: get_productos_info} = useApi(`${source_link}/infoproductos_allinfo`);
   const {getPresentacionesProducto} = useGetPresentacionesProducto();
+  const {getOneSupplierById } = useGetProveedores();
   const { getDetails_ById } = useGetProduct_Details();
   const {token} = useToken();
   const { llamado: getGanancias_api } = useApi(`${source_link}/getProdutsGanancia`);
@@ -260,11 +262,44 @@ export const useGetProducts = () =>{
 
     return []
 
-  }
+  } 
   const getOneProductById = async (id: number): Promise<Product | null> => {
-    const products = await getProductInfo();
-    const product = products.find((product_get) => product_get.id === id);
-    return product || null;
+
+    const body = { id_product: id };
+    const response = await getproductid(body, "POST");
+    if (response.success) {
+      const productos_presentaciones = await getPresentacionesProducto( response.producto.id);
+      
+      const product_details = await getDetails_ById(response.producto.id);
+      const supplier = await getOneSupplierById (response.producto.proveedor)
+      const product =  new Product(            
+            response.producto.id,
+            response.producto.nombre,
+            response.producto.forma_farmaceutica,
+            response.producto.descripcion_uso,
+            '',
+            Number(response.producto.costo),
+            Number(response.producto.pp),
+            response.producto.presentacion,
+            response.producto.principio_activo,
+            Number(response.producto.existencias),
+            response.producto.controlado,
+            supplier,
+            Number(response.producto.ganancia),
+            response.producto.tipo,
+            product_details,
+            response.producto.imagen,
+            productos_presentaciones,
+            response.producto.dosificacion,
+            response.producto.accion_farmacologica
+          )
+        
+    
+
+      return product;
+    }
+
+    return null
   };
 
   

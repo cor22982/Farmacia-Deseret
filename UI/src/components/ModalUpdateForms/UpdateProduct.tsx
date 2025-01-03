@@ -10,7 +10,7 @@ import useToken from 'src/hooks/useToken';
 import { useGetProveedores, Supplier } from 'src/_mock/supplier';
 import { UploadImage } from '../UploadImage/UploadImage';
 
-
+ 
 
 interface ModalProductProps {
   open: boolean;
@@ -37,7 +37,9 @@ const schema = object({
   nombre: string().required('El nombre es obligatorio'),
   forma_f: string().required('La forma farmaceutica es obligatoria'),
   activo_principal: string().required('El activo principal es obligatorio'),
-  descripcion: string().required('La descripcion es obligatoria')
+  descripcion: string().required('La descripcion es obligatoria'),
+  dosificacion: string(),
+  accion_farmacologica: string()
 })
 
 export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
@@ -68,7 +70,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
 
     const [isControlado, setControlado] = useState(false);
 
-    const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { nombre: '', forma_f: '', activo_principal: '', descripcion: ''})
+    const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { nombre: '', forma_f: '', activo_principal: '', descripcion: '', dosificacion: '', accion_farmacologica: ''})
 
     const [image, setImage] = useState<string | null>(null);
 
@@ -84,10 +86,12 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
           if (open === true && one===0){
           const fetchedSuppliers = await getProvedor_ById();
           const product_geted = await getOneProductById(id_product);
-          setValueForm('nombre', product_geted?.nombre || '');
+          setValueForm('nombre', product_geted?.nombre || ''); 
           setValueForm('forma_f', product_geted?.forma_farmaceutica || '');
           setValueForm('activo_principal', product_geted?.principio_activo || '');
           setValueForm('descripcion', product_geted?.descripcion_uso || '');
+          setValueForm('dosificacion', product_geted?.dosificacion || '');
+          setValueForm('accion_farmacologica', product_geted?.accion_farmacologica || '');
           setControlado(product_geted?.controlado || false)
           setValueSupplier(product_geted?.proveedor?.id || 100000)
           setPresentacion(product_geted?.presentacion || 'ninguno')
@@ -134,7 +138,9 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
         activo_principal: valueForm.activo_principal,
         isControlado,
         descripcion: valueForm.descripcion,
-        oldImage: file === null ? '' : image
+        oldImage: file === null ? '' : image,
+        dosificacion: valueForm.dosificacion,
+        accion_farmacologica: valueForm.accion_farmacologica
       };
 
       
@@ -206,7 +212,7 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
                   },
                 },
               }}
-            />
+            /> 
               <TextField
               fullWidth
               name="forma_f"
@@ -237,7 +243,34 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
             />    
           </Box>
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
-        
+               <TextField
+                            fullWidth
+                            name="accion_farmacologica"
+                            label="¿ Que es ? "
+                            defaultValue=""
+              
+                            error={!!errors.accion_farmacologica}
+                            helperText={errors.accion_farmacologica}
+                            onChange={handleChange}
+                            value={valueForm.accion_farmacologica}
+                            
+                            InputLabelProps={{ shrink: true }}
+                            sx={{
+                              mb: 0.2,
+                              '& .MuiOutlinedInput-root': {
+                                '& fieldset': {
+                                  borderColor: '#919191',
+                                },
+                                '&:hover fieldset': {
+                                  borderColor: '#262626',
+                                },
+                                '&.Mui-focused fieldset': {
+                                  borderColor: '#050505',
+                                  borderWidth: 2,
+                                },
+                              },
+                            }}
+                          />  
           <FormControl fullWidth>
           <Select
             labelId="demo-simple-select-label"
@@ -329,6 +362,18 @@ export const UpdateProduct = forwardRef<HTMLDivElement, ModalProductProps>(
               value={valueForm.descripcion}
              />
           </Box>
+          <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
+                         
+                       <TextareaAutosize
+                        minRows={4}
+                        name="dosificacion"
+                        style={{ width: '100%', borderRadius: '0.5rem' }}
+                        placeholder="Dosificacion del medicamento"
+                        onChange={handleChange_TextArea}
+                        value={valueForm.dosificacion}
+                       />
+                       
+                    </Box>
           {/* <Box display="flex" flexDirection="row" gap="1rem">
             <Box>
               <Typography variant="body2" >Imagen Anterior</Typography>

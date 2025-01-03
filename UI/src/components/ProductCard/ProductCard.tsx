@@ -92,7 +92,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
               <Chip label={`Existencias: ${product.existencias}`} color="success"/>
               
               <Chip 
-                label={product.accion_farmacologica ? product.accion_farmacologica : "No se definio un tipo"} 
+                label={product.accion_farmacologica ? product.accion_farmacologica : "No se definio que es"} 
                 color="error" 
               />
       
@@ -161,7 +161,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
                 textAlign: 'justify'
               }}
             >
-            {product.descripcion_uso}
+            {product.dosificacion}
           </Typography>
           
           
