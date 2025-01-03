@@ -185,6 +185,9 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
                 <Typography variant="body2" fontWeight="bold">Cantidades</Typography>
               </TableCell>
               <TableCell>
+                <Typography variant="body2" fontWeight="bold">Costo</Typography>
+              </TableCell>
+              <TableCell>
                 <Typography variant="body2" fontWeight="bold">Ubicacion</Typography>
               </TableCell>
               <TableCell>
@@ -196,6 +199,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
             {product.listdetails.map((p, index) => (
               <TableRow key={index}>
                 <TableCell>{p.cantidad}</TableCell>
+                <TableCell>Q {p.costo}</TableCell>
                 <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
                 <TableCell>{p.get_Fechasformated()}</TableCell>
               </TableRow>
@@ -234,7 +238,7 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
             {product.listpresentaciones.map((p, index) => (
               <TableRow key={index}>
                 <TableCell>{p.presentacion?.nombre} X {p.cantidad_presentacion}</TableCell>
-                <TableCell>Q {p.pp} c/u</TableCell>
+                <TableCell>Q {p.pp}</TableCell>
                 <TableCell>{p.porcentaje_ganancia === null ? 0 : p.porcentaje_ganancia * 100}%</TableCell>
               </TableRow>
             ))}

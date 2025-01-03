@@ -176,7 +176,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
                       <TableBody>
                         {productdetails.map((p, index) => (
                           <TableRow key={index}>
-                            <TableCell>{p.getDetails_Products()}</TableCell>
+                            <TableCell>{p.ubicacion.ubicacion}({p.getDetails_Products()})</TableCell>
                             <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
                             <TableCell>{p.get_Fechasformated()}</TableCell>
                           </TableRow>

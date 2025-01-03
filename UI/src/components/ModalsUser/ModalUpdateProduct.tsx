@@ -51,6 +51,8 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
     const [details, setDetails] = useState<ProductDetail[]>([]);
     const {llamado: insertdetail} = useApi(`${source_link}/insertProductDetails_usuario`)
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { cantidad: 0, fechac: '', fechav: '', costo: 0})
+    const [ubicaciones_by_defect, setUbicaciones_defect] = useState<string[]>([]);
+
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       const { name, value } = e.target;
@@ -64,14 +66,20 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
           const fetchedPlaces = await getPlaces_usuario();
           const product_details_geted = await getDetails_ById_user(product?.id || 0)
           setDetails(product_details_geted)
-          setUbicaciones(fetchedPlaces)     
+          setUbicaciones(fetchedPlaces)
+          const lista_ubicaciones: string[] = [];
+            product?.listdetails?.forEach((detalle) => {
+                lista_ubicaciones.push(detalle.ubicacion.id);
+            });
+          setUbicaciones_defect(lista_ubicaciones)
+                          
         } catch (error) {
           console.error("Error fetching places:", error);
         }
       };
   
       fetchPlaces();
-    }, [getPlaces_usuario, setUbicaciones, getDetails_ById_user, setDetails, product?.id ]); 
+    }, [getPlaces_usuario, setUbicaciones, getDetails_ById_user, setDetails, product?.id, product?.listdetails ]); 
 
    
     const handleInsertDetail = useCallback(async() => {
@@ -135,7 +143,7 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
             <TableBody>
               {details.map((p, index) => (
                 <TableRow key={index}>
-                  <TableCell>{p.ubicacion.lugar_farmacia}</TableCell>
+                  <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
                   <TableCell>{p.cantidad}</TableCell>
                   <TableCell>{p.get_Fechasformated()}</TableCell>
                 </TableRow>
@@ -280,19 +288,26 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
                 },
               },
             }}
-            
             value={value_ubicacion}
             onChange={(e) => setValueUbicacion(Number(e.target.value))}
           >
             <MenuItem value={100000}>
               <em>Ubicacion</em>
             </MenuItem>
-            {ubicaciones.map((ubicacion) => (
-              <MenuItem value={ubicacion.id}>
-                <em>{ubicacion.ubicacion}({ubicacion.lugar_farmacia})</em>
-              </MenuItem>
-            ))}
+            {/* Mostrar ubicaciones por defecto */}
+            {ubicaciones_by_defect.map((id) => {
+              const ubicacion = ubicaciones.find((u) => u.id === id);
+              return (
+                ubicacion && (
+                  <MenuItem key={ubicacion.id} value={ubicacion.id}>
+                    <em>{ubicacion.ubicacion} ({ubicacion.lugar_farmacia})</em>
+                  </MenuItem>
+                )
+              );
+            })}
+            
           </Select>
+
           </FormControl>
           
           </Box>
