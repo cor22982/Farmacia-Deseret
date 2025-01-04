@@ -23,7 +23,10 @@ import { deleteUbicacionById , deleteProveedoresById,
   actualizarProducto_whitoutimage, deleteProductosCarrito, 
   deletePagoById, 
   deletePresentacionById, 
-  actualizarPresentaciones, deletePresentacionProductoById} from './database/deletes_updates.js';  
+  actualizarPresentaciones, 
+  deletePresentacionProductoById,
+  actualizarPresentacionProducto,
+  actualizarPresentacionProducto_whioutimage} from './database/deletes_updates.js';  
 import { getProduct_usuario, getProduct__info_usuario, 
   getUbicaciones_usuario, getDetailsProduct_user } from './database/usuario_methods.js';
 
@@ -960,6 +963,38 @@ app.put('/updateProduct', upload.single('file'), async (req, res) => {
       } else {
         res.status(401).json({ success: false, message: 'No se actualizó de manera exitosa' });
       }
+    } else {
+      res.status(401).json({ success: false, message: 'No tienes permisos para actualizar' });
+    }
+  } catch (error) {
+    console.error('Error al actualizar el producto:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.put('/updatePresentacionProducto', upload.single('file'), async (req, res) => {
+  try {
+    const { rol } = await decodeToken(req.body.token);
+    const validate_token = await validateToken(req.body.token);
+
+    if (validate_token && rol === 'admin') {
+      const { id, pp, cantidad_presentacion, presentacion_id, product_id } =req.body
+
+      let response = ''
+      if (req.file){
+        response = await actualizarPresentacionProducto(id, pp, cantidad_presentacion, presentacion_id, product_id, req.file.filename)        
+      }else{
+        response = await actualizarPresentacionProducto_whioutimage(id, pp, cantidad_presentacion, presentacion_id, product_id)
+      }
+
+      if (response) {
+        res.status(200).json({ success: true, message: 'Se actualizó de manera exitosa' });
+      } else {
+        res.status(401).json({ success: false, message: 'No se actualizó de manera exitosa' });
+      }
+
+      
     } else {
       res.status(401).json({ success: false, message: 'No tienes permisos para actualizar' });
     }

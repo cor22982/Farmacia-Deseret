@@ -26,6 +26,55 @@ export async function actualizarUbicaciones(id, nuevaUbicacion, lugarf) {
 }
 
 
+export async function actualizarPresentacionProducto(id, pp, cantidad_presentacion, presentacion_id, product_id, imagen_presentacion) {
+  try {
+    const [updatedRows] = await PresentacionProducto.update({
+      pp,
+      cantidad_presentacion,
+      presentacion_id,
+      product_id,
+      imagen_presentacion
+    }, {
+      where: { id: id }
+    });
+
+    if (updatedRows === 0) {
+      console.error('No se encontró ningún registro con el id proporcionado.');
+      return false;
+    }
+
+    console.log('Se actualizó el registro con id:', id);
+    return true;
+  } catch (error) {
+    console.error('Error al actualizar los detalles de la presentacion:', error);
+    return false;
+  }
+}
+
+export async function actualizarPresentacionProducto_whioutimage(id, pp, cantidad_presentacion, presentacion_id, product_id) {
+  try {
+    const [updatedRows] = await PresentacionProducto.update({
+      pp,
+      cantidad_presentacion,
+      presentacion_id,
+      product_id,
+    }, {
+      where: { id: id }
+    });
+
+    if (updatedRows === 0) {
+      console.error('No se encontró ningún registro con el id proporcionado.');
+      return false;
+    }
+
+    console.log('Se actualizó el registro con id:', id);
+    return true;
+  } catch (error) {
+    console.error('Error al actualizar los detalles de la presentacion:', error);
+    return false;
+  }
+}
+
 export async function actualizarPresentaciones(id, nuevoNombre, nuevaDescripcion) {
   try {
     const [updatedRows] = await Presentaciones.update({
