@@ -1,5 +1,5 @@
 import React, { forwardRef , useState, useEffect, useCallback} from 'react';
-import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton, TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Paper } from '@mui/material';
+import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton, TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Paper, CardMedia } from '@mui/material';
 import { Place, useGetPlaces} from 'src/_mock/places';
 import { useGetProduct_Details, ProductDetail } from 'src/_mock/product_detail';
 import { Product, useGetProducts } from 'src/_mock/product';
@@ -52,9 +52,18 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
     const {getPresentacionesProducto} =  useGetPresentacionesProducto()
     const [file, setFile] = useState<File | null>(null);
     const {llamadowithFileAndBody: insertPresentacionesProducto} = useApi(`${source_link}/insertPresentacionesProducto`)
+
+    const {llamadowithFileAndBody: updatePresentacionProducto} = useApi(`${source_link}/updatePresentacionProducto`)
+
+
     const {llamado: deletepresentacionproducto} = useApi(`${source_link}/deletepresentacionproducto`)
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { pp: 0, cantidad_presentacion: 0})
 
+    const [edit_Mode, setEdit_Mode] = useState(false)
+
+    const [id_presentacion_edit, setPresentacionEdit] = useState(0)
+
+    const [preview_image, setPreviewImage] = useState('')
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       const { name, value } = e.target;
@@ -77,7 +86,17 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
     }, [ setPresentaciones,  getPresentaciones, getPresentacionesProducto, id]); 
 
     
+    const onEditMode = (id_detail:number) =>{
+      const detail = presentacionesproducto.find((object_detail) => object_detail.id === id_detail);
+      setValueForm('pp', detail?.pp);
+      setValueForm('cantidad_presentacion', detail?.cantidad_presentacion);
+      setPresentacionId(detail?.presentacion_id ?? 0);
+      setEdit_Mode(true)
+      setPresentacionEdit(id_detail);
+      setPreviewImage((detail?.imagen_presentacion ?? '').toString());
+      setFile(null)
 
+    }
 
     const handleInsertDetail = useCallback(async() => {
       const isValid = await validate();
@@ -103,6 +122,41 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
       }
       return false
     }, [validate, valueForm,  token,  setCall, insertPresentacionesProducto, presentacion_id, id, file]);
+
+
+    const handleUpdateDetail = useCallback(async() => {
+
+      const isValid = await validate();
+      if (isValid) {
+        const body = {
+          id: id_presentacion_edit,
+          token,
+          pp: Number(valueForm.pp),
+          cantidad_presentacion: Number(valueForm.cantidad_presentacion),
+          presentacion_id, 
+          product_id: id
+        };
+        const response = await updatePresentacionProducto(file, body, 'PUT');
+        if (response) {
+          if (response.success === true){
+            setCall(0)
+            setValueForm('pp', 0);
+            setValueForm('cantidad_presentacion', 0);
+            setPresentacionId(100000);
+            setEdit_Mode(false)
+            setPreviewImage('');
+            setFile(null)
+
+            console.log(response)            
+          }
+          console.log(response)
+          
+        }
+        
+        
+      }
+      return false
+    }, [validate, valueForm,  token,  setCall, updatePresentacionProducto, presentacion_id, id, file, setValueForm, id_presentacion_edit]);
 
     const onDeletePresentacion = async(id_presentacion:number)=> {
       const body = {token, id:id_presentacion}
@@ -146,6 +200,21 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
                           <TableCell>
                             <Typography variant="body2" fontWeight="bold">Costo Q</Typography>
                           </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Ganancia</Typography>
+                          </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Imagen</Typography>
+                          </TableCell>
+                          <TableCell
+                            sx={{
+                              width: '5px',
+                            fontWeight: 'normal',
+                            backgroundColor: 'transparent',
+                          }}
+                          />
+
+
                         </TableRow>
                       </TableHead>
                       <TableBody>
@@ -159,6 +228,24 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
                             </TableCell>
                             <TableCell>{p.presentacion?.nombre} X {p.cantidad_presentacion}</TableCell>
                             <TableCell>{p.pp}</TableCell>
+                            
+                            <TableCell>{parseFloat(((p.porcentaje_ganancia ?? 0) * 100).toFixed(2))}%</TableCell>
+                            <TableCell>
+                            <Box
+                                component="img"
+                                sx={{      
+                                  width: '3.5rem',
+                                  height: '3.5rem',
+                                }}
+                                src={`data:image/jpeg;base64,${p.imagen_presentacion ? String(p.imagen_presentacion) : undefined}`}
+                              />
+
+                            </TableCell>
+                            <Button sx={{ marginTop: 1.5}}
+                              onClick={() => {onEditMode(p.id)}}
+                                >
+                                <Icon icon="material-symbols:edit" width="20" height="20" color='blue' />
+                              </Button>
                           </TableRow>
                         ))}
                       </TableBody>
@@ -258,10 +345,41 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
               
            
           </Box>
+          <Box sx={{display: 'flex', flexDirection: 'row', gap: '1rem'}}>
+
+           {
+              edit_Mode ? (
+                <Box>
+                  <Box 
+                  component="img"
+                  sx={{      
+                    width: '10rem',
+                    height: '10rem',
+                  }}
+                  src={`data:image/jpeg;base64,${preview_image}`}
+                  />
+                  <Typography>Imagen Previa</Typography>
+                  </Box>
+              ) : null
+           }
            <UploadImage file={file} setFile={setFile} />
+           </Box>
            <br/>
            <br/>
-          <Button
+          
+          {
+          edit_Mode ? (
+            <Button
+              variant="contained"
+              color="primary"
+              component="label"
+              sx={{ width: '100%' }}
+              onClick={handleUpdateDetail}
+            >
+              EDITAR PRESENTACION
+            </Button>
+          ) : (
+            <Button
             variant="contained" color="inherit" component="label"
             
             sx={{
@@ -269,6 +387,10 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
             }}
             onClick={handleInsertDetail}
           >INSERTAR NUEVA PRESENTACION</Button>
+          )
+        }
+
+          
           <br/>
           <br/>
           
