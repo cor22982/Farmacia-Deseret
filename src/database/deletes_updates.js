@@ -136,6 +136,77 @@ export async function actualizarPresentacionProducto_whioutimage(id, pp, cantida
   }
 }
 
+
+export async function actualizarDetailsProductos(id, cantidad, fecha_compra, fecha_vencimiento, costo, ubicacion_id, id_product) {
+  try {
+    // Buscar el producto asociado
+    const producto_asociado = await Product.findOne({ where: { id: id_product } });
+    const existencias_cantidad = producto_asociado.existencias - cantidad;
+
+    // Obtener detalles del producto
+    const detalle_existente = await ProductDetail.findOne({ where: { id } });
+    const costo_existente = detalle_existente.costo;
+
+    if (costo_existente !== costo) {
+      // Obtener todas las presentaciones del producto
+      const presentaciones = await PresentacionProducto.findAll({
+        where: { product_id: id_product },
+      });
+
+      // Iterar y actualizar el porcentaje de ganancia para cada presentación
+      for (const presentacion of presentaciones) {
+        const { pp, cantidad_presentacion } = presentacion;
+
+        if (pp && cantidad_presentacion) {
+          const porcentaje_ganancia = (pp - cantidad_presentacion * costo) / pp;
+
+          await PresentacionProducto.update(
+            { porcentaje_ganancia },
+            { where: { id: presentacion.id } }
+          );
+        } else {
+          console.warn(`Presentación con ID ${presentacion.id} tiene valores inválidos para 'pp' o 'cantidad_presentacion'.`);
+        }
+      }
+
+      // Obtener la menor ganancia entre las presentaciones actualizadas
+      const menorGanancia = await PresentacionProducto.findOne({
+        where: { product_id: id_product },
+        order: [["porcentaje_ganancia", "ASC"]],
+      });
+
+      // Actualizar el producto con la nueva ganancia mínima, existencias y costo
+      await Product.update(
+        {
+          ganancia: menorGanancia?.porcentaje_ganancia || 0,
+          existencias: existencias_cantidad + cantidad,
+          costo,
+        },
+        { where: { id: id_product } }
+      );
+    }
+
+    // Actualizar el detalle del producto
+    const [updatedRows] = await ProductDetail.update(
+      { cantidad, fecha_compra, fecha_vencimiento, costo, ubicacion_id },
+      { where: { id } }
+    );
+
+    if (updatedRows === 0) {
+      console.error("No se encontró ningún registro con el id proporcionado.");
+      return false;
+    }
+
+    console.log("Se actualizó el registro con id:", id);
+    return true;
+  } catch (error) {
+    console.error("Error al actualizar los detalles del producto:", error);
+    return false;
+  }
+}
+
+
+
 export async function actualizarPresentaciones(id, nuevoNombre, nuevaDescripcion) {
   try {
     const [updatedRows] = await Presentaciones.update({
@@ -384,6 +455,25 @@ export async function deleteProductosCarrito(id_carrito, id_product, id_presenta
     }
 
     return { message: 'Se elimino el producto del carrito ' };
+  } catch (error) {
+    console.log(error)
+    throw error;
+  }
+}
+
+
+
+export async function deleteProductos_Cantidades(id) {
+  try {
+    const deletedRows = await ProductDetail.destroy({
+      where: { id: id }
+    });
+
+    if (deletedRows === 0) {
+      throw new Error('No se encontro el carrito');
+    }
+
+    return { message: 'Se elimino la cantidad ' };
   } catch (error) {
     console.log(error)
     throw error;

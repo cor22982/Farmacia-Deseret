@@ -26,7 +26,9 @@ import { deleteUbicacionById , deleteProveedoresById,
   actualizarPresentaciones, 
   deletePresentacionProductoById,
   actualizarPresentacionProducto,
-  actualizarPresentacionProducto_whioutimage} from './database/deletes_updates.js';  
+  actualizarPresentacionProducto_whioutimage, 
+  deleteProductos_Cantidades,
+  actualizarDetailsProductos} from './database/deletes_updates.js';  
 import { getProduct_usuario, getProduct__info_usuario, 
   getUbicaciones_usuario, getDetailsProduct_user } from './database/usuario_methods.js';
 
@@ -855,6 +857,17 @@ app.delete('/deletepago', async(req,res)=>{
   }
 })
 
+
+app.delete('/deleteProductos_Cantidades', async(req,res)=>{  
+  try {
+      await deleteProductos_Cantidades(req.body.id);
+      res.status(200).json({ success: true, message: 'Se elimino la cantidad'});
+  }catch (error) {
+    console.error('Error al eliminar la cantidad:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+})
+
 app.delete('/deleteproducts', async(req,res)=>{  
   try {
     const validate_token = await validateToken(req.body.token)
@@ -918,6 +931,24 @@ app.put('/updateProveedor', async(req,res)=>{
     if (validate_token && rol ==='admin'){
       await actualizarProveedor(id, nombre, direccion, telefono, proveedorid, contacto, contacto2);
       res.status(200).json({ success: true, message: 'Se actualizo el proveedor'});
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para actualizar'});
+    }
+  }catch (error) {
+    console.error('Error al obtener al actualizar:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+})
+
+
+app.put('/actualizarDetailsProductos', async(req,res)=>{  
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    const {id, cantidad, fecha_compra, fecha_vencimiento, costo,  ubicacion_id, id_product} = req.body
+    if (validate_token && rol ==='admin'){
+      await actualizarDetailsProductos(id, cantidad, fecha_compra, fecha_vencimiento, costo,  ubicacion_id, id_product);
+      res.status(200).json({ success: true, message: 'Se actualizo el detalle'});
     } else{
       res.status(401).json({ success: false, message: 'No tienes permisos para actualizar'});
     }
@@ -1003,6 +1034,9 @@ app.put('/updatePresentacionProducto', upload.single('file'), async (req, res) =
     res.status(500).json({ success: false, message: 'Error en el servidor' });
   }
 });
+
+
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
