@@ -28,15 +28,43 @@ export async function actualizarUbicaciones(id, nuevaUbicacion, lugarf) {
 
 export async function actualizarPresentacionProducto(id, pp, cantidad_presentacion, presentacion_id, product_id, imagen_presentacion) {
   try {
+
+    const producto = await Product.findOne({
+
+      where:{id: product_id}
+    })
+
+    const costo_producto = producto.costo
+    let newganancia = 0
+    if (costo_producto !== null  && pp > 0){
+      newganancia = (pp - (cantidad_presentacion*costo_producto)) / pp
+
+    }
+
     const [updatedRows] = await PresentacionProducto.update({
       pp,
       cantidad_presentacion,
       presentacion_id,
       product_id,
+      porcentaje_ganancia: newganancia,
       imagen_presentacion
     }, {
       where: { id: id }
     });
+
+
+    const menorGanancia = await PresentacionProducto.findOne({
+      where:{product_id: product_id},
+      order: [['porcentaje_ganancia', 'ASC']]
+    });
+
+
+    const [updatedRows2] = await Product.update({
+      ganancia: menorGanancia.porcentaje_ganancia
+    }, {
+      where: { id: product_id }
+    });
+
 
     if (updatedRows === 0) {
       console.error('No se encontró ningún registro con el id proporcionado.');
@@ -53,13 +81,46 @@ export async function actualizarPresentacionProducto(id, pp, cantidad_presentaci
 
 export async function actualizarPresentacionProducto_whioutimage(id, pp, cantidad_presentacion, presentacion_id, product_id) {
   try {
+
+    const producto = await Product.findOne({
+
+      where:{id: product_id}
+    })
+
+    const costo_producto = producto.costo
+    let newganancia = 0
+    if (costo_producto !== null  && pp > 0){
+      newganancia = (pp - (cantidad_presentacion*costo_producto)) / pp
+    
+
+    }
+
+
+
     const [updatedRows] = await PresentacionProducto.update({
       pp,
       cantidad_presentacion,
       presentacion_id,
+      porcentaje_ganancia: newganancia,
       product_id,
     }, {
       where: { id: id }
+    });
+
+    
+
+    const menorGanancia = await PresentacionProducto.findOne({
+      where:{product_id: product_id},
+      order: [['porcentaje_ganancia', 'ASC']]
+    });
+
+    
+
+
+    const [updatedRows2] = await Product.update({
+      ganancia: menorGanancia.porcentaje_ganancia
+    }, {
+      where: { id: product_id }
     });
 
     if (updatedRows === 0) {
