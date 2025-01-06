@@ -53,6 +53,20 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { cantidad: 0, fechac: '', fechav: '', costo: 0})
     const [ubicaciones_by_defect, setUbicaciones_defect] = useState<string[]>([]);
 
+    const {llamado: deletedetail} = useApi(`${source_link}/deleteProductos_Cantidades`)
+
+    const onDeleteProducto_Detail = async (id_detail: number) => {
+      const body = { id: id_detail };
+      const response = await deletedetail(body, "DELETE");
+      
+      if (response?.success) {
+        setCall(0)
+        // Filtra los detalles para excluir el eliminado
+        setDetails((prevDetails) => prevDetails.filter((detail) => detail.id !== id_detail));
+      } else {
+        console.error("Error al eliminar el detalle:", response?.message || "Desconocido");
+      }
+    };
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       const { name, value } = e.target;
@@ -129,6 +143,15 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
           <Table size="small" aria-label="tabla de detalles de productos">
             <TableHead>
               <TableRow>
+                 <TableCell
+                    sx={{
+                        width: '5px',
+                      fontWeight: 'normal',
+                      backgroundColor: 'transparent',
+                    }}
+                  >
+                    <Typography variant="body2"/>
+                  </TableCell> 
                 <TableCell>
                   <Typography variant="body2" fontWeight="bold">Ubicacion</Typography>
                 </TableCell>
@@ -143,6 +166,13 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
             <TableBody>
               {details.map((p, index) => (
                 <TableRow key={index}>
+                  <TableCell>
+                    <Button sx={{ minWidth: 0}}
+                                                  onClick={()=>{onDeleteProducto_Detail(p.id)}}
+                                                  >
+                                                  <Icon icon="mdi:trash" width="20" height="20" color='red' />
+                                                </Button>
+                  </TableCell>
                   <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
                   <TableCell>{p.cantidad}</TableCell>
                   <TableCell>{p.get_Fechasformated()}</TableCell>

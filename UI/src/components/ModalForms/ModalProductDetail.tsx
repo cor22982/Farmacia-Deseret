@@ -23,7 +23,7 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width:700,
+  width:900,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
@@ -54,10 +54,14 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
     const {getGanancia} = useGetProducts();
     const [ganancia, setGanancia]  = useState<Product | null>(null);
     const {token} = useToken()
+
+    const [id_Detail, setIdDetail] = useState(0)
     const { getPlaces } = useGetPlaces();
-    const {llamado} = useApi(`${source_link}/updatePP`)
+    const {llamado: actualizarDetailsProductos} = useApi(`${source_link}/actualizarDetailsProductos`)
     const {llamado: insertdetail} = useApi(`${source_link}/insertProductDetails`)
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { cantidad: 0, fechac: '', fechav: '', costo: 0})
+    const [edit_Mode, setEdit_Mode] = useState(false)
+    const {llamado: deletedetail} = useApi(`${source_link}/deleteProductos_Cantidades`)
 
 
     const { values: valuepp, setValue: setValuepp, validate: validatepp, errors: errorpp } = useForm(schema_pp, { pp:0})
@@ -66,6 +70,17 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
       const { name, value } = e.target;
       setValuepp(name as keyof typeof valuepp, value);
     };
+
+    const onEditMode = (id_detail:number) =>{
+      const detail = productdetails.find((object_detail) => object_detail.id === id_detail);
+      setIdDetail(detail?.id ?? 0)
+      setValueForm('cantidad', detail?.cantidad);
+      setValueForm('fechac', detail?.fecha_compra);
+      setValueForm('fechav', detail?.fecha_vencimiento);
+      setValueForm('costo', detail?.costo);
+      setValueUbicacion(Number(detail?.ubicacion.id))
+      setEdit_Mode(true)
+    }
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       const { name, value } = e.target;
@@ -88,29 +103,53 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
   
       fetchPlaces();
     }, [getPlaces, setUbicaciones, setProductDetails, getDetails_ById, id, getGanancia, setGanancia ]); 
+    
+    const onDeleteProducto_Detail = async (id_detail: number) => {
+      const body = { id: id_detail };
+      const response = await deletedetail(body, "DELETE");
+      
+      if (response?.success) {
+        setCall(0)
+        // Filtra los detalles para excluir el eliminado
+        setProductDetails((prevDetails) => prevDetails.filter((detail) => detail.id !== id_detail));
+      } else {
+        console.error("Error al eliminar el detalle:", response?.message || "Desconocido");
+      }
+    };
 
-    const handleUpdatePp = useCallback(async() => {
-      const isValid = await validatepp();
+    const handleUpdateMYDetail= useCallback(async() => {
+      const isValid = await validate();
       if (isValid) {
         const body = {
           token,
-          id,
-          pp: Number(valuepp.pp),
+          id: id_Detail,
+          cantidad: valueForm.cantidad,
+          fecha_compra: valueForm.fechac,
+          fecha_vencimiento: valueForm.fechav,
+          costo: valueForm.costo,
+          ubicacion_id: value_ubicacion,
+          id_product: id
 
         };
         console.log(body)
-        const response = await llamado(body, 'PUT');
+        const response = await actualizarDetailsProductos(body, 'PUT');
         if (response) {
           if (response.success === true){
             setCall(0)
-            console.log(response)            
+            setIdDetail(0)
+            setValueForm('cantidad', 0);
+            setValueForm('fechac', '');
+            setValueForm('fechav', '');
+            setValueForm('costo', 0);
+            setValueUbicacion(100000)
+            setEdit_Mode(false)
           }
           
         }
         
       }
       return false
-    }, [validatepp, valuepp, llamado, id, token, setCall]);
+    }, [validate,  actualizarDetailsProductos, id, token, setCall, valueForm, id_Detail, value_ubicacion, setValueForm]);
 
 
     const handleInsertDetail = useCallback(async() => {
@@ -162,8 +201,20 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
                     <Table size="small" aria-label="tabla de detalles de productos">
                       <TableHead>
                         <TableRow>
+                          <TableCell
+                              sx={{
+                                  width: '5px',
+                                fontWeight: 'normal',
+                                backgroundColor: 'transparent',
+                              }}
+                            >
+                              <Typography variant="body2"/>
+                            </TableCell> 
                           <TableCell>
                             <Typography variant="body2" fontWeight="bold">Detalles</Typography>
+                          </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Costo</Typography>
                           </TableCell>
                           <TableCell>
                             <Typography variant="body2" fontWeight="bold">Ubicacion</Typography>
@@ -171,14 +222,38 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
                           <TableCell>
                             <Typography variant="body2" fontWeight="bold">Fecha Vencimiento</Typography>
                           </TableCell>
+                          <TableCell
+                              sx={{
+                                  width: '5px',
+                                fontWeight: 'normal',
+                                backgroundColor: 'transparent',
+                              }}
+                            >
+                              <Typography variant="body2"/>
+                            </TableCell> 
                         </TableRow>
                       </TableHead>
                       <TableBody>
                         {productdetails.map((p, index) => (
                           <TableRow key={index}>
-                            <TableCell>{p.ubicacion.ubicacion}({p.getDetails_Products()})</TableCell>
+                             <TableCell>
+                            <Button sx={{ minWidth: 0}}
+                              onClick={()=>{onDeleteProducto_Detail(p.id)}}
+                              >
+                              <Icon icon="mdi:trash" width="20" height="20" color='red' />
+                            </Button>
+                            </TableCell>
+                            <TableCell>{p.getDetails_Products()}</TableCell>
+                            <TableCell>Q {p.costo}</TableCell>
                             <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
                             <TableCell>{p.get_Fechasformated()}</TableCell>
+                            <TableCell>
+                               <Button sx={{ marginTop: 1.5}}
+                                   onClick={() => {onEditMode(p.id)}}
+                                    >
+                                    <Icon icon="material-symbols:edit" width="20" height="20" color='blue' />
+                                  </Button>
+                            </TableCell>
                           </TableRow>
                         ))}
                       </TableBody>
@@ -285,7 +360,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
                 onChange={handleChange}
                 value={valueForm.costo}
                 InputLabelProps={{ shrink: true }}
-                sx={{
+                sx={{ 
                   mb: 0.2,
                   '& .MuiOutlinedInput-root': {
                     '& fieldset': {
@@ -336,15 +411,30 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
           </FormControl>
           
           </Box>
-         
-          <Button
-            variant="contained" color="inherit" component="label"
             
-            sx={{
-              width:'100%'
-            }}
-            onClick={handleInsertDetail}
-          >INSERTAR NUEVA CANTIDAD DE PRODUCTO</Button>
+            {
+               edit_Mode ? (
+                <Button
+                 color="primary"
+                variant="contained" component="label"
+                
+                sx={{
+                  width:'100%'
+                }}
+                onClick={handleUpdateMYDetail}
+              >EDITAR CANTIDAD PRODUCTO</Button>
+               ): (
+                <Button
+                variant="contained" color="inherit" component="label"
+                
+                sx={{
+                  width:'100%'
+                }}
+                onClick={handleInsertDetail}
+              >INSERTAR NUEVA CANTIDAD DE PRODUCTO</Button>
+               )
+            }
+         
           <br/>
           <br/>
           
