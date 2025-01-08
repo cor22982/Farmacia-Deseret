@@ -141,7 +141,13 @@ export async function actualizarDetailsProductos(id, cantidad, fecha_compra, fec
   try {
     // Buscar el producto asociado
     const producto_asociado = await Product.findOne({ where: { id: id_product } });
-    const existencias_cantidad = producto_asociado.existencias - cantidad;
+
+    const producto_detail_toupdate = await ProductDetail.findOne({where: {id: id}})
+
+    
+    const existencias_cantidad = Number(producto_asociado.existencias) - Number(producto_detail_toupdate.cantidad);
+
+    console.log(existencias_cantidad)
 
     // Obtener detalles del producto
     const detalle_existente = await ProductDetail.findOne({ where: { id } });
@@ -179,7 +185,7 @@ export async function actualizarDetailsProductos(id, cantidad, fecha_compra, fec
       await Product.update(
         {
           ganancia: menorGanancia?.porcentaje_ganancia || 0,
-          existencias: existencias_cantidad + cantidad,
+          existencias: Number(existencias_cantidad) + Number(cantidad),
           costo,
         },
         { where: { id: id_product } }
