@@ -22,6 +22,8 @@ export const SourcerPage = lazy(() => import('src/pages/add_sourcer'));
 export const PlacePage = lazy(() => import('src/pages/add_place'));
 export const AddProductUserPage = lazy(() => import('src/pages/add_product_user'));
 export const AddPresentacionesPage = lazy(() => import('src/pages/add_presentaciones'));
+export const GainsPage = lazy(() => import('src/pages/gains_page'));
+
 
 const renderFallback = (
   <Box display="flex" alignItems="center" justifyContent="center" flex="1 1 auto">
@@ -55,6 +57,7 @@ export function Router() {
       children: [
         { element: rol === 'admin' ? <HomePage />: <ProductsPage/>, index: true },
         { path: 'user', element: <UserPage /> },
+        { path: 'ganancias', element: <GainsPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
         { path: 'products_farmacia', element: < AddProductsView/> },

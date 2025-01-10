@@ -32,11 +32,11 @@ export const navData_admin = [
   //   path: '/dashboard',
   //   icon: icon('ic-analytics'),
   // },
-  // {
-  //   title: 'Ganancias',
-  //   path: '/adsfsd',
-  //   icon: icon('ic-money'),
-  // },
+  {
+    title: 'Ganancias',
+    path: '/ganancias',
+    icon: icon('ic-money'),
+  },
   {
     title: 'Productos',
     path: '/products_farmacia',
