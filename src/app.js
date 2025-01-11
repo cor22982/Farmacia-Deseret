@@ -15,7 +15,7 @@ import { getUsers, verifyUserCredentials,
   obtenerPresentaciones, getPresentacionesbyProduct_Id,
   insertarPresentacionProducto,
   getPresentacionProducto_biId, 
-  getPresentacion_byId, getProduct_ById} from './database/database.js';
+  getPresentacion_byId, getProduct_ById, getGanancias} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
@@ -287,6 +287,23 @@ app.post('/upload', upload.single('file'), (req, res) => {
 
 
 //GET
+
+
+app.post('/getAllGanancias', async (req, res) => {
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+    if (validate_token && rol ==='admin'){
+      const ganancias = await getGanancias();
+      res.status(200).json({ success: true, message: 'Se obtuvo todas las ganancias', ganancias: ganancias});
+    } else{
+      res.status(401).json({ success: false, message: 'No tienes permisos para obtener las ganancias'});
+    }
+  }catch (error) {
+    console.error('Error al obtener las ganacias:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
 
 app.post('/getProdutsGanancia', async (req, res) => {
   try {

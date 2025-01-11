@@ -539,3 +539,25 @@ export async function getProduct() {
     throw error;
   }
 }
+
+
+export async function getGanancias(){
+  try{
+    const ganacias = await Product.findAll({
+      attributes: ['id', 'nombre', 'ganancia', 'existencias', 'costo'],
+      include: [
+        {
+          model: PresentacionProducto,
+          as: 'productos_presentacion_producto',
+          attributes: ['id', 'pp', 'porcentaje_ganancia', 'cantidad_presentacion', 'presentacion_id'],
+        },
+      ],
+
+    });
+   
+    return ganacias;
+  }catch (error) {
+    console.error('Error al obtener las ganancias:', error);
+    throw error;
+  }
+}
