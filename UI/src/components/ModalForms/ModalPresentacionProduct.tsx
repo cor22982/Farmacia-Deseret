@@ -198,7 +198,7 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
                             <Typography variant="body2" fontWeight="bold">Presentacion</Typography>
                           </TableCell>
                           <TableCell>
-                            <Typography variant="body2" fontWeight="bold">Costo Q</Typography>
+                            <Typography variant="body2" fontWeight="bold">PP Q</Typography>
                           </TableCell>
                           <TableCell>
                             <Typography variant="body2" fontWeight="bold">Ganancia</Typography>
@@ -318,7 +318,7 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
             <TextField
                 fullWidth
                 name="pp"
-                label="Precio"
+                label="PP (Precio Publico)"
                 type='number'
                 defaultValue=""
                 error={!!errors.pp}
