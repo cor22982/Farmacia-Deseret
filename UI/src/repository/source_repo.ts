@@ -1,2 +1,3 @@
-const source_link = `http://192.168.1.5:3000`;
+
+const source_link = import.meta.env.VITE_REACT_APP_API_URL;
 export default source_link;
