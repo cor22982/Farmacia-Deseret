@@ -13,6 +13,7 @@ import { useGetProducts, Product } from 'src/_mock/product';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
 import { UpdateProduct } from 'src/components/ModalUpdateForms/UpdateProduct';
 import { ModalPresentacionProduct } from 'src/components/ModalForms/ModalPresentacionProduct';
+import { ModalStepper } from 'src/components/Stepper/Add_Cantidades_Presentaciones';
 import { ProductsFilterList } from './components/products_filter_list';
 import { ProductSearchItem } from './components/products_search';
 
@@ -112,13 +113,18 @@ export function AddProductsView() {
         close={setOpenUpdate}
         handleClick={handleClicked}
         />
-      <ModalProductDetail
+      {/* <ModalProductDetail
         setCall={setCall1}
         id={valueProduct}
         open={openm2}
         handleClose={() => setOpenM2(false)}
         handleClick={handleClicked2}
-      />
+      /> */}
+
+      <ModalStepper
+        open={openm2}
+        handleClose={() => setOpenM2(false)}
+        />
       <ModalPresentacionProduct
         setCall={setCall1}
         id={valueProduct}

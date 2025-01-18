@@ -49,7 +49,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
     const [value_ubicacion, setValueUbicacion] = useState(100000); 
     const [productdetails, setProductDetails] = useState<ProductDetail[]>([]);
     const {getDetails_ById} = useGetProduct_Details();
-    const [image, setImage] = useState<string | null>(null);
+    
     const [ubicaciones, setUbicaciones] = useState<Place[]>([]);
     const {getGanancia} = useGetProducts();
     const [ganancia, setGanancia]  = useState<Product | null>(null);
@@ -66,10 +66,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
 
     const { values: valuepp, setValue: setValuepp, validate: validatepp, errors: errorpp } = useForm(schema_pp, { pp:0})
 
-    const handleChange_Update = (e: React.ChangeEvent<HTMLInputElement>) => {
-      const { name, value } = e.target;
-      setValuepp(name as keyof typeof valuepp, value);
-    };
+    
 
     const onEditMode = (id_detail:number) =>{
       const detail = productdetails.find((object_detail) => object_detail.id === id_detail);

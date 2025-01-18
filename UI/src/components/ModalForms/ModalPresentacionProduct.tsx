@@ -52,17 +52,11 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
     const {getPresentacionesProducto} =  useGetPresentacionesProducto()
     const [file, setFile] = useState<File | null>(null);
     const {llamadowithFileAndBody: insertPresentacionesProducto} = useApi(`${source_link}/insertPresentacionesProducto`)
-
     const {llamadowithFileAndBody: updatePresentacionProducto} = useApi(`${source_link}/updatePresentacionProducto`)
-
-
     const {llamado: deletepresentacionproducto} = useApi(`${source_link}/deletepresentacionproducto`)
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { pp: 0, cantidad_presentacion: 0})
-
     const [edit_Mode, setEdit_Mode] = useState(false)
-
     const [id_presentacion_edit, setPresentacionEdit] = useState(0)
-
     const [preview_image, setPreviewImage] = useState('')
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

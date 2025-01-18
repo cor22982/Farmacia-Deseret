@@ -3,6 +3,7 @@ import Typography from '@mui/material/Typography';
 import { DashboardContent } from 'src/layouts/dashboard';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import { Box, Collapse, IconButton } from '@mui/material';
+import { ModalPresentacionProduct } from 'src/components/ModalForms/ModalPresentacionProduct';
 import { Iconify } from 'src/components/iconify';
 import { useGetGanancias } from 'src/_mock/ganancia'; // Importa tu hook personalizado
 
@@ -59,7 +60,7 @@ export function GainsView() {
         totalCosto: ganancia.total_costo.toFixed(2),
         totalPp: ganancia.total_pp.toFixed(2),
         history: ganancia.detalles.map((detalle) => ({
-          presentacion: detalle.name,
+          presentacion: `${detalle.name} X ${detalle.cantidad_presentacion}`,
           pp: detalle.pp.toFixed(2),
           ganancia: `${detalle.ganancia.toFixed(2)}%`,
           existencia: detalle.existencia,
@@ -72,6 +73,13 @@ export function GainsView() {
   }, [getGanancias]);
 
   const columns: GridColDef<any>[] = [
+    { field: '', headerName: '', width: 50,
+      renderCell: (params) => (
+        <IconButton color="primary" >
+          <Iconify icon="mdi:pencil" width={20} />
+        </IconButton>
+      )
+     },
     { field: 'no', headerName: 'No', width: 50 },
     {
       field: 'articulo',
