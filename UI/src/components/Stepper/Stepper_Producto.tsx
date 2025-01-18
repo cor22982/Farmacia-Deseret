@@ -135,14 +135,13 @@ export const ModalStepperProducto: React.FC<ModalStepperProps> = ({
         {activeStep === steps.length ? (
           <>
             <Typography sx={{ mt: 2, mb: 1 }}>
-              Todos los pasos completados. ¡Has terminado!
+              A agregado todos los campos de un producto
             </Typography>
             <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
               <Box sx={{ flex: '1 1 auto' }} />
               <Button onClick={() => {
-                handleClose();
                 handleReset();
-              }}>Cerrar</Button>
+              }}>Nuevo Producto</Button>
             </Box>
           </>
         ) : (
@@ -160,11 +159,11 @@ export const ModalStepperProducto: React.FC<ModalStepperProps> = ({
                 Atrás
               </Button>
               <Box sx={{ flex: '1 1 auto' }} />
-              {activeStep < steps.length - 1 && (
+              
                 <Button onClick={handleNext}>
                   Siguiente
                 </Button>
-              )}
+              
             </Box>
           </>
         )}
