@@ -9,18 +9,19 @@ import {
   Typography,
   TextField,
 } from '@mui/material';
-
+import { ProductContent } from '../Models_Productos/ProductContent';
 import { ProductDetailBox } from '../Models_Productos/ProductDetails';
 import { PresentacionProduct } from '../Models_Productos/ProductPresentacion';
 
-const steps = ['Agregar Presentaciones', 'Agregar Inventario'];
+
+const steps = ['Agregar Producto','Agregar Presentaciones', 'Agregar Inventario'];
 
 const style = {
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width:900,
+  width: 700,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
@@ -29,18 +30,19 @@ const style = {
 
 interface ModalStepperProps {
   open: boolean;
-  id_product: number;
-  handleClick: () => void;
   setCall: (call:number) => void;
   handleClose: () => void;
+  setValueProductId: (id:number) => void;
+  id: number;
 }
 
-export const ModalStepper: React.FC<ModalStepperProps> = ({
+export const ModalStepperProducto: React.FC<ModalStepperProps> = ({
   open,
   handleClose,
   setCall,
-  handleClick,
-  id_product
+  setValueProductId,
+  id
+
 }) => {
   const [activeStep, setActiveStep] = React.useState(0);
   const [skipped, setSkipped] = React.useState(new Set<number>());
@@ -70,25 +72,35 @@ export const ModalStepper: React.FC<ModalStepperProps> = ({
 
   const renderStepContent = (step: number) => {
     switch (step) {
-        case 0:
-          return (
-            <Box display="flex" justifyContent="center" alignItems="center" flexDirection="column">
-            <PresentacionProduct
+      case 0:
+        return (
+          <Box display="flex" justifyContent="center" alignItems="center" flexDirection="column">
+            <ProductContent
+              setValueProductId={setValueProductId}
               setCall={setCall}
-              id={id_product}
-              handleClick={handleClick}
+              handleClick={handleNext}
             />
-            </Box>
-          );
+          </Box>
+        );
       case 1:
         return (
           <Box display="flex" justifyContent="center" alignItems="center" flexDirection="column">
-            <ProductDetailBox
-              setCall={setCall}
-              id={id_product}
-              handleClick={handleClick}
+            <PresentacionProduct
+                id={id}
+                setCall={setCall}
+                handleClick={()=>{}}
             />
-            </Box>
+          </Box>
+        );
+      case 2:
+        return (
+          <Box display="flex" justifyContent="center" alignItems="center" flexDirection="column">
+            <ProductDetailBox
+                id={id}
+                setCall={setCall}
+                handleClick={()=>{}}
+            />
+          </Box>
         );
       default:
         return 'Paso desconocido';
@@ -104,7 +116,7 @@ export const ModalStepper: React.FC<ModalStepperProps> = ({
     >
       <Box sx={style}>
         <Typography id="modal-modal-title" variant="h5" component="h2" mb={2}>
-          Agregar Presentaciones e Inventario
+         Agregar Productos
         </Typography>
         <Stepper activeStep={activeStep}>
           {steps.map((label, index) => {

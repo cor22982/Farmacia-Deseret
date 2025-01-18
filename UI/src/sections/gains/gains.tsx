@@ -2,14 +2,15 @@ import { useEffect, useState } from 'react';
 import Typography from '@mui/material/Typography';
 import { DashboardContent } from 'src/layouts/dashboard';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
-import { Box, Collapse, IconButton } from '@mui/material';
+import { Box, Collapse, IconButton, Paper } from '@mui/material';
 import { ModalPresentacionProduct } from 'src/components/ModalForms/ModalPresentacionProduct';
 import { Iconify } from 'src/components/iconify';
+import { ModalStepper } from 'src/components/Stepper/Add_Cantidades_Presentaciones';
 import { useGetGanancias } from 'src/_mock/ganancia'; // Importa tu hook personalizado
 
 function CollapsibleRow({ row }: { row: any }) {
   const [open, setOpen] = useState(false);
-
+  
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
       <Box display="flex" alignItems="center">
@@ -45,6 +46,14 @@ function CollapsibleRow({ row }: { row: any }) {
 export function GainsView() {
   const { getGanancias } = useGetGanancias(); // Hook para obtener datos
   const [rows, setRows] = useState<any[]>([]);
+  const [call1, setCall1] = useState(0);
+  const [openm2, setOpenM2] = useState(false);
+  const [valueProduct, setValueProduct] = useState(0);
+
+  const openProduct = (id:number) => {
+    setValueProduct(id);
+    setOpenM2(true);
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -56,7 +65,7 @@ export function GainsView() {
         existencia: ganancia.existencia,
         costo: ganancia.costo.toFixed(2),
         pp: ganancia.pp.toFixed(2),
-        porcentaje: `${(ganancia.ganacia ).toFixed(2)}%`,
+        porcentaje: `${(ganancia.ganacia).toFixed(2)}%`,
         totalCosto: ganancia.total_costo.toFixed(2),
         totalPp: ganancia.total_pp.toFixed(2),
         history: ganancia.detalles.map((detalle) => ({
@@ -72,10 +81,15 @@ export function GainsView() {
     fetchData();
   }, [getGanancias]);
 
+  // Calcular resumen
+  const totalCosto = rows.reduce((acc, row) => acc + parseFloat(row.totalCosto), 0);
+  const totalPp = rows.reduce((acc, row) => acc + parseFloat(row.totalPp), 0);
+  const averageGanancia = rows.reduce((acc, row) => acc + parseFloat(row.porcentaje.replace('%', '')), 0) / rows.length;
+
   const columns: GridColDef<any>[] = [
     { field: '', headerName: '', width: 50,
       renderCell: (params) => (
-        <IconButton color="primary" >
+        <IconButton color="primary" onClick={() => { openProduct(params.row.id); }}>
           <Iconify icon="mdi:pencil" width={20} />
         </IconButton>
       )
@@ -84,7 +98,7 @@ export function GainsView() {
     {
       field: 'articulo',
       headerName: 'Artículo',
-      width: 300,
+      width: 250,
       renderCell: (params) => <CollapsibleRow row={params.row} />,
     },
     { field: 'existencia', headerName: 'Existencia', type: 'number', width: 90 },
@@ -97,6 +111,13 @@ export function GainsView() {
 
   return (
     <DashboardContent>
+      <ModalStepper
+        setCall={setCall1}
+        id_product={valueProduct}
+        open={openm2}
+        handleClick={() => {}}
+        handleClose={() => setOpenM2(false)}
+      />
       <Box
         sx={{
           height: 500,
@@ -128,6 +149,24 @@ export function GainsView() {
           disableRowSelectionOnClick
           getRowHeight={() => 'auto'}
         />
+      </Box>
+
+      {/* Resumen */}
+      <Box sx={{ marginTop: 2 }}>
+        <Paper elevation={2} sx={{ padding: 2 }}>
+          <Typography variant="h6" gutterBottom>
+            Resumen
+          </Typography>
+          <Typography variant="body1">
+            Promedio de Ganancia: {averageGanancia.toFixed(2)}%
+          </Typography>
+          <Typography variant="body1">
+            Sumatoria Total de Costo: Q{totalCosto.toFixed(2)}
+          </Typography>
+          <Typography variant="body1">
+            Sumatoria Total de PP: Q{totalPp.toFixed(2)}
+          </Typography>
+        </Paper>
       </Box>
     </DashboardContent>
   );

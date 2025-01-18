@@ -1,0 +1,380 @@
+import React, { forwardRef , useState, useEffect, useCallback} from 'react';
+import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton, TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Paper, CardMedia } from '@mui/material';
+import { Place, useGetPlaces} from 'src/_mock/places';
+import { useGetProduct_Details, ProductDetail } from 'src/_mock/product_detail';
+import { Product, useGetProducts } from 'src/_mock/product';
+import useApi from 'src/hooks/useApi';
+import source_link from 'src/repository/source_repo';
+import useForm from 'src/hooks/useForm';
+import useToken from 'src/hooks/useToken';
+import { Icon } from "@iconify/react"; 
+import { object, string, number } from 'yup';
+import { PresentacionProducto, useGetPresentacionesProducto } from 'src/_mock/presentacion_producto';
+import { Presentacion, useGetPresentaciones } from 'src/_mock/presentaciones';
+import { UploadImage } from '../UploadImage/UploadImage';
+
+
+
+interface PresentacionProductProps {
+  handleClick: () => void;
+  setCall: (call:number) => void;
+  id: number;
+}
+
+
+
+const schema = object({
+  pp: number().required('La cantidad es requerida'),
+  cantidad_presentacion: number().required('La cantidad es requerida'),  
+})
+
+export const PresentacionProduct = forwardRef<HTMLDivElement, PresentacionProductProps>(
+  ({ handleClick, id, setCall }, ref) => {
+
+    
+    const [presentacion_id, setPresentacionId] = useState(100000); 
+    const [presentaciones, setPresentaciones] = useState<Presentacion[]>([]);
+    const [presentacionesproducto, setPresentacionesProducto] = useState<PresentacionProducto[]>([]);
+    const {token} = useToken()
+    const { getBasicInfo} = useGetProducts();
+    const {getPresentaciones} = useGetPresentaciones()
+    const {getPresentacionesProducto} =  useGetPresentacionesProducto()
+    const [file, setFile] = useState<File | null>(null);
+    const {llamadowithFileAndBody: insertPresentacionesProducto} = useApi(`${source_link}/insertPresentacionesProducto`)
+    const {llamadowithFileAndBody: updatePresentacionProducto} = useApi(`${source_link}/updatePresentacionProducto`)
+    const {llamado: deletepresentacionproducto} = useApi(`${source_link}/deletepresentacionproducto`)
+    const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { pp: 0, cantidad_presentacion: 0})
+    const [edit_Mode, setEdit_Mode] = useState(false)
+    const [id_presentacion_edit, setPresentacionEdit] = useState(0)
+    const [preview_image, setPreviewImage] = useState('')
+    const [producto_nombre, setProductoNombre] = useState<string | null>('');
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const { name, value } = e.target;
+      setValueForm(name as keyof typeof valueForm, value);
+    };
+
+    useEffect(() => {
+      const fetchPlaces = async () => {
+        try {
+          const fetchedPresentaciones = await getPresentaciones();
+          const fetchedPresentacionesProductos= await getPresentacionesProducto(id);
+          setPresentaciones(fetchedPresentaciones)
+          setPresentacionesProducto(fetchedPresentacionesProductos)
+          const nombre = await getBasicInfo(id)     
+          setProductoNombre(nombre?.nombre.toUpperCase() || '')
+        } catch (error) {
+          console.error("Error fetching places:", error);
+        }
+      };
+  
+      fetchPlaces();
+    }, [ setPresentaciones,  getPresentaciones, getPresentacionesProducto, id, getBasicInfo]); 
+
+    
+    const onEditMode = (id_detail:number) =>{
+      const detail = presentacionesproducto.find((object_detail) => object_detail.id === id_detail);
+      setValueForm('pp', detail?.pp);
+      setValueForm('cantidad_presentacion', detail?.cantidad_presentacion);
+      setPresentacionId(detail?.presentacion_id ?? 0);
+      setEdit_Mode(true)
+      setPresentacionEdit(id_detail);
+      setPreviewImage((detail?.imagen_presentacion ?? '').toString());
+      setFile(null)
+
+    }
+
+    const handleInsertDetail = useCallback(async() => {
+      const isValid = await validate();
+      if (isValid) {
+        const body = {
+          token,
+          pp: Number(valueForm.pp),
+          cantidad_presentacion: Number(valueForm.cantidad_presentacion),
+          presentacion_id, 
+          product_id: id
+        };
+        const response = await insertPresentacionesProducto(file, body, 'POST');
+        if (response) {
+          if (response.success === true){
+            setCall(0)
+            console.log(response)            
+          }
+          console.log(response)
+          
+        }
+        
+        
+      }
+      return false
+    }, [validate, valueForm,  token,  setCall, insertPresentacionesProducto, presentacion_id, id, file]);
+
+
+    const handleUpdateDetail = useCallback(async() => {
+
+      const isValid = await validate();
+      if (isValid) {
+        const body = {
+          id: id_presentacion_edit,
+          token,
+          pp: Number(valueForm.pp),
+          cantidad_presentacion: Number(valueForm.cantidad_presentacion),
+          presentacion_id, 
+          product_id: id
+        };
+        const response = await updatePresentacionProducto(file, body, 'PUT');
+        if (response) {
+          if (response.success === true){
+            setCall(0)
+            setValueForm('pp', 0);
+            setValueForm('cantidad_presentacion', 0);
+            setPresentacionId(100000);
+            setEdit_Mode(false)
+            setPreviewImage('');
+            setFile(null)
+
+            console.log(response)            
+          }
+          console.log(response)
+          
+        }
+        
+        
+      }
+      return false
+    }, [validate, valueForm,  token,  setCall, updatePresentacionProducto, presentacion_id, id, file, setValueForm, id_presentacion_edit]);
+
+    const onDeletePresentacion = async(id_presentacion:number)=> {
+      const body = {token, id:id_presentacion}
+      await deletepresentacionproducto (body, "DELETE");
+    }
+
+    return (
+    
+      <Box >
+    
+          <Box display="flex" alignItems= 'center' justifyContent="center">
+            <Typography id="modal-modal-title" variant="h4" component="h2">
+            AÑADIR PRESENTACIONES A {producto_nombre?.toUpperCase()}
+            </Typography>
+          </Box>
+          <br/>
+          
+          <TableContainer component={Paper}>
+                    <Table size="small" aria-label="tabla de detalles de productos">
+                      <TableHead>
+                        <TableRow>
+                          <TableCell
+                            sx={{
+                                width: '5px',
+                              fontWeight: 'normal',
+                              backgroundColor: 'transparent',
+                            }}
+                          >
+                            <Typography variant="body2"/>
+                          </TableCell> 
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Presentacion</Typography>
+                          </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">PP Q</Typography>
+                          </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Ganancia</Typography>
+                          </TableCell>
+                          <TableCell>
+                            <Typography variant="body2" fontWeight="bold">Imagen</Typography>
+                          </TableCell>
+                          <TableCell
+                            sx={{
+                              width: '5px',
+                            fontWeight: 'normal',
+                            backgroundColor: 'transparent',
+                          }}
+                          />
+
+
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {presentacionesproducto.map((p, index) => (
+                          <TableRow key={index}>
+                            <TableCell sx={{ width: '5px', fontSize: '12px'}}> 
+                              <Button sx={{ minWidth: 0}}
+                                onClick={() => {onDeletePresentacion(p.id)}}>
+                                <Icon icon="mdi:trash" width="20" height="20" color='red' />
+                              </Button>
+                            </TableCell>
+                            <TableCell>{p.presentacion?.nombre} X {p.cantidad_presentacion}</TableCell>
+                            <TableCell>{p.pp?.toFixed(2) ?? '0.00'}</TableCell>
+                            
+                            <TableCell>{parseFloat(((p.porcentaje_ganancia ?? 0) * 100).toFixed(2)).toFixed(2)}%</TableCell>
+                            <TableCell>
+                            <Box
+                                component="img"
+                                sx={{      
+                                  width: '3.5rem',
+                                  height: '3.5rem',
+                                }}
+                                src={`data:image/jpeg;base64,${p.imagen_presentacion ? String(p.imagen_presentacion) : undefined}`}
+                              />
+
+                            </TableCell>
+                            <Button sx={{ marginTop: 1.5}}
+                              onClick={() => {onEditMode(p.id)}}
+                                >
+                                <Icon icon="material-symbols:edit" width="20" height="20" color='blue' />
+                              </Button>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                  <br/>
+          <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
+          <FormControl fullWidth>
+          <Select
+            labelId="demo-simple-select-label"
+            id="demo-simple-select"
+            sx={{
+              mb: 1,
+              '& .MuiOutlinedInput-root': {
+                '& fieldset': {
+                  borderColor: '#919191',
+                },
+                '&:hover fieldset': {
+                  borderColor: '#262626',
+                },
+                '&.Mui-focused fieldset': {
+                  borderColor: '#050505',
+                  borderWidth: 2,
+                },
+              },
+            }}
+            
+            value={presentacion_id}
+            onChange={(e) => setPresentacionId(Number(e.target.value))}
+          >
+            <MenuItem value={100000}>
+              <em>Presentacion</em>
+            </MenuItem>
+            {presentaciones.map((ubicacion) => (
+              <MenuItem value={ubicacion.id}>
+                <em>{ubicacion.nombre}</em>
+              </MenuItem>
+            ))}
+          </Select>
+          </FormControl>
+            <TextField
+              fullWidth
+              name="cantidad_presentacion"
+              label="Cantidad por Presentacion"
+              type='number'
+              defaultValue=""
+              
+              error={!!errors.cantidad_presentacion}
+              helperText={errors.cantidad_presentacion}
+              onChange={handleChange}
+              value={valueForm.cantidad_presentacion}
+
+              InputLabelProps={{ shrink: true }}
+              sx={{
+                mb: 0.2,
+                '& .MuiOutlinedInput-root': {
+                  '& fieldset': {
+                    borderColor: '#919191',
+                  },
+                  '&:hover fieldset': {
+                    borderColor: '#262626',
+                  },
+                  '&.Mui-focused fieldset': {
+                    borderColor: '#050505',
+                    borderWidth: 2,
+                  },
+                },
+              }}
+            />
+            <TextField
+                fullWidth
+                name="pp"
+                label="PP (Precio Publico)"
+                type='number'
+                defaultValue=""
+                error={!!errors.pp}
+                helperText={errors.pp}
+                onChange={handleChange}
+                value={valueForm.pp}
+                InputLabelProps={{ shrink: true }}
+                sx={{
+                  mb: 0.2,
+                  '& .MuiOutlinedInput-root': {
+                    '& fieldset': {
+                      borderColor: '#919191',
+                    },
+                    '&:hover fieldset': {
+                      borderColor: '#262626',
+                    },
+                    '&.Mui-focused fieldset': {
+                      borderColor: '#050505',
+                      borderWidth: 2,
+                    },
+                  },
+                }}
+              />
+              
+           
+          </Box>
+          <Box sx={{display: 'flex', flexDirection: 'row', gap: '1rem'}}>
+
+           {
+              edit_Mode ? (
+                <Box>
+                  <Box 
+                  component="img"
+                  sx={{      
+                    width: '10rem',
+                    height: '10rem',
+                  }}
+                  src={`data:image/jpeg;base64,${preview_image}`}
+                  />
+                  <Typography>Imagen Previa</Typography>
+                  </Box>
+              ) : null
+           }
+           <UploadImage file={file} setFile={setFile} />
+           </Box>
+           <br/>
+           <br/>
+          
+          {
+          edit_Mode ? (
+            <Button
+              variant="contained"
+              color="primary"
+              component="label"
+              sx={{ width: '100%' }}
+              onClick={handleUpdateDetail}
+            >
+              EDITAR PRESENTACION
+            </Button>
+          ) : (
+            <Button
+            variant="contained" color="inherit" component="label"
+            
+            sx={{
+              width:'100%'
+            }}
+            onClick={handleInsertDetail}
+          >INSERTAR NUEVA PRESENTACION</Button>
+          )
+        }
+
+          
+          <br/>
+          <br/>
+          
+        </Box>
+ 
+    )
+  }
+);

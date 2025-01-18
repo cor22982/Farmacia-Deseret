@@ -272,16 +272,9 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
              variant="contained"
              onClick={() => {setid(product.id)}}
             >
-            Cantidades
+            Presentaciones e Inventario
           </Button>
-          <Button 
-            sx={{ bgcolor: 'black', '&:hover': { bgcolor: 'darkred' } }} 
-            variant="contained"
-            startIcon={<Iconify icon="cuida:medicine-outline" />}
-            onClick={() => {openpresentacion(product.id)}}
-            >
-            Presentaciones
-          </Button>
+          
             </Box>
         </CardContent>
       </Box>
