@@ -541,6 +541,20 @@ export async function getProduct() {
 }
 
 
+export async function getProduct_basicInfo (id) {
+  try{
+    const product = await Product.findOne({
+      attributes: ['id', 'nombre'],
+      where: {id: id}
+    });
+   
+    return product;
+  }catch (error) {
+    console.error('Error al obtener el producto:', error);
+    throw error;
+  }
+}
+
 export async function getGanancias(){
   try{
     const ganacias = await Product.findAll({

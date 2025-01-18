@@ -15,7 +15,7 @@ import { getUsers, verifyUserCredentials,
   obtenerPresentaciones, getPresentacionesbyProduct_Id,
   insertarPresentacionProducto,
   getPresentacionProducto_biId, 
-  getPresentacion_byId, getProduct_ById, getGanancias} from './database/database.js';
+  getPresentacion_byId, getProduct_ById, getGanancias, getProduct_basicInfo} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
@@ -140,6 +140,17 @@ app.post('/getcarritoid', async (req, res) => {
     res.status(200).json({ success: true, carrito: carrito });
   }catch (error) {
     console.error('Error al obtener el carrito:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/getbasicInfoProduct', async (req, res) => {
+  try {
+    const basic_info = await getProduct_basicInfo (req.body.id)
+    res.status(200).json({ success: true, product_info: basic_info });
+  }catch (error) {
+    console.error('Error al obtener el producto:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });
   }
 });
