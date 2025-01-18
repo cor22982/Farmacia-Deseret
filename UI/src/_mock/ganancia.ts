@@ -1,7 +1,8 @@
 import useApi from "src/hooks/useApi";
 import source_link from "src/repository/source_repo";
 import useToken from "src/hooks/useToken";
-import { ganancia_details } from "./ganancia_detalles";
+import { Ganancia_details } from "./ganancia_detalles";
+import { useGetPresentaciones } from "./presentaciones";
 
 
 
@@ -22,7 +23,7 @@ export class Ganancia {
 
   total_pp: number;
 
-  detalles: ganancia_details[];
+  detalles: Ganancia_details[];
 
   constructor(
     id: number,
@@ -33,7 +34,7 @@ export class Ganancia {
     ganacia: number,
     total_costo: number,
     total_pp: number,
-    detalles: ganancia_details[],
+    detalles: Ganancia_details[],
   ) {
     this.id = id;
     this.articulo = articulo;
@@ -51,6 +52,7 @@ export class Ganancia {
 export const useGetGanancias = () =>{
   const { llamado: getAllGanancias } = useApi(`${source_link}/getAllGanancias`);
   const {token} = useToken();
+  const {getOnePresentacion } = useGetPresentaciones();
 
   const getGanancias = async (): Promise<Ganancia[]> => {
     const body = { token };
@@ -61,67 +63,72 @@ export const useGetGanancias = () =>{
               response.ganancias.map(async (ganancia: {
                 id: number;
                 nombre: string;
-                forma_farmaceutica: string;
-                descripcion_uso: string;
-                imagen: string;
-                costo: string;
-                pp: string;
-                presentacion: string;
-                principio_activo: string;
-                existencias: number;
-                controlado: boolean;
-                proveedor: number;
                 ganancia: string;
-                tipo: string;
-                proveedor_id_product: {
+                existencias: number;
+                costo: string;
+                
+                productos_presentacion_producto: {
                   id: number;
-                  tipo: string;
-                  proveedor_alternativo: number;
-                  estadisponible: boolean;
-                  nombre: string;
-                };
-                dosificacion: string | null;
-                accion_farmacologica: string | null;
+                  pp: string;
+                  porcentaje_ganancia: string;
+                  cantidad_presentacion: number;
+                  presentacion_id: number;
+                }[];
+                
               }) => {
-                const supplier = new Supplier(
-                  product.proveedor_id_product.id,
-                  product.proveedor_id_product.nombre,
-                  '',
-                  product.proveedor_id_product.tipo,
-                  '',
-                  product.proveedor_id_product.proveedor_alternativo,
-                  product.proveedor_id_product.estadisponible,
-                  '',
-                  '',
-                  [],
-                  ''
-                );
-                const productos_presentaciones = await getPresentacionesProducto( product.id);
-                const body2 = { image_product: product.imagen || '' };
-                const response2 = product.imagen ? await imagen_get(body2, "POST") : { image: '' };
-      
-                const product_details = await getDetails_ById(product.id);
-      
-                return new Product(
-                  product.id,
-                  product.nombre,
-                  product.forma_farmaceutica,
-                  product.descripcion_uso,
-                  response2.image,
-                  Number(product.costo),
-                  Number(product.pp),
-                  product.presentacion,
-                  product.principio_activo,
-                  product.existencias,
-                  product.controlado,
-                  supplier,
-                  Number(product.ganancia),
-                  product.tipo,
-                  product_details,
-                  product.imagen,
-                  productos_presentaciones,
-                  product.dosificacion,
-                  product.accion_farmacologica
+                const detalles = ganancia.productos_presentacion_producto &&
+                Array.isArray(ganancia.productos_presentacion_producto) &&
+                ganancia.productos_presentacion_producto.length > 0
+                  ? await Promise.all(
+                      ganancia.productos_presentacion_producto.map(async (detalle) => {
+                        const presentacion = await getOnePresentacion(detalle.presentacion_id);
+                        return new Ganancia_details(
+                          detalle.id,
+                          presentacion?.nombre || '',
+                          detalle.cantidad_presentacion !== 0
+                          ? Math.floor(ganancia.existencias / detalle.cantidad_presentacion)
+                          : 0,
+                          Number(detalle.porcentaje_ganancia)*100,
+                          detalle.cantidad_presentacion,
+                          Number(detalle.pp) || 0
+                        );
+                      })
+                    )
+                  : [];
+              
+                  const detalleConMenorPorcentaje = detalles.length > 0
+                  ? detalles.reduce((minDetalle, currentDetalle) =>
+                      currentDetalle.ganancia < minDetalle.ganancia
+                        ? currentDetalle
+                        : minDetalle
+                    )
+                  : null;
+                
+                  const total_costo = detalleConMenorPorcentaje 
+                  ? (detalleConMenorPorcentaje.cantidad_presentacion || 0) *
+                    Number(ganancia.costo) *
+                    (detalleConMenorPorcentaje.existencia || 0)
+                  : 0;
+
+                
+                  const total_pp = detalleConMenorPorcentaje 
+                    ? (detalleConMenorPorcentaje.pp || 0) * (detalleConMenorPorcentaje.existencia || 0)
+                    : 0;
+
+
+                return new Ganancia(
+                  ganancia.id,
+                  ganancia.nombre,
+                  detalleConMenorPorcentaje?.existencia || 0,
+                  detalleConMenorPorcentaje 
+                  ? (detalleConMenorPorcentaje.cantidad_presentacion || 0) *
+                    Number(ganancia.costo): 0,
+                  detalleConMenorPorcentaje?.pp || 0,
+                  Number(ganancia.ganancia )* 100,
+                  total_costo,
+                  total_pp,
+                  detalles
+                  
                 );
               })
             );
@@ -131,5 +138,7 @@ export const useGetGanancias = () =>{
     return [];
 
   }
+
+  return {getGanancias}
 
 }
