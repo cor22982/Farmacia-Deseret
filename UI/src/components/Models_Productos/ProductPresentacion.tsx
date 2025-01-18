@@ -15,24 +15,12 @@ import { UploadImage } from '../UploadImage/UploadImage';
 
 
 
-interface ModalPresentacionProductProps {
-  open: boolean;
-  handleClose: () => void;
+interface PresentacionProductProps {
   handleClick: () => void;
   setCall: (call:number) => void;
   id: number;
 }
-const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width:900,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
-  p: 2,
-};
+
 
 
 const schema = object({
@@ -40,14 +28,15 @@ const schema = object({
   cantidad_presentacion: number().required('La cantidad es requerida'),  
 })
 
-export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresentacionProductProps>(
-  ({ open, handleClose, handleClick, id, setCall }, ref) => {
+export const PresentacionProduct = forwardRef<HTMLDivElement, PresentacionProductProps>(
+  ({ handleClick, id, setCall }, ref) => {
 
     
     const [presentacion_id, setPresentacionId] = useState(100000); 
     const [presentaciones, setPresentaciones] = useState<Presentacion[]>([]);
     const [presentacionesproducto, setPresentacionesProducto] = useState<PresentacionProducto[]>([]);
     const {token} = useToken()
+    const { getBasicInfo} = useGetProducts();
     const {getPresentaciones} = useGetPresentaciones()
     const {getPresentacionesProducto} =  useGetPresentacionesProducto()
     const [file, setFile] = useState<File | null>(null);
@@ -58,6 +47,7 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
     const [edit_Mode, setEdit_Mode] = useState(false)
     const [id_presentacion_edit, setPresentacionEdit] = useState(0)
     const [preview_image, setPreviewImage] = useState('')
+    const [producto_nombre, setProductoNombre] = useState<string | null>('');
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       const { name, value } = e.target;
@@ -71,13 +61,15 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
           const fetchedPresentacionesProductos= await getPresentacionesProducto(id);
           setPresentaciones(fetchedPresentaciones)
           setPresentacionesProducto(fetchedPresentacionesProductos)
+          const nombre = await getBasicInfo(id)     
+          setProductoNombre(nombre?.nombre.toUpperCase() || '')
         } catch (error) {
           console.error("Error fetching places:", error);
         }
       };
   
       fetchPlaces();
-    }, [ setPresentaciones,  getPresentaciones, getPresentacionesProducto, id]); 
+    }, [ setPresentaciones,  getPresentaciones, getPresentacionesProducto, id, getBasicInfo]); 
 
     
     const onEditMode = (id_detail:number) =>{
@@ -158,19 +150,12 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
     }
 
     return (
-    <Modal 
-      open={open} 
-      onClose={handleClose}
-      aria-labelledby="modal-modal-title"
-      aria-describedby="modal-modal-description">
-      <Box sx={style} gap="0.1rem">
-      <IconButton
-          onClick={handleClick}>
-           <Icon icon="material-symbols:arrow-back" width="24" height="24" />
-        </IconButton>
+    
+      <Box >
+    
           <Box display="flex" alignItems= 'center' justifyContent="center">
-            <Typography id="modal-modal-title" variant="h3" component="h2">
-            AÑADIR PRESENTACIONES
+            <Typography id="modal-modal-title" variant="h4" component="h2">
+            AÑADIR PRESENTACIONES A {producto_nombre?.toUpperCase()}
             </Typography>
           </Box>
           <br/>
@@ -221,9 +206,9 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
                               </Button>
                             </TableCell>
                             <TableCell>{p.presentacion?.nombre} X {p.cantidad_presentacion}</TableCell>
-                            <TableCell>{p.pp}</TableCell>
+                            <TableCell>{p.pp?.toFixed(2) ?? '0.00'}</TableCell>
                             
-                            <TableCell>{parseFloat(((p.porcentaje_ganancia ?? 0) * 100).toFixed(2))}%</TableCell>
+                            <TableCell>{parseFloat(((p.porcentaje_ganancia ?? 0) * 100).toFixed(2)).toFixed(2)}%</TableCell>
                             <TableCell>
                             <Box
                                 component="img"
@@ -389,7 +374,7 @@ export const ModalPresentacionProduct = forwardRef<HTMLDivElement, ModalPresenta
           <br/>
           
         </Box>
-    </Modal>
+ 
     )
   }
 );

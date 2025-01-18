@@ -6,7 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { Accordion, AccordionDetails, AccordionSummary, Button, Chip, Divider, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
+import { Accordion, AccordionDetails, AccordionSummary, Button, Chip, Divider, List, ListItem, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
 import useToken from 'src/hooks/useToken';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Product} from 'src/_mock/product';
@@ -88,27 +88,30 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
               {product.nombre}
             </Typography>
             <Box display="flex" flexDirection="row" gap="0.5rem">
-              <Chip label={`${product.forma_farmaceutica}`} color="primary" />
-              <Chip label={`Existencias: ${product.existencias}`} color="success"/>
+              <Chip 
+                label={`${product.forma_farmaceutica}`} 
+                sx={{ fontSize: '1.25rem' }} 
+                color="primary" />
+              <Chip 
+                label={`Existencias: ${product.existencias}`} 
+                sx={{ fontSize: '1.25rem' }}  
+                color="success"/>
               
               <Chip 
                 label={product.accion_farmacologica ? product.accion_farmacologica : "No se definio que es"} 
+                sx={{ fontSize: '1.25rem' }} 
                 color="error" 
               />
-      
-              <Chip
-                label={`Ubicaciones: ${product.listdetails
-                  .map((p) => `${p.ubicacion.ubicacion} (${p.ubicacion.lugar_farmacia})`)
-                  .join(', ')}`}
-                color="info"
-                sx={{
-                  whiteSpace: 'normal',
-                  height: 'auto',
-                  wordBreak: 'break-word',
-                  maxWidth: '300px',
-                  overflowY: 'auto',
-                }}
-              />
+      <br/>
+      <List>
+        {product.listdetails.map((p, index) => (
+          <ListItem key={index} sx={{ padding: 0 }}>
+            {`${p.ubicacion.ubicacion} (${p.ubicacion.lugar_farmacia})`}
+          </ListItem>
+        ))}
+      </List>
+
+
             </Box>
           </Box>
           <br/>
@@ -272,16 +275,9 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
              variant="contained"
              onClick={() => {setid(product.id)}}
             >
-            Cantidades
+            Presentaciones e Inventario
           </Button>
-          <Button 
-            sx={{ bgcolor: 'black', '&:hover': { bgcolor: 'darkred' } }} 
-            variant="contained"
-            startIcon={<Iconify icon="cuida:medicine-outline" />}
-            onClick={() => {openpresentacion(product.id)}}
-            >
-            Presentaciones
-          </Button>
+          
             </Box>
         </CardContent>
       </Box>

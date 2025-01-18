@@ -13,6 +13,8 @@ import { useGetProducts, Product } from 'src/_mock/product';
 import { ModalProductDetail } from 'src/components/ModalForms/ModalProductDetail';
 import { UpdateProduct } from 'src/components/ModalUpdateForms/UpdateProduct';
 import { ModalPresentacionProduct } from 'src/components/ModalForms/ModalPresentacionProduct';
+import { ModalStepper } from 'src/components/Stepper/Add_Cantidades_Presentaciones';
+import { ModalStepperProducto } from 'src/components/Stepper/Stepper_Producto';
 import { ProductsFilterList } from './components/products_filter_list';
 import { ProductSearchItem } from './components/products_search';
 
@@ -97,13 +99,13 @@ export function AddProductsView() {
   };
   return (
     <DashboardContent>
-      <ModalProduct
+      {/* <ModalProduct
         setCall={setCall1}
         setValueProductId={setValueProduct}
         open={openm}
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
-      />
+      /> */}
       <UpdateProduct
         setCall={setCall1}
         setValueProductId={setValueProduct}
@@ -112,20 +114,36 @@ export function AddProductsView() {
         close={setOpenUpdate}
         handleClick={handleClicked}
         />
-      <ModalProductDetail
+      {/* <ModalProductDetail
         setCall={setCall1}
         id={valueProduct}
         open={openm2}
         handleClose={() => setOpenM2(false)}
         handleClick={handleClicked2}
+      /> */}
+
+      <ModalStepperProducto
+         id={valueProduct}
+         setValueProductId={setValueProduct}
+         open={openm}
+         setCall={setCall1}
+         handleClose={() => setOpenM(false)}
       />
-      <ModalPresentacionProduct
+
+      <ModalStepper
+        setCall={setCall1}
+        id_product={valueProduct}
+        open={openm2}
+        handleClick={handleClicked2}
+        handleClose={() => setOpenM2(false)}
+        />
+      {/* <ModalPresentacionProduct
         setCall={setCall1}
         id={valueProduct}
         open={openPresentaciones}
         handleClose={() => setOpenPresentaciones(false)}
         handleClick={handleClicked2}
-      />
+      /> */}
       <Box display="flex" alignItems="center" mb={5}>
         
         <Typography variant="h4" flexGrow={1}>

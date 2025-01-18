@@ -7,6 +7,7 @@ import { Place } from "./places";
 import { PresentacionProducto, useGetPresentacionesProducto } from "./presentacion_producto";
 
 
+
 export class Product {
   id: number;
 
@@ -97,6 +98,7 @@ export const useGetProducts = () =>{
   const { llamado } = useApi(`${source_link}/getProducts`);
   const { llamado:imagen_get } = useApi(`${source_link}/getImage`);
   const { llamado:getproductid } = useApi(`${source_link}/getproductid`);
+  const { llamado:getbasicInfoProduct} = useApi(`${source_link}/getbasicInfoProduct`);  
   const {llamadowithoutbody} = useApi(`${source_link}/products_id`);
   const {llamadowithoutbody: get_productos} = useApi(`${source_link}/infoproductos`);
   const {llamadowithoutbody: get_productos_info} = useApi(`${source_link}/infoproductos_allinfo`);
@@ -263,6 +265,37 @@ export const useGetProducts = () =>{
     return []
 
   } 
+
+  const getBasicInfo = async (id: number): Promise<Product | null> => {
+    const body = { id };
+    const response = await getbasicInfoProduct(body, "POST");
+    if (response.success) {
+      const producto = new Product(
+        response.product_info.id,
+        response.product_info.nombre,
+        '',
+        '',
+        '',
+        0,
+        0,
+        '',
+        '',
+        0,
+        false,
+        null,
+        0,
+        '',
+        [],
+        '',
+        [],
+        '',
+        '',
+      )
+      return  producto;
+    }
+    return null
+
+  }
   const getOneProductById = async (id: number): Promise<Product | null> => {
 
     const body = { id_product: id };
@@ -471,6 +504,11 @@ export const useGetProducts = () =>{
 
     return [];
   };
-  return { getProductInfo, getGanancia ,  getProducts_OnlyId, getOneProductById, getProductInfo_whitout, getProductInfo_whitout_info};
+  return { getProductInfo, 
+            getGanancia ,  
+            getProducts_OnlyId, 
+            getOneProductById, 
+            getProductInfo_whitout, getProductInfo_whitout_info,
+            getBasicInfo};
 
 }

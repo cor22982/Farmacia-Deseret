@@ -11,24 +11,13 @@ import { Icon } from "@iconify/react";
 import { object, string, number } from 'yup';
 import { UploadImage } from '../UploadImage/UploadImage';
 
-interface ModalProductDetailProps {
-  open: boolean;
-  handleClose: () => void;
+interface ProductDetailProps {
+ 
   handleClick: () => void;
   setCall: (call:number) => void;
   id: number;
 }
-const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width:900,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
-  p: 2,
-};
+
 
 const schema_pp = object({
   pp: number().required('El precio publico es requerido')
@@ -42,17 +31,19 @@ const schema = object({
   
 })
 
-export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailProps>(
-  ({ open, handleClose, handleClick, id, setCall }, ref) => {
+export const ProductDetailBox = forwardRef<HTMLDivElement, ProductDetailProps>(
+  ({ handleClick, id, setCall }, ref) => {
 
 
     const [value_ubicacion, setValueUbicacion] = useState(100000); 
     const [productdetails, setProductDetails] = useState<ProductDetail[]>([]);
     const {getDetails_ById} = useGetProduct_Details();
-    
+    const { getBasicInfo} = useGetProducts();
     const [ubicaciones, setUbicaciones] = useState<Place[]>([]);
     const {getGanancia} = useGetProducts();
     const [ganancia, setGanancia]  = useState<Product | null>(null);
+    const [producto_nombre, setProductoNombre] = useState<string | null>('');
+
     const {token} = useToken()
 
     const [id_Detail, setIdDetail] = useState(0)
@@ -92,14 +83,16 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
           const ganancia_give = await getGanancia(id);
           setGanancia(ganancia_give)
           setProductDetails(details)
-          setUbicaciones(fetchedPlaces)     
+          setUbicaciones(fetchedPlaces)
+          const nombre = await getBasicInfo(id)     
+          setProductoNombre(nombre?.nombre.toUpperCase() || '')
         } catch (error) {
           console.error("Error fetching places:", error);
         }
       };
   
       fetchPlaces();
-    }, [getPlaces, setUbicaciones, setProductDetails, getDetails_ById, id, getGanancia, setGanancia ]); 
+    }, [getPlaces, setUbicaciones, setProductDetails, getDetails_ById, id, getGanancia, setGanancia, getBasicInfo ]); 
     
     const onDeleteProducto_Detail = async (id_detail: number) => {
       const body = { id: id_detail };
@@ -178,19 +171,12 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
 
 
     return (
-    <Modal 
-      open={open} 
-      onClose={handleClose}
-      aria-labelledby="modal-modal-title"
-      aria-describedby="modal-modal-description">
-      <Box sx={style} gap="0.1rem">
-      <IconButton
-          onClick={handleClick}>
-           <Icon icon="material-symbols:arrow-back" width="24" height="24" />
-        </IconButton>
+
+      <Box  gap="0.1rem">
+  
           <Box display="flex" alignItems= 'center' justifyContent="center">
-            <Typography id="modal-modal-title" variant="h3" component="h2">
-            AÑADIR PRODUCTOS
+            <Typography id="modal-modal-title" variant="h4" component="h2">
+              AÑADIR INVENTARIO A {producto_nombre}
             </Typography>
           </Box>
           <br/>
@@ -241,7 +227,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
                             </Button>
                             </TableCell>
                             <TableCell>{p.getDetails_Products()}</TableCell>
-                            <TableCell>Q {p.costo}</TableCell>
+                            <TableCell>Q {p.costo.toFixed(2)}</TableCell>
                             <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
                             <TableCell>{p.get_Fechasformated()}</TableCell>
                             <TableCell>
@@ -436,7 +422,7 @@ export const ModalProductDetail = forwardRef<HTMLDivElement, ModalProductDetailP
           <br/>
           
         </Box>
-    </Modal>
+
     )
   }
 );
