@@ -111,7 +111,7 @@ export function ProductsView() {
       );
       setFilterProductos(filtered);
     } else {
-      setFilterProductos(product_geted);
+      setFilterProductos(product_geted);   
     }
   };
   
