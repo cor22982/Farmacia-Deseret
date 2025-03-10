@@ -51,7 +51,7 @@ const modifyEnvVariable = async (key, value) => {
 export async function actualizar() {
   try {
     const filePath = 'src\\database\\actualizaciones\\archivo_actualizaciones.sql';
-    const versionNueva = '3';
+    const versionNueva = '4';
 
     // Leer la versión actual directamente desde el archivo .env
     const versionActual = await getEnvVariable('version');
