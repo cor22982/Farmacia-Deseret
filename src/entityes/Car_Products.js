@@ -23,7 +23,11 @@ const Car_Products = sequelize.define('carrito_productos', {
   presentacion:{
     type: DataTypes.INTEGER,
     allowNull: false,
-  }
+  },
+  id_producto_cantidad:{
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
 }, {
   tableName: 'carrito_productos',
   timestamps: false,

@@ -15,7 +15,9 @@ import { getUsers, verifyUserCredentials,
   obtenerPresentaciones, getPresentacionesbyProduct_Id,
   insertarPresentacionProducto,
   getPresentacionProducto_biId, 
-  getPresentacion_byId, getProduct_ById, getGanancias, getProduct_basicInfo} from './database/database.js';
+  getPresentacion_byId, getProduct_ById, 
+  getGanancias, getProduct_basicInfo,
+  insertVenta} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
@@ -179,7 +181,7 @@ app.post('/getpresentacionbyID', async (req, res) => {
 app.post('/agregar_carrito', async (req, res) => {
   try {
     let respuesta = null;
-    if (req.body.opcion === 'uno'){
+    if (req.body.opcion === 'uno'){ 
       const {carrito , producto, presentacion} = req.body;
       
       respuesta = await AgregarProductosCarrito(carrito , producto , 1, presentacion);
@@ -190,8 +192,8 @@ app.post('/agregar_carrito', async (req, res) => {
         res.status(200).json({ success: false, message: 'No se inserto de manera correcta' });
       }
     }else if (req.body.opcion === 'varios'){
-      const {carrito , producto , cantidad, presentacion} = req.body
-      respuesta = await AgregarProductosCarrito(carrito , producto , cantidad, presentacion);
+      const {carrito , producto , cantidad, presentacion, id_producto_cantidad} = req.body
+      respuesta = await AgregarProductosCarrito(carrito , producto , cantidad, presentacion, id_producto_cantidad);
       if (respuesta === true) {
 
         res.status(200).json({ success: true, message: 'Se inserto de manera correcta' });
@@ -236,6 +238,39 @@ app.post('/getPagosCarrito', async (req, res) => {
     console.error('Error al obtener pagos:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });
   }
+});
+
+
+app.post('/insertVenta', async(req, res) => {
+  try {
+    const { 
+      jornada, 
+      cantidad, 
+      fecha, 
+      product, 
+      isOferta, 
+      id_carrito,  
+      id_producto_cantidad, 
+      id_producto_presentacion } = req.body;
+    const response = await insertVenta(jornada, 
+                                        cantidad, 
+                                        fecha, 
+                                        product, 
+                                        isOferta, 
+                                        id_carrito,  
+                                        id_producto_cantidad, 
+                                        id_producto_presentacion);
+    if (response) {
+      res.status(200).json({ success: true, message: 'Se inserto de manera exitosa'});
+    } else {
+      res.status(401).json({ success: false, message: 'No se inserto de manera exitosa'});
+    }
+    
+  } catch (error) {
+    console.error('Error al insertar la venta:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+  
 });
 
 

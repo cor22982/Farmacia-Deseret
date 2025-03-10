@@ -9,9 +9,38 @@ import {
   Car_Products, 
   Pago, 
   Presentaciones,
-  PresentacionProducto} from "../entityes/relationships.js";
+  PresentacionProducto, Venta} from "../entityes/relationships.js";
 import { response } from "express";
 import { Sequelize } from 'sequelize';
+
+
+
+export async function insertVenta(jornada, 
+                                  cantidad, 
+                                  fecha, 
+                                  product, 
+                                  isOferta, 
+                                  id_carrito,  
+                                  id_producto_cantidad, 
+                                  id_producto_presentacion) {
+
+  try {
+    const resultado = await Venta.create({
+      jornada: jornada,
+      cantidad: cantidad,
+      fecha: fecha,
+      product: product,
+      isoferta: isOferta,
+      id_carrito: id_carrito,
+      id_producto_cantidad: id_producto_cantidad,
+      id_producto_presentacion: id_producto_presentacion
+    });
+    return resultado.id;
+  }catch (error) {
+    console.error('Error al insertar la venta:', error);
+    return null;
+  }
+}
 
 export async function insertarPago(pago, tipo, id_carrito) {
   try {
@@ -99,14 +128,14 @@ export async function insertarCarrito() {
 }
 
 
-export async function AgregarProductosCarrito(carrito , producto , cantidad, presentacion) {
+export async function AgregarProductosCarrito(carrito , producto , cantidad, presentacion, id_producto_cantidad) {
   try {
     const resultado = await Car_Products.create({
       carrito: carrito,
       producto: producto,
       cantidad: cantidad,
       presentacion: presentacion,
-
+      id_producto_cantidad: id_producto_cantidad,
     });
     console.log('Registro insertado:', resultado);
     return true;
@@ -210,7 +239,8 @@ export async function getCarritoProducts(id_carrito) {
         'presentacion',
         [Sequelize.fn('SUM', Sequelize.col('cantidad')), 'cantidad_total'],
         'producto_detalles_carproducts.pp',
-        'producto_detalles_carproducts.nombre'
+        'producto_detalles_carproducts.nombre',
+        'id_producto_cantidad'
       ],
       include: [
         {
@@ -226,7 +256,8 @@ export async function getCarritoProducts(id_carrito) {
         'producto_detalles_carproducts.id',
         'producto_detalles_carproducts.pp',
         'producto_detalles_carproducts.nombre',
-        'carrito_productos.presentacion'
+        'carrito_productos.presentacion',
+        'carrito_productos.id_producto_cantidad'
       ]
     });
 
