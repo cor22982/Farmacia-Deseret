@@ -17,6 +17,8 @@ export class ProductoCarrito {
 
   presentacion: PresentacionProducto | null;
 
+  id_producto_cantidad: number;
+
   constructor(
     carrito_id: number,
     producto_id: number,
@@ -24,13 +26,15 @@ export class ProductoCarrito {
     producto_nombre: string,
     precio_unitario: number,
     presentacion: PresentacionProducto | null,
+    id_producto_cantidad : number,
   ) {
     this.carrito_id = carrito_id;
     this.producto_id = producto_id;
     this.cantidad = cantidad;
     this.producto_nombre = producto_nombre;
     this.precio_unitario = precio_unitario;
-    this.presentacion = presentacion
+    this.presentacion = presentacion;
+    this.id_producto_cantidad = id_producto_cantidad
   }
 
   getPrecioTotal(): number {
@@ -59,6 +63,7 @@ export const useGetProductosCarrito = () => {
             pp: string;
             nombre: string;
           };
+          id_producto_cantidad : number;
         }) => {
           
           const presentacion_producto = await getPresentacionProductobyID(product.presentacion)
@@ -69,7 +74,8 @@ export const useGetProductosCarrito = () => {
             Number(product.cantidad_total), 
             product.producto_detalles_carproducts.nombre, 
             Number(product.producto_detalles_carproducts.pp),
-            presentacion_producto
+            presentacion_producto,
+            product.id_producto_cantidad,
           )
         }
           
