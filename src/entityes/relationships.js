@@ -21,6 +21,12 @@ Schedule.belongsTo(Supplier, { foreignKey: 'id_proveedor', as: 'proveedor' });
 Venta.belongsTo(Car, {foreignKey: 'id_carrito', as: 'venta_id_carrito' });
 
 Venta.belongsTo(Product, {foreignKey: 'product', as: 'venta_product'});
+
+Venta.belongsTo(ProductDetail, {foreignKey: 'id_producto_cantidad', as: 'venta_producto_cantidad'});
+
+
+Venta.belongsTo(PresentacionProducto, {foreignKey: 'id_producto_presentacion', as: 'venta_presentacion'});
+
 // ======================= 
 
 

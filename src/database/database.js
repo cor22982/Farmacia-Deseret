@@ -12,6 +12,7 @@ import {
   PresentacionProducto, Venta} from "../entityes/relationships.js";
 import { response } from "express";
 import { Sequelize } from 'sequelize';
+import { Op } from "sequelize";
 
 
 
@@ -132,6 +133,197 @@ export async function obtenerPresentaciones() {
   }
 }
 
+
+export async function getSalesThisWeek(startDate,endDate ) {
+  try {
+    
+
+    const sales = await Venta.findAll({
+      where: {
+        fecha: {
+          [Op.between]: [startDate, endDate],
+        },
+      },
+      include: [
+        {
+          model: Product,
+          as: "venta_product",
+          attributes: ["id", "nombre", "existencias"],
+        },
+        {
+          model: ProductDetail,
+          as: "venta_producto_cantidad",
+          attributes: ["id", "fecha_compra", "fecha_vencimiento"],
+        },
+        {
+          model: PresentacionProducto,
+          as: "venta_presentacion",
+          attributes: ["id", "pp", "cantidad_presentacion"],
+        },
+      ],
+      attributes: [
+        "jornada",
+        "product",
+        "cantidad",
+        "id_producto_cantidad",
+        "id_producto_presentacion",
+      ],
+      raw: true,
+    });
+
+    // Agrupar por producto y, dentro de cada producto, agrupar por presentación (pp)
+    const grouped = sales.reduce((acc, sale) => {
+      const productID = sale["venta_product.id"];
+      const productName = sale["venta_product.nombre"];
+      const existencias = sale["venta_product.existencias"];
+      const presentacionName = sale["venta_presentacion.pp"];
+      const presentacionCantidad = sale["venta_presentacion.cantidad_presentacion"];
+
+      // Si el producto no está en el acumulador, inicializarlo
+      if (!acc[productName]) {
+        acc[productName] = {
+          productID: productID,
+          producto: productName,
+          existencias,
+          presentaciones: {},
+        };
+      }
+      const formatMonthYear = (dateString) => {
+        const date = new Date(dateString);
+        const month = date.toLocaleString("es-ES", { month: "long" });
+        const year = date.getFullYear().toString().slice(-2);
+        return `${month} - ${year}`;
+      };
+      
+      
+      // Si la presentación no existe para ese producto, inicializarla
+      if (!acc[productName].presentaciones[presentacionName]) {
+        acc[productName].presentaciones[presentacionName] = {
+          presentacion: presentacionName,
+          presentacionCantidad: presentacionCantidad,
+          fecha_compra: formatMonthYear(sale["venta_producto_cantidad.fecha_compra"]),
+          fecha_vencimiento: formatMonthYear(sale["venta_producto_cantidad.fecha_vencimiento"]),          
+          jornadas: [],
+        };
+      }
+
+      // Dentro de la presentación, agrupar por jornada
+      const jornadaEntry = acc[productName].presentaciones[presentacionName].jornadas.find(
+        (j) => j.jornada === sale.jornada
+      );
+      if (jornadaEntry) {
+        jornadaEntry.totalCantidad += sale.cantidad;
+      } else {
+        acc[productName].presentaciones[presentacionName].jornadas.push({
+          jornada: sale.jornada,
+          totalCantidad: sale.cantidad,
+        });
+      }
+
+      return acc;
+    }, {});
+
+    // Convertir el objeto de presentaciones en array para cada producto
+    const result = Object.values(grouped).map((product) => ({
+      ...product,
+      presentaciones: Object.values(product.presentaciones),
+    }));
+
+    return result;
+  } catch (error) {
+    console.error("Error fetching sales data: ", error);
+  }
+}
+
+export async function getTotalSalesByProductId(startDate, endDate) {
+  try {
+    const sales = await Venta.findAll({
+      where: {
+        fecha: {
+          [Op.between]: [startDate, endDate],
+        },
+      },
+      include: [
+        {
+          model: Product,
+          as: "venta_product",
+          attributes: ["id", "nombre", "existencias"],
+        },
+      ],
+      attributes: ["cantidad"],
+      raw: true,
+    });
+
+    // Agrupar las ventas por id del producto y sumar las cantidades
+    const grouped = sales.reduce((acc, sale) => {
+      const productId = sale["venta_product.id"];
+      const productName = sale["venta_product.nombre"];
+      const existencias = sale["venta_product.existencias"];
+
+      if (!acc[productId]) {
+        acc[productId] = {
+          productId,
+          productName,
+          existencias,
+          totalCantidad: 0,
+        };
+      }
+      acc[productId].totalCantidad += sale.cantidad;
+      return acc;
+    }, {});
+
+    return Object.values(grouped);
+  } catch (error) {
+    console.error("Error fetching total sales by product id: ", error);
+  }
+}
+
+
+export async function getTotalSalesByProductIdByMonth(month, year) {
+  try {
+    const startDate = new Date(year, month - 1, 1).toISOString().split("T")[0];
+    const endDate = new Date(year, month, 0).toISOString().split("T")[0];
+
+    const sales = await Venta.findAll({
+      where: {
+        fecha: {
+          [Op.between]: [startDate, endDate],
+        },
+      },
+      include: [
+        {
+          model: Product,
+          as: "venta_product",
+          attributes: ["id", "nombre", "existencias"],
+        },
+      ],
+      attributes: ["cantidad"],
+      raw: true,
+    });
+
+    // Agrupar las ventas por id del producto y sumar las cantidades
+    const grouped = sales.reduce((acc, sale) => {
+      const productId = sale["venta_product.id"];
+      const productName = sale["venta_product.nombre"];
+      const existencias = sale["venta_product.existencias"];
+
+      if (!acc[productId]) {
+        acc[productId] = {
+          productId,
+          productName,
+          existencias,
+          totalCantidad: 0,
+        };
+      }
+      acc[productId].totalCantidad += sale.cantidad;
+      return acc;
+    }, {});
+
+    return Object.values(grouped);
+  } catch (error) {
+    console.error("Error fetching total sales by product id for month: ", error);
+  }
+}
 
 
 export async function insertarCarrito() {

@@ -17,7 +17,7 @@ import { getUsers, verifyUserCredentials,
   getPresentacionProducto_biId, 
   getPresentacion_byId, getProduct_ById, 
   getGanancias, getProduct_basicInfo,
-  insertVenta} from './database/database.js';
+  insertVenta, getSalesThisWeek, getTotalSalesByProductId, getTotalSalesByProductIdByMonth} from './database/database.js';
 
 import { deleteUbicacionById , deleteProveedoresById, 
   deleteProductsById, actualizarUbicaciones, 
@@ -89,6 +89,48 @@ app.get('/infoproductos', async (req, res) => {
   try {
     const allproducto = await getProduct_usuario()
     res.status(200).json({ success: true, productos: allproducto});
+  }catch (error) {
+    console.error('Error al obtener el producto:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+
+
+app.post('/sales_this_week', async (req, res) => {
+  try {
+    const startDate = req.body.startDate;
+    const endDate = req.body.endDate;
+    const all_sales = await getSalesThisWeek(startDate, endDate)
+    res.status(200).json({ success: true, sales: all_sales});
+  }catch (error) {
+    console.error('Error al obtener el producto:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+app.post('/sales_by_especific_week', async (req, res) => {
+  try {
+    const startDate = req.body.startDate;
+    const endDate = req.body.endDate;
+    const all_sales = await getTotalSalesByProductId(startDate, endDate)
+    res.status(200).json({ success: true, sales: all_sales});
+  }catch (error) {
+    console.error('Error al obtener el producto:', error);
+    res.status(500).json({ success: false, message: 'Error en el servidor' });
+  }
+});
+
+
+
+app.post('/sales_by_month', async (req, res) => {
+  try {
+    const mes = req.body.month;
+    const anio = req.body.year;
+    const all_sales = await getTotalSalesByProductIdByMonth(mes, anio)
+    res.status(200).json({ success: true, sales: all_sales});
   }catch (error) {
     console.error('Error al obtener el producto:', error);
     res.status(500).json({ success: false, message: 'Error en el servidor' });
