@@ -35,6 +35,35 @@ export async function insertVenta(jornada,
       id_producto_cantidad: id_producto_cantidad,
       id_producto_presentacion: id_producto_presentacion
     });
+
+    const productos_cantidades = await ProductDetail.findOne({
+
+      where:{id: id_producto_cantidad}
+    })
+
+    const mi_producto = await Product.findOne({
+
+      where:{id: product}
+    })
+
+
+    const cantidad_restada_cantidades = parseInt(productos_cantidades.cantidad, 10) - parseInt(cantidad, 10);
+    const cantidad_restada_productos = parseInt(mi_producto.existencias, 10) - parseInt(cantidad, 10);
+
+    const [updatedRows] = await Product.update({
+      existencias: cantidad_restada_productos
+    }, {
+      where:{id: product}
+    });
+
+
+    const [updatedRows_Detail]  = await ProductDetail.update({
+      cantidad: cantidad_restada_cantidades
+    }, {
+      where:{id: id_producto_cantidad}
+    })
+
+
     return resultado.id;
   }catch (error) {
     console.error('Error al insertar la venta:', error);

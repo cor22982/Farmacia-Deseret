@@ -32,6 +32,14 @@ const Venta = sequelize.define('venta', {
     type: DataTypes.INTEGER,
     allowNull: true,
   },
+  id_producto_cantidad:{
+    type: DataTypes.INTEGER,
+    allowNull: true,
+  },
+  id_producto_presentacion:{
+    type: DataTypes.INTEGER,
+    allowNull: true,
+  },
 
   
 

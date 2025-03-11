@@ -182,9 +182,9 @@ app.post('/agregar_carrito', async (req, res) => {
   try {
     let respuesta = null;
     if (req.body.opcion === 'uno'){ 
-      const {carrito , producto, presentacion} = req.body;
+      const {carrito , producto, presentacion, id_producto_cantidad} = req.body;
       
-      respuesta = await AgregarProductosCarrito(carrito , producto , 1, presentacion);
+      respuesta = await AgregarProductosCarrito(carrito , producto , 1, presentacion, id_producto_cantidad);
       if (respuesta === true) {
 
         res.status(200).json({ success: true, message: 'Se inserto de manera correcta' });
