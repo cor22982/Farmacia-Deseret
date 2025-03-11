@@ -33,6 +33,11 @@ export const navData_admin = [
   //   icon: icon('ic-analytics'),
   // },
   {
+    title: 'Ventas',
+    path: '/ventas',
+    icon: icon('ic-sales'),
+  },
+  {
     title: 'Ganancias',
     path: '/ganancias',
     icon: icon('ic-money'),
