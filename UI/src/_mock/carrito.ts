@@ -1,5 +1,6 @@
 import useApi from "src/hooks/useApi";
 import source_link from "src/repository/source_repo";
+import { ProductoCarrito } from "./productos_carrito";
 
 export class Carrito {
   id: number;
@@ -12,12 +13,15 @@ export class Carrito {
 
   cantidad_total: number | null;
 
+
+
   constructor(id: number, total: number, hora: string, fecha: string, cantidad_total: number | null) {
     this.id = id;
     this.total = total;
     this.hora = hora;
     this.fecha = fecha;
     this.cantidad_total = cantidad_total;
+
   }
 }
 

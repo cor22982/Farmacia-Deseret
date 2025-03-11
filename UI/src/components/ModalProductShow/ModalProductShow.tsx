@@ -49,12 +49,31 @@ const schema = object({
 
 export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps>(
   ({ open, handleClose,  product, presentacion }, ref) => {
+    useEffect(() => {
+      if (product?.listdetails) {
+        const details = product.listdetails.filter(
+          (detail) => detail.ubicacion.lugar_farmacia === "farmacia"
+        );
+  
+        if (details.length > 0) {
+          const closestDetail = details.reduce((prev, curr) => {
+            const prevDate = new Date(prev.fecha_vencimiento);
+            const currDate = new Date(curr.fecha_vencimiento);
+            return currDate < prevDate ? curr : prev;
+          });
+  
+          setId_producto_cantidad(closestDetail.id);
+        }
+      }
+    }, [product]);  
     const {carId, setCarId} = useCarId ();
     const {llamado} = useApi(`${source_link}/agregar_carrito`);
     const [error, setError] = useState<string|null>(null);
     const [cantidad, setCantidad] = useState<number | null>(null);
     const { getCarrito_byId} = useCarrito();
     const [micarrito, setMiCarrito] = useState<Carrito | null>(null)
+
+    const [id_producto_cantidad, setId_producto_cantidad] = useState(0);
 
     useEffect(() => {
       const fetchProducts = async () => {
@@ -80,7 +99,7 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
   
     
      const addtoCarrito = async()=>{
-        const body = {opcion: 'varios' , carrito:carId, producto: product?.id, cantidad, presentacion: presentacion?.id   }
+        const body = {opcion: 'varios' , carrito:carId, producto: product?.id, cantidad, presentacion: presentacion?.id,id_producto_cantidad  }
         const respuesta = await llamado(body, 'POST')
         console.log(respuesta)
         if (respuesta.success === true) {
@@ -185,6 +204,7 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
                   />
 
                     <Typography variant='subtitle1'> {product?.listdetails.find((detail) => detail.ubicacion.lugar_farmacia === "farmacia")?.ubicacion.ubicacion}</Typography>
+                    
                     <br/>
                     <Chip 
                     label="Fecha Vencimiento"
@@ -195,18 +215,31 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
                     }}
                   />
 
-                  <Typography variant="subtitle1">
-                    {(() => {
-                      const detaill = product?.listdetails?.find((detail) => detail.ubicacion.lugar_farmacia === "farmacia");
-                      return detaill?.fecha_vencimiento 
-                        ? new Date(detaill.fecha_vencimiento).toLocaleDateString("es-ES", {
-                            day: "2-digit",
-                            month: "2-digit",
-                            year: "numeric",
-                          })
-                        : "N/A"; // Opcional: Texto a mostrar si no se encuentra el detalle
-                    })()}
-                  </Typography>
+              <Typography variant="subtitle1">
+                {(() => {
+                  const details = product?.listdetails?.filter(
+                    (detail) => detail.ubicacion.lugar_farmacia === "farmacia"
+                  );
+
+                  if (!details || details.length === 0) return "N/A";
+
+                  const closestDetail = details.reduce((prev, curr) => {
+                    const prevDate = new Date(prev.fecha_vencimiento);
+                    const currDate = new Date(curr.fecha_vencimiento);
+                    return currDate < prevDate ? curr : prev;
+                  });
+
+                  
+
+                  return closestDetail?.fecha_vencimiento
+                    ? `${new Date(closestDetail.fecha_vencimiento).toLocaleDateString("es-ES", {
+                        day: "2-digit",
+                        month: "2-digit",
+                        year: "numeric",
+                      })} (ID: ${closestDetail.id})`
+                    : "N/A";
+                })()}
+              </Typography>
 
 
                 </Box>

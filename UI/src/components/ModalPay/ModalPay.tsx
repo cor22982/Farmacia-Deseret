@@ -20,6 +20,7 @@ interface ModalPayProps {
   handleClose: () => void;
   carrito: Carrito | null;
   setCall: (call:number) => void;
+  onSetCarrito: () => void;
 }
 const style = {
   position: 'absolute',
@@ -33,7 +34,11 @@ const style = {
   p: 2, 
 };
 export const ModalPay = forwardRef<HTMLDivElement, ModalPayProps>(
-  ({ open, handleClose, setCall,  carrito }, ref) => {
+  ({ open, handleClose, setCall,  carrito, onSetCarrito }, ref) => {
+
+    const {llamado: insertVenta} = useApi(`${source_link}/insertVenta`);
+
+
 
    
     const [pago_cantidad, setPago_cantidad] = useState<number | null>(null);
@@ -85,6 +90,67 @@ export const ModalPay = forwardRef<HTMLDivElement, ModalPayProps>(
       await deletepago(body, "DELETE")
     }
 
+
+    const insertarVenta = async () => {
+      const diasSemana = ["DOMINGO", "LUNES", "MARTES", "MIERCOLES", "JUEVES", "VIERNES", "SABADO"];
+      await Promise.all(
+        carritoproductos.map(async (index_data) => {
+          const fecha = new Date(`${carrito?.fecha}T${carrito?.hora}`);
+
+          const dia = diasSemana[fecha.getDay()]
+
+          const horas = fecha.getHours();
+         
+          const jornadaT = (horas < 12) ? 'AM' : 'PM';
+          const cantidad_t = (index_data?.presentacion?.cantidad_presentacion ?? 1) * (index_data?.cantidad ?? 1);
+
+
+          const body = {
+            jornada: (dia === "SABADO") ? dia : `${dia}-${jornadaT}`,
+            cantidad: cantidad_t,
+            fecha: carrito?.fecha,
+            product: index_data.producto_id,
+            isOferta: false,
+            id_carrito: index_data.carrito_id,
+            id_producto_presentacion: index_data.presentacion?.id,
+            id_producto_cantidad : index_data.id_producto_cantidad
+          };
+
+          const response = await  insertVenta(body, "POST")
+
+
+          if (response.success) {
+              onSetCarrito();
+              handleClose();
+           
+
+          }else{
+            Swal.fire({
+              icon: "error",
+              title: "Error",
+              text: response.message,
+            });
+          }
+
+          
+
+ 
+
+    
+          console.log(body)
+
+          
+
+
+
+
+        })
+
+
+      );
+    };
+    
+
     return (
     <Modal 
       open={open} 
@@ -100,6 +166,14 @@ export const ModalPay = forwardRef<HTMLDivElement, ModalPayProps>(
                 </Typography>
                 <Typography id="modal-modal-title" variant="h2" component="h2">
                 Q {carrito?.total}
+                </Typography>
+              </Box>
+              <Box  display="flex" flexDirection="column"   color="green" alignItems= 'center'  justifyContent="center">
+                <Typography id="modal-modal-title" variant="h4" component="h2">
+                Pagado
+                </Typography>
+                <Typography id="modal-modal-title" variant="h2" component="h2" color="green">
+                Q {pago.reduce((total, pagoItem) => total + pagoItem.pago, 0)}
                 </Typography>
               </Box>
               <Box  display="flex" flexDirection="column" alignItems= 'center'  justifyContent="center">
@@ -303,6 +377,7 @@ export const ModalPay = forwardRef<HTMLDivElement, ModalPayProps>(
             sx={{
               width:'100%'
             }}
+            onClick={insertarVenta}
             
           >PAGAR</Button>
         </Box>

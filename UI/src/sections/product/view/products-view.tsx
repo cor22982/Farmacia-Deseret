@@ -111,7 +111,7 @@ export function ProductsView() {
       );
       setFilterProductos(filtered);
     } else {
-      setFilterProductos(product_geted);
+      setFilterProductos(product_geted);   
     }
   };
   
@@ -166,6 +166,7 @@ export function ProductsView() {
       <ModalPay
         carrito={micarrito}
         setCall={setCall1}
+        onSetCarrito={onSetCarrito} 
         open={openPay}
         handleClose={() => {setOpenPay(false)}}
         />

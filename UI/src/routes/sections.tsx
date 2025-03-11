@@ -23,6 +23,7 @@ export const PlacePage = lazy(() => import('src/pages/add_place'));
 export const AddProductUserPage = lazy(() => import('src/pages/add_product_user'));
 export const AddPresentacionesPage = lazy(() => import('src/pages/add_presentaciones'));
 export const GainsPage = lazy(() => import('src/pages/gains_page'));
+export const SalesPage = lazy(() => import('src/pages/sales'));
 
 
 const renderFallback = (
@@ -55,8 +56,9 @@ export function Router() {
         <Navigate to="/sign-in" replace /> // Redirect to sign-in if token is null
       ),
       children: [
-        { element: rol === 'admin' ? <HomePage />: <ProductsPage/>, index: true },
+        { element: rol === 'admin' ? <SalesPage />: <ProductsPage/>, index: true },
         { path: 'user', element: <UserPage /> },
+        { path: 'ventas', element: <SalesPage /> },
         { path: 'ganancias', element: <GainsPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
