@@ -166,6 +166,7 @@ export function ProductsView() {
       <ModalPay
         carrito={micarrito}
         setCall={setCall1}
+        onSetCarrito={onSetCarrito} 
         open={openPay}
         handleClose={() => {setOpenPay(false)}}
         />

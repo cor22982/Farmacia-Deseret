@@ -10,7 +10,7 @@ import { fCurrency } from 'src/utils/format-number';
 import { Product } from 'src/_mock/product';
 import { Label } from 'src/components/label';
 import { ColorPreview } from 'src/components/color-utils';
-import { forwardRef } from 'react';
+import { forwardRef, useEffect, useState } from 'react';
 import { IconButton } from '@mui/material';
 import { Icon } from "@iconify/react"; 
 import Swal from "sweetalert2";
@@ -28,7 +28,7 @@ export type ProductItemProps = {
 
 export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
   ({ product,  openProduct, setProductSelected,  presentacion, setPresentacionSelected }, ref) => {
-
+  const [id_producto_cantidad, setId_producto_cantidad] = useState(0);
 
   const onproduct = () => {
     openProduct()
@@ -40,7 +40,29 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
   const {llamado} = useApi(`${source_link}/agregar_carrito`);
 
   const addtoCarrito = async()=>{
-    const body = {opcion: 'uno' , carrito:carId, producto: product.id, presentacion: presentacion.id }
+    let id_cantidad = 0;
+    if (product?.listdetails) {
+      const details = product.listdetails.filter(
+        (detail) => detail.ubicacion.lugar_farmacia === "farmacia"
+      );
+
+      if (details.length > 0) {
+        const closestDetail = details.reduce((prev, curr) => {
+          const prevDate = new Date(prev.fecha_vencimiento);
+          const currDate = new Date(curr.fecha_vencimiento);
+          return currDate < prevDate ? curr : prev;
+        });
+
+        id_cantidad = closestDetail.id;
+        
+      }
+    }
+    console.log(id_cantidad)
+    const body = {opcion: 'uno' , 
+      carrito:carId, 
+      producto: product.id, 
+      presentacion: presentacion.id,
+      id_producto_cantidad: id_cantidad }
     const respuesta = await llamado(body, 'POST')
     console.log(respuesta)
     if (respuesta.success === false) {
@@ -84,6 +106,8 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
     />
   );
 
+
+
   const renderPrice = (
     <Typography variant="subtitle1" >
       <strong>&nbsp;
@@ -96,7 +120,7 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
     <Card>
       <Box sx={{ pt: '100%', position: 'relative' }}>
         {product.presentacion && renderStatus}
-
+        
         {renderImg}
       </Box>
 

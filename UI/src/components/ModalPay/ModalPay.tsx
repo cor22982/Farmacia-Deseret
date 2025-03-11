@@ -20,6 +20,7 @@ interface ModalPayProps {
   handleClose: () => void;
   carrito: Carrito | null;
   setCall: (call:number) => void;
+  onSetCarrito: () => void;
 }
 const style = {
   position: 'absolute',
@@ -33,7 +34,7 @@ const style = {
   p: 2, 
 };
 export const ModalPay = forwardRef<HTMLDivElement, ModalPayProps>(
-  ({ open, handleClose, setCall,  carrito }, ref) => {
+  ({ open, handleClose, setCall,  carrito, onSetCarrito }, ref) => {
 
     const {llamado: insertVenta} = useApi(`${source_link}/insertVenta`);
 
@@ -99,8 +100,8 @@ export const ModalPay = forwardRef<HTMLDivElement, ModalPayProps>(
           const dia = diasSemana[fecha.getDay()]
 
           const horas = fecha.getHours();
-
-          const jornadaT = (horas >= 7 && horas < 12) ? 'AM' : 'PM';
+         
+          const jornadaT = (horas < 12) ? 'AM' : 'PM';
           const cantidad_t = (index_data?.presentacion?.cantidad_presentacion ?? 1) * (index_data?.cantidad ?? 1);
 
 
@@ -111,9 +112,25 @@ export const ModalPay = forwardRef<HTMLDivElement, ModalPayProps>(
             product: index_data.producto_id,
             isOferta: false,
             id_carrito: index_data.carrito_id,
-            id_presentacion: index_data.presentacion?.id,
-            id_producto_cantidades : index_data.id_producto_cantidad
+            id_producto_presentacion: index_data.presentacion?.id,
+            id_producto_cantidad : index_data.id_producto_cantidad
           };
+
+          const response = await  insertVenta(body, "POST")
+
+
+          if (response.success) {
+              onSetCarrito();
+              handleClose();
+           
+
+          }else{
+            Swal.fire({
+              icon: "error",
+              title: "Error",
+              text: response.message,
+            });
+          }
 
           
 
