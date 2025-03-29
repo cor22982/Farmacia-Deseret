@@ -153,6 +153,11 @@ export async function getSalesThisWeek(startDate, endDate) {
           attributes: ["id", "nombre", "existencias"],
         },
         {
+          model: ProductDetail,
+          as: "venta_producto_cantidad",
+          attributes: ["id", "fecha_compra", "fecha_vencimiento"],
+        },
+        {
           model: PresentacionProducto,
           as: "venta_presentacion",
           attributes: ["pp", "cantidad_presentacion"],
@@ -173,6 +178,13 @@ export async function getSalesThisWeek(startDate, endDate) {
 
     const grouped = {};
 
+    const formatMonthYear = (dateString) => {
+      const date = new Date(dateString);
+      const month = date.toLocaleString("es-ES", { month: "long" });
+      const year = date.getFullYear().toString().slice(-2);
+      return `${month} - ${year}`;
+    };
+
     // Inicializar grouped con los productos
     products.forEach((product) => {
       grouped[product.id] = {
@@ -184,6 +196,8 @@ export async function getSalesThisWeek(startDate, endDate) {
         presentacion: null,
         presentacionCantidad: null,
         ventasPorSemana: [0, 0, 0, 0], // 4 semanas
+        fecha_compra: '',
+        fecha_vencimiento: '',
       };
     });
 
@@ -235,6 +249,8 @@ export async function getSalesThisWeek(startDate, endDate) {
         grouped[productId].totalCantidadSemana += cantidad;
         grouped[productId].presentacion = presentacion;
         grouped[productId].presentacionCantidad = presentacionCantidad;
+        grouped[productId].fecha_compra = formatMonthYear(sale["venta_producto_cantidad.fecha_compra"]);
+        grouped[productId].fecha_vencimiento = formatMonthYear(sale["venta_producto_cantidad.fecha_vencimiento"]);
       }
     });
 
