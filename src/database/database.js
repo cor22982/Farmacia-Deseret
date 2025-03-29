@@ -222,7 +222,7 @@ export async function getSalesThisWeek(startDate, endDate) {
             ventasPorSemana: Array(4).fill(0), // 4 semanas
             totalCantidadSemana: 0,
             producto: sale["venta_product.nombre"],
-            presentacion: null,
+            presentacion: sale["venta_product.nombre"],
             presentacionCantidad: null,
           };
         }
@@ -261,6 +261,18 @@ export async function getSalesThisWeek(startDate, endDate) {
           where: {
             "product": product.id,
           },
+          include: [
+            {
+              model: ProductDetail,
+              as: "venta_producto_cantidad",
+              attributes: ["id", "fecha_compra", "fecha_vencimiento"],
+            },
+            {
+              model: PresentacionProducto,
+              as: "venta_presentacion",
+              attributes: ["pp", "cantidad_presentacion"],
+            },
+          ],
           attributes: ["cantidad", "fecha"],
           raw: true,
         });
@@ -282,6 +294,10 @@ export async function getSalesThisWeek(startDate, endDate) {
           } else {
             console.log("Error: ProductId no encontrado en grouped", productId);
           }
+          grouped[productId].presentacion = sale["venta_presentacion.pp"];
+          grouped[productId].fecha_compra = formatMonthYear(sale["venta_producto_cantidad.fecha_compra"]);
+          grouped[productId].fecha_vencimiento = formatMonthYear(sale["venta_producto_cantidad.fecha_vencimiento"]);
+          grouped[productId].presentacionCantidad = sale["venta_presentacion.cantidad_presentacion"];
         });
       })
     );
