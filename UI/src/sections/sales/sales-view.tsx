@@ -87,7 +87,7 @@ const rows = [
   [5, 2, 2, 4, 4, 122, 28, 2, 3, 4,5],
 ];
 
-
+ 
 const getFirstDaysOfWeeks = (year: number, month: number) => {
   const firstDays = [];
   const date = new Date(year, month, 1); // Primer día del mes
@@ -152,25 +152,67 @@ const requestBody = {
   endDate: formatDate(ultimoDiaSemana),
 };
 
+
+export const getWeeksOfMonth = (anio: number, mes: number) => {
+  const weeks = [];
+  const date = new Date(anio, mes, 1);
+
+  // Ajustar al primer lunes del mes
+  while (date.getDay() !== 1) {
+    date.setDate(date.getDate() + 1);
+  }
+
+  // Generar semanas hasta que el mes termine
+  while (date.getMonth() === mes) {
+    const startOfWeek = new Date(date);
+    const endOfWeek = new Date(startOfWeek);
+    endOfWeek.setDate(startOfWeek.getDate() + 6); // Domingo
+
+    weeks.push({
+      start: startOfWeek.toISOString().split("T")[0],
+      end: endOfWeek.toISOString().split("T")[0],
+    });
+
+    // Avanzar a la siguiente semana
+    date.setDate(date.getDate() + 7);
+  }
+
+  return weeks;
+};
+
+
+
+
+
 export function SalesView() {
   const {llamado: getVentas } = useApi(`${source_link}/sales_this_week`);
   const [salesData, setSalesData] = useState<SaleProduct[]>([]);
+  const [monthlySales, setMonthlySales] = useState<any[]>([]);
 
   const [loading, setLoading] = useState(true);
 
 
   useEffect(() => {
 
+ 
+
+
     const fetchSales = async () => {
       const data =await  getVentas(requestBody, "POST");
       if (data.success) {
-        setSalesData(data.sales);
+        setSalesData(data.sales.sales);
+
+       // console.log(data.sales.sales)
+
+
       
       } else {
         console.error("Error en la respuesta del servidor:", data);
       }
     }
     fetchSales();
+    
+    
   }, [getVentas]);
   return (
     <TableContainer component={Paper}>
@@ -238,7 +280,87 @@ export function SalesView() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {salesData.map((product, rowIndex) => (
+
+          {salesData.map((product, rowIndex)=>(
+            <StyledTableRow key={rowIndex}>
+              <TableCell key={rowIndex} align="center" sx={{ border: "1px solid #ccc" }}>
+                  {product.producto}
+                </TableCell>
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                  { ( product.existencias  + product.ventasPorDia.reduce((acc: any, venta: any) => acc + venta, 0) ) / product.presentacionCantidad}
+                </TableCell>
+
+                {product.ventasPorDia.map((venta: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined, index: React.Key | null | undefined) => (
+                  <TableCell key={index} align="center" sx={{ border: "1px solid #ccc" }}>
+                    {venta / product.presentacionCantidad} {/* Muestra la cantidad de ventas en ese día */}
+                  </TableCell>
+
+                
+                ))}
+
+
+                <TableCell key={rowIndex} align="center" sx={{ border: "1px solid #ccc" }}>
+                  {product.existencias /product.presentacionCantidad }
+                </TableCell>
+
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                  0
+                </TableCell>
+
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                  { product.presentacion}
+                </TableCell>
+
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                 
+                </TableCell>
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                 {product.fecha_vencimiento}
+                </TableCell>
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                  0
+                </TableCell>
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                  0
+                </TableCell>
+
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                 {product.fecha_compra}
+                </TableCell>
+
+                {product.ventasPorSemana.map((venta: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined, index: React.Key | null | undefined) => (
+                  <TableCell key={index} align="center" sx={{ border: "1px solid #ccc" }}>
+                    {venta / product.presentacionCantidad} {/* Muestra la cantidad de ventas en ese día */}
+                  </TableCell>
+                
+                
+                ))}
+
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                { (product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0) ) / product.presentacionCantidad}
+                </TableCell>
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                    { 
+                      // Filtrar los valores que no sean 0, calcular la suma y luego dividir por la cantidad de ventas no nulas
+                      product.ventasPorSemana.filter((venta: number) => venta !== 0)
+                        .reduce((acc: number, venta: number) => acc + venta, 0) / 
+                      // Evitar división por 0 si no hay ventas
+                      (product.ventasPorSemana.filter((venta: number) => venta !== 0).length || 1) /
+                      product.presentacionCantidad
+                    }
+                  </TableCell>
+
+
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                { (product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0) ) / product.presentacionCantidad}
+                </TableCell>
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                { 2 * (product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0) ) / product.presentacionCantidad}
+                </TableCell>
+            </StyledTableRow>
+
+          ))}
+          {/* {salesData.map((product, rowIndex) => (
             <StyledTableRow key={rowIndex}>
               
                 <TableCell key={rowIndex} align="center" sx={{ border: "1px solid #ccc" }}>
@@ -290,11 +412,27 @@ export function SalesView() {
                 <TableCell key={rowIndex} align="center" sx={{ border: "1px solid #ccc" }}>
                   {product.presentaciones[0].fecha_compra}
                 </TableCell>
+                
+                {monthlySales.map((weekData, index) => {
+                  // Sumar todas las cantidades de la semana
+                  const totalCantidadSemana = weekData.sales.reduce(
+                    (total: any, sale: { totalCantidad: any; }) => total + (sale.totalCantidad || 0), // Evitar valores undefined
+                    0
+                  );
+
+                  return (
+                    <TableCell key={index} align="center" sx={{ border: "1px solid #ccc" }}>
+                      {totalCantidadSemana /product.presentaciones[0].presentacionCantidad}
+                    </TableCell>
+                  );
+                })}
+
+                
 
 
 
             </StyledTableRow>
-          ))}
+          ))} */}
         </TableBody>
       </Table>
     </TableContainer>
