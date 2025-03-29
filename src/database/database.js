@@ -133,10 +133,12 @@ export async function obtenerPresentaciones() {
   }
 }
 
-
-export async function getSalesThisWeek(startDate,endDate ) {
+export async function getSalesThisWeek(startDate, endDate) {
   try {
-    
+    const products = await Product.findAll({
+      attributes: ["id", "nombre", "existencias"],
+      raw: true,
+    });
 
     const sales = await Venta.findAll({
       where: {
@@ -151,89 +153,69 @@ export async function getSalesThisWeek(startDate,endDate ) {
           attributes: ["id", "nombre", "existencias"],
         },
         {
-          model: ProductDetail,
-          as: "venta_producto_cantidad",
-          attributes: ["id", "fecha_compra", "fecha_vencimiento"],
-        },
-        {
           model: PresentacionProducto,
           as: "venta_presentacion",
-          attributes: ["id", "pp", "cantidad_presentacion"],
+          attributes: ["pp", "cantidad_presentacion"],
         },
       ],
-      attributes: [
-        "jornada",
-        "product",
-        "cantidad",
-        "id_producto_cantidad",
-        "id_producto_presentacion",
-      ],
+      attributes: ["jornada", "cantidad", "fecha"],
       raw: true,
     });
 
-    // Agrupar por producto y, dentro de cada producto, agrupar por presentación (pp)
-    const grouped = sales.reduce((acc, sale) => {
-      const productID = sale["venta_product.id"];
-      const productName = sale["venta_product.nombre"];
-      const existencias = sale["venta_product.existencias"];
-      const presentacionName = sale["venta_presentacion.pp"];
+    const jornadaMap = {
+      "LUNES-AM": 0, "LUNES-PM": 1,
+      "MARTES-AM": 2, "MARTES-PM": 3,
+      "MIERCOLES-AM": 4, "MIERCOLES-PM": 5,
+      "JUEVES-AM": 6, "JUEVES-PM": 7,
+      "VIERNES-AM": 8, "VIERNES-PM": 9,
+      "SABADO": 10
+    };
+
+    const grouped = {};
+
+    products.forEach((product) => {
+      grouped[product.id] = {
+        productId: product.id,
+        producto: product.nombre,
+        existencias: product.existencias,
+        ventasPorDia: Array(11).fill(0),
+        totalCantidadSemana: 0,
+        presentacion: null,
+        presentacionCantidad: null,
+      };
+    });
+
+    sales.forEach((sale) => {
+      const productId = sale["venta_product.id"];
+      const jornada = sale.jornada;
+      const cantidad = sale.cantidad;
+      const presentacion = sale["venta_presentacion.pp"];
       const presentacionCantidad = sale["venta_presentacion.cantidad_presentacion"];
 
-      // Si el producto no está en el acumulador, inicializarlo
-      if (!acc[productName]) {
-        acc[productName] = {
-          productID: productID,
-          producto: productName,
-          existencias,
-          presentaciones: {},
-        };
+      if (grouped[productId]) {
+        const index = jornadaMap[jornada] ?? -1;
+        if (index !== -1) {
+          grouped[productId].ventasPorDia[index] += cantidad;
+        }
+        grouped[productId].totalCantidadSemana += cantidad;
+        grouped[productId].presentacion = presentacion;
+        grouped[productId].presentacionCantidad = presentacionCantidad;
       }
-      const formatMonthYear = (dateString) => {
-        const date = new Date(dateString);
-        const month = date.toLocaleString("es-ES", { month: "long" });
-        const year = date.getFullYear().toString().slice(-2);
-        return `${month} - ${year}`;
-      };
-      
-      
-      // Si la presentación no existe para ese producto, inicializarla
-      if (!acc[productName].presentaciones[presentacionName]) {
-        acc[productName].presentaciones[presentacionName] = {
-          presentacion: presentacionName,
-          presentacionCantidad: presentacionCantidad,
-          fecha_compra: formatMonthYear(sale["venta_producto_cantidad.fecha_compra"]),
-          fecha_vencimiento: formatMonthYear(sale["venta_producto_cantidad.fecha_vencimiento"]),          
-          jornadas: [],
-        };
-      }
+    });
 
-      // Dentro de la presentación, agrupar por jornada
-      const jornadaEntry = acc[productName].presentaciones[presentacionName].jornadas.find(
-        (j) => j.jornada === sale.jornada
-      );
-      if (jornadaEntry) {
-        jornadaEntry.totalCantidad += sale.cantidad;
-      } else {
-        acc[productName].presentaciones[presentacionName].jornadas.push({
-          jornada: sale.jornada,
-          totalCantidad: sale.cantidad,
-        });
-      }
-
-      return acc;
-    }, {});
-
-    // Convertir el objeto de presentaciones en array para cada producto
-    const result = Object.values(grouped).map((product) => ({
-      ...product,
-      presentaciones: Object.values(product.presentaciones),
-    }));
-
-    return result;
+    return {
+      success: true,
+      sales: Object.values(grouped),
+    };
   } catch (error) {
-    console.error("Error fetching sales data: ", error);
+    console.error("Error fetching total sales by product id: ", error);
+    return { success: false, error: "Error fetching total sales" };
   }
 }
+
+
+
+
 
 export async function getTotalSalesByProductId(startDate, endDate) {
   try {
