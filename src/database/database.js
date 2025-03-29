@@ -173,6 +173,7 @@ export async function getSalesThisWeek(startDate, endDate) {
 
     const grouped = {};
 
+    // Inicializar grouped con los productos
     products.forEach((product) => {
       grouped[product.id] = {
         productId: product.id,
@@ -182,17 +183,51 @@ export async function getSalesThisWeek(startDate, endDate) {
         totalCantidadSemana: 0,
         presentacion: null,
         presentacionCantidad: null,
+        ventasPorSemana: [0, 0, 0, 0], // 4 semanas
       };
     });
 
+    // Procesar ventas de la primera consulta (sales)
     sales.forEach((sale) => {
       const productId = sale["venta_product.id"];
       const jornada = sale.jornada;
       const cantidad = sale.cantidad;
       const presentacion = sale["venta_presentacion.pp"];
       const presentacionCantidad = sale["venta_presentacion.cantidad_presentacion"];
+      const fecha = new Date(sale.fecha);
+      
+      const mesInicio = new Date(startDate).getMonth();
+      const mesVenta = fecha.getMonth();
+      
+      // Verifica si la venta es del mes de inicio
+      if (mesInicio === mesVenta) {
+        if (!grouped[productId]) {
+          grouped[productId] = {
+            productId: productId,
+            ventasPorDia: Array(11).fill(0),
+            ventasPorSemana: Array(4).fill(0), // 4 semanas
+            totalCantidadSemana: 0,
+            producto: sale["venta_product.nombre"],
+            presentacion: null,
+            presentacionCantidad: null,
+          };
+        }
 
-      if (grouped[productId]) {
+        const primerDiaMes = new Date(fecha.getFullYear(), fecha.getMonth(), 1); // Primer día del mes
+        const primerLunes = new Date(primerDiaMes);
+        primerLunes.setDate(primerDiaMes.getDate() + (primerDiaMes.getDay() === 0 ? 1 : 8 - primerDiaMes.getDay())); // Primer lunes del mes
+    
+        const diasDesdePrimerLunes = (fecha - primerLunes) / (1000 * 3600 * 24); // Diferencia en días
+        let semanaIndex = Math.floor(diasDesdePrimerLunes / 7); // Calculamos la semana (0-3)
+    
+        // Ajuste para manejar casos en los que la fecha esté fuera del rango (antes del primer lunes o después de 4 semanas)
+        if (semanaIndex < 0) {
+          semanaIndex = 0; // Si la fecha cae antes del primer lunes
+        } else if (semanaIndex > 3) {
+          semanaIndex = 3; // Si la fecha está más allá de las 4 semanas del mes
+        }
+
+        // Procesamos la venta para ese productId
         const index = jornadaMap[jornada] ?? -1;
         if (index !== -1) {
           grouped[productId].ventasPorDia[index] += cantidad;
@@ -203,6 +238,38 @@ export async function getSalesThisWeek(startDate, endDate) {
       }
     });
 
+    // Procesar ventas de la segunda consulta (sales_all)
+    await Promise.all(
+      products.map(async (product) => {
+        const sales_all = await Venta.findAll({
+          where: {
+            "product": product.id,
+          },
+          attributes: ["cantidad", "fecha"],
+          raw: true,
+        });
+
+        sales_all.forEach((sale) => {
+          const productId = product.id; // Usamos el id del producto del bucle anterior
+          const fecha = new Date(sale.fecha); // Convertir la fecha en un objeto Date
+    
+          const primerDiaMes = new Date(fecha.getFullYear(), fecha.getMonth(), 1); // Primer día del mes
+          const primerLunes = new Date(primerDiaMes);
+          primerLunes.setDate(primerDiaMes.getDate() + (primerDiaMes.getDay() === 0 ? 1 : 8 - primerDiaMes.getDay())); // Primer lunes del mes
+    
+          const diasDesdePrimerLunes = (fecha - primerLunes) / (1000 * 3600 * 24); // Diferencia en días
+          let semanaIndex = Math.floor(diasDesdePrimerLunes / 7);  // Calcular la semana
+          
+          // Verificar que el productId esté en grouped antes de acceder
+          if (grouped[productId]) {
+            grouped[productId].ventasPorSemana[semanaIndex] += sale.cantidad;  // Accede a la cantidad correctamente
+          } else {
+            console.log("Error: ProductId no encontrado en grouped", productId);
+          }
+        });
+      })
+    );
+
     return {
       success: true,
       sales: Object.values(grouped),
@@ -212,6 +279,7 @@ export async function getSalesThisWeek(startDate, endDate) {
     return { success: false, error: "Error fetching total sales" };
   }
 }
+
 
 
 
