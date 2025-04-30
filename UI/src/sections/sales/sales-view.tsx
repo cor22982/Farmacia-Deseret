@@ -287,21 +287,39 @@ export function SalesView() {
                   {product.producto}
                 </TableCell>
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
-                  { ( product.existencias  + product.ventasPorDia.reduce((acc: any, venta: any) => acc + venta, 0) ) / product.presentacionCantidad}
-                </TableCell>
+                        {
+                          isNaN(
+                            (product.existencias + product.ventasPorDia.reduce((acc: any, venta: any) => acc + venta, 0)) /
+                            product.presentacionCantidad
+                          )
+                            ? 0
+                            : (
+                                (product.existencias + product.ventasPorDia.reduce((acc: any, venta: any) => acc + venta, 0)) /
+                                product.presentacionCantidad
+                              ).toFixed(0) // opcional: redondear a 2 decimales
+                        }
+                      </TableCell>
 
-                {product.ventasPorDia.map((venta: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined, index: React.Key | null | undefined) => (
-                  <TableCell key={index} align="center" sx={{ border: "1px solid #ccc" }}>
-                    {venta / product.presentacionCantidad} {/* Muestra la cantidad de ventas en ese día */}
+
+                      {product.ventasPorDia.map((venta: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined, index: React.Key | null | undefined) => {
+                        const result = venta / product.presentacionCantidad;
+                        return (
+                          <TableCell key={index} align="center" sx={{ border: "1px solid #ccc" }}>
+                            {isNaN(result) ? 0 : result.toFixed(0)} {/* Muestra 0 si es NaN */}
+                          </TableCell>
+                        );
+                      })}
+
+
+
+                  <TableCell key={rowIndex} align="center" sx={{ border: "1px solid #ccc" }}>
+                    {
+                      isNaN(product.existencias / product.presentacionCantidad)
+                        ? 0
+                        : (product.existencias / product.presentacionCantidad).toFixed(2)
+                    }
                   </TableCell>
 
-                
-                ))}
-
-
-                <TableCell key={rowIndex} align="center" sx={{ border: "1px solid #ccc" }}>
-                  {product.existencias /product.presentacionCantidad }
-                </TableCell>
 
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
                   0
@@ -312,7 +330,7 @@ export function SalesView() {
                 </TableCell>
 
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
-                 
+                    
                 </TableCell>
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
                  {product.fecha_vencimiento}
@@ -328,35 +346,55 @@ export function SalesView() {
                  {product.fecha_compra}
                 </TableCell>
 
-                {product.ventasPorSemana.map((venta: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined, index: React.Key | null | undefined) => (
-                  <TableCell key={index} align="center" sx={{ border: "1px solid #ccc" }}>
-                    {venta / product.presentacionCantidad} {/* Muestra la cantidad de ventas en ese día */}
-                  </TableCell>
-                
-                
-                ))}
-
-                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
-                { (product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0) ) / product.presentacionCantidad}
-                </TableCell>
-                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
-                    { 
-                      // Filtrar los valores que no sean 0, calcular la suma y luego dividir por la cantidad de ventas no nulas
-                      product.ventasPorSemana.filter((venta: number) => venta !== 0)
-                        .reduce((acc: number, venta: number) => acc + venta, 0) / 
-                      // Evitar división por 0 si no hay ventas
-                      (product.ventasPorSemana.filter((venta: number) => venta !== 0).length || 1) /
-                      product.presentacionCantidad
-                    }
-                  </TableCell>
+                {product.ventasPorSemana.map((venta: any, index: React.Key | null | undefined) => {
+                  const result = Number(venta) / product.presentacionCantidad;
+                  return (
+                    <TableCell key={index} align="center" sx={{ border: "1px solid #ccc" }}>
+                      {isNaN(result) ? 0 : result.toFixed(0)}
+                    </TableCell>
+                  );
+                })}
 
 
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
-                { (product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0) ) / product.presentacionCantidad}
+                  {
+                    isNaN(
+                      product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0) / product.presentacionCantidad
+                    )
+                      ? 0
+                      : (
+                          product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0) / product.presentacionCantidad
+                        ).toFixed(0)
+                  }
                 </TableCell>
+
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
-                { 2 * (product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0) ) / product.presentacionCantidad}
-                </TableCell>
+                {(() => {
+                  const ventasNoNulas = product.ventasPorSemana.filter((venta: number) => venta !== 0);
+                  const sumaVentas = ventasNoNulas.reduce((acc: number, venta: number) => acc + venta, 0);
+                  const cantidadVentas = ventasNoNulas.length || 1; // Evita división por 0
+                  const result = (sumaVentas / cantidadVentas) / product.presentacionCantidad;
+                  return isNaN(result) ? 0 : result.toFixed(0);
+                })()}
+              </TableCell>
+
+
+              <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+  {(() => {
+    const totalVentas = product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0);
+    const result = totalVentas / product.presentacionCantidad;
+    return isNaN(result) ? 0 : result.toFixed(0);
+  })()}
+</TableCell>
+
+<TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+  {(() => {
+    const totalVentas = product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0);
+    const result = (2 * totalVentas) / product.presentacionCantidad;
+    return isNaN(result) ? 0 : result.toFixed(0);
+  })()}
+</TableCell>
+
             </StyledTableRow>
 
           ))}

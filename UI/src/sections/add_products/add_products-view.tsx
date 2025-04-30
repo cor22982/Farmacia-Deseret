@@ -17,13 +17,14 @@ import { ModalStepper } from 'src/components/Stepper/Add_Cantidades_Presentacion
 import { ModalStepperProducto } from 'src/components/Stepper/Stepper_Producto';
 import { ProductsFilterList } from './components/products_filter_list';
 import { ProductSearchItem } from './components/products_search';
-
+import { ModalUploadAll } from 'src/components/ModalUploadAll/ModalUploadAll';
 
 // ----------------------------------------------------------------------
 
 export function AddProductsView() {
 
   const [openm, setOpenM] = useState(false);
+  const [openm3, setOpenM3] = useState(false);
   const [openm2, setOpenM2] = useState(false);
   const [openPresentaciones, setOpenPresentaciones] = useState(false);
   const [sortBy, setSortBy] = useState('latest');
@@ -106,6 +107,8 @@ export function AddProductsView() {
         handleClose={() => setOpenM(false)}
         handleClick={handleClicked}
       /> */}
+
+    
       <UpdateProduct
         setCall={setCall1}
         setValueProductId={setValueProduct}
@@ -158,14 +161,10 @@ export function AddProductsView() {
           >
           Agregar nuevo Producto
           </Button>
+
          
-          <Button
-            variant="contained"
-            color="inherit"
-            startIcon={<Iconify icon="ep:list" />}
-          >
-          Generar Listado
-          </Button>
+         
+        
 
         </Box>
         
