@@ -1,0 +1,2 @@
+SELECT setval('products_id_seq', 1, false);
+SELECT setval('presentacion_producto_id_seq', 1, false);
