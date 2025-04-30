@@ -49,7 +49,7 @@ MAPEO_NORMALIZADO = {
 }
 
 # Cargar el DataFrame
-df = pd.read_csv('./data/ BYF.csv', sep=',')
+df = pd.read_csv('./data/ROSADEL.csv', sep=',')
 
 # Función para extraer y normalizar presentaciones
 def extraer_presentacion(texto):
