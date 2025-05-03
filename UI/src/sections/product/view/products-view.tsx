@@ -260,7 +260,7 @@ export function ProductsView() {
         ))}
       </Grid>
 
-      <Pagination count={10} color="primary" sx={{ mt: 8, mx: 'auto' }} />
+      
     </DashboardContent>
   );
 }
