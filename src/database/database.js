@@ -133,17 +133,22 @@ export async function obtenerPresentaciones() {
   }
 }
 
-export async function getSalesThisWeek(startDate, endDate) {
+export async function getSalesThisWeek(startDate, endDate, offset = 0, limit = 10) {
   try {
     const products = await Product.findAll({
       attributes: ["id", "nombre", "existencias"],
+      offset,
+      limit,
       raw: true,
     });
+
+   
 
     const sales = await Venta.findAll({
       where: {
         fecha: {
           [Op.between]: [startDate, endDate],
+   
         },
       },
       include: [
@@ -855,9 +860,11 @@ export async function getProductDetails(id) {
 }
 
 
-export async function getProduct() {
+export async function getProduct(offset = 0, limit = 10) {
   try{
     const products = await Product.findAll({
+      offset,
+      limit,
       include: [
         {
           model: Supplier,

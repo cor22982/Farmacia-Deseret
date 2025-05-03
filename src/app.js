@@ -102,7 +102,7 @@ app.post('/sales_this_week', async (req, res) => {
   try {
     const startDate = req.body.startDate;
     const endDate = req.body.endDate;
-    const all_sales = await getSalesThisWeek(startDate, endDate)
+    const all_sales = await getSalesThisWeek(startDate, endDate,  req.body.offset,req.body.limit )
     res.status(200).json({ success: true, sales: all_sales});
   }catch (error) {
     console.error('Error al obtener el producto:', error);
@@ -431,7 +431,8 @@ app.post('/getProducts', async (req, res) => {
     const validate_token = await validateToken(req.body.token)
     const {rol} = await decodeToken(req.body.token)
     if (validate_token && rol ==='admin'){
-      const allproducts = await getProduct();
+
+      const allproducts = await getProduct(req.body.offset, req.body.limit);
       res.status(200).json({ success: true, message: 'Se obtuvo todos los productos', products: allproducts});
     } else{
       res.status(401).json({ success: false, message: 'No tienes permisos para obtener los productos'});
