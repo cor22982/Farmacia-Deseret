@@ -1,9 +1,11 @@
 import User from "../entityes/user.js";
 import {Supplier, Schedule, Ubicacion, Product, ProductDetail} from "../entityes/relationships.js";
 
-export async function getProduct__info_usuario() {
+export async function getProduct__info_usuario(offset = 0, limit = 10) {
   try{
     const products = await Product.findAll({
+      offset,
+      limit,
       attributes: ['id',
           'nombre',
           'forma_farmaceutica',
