@@ -110,8 +110,8 @@ export const useGetProducts = () =>{
 
 
 
-  const getProductInfo = async (): Promise<Product[]> => {
-    const body = { token };
+  const getProductInfo = async (offset: number, limit: number): Promise<Product[]> => {
+    const body = { token, offset, limit };
     const response = await llamado(body, "POST");
 
     if (response.success && Array.isArray(response.products)) {
