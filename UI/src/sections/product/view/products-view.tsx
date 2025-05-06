@@ -92,6 +92,8 @@ export function ProductsView() {
 
   const [filterproduct, setFilterProductos] = useState<Product[]>([]);
 
+  const [products_overview, setProducts_overview] = useState<Product[]>([]);
+
   const [call1, setCall1] = useState(0);
 
   const [product_selected, setProductSelected] = useState<Product| null>(null)
@@ -118,7 +120,9 @@ export function ProductsView() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const fetchedProducts = await getProductInfo_whitout_info();
+        const fetchedProducts = await getProductInfo_whitout_info(searchValue);
+
+        setProducts_overview(fetchedProducts)
         if (carId !== null) {
           try{
           const carrito =  await getCarrito_byId(carId)
@@ -242,7 +246,7 @@ export function ProductsView() {
       <br/>
       <Grid container spacing={3}>
        
-        {filterproduct.map((product) => (
+        {product_geted.map((product) => (
             product.listpresentaciones.map((presentacion) => (
               <Grid key={product.id} xs={12} sm={6} md={3}>
               <ProductItem

@@ -101,7 +101,7 @@ export const useGetProducts = () =>{
   const { llamado:getbasicInfoProduct} = useApi(`${source_link}/getbasicInfoProduct`);  
   const {llamadowithoutbody} = useApi(`${source_link}/products_id`);
   const {llamadowithoutbody: get_productos} = useApi(`${source_link}/infoproductos`);
-  const {llamadowithoutbody: get_productos_info} = useApi(`${source_link}/infoproductos_allinfo`);
+  const {llamado: get_productos_info} = useApi(`${source_link}/infoproductos_allinfo`);
   const {getPresentacionesProducto} = useGetPresentacionesProducto();
   const {getOneSupplierById } = useGetProveedores();
   const { getDetails_ById } = useGetProduct_Details();
@@ -404,8 +404,8 @@ export const useGetProducts = () =>{
     return [];
   };
 
-  const getProductInfo_whitout_info = async (): Promise<Product[]> => {
-    const response = await get_productos_info("GET");
+  const getProductInfo_whitout_info = async (buscar: string): Promise<Product[]> => {
+    const response = await get_productos_info({search: buscar},"POST");
 
     if (response.success && Array.isArray(response.productos)) {
       // Procesamos todos los productos con `Promise.all`
