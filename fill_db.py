@@ -7,8 +7,8 @@ import ast
 # Configuration
 API_URL_PRODUCT = 'http://localhost:3000/insertProduct'
 API_URL_PRESENTATION = 'http://localhost:3000/insertPresentacionesProducto'
-TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2wiOiJhZG1pbiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE3NDYwMDYzNDksImV4cCI6MTc0NjE4NjM0OX0.0o2EJEwr9-EIzjmPWqNCAP-0Aslw2Z_szxkYJCMmuug'
-ID_SUPPLIER = '3'
+TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2wiOiJhZG1pbiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE3NDY1MjUxNjQsImV4cCI6MTc0NjcwNTE2NH0.YcnZB0zW18Ub73SLgPPBRFV65GqDAKZRu4tD3o4OdW8'
+ID_SUPPLIER = '2'
 
 # Load presentation IDs from CSV
 def load_presentation_ids(csv_path):
@@ -223,7 +223,7 @@ def procesar_csv(productos_csv_path, presentaciones_csv_path):
 
 if __name__ == "__main__":
     # Define file paths
-    PRODUCTS_CSV_PATH = './final_out/rosadel_out.csv'  # Path to products CSV
+    PRODUCTS_CSV_PATH = './data_first_sprint/byf.csv'  # Path to products CSV
     PRESENTATIONS_CSV_PATH = './presentaciones.csv'  # Path to presentations CSV with IDs
     
     # Start processing

@@ -56,7 +56,7 @@ MAPEO_NORMALIZADO = {
 }
 
 # Cargar el DataFrame
-df = pd.read_csv('./data/GENESIS.csv', sep=',')
+df = pd.read_csv('./data/ BYF.csv', sep=',')
 
 # Función para extraer y normalizar presentaciones
 def extraer_presentacion(texto):
@@ -70,7 +70,7 @@ def extraer_presentacion(texto):
             if nombre in PRESENTACIONES_LIQUIDAS:
                 presentaciones[nombre_norm] = 1
             else:
-                presentaciones[nombre_norm] = int(cantidad)
+                presentaciones[nombre_norm] = 1
 
     # 2. Buscar presentaciones solas sin cantidad
     matches_simple = re.findall(r'\b(' + '|'.join(PRESENTACIONES_VALIDAS) + r')\b', texto)
@@ -78,6 +78,14 @@ def extraer_presentacion(texto):
         nombre_norm = MAPEO_NORMALIZADO.get(nombre, nombre)
         if nombre_norm not in presentaciones:
             presentaciones[nombre_norm] = 1
+
+    if 'CAJA' in presentaciones and 'BLISTER' in presentaciones:
+         blister_valor = presentaciones['BLISTER']
+         presentaciones.clear()
+         presentaciones['BLISTER'] = blister_valor
+
+    if ('ML' in texto or 'LITRO' in texto) and presentaciones == {}:
+      presentaciones['FRASCO'] = 1
 
     return presentaciones
 

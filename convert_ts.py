@@ -12,8 +12,8 @@ def safe_parse_dict(val):
 
 # Leer los archivos CSV
 df_stock = pd.read_csv('presentaciones_add.csv', header=None, names=['id', 'medicamento', 'presentacion'])
-df_info = pd.read_csv('./output_data/rosadel_data.csv')
-df_inventario = pd.read_csv('./data/ROSADEL.csv')
+df_info = pd.read_csv('./output_data/byf_data.csv')
+df_inventario = pd.read_csv('./data/ BYF.csv')
 
 # Normalizar nombres de medicamentos para emparejar correctamente
 df_stock['medicamento'] = df_stock['medicamento'].str.strip().str.upper()
