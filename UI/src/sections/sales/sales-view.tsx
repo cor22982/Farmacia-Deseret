@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, styled, Typography } from "@mui/material";
+import React, { useEffect, useRef, useState } from "react";
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, styled, Typography, Button, Box } from "@mui/material";
 import useApi from "src/hooks/useApi";
 import source_link from "src/repository/source_repo";
+
+import { CircularProgress } from '@mui/material';
 import { Jornada, Presentacion, SaleProduct } from "src/_mock/sales";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -185,40 +187,87 @@ export const getWeeksOfMonth = (anio: number, mes: number) => {
 
 
 export function SalesView() {
+  const containerRef = useRef<HTMLDivElement | null>(null);
+ 
+  const [loading, setLoading] = useState(false);
+  const [offset, setOffset] = useState(0);
+  const limit = 20;
+  
+
   const {llamado: getVentas } = useApi(`${source_link}/sales_this_week`);
   const [salesData, setSalesData] = useState<SaleProduct[]>([]);
   const [monthlySales, setMonthlySales] = useState<any[]>([]);
 
-  const [loading, setLoading] = useState(true);
+  const [hasMore, setHasMore] = useState(true);
 
 
+  const requestBody = {
+    startDate: formatDate(primerDiaSemana),
+    endDate: formatDate(ultimoDiaSemana),
+    offset,
+    limit,
+  };
   useEffect(() => {
 
  
 
 
     const fetchSales = async () => {
+     
       const data =await  getVentas(requestBody, "POST");
+
+
       if (data.success) {
+
+       
         setSalesData(data.sales.sales);
 
        // console.log(data.sales.sales)
 
-
+        
       
       } else {
         console.error("Error en la respuesta del servidor:", data);
       }
+      setLoading(false);
     }
     fetchSales();
     
     
   }, [getVentas]);
+
+  
+
+
+  // Escuchar scroll para detectar fondo
+  const handleLoadMore = () => {
+    setOffset((prev) => prev + limit);
+  };
+
   return (
     <TableContainer component={Paper}>
+      
       <Typography variant="h4" flexGrow={1}>
                 Ventas
               </Typography>
+              {!loading && (
+                <Box display="flex" justifyContent="center" p={2} gap={2}>
+                  <Button
+                    variant="outlined"
+                    onClick={() => setOffset((prev) => Math.max(0, prev - limit))}
+                    disabled={offset === 0 || loading}
+                  >
+                    Atrás
+                  </Button>
+                  <Button
+                    variant="contained"
+                    onClick={() => setOffset((prev) => prev + limit)}
+                    disabled={!hasMore || loading}
+                  >
+                    Siguiente
+                  </Button>
+                </Box>
+              )}
       <Table sx={{ minWidth: 800 }} aria-label="customized table">
         <TableHead>
           <TableRow>
@@ -301,14 +350,16 @@ export function SalesView() {
                       </TableCell>
 
 
-                      {product.ventasPorDia.map((venta: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined, index: React.Key | null | undefined) => {
-                        const result = venta / product.presentacionCantidad;
+                      {product.ventasPorDia.map((venta: number, index: React.Key | null | undefined) => {
+                        const cantidad = product.presentacionCantidad ?? 1; // fallback in case presentacionCantidad is undefined
+                        const result = typeof venta === 'number' ? venta / cantidad : 0;
                         return (
                           <TableCell key={index} align="center" sx={{ border: "1px solid #ccc" }}>
-                            {isNaN(result) ? 0 : result.toFixed(0)} {/* Muestra 0 si es NaN */}
+                            {result.toFixed(0)} {/* Muestra 0 si no es un número */}
                           </TableCell>
                         );
                       })}
+
 
 
 
@@ -473,6 +524,9 @@ export function SalesView() {
           ))} */}
         </TableBody>
       </Table>
+
+
+  
     </TableContainer>
   );
 }

@@ -29,6 +29,8 @@ export const ProductCard =  forwardRef<HTMLDivElement, ProductCardProps> (
   ({ product, setCall,  setid ,  setIdProduct, openpresentacion}, ref) => {
     const {llamado: delete_product} = useApi(`${source_link}/deleteproducts`)
     const {token} = useToken()
+
+    
     
     const onDeleteButton = async() => {
       Swal.fire({

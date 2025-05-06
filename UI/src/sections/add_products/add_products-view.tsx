@@ -34,6 +34,13 @@ export function AddProductsView() {
   const [filterproduct, setFilterProductos] = useState<Product[]>([]);
   const [searchValue, setSearchValue] = useState<string>('');
   const [call1, setCall1] = useState(0);
+  const [loading, setLoading] = useState(false);
+
+  const [offset, setOffset] = useState(0);
+  const limit = 10;
+  const [hasMore, setHasMore] = useState(true);
+
+
 
   const [openUpdate, setOpenUpdate] = useState(false);
 
@@ -62,20 +69,20 @@ export function AddProductsView() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const fetchedProducts = await getProductInfo();
-        setProductos(fetchedProducts)
-        if (call1 === 0){
-          setFilterProductos(fetchedProducts)
-          setCall1(call1+1);
-        }
-      
+        const fetchedProducts = await getProductInfo(offset, limit);
+        setProductos(fetchedProducts);
+        
+          setFilterProductos(fetchedProducts);
+          
+       
       } catch (error) {
         console.error("Error fetching places:", error);
       }
     };
- 
+  
     fetchProducts();
-  }, [getProductInfo, setProductos, setCall1, setFilterProductos, call1 ]); 
+  }, [offset, limit, call1, setCall1, setFilterProductos, setProductos]);
+  
 
   const handleSort = useCallback((newSort: string) => {
     setSortBy(newSort);
@@ -174,6 +181,8 @@ export function AddProductsView() {
         
         onSearch={handleSearch}
         products={product}/>
+
+
         <Box display="flex" alignItems= 'center' flexDirection="column">
           <Typography variant="body2" flexGrow={1}>
             Proveedor
@@ -220,6 +229,24 @@ export function AddProductsView() {
         </Box>
    
         </Box> 
+                      {!loading && (
+                        <Box display="flex" justifyContent="center" p={2} gap={2}>
+                          <Button
+                            variant="outlined"
+                            onClick={() => setOffset((prev) => Math.max(0, prev - limit))}
+                            disabled={offset === 0 || loading}
+                          >
+                            Atrás
+                          </Button>
+                          <Button
+                            variant="contained"
+                            onClick={() => setOffset((prev) => prev + limit)}
+                            disabled={!hasMore || loading}
+                          >
+                            Siguiente
+                          </Button>
+                        </Box>
+                      )}
     {filterproduct.map((p) => (
         <Box sx={{paddingBottom: '1rem'}}>
             <ProductCard 
