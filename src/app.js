@@ -37,6 +37,7 @@ import { getProduct_usuario, getProduct__info_usuario,
 import { actualizar } from './database/actualizaciones/actualizaciones.js';
 import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
+import { Console } from 'console';
 
 // Middleware para procesar el cuerpo de las solicitudes JSON
 
@@ -137,9 +138,15 @@ app.post('/sales_by_month', async (req, res) => {
   }
 });
 
-app.get('/infoproductos_allinfo', async (req, res) => {
+app.post('/infoproductos_allinfo', async (req, res) => {
   try {
-    const producto = await getProduct__info_usuario();
+    const offset = parseInt(req.body.offset) || 0;
+    const limit = parseInt(req.body.limit) || 10;
+    const search = req.body.search || '';
+    console.log(search)
+    const producto = await getProduct__info_usuario(offset, limit, search);
+
+
     res.status(200).json({ success: true, productos: producto});
   }catch (error) {
     console.error('Error al obtener el producto:', error);

@@ -1,22 +1,30 @@
 import User from "../entityes/user.js";
 import {Supplier, Schedule, Ubicacion, Product, ProductDetail} from "../entityes/relationships.js";
+import { Op } from "sequelize";
 
-export async function getProduct__info_usuario(offset = 0, limit = 10) {
-  try{
+export async function getProduct__info_usuario(offset = 0, limit = 10, search = '') {
+  try {
     const products = await Product.findAll({
-      offset,
-      limit,
-      attributes: ['id',
-          'nombre',
-          'forma_farmaceutica',
-          'descripcion_uso', 
-          'pp',
-          'imagen',
-          'presentacion',
-          'principio_activo',
-          'existencias',
-          'dosificacion',
-          'accion_farmacologica'],
+      where: search
+        ? {
+            nombre: {
+              [Op.iLike]: `${search}%`, // Corregido: usando ${search} en lugar de {search}
+            },
+          }
+        : undefined,
+      attributes: [
+        'id',
+        'nombre',
+        'forma_farmaceutica',
+        'descripcion_uso',
+        'pp',
+        'imagen',
+        'presentacion',
+        'principio_activo',
+        'existencias',
+        'dosificacion',
+        'accion_farmacologica'
+      ],
       include: [
         {
           model: Supplier,
@@ -29,17 +37,21 @@ export async function getProduct__info_usuario(offset = 0, limit = 10) {
           attributes: ['id', 'cantidad', 'fecha_compra', 'fecha_vencimiento'],
           include: [
             {
-                model: Ubicacion,
-                as: 'ubicacion_product_detail',
-                attributes: ['id','ubicacion', 'lugar_farmacia'],
+              model: Ubicacion,
+              as: 'ubicacion_product_detail',
+              attributes: ['id', 'ubicacion', 'lugar_farmacia'],
             }
           ],
         },
       ],
+      limit: limit
     });
-   
+    
+    // Añadamos un log para debugging
+    
+    
     return products;
-  }catch (error) {
+  } catch (error) {
     console.error('Error al obtener los productos:', error);
     throw error;
   }

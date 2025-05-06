@@ -139,6 +139,7 @@ export async function getSalesThisWeek(startDate, endDate, offset = 0, limit = 1
       attributes: ["id", "nombre", "existencias"],
       offset,
       limit,
+      order: [['id', 'ASC']] ,
       raw: true,
     });
 
@@ -156,6 +157,7 @@ export async function getSalesThisWeek(startDate, endDate, offset = 0, limit = 1
           model: Product,
           as: "venta_product",
           attributes: ["id", "nombre", "existencias"],
+          order: [['id', 'ASC']] 
         },
         {
           model: ProductDetail,
@@ -265,7 +267,9 @@ export async function getSalesThisWeek(startDate, endDate, offset = 0, limit = 1
         const sales_all = await Venta.findAll({
           where: {
             "product": product.id,
+            
           },
+          
           include: [
             {
               model: ProductDetail,
@@ -438,6 +442,8 @@ export async function insertarCarrito() {
 
 export async function AgregarProductosCarrito(carrito , producto , cantidad, presentacion, id_producto_cantidad) {
   try {
+
+    console.log(id_producto_cantidad)
     const resultado = await Car_Products.create({
       carrito: carrito,
       producto: producto,
