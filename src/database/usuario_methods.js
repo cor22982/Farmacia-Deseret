@@ -1,17 +1,41 @@
 import User from "../entityes/user.js";
 import {Supplier, Schedule, Ubicacion, Product, ProductDetail} from "../entityes/relationships.js";
-import { Op } from "sequelize";
+import { Op, literal } from "sequelize";
+
+
+
 
 export async function getProduct__info_usuario(offset = 0, limit = 10, search = '') {
   try {
+    const isNumeric = !isNaN(search);
+    const proveedorId = isNumeric ? parseInt(search) : null;
+
+
+    
+
+    const where = search
+      ? {
+          [Op.or]: [
+            { nombre: { [Op.iLike]: `${search}%` } },
+            { descripcion_uso: { [Op.iLike]: `%${search}%` } },
+            ...(isNumeric ? [{ proveedor: proveedorId }] : [])
+          ]
+        }
+      : undefined;
+
+    const order = isNumeric
+      ? [['id', 'ASC']] // Si es proveedor, ordena por ID
+      : [[
+          literal(`CASE 
+            WHEN "products"."nombre" ILIKE '${search}%' THEN 0 
+            WHEN "products"."descripcion_uso" ILIKE '%${search}%' THEN 1 
+            ELSE 2 
+          END`),
+          'ASC'
+        ]];
+
     const products = await Product.findAll({
-      where: search
-        ? {
-            nombre: {
-              [Op.iLike]: `${search}%`, // Corregido: usando ${search} en lugar de {search}
-            },
-          }
-        : undefined,
+      where,
       attributes: [
         'id',
         'nombre',
@@ -23,7 +47,14 @@ export async function getProduct__info_usuario(offset = 0, limit = 10, search = 
         'principio_activo',
         'existencias',
         'dosificacion',
-        'accion_farmacologica'
+        'accion_farmacologica',
+        ...(isNumeric ? [] : [[
+          literal(`CASE 
+            WHEN "products"."nombre" ILIKE '${search}%' THEN 0 
+            WHEN "products"."descripcion_uso" ILIKE '%${search}%' THEN 1 
+            ELSE 2 
+          END`), 'orden_prioridad'
+        ]])
       ],
       include: [
         {
@@ -44,12 +75,11 @@ export async function getProduct__info_usuario(offset = 0, limit = 10, search = 
           ],
         },
       ],
-      limit: limit
+      order,
+      offset,
+      limit,
     });
-    
-    // Añadamos un log para debugging
-    
-    
+
     return products;
   } catch (error) {
     console.error('Error al obtener los productos:', error);
@@ -91,7 +121,7 @@ export async function getProduct_usuario() {
 export async function getUbicaciones_usuario() {
   try{
     const products = await Ubicacion.findAll();
-    console.log('Se otuvo las ubicaciones:');
+    //console.log('Se otuvo las ubicaciones:');
     return products;
   }catch (error) {
     console.error('Error al obtener las ubicaciones:', error);

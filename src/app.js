@@ -103,7 +103,8 @@ app.post('/sales_this_week', async (req, res) => {
   try {
     const startDate = req.body.startDate;
     const endDate = req.body.endDate;
-    const all_sales = await getSalesThisWeek(startDate, endDate,  req.body.offset,req.body.limit )
+    const search = req.body.search || '';
+    const all_sales = await getSalesThisWeek(startDate, endDate,  req.body.offset,req.body.limit, search )
     res.status(200).json({ success: true, sales: all_sales});
   }catch (error) {
     console.error('Error al obtener el producto:', error);
@@ -143,8 +144,8 @@ app.post('/infoproductos_allinfo', async (req, res) => {
     const offset = parseInt(req.body.offset) || 0;
     const limit = parseInt(req.body.limit) || 10;
     const search = req.body.search || '';
-    console.log(search)
-    const producto = await getProduct__info_usuario(offset, limit, search);
+    const type_search = req.body.type_search || '';
+    const producto = await getProduct__info_usuario(offset, limit, search, type_search);
 
 
     res.status(200).json({ success: true, productos: producto});
@@ -435,11 +436,12 @@ app.post('/getProductDetails', async (req, res) => {
 
 app.post('/getProducts', async (req, res) => {
   try {
+    const search = req.body.search || '';
     const validate_token = await validateToken(req.body.token)
     const {rol} = await decodeToken(req.body.token)
     if (validate_token && rol ==='admin'){
 
-      const allproducts = await getProduct(req.body.offset, req.body.limit);
+      const allproducts = await getProduct(req.body.offset, req.body.limit ,search );
       res.status(200).json({ success: true, message: 'Se obtuvo todos los productos', products: allproducts});
     } else{
       res.status(401).json({ success: false, message: 'No tienes permisos para obtener los productos'});
@@ -536,7 +538,7 @@ app.post('/proveedores_byid', async (req, res) => {
   try {
     const validate_token = await validateToken(req.body.token)
     const {rol} = await decodeToken(req.body.token)
-    if (validate_token && rol ==='admin'){
+    if (validate_token){
       const allsuppliers = await getProveedores_id()
       res.status(200).json({ success: true, proveedores: allsuppliers});
     } else{

@@ -12,7 +12,7 @@ import {
   PresentacionProducto, Venta} from "../entityes/relationships.js";
 import { response } from "express";
 import { Sequelize } from 'sequelize';
-import { Op } from "sequelize";
+import { Op , literal} from "sequelize";
 
 
 
@@ -133,15 +133,53 @@ export async function obtenerPresentaciones() {
   }
 }
 
-export async function getSalesThisWeek(startDate, endDate, offset = 0, limit = 10) {
+export async function getSalesThisWeek(startDate, endDate, offset = 0, limit = 10, search = '') {
+
+  const isNumeric = !isNaN(search);
+  const proveedorId = isNumeric ? parseInt(search) : null;
+
+
+  const where = search
+      ? {
+          [Op.or]: [
+            { nombre: { [Op.iLike]: `${search}%` } },
+            ...(isNumeric ? [{ proveedor: proveedorId }] : [])
+          ]
+        }
+      : undefined;
+
+  const order = isNumeric
+          ? [['id', 'ASC']] // Si es proveedor, ordena por ID
+          : [[
+              literal(`CASE 
+                WHEN "products"."nombre" ILIKE '${search}%' THEN 0  
+                ELSE 2 
+              END`),
+              'ASC'
+            ]];
+
   try {
     const products = await Product.findAll({
-      attributes: ["id", "nombre", "existencias"],
+      where,
+      attributes: [
+        "id", 
+        "nombre", 
+        "existencias",
+        ...(isNumeric ? [] : [[
+                  literal(`CASE 
+                    WHEN "products"."nombre" ILIKE '${search}%' THEN 0 
+                    ELSE 2 
+                  END`), 'orden_prioridad'
+                ]])
+
+      ],
       offset,
       limit,
-      order: [['id', 'ASC']] ,
+      order,
       raw: true,
     });
+
+    
 
    
 
@@ -866,11 +904,50 @@ export async function getProductDetails(id) {
 }
 
 
-export async function getProduct(offset = 0, limit = 10) {
+export async function getProduct(offset = 0, limit = 10, search= '') {
   try{
+
+    const isNumeric = !isNaN(search);
+    const proveedorId = isNumeric ? parseInt(search) : null;
+
+
+    const where = search
+      ? {
+          [Op.or]: [
+            { nombre: { [Op.iLike]: `${search}%` } },
+            { descripcion_uso: { [Op.iLike]: `%${search}%` } },
+            ...(isNumeric ? [{ proveedor: proveedorId }] : [])
+          ]
+        }
+      : undefined;
+
+    const order = isNumeric
+      ? [['id', 'ASC']] // Si es proveedor, ordena por ID
+      : [[
+          literal(`CASE 
+            WHEN "products"."nombre" ILIKE '${search}%' THEN 0 
+            WHEN "products"."descripcion_uso" ILIKE '%${search}%' THEN 1 
+            ELSE 2 
+          END`),
+          'ASC'
+        ]];
+
+
     const products = await Product.findAll({
-      offset,
-      limit,
+      
+      where,
+      attributes: {
+    include: isNumeric
+      ? []
+      : [[
+          literal(`CASE 
+            WHEN "products"."nombre" ILIKE '${search}%' THEN 0 
+            WHEN "products"."descripcion_uso" ILIKE '%${search}%' THEN 1 
+            ELSE 2 
+          END`), 'orden_prioridad'
+        ]],
+      },
+
       include: [
         {
           model: Supplier,
@@ -878,6 +955,9 @@ export async function getProduct(offset = 0, limit = 10) {
           attributes: ['id', 'tipo', 'proveedor_alternativo', 'estadisponible', 'nombre'],
         },
       ],
+      order,
+      offset,
+      limit,
     });
    
     return products;
