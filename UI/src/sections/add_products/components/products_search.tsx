@@ -5,18 +5,26 @@ import InputAdornment from '@mui/material/InputAdornment';
 import Autocomplete, { autocompleteClasses } from '@mui/material/Autocomplete';
 import { Product } from 'src/_mock/product';
 import { Iconify } from 'src/components/iconify';
+import { useState } from 'react';
 
-
-  
 // ----------------------------------------------------------------------
 
 type ProductSearchItemProps = {
   sx?: SxProps<Theme>;
-  products: Product[]; 
+  products: Product[];
   onSearch: (value: string) => void;
+  onEnter?: () => void; // <-- función opcional
 };
 
-export function ProductSearchItem({  sx, products, onSearch }: ProductSearchItemProps) {
+export function ProductSearchItem({ sx, products, onSearch, onEnter }: ProductSearchItemProps) {
+  const [inputValue, setInputValue] = useState('');
+
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'Enter' && onEnter) {
+      onEnter(); // ejecuta si se definió
+    }
+  };
+
   return (
     <Autocomplete
       sx={{ width: 280 }}
@@ -36,11 +44,16 @@ export function ProductSearchItem({  sx, products, onSearch }: ProductSearchItem
       options={products}
       getOptionLabel={(product) => product.nombre}
       isOptionEqualToValue={(option, value) => option.id === value.id}
-      onInputChange={(event, value) => onSearch(value)}
+      inputValue={inputValue}
+      onInputChange={(event, value) => {
+        setInputValue(value);
+        onSearch(value);
+      }}
       renderInput={(params) => (
         <TextField
           {...params}
           placeholder="Buscar Productos..."
+          onKeyDown={handleKeyDown}
           InputProps={{
             ...params.InputProps,
             startAdornment: (

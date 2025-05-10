@@ -106,44 +106,43 @@ export function ProductsView() {
   }
 
   const handleSearch = (value: string) => {
+    console.log("D2")
     setSearchValue(value);
-    if (value) {
-      const filtered = product_geted.filter((p) =>
-        p.nombre.toLowerCase().includes(value.toLowerCase())
-      );
-      setFilterProductos(filtered);
-    } else {
-      setFilterProductos(product_geted);   
-    }
+    
   };
   
   useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const fetchedProducts = await getProductInfo_whitout_info(searchValue);
+  const fetchProducts = async () => {
+    try {
+      const fetchedProducts = await getProductInfo_whitout_info('');
 
-        setProducts_overview(fetchedProducts)
-        if (carId !== null) {
-          try{
-          const carrito =  await getCarrito_byId(carId)
-          setMiCarrito(carrito)
-        }catch(err){
-          console.log(err)
+      if (carId !== null) {
+        try {
+          const carrito = await getCarrito_byId(carId);
+          setMiCarrito(carrito);
+        } catch (err) {
+          console.log(err);
         }
-        }
-        if (call1 === 0){
-          setFilterProductos(fetchedProducts)
-          setCall1(call1+1);
-        }
-        setProductos(fetchedProducts);
-       
-      } catch (error) {
-        console.error("Error fetching places:", error);
       }
-    };
-   // console.log(product_geted)
-    fetchProducts();
-  }, [getProductInfo_whitout_info, setProductos, carId, getCarrito_byId, setMiCarrito, call1, product_geted, filterproduct]);
+
+      setFilterProductos(fetchedProducts);
+      setProductos(fetchedProducts);
+      
+    } catch (error) {
+      console.error("Error fetching places:", error);
+    }
+  };
+
+  fetchProducts();
+}, []); // <-- Se ejecuta solo una vez al montar
+
+
+  const onSearchDemand = async() => {
+
+    const fetchedProducts = await getProductInfo_whitout_info(searchValue);
+    setProductos(fetchedProducts);
+    setFilterProductos(fetchedProducts)
+  }
 
   const handleOpenFilter = useCallback(() => {
     setOpenFilter(true);
@@ -219,11 +218,14 @@ export function ProductsView() {
             }}
           />
     <Box  display="flex">
-      <Box display="flex" justifyContent="flex-start" >
+      <Box display="flex" justifyContent="flex" gap="2rem"  >
             <ProductSearchItem
             
+            onEnter={onSearchDemand}
             onSearch={handleSearch}
             products={product_geted}/>
+
+            
           </Box>        
     
 

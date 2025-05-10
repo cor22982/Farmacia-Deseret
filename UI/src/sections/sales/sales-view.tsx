@@ -1,10 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, styled, Typography, Button, Box } from "@mui/material";
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, styled, Typography, Button, Box, Select, MenuItem } from "@mui/material";
 import useApi from "src/hooks/useApi";
 import source_link from "src/repository/source_repo";
 
-import { CircularProgress } from '@mui/material';
+
 import { Jornada, Presentacion, SaleProduct } from "src/_mock/sales";
+import { Supplier, useGetProveedores } from "src/_mock/supplier";
+import { ProductSearchItem } from "../add_products/components/products_search";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   color: theme.palette.common.white,
@@ -149,10 +151,6 @@ const estaEnLaSemana = fechaObjetivo >= primerDiaSemana && fechaObjetivo <= ulti
 console.log("Primer día de la semana (Lunes):", primerDiaSemana.toLocaleDateString("es-ES"));
 console.log("Último día de la semana (Sábado):", ultimoDiaSemana.toLocaleDateString("es-ES"));
 console.log("¿La fecha está en esta semana?", estaEnLaSemana);
-const requestBody = {
-  startDate: formatDate(primerDiaSemana),
-  endDate: formatDate(ultimoDiaSemana),
-};
 
 
 export const getWeeksOfMonth = (anio: number, mes: number) => {
@@ -191,29 +189,60 @@ export function SalesView() {
  
   const [loading, setLoading] = useState(false);
   const [offset, setOffset] = useState(0);
-  const limit = 20;
+  const limit = 200;
   
-
+  const [suppliers, setSupliers] = useState<Supplier[]>([]);
+  const { getProvedor_ById } = useGetProveedores();
   const {llamado: getVentas } = useApi(`${source_link}/sales_this_week`);
   const [salesData, setSalesData] = useState<SaleProduct[]>([]);
   const [monthlySales, setMonthlySales] = useState<any[]>([]);
-
+  const [searchValue, setSearchValue] = useState<string>('');
   const [hasMore, setHasMore] = useState(true);
 
+  const [value_suplier, setValueSupplier] = useState(100000); 
 
-  const requestBody = {
-    startDate: formatDate(primerDiaSemana),
-    endDate: formatDate(ultimoDiaSemana),
-    offset,
-    limit,
-  };
-  useEffect(() => {
+  const on_search_supplier = async(n: string) => {
+
+     const requestBody = {
+          startDate: formatDate(primerDiaSemana),
+          endDate: formatDate(ultimoDiaSemana),
+          offset,
+          limit,
+          search: n
+        };
+
+      const data =await  getVentas(requestBody, "POST");
+      setSalesData(data.sales.sales);
+        setValueSupplier(Number(n))
+      
+
+   
+
+
+  }
 
  
+  useEffect(() => {
+     const fetchSupplier = async () => {
+        try {
+          const fetchedSuppliers = await getProvedor_ById();
+          setSupliers(fetchedSuppliers)
+          
+        
+        } catch (error_t) {
+          console.error("Error fetching places:", error_t);
+        }
+      };
 
-
+    fetchSupplier();
     const fetchSales = async () => {
-     
+       const requestBody = {
+          startDate: formatDate(primerDiaSemana),
+          endDate: formatDate(ultimoDiaSemana),
+          offset,
+          limit,
+          search: searchValue
+        };
       const data =await  getVentas(requestBody, "POST");
 
 
@@ -234,9 +263,44 @@ export function SalesView() {
     fetchSales();
     
     
-  }, [getVentas]);
+  }, [offset]);
+
+  const handleSearch = (value: string) => {
+    setSearchValue(value);
+    
+  };
 
   
+
+
+  const on_Search_demand = async() => {
+     const requestBody = {
+          startDate: formatDate(primerDiaSemana),
+          endDate: formatDate(ultimoDiaSemana),
+          offset,
+          limit,
+          search: searchValue
+        };
+      
+        const data =await  getVentas(requestBody, "POST");
+
+
+      if (data.success) {
+
+       
+        setSalesData(data.sales.sales);
+
+       // console.log(data.sales.sales)
+
+        
+      
+      } else {
+        console.error("Error en la respuesta del servidor:", data);
+      }
+      setLoading(false);
+
+
+  }
 
 
   // Escuchar scroll para detectar fondo
@@ -250,6 +314,45 @@ export function SalesView() {
       <Typography variant="h4" flexGrow={1}>
                 Ventas
               </Typography>
+
+              <div style={{display: 'flex', gap: '2rem'}}>
+                <ProductSearchItem   
+                  onSearch={handleSearch}
+                  onEnter={on_Search_demand}
+                  products={[]}/>
+                
+                 <Select
+                                        labelId="demo-simple-select-label"
+                                        id="demo-simple-select"
+                                        sx={{
+                                          mb: 1,
+                                          '& .MuiOutlinedInput-root': {
+                                            '& fieldset': {
+                                              borderColor: '#919191',
+                                            },
+                                            '&:hover fieldset': {
+                                              borderColor: '#262626',
+                                            },
+                                            '&.Mui-focused fieldset': {
+                                              borderColor: '#050505',
+                                              borderWidth: 2,
+                                            },
+                                          },
+                                        }}
+                                        value={value_suplier}
+                                        onChange={(e) => on_search_supplier(String(e.target.value))}
+                                      >
+                                        <MenuItem value={100000}>
+                                          <em>Proveedor</em>
+                                        </MenuItem>
+                                        {suppliers.map((suplie) => (
+                                          <MenuItem value={suplie.id}>
+                                            <em>{suplie.nombre}</em>
+                                          </MenuItem>
+                                        ))}
+                            </Select>
+              </div>
+               
               {!loading && (
                 <Box display="flex" justifyContent="center" p={2} gap={2}>
                   <Button
@@ -337,7 +440,7 @@ export function SalesView() {
                 </TableCell>
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
                         {
-                          isNaN(
+                          Number.isNaN(
                             (product.existencias + product.ventasPorDia.reduce((acc: any, venta: any) => acc + venta, 0)) /
                             product.presentacionCantidad
                           )
@@ -365,7 +468,7 @@ export function SalesView() {
 
                   <TableCell key={rowIndex} align="center" sx={{ border: "1px solid #ccc" }}>
                     {
-                      isNaN(product.existencias / product.presentacionCantidad)
+                      Number.isNaN(product.existencias / product.presentacionCantidad)
                         ? 0
                         : (product.existencias / product.presentacionCantidad).toFixed(2)
                     }
@@ -380,9 +483,9 @@ export function SalesView() {
                   { product.presentacion}
                 </TableCell>
 
-                <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
+                <TableCell align="center" sx={{ border: "1px solid #ccc" }}/>
                     
-                </TableCell>
+
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
                  {product.fecha_vencimiento}
                 </TableCell>
@@ -401,7 +504,7 @@ export function SalesView() {
                   const result = Number(venta) / product.presentacionCantidad;
                   return (
                     <TableCell key={index} align="center" sx={{ border: "1px solid #ccc" }}>
-                      {isNaN(result) ? 0 : result.toFixed(0)}
+                      {Number.isNaN(result) ? 0 : result.toFixed(0)}
                     </TableCell>
                   );
                 })}
@@ -409,7 +512,7 @@ export function SalesView() {
 
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
                   {
-                    isNaN(
+                    Number.isNaN(
                       product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0) / product.presentacionCantidad
                     )
                       ? 0
@@ -425,7 +528,7 @@ export function SalesView() {
                   const sumaVentas = ventasNoNulas.reduce((acc: number, venta: number) => acc + venta, 0);
                   const cantidadVentas = ventasNoNulas.length || 1; // Evita división por 0
                   const result = (sumaVentas / cantidadVentas) / product.presentacionCantidad;
-                  return isNaN(result) ? 0 : result.toFixed(0);
+                  return Number.isNaN(result) ? 0 : result.toFixed(0);
                 })()}
               </TableCell>
 
@@ -434,7 +537,7 @@ export function SalesView() {
   {(() => {
     const totalVentas = product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0);
     const result = totalVentas / product.presentacionCantidad;
-    return isNaN(result) ? 0 : result.toFixed(0);
+    return Number.isNaN(result) ? 0 : result.toFixed(0);
   })()}
 </TableCell>
 
@@ -442,7 +545,7 @@ export function SalesView() {
   {(() => {
     const totalVentas = product.ventasPorSemana.reduce((acc: any, venta: any) => acc + venta, 0);
     const result = (2 * totalVentas) / product.presentacionCantidad;
-    return isNaN(result) ? 0 : result.toFixed(0);
+    return Number.isNaN(result) ? 0 : result.toFixed(0);
   })()}
 </TableCell>
 
