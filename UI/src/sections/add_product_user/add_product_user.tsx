@@ -19,7 +19,10 @@ export function AddProductUserView() {
   const [openUpdate , setOpenUpdate] = useState(false);
   const [searchValue, setSearchValue] = useState<string>('');
   const { getProvedor_ById } = useGetProveedores();
-  const [value_suplier, setValueSupplier] = useState(100000); 
+  const [value_suplier, setValueSupplier] = useState(100000);
+  
+  const [buscar, setBuscar_valor] = useState('')
+
 
   const handleSearch = (value: string) => {
     setSearchValue(value);
@@ -55,7 +58,7 @@ export function AddProductUserView() {
       try {
         // const fetchedSuppliers = await getProvedor_ById();
         // setSupliers(fetchedSuppliers)
-        const fetchedproducts = await getProductInfo_whitout_info('');
+        const fetchedproducts = await getProductInfo_whitout_info(buscar);
         setProducts(fetchedproducts);
         if (call1 === 0){
           setFilteredProducts(fetchedproducts)
@@ -69,13 +72,11 @@ export function AddProductUserView() {
 
     fetchProducts();
     fetchSupplier()
-  }, [call1]); 
+  }, [buscar, call1, getProductInfo_whitout_info, getProvedor_ById]); 
 
 
   const on_searching = async() => {
-    const fetchedproducts = await getProductInfo_whitout_info(searchValue);
-    setProducts(fetchedproducts);
-    setFilteredProducts(fetchedproducts)
+    setBuscar_valor(searchValue)
   }
 
   const on_search_supplier = async(n: string) => {

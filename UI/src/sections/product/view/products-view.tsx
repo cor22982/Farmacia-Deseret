@@ -100,6 +100,9 @@ export function ProductsView() {
 
   const [presentacion_selected, setPresentacionSelected] = useState<PresentacionProducto | null>(null)
 
+  const [buscar, setBuscar_valor] = useState('')
+
+
   const onSetCarrito = async() => {
     const respuesta_id = await newCarrito();
     setCarId(respuesta_id)
@@ -114,7 +117,7 @@ export function ProductsView() {
   useEffect(() => {
   const fetchProducts = async () => {
     try {
-      const fetchedProducts = await getProductInfo_whitout_info('');
+      const fetchedProducts = await getProductInfo_whitout_info(buscar);
 
       if (carId !== null) {
         try {
@@ -134,14 +137,11 @@ export function ProductsView() {
   };
 
   fetchProducts();
-}, []); // <-- Se ejecuta solo una vez al montar
+}, [buscar, getProductInfo_whitout_info,carId, getCarrito_byId ]); // <-- Se ejecuta solo una vez al montar
 
 
   const onSearchDemand = async() => {
-
-    const fetchedProducts = await getProductInfo_whitout_info(searchValue);
-    setProductos(fetchedProducts);
-    setFilterProductos(fetchedProducts)
+    setBuscar_valor(searchValue)
   }
 
   const handleOpenFilter = useCallback(() => {

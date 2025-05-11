@@ -56,6 +56,8 @@ export function GainsView() {
   const [value_suplier, setValueSupplier] = useState(100000); 
   const { getProvedor_ById } = useGetProveedores();
 
+  const [buscar, setBuscar_valor] = useState('')
+
   const openProduct = (id:number) => {
     setValueProduct(id);
     setOpenM2(true);
@@ -74,7 +76,7 @@ export function GainsView() {
         }
       };
     const fetchData = async () => {
-      const ganancias = await getGanancias('200', '0', '');
+      const ganancias = await getGanancias('200', '0', buscar);
       const formattedRows = ganancias.map((ganancia, index) => ({
         id: ganancia.id,
         no: index + 1,
@@ -97,7 +99,7 @@ export function GainsView() {
 
     fetchData();
     fetchSupplier();
-  }, []);
+  }, [buscar, getGanancias , getProvedor_ById]);
 
   // Calcular resumen
   const totalCosto = rows.reduce((acc, row) => acc + parseFloat(row.totalCosto), 0);
@@ -111,51 +113,34 @@ export function GainsView() {
   };
 
   const on_Search_Demand = async() => {
-    
-    const ganancias = await getGanancias('200', '0', searchValue);
-      const formattedRows = ganancias.map((ganancia, index) => ({
-        id: ganancia.id,
-        no: index + 1,
-        articulo: ganancia.articulo,
-        existencia: ganancia.existencia,
-        costo: ganancia.costo.toFixed(2),
-        pp: ganancia.pp.toFixed(2),
-        porcentaje: `${(ganancia.ganacia).toFixed(2)}%`,
-        totalCosto: ganancia.total_costo.toFixed(2),
-        totalPp: ganancia.total_pp.toFixed(2),
-        history: ganancia.detalles.map((detalle) => ({
-          presentacion: `${detalle.name} X ${detalle.cantidad_presentacion}`,
-          pp: detalle.pp.toFixed(2),
-          ganancia: `${detalle.ganancia.toFixed(2)}%`,
-          existencia: detalle.existencia,
-        })),
-      }));
-      setRows(formattedRows);
+    setBuscar_valor(searchValue)
 
 
   }
 
    const on_search_supplier = async(n: string) => {
      setValueSupplier(Number(n))
-     const ganancias = await getGanancias('200', '0', n);
-     const formattedRows = ganancias.map((ganancia, index) => ({
-        id: ganancia.id,
-        no: index + 1,
-        articulo: ganancia.articulo,
-        existencia: ganancia.existencia,
-        costo: ganancia.costo.toFixed(2),
-        pp: ganancia.pp.toFixed(2),
-        porcentaje: `${(ganancia.ganacia).toFixed(2)}%`,
-        totalCosto: ganancia.total_costo.toFixed(2),
-        totalPp: ganancia.total_pp.toFixed(2),
-        history: ganancia.detalles.map((detalle) => ({
-          presentacion: `${detalle.name} X ${detalle.cantidad_presentacion}`,
-          pp: detalle.pp.toFixed(2),
-          ganancia: `${detalle.ganancia.toFixed(2)}%`,
-          existencia: detalle.existencia,
-        })),
-      }));
-      setRows(formattedRows);
+    //  const ganancias = await getGanancias('200', '0', n);
+    //  const formattedRows = ganancias.map((ganancia, index) => ({
+    //     id: ganancia.id,
+    //     no: index + 1,
+    //     articulo: ganancia.articulo,
+    //     existencia: ganancia.existencia,
+    //     costo: ganancia.costo.toFixed(2),
+    //     pp: ganancia.pp.toFixed(2),
+    //     porcentaje: `${(ganancia.ganacia).toFixed(2)}%`,
+    //     totalCosto: ganancia.total_costo.toFixed(2),
+    //     totalPp: ganancia.total_pp.toFixed(2),
+    //     history: ganancia.detalles.map((detalle) => ({
+    //       presentacion: `${detalle.name} X ${detalle.cantidad_presentacion}`,
+    //       pp: detalle.pp.toFixed(2),
+    //       ganancia: `${detalle.ganancia.toFixed(2)}%`,
+    //       existencia: detalle.existencia,
+    //     })),
+    //   }));
+    //   setRows(formattedRows);
+
+    setBuscar_valor(n)
 
     
   }

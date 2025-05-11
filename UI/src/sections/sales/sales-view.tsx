@@ -201,23 +201,23 @@ export function SalesView() {
 
   const [value_suplier, setValueSupplier] = useState(100000); 
 
+
+
+
+
+
+
+  const [buscar, setBuscar_valor] = useState('')
+
+
+
+
+
+
   const on_search_supplier = async(n: string) => {
-
-     const requestBody = {
-          startDate: formatDate(primerDiaSemana),
-          endDate: formatDate(ultimoDiaSemana),
-          offset,
-          limit,
-          search: n
-        };
-
-      const data =await  getVentas(requestBody, "POST");
-      setSalesData(data.sales.sales);
-        setValueSupplier(Number(n))
-      
-
-   
-
+    
+    setBuscar_valor(n)
+    setValueSupplier(Number(n))
 
   }
 
@@ -241,7 +241,7 @@ export function SalesView() {
           endDate: formatDate(ultimoDiaSemana),
           offset,
           limit,
-          search: searchValue
+          search: buscar
         };
       const data =await  getVentas(requestBody, "POST");
 
@@ -263,7 +263,7 @@ export function SalesView() {
     fetchSales();
     
     
-  }, [offset]);
+  }, [buscar, getProvedor_ById, getVentas, offset]);
 
   const handleSearch = (value: string) => {
     setSearchValue(value);
@@ -274,30 +274,8 @@ export function SalesView() {
 
 
   const on_Search_demand = async() => {
-     const requestBody = {
-          startDate: formatDate(primerDiaSemana),
-          endDate: formatDate(ultimoDiaSemana),
-          offset,
-          limit,
-          search: searchValue
-        };
-      
-        const data =await  getVentas(requestBody, "POST");
-
-
-      if (data.success) {
-
-       
-        setSalesData(data.sales.sales);
-
-       // console.log(data.sales.sales)
-
-        
-      
-      } else {
-        console.error("Error en la respuesta del servidor:", data);
-      }
-      setLoading(false);
+    
+    setBuscar_valor(searchValue)
 
 
   }

@@ -47,6 +47,9 @@ export function AddProductsView() {
   const [value_suplier, setValueSupplier] = useState(100000); 
   const { getProvedor_ById } = useGetProveedores();
 
+  const [buscar, setBuscar_valor] = useState('')
+
+
   const [to_search, setTosearch] = useState('')
 
 
@@ -88,7 +91,7 @@ export function AddProductsView() {
 
     const fetchProducts = async () => {
       try {
-        const fetchedProducts = await getProductInfo(offset, limit, '');
+        const fetchedProducts = await getProductInfo(offset, limit, buscar);
         setProductos(fetchedProducts);
         
           setFilterProductos(fetchedProducts);
@@ -101,7 +104,7 @@ export function AddProductsView() {
   
     fetchProducts();
     fetchSupplier();
-  }, [offset, limit, call1, setCall1, setFilterProductos, setProductos]);
+  }, [buscar, offset, getProvedor_ById, getProductInfo]);
   
 
   const handleSort = useCallback((newSort: string) => {
@@ -120,11 +123,14 @@ export function AddProductsView() {
 
 
   const on_Search_Demand = async() => {
-    setTosearch(searchValue)
-    const fetchedProducts = await getProductInfo(offset, limit, searchValue);
-    setProductos(fetchedProducts);
+
+    setBuscar_valor(searchValue)
+
+    // setTosearch(searchValue)
+    // const fetchedProducts = await getProductInfo(offset, limit, searchValue);
+    // setProductos(fetchedProducts);
     
-    setFilterProductos(fetchedProducts);
+    // setFilterProductos(fetchedProducts);
 
 
   }
@@ -132,10 +138,7 @@ export function AddProductsView() {
   const on_search_supplier = async(n: string) => {
      setValueSupplier(Number(n))
 
-     const fetchedProducts = await getProductInfo(offset, limit, n);
-     setProductos(fetchedProducts);
-    
-     setFilterProductos(fetchedProducts);
+     setBuscar_valor(n)
   }
 
 
