@@ -47,6 +47,8 @@ export function AddProductsView() {
   const [value_suplier, setValueSupplier] = useState(100000); 
   const { getProvedor_ById } = useGetProveedores();
 
+  const [to_search, setTosearch] = useState('')
+
 
   const [openUpdate, setOpenUpdate] = useState(false);
 
@@ -118,6 +120,7 @@ export function AddProductsView() {
 
 
   const on_Search_Demand = async() => {
+    setTosearch(searchValue)
     const fetchedProducts = await getProductInfo(offset, limit, searchValue);
     setProductos(fetchedProducts);
     
@@ -219,35 +222,35 @@ export function AddProductsView() {
         products={product}/>
 
 
-<Select
-                      labelId="demo-simple-select-label"
-                      id="demo-simple-select"
-                      sx={{
-                        mb: 1,
-                        '& .MuiOutlinedInput-root': {
-                          '& fieldset': {
-                            borderColor: '#919191',
-                          },
-                          '&:hover fieldset': {
-                            borderColor: '#262626',
-                          },
-                          '&.Mui-focused fieldset': {
-                            borderColor: '#050505',
-                            borderWidth: 2,
-                          },
-                        },
-                      }}
-                      value={value_suplier}
-                      onChange={(e) => on_search_supplier(String(e.target.value))}
-                    >
-                      <MenuItem value={100000}>
-                        <em>Proveedor</em>
-                      </MenuItem>
-                      {suppliers.map((suplie) => (
-                        <MenuItem value={suplie.id}>
-                          <em>{suplie.nombre}</em>
-                        </MenuItem>
-                      ))}
+          <Select
+                labelId="demo-simple-select-label"
+                id="demo-simple-select"
+                sx={{
+                  mb: 1,
+                  '& .MuiOutlinedInput-root': {
+                    '& fieldset': {
+                      borderColor: '#919191',
+                    },
+                    '&:hover fieldset': {
+                      borderColor: '#262626',
+                    },
+                    '&.Mui-focused fieldset': {
+                      borderColor: '#050505',
+                      borderWidth: 2,
+                    },
+                  },
+                }}
+                value={value_suplier}
+                onChange={(e) => on_search_supplier(String(e.target.value))}
+              >
+                <MenuItem value={100000}>
+                  <em>Proveedor</em>
+                </MenuItem>
+                {suppliers.map((suplie) => (
+                  <MenuItem value={suplie.id}>
+                    <em>{suplie.nombre}</em>
+                  </MenuItem>
+                ))}
           </Select>
         
         
