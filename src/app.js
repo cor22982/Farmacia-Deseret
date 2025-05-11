@@ -388,9 +388,15 @@ app.post('/upload', upload.single('file'), (req, res) => {
 app.post('/getAllGanancias', async (req, res) => {
   try {
     const validate_token = await validateToken(req.body.token)
+
+
+    const search = req.body.search || '';
+    const offset = parseInt(req.body.offset) || 0;
+    const limit = parseInt(req.body.limit) || 10;
+
     const {rol} = await decodeToken(req.body.token)
     if (validate_token && rol ==='admin'){
-      const ganancias = await getGanancias();
+      const ganancias = await getGanancias(limit, offset, search);
       res.status(200).json({ success: true, message: 'Se obtuvo todas las ganancias', ganancias: ganancias});
     } else{
       res.status(401).json({ success: false, message: 'No tienes permisos para obtener las ganancias'});

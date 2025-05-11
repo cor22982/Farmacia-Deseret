@@ -982,10 +982,43 @@ export async function getProduct_basicInfo (id) {
   }
 }
 
-export async function getGanancias(){
+export async function getGanancias(limit = '', offset = '', search= ''){
   try{
+
+    const isNumeric = !isNaN(search);
+    const proveedorId = isNumeric ? parseInt(search) : null;
+    const where = search
+      ? {
+          [Op.or]: [
+            { nombre: { [Op.iLike]: `${search}%` } },
+            ...(isNumeric ? [{ proveedor: proveedorId }] : [])
+          ]
+        }
+      : undefined;
+    const order = isNumeric
+      ? [['id', 'ASC']] // Si es proveedor, ordena por ID
+      : [[
+          literal(`CASE 
+            WHEN "products"."nombre" ILIKE '${search}%' THEN 0 
+            ELSE 2 
+          END`),
+          'ASC'
+        ]];
     const ganacias = await Product.findAll({
-      attributes: ['id', 'nombre', 'ganancia', 'existencias', 'costo'],
+      where,
+      attributes: [
+          'id', 
+          'nombre', 
+          'ganancia', 
+          'existencias', 
+          'costo',
+         ...(isNumeric ? [] : [[
+          literal(`CASE 
+            WHEN "products"."nombre" ILIKE '${search}%' THEN 0 
+            ELSE 2 
+          END`), 'orden_prioridad'
+        ]])
+      ],
       include: [
         {
           model: PresentacionProducto,
@@ -993,6 +1026,9 @@ export async function getGanancias(){
           attributes: ['id', 'pp', 'porcentaje_ganancia', 'cantidad_presentacion', 'presentacion_id'],
         },
       ],
+      order,
+      offset,
+      limit,
 
     });
    
