@@ -827,8 +827,42 @@ export async function insertarProducto(nombre, forma_f, presentacion, id_supplie
 }
 
 
-export async function insertarProducto_Details(cantidad, fechac, fechav, costo, id_product, id_ubicacion) {
+/**
+ * Inserta detalles de un producto en la base de datos permitiendo usar ID o nombre del producto
+ * @param {number} cantidad - Cantidad del producto
+ * @param {Date|string} fechac - Fecha de compra
+ * @param {Date|string} fechav - Fecha de vencimiento
+ * @param {number} costo - Costo del producto
+ * @param {number|string} producto - ID o nombre del producto
+ * @param {number} id_ubicacion - ID de la ubicación
+ * @returns {Promise<boolean>} - True si la inserción fue exitosa, false en caso contrario
+ */
+export async function insertarProducto_Details(cantidad, fechac, fechav, costo, producto, id_ubicacion) {
   try {
+    let id_product;
+    
+    // Verificar si se proporcionó un ID (número) o un nombre (string)
+    if (typeof producto === 'number') {
+      // Si es un número, asumimos que es un ID
+      id_product = producto;
+    } else if (typeof producto === 'string') {
+      // Si es un string, buscamos el producto por nombre
+      const productoEncontrado = await Product.findOne({
+        where: { nombre: producto }
+      });
+      
+      if (!productoEncontrado) {
+        console.error('No se encontró un producto con el nombre:', producto);
+        return false;
+      }
+      
+      id_product = productoEncontrado.id;
+    } else {
+      console.error('El parámetro producto debe ser un ID (número) o un nombre (string)');
+      return false;
+    }
+    
+    // Crear el detalle del producto
     const resultado = await ProductDetail.create({
       cantidad: cantidad,
       fecha_compra: fechac,
@@ -837,7 +871,8 @@ export async function insertarProducto_Details(cantidad, fechac, fechav, costo, 
       id_product: id_product,
       ubicacion_id: id_ubicacion
     });
-    console.error('Se inserto con el id:', resultado.id);
+    
+    console.log('Se insertó con el id:', resultado.id);
     return true;
   } catch (error) {
     console.error('Error al insertar los detalles del producto:', error);
