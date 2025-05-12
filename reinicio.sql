@@ -1,0 +1,1 @@
+SELECT setval('ubicaciones_id_seq', 210, true);
