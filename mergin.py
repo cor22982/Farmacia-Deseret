@@ -2,9 +2,9 @@ import pandas as pd
 import ast
 
 # Cargar datasets
-df1 = pd.read_csv('./datav2/BYF.csv')              # Dataset con ARTICULO, EXISTENCIA, COSTO
-df2 = pd.read_csv('./final_out/byf.csv')           # Dataset con presentacion
-df3 = pd.read_csv('./datav2/IVR BYF.csv')           # Dataset con fechas
+df1 = pd.read_csv('./datav2/ROSADEL.csv')              # Dataset con ARTICULO, EXISTENCIA, COSTO
+df2 = pd.read_csv('./final_out/rosadel_out.csv')           # Dataset con presentacion
+df3 = pd.read_csv('./datav2/INV ROSADEL.csv')           # Dataset con fechas
 
 # Normalizar nombres para hacer match
 df1['ARTICULO_NORM'] = df1['ARTICULO'].str.upper().str.strip()
