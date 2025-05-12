@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Cargar el archivo Excel
-archivo_excel = './farmacia.xlsx'
-salida_carpeta = 'data'
+archivo_excel = './farmaciav2.xlsx'
+salida_carpeta = 'datav2'
 
 # Crear carpeta de salida si no existe
 os.makedirs(salida_carpeta, exist_ok=True)
