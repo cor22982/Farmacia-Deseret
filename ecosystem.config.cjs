@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'Farmacia',
-    script: 'src\\app.js',
+    script: 'src/app.js',
     args: 'start',
     watch: ['src/database/actualizaciones/.env', 'src/database/actualizaciones/actualizaciones.js'], // Rutas específicas para monitorear
     watch_delay: 50, // Retraso de 1 segundo antes de reiniciar
