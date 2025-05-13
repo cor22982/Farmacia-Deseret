@@ -43,10 +43,10 @@ import { Console } from 'console';
 
 const app = express();
 const port = 7000;
-dotenv.config({ path: 'src\\.env' });
+dotenv.config({ path: 'src/.env' });
 const corsOptions = {
-  origin: ['http://127.0.0.1:3000', 'http://localhost:4000', `http://${process.env.myip}:4000`, 
-    `${process.env.myip}:4000`
+  origin: ['http://127.0.0.1:3000', 'http://localhost:4000', `http://${process.env.MYIP}:4000`, 
+    `${process.env.MYIP}:4000`, `${process.env.MYIP}`
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
