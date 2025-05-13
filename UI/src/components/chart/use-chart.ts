@@ -97,12 +97,20 @@ export function useChart(options?: ChartOptions): ChartOptions {
       ...options?.states,
       hover: {
         ...options?.states?.hover,
-        filter: { type: 'darken', value: 0.88, ...options?.states?.hover?.filter },
+        filter: { 
+          type: 'darken', 
+          ...options?.states?.hover?.filter 
+        },
       },
+
       active: {
         ...options?.states?.active,
-        filter: { type: 'darken', value: 0.88, ...options?.states?.active?.filter },
+        filter: { 
+          type: 'darken', 
+          ...options?.states?.active?.filter 
+        },
       },
+
     },
 
     /** **************************************
