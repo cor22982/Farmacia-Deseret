@@ -6,7 +6,7 @@ dotenv.config({ path: 'src/coneccion/.env' });
 const { Client } = pg;
 
 const client = new Client({
-  user: process.env.USER,
+  user: process.env.USERDB,
   host: 'localhost',
   database: process.env.DATABASE,
   password: process.env.PASSWORD,
