@@ -2,7 +2,7 @@ import client from "../../coneccion/conection_actualizar.js";
 import fs from 'fs/promises';
 import dotenv from 'dotenv';
 
-const envPath = 'src\\database\\actualizaciones\\.env';
+const envPath = 'src/database/actualizaciones/.env';
 
 // Función para leer directamente una variable del archivo .env
 const getEnvVariable = async (key) => {
@@ -50,11 +50,11 @@ const modifyEnvVariable = async (key, value) => {
 // Función principal para actualizar
 export async function actualizar() {
   try {
-    const filePath = 'src\\database\\actualizaciones\\archivo_actualizaciones.sql';
+    const filePath = 'src/database/actualizaciones/archivo_actualizaciones.sql';
     const versionNueva = '8';
 
     // Leer la versión actual directamente desde el archivo .env
-    const versionActual = await getEnvVariable('version');
+    const versionActual = await getEnvVariable('VERSION');
     console.log('Versión actualizada del archivo .env:', versionActual);
 
     if (versionActual !== versionNueva) {
@@ -63,7 +63,7 @@ export async function actualizar() {
       const result = await client.query(sql);
 
       // Actualizar la versión en el archivo .env
-      await modifyEnvVariable('version', versionNueva);
+      await modifyEnvVariable('VERSION', versionNueva);
       return result;
     } else {
       console.log('No es necesario actualizar. La versión ya está actualizada.');
