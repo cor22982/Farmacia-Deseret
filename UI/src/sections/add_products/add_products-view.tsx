@@ -15,9 +15,13 @@ import { UpdateProduct } from 'src/components/ModalUpdateForms/UpdateProduct';
 import { ModalPresentacionProduct } from 'src/components/ModalForms/ModalPresentacionProduct';
 import { ModalStepper } from 'src/components/Stepper/Add_Cantidades_Presentaciones';
 import { ModalStepperProducto } from 'src/components/Stepper/Stepper_Producto';
-import { ProductsFilterList } from './components/products_filter_list';
-import { ProductSearchItem } from './components/products_search';
 import { ModalUploadAll } from 'src/components/ModalUploadAll/ModalUploadAll';
+import { Supplier, useGetProveedores } from 'src/_mock/supplier';
+import { MenuItem, Select } from '@mui/material';
+import { ProductSearchItem } from './components/products_search';
+
+
+
 
 // ----------------------------------------------------------------------
 
@@ -35,11 +39,18 @@ export function AddProductsView() {
   const [searchValue, setSearchValue] = useState<string>('');
   const [call1, setCall1] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [suppliers, setSupliers] = useState<Supplier[]>([]);
 
   const [offset, setOffset] = useState(0);
   const limit = 10;
   const [hasMore, setHasMore] = useState(true);
+  const [value_suplier, setValueSupplier] = useState(100000); 
+  const { getProvedor_ById } = useGetProveedores();
 
+  const [buscar, setBuscar_valor] = useState('')
+
+
+  const [to_search, setTosearch] = useState('')
 
 
   const [openUpdate, setOpenUpdate] = useState(false);
@@ -67,9 +78,20 @@ export function AddProductsView() {
   };
 
   useEffect(() => {
+    const fetchSupplier = async () => {
+        try {
+          const fetchedSuppliers = await getProvedor_ById();
+          setSupliers(fetchedSuppliers)
+          
+        
+        } catch (error_t) {
+          console.error("Error fetching places:", error_t);
+        }
+      };
+
     const fetchProducts = async () => {
       try {
-        const fetchedProducts = await getProductInfo(offset, limit);
+        const fetchedProducts = await getProductInfo(offset, limit, buscar);
         setProductos(fetchedProducts);
         
           setFilterProductos(fetchedProducts);
@@ -81,7 +103,8 @@ export function AddProductsView() {
     };
   
     fetchProducts();
-  }, [offset, limit, call1, setCall1, setFilterProductos, setProductos]);
+    fetchSupplier();
+  }, [buscar, offset, getProvedor_ById, getProductInfo]);
   
 
   const handleSort = useCallback((newSort: string) => {
@@ -99,6 +122,24 @@ export function AddProductsView() {
   };
 
 
+  const on_Search_Demand = async() => {
+
+    setBuscar_valor(searchValue)
+
+    // setTosearch(searchValue)
+    // const fetchedProducts = await getProductInfo(offset, limit, searchValue);
+    // setProductos(fetchedProducts);
+    
+    // setFilterProductos(fetchedProducts);
+
+
+  }
+
+  const on_search_supplier = async(n: string) => {
+     setValueSupplier(Number(n))
+
+     setBuscar_valor(n)
+  }
 
 
   const handleClicked2 = () => {
@@ -180,53 +221,44 @@ export function AddProductsView() {
       <ProductSearchItem
         
         onSearch={handleSearch}
+        onEnter={on_Search_Demand}
         products={product}/>
 
 
-        <Box display="flex" alignItems= 'center' flexDirection="column">
-          <Typography variant="body2" flexGrow={1}>
-            Proveedor
-          </Typography>
-          <ProductsFilterList
-            sortBy={sortBy}
-            onSort={handleSort}
-              options={[
-                { value: 'latest', label: 'Latest' },
-                { value: 'popular', label: 'Popular' },
-                { value: 'oldest', label: 'Oldest' },
-              ]}
-            />
-        </Box>
+          <Select
+                labelId="demo-simple-select-label"
+                id="demo-simple-select"
+                sx={{
+                  mb: 1,
+                  '& .MuiOutlinedInput-root': {
+                    '& fieldset': {
+                      borderColor: '#919191',
+                    },
+                    '&:hover fieldset': {
+                      borderColor: '#262626',
+                    },
+                    '&.Mui-focused fieldset': {
+                      borderColor: '#050505',
+                      borderWidth: 2,
+                    },
+                  },
+                }}
+                value={value_suplier}
+                onChange={(e) => on_search_supplier(String(e.target.value))}
+              >
+                <MenuItem value={100000}>
+                  <em>Proveedor</em>
+                </MenuItem>
+                {suppliers.map((suplie) => (
+                  <MenuItem value={suplie.id}>
+                    <em>{suplie.nombre}</em>
+                  </MenuItem>
+                ))}
+          </Select>
         
-        <Box display="flex"  flexDirection="column">
-          <Typography variant="body2" flexGrow={1}>
-           Fecha de Vencimiento
-          </Typography>
-          <ProductsFilterList
-            sortBy={sortBy}
-            onSort={handleSort}
-              options={[
-                { value: 'latest', label: 'Latest' },
-                { value: 'popular', label: 'Popular' },
-                { value: 'oldest', label: 'Oldest' },
-              ]}
-            />
-            
-        </Box>
-        <Box display="flex" alignItems= 'center' flexDirection="column">
-          <Typography variant="body2" flexGrow={1}>
-           Presentacion
-          </Typography>
-          <ProductsFilterList
-            sortBy={sortBy}
-            onSort={handleSort}
-              options={[
-                { value: 'latest', label: 'Latest' },
-                { value: 'popular', label: 'Popular' },
-                { value: 'oldest', label: 'Oldest' },
-              ]}
-            />
-        </Box>
+        
+       
+       
    
         </Box> 
                       {!loading && (

@@ -54,8 +54,9 @@ export const useGetGanancias = () =>{
   const {token} = useToken();
   const {getOnePresentacion } = useGetPresentaciones();
 
-  const getGanancias = async (): Promise<Ganancia[]> => {
-    const body = { token };
+  const getGanancias = async (limit: string, offset: string, search: string): Promise<Ganancia[]> => {
+    const body = { token, limit, offset, search };
+    
     const response = await getAllGanancias(body, "POST");
 
     if (response.success && Array.isArray(response.ganancias)) {
