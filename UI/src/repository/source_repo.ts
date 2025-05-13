@@ -1,3 +1,3 @@
 
-const source_link = 'http://34.194.242.225:7000'
+const source_link = 'https://farmaciatest.prontoexpress.org'
 export default source_link;
