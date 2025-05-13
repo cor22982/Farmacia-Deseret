@@ -1,0 +1,8 @@
+[build]
+  base = "UI"
+  publish = "UI/dist"
+  command = "yarn build"
+
+[context.production.environment]
+  NODE_VERSION = "20.11.1"
+
