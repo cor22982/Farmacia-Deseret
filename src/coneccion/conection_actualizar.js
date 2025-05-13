@@ -1,15 +1,15 @@
 import dotenv from 'dotenv';
 import pg from 'pg';
 
-dotenv.config({ path: 'src\\coneccion\\.env' });
+dotenv.config({ path: 'src/coneccion/.env' });
 
 const { Client } = pg;
 
 const client = new Client({
-  user: process.env.user,
+  user: process.env.USER,
   host: 'localhost',
-  database: process.env.database,
-  password: process.env.password,
+  database: process.env.DATABASE,
+  password: process.env.PASSWORD,
   port: 5432,
 });
 
