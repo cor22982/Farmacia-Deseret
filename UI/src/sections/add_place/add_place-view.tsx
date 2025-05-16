@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import { Grid } from '@mui/material';
+import { Grid, LinearProgress } from '@mui/material';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { DashboardContent } from 'src/layouts/dashboard';
@@ -36,6 +36,7 @@ export function AddPlaceView() {
   const [call1, setCall1] = useState(0);
   
   const [idplace, setPlaceId] = useState<string>('');
+  const [isRendering, setIsRendering] = useState(true);
 
   
   const contentRef = useRef<HTMLDivElement>(null);
@@ -44,6 +45,7 @@ export function AddPlaceView() {
 
   useEffect(() => {
     const fetchPlaces = async () => {
+      setIsRendering(true)
       try {
         const fetchedPlaces = await getPlaces();
         setPlaces(fetchedPlaces);
@@ -55,11 +57,14 @@ export function AddPlaceView() {
       
       } catch (error) {
         console.error("Error fetching places:", error);
+      }finally {
+        setIsRendering(false); // Termina el renderizado cuando los productos se cargan
       }
     };
 
     fetchPlaces();
-  }, [getPlaces, setCall1, call1]); 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); 
 
   
 
@@ -148,8 +153,14 @@ export function AddPlaceView() {
         places={places}
        />
       </Box> 
-      <Grid container
-  spacing={2}   sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
+
+      {
+          isRendering? (
+                <LinearProgress />  // Muestra el CircularProgress mientras los productos se cargan
+              ) 
+                : (
+
+ <Grid container spacing={2}   sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
       {filteredPlaces.map((place) => (
           <Box key={place.id} paddingBottom="1rem" paddingLeft="1rem">
             <PlaceSupCard
@@ -161,6 +172,10 @@ export function AddPlaceView() {
           </Box>
         ))}
       </Grid>
+
+                )
+                }
+     
     </DashboardContent>
   );
 }

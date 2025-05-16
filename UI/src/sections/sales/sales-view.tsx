@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, styled, Typography, Button, Box, Select, MenuItem } from "@mui/material";
 import useApi from "src/hooks/useApi";
 import source_link from "src/repository/source_repo";
+import LinearProgress from '@mui/material/LinearProgress';
 
 
 import { Jornada, Presentacion, SaleProduct } from "src/_mock/sales";
@@ -199,6 +200,9 @@ export function SalesView() {
   const [searchValue, setSearchValue] = useState<string>('');
   const [hasMore, setHasMore] = useState(true);
 
+  
+
+ 
   const [value_suplier, setValueSupplier] = useState(100000); 
 
 
@@ -209,6 +213,8 @@ export function SalesView() {
 
   const [buscar, setBuscar_valor] = useState('')
 
+
+  const [cargando, setCargando] = useState(true)
 
 
 
@@ -221,7 +227,7 @@ export function SalesView() {
 
   }
 
- 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
      const fetchSupplier = async () => {
         try {
@@ -236,34 +242,49 @@ export function SalesView() {
 
     fetchSupplier();
     const fetchSales = async () => {
-       const requestBody = {
-          startDate: formatDate(primerDiaSemana),
-          endDate: formatDate(ultimoDiaSemana),
-          offset,
-          limit,
-          search: buscar
-        };
-      const data =await  getVentas(requestBody, "POST");
+
+      setIsRendering(true)
 
 
-      if (data.success) {
+      try{            
+        const requestBody = {
+            startDate: formatDate(primerDiaSemana),
+            endDate: formatDate(ultimoDiaSemana),
+            offset,
+            limit,
+            search: buscar
+          };
+        const data =await  getVentas(requestBody, "POST");
 
-       
-        setSalesData(data.sales.sales);
 
-       // console.log(data.sales.sales)
+        if (data.success) {
 
         
-      
-      } else {
-        console.error("Error en la respuesta del servidor:", data);
+          setSalesData(data.sales.sales);
+
+        // console.log(data.sales.sales)
+
+          
+        
+        } else {
+          console.error("Error en la respuesta del servidor:", data);
+        }
+        setLoading(false);
+        
+
+      }catch (error) {
+        console.error("Error fetching places:", error);
+      }finally {
+        setIsRendering(false); // Termina el renderizado cuando los productos se cargan
       }
-      setLoading(false);
+
     }
     fetchSales();
+
+    setCargando(false)
     
-    
-  }, [buscar, getProvedor_ById, getVentas, offset]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [buscar, offset]);
 
   const handleSearch = (value: string) => {
     setSearchValue(value);
@@ -285,6 +306,12 @@ export function SalesView() {
   const handleLoadMore = () => {
     setOffset((prev) => prev + limit);
   };
+
+  const [isRendering, setIsRendering] = useState(true);
+
+
+   
+  
 
   return (
     <TableContainer component={Paper}>
@@ -349,6 +376,11 @@ export function SalesView() {
                   </Button>
                 </Box>
               )}
+
+      {
+        isRendering? (
+                  <LinearProgress />  // Muestra el CircularProgress mientras los productos se cargan
+                ) : (
       <Table sx={{ minWidth: 800 }} aria-label="customized table">
         <TableHead>
           <TableRow>
@@ -605,6 +637,11 @@ export function SalesView() {
           ))} */}
         </TableBody>
       </Table>
+
+
+                  
+                )
+      }
 
 
   

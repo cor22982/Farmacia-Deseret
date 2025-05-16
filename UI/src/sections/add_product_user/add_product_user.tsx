@@ -20,6 +20,7 @@ export function AddProductUserView() {
   const [searchValue, setSearchValue] = useState<string>('');
   const { getProvedor_ById } = useGetProveedores();
   const [value_suplier, setValueSupplier] = useState(100000);
+  const [isRendering, setIsRendering] = useState(true);
   
   const [buscar, setBuscar_valor] = useState('')
 
@@ -55,6 +56,7 @@ export function AddProductUserView() {
       };
 
     const fetchProducts = async () => {
+      setIsRendering(true)
       try {
         // const fetchedSuppliers = await getProvedor_ById();
         // setSupliers(fetchedSuppliers)
@@ -67,6 +69,8 @@ export function AddProductUserView() {
       
       } catch (error) {
         console.error("Error fetching places:", error);
+      }finally {
+        setIsRendering(false); // Termina el renderizado cuando los productos se cargan
       }
     };
 

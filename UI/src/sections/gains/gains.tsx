@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Typography from '@mui/material/Typography';
 import { DashboardContent } from 'src/layouts/dashboard';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
-import { Box, Collapse, IconButton, MenuItem, Paper, Select } from '@mui/material';
+import { Box, Collapse, IconButton, LinearProgress, MenuItem, Paper, Select } from '@mui/material';
 import { ModalPresentacionProduct } from 'src/components/ModalForms/ModalPresentacionProduct';
 import { Iconify } from 'src/components/iconify';
 import { ModalStepper } from 'src/components/Stepper/Add_Cantidades_Presentaciones';
@@ -55,6 +55,7 @@ export function GainsView() {
   const [searchValue, setSearchValue] = useState<string>('');
   const [value_suplier, setValueSupplier] = useState(100000); 
   const { getProvedor_ById } = useGetProveedores();
+  const [isRendering, setIsRendering] = useState(true);
 
   const [buscar, setBuscar_valor] = useState('')
 
@@ -76,30 +77,43 @@ export function GainsView() {
         }
       };
     const fetchData = async () => {
-      const ganancias = await getGanancias('200', '0', buscar);
-      const formattedRows = ganancias.map((ganancia, index) => ({
-        id: ganancia.id,
-        no: index + 1,
-        articulo: ganancia.articulo,
-        existencia: ganancia.existencia,
-        costo: ganancia.costo.toFixed(2),
-        pp: ganancia.pp.toFixed(2),
-        porcentaje: `${(ganancia.ganacia).toFixed(2)}%`,
-        totalCosto: ganancia.total_costo.toFixed(2),
-        totalPp: ganancia.total_pp.toFixed(2),
-        history: ganancia.detalles.map((detalle) => ({
-          presentacion: `${detalle.name} X ${detalle.cantidad_presentacion}`,
-          pp: detalle.pp.toFixed(2),
-          ganancia: `${detalle.ganancia.toFixed(2)}%`,
-          existencia: detalle.existencia,
-        })),
-      }));
-      setRows(formattedRows);
+      setIsRendering(true)
+
+      try{
+
+          const ganancias = await getGanancias('200', '0', buscar);
+          const formattedRows = ganancias.map((ganancia, index) => ({
+            id: ganancia.id,
+            no: index + 1,
+            articulo: ganancia.articulo,
+            existencia: ganancia.existencia,
+            costo: ganancia.costo.toFixed(2),
+            pp: ganancia.pp.toFixed(2),
+            porcentaje: `${(ganancia.ganacia).toFixed(2)}%`,
+            totalCosto: ganancia.total_costo.toFixed(2),
+            totalPp: ganancia.total_pp.toFixed(2),
+            history: ganancia.detalles.map((detalle) => ({
+              presentacion: `${detalle.name} X ${detalle.cantidad_presentacion}`,
+              pp: detalle.pp.toFixed(2),
+              ganancia: `${detalle.ganancia.toFixed(2)}%`,
+              existencia: detalle.existencia,
+            })),
+          }));
+          setRows(formattedRows);
+
+      }catch (error) {
+        console.error("Error fetching places:", error);
+      }finally {
+        setIsRendering(false); // Termina el renderizado cuando los productos se cargan
+      }
+      
     };
 
     fetchData();
     fetchSupplier();
-  }, [buscar, getGanancias , getProvedor_ById]);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [buscar]);
 
   // Calcular resumen
   const totalCosto = rows.reduce((acc, row) => acc + parseFloat(row.totalCosto), 0);
@@ -153,7 +167,7 @@ export function GainsView() {
           <Iconify icon="mdi:pencil" width={20} />
         </IconButton>
       )
-     },
+     }, 
     { field: 'no', headerName: 'No', width: 50 },
     {
       field: 'articulo',
@@ -234,7 +248,9 @@ export function GainsView() {
                   </Select>
 
         </Box>
-        
+         { isRendering? (
+                <LinearProgress />  // Muestra el CircularProgress mientras los productos se cargan
+              ) : (
         <DataGrid
           rows={rows}
           columns={columns}
@@ -249,7 +265,7 @@ export function GainsView() {
           checkboxSelection
           disableRowSelectionOnClick
           getRowHeight={() => 'auto'}
-        />
+        /> )} 
       </Box>
 
       {/* Resumen */}

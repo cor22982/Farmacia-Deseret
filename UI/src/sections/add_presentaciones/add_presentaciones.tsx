@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import { Grid } from '@mui/material';
+import { Grid, LinearProgress } from '@mui/material';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { DashboardContent } from 'src/layouts/dashboard';
@@ -42,10 +42,12 @@ export function AddPresentacionesView() {
   const { getPresentaciones} = useGetPresentaciones();
 
   const [idplace, setPlaceId] = useState<string>('');
+  const [isRendering, setIsRendering] = useState(true);
 
 
   useEffect(() => {
     const fetchPresentaciones = async () => {
+      setIsRendering(true)
       try {
         const fetchedPresentaciones = await getPresentaciones();
         if (call1 === 0){
@@ -55,11 +57,14 @@ export function AddPresentacionesView() {
         
       } catch (error) {
         console.error("Error fetching presentaciones:", error);
+      }finally {
+        setIsRendering(false); // Termina el renderizado cuando los productos se cargan
       }
     };
 
     fetchPresentaciones();
-  }, [getPresentaciones, call1]); 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); 
 
   
 
@@ -124,15 +129,21 @@ export function AddPresentacionesView() {
       </Box>
      
       <Grid container
-  spacing={2}   sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
-      {presentaciones.map((p) => (
+        spacing={2}   sx={{ maxHeight: '65vh', overflowY: 'auto' }}>
+
+{
+    isRendering? (
+          <LinearProgress />  // Muestra el CircularProgress mientras los productos se cargan
+        ) 
+          : (
+      presentaciones.map((p) => (
           <Box key={p.id} paddingBottom="1rem" paddingLeft="1rem">
             <PresentacionCard
               sePresentacion={setUpdate_Open}
               setCall={setCall1}
               presentacion={p}/>
           </Box>
-        ))}
+        )))}
       </Grid>
     </DashboardContent>
   );

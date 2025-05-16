@@ -17,7 +17,7 @@ import { ModalStepper } from 'src/components/Stepper/Add_Cantidades_Presentacion
 import { ModalStepperProducto } from 'src/components/Stepper/Stepper_Producto';
 import { ModalUploadAll } from 'src/components/ModalUploadAll/ModalUploadAll';
 import { Supplier, useGetProveedores } from 'src/_mock/supplier';
-import { MenuItem, Select } from '@mui/material';
+import { CircularProgress, LinearProgress, MenuItem, Select } from '@mui/material';
 import { ProductSearchItem } from './components/products_search';
 
 
@@ -46,7 +46,7 @@ export function AddProductsView() {
   const [hasMore, setHasMore] = useState(true);
   const [value_suplier, setValueSupplier] = useState(100000); 
   const { getProvedor_ById } = useGetProveedores();
-
+  const [isRendering, setIsRendering] = useState(true);
   const [buscar, setBuscar_valor] = useState('')
 
 
@@ -90,21 +90,23 @@ export function AddProductsView() {
       };
 
     const fetchProducts = async () => {
+      setIsRendering(true);  // Comienza el renderizado cuando se empieza a cargar los productos.
       try {
         const fetchedProducts = await getProductInfo(offset, limit, buscar);
         setProductos(fetchedProducts);
-        
-          setFilterProductos(fetchedProducts);
-          
-       
+        setFilterProductos(fetchedProducts);
       } catch (error) {
         console.error("Error fetching places:", error);
+      } finally {
+        setIsRendering(false); // Termina el renderizado cuando los productos se cargan
       }
     };
   
     fetchProducts();
     fetchSupplier();
-  }, [buscar, offset, getProvedor_ById, getProductInfo]);
+    
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [buscar, offset]);
   
 
   const handleSort = useCallback((newSort: string) => {
@@ -123,6 +125,8 @@ export function AddProductsView() {
 
 
   const on_Search_Demand = async() => {
+
+    setIsRendering(true)
 
     setBuscar_valor(searchValue)
 
@@ -279,7 +283,13 @@ export function AddProductsView() {
                           </Button>
                         </Box>
                       )}
-    {filterproduct.map((p) => (
+
+
+    { isRendering? (
+        <LinearProgress />  // Muestra el CircularProgress mientras los productos se cargan
+      )
+      : (
+    filterproduct.map((p) => (
         <Box sx={{paddingBottom: '1rem'}}>
             <ProductCard 
               openpresentacion={presentacionOpen}
@@ -288,7 +298,8 @@ export function AddProductsView() {
               setIdProduct={updateOpen}
               product={p}/>
           </Box>
-        ))}  
+        ))
+        )} 
     </DashboardContent>
   );
 }

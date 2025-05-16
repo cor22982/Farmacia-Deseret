@@ -16,8 +16,10 @@ import { ModalSupplierTime } from 'src/components/ModalForms/ModalSupplierTime';
 import useToken from 'src/hooks/useToken';
 import { UpdateSupplierModal } from 'src/components/ModalUpdateForms/UpdateSupplier';
 import { useGetProveedores,  Supplier } from 'src/_mock/supplier';
+import { LinearProgress } from '@mui/material';
 import { SupplierSearchItem } from './components/supplier_search';
 import { SupplierFilterList } from './components/supplier_filter_list';
+
 
 
 // ----------------------------------------------------------------------
@@ -37,6 +39,9 @@ export function AddSourcerView() {
   const [searchValue, setSearchValue] = useState<string>('');
 
 
+  const [isRendering, setIsRendering] = useState(true);
+
+
 
 
   const updateOpen = (id:number) => {
@@ -51,6 +56,7 @@ export function AddSourcerView() {
 
   useEffect(() => {
     const fetchSupplier = async () => {
+      setIsRendering(true)
       try {
         const fetchedSuppliers = await getProveedores_Complete();
         setSupliers(fetchedSuppliers)  
@@ -60,11 +66,14 @@ export function AddSourcerView() {
         }    
       } catch (error) {
         console.error("Error fetching places:", error);
+      }finally {
+        setIsRendering(false); // Termina el renderizado cuando los productos se cargan
       }
     };
 
     fetchSupplier();
-  }, [getProveedores_Complete, setSupliers, suppliers, call1, setFilteredSupplier ]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   
   const handleSort = useCallback((newSort: string) => {
     setSortBy(newSort);
@@ -181,7 +190,16 @@ export function AddSourcerView() {
     
         </Box>
       <Box >
-        {filteredSupplier.map((suplier) => (
+
+        {
+
+          isRendering? (
+                    <LinearProgress />  // Muestra el CircularProgress mientras los productos se cargan
+                  ) 
+                    : (
+        
+
+        filteredSupplier.map((suplier) => (
           <Box sx={{paddingBottom: '1rem'}}>
             <SupplierCard
               setOpenAgregar={AgregarOpen}   
@@ -189,7 +207,7 @@ export function AddSourcerView() {
               key={suplier.id} suplier={suplier}
               setCall={setCall1}/>
           </Box>
-        ))}
+        )))}
       </Box>
     </DashboardContent>
   );
