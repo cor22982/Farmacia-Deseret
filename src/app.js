@@ -2,6 +2,7 @@ import express, { response } from 'express';
 import multer from 'multer';
 import fs from 'fs';
 import path from 'path';
+import { exec } from 'child_process';
 import dotenv from 'dotenv';
 import { getUsers, verifyUserCredentials, 
   insertarUbicacion, getUbicaciones, 
@@ -39,11 +40,18 @@ import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
 import { Console } from 'console';
 
+
 // Middleware para procesar el cuerpo de las solicitudes JSON
 
 const app = express();
 const port = 7000;
 dotenv.config({ path: 'src\\.env' });
+
+const PATH_BACKEND = `${process.env.backend}`;
+const PATH_FRONTEND = `${process.env.fronted}`;
+
+
+
 const corsOptions = {
   origin: ['http://127.0.0.1:3000', 'http://localhost:4000', `http://${process.env.myip}:4000`, 
     `${process.env.myip}:4000`
@@ -71,6 +79,44 @@ app.get('/', (req, res) => {
   res.send('Farmacia Deseret');
 });
 
+
+const runCommand = (command, cwd) => {
+  return new Promise((resolve, reject) => {
+    exec(command, { cwd, shell: 'cmd.exe' }, (err, stdout, stderr) => {
+      if (err) reject(stderr);
+      else resolve(stdout);
+    });
+  });
+};
+
+
+app.post('/deploy', async (req, res) => {
+  try {
+    const validate_token = await validateToken(req.body.token)
+    const {rol} = await decodeToken(req.body.token)
+
+     if (validate_token && rol ==='admin'){
+
+        const backendOutput = await runCommand(
+          'git pull && npm install && pm2 restart ecosystem.config.cjs',
+          PATH_BACKEND
+        );
+
+        const frontendOutput = await runCommand(
+          'git pull && npm install && npm run build && pm2 delete all && pm2 serve dist 4000 --spa',
+          PATH_FRONTEND
+        );
+
+        res.status(200).json({ success: true, message: 'No tienes permisos para actualizar'});
+     }
+    
+
+    res.status(200).json({ success: false, message: 'No tienes permisos para actualizar'});
+  } catch (error) {
+    console.log(error)
+    res.status(500).json({ success: false, message: 'Un error ha ocurrido'});
+  }
+});
 
 
 
