@@ -1,5 +1,5 @@
 import React, { forwardRef , useState, useEffect, useCallback} from 'react';
-import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton, TableContainer, Table, TableHead, TableRow, TableCell, Paper, TableBody } from '@mui/material';
+import { CircularProgress, Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton, TableContainer, Table, TableHead, TableRow, TableCell, Paper, TableBody } from '@mui/material';
 import { Place, useGetPlaces} from 'src/_mock/places';
 import { useGetProduct_Details, ProductDetail } from 'src/_mock/product_detail';
 import { Product, useGetProducts } from 'src/_mock/product';
@@ -46,13 +46,15 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
 
     const [value_ubicacion, setValueUbicacion] = useState(100000); 
     const [ubicaciones, setUbicaciones] = useState<Place[]>([]);
+    
+      
     const {getDetails_ById_user} = useGetProduct_Details()
     const { getPlaces_usuario } = useGetPlaces();
     const [details, setDetails] = useState<ProductDetail[]>([]);
     const {llamado: insertdetail} = useApi(`${source_link}/insertProductDetails_usuario`)
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { cantidad: 0, fechac: '', fechav: '', costo: 0})
-    const [ubicaciones_by_defect, setUbicaciones_defect] = useState<string[]>([]);
-
+    const [ubicaciones_by_defect, setUbicaciones_defect] = useState<string[]>([]);  
+    const [isRendering, setIsRendering] = useState(true);
     const {llamado: deletedetail} = useApi(`${source_link}/deleteProductos_Cantidades`)
 
     const onDeleteProducto_Detail = async (id_detail: number) => {
@@ -74,54 +76,72 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
     };
 
 
-    useEffect(() => {
-      const fetchPlaces = async () => {
-        try {
-          const fetchedPlaces = await getPlaces_usuario();
-          const product_details_geted = await getDetails_ById_user(product?.id || 0)
-          setDetails(product_details_geted)
-          setUbicaciones(fetchedPlaces)
-          const lista_ubicaciones: string[] = [];
-            product?.listdetails?.forEach((detalle) => {
-                lista_ubicaciones.push(detalle.ubicacion.id);
-            });
-          setUbicaciones_defect(lista_ubicaciones)
-                          
-        } catch (error) {
-          console.error("Error fetching places:", error);
-        }
-      };
+    
+    const [loadedProductId, setLoadedProductId] = useState<number | null>(null);
+
+useEffect(() => {
+  const fetchPlaces = async () => {
+    if (!product?.id || product.id === loadedProductId) return; // No recargar si es el mismo producto
+
+    setIsRendering(true);
+    try {
+      const fetchedPlaces = await getPlaces_usuario();
+      const product_details_geted = await getDetails_ById_user(product.id);
+      setDetails(product_details_geted);
+      setUbicaciones(fetchedPlaces);
+
+      const lista_ubicaciones: string[] = [];
+      product.listdetails?.forEach((detalle) => {
+        lista_ubicaciones.push(detalle.ubicacion.id);
+      });
+      setUbicaciones_defect(lista_ubicaciones);
+      setLoadedProductId(product.id); // Marcar como cargado
+    } catch (error) {
+      console.error("Error fetching places:", error);
+    } finally {
+      setIsRendering(false);
+    }
+  };
+
+  fetchPlaces();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [product?.id, product?.listdetails]);
+
+
+
+    const handleInsertDetail = useCallback(async () => {
   
-      fetchPlaces();
-    }, [getPlaces_usuario, setUbicaciones, getDetails_ById_user, setDetails, product?.id, product?.listdetails ]); 
+  // if (!isValid) return false;
 
-   
-    const handleInsertDetail = useCallback(async() => {
-      const isValid = await validate();
-      if (isValid) {
-        const body = {
-          cantidad: Number(valueForm.cantidad),
-          fechac: valueForm.fechac,
-          fechav: valueForm.fechav,
-          costo: Number(valueForm.costo),
-          id_product: product?.id,
-          id_ubicacion: value_ubicacion
+  setIsRendering(true); // <-- mostrar progress mientras se inserta
 
-        };
-        const response = await insertdetail(body, 'POST');
-        if (response) {
-          if (response.success === true){
-            setCall(0)
-            console.log(response)            
-          }
-          
-        }
-        
-        
-      }
-      return false
-    }, [validate, valueForm,  value_ubicacion, insertdetail, setCall, product?.id]);
+  const body = {
+    cantidad: Number(valueForm.cantidad),
+    fechac: valueForm.fechac,
+    fechav: valueForm.fechav,
+    costo: Number(valueForm.costo),
+    id_product: product?.id,
+    id_ubicacion: value_ubicacion
+  };
 
+  const response = await insertdetail(body, 'POST');
+
+  if (response?.success) {
+    setCall(0);
+
+    // Actualiza tabla después de insertar exitosamente
+    try {
+      const product_details_geted = await getDetails_ById_user(product?.id || 0);
+      setDetails(product_details_geted);
+    } catch (error) {
+      console.error("Error actualizando detalles tras insertar:", error);
+    }
+  }
+
+  setIsRendering(false); // <-- ocultar progress después
+
+  return false;
+}, [ valueForm, value_ubicacion, insertdetail, setCall, product?.id, getDetails_ById_user]);
 
    
     return (
@@ -139,7 +159,12 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
           </Box>
           <br/>
           <Box display="flex" alignContent="center" justifyContent="center" >
-          <TableContainer component={Paper}>
+
+             {isRendering ? (
+                      <CircularProgress />
+                    ) : (
+
+ <TableContainer component={Paper}>
           <Table size="small" aria-label="tabla de detalles de productos">
             <TableHead>
               <TableRow>
@@ -180,7 +205,15 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
               ))}
             </TableBody>
           </Table>
-        </TableContainer>    
+        </TableContainer> 
+
+                    )
+                    
+                    
+                    
+                    }
+
+            
           </Box>
           <br/>
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>

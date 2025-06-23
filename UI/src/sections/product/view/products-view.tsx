@@ -9,7 +9,7 @@ import { _products } from 'src/_mock';
 import { DashboardContent } from 'src/layouts/dashboard';
 import { Product, useGetProducts } from 'src/_mock/product';
 import useCarId  from 'src/hooks/useIdProduct';
-import { Button } from '@mui/material';
+import { Button, LinearProgress } from '@mui/material';
 import { Iconify } from 'src/components/iconify';
 import { useCarrito , Carrito} from 'src/_mock/carrito';
 import { ModalPay } from 'src/components/ModalPay/ModalPay';
@@ -74,6 +74,8 @@ export function ProductsView() {
 
   const [openProducts, setOpenProducts] = useState(false);
 
+  const [isRendering, setIsRendering] = useState(true);
+
   const [openPay, setOpenPay] = useState(false);
 
   const {carId, setCarId} = useCarId (); 
@@ -114,32 +116,39 @@ export function ProductsView() {
     
   };
   
-  useEffect(() => {
+ useEffect(() => {
   const fetchProducts = async () => {
+    setIsRendering(true);
     try {
       const fetchedProducts = await getProductInfo_whitout_info(buscar);
-
-      if (carId !== null) {
-        try {
-          const carrito = await getCarrito_byId(carId);
-          setMiCarrito(carrito);
-        } catch (err) {
-          console.log(err);
-        }
-      }
-
       setFilterProductos(fetchedProducts);
       setProductos(fetchedProducts);
-      
     } catch (error) {
       console.error("Error fetching places:", error);
+    } finally {
+      setIsRendering(false);
     }
   };
 
   fetchProducts();
-}, [buscar, getProductInfo_whitout_info,carId, getCarrito_byId ]); // <-- Se ejecuta solo una vez al montar
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [buscar]);
 
+// useEffect separado para manejar el carrito
+useEffect(() => {
+  const fetchCarrito = async () => {
+    if (carId !== null) {
+      try {
+        const carrito = await getCarrito_byId(carId);
+        setMiCarrito(carrito);
+      } catch (err) {
+        console.log(err);
+      }
+    }
+  };
 
+  fetchCarrito();
+}, [carId, getCarrito_byId]);
   const onSearchDemand = async() => {
     setBuscar_valor(searchValue)
   }
@@ -166,7 +175,7 @@ export function ProductsView() {
 
   return (
     <DashboardContent>
-      <ModalPay
+ <ModalPay
         carrito={micarrito}
         setCall={setCall1}
         onSetCarrito={onSetCarrito} 
@@ -246,6 +255,14 @@ export function ProductsView() {
       
       </Box>
       <br/>
+
+      { isRendering? (
+                      <LinearProgress />  // Muestra el CircularProgress mientras los productos se cargan
+                    ) : (
+
+<Box>
+
+
       <Grid container spacing={3}>
        
         {product_geted.map((product) => (
@@ -266,6 +283,13 @@ export function ProductsView() {
         ))}
       </Grid>
 
+
+</Box>
+
+                      
+                    )
+                    }
+     
       
     </DashboardContent>
   );

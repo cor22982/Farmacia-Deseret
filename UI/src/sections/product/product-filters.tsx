@@ -85,13 +85,36 @@ export function ProductFilters({
   };
 
    useEffect(() => {
-      const fetchProductos = async () => {
-        const productos = await getCarritoProducts(carId)
-        setCarritoProductos(productos)
-      };
+  if (carId) {
+    const fetchProductos = async () => {
+      const productos = await getCarritoProducts(carId)
+      setCarritoProductos(productos)
+    };
     
-      fetchProductos();
-    }, [carId,getCarritoProducts, setCarritoProductos]);
+    fetchProductos();
+  }
+}, [carId, getCarritoProducts]);
+
+// ALTERNATIVA con estado de loading para mejor UX:
+const [loading, setLoading] = useState(false);
+
+useEffect(() => {
+  if (carId) {
+    const fetchProductos = async () => {
+      setLoading(true);
+      try {
+        const productos = await getCarritoProducts(carId);
+        setCarritoProductos(productos);
+      } catch (error) {
+        console.error('Error fetching productos:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    fetchProductos();
+  }
+}, [carId, getCarritoProducts]);
   
 
 
@@ -302,12 +325,12 @@ export function ProductFilters({
             <Typography variant='h4'>
               Total: Q {micarrito !==null ? micarrito.total : 0.0}
             </Typography>
-            <Button variant='contained'>
+            {/* <Button variant='contained'>
               Pagar
             </Button>
             <Button variant='contained' color="error">
               Cancelar
-            </Button>
+            </Button> */}
            
             
           </Stack>
