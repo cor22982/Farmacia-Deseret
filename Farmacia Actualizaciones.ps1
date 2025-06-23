@@ -45,8 +45,8 @@ $button.add_Click({
     # Lista de comandos
     $commands = @(
         { pm2 delete all },
-        { Set-Location "E:\Farmacia-Deseret"; git pull; npm install; pm2 start ecosystem.config.cjs },
-        { Write-Host "Actualizando frontend..."; Set-Location "C:\Users\HP\Videos\Farmacia-Deseret\UI"; git pull; npm install },
+        { Set-Location "H:\Farmacia Deseret\backend\Farmacia-Deseret"; git pull; npm install; pm2 start ecosystem.config.cjs },
+        { Write-Host "Actualizando frontend..."; Set-Location "H:\Farmacia Deseret\fronted\Farmacia-Deseret\UI"; git pull; npm install },
         { if (Test-Path "dist") { Write-Host "Eliminando carpeta 'dist'..."; Remove-Item -Recurse -Force "dist" } else { Write-Host "La carpeta 'dist' no existe, continuando..." } },
         { npm run build },
         { pm2 serve dist 4000 --spa }
