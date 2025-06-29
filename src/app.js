@@ -92,29 +92,33 @@ const runCommand = (command, cwd) => {
 
 app.post('/deploy', async (req, res) => {
   try {
-    const validate_token = await validateToken(req.body.token)
-    const {rol} = await decodeToken(req.body.token)
+    const validate_token = await validateToken(req.body.token);
+    const { rol } = await decodeToken(req.body.token);
 
-     if (validate_token && rol ==='admin'){
+    if (validate_token && rol === 'admin') {
+      const backendOutput = await runCommand('git pull && npm install', PATH_BACKEND);
+      const frontendOutput = await runCommand('git pull && npm install && npm run build', PATH_FRONTEND);
 
-        const backendOutput = await runCommand(
-          'git pull && npm install && pm2 restart ecosystem.config.cjs',
-          PATH_BACKEND
-        );
+      // Responder primero al cliente
+      res.status(200).json({ success: true, message: 'Código actualizado. Reiniciando servicios...' });
 
-        const frontendOutput = await runCommand(
-          'git pull && npm install && npm run build && pm2 delete all && pm2 serve dist 4000 --spa',
-          PATH_FRONTEND
-        );
-
-        res.status(200).json({ success: true, message: 'No tienes permisos para actualizar'});
-     }
-    
-
-    res.status(200).json({ success: false, message: 'No tienes permisos para actualizar'});
+      // Luego reiniciar los procesos
+      setImmediate(async () => {
+        try {
+          await runCommand('pm2 delete static-page-server-4000', PATH_FRONTEND);
+          await runCommand('pm2 serve dist 4000 --spa --name static-page-server-4000', PATH_FRONTEND);
+          await runCommand('pm2 restart Farmacia', PATH_BACKEND);
+          console.log('Backend y frontend reiniciados correctamente.');
+        } catch (e) {
+          console.error('Error al reiniciar servicios:', e);
+        }
+      });
+    } else {
+      res.status(403).json({ success: false, message: 'No tienes permisos para actualizar' });
+    }
   } catch (error) {
-    console.log(error)
-    res.status(500).json({ success: false, message: 'Un error ha ocurrido'});
+    console.error(error);
+    res.status(500).json({ success: false, message: 'Ocurrió un error en el deploy' });
   }
 });
 
