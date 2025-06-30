@@ -1,0 +1,20 @@
+@media print {
+  .ubicacionestoprint {
+    
+    page-break-inside: avoid;
+    page-break-after: auto;
+    page-break-before: auto;
+    max-height: fit-content; /* Ajustar según sea necesario */
+    max-width: fit-content;  /* Ajustar según sea necesario */
+  }
+
+  .total {
+    display: none;
+  }
+}
+
+.ubicaciones{
+  height: fit-content;
+  width: fit-content;
+  display: none;
+}

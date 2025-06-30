@@ -1,6 +1,6 @@
 import { LinearProgress, Box, Button, MenuItem, Select, Typography, SelectChangeEvent } from '@mui/material'
-import React, { useEffect, useState } from 'react'
-
+import React, { useEffect, useRef, useState } from 'react'
+import { PrintListado } from 'src/components/PrintListado/PrintLIstado'
 import { Iconify } from 'src/components/iconify'
 import { DashboardContent } from 'src/layouts/dashboard'
 import { useGetProducts, Product } from 'src/_mock/product';
@@ -8,10 +8,14 @@ import { ProductAddCard } from 'src/components/ProductAddCard/ProductAddCard';
 import { ModalUpdateProduct } from 'src/components/ModalsUser/ModalUpdateProduct';
 import { Supplier, useGetProveedores } from 'src/_mock/supplier';
 import useToken, { parseJwt } from 'src/hooks/useToken';
+import { useReactToPrint } from 'react-to-print';
 import { ProductSearchItem } from '../add_products/components/products_search';
-
+import './add_product_user.css'
 
 export function AddProductUserView() {
+  const contentRef = useRef<HTMLDivElement>(null);
+  const reactToPrintFn = useReactToPrint({ contentRef });
+
   const {getProductInfo_whitout_info} = useGetProducts();
   const [products, setProducts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
@@ -120,6 +124,15 @@ export function AddProductUserView() {
 
   return ( 
     <DashboardContent>
+      <div className='ubicacionestoprint'>
+              <div className='ubicaciones'>
+                
+              <PrintListado
+                ref={contentRef}
+                lista={filteredProducts}
+              />
+              </div>
+      </div>
        <Box display="flex" mb={5} flexDirection="column">
         <ModalUpdateProduct
           open={openUpdate}
@@ -185,7 +198,14 @@ export function AddProductUserView() {
             <MenuItem value="bodega"><em>Agotados (Farmacia)</em></MenuItem>
             <MenuItem value="existencias"><em>Bajas Existencias</em></MenuItem>
           </Select>
-
+          <Button
+                      variant="contained"
+                      color="inherit"
+                      startIcon={<Iconify icon="material-symbols:print-outline" />}
+                      onClick={() => reactToPrintFn()}
+                    >
+                    Imprimir Productos
+                    </Button>
         </div>
         <br/>
 
