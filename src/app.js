@@ -246,7 +246,10 @@ app.post('/infoproductos_allinfo', async (req, res) => {
     const limit = parseInt(req.body.limit) || 10;
     const search = req.body.search || '';
     const type_search = req.body.type_search || '';
-    const producto = await getProduct__info_usuario(offset, limit, search, type_search);
+    const filter = req.body.filter || ''; // nuevo filtro
+
+
+    const producto = await getProduct__info_usuario(offset, limit, search, filter);
 
 
     res.status(200).json({ success: true, productos: producto});

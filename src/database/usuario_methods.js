@@ -5,26 +5,64 @@ import { Op, literal } from "sequelize";
 
 
 
-export async function getProduct__info_usuario(offset = 0, limit = 10, search = '') {
+export async function getProduct__info_usuario(offset = 0, limit = 10, search = '', filter = '') {
   try {
+    // Obtener todos los productos si hay filtros especiales
+    if (filter === 'bodega' || filter === 'existencias') {
+      const allProducts = await Product.findAll({
+        include: [
+          {
+            model: ProductDetail,
+            as: 'product_details',
+            attributes: ['cantidad'],
+            include: [
+              {
+                model: Ubicacion,
+                as: 'ubicacion_product_detail',
+                attributes: ['lugar_farmacia'],
+              }
+            ]
+          }
+        ]
+      });
+
+      let filtered = [];
+
+      if (filter === 'bodega') {
+        filtered = allProducts.filter((product) => {
+          const totalFarmacia = product.product_details
+            .filter((d) => d.ubicacion_product_detail.lugar_farmacia !== 'bodega')
+            .reduce((sum, d) => sum + d.cantidad, 0);
+          return totalFarmacia < 2;
+        });
+      }
+
+      if (filter === 'existencias') {
+        filtered = allProducts.filter((product) => {
+          const total = product.product_details.reduce((sum, d) => sum + d.cantidad, 0);
+          return total < 2;
+        });
+      }
+
+      return filtered.slice(offset, offset + limit);
+    }
+
+    // Lógica por defecto: búsqueda por texto o proveedor
     const isNumeric = !isNaN(search);
     const proveedorId = isNumeric ? parseInt(search) : null;
-
-
-    
 
     const where = search
       ? {
           [Op.or]: [
             { nombre: { [Op.iLike]: `${search}%` } },
             { descripcion_uso: { [Op.iLike]: `%${search}%` } },
-            ...(isNumeric ? [{ proveedor: proveedorId }] : [])
+            ...(isNumeric ? [{ proveedor: proveedorId }] : []),
           ]
         }
       : undefined;
 
     const order = isNumeric
-      ? [['id', 'ASC']] // Si es proveedor, ordena por ID
+      ? [['id', 'ASC']]
       : [[
           literal(`CASE 
             WHEN "products"."nombre" ILIKE '${search}%' THEN 0 
