@@ -449,18 +449,15 @@ export function SalesView() {
                   {product.producto}
                 </TableCell>
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
-                        {
-                          Number.isNaN(
-                            (product.existencias + product.ventasPorDia.reduce((acc: any, venta: any) => acc + venta, 0)) /
-                            product.presentacionCantidad
-                          )
-                            ? 0
-                            : (
-                                (product.existencias + product.ventasPorDia.reduce((acc: any, venta: any) => acc + venta, 0)) /
-                                product.presentacionCantidad
-                              ).toFixed(0) // opcional: redondear a 2 decimales
-                        }
-                      </TableCell>
+  {
+    product.presentacionCantidad > 0
+      ? (
+          (product.existencias + product.ventasPorDia.reduce((acc: any, venta: any) => acc + venta, 0)) /
+          product.presentacionCantidad
+        ).toFixed(0)
+      : 0
+  }
+</TableCell>
 
 
                       {product.ventasPorDia.map((venta: number, index: React.Key | null | undefined) => {
@@ -476,13 +473,14 @@ export function SalesView() {
 
 
 
-                  <TableCell key={rowIndex} align="center" sx={{ border: "1px solid #ccc" }}>
-                    {
-                      Number.isNaN(product.existencias / product.presentacionCantidad)
-                        ? 0
-                        : (product.existencias / product.presentacionCantidad).toFixed(2)
-                    }
-                  </TableCell>
+                 <TableCell key={rowIndex} align="center" sx={{ border: "1px solid #ccc" }}>
+  {
+    product.presentacionCantidad > 0
+      ? (product.existencias / product.presentacionCantidad).toFixed(2)
+      : 0
+  }
+</TableCell>
+
 
 
                 <TableCell align="center" sx={{ border: "1px solid #ccc" }}>
