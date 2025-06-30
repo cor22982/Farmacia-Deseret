@@ -40,6 +40,14 @@ import { generateToken, validateToken, decodeToken } from './coneccion/jwt.js';
 import cors from 'cors';
 import { Console } from 'console';
 
+import {sendProgress} from './functions_extras/getBase64.js';
+
+
+// conexiones
+
+
+
+
 
 // Middleware para procesar el cuerpo de las solicitudes JSON
 
@@ -89,6 +97,24 @@ const runCommand = (command, cwd) => {
   });
 };
 
+const clients = [];
+
+app.get('/deploy-events', (req, res) => {
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+  res.flushHeaders(); // Fuerza el envío del encabezado
+
+  clients.push(res); // Guardamos la conexión
+
+  // Cuando se cierre la conexión, la eliminamos
+  req.on('close', () => {
+    const index = clients.indexOf(res);
+    if (index !== -1) clients.splice(index, 1);
+  });
+});
+
+
 
 app.post('/deploy', async (req, res) => {
   try {
@@ -96,21 +122,44 @@ app.post('/deploy', async (req, res) => {
     const { rol } = await decodeToken(req.body.token);
 
     if (validate_token && rol === 'admin') {
-      const backendOutput = await runCommand('git pull && npm install', PATH_BACKEND);
-      const frontendOutput = await runCommand('git pull && npm install && npm run build', PATH_FRONTEND);
+    
+      sendProgress('Iniciando actualización del backend...', 5, clients);
 
-      // Responder primero al cliente
+      // Actualizar repositorio del backend
+      await runCommand('git pull', PATH_BACKEND);
+      sendProgress('Repositorio del backend actualizado.', 15, clients);
+
+      // Instalar dependencias del backend
+      await runCommand('npm install', PATH_BACKEND);
+      sendProgress('Dependencias del backend instaladas.', 25, clients);
+
+      // Iniciar actualización del frontend
+      sendProgress('Actualizando frontend...', 30, clients);
+
+      // Actualizar repositorio del frontend
+      await runCommand('git pull', PATH_FRONTEND);
+      sendProgress('Repositorio del frontend actualizado.', 40, clients);
+
+      // Instalar dependencias del frontend
+      await runCommand('npm install', PATH_FRONTEND);
+      sendProgress('Dependencias del frontend instaladas.', 50, clients);
+
+      // Compilar frontend
+      sendProgress('Compilando frontend...', 60, clients);
+      await runCommand('npm run build', PATH_FRONTEND);
+
+      // Responde al cliente una vez el build terminó
       res.status(200).json({ success: true, message: 'Código actualizado. Reiniciando servicios...' });
 
-      // Luego reiniciar los procesos
       setImmediate(async () => {
         try {
+          sendProgress('Reiniciando todo', 100, clients);
           await runCommand('pm2 delete static-page-server-4000', PATH_FRONTEND);
           await runCommand('pm2 serve dist 4000 --spa --name static-page-server-4000', PATH_FRONTEND);
           await runCommand('pm2 restart Farmacia', PATH_BACKEND);
-          console.log('Backend y frontend reiniciados correctamente.');
         } catch (e) {
           console.error('Error al reiniciar servicios:', e);
+          sendProgress('Error durante el reinicio', 100, clients);
         }
       });
     } else {
@@ -122,6 +171,8 @@ app.post('/deploy', async (req, res) => {
   }
 });
 
+
+     
 
 
 //Obtener informacion producto

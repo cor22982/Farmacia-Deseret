@@ -18,3 +18,11 @@ export async function getBase64(filename_of_image) {
 });
   return base64Image;
 }
+
+
+export function sendProgress(message, percent, clients) {
+  const data = `data: ${JSON.stringify({ message, percent })}\n\n`;
+  for (const client of clients) {
+    client.write(data);
+  }
+}
