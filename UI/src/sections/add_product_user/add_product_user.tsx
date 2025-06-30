@@ -1,5 +1,6 @@
-import { LinearProgress, Box, Button, MenuItem, Select, Typography } from '@mui/material'
+import { LinearProgress, Box, Button, MenuItem, Select, Typography, SelectChangeEvent } from '@mui/material'
 import React, { useEffect, useState } from 'react'
+
 import { Iconify } from 'src/components/iconify'
 import { DashboardContent } from 'src/layouts/dashboard'
 import { useGetProducts, Product } from 'src/_mock/product';
@@ -24,6 +25,8 @@ export function AddProductUserView() {
   const [isRendering, setIsRendering] = useState(true);
   
   const [buscar, setBuscar_valor] = useState('')
+  const [filterValue, setFilterValue] = useState<string>('');
+
 
 
   const {token} = useToken()
@@ -53,33 +56,28 @@ export function AddProductUserView() {
 
   // useEffect para suppliers - se ejecuta una sola vez al montar el componente
   useEffect(() => {
-    const fetchSupplier = async () => {
-      try {
-        const fetchedSuppliers = await getProvedor_ById();
-        setSupliers(fetchedSuppliers);
-      } catch (error_t) {
-        console.error("Error fetching suppliers:", error_t);
-      }
-    };
+      const fetchSupplier = async () => {
+        try {
+          const fetchedSuppliers = await getProvedor_ById();
+          setSupliers(fetchedSuppliers);
+        } catch (error_t) {
+          console.error("Error fetching suppliers:", error_t);
+        }
+      };
 
-    fetchSupplier();
-     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [getProvedor_ById]);
+      fetchSupplier();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [getProvedor_ById]);
 
-  // useEffect que maneja setIsRendering - solo cuando cambia 'buscar'
-  useEffect(() => {
+    // useEffect que maneja setIsRendering - solo cuando cambia 'buscar'
+    useEffect(() => {
     const fetchProducts = async () => {
       setIsRendering(true);
       try {
-        const fetchedproducts = await getProductInfo_whitout_info(buscar);
+        const fetchedproducts = await getProductInfo_whitout_info(buscar, filterValue);
         setProducts(fetchedproducts);
-        
-        if (call1 === 0) {
-          setFilteredProducts(fetchedproducts);
-          setCall1(call1 + 1);
-        } else {
-          setFilteredProducts(fetchedproducts);
-        }
+        setFilteredProducts(fetchedproducts);
+        if (call1 === 0) setCall1(call1 + 1);
       } catch (error) {
         console.error("Error fetching products:", error);
       } finally {
@@ -89,33 +87,18 @@ export function AddProductUserView() {
 
     fetchProducts();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [buscar]);
-
-  // useEffect adicional para cuando cambien call1 o las funciones (sin loading)
-  useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const fetchedproducts = await getProductInfo_whitout_info(buscar);
-        setProducts(fetchedproducts);
-        
-        if (call1 === 0) {
-          setFilteredProducts(fetchedproducts);
-          setCall1(call1 + 1);
-        }
-      } catch (error) {
-        console.error("Error fetching products:", error);
-      }
-    };
-
-    fetchProducts();
-     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [call1, getProductInfo_whitout_info]);
+  }, [buscar, filterValue]);
 
   const on_searching = async() => {
     // Limpiar búsqueda por proveedor
     setValueSupplier(100000);
     setBuscar_valor(searchValue);
   }
+
+
+  const handleFilterChange = (event: SelectChangeEvent) => {
+  setFilterValue(event.target.value);
+};
 
   const on_search_supplier = async(n: string) => {
     setIsRendering(true);
@@ -185,6 +168,24 @@ export function AddProductUserView() {
               </MenuItem>
             ))}
           </Select>
+          <Select
+            value={filterValue}
+            onChange={handleFilterChange}
+            displayEmpty
+            sx={{
+              mb: 1,
+              '& .MuiOutlinedInput-root': {
+                '& fieldset': { borderColor: '#919191' },
+                '&:hover fieldset': { borderColor: '#262626' },
+                '&.Mui-focused fieldset': { borderColor: '#050505', borderWidth: 2 },
+              },
+            }}
+          >
+            <MenuItem value=""><em>Todos</em></MenuItem>
+            <MenuItem value="bodega"><em>Agotados (Farmacia)</em></MenuItem>
+            <MenuItem value="existencias"><em>Bajas Existencias</em></MenuItem>
+          </Select>
+
         </div>
         <br/>
 

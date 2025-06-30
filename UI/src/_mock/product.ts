@@ -404,8 +404,16 @@ export const useGetProducts = () =>{
     return [];
   };
 
-  const getProductInfo_whitout_info = async (buscar: string): Promise<Product[]> => {
-    const response = await get_productos_info({search: buscar},"POST");
+  const getProductInfo_whitout_info = async (buscar: string, filter: string = ''): Promise<Product[]> => {
+
+
+    const body: Record<string, any> = { search: buscar };
+
+    if (filter) {
+      body.filter = filter;
+    }
+
+    const response = await get_productos_info(body, "POST");
 
     if (response.success && Array.isArray(response.productos)) {
       // Procesamos todos los productos con `Promise.all`
