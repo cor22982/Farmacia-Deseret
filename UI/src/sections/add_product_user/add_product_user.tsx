@@ -6,7 +6,9 @@ import { useGetProducts, Product } from 'src/_mock/product';
 import { ProductAddCard } from 'src/components/ProductAddCard/ProductAddCard';
 import { ModalUpdateProduct } from 'src/components/ModalsUser/ModalUpdateProduct';
 import { Supplier, useGetProveedores } from 'src/_mock/supplier';
+import useToken, { parseJwt } from 'src/hooks/useToken';
 import { ProductSearchItem } from '../add_products/components/products_search';
+
 
 export function AddProductUserView() {
   const {getProductInfo_whitout_info} = useGetProducts();
@@ -22,6 +24,15 @@ export function AddProductUserView() {
   const [isRendering, setIsRendering] = useState(true);
   
   const [buscar, setBuscar_valor] = useState('')
+
+
+  const {token} = useToken()
+  const jwt = token ? parseJwt(token) : null;
+  const rol = jwt ? jwt.rol : null;
+
+
+  
+  
 
   const handleSearch = (value: string) => {
     setSearchValue(value);

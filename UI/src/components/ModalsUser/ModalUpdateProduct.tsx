@@ -6,7 +6,7 @@ import { Product, useGetProducts } from 'src/_mock/product';
 import useApi from 'src/hooks/useApi';
 import source_link from 'src/repository/source_repo';
 import useForm from 'src/hooks/useForm';
-import useToken from 'src/hooks/useToken';
+import useToken, { parseJwt } from 'src/hooks/useToken';
 import { Icon } from "@iconify/react";
 import { object, string, number } from 'yup';
 import { UploadImage } from '../UploadImage/UploadImage';
@@ -33,6 +33,12 @@ const schema_pp = object({
   pp: number().required('El precio publico es requerido')
 })
 
+type Ubicacion = {
+  id: number;
+  ubicacion: string;
+  lugar_farmacia: string;
+};
+
 const schema = object({
   cantidad: number().required('La cantidad es requerida'),
   fechac: string().required('La fecha de compra es obligatoria'),
@@ -47,15 +53,25 @@ export const ModalUpdateProduct = forwardRef<HTMLDivElement, ModalProductDetailP
     const [value_ubicacion, setValueUbicacion] = useState(100000); 
     const [ubicaciones, setUbicaciones] = useState<Place[]>([]);
     
+    
       
     const {getDetails_ById_user} = useGetProduct_Details()
     const { getPlaces_usuario } = useGetPlaces();
     const [details, setDetails] = useState<ProductDetail[]>([]);
     const {llamado: insertdetail} = useApi(`${source_link}/insertProductDetails_usuario`)
+    const {llamado: obtenerUbicacionesadm} = useApi(`${source_link}/ubicaciones`)
+
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { cantidad: 0, fechac: '', fechav: '', costo: 0})
     const [ubicaciones_by_defect, setUbicaciones_defect] = useState<string[]>([]);  
+    const [ubicaciones_admin, setUbicaciones_admin] = useState<Ubicacion[]>([]);
+
     const [isRendering, setIsRendering] = useState(true);
     const {llamado: deletedetail} = useApi(`${source_link}/deleteProductos_Cantidades`)
+
+
+    const {token} = useToken()
+    const jwt = token ? parseJwt(token) : null;
+    const rol = jwt ? jwt.rol : null;
 
     const onDeleteProducto_Detail = async (id_detail: number) => {
       const body = { id: id_detail };
@@ -95,6 +111,16 @@ useEffect(() => {
         lista_ubicaciones.push(detalle.ubicacion.id);
       });
       setUbicaciones_defect(lista_ubicaciones);
+
+      if(rol === 'admin'){
+        const ubicaciones_administrador = await obtenerUbicacionesadm({
+          token
+        },'POST')
+
+        console.log(ubicaciones_administrador.ubicaciones)
+        setUbicaciones_admin(ubicaciones_administrador.ubicaciones)
+
+      }
       setLoadedProductId(product.id); // Marcar como cargado
     } catch (error) {
       console.error("Error fetching places:", error);
@@ -192,12 +218,12 @@ useEffect(() => {
               {details.map((p, index) => (
                 <TableRow key={index}>
                   <TableCell>
-                    <Button sx={{ minWidth: 0}}
-                                                  onClick={()=>{onDeleteProducto_Detail(p.id)}}
-                                                  >
-                                                  <Icon icon="mdi:trash" width="20" height="20" color='red' />
-                                                </Button>
-                  </TableCell>
+                  {rol === 'admin' ? (
+                    <Button sx={{ minWidth: 0 }} onClick={() => onDeleteProducto_Detail(p.id)}>
+                      <Icon icon="mdi:trash" width="20" height="20" color="red" />
+                    </Button>
+                  ) : null}
+                </TableCell>
                   <TableCell>{p.ubicacion.ubicacion}({p.ubicacion.lugar_farmacia})</TableCell>
                   <TableCell>{p.cantidad}</TableCell>
                   <TableCell>{p.get_Fechasformated()}</TableCell>
@@ -332,46 +358,70 @@ useEffect(() => {
                   },
                 }}
               />
-          <FormControl fullWidth>
-          <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
-            sx={{
-              mb: 1,
-              '& .MuiOutlinedInput-root': {
-                '& fieldset': {
-                  borderColor: '#919191',
-                },
-                '&:hover fieldset': {
-                  borderColor: '#262626',
-                },
-                '&.Mui-focused fieldset': {
-                  borderColor: '#050505',
-                  borderWidth: 2,
-                },
-              },
-            }}
-            value={value_ubicacion}
-            onChange={(e) => setValueUbicacion(Number(e.target.value))}
-          >
-            <MenuItem value={100000}>
-              <em>Ubicacion</em>
-            </MenuItem>
-            {/* Mostrar ubicaciones por defecto */}
-            {ubicaciones_by_defect.map((id) => {
-              const ubicacion = ubicaciones.find((u) => u.id === id);
-              return (
-                ubicacion && (
-                  <MenuItem key={ubicacion.id} value={ubicacion.id}>
-                    <em>{ubicacion.ubicacion} ({ubicacion.lugar_farmacia})</em>
-                  </MenuItem>
-                )
-              );
-            })}
-            
-          </Select>
+         <FormControl fullWidth>
+  {rol !== 'admin' ? (
+    <Select
+      labelId="demo-simple-select-label"
+      id="select-usuario"
+      sx={{
+        mb: 1,
+        '& .MuiOutlinedInput-root': {
+          '& fieldset': { borderColor: '#919191' },
+          '&:hover fieldset': { borderColor: '#262626' },
+          '&.Mui-focused fieldset': { borderColor: '#050505', borderWidth: 2 },
+        },
+      }}
+      value={value_ubicacion}
+      onChange={(e) => setValueUbicacion(Number(e.target.value))}
+    >
+      <MenuItem value={100000}>
+        <em>Ubicacion</em>
+      </MenuItem>
 
-          </FormControl>
+      {ubicaciones_by_defect.map((id) => {
+        const ubicacion = ubicaciones.find((u) => u.id === id);
+        if (!ubicacion) return null;
+
+        if (ubicacion.lugar_farmacia.toLowerCase() === 'bodega') return null;
+
+        return (
+          <MenuItem key={ubicacion.id} value={ubicacion.id}>
+            <em>{ubicacion.ubicacion} ({ubicacion.lugar_farmacia})</em>
+          </MenuItem>
+        );
+      })}
+    </Select>
+  ) : (
+    <Select
+      labelId="demo-simple-select-label-admin"
+      id="select-admin"
+      sx={{
+        mb: 1,
+        '& .MuiOutlinedInput-root': {
+          '& fieldset': { borderColor: '#919191' },
+          '&:hover fieldset': { borderColor: '#262626' },
+          '&.Mui-focused fieldset': { borderColor: '#050505', borderWidth: 2 },
+        },
+      }}
+      value={value_ubicacion}
+      onChange={(e) => setValueUbicacion(Number(e.target.value))}
+    >
+      <MenuItem value={100000}>
+        <em>Ubicacion Admin</em>
+      </MenuItem>
+
+      {ubicaciones_admin.map((ubicacion) => (
+        <MenuItem key={ubicacion.id} value={ubicacion.id}>
+          <em>{ubicacion.ubicacion} ({ubicacion.lugar_farmacia})</em>
+        </MenuItem>
+      ))}
+    </Select>
+  )}
+</FormControl>
+
+
+
+
           
           </Box>
          

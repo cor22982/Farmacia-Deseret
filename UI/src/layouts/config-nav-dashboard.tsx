@@ -62,6 +62,18 @@ export const navData_admin = [
     path: '/ubicacion',
     icon: icon('ic--baseline-place'),
   },
+
+  {
+    title: 'Pedidos y Bodegas',
+    path: '/agregarproducto',
+    icon: icon('ic-bodega')
+  },
+
+   {
+    title: 'Ofertas',
+    path: '/products_farmacia',
+    icon: icon('ic-medicine')
+  },
   // {
   //   title: 'Productos No Sistema',
   //   path: '/blog',
