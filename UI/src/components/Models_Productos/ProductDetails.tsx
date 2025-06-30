@@ -1,5 +1,5 @@
 import React, { forwardRef , useState, useEffect, useCallback} from 'react';
-import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton, TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Paper } from '@mui/material';
+import { Modal, Typography, Box, TextField, Select, MenuItem, FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, TextareaAutosize, Button, Grid, IconButton, TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Paper, CircularProgress } from '@mui/material';
 import { Place, useGetPlaces} from 'src/_mock/places';
 import { useGetProduct_Details, ProductDetail } from 'src/_mock/product_detail';
 import { Product, useGetProducts } from 'src/_mock/product';
@@ -48,11 +48,13 @@ export const ProductDetailBox = forwardRef<HTMLDivElement, ProductDetailProps>(
 
     const [id_Detail, setIdDetail] = useState(0)
     const { getPlaces } = useGetPlaces();
+    
     const {llamado: actualizarDetailsProductos} = useApi(`${source_link}/actualizarDetailsProductos`)
     const {llamado: insertdetail} = useApi(`${source_link}/insertProductDetails`)
     const { values: valueForm, setValue: setValueForm, validate, errors } = useForm(schema, { cantidad: 0, fechac: '', fechav: '', costo: 0})
     const [edit_Mode, setEdit_Mode] = useState(false)
     const {llamado: deletedetail} = useApi(`${source_link}/deleteProductos_Cantidades`)
+    const [isRendering, setIsRendering] = useState(true);
 
 
     const { values: valuepp, setValue: setValuepp, validate: validatepp, errors: errorpp } = useForm(schema_pp, { pp:0})
@@ -76,7 +78,18 @@ export const ProductDetailBox = forwardRef<HTMLDivElement, ProductDetailProps>(
     };
 
     useEffect(() => {
+      setIsRendering(true);
+    }, []);
+
+    useEffect(() => {
+      if (productdetails.length > 0) {  // <-- aquí cambio la condición
+        setIsRendering(false);
+      }
+    }, [productdetails]);
+
+    useEffect(() => {
       const fetchPlaces = async () => {
+     
         try {
           const fetchedPlaces = await getPlaces();
           const details = await getDetails_ById(id);
@@ -88,7 +101,7 @@ export const ProductDetailBox = forwardRef<HTMLDivElement, ProductDetailProps>(
           setProductoNombre(nombre?.nombre.toUpperCase() || '')
         } catch (error) {
           console.error("Error fetching places:", error);
-        }
+        } 
       };
   
       fetchPlaces();
@@ -180,7 +193,9 @@ export const ProductDetailBox = forwardRef<HTMLDivElement, ProductDetailProps>(
             </Typography>
           </Box>
           <br/>
-          <TableContainer component={Paper}>
+          {isRendering ? (
+                    <CircularProgress />) :(
+<TableContainer component={Paper}>
                     <Table size="small" aria-label="tabla de detalles de productos">
                       <TableHead>
                         <TableRow>
@@ -242,6 +257,8 @@ export const ProductDetailBox = forwardRef<HTMLDivElement, ProductDetailProps>(
                       </TableBody>
                     </Table>
           </TableContainer>
+                    )}
+          
           
           <Box display="flex" flexDirection="row" padding="1rem" gap="1rem" width='auto'>
             <TextField
