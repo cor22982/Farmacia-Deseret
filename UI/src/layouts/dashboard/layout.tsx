@@ -5,9 +5,9 @@ import { useState } from 'react';
 import Box from '@mui/material/Box';
 import Alert from '@mui/material/Alert';
 import { useTheme } from '@mui/material/styles';
-
+import { Button } from '@mui/material';
 import { _langs, _notifications } from 'src/_mock';
-
+import { ModalUpdating } from 'src/components/ModalUpdating';
 import { Iconify } from 'src/components/iconify';
 import  useToken  , { parseJwt} from 'src/hooks/useToken';
 
@@ -21,8 +21,10 @@ import { MenuButton } from '../components/menu-button';
 import { LayoutSection } from '../core/layout-section';
 import { HeaderSection } from '../core/header-section';
 import { AccountPopover } from '../components/account-popover';
+
 import { LanguagePopover } from '../components/language-popover';
 import { NotificationsPopover } from '../components/notifications-popover';
+
 // ----------------------------------------------------------------------
 
 export type DashboardLayoutProps = {
@@ -39,6 +41,14 @@ export function DashboardLayout({ sx, children, header }: DashboardLayoutProps) 
   const theme = useTheme();
 
   const [navOpen, setNavOpen] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
+  const handleOpen = () => setOpenModal(true);
+  const handleClose = () => setOpenModal(false);
+   const handleUpdate = () => {
+    console.log('Producto actualizado');
+    
+  };
+
 
   const layoutQuery: Breakpoint = 'lg';
   return (
@@ -85,6 +95,15 @@ export function DashboardLayout({ sx, children, header }: DashboardLayoutProps) 
                 {/* <Searchbar />
                 <LanguagePopover data={_langs} />
                 <NotificationsPopover data={_notifications} /> */}
+                <Button onClick={handleOpen}>
+                  <Iconify  icon="dashicons:update" className="mr-2 h-4 w-4"/>
+                  Actualizar</Button>
+                  <br/>
+                  <br/>
+                <ModalUpdating  open={openModal}
+                  handleClose={handleClose}
+                  handleClick={handleUpdate}
+                />
                 <AccountPopover
                   data={[
                     {
