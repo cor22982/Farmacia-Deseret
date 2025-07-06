@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { exec } from 'child_process';
 import dotenv from 'dotenv';
+import { fileURLToPath } from 'url';
 import { getUsers, verifyUserCredentials, 
   insertarUbicacion, getUbicaciones, 
   insertarSupplier, insertarHorario, 
@@ -1263,6 +1264,11 @@ app.put('/updatePresentacionProducto', upload.single('file'), async (req, res) =
 });
 
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Luego puedes usar __dirname normalmente:
+app.use('/imagenes_productos', express.static(path.join(__dirname, '../imagenes_productos')));
 
 
 app.listen(port, () => {
