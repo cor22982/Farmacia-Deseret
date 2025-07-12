@@ -94,7 +94,7 @@ export  const ProductItem = forwardRef<HTMLDivElement, ProductItemProps> (
       onClick={ onproduct}
       component="img"
       alt={product.nombre}
-      src={`data:image/jpeg;base64,${presentacion.imagen_presentacion}`}
+      src={`${presentacion.imagen_presentacion}`}
       sx={{
         cursor: 'pointer',
         top: 0,

@@ -123,7 +123,7 @@ export const ModalProductShow = forwardRef<HTMLDivElement, ModalProductShowProps
               <CardMedia
                 component="img"
                 sx={{ width: 450 ,height: 400 }}
-                image={`data:image/jpeg;base64,${presentacion?.imagen_presentacion === null ? '' : presentacion?.imagen_presentacion}`}
+                image={`${presentacion?.imagen_presentacion === null ? '' : presentacion?.imagen_presentacion}`}
                 alt="Live from space album cover"
               />
               <Box maxWidth="95%" sx={{ paddingTop: 0 }}>

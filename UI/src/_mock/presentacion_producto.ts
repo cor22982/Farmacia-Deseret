@@ -43,6 +43,8 @@ export class PresentacionProducto {
 
 
 export const useGetPresentacionesProducto = () => {
+
+
   const { llamado: presentacionesproductos } = useApi(`${source_link}/presentaciones_by_product`);
   const { llamado: getpresentacionbyID } = useApi(`${source_link}/getpresentacionbyID`);
   const { llamado:imagen_get } = useApi(`${source_link}/getImage`);
@@ -68,8 +70,7 @@ export const useGetPresentacionesProducto = () => {
           }) => {
 
             const presentacion_geted = await getOnePresentacion(p.presentacion_id);
-            const body2 = { image_product: p.imagen_presentacion || '' };
-            const response2 = p.imagen_presentacion ? await imagen_get(body2, "POST") : { image: '' };
+            const response2 = `${source_link}/imagenes_productos/${p.imagen_presentacion}`
 
             return new PresentacionProducto(
               p.id,
@@ -79,7 +80,7 @@ export const useGetPresentacionesProducto = () => {
               p.presentacion_id,
               p.product_id,
               presentacion_geted,
-              response2.image
+              response2
             );
           })
         );
