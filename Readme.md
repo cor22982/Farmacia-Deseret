@@ -60,7 +60,3 @@ Los volúmenes configurados garantizan que:
 - **mongodb_data**: Los datos de MongoDB persisten incluso si eliminas el contenedor
 - **backend_data**: Archivos del backend se mantienen
 - **frontend_build**: Los builds de producción se mantienen
-
-Incluso si ejecutas `docker-compose down`, los datos en MongoDB se conservarán. Solo se eliminarán con `docker-compose down -v`.
-
-¡Tu proyecto está listo! Todos los inserts en MongoDB se guardarán de forma persistente gracias a los volúmenes de Docker.
