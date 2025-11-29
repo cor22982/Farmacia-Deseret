@@ -1,132 +1,83 @@
-# backend/main.py
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from motor.motor_asyncio import AsyncIOMotorClient
-from pydantic import BaseModel
-from bson import ObjectId
-from typing import List, Optional
-import os
+from config.database import client
 
-app = FastAPI(title="FastAPI MongoDB App")
+# Importar routers
+from routes import products, stock_batches, sales, users, shopping_cart
+
+# Crear aplicación FastAPI
+app = FastAPI(
+    title="Farmacia API",
+    description="Sistema de gestión para farmacia con MongoDB",
+    version="1.0.0"
+)
 
 # Configurar CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # En producción, especificar dominios permitidos
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Configuración de MongoDB
-MONGODB_URL = os.getenv("MONGODB_URL", "mongodb://admin:password123@mongodb:27017")
-DATABASE_NAME = os.getenv("DATABASE_NAME", "myapp")
+# Incluir routers
+app.include_router(products.router)
+app.include_router(stock_batches.router)
+app.include_router(sales.router)
+app.include_router(users.router)
+app.include_router(shopping_cart.router)
 
-client = AsyncIOMotorClient(MONGODB_URL)
-db = client[DATABASE_NAME]
-collection = db["items"]
-
-# Modelos Pydantic
-class Item(BaseModel):
-    name: str
-    description: str
-    price: float
-    quantity: int
-
-class ItemResponse(BaseModel):
-    id: str
-    name: str
-    description: str
-    price: float
-    quantity: int
-
-# Rutas
+# Rutas principales
 @app.get("/")
-async def root():
-    return {"message": "API funcionando correctamente"}
+def root():
+    """Ruta raíz"""
+    return {
+        "message": "Farmacia API - Sistema de Gestión",
+        "version": "1.0.0",
+        "endpoints": {
+            "products": "/products",
+            "stock_batches": "/stock-batches",
+            "sales": "/sales",
+            "users": "/users",
+            "shopping_cart": "/shopping-cart",
+            "docs": "/docs",
+            "health": "/health"
+        }
+    }
 
 @app.get("/health")
-async def health_check():
+def health_check():
+    """Verificar estado de la API y la base de datos"""
     try:
-        await client.admin.command('ping')
-        return {"status": "healthy", "database": "connected"}
+        # Ping a MongoDB
+        client.admin.command('ping')
+        return {
+            "status": "healthy",
+            "database": "connected",
+            "message": "API funcionando correctamente"
+        }
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Database error: {str(e)}")
+        return {
+            "status": "unhealthy",
+            "database": "disconnected",
+            "error": str(e)
+        }
 
-@app.post("/items/", response_model=ItemResponse)
-async def create_item(item: Item):
-    item_dict = item.dict()
-    result = await collection.insert_one(item_dict)
-    created_item = await collection.find_one({"_id": result.inserted_id})
-    return ItemResponse(
-        id=str(created_item["_id"]),
-        name=created_item["name"],
-        description=created_item["description"],
-        price=created_item["price"],
-        quantity=created_item["quantity"]
-    )
+# Evento de inicio
+@app.on_event("startup")
+async def startup_event():
+    print("🚀 Iniciando Farmacia API...")
+    print("📊 Conectando a MongoDB...")
+    try:
+        client.admin.command('ping')
+        print("✅ Conexión exitosa a MongoDB")
+    except Exception as e:
+        print(f"❌ Error al conectar a MongoDB: {e}")
 
-@app.get("/items/", response_model=List[ItemResponse])
-async def get_items():
-    items = []
-    cursor = collection.find()
-    async for document in cursor:
-        items.append(ItemResponse(
-            id=str(document["_id"]),
-            name=document["name"],
-            description=document["description"],
-            price=document["price"],
-            quantity=document["quantity"]
-        ))
-    return items
-
-@app.get("/items/{item_id}", response_model=ItemResponse)
-async def get_item(item_id: str):
-    if not ObjectId.is_valid(item_id):
-        raise HTTPException(status_code=400, detail="ID inválido")
-    
-    item = await collection.find_one({"_id": ObjectId(item_id)})
-    if item is None:
-        raise HTTPException(status_code=404, detail="Item no encontrado")
-    
-    return ItemResponse(
-        id=str(item["_id"]),
-        name=item["name"],
-        description=item["description"],
-        price=item["price"],
-        quantity=item["quantity"]
-    )
-
-@app.put("/items/{item_id}", response_model=ItemResponse)
-async def update_item(item_id: str, item: Item):
-    if not ObjectId.is_valid(item_id):
-        raise HTTPException(status_code=400, detail="ID inválido")
-    
-    result = await collection.update_one(
-        {"_id": ObjectId(item_id)},
-        {"$set": item.dict()}
-    )
-    
-    if result.modified_count == 0:
-        raise HTTPException(status_code=404, detail="Item no encontrado")
-    
-    updated_item = await collection.find_one({"_id": ObjectId(item_id)})
-    return ItemResponse(
-        id=str(updated_item["_id"]),
-        name=updated_item["name"],
-        description=updated_item["description"],
-        price=updated_item["price"],
-        quantity=updated_item["quantity"]
-    )
-
-@app.delete("/items/{item_id}")
-async def delete_item(item_id: str):
-    if not ObjectId.is_valid(item_id):
-        raise HTTPException(status_code=400, detail="ID inválido")
-    
-    result = await collection.delete_one({"_id": ObjectId(item_id)})
-    
-    if result.deleted_count == 0:
-        raise HTTPException(status_code=404, detail="Item no encontrado")
-    
-    return {"message": "Item eliminado exitosamente"}
+# Evento de cierre
+@app.on_event("shutdown")
+async def shutdown_event():
+    print("👋 Cerrando Farmacia API...")
+    client.close()
+    print("✅ Conexión a MongoDB cerrada")

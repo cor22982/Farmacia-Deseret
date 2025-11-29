@@ -7,16 +7,22 @@ services:
     container_name: mongodb
     restart: always
     environment:
-      MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: password123
-      MONGO_INITDB_DATABASE: myapp
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME:-admin}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD:-password123}
+      MONGO_INITDB_DATABASE: ${MONGO_DATABASE:-farmacia}
     ports:
-      - "27017:27017"
+      - "${MONGO_PORT:-27017}:27017"
     volumes:
       - mongodb_data:/data/db
       - mongodb_config:/data/configdb
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
     networks:
       - app-network
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   # Backend con FastAPI
   backend:
@@ -26,15 +32,17 @@ services:
     container_name: backend
     restart: always
     environment:
-      MONGODB_URL: mongodb://admin:password123@mongodb:27017
-      DATABASE_NAME: myapp
+      MONGODB_URL: mongodb://${MONGO_ROOT_USERNAME:-admin}:${MONGO_ROOT_PASSWORD:-password123}@mongodb:27017
+      DATABASE_NAME: ${MONGO_DATABASE:-farmacia}
+      BACKEND_PORT: ${BACKEND_PORT:-8000}
     ports:
-      - "8000:8000"
+      - "${BACKEND_PORT:-8000}:8000"
     volumes:
       - ./backend:/app
       - backend_data:/app/data
     depends_on:
-      - mongodb
+      mongodb:
+        condition: service_healthy
     networks:
       - app-network
     command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
@@ -44,12 +52,16 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
+      args:
+        - REACT_APP_API_URL=${BACKEND_URL:-http://localhost:8000}
     container_name: frontend
     restart: always
     environment:
-      REACT_APP_API_URL: http://localhost:8000
+      REACT_APP_API_URL: ${BACKEND_URL:-http://localhost:8000}
+      # Si usas una IP específica para exponer el frontend
+      HOST: ${FRONTEND_HOST:-0.0.0.0}
     ports:
-      - "3000:3000"
+      - "${FRONTEND_HOST:-0.0.0.0}:${FRONTEND_PORT:-3000}:3000"
     volumes:
       - ./frontend:/app
       - /app/node_modules
