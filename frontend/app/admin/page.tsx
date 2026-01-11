@@ -3,44 +3,61 @@
 import { useState } from "react"
 import { mockProducts, mockStockBatches, mockSuppliers, mockSales } from "@/lib/mock-data"
 import type { Product, StockBatch, Supplier } from "@/lib/types"
-import { InventoryFormModal } from "@/components/inventory-form-modal"
+import { StockBatchFormModal } from "@/components/stock-batch-form-modal"
 import { SupplierFormModal } from "@/components/supplier-form-modal"
+import { InventoryFormModal } from "@/components/inventory-form-modal"
 import { exportProductsToExcel, exportSuppliersToExcel } from "@/components/export-excel"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Edit2, Download, Plus, Trash2, ArrowLeft } from "lucide-react"
+import { Edit2, Download, Plus, Trash2, ArrowLeft, Package, Archive } from "lucide-react"
 import Link from "next/link"
 import { ConfirmDeleteModal } from "@/components/confirm-delete-modal"
 import { SalesReport } from "@/components/sales-report"
+import { StockBatchesModal } from "@/components/stock-batches-modal"
 
 export default function AdminDashboard() {
   const [products, setProducts] = useState<Product[]>(mockProducts)
   const [batches, setBatches] = useState<StockBatch[]>(mockStockBatches)
   const [suppliers, setSuppliers] = useState<Supplier[]>(mockSuppliers)
   const [activeTab, setActiveTab] = useState<"inventory" | "suppliers" | "sales">("inventory")
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
+  const [inventoryMode, setInventoryMode] = useState<"products" | "batches">("products")
+  const [selectedBatch, setSelectedBatch] = useState<StockBatch | null>(null)
   const [selectedSupplier, setSelectedSupplier] = useState<Supplier | null>(null)
-  const [showInventoryModal, setShowInventoryModal] = useState(false)
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
+  const [showProductModal, setShowProductModal] = useState(false)
+  const [showBatchModal, setShowBatchModal] = useState(false)
   const [showSupplierModal, setShowSupplierModal] = useState(false)
   const [searchTerm, setSearchTerm] = useState("")
-  const [showDeleteProductModal, setShowDeleteProductModal] = useState(false)
-  const [productToDelete, setProductToDelete] = useState<string | null>(null)
+  const [showDeleteBatchModal, setShowDeleteBatchModal] = useState(false)
+  const [batchToDelete, setBatchToDelete] = useState<string | null>(null)
   const [showDeleteSupplierModal, setShowDeleteSupplierModal] = useState(false)
   const [supplierToDelete, setSupplierToDelete] = useState<string | null>(null)
+  const [showDeleteProductModal, setShowDeleteProductModal] = useState(false)
+  const [productToDelete, setProductToDelete] = useState<string | null>(null)
+  const [showStockBatchesModal, setShowStockBatchesModal] = useState(false)
+  const [selectedProductForBatches, setSelectedProductForBatches] = useState<Product | null>(null)
 
   const filteredProducts = products.filter(
     (p) => p.name.toLowerCase().includes(searchTerm.toLowerCase()) || p._id.includes(searchTerm),
   )
 
+  const filteredBatches = batches.filter((b) => {
+    const product = products.find((p) => p._id === b.product_id)
+    return (
+      product?.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      b.lot_code.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+  })
+
   const handleEditProduct = (product: Product) => {
     setSelectedProduct(product)
-    setShowInventoryModal(true)
+    setShowProductModal(true)
   }
 
   const handleAddProduct = () => {
     setSelectedProduct(null)
-    setShowInventoryModal(true)
+    setShowProductModal(true)
   }
 
   const handleSaveProduct = (updatedProduct: Product) => {
@@ -63,6 +80,34 @@ export default function AdminDashboard() {
     }
   }
 
+  const handleEditBatch = (batch: StockBatch) => {
+    setSelectedBatch(batch)
+    setShowBatchModal(true)
+  }
+
+  const handleAddBatch = () => {
+    setSelectedBatch(null)
+    setShowBatchModal(true)
+  }
+
+  const handleSaveBatch = (updatedBatch: StockBatch) => {
+    setBatches((prev) =>
+      selectedBatch ? prev.map((b) => (b._id === updatedBatch._id ? updatedBatch : b)) : [...prev, updatedBatch],
+    )
+  }
+
+  const handleDeleteBatch = (batchId: string) => {
+    setBatchToDelete(batchId)
+    setShowDeleteBatchModal(true)
+  }
+
+  const confirmDeleteBatch = () => {
+    if (batchToDelete) {
+      setBatches((prev) => prev.filter((b) => b._id !== batchToDelete))
+      setBatchToDelete(null)
+    }
+  }
+
   const handleEditSupplier = (supplier: Supplier) => {
     setSelectedSupplier(supplier)
     setShowSupplierModal(true)
@@ -77,7 +122,7 @@ export default function AdminDashboard() {
     setSuppliers((prev) =>
       selectedSupplier
         ? prev.map((s) => (s._id === updatedSupplier._id ? updatedSupplier : s))
-        : [...prev, { ...updatedSupplier, _id: `sup-${Date.now()}` }],
+        : [...prev, updatedSupplier],
     )
   }
 
@@ -93,8 +138,14 @@ export default function AdminDashboard() {
     }
   }
 
-  const deletingProductName = products.find((p) => p._id === productToDelete)?.name || "Producto"
+  const handleManageStock = (product: Product) => {
+    setSelectedProductForBatches(product)
+    setShowStockBatchesModal(true)
+  }
+
+  const deletingBatchName = batches.find((b) => b._id === batchToDelete)?.lot_code || "Lote"
   const deletingSupplierName = suppliers.find((s) => s._id === supplierToDelete)?.name || "Proveedor"
+  const deletingProductName = products.find((p) => p._id === productToDelete)?.name || "Producto"
 
   return (
     <div className="min-h-screen bg-background">
@@ -127,85 +178,217 @@ export default function AdminDashboard() {
 
         {activeTab === "inventory" && (
           <div className="space-y-6">
-            <div className="flex justify-between items-center gap-4">
-              <Input
-                placeholder="Buscar productos por nombre o ID..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="max-w-md"
-              />
-              <div className="flex gap-2">
-                <Button onClick={() => exportProductsToExcel(products)} variant="outline" className="gap-2">
-                  <Download className="w-4 h-4" />
-                  Exportar Excel
-                </Button>
-                <Button onClick={handleAddProduct} className="gap-2">
-                  <Plus className="w-4 h-4" />
-                  Agregar Producto
-                </Button>
-              </div>
+            <div className="flex gap-2">
+              <Button
+                variant={inventoryMode === "products" ? "default" : "outline"}
+                onClick={() => setInventoryMode("products")}
+                className="gap-2"
+              >
+                <Package className="w-4 h-4" />
+                Productos y Presentaciones
+              </Button>
+              <Button
+                variant={inventoryMode === "batches" ? "default" : "outline"}
+                onClick={() => setInventoryMode("batches")}
+                className="gap-2"
+              >
+                <Archive className="w-4 h-4" />
+                Lotes de Stock
+              </Button>
             </div>
 
-            <Card>
-              <CardHeader>
-                <CardTitle>Productos</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-sm">
-                    <thead className="border-b">
-                      <tr className="text-muted-foreground">
-                        <th className="text-left py-2 px-2">Nombre</th>
-                        <th className="text-left py-2 px-2">Categoría</th>
-                        <th className="text-left py-2 px-2">Presentaciones</th>
-                        <th className="text-left py-2 px-2">Total Stock</th>
-                        <th className="text-left py-2 px-2">Proveedor</th>
-                        <th className="text-left py-2 px-2">Acciones</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {filteredProducts.map((product) => {
-                        const totalStock = batches
-                          .filter((b) => b.product_id === product._id)
-                          .reduce((sum, b) => sum + b.stock_units, 0)
-
-                        return (
-                          <tr key={product._id} className="border-b hover:bg-accent/5">
-                            <td className="py-3 px-2 font-medium">{product.name}</td>
-                            <td className="py-3 px-2 text-xs capitalize">{product.category}</td>
-                            <td className="py-3 px-2 text-xs capitalize">
-                              {product.presentations.map((p) => p.presentation_name).join(", ")}
-                            </td>
-                            <td className="py-3 px-2">
-                              <span className={totalStock < 50 ? "text-destructive font-semibold" : ""}>
-                                {totalStock} unidades
-                              </span>
-                            </td>
-                            <td className="py-3 px-2 text-xs">{product.supplier}</td>
-                            <td className="py-3 px-2 flex gap-2">
-                              <button
-                                onClick={() => handleEditProduct(product)}
-                                className="p-1 hover:bg-primary/10 rounded transition-colors"
-                                title="Editar"
-                              >
-                                <Edit2 className="w-4 h-4 text-primary" />
-                              </button>
-                              <button
-                                onClick={() => handleDeleteProduct(product._id)}
-                                className="p-1 hover:bg-destructive/10 rounded transition-colors"
-                                title="Eliminar"
-                              >
-                                <Trash2 className="w-4 h-4 text-destructive" />
-                              </button>
-                            </td>
-                          </tr>
-                        )
-                      })}
-                    </tbody>
-                  </table>
+            {inventoryMode === "products" && (
+              <div className="space-y-6">
+                <div className="flex justify-between items-center gap-4">
+                  <Input
+                    placeholder="Buscar productos por nombre o ID..."
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    className="max-w-md"
+                  />
+                  <div className="flex gap-2">
+                    <Button onClick={() => exportProductsToExcel(products)} variant="outline" className="gap-2">
+                      <Download className="w-4 h-4" />
+                      Exportar Excel
+                    </Button>
+                    <Button onClick={handleAddProduct} className="gap-2">
+                      <Plus className="w-4 h-4" />
+                      Agregar Producto
+                    </Button>
+                  </div>
                 </div>
-              </CardContent>
-            </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Catálogo de Productos</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-sm">
+                        <thead className="border-b">
+                          <tr className="text-muted-foreground">
+                            <th className="text-left py-2 px-2">Nombre</th>
+                            <th className="text-left py-2 px-2">Categoría</th>
+                            <th className="text-left py-2 px-2">Principio Activo</th>
+                            <th className="text-left py-2 px-2">Proveedor</th>
+                            <th className="text-left py-2 px-2">Presentaciones</th>
+                            <th className="text-left py-2 px-2">Stock Total</th>
+                            <th className="text-left py-2 px-2">Acciones</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {filteredProducts.map((product) => {
+                            const totalStock = batches
+                              .filter((b) => b.product_id === product._id)
+                              .reduce((sum, b) => sum + b.stock_units, 0)
+
+                            return (
+                              <tr key={product._id} className="border-b hover:bg-accent/5">
+                                <td className="py-3 px-2 font-medium">{product.name}</td>
+                                <td className="py-3 px-2 capitalize text-xs">{product.category}</td>
+                                <td className="py-3 px-2 text-xs">{product.principio_activo}</td>
+                                <td className="py-3 px-2 text-xs">{product.supplier}</td>
+                                <td className="py-3 px-2">
+                                  <span className="text-xs px-2 py-1 bg-primary/10 rounded">
+                                    {product.presentations.length} presentacion
+                                    {product.presentations.length !== 1 ? "es" : ""}
+                                  </span>
+                                </td>
+                                <td className="py-3 px-2">
+                                  <button
+                                    onClick={() => handleManageStock(product)}
+                                    className="hover:underline"
+                                    title="Gestionar Stock"
+                                  >
+                                    <span className={totalStock < 50 ? "text-destructive font-semibold" : ""}>
+                                      {totalStock} unidades
+                                    </span>
+                                  </button>
+                                </td>
+                                <td className="py-3 px-2 flex gap-2">
+                                  <button
+                                    onClick={() => handleEditProduct(product)}
+                                    className="p-1 hover:bg-primary/10 rounded transition-colors"
+                                    title="Editar Producto"
+                                  >
+                                    <Edit2 className="w-4 h-4 text-primary" />
+                                  </button>
+                                  <button
+                                    onClick={() => handleManageStock(product)}
+                                    className="p-1 hover:bg-blue-500/10 rounded transition-colors"
+                                    title="Gestionar Stock"
+                                  >
+                                    <Archive className="w-4 h-4 text-blue-600" />
+                                  </button>
+                                  <button
+                                    onClick={() => handleDeleteProduct(product._id)}
+                                    className="p-1 hover:bg-destructive/10 rounded transition-colors"
+                                    title="Eliminar Producto"
+                                  >
+                                    <Trash2 className="w-4 h-4 text-destructive" />
+                                  </button>
+                                </td>
+                              </tr>
+                            )
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            )}
+
+            {inventoryMode === "batches" && (
+              <div className="space-y-6">
+                <div className="flex justify-between items-center gap-4">
+                  <Input
+                    placeholder="Buscar por producto o código de lote..."
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    className="max-w-md"
+                  />
+                  <Button onClick={handleAddBatch} className="gap-2">
+                    <Plus className="w-4 h-4" />
+                    Agregar Lote
+                  </Button>
+                </div>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Lotes de Stock</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-sm">
+                        <thead className="border-b">
+                          <tr className="text-muted-foreground">
+                            <th className="text-left py-2 px-2">Producto</th>
+                            <th className="text-left py-2 px-2">Código Lote</th>
+                            <th className="text-left py-2 px-2">Stock</th>
+                            <th className="text-left py-2 px-2">Costo/Unidad</th>
+                            <th className="text-left py-2 px-2">Ubicación</th>
+                            <th className="text-left py-2 px-2">Fecha Compra</th>
+                            <th className="text-left py-2 px-2">Vencimiento</th>
+                            <th className="text-left py-2 px-2">Acciones</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {filteredBatches.map((batch) => {
+                            const product = products.find((p) => p._id === batch.product_id)
+                            const daysToExpire = Math.floor(
+                              (new Date(batch.expiration_date).getTime() - Date.now()) / (1000 * 60 * 60 * 24),
+                            )
+                            const isExpiringSoon = daysToExpire < 30
+
+                            return (
+                              <tr key={batch._id} className="border-b hover:bg-accent/5">
+                                <td className="py-3 px-2 font-medium">{product?.name || batch.product_id}</td>
+                                <td className="py-3 px-2 font-mono text-xs">{batch.lot_code}</td>
+                                <td className="py-3 px-2">
+                                  <span className={batch.stock_units < 100 ? "text-orange-600 font-semibold" : ""}>
+                                    {batch.stock_units}
+                                  </span>
+                                </td>
+                                <td className="py-3 px-2">${batch.cost_per_unit.toFixed(2)}</td>
+                                <td className="py-3 px-2 capitalize">
+                                  <span className="px-2 py-1 rounded text-xs bg-accent">{batch.location}</span>
+                                </td>
+                                <td className="py-3 px-2 text-xs">
+                                  {new Date(batch.purchase_date).toLocaleDateString()}
+                                </td>
+                                <td className="py-3 px-2 text-xs">
+                                  <span className={isExpiringSoon ? "text-destructive font-semibold" : ""}>
+                                    {new Date(batch.expiration_date).toLocaleDateString()}
+                                    {isExpiringSoon && ` (${daysToExpire}d)`}
+                                  </span>
+                                </td>
+                                <td className="py-3 px-2 flex gap-2">
+                                  <button
+                                    onClick={() => handleEditBatch(batch)}
+                                    className="p-1 hover:bg-primary/10 rounded transition-colors"
+                                    title="Editar"
+                                  >
+                                    <Edit2 className="w-4 h-4 text-primary" />
+                                  </button>
+                                  <button
+                                    onClick={() => handleDeleteBatch(batch._id)}
+                                    className="p-1 hover:bg-destructive/10 rounded transition-colors"
+                                    title="Eliminar"
+                                  >
+                                    <Trash2 className="w-4 h-4 text-destructive" />
+                                  </button>
+                                </td>
+                              </tr>
+                            )
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            )}
           </div>
         )}
 
@@ -264,32 +447,22 @@ export default function AdminDashboard() {
           </div>
         )}
 
-        {activeTab === "sales" && <SalesReport sales={mockSales} products={products} />}
+        {activeTab === "sales" && <SalesReport sales={mockSales} />}
       </main>
-
-      <ConfirmDeleteModal
-        open={showDeleteProductModal}
-        onOpenChange={setShowDeleteProductModal}
-        title="Eliminar Producto"
-        description="¿Estás seguro de que deseas eliminar este producto? Esta acción no se puede deshacer."
-        itemName={deletingProductName}
-        onConfirm={confirmDeleteProduct}
-      />
-
-      <ConfirmDeleteModal
-        open={showDeleteSupplierModal}
-        onOpenChange={setShowDeleteSupplierModal}
-        title="Eliminar Proveedor"
-        description="¿Estás seguro de que deseas eliminar este proveedor? Esta acción no se puede deshacer."
-        itemName={deletingSupplierName}
-        onConfirm={confirmDeleteSupplier}
-      />
 
       <InventoryFormModal
         product={selectedProduct}
-        open={showInventoryModal}
-        onOpenChange={setShowInventoryModal}
+        open={showProductModal}
+        onOpenChange={setShowProductModal}
         onSave={handleSaveProduct}
+      />
+
+      <StockBatchFormModal
+        batch={selectedBatch}
+        products={products}
+        open={showBatchModal}
+        onOpenChange={setShowBatchModal}
+        onSave={handleSaveBatch}
       />
 
       <SupplierFormModal
@@ -298,6 +471,43 @@ export default function AdminDashboard() {
         onOpenChange={setShowSupplierModal}
         onSave={handleSaveSupplier}
       />
+
+      <ConfirmDeleteModal
+        open={showDeleteProductModal}
+        onOpenChange={setShowDeleteProductModal}
+        onConfirm={confirmDeleteProduct}
+        itemName={deletingProductName}
+        itemType="producto"
+      />
+
+      <ConfirmDeleteModal
+        open={showDeleteBatchModal}
+        onOpenChange={setShowDeleteBatchModal}
+        onConfirm={confirmDeleteBatch}
+        itemName={deletingBatchName}
+        itemType="lote"
+      />
+
+      <ConfirmDeleteModal
+        open={showDeleteSupplierModal}
+        onOpenChange={setShowDeleteSupplierModal}
+        onConfirm={confirmDeleteSupplier}
+        itemName={deletingSupplierName}
+        itemType="proveedor"
+      />
+
+      {selectedProductForBatches && (
+        <StockBatchesModal
+          product={selectedProductForBatches}
+          batches={batches}
+          open={showStockBatchesModal}
+          onOpenChange={setShowStockBatchesModal}
+          onSaveBatch={handleSaveBatch}
+          onDeleteBatch={(batchId) => {
+            setBatches((prev) => prev.filter((b) => b._id !== batchId))
+          }}
+        />
+      )}
     </div>
   )
 }

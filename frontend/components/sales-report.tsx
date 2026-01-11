@@ -6,13 +6,15 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Download } from "lucide-react"
 import type { Sale, Product } from "@/lib/types"
+// @ts-ignore
+import * as XLSX from "xlsx"
 
 interface SalesReportProps {
   sales: Sale[]
   products: Product[]
 }
 
-export function SalesReport({ sales, products }: SalesReportProps) {
+export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
   const [startDate, setStartDate] = useState("2025-11-20")
   const [endDate, setEndDate] = useState("2025-11-30")
 
@@ -38,9 +40,7 @@ export function SalesReport({ sales, products }: SalesReportProps) {
   }
 
   const handleExportReport = () => {
-    let csv = "ID Venta,Nombre Venta,Fecha,Día,Turno,Productos,Total,Método Pago,Costo Real,Ganancia Real\n"
-
-    filteredSales.forEach((sale) => {
+    const data = filteredSales.map((sale) => {
       const productsList = sale.items
         .map((item) => {
           const product = products.find((p) => p._id === item.product_id)
@@ -51,18 +51,42 @@ export function SalesReport({ sales, products }: SalesReportProps) {
       const totalCost = sale.items.reduce((sum, item) => sum + item.real_cost, 0)
       const totalProfit = sale.items.reduce((sum, item) => sum + item.real_profit, 0)
 
-      csv += `"${sale._id}","${sale.sale_name}","${new Date(sale.datetime).toLocaleString()}","${sale.day_of_week}","${sale.shift}","${productsList}","${sale.total.toFixed(2)}","${sale.payment_method}","${totalCost.toFixed(2)}","${totalProfit.toFixed(2)}"\n`
+      return {
+        "ID Venta": sale._id,
+        "Nombre Venta": sale.sale_name,
+        Fecha: new Date(sale.datetime).toLocaleDateString(),
+        Hora: new Date(sale.datetime).toLocaleTimeString(),
+        Día: sale.day_of_week,
+        Turno: sale.shift,
+        Productos: productsList,
+        Total: sale.total.toFixed(2),
+        "Método Pago": sale.payment_method,
+        "Costo Real": totalCost.toFixed(2),
+        "Ganancia Real": totalProfit.toFixed(2),
+      }
     })
 
-    const blob = new Blob([csv], { type: "text/csv" })
-    const url = window.URL.createObjectURL(blob)
-    const a = document.createElement("a")
-    a.href = url
-    a.download = `reporte-ventas-${startDate}-${endDate}.csv`
-    document.body.appendChild(a)
-    a.click()
-    document.body.removeChild(a)
-    window.URL.revokeObjectURL(url)
+    const worksheet = XLSX.utils.json_to_sheet(data)
+    const workbook = XLSX.utils.book_new()
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Ventas")
+
+    // Auto-size columns
+    const maxWidth = data.reduce((w, r) => Math.max(w, r["Productos"].length), 10)
+    worksheet["!cols"] = [
+      { wch: 12 },
+      { wch: 20 },
+      { wch: 12 },
+      { wch: 10 },
+      { wch: 10 },
+      { wch: 10 },
+      { wch: Math.min(maxWidth, 50) },
+      { wch: 10 },
+      { wch: 15 },
+      { wch: 12 },
+      { wch: 12 },
+    ]
+
+    XLSX.writeFile(workbook, `reporte-ventas-${startDate}-${endDate}.xlsx`)
   }
 
   return (
@@ -84,7 +108,7 @@ export function SalesReport({ sales, products }: SalesReportProps) {
           </div>
           <Button onClick={handleExportReport} className="gap-2 w-full md:w-auto">
             <Download className="w-4 h-4" />
-            Exportar Reporte como CSV
+            Exportar Reporte como Excel
           </Button>
         </CardContent>
       </Card>

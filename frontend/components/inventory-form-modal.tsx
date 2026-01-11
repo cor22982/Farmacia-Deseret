@@ -1,11 +1,12 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import type { Product, Presentation } from "@/lib/mock-data"
+import type { Product, ProductPresentation } from "@/lib/types"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { Textarea } from "@/components/ui/textarea"
 import { Trash2, Plus } from "lucide-react"
 
 interface InventoryFormModalProps {
@@ -16,32 +17,29 @@ interface InventoryFormModalProps {
 }
 
 export function InventoryFormModal({ product, open, onOpenChange, onSave }: InventoryFormModalProps) {
-  const defaultPresentation: Presentation = {
-    id: `pres-${Date.now()}`,
-    type: "",
-    quantity: 0,
-    price: 0,
-    cost: 0,
-    expireDate: new Date().toISOString().split("T")[0],
-    purchaseDate: new Date().toISOString().split("T")[0],
-  }
-
-  const defaultProduct: Product = {
-    id: "",
+  const [formData, setFormData] = useState<Partial<Product>>({
     name: "",
-    description: "",
-    location: "",
-    image: "/pharmacy-product.jpg",
-    presentations: [defaultPresentation],
-  }
-
-  const [formData, setFormData] = useState<Product>(defaultProduct)
+    category: "",
+    principio_activo: "",
+    descripcion: "",
+    supplier: "",
+    image_url: "/pharmacy-product.jpg",
+    presentations: [],
+  })
 
   useEffect(() => {
     if (product) {
       setFormData(product)
-    } else if (open) {
-      setFormData(defaultProduct)
+    } else {
+      setFormData({
+        name: "",
+        category: "",
+        principio_activo: "",
+        descripcion: "",
+        supplier: "",
+        image_url: "/pharmacy-product.jpg",
+        presentations: [],
+      })
     }
   }, [product, open])
 
@@ -52,50 +50,83 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
     })
   }
 
-  const handlePresentationChange = (index: number, field: keyof Presentation, value: string | number) => {
-    const updatedPresentations = [...formData.presentations]
+  const handleAddPresentation = () => {
+    const newPresentation: ProductPresentation = {
+      presentation_name: "",
+      units: 0,
+      sku: `SKU-${Date.now()}`,
+      cost: 0,
+      price: 0,
+      profit_percent: 0,
+    }
+
+    setFormData({
+      ...formData,
+      presentations: [...(formData.presentations || []), newPresentation],
+    })
+  }
+
+  const handlePresentationChange = (index: number, field: keyof ProductPresentation, value: string | number) => {
+    const updatedPresentations = [...(formData.presentations || [])]
     updatedPresentations[index] = {
       ...updatedPresentations[index],
       [field]: value,
     }
+
+    // Auto-calculate profit percent when cost or price changes
+    if (field === "cost" || field === "price") {
+      const cost = field === "cost" ? Number(value) : updatedPresentations[index].cost
+      const price = field === "price" ? Number(value) : updatedPresentations[index].price
+      const profit = price - cost
+      updatedPresentations[index].profit_percent = cost > 0 ? profit / cost : 0
+    }
+
     setFormData({
       ...formData,
       presentations: updatedPresentations,
     })
   }
 
-  const addPresentation = () => {
+  const handleDeletePresentation = (index: number) => {
     setFormData({
       ...formData,
-      presentations: [...formData.presentations, { ...defaultPresentation, id: `pres-${Date.now()}` }],
+      presentations: formData.presentations?.filter((_, i) => i !== index),
     })
   }
 
-  const removePresentation = (index: number) => {
-    if (formData.presentations.length > 1) {
-      setFormData({
-        ...formData,
-        presentations: formData.presentations.filter((_, i) => i !== index),
-      })
-    }
-  }
-
   const handleSave = () => {
-    if (!formData.name) {
-      alert("Nombre del producto requerido")
+    if (!formData.name || !formData.category) {
+      alert("Complete los campos requeridos del producto")
       return
     }
-    if (formData.presentations.length === 0) {
-      alert("Se requiere al menos una presentación")
+
+    if (!formData.presentations || formData.presentations.length === 0) {
+      alert("Agregue al menos una presentación")
       return
     }
-    onSave(formData)
+
+    // Validate all presentations
+    for (const pres of formData.presentations) {
+      if (!pres.presentation_name || !pres.units || pres.cost <= 0 || pres.price <= 0) {
+        alert("Complete todos los campos de las presentaciones")
+        return
+      }
+    }
+
+    const savedProduct: Product = {
+      ...formData,
+      _id: product?._id || `prod-${Date.now()}`,
+      created_at: product?.created_at || new Date(),
+      updated_at: new Date(),
+    } as Product
+
+    onSave(savedProduct)
     onOpenChange(false)
   }
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-5xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle>{product ? "Editar Producto" : "Agregar Nuevo Producto"}</DialogTitle>
         </DialogHeader>
@@ -103,135 +134,153 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
         <div className="space-y-6">
           {/* Product Info */}
           <div className="space-y-4">
-            <h3 className="font-semibold">Información del Producto</h3>
+            <h3 className="font-semibold text-lg">Información del Producto</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-2">
-                <Label htmlFor="name">Nombre del Producto</Label>
+                <Label htmlFor="name">Nombre del Producto *</Label>
                 <Input id="name" value={formData.name} onChange={(e) => handleChange("name", e.target.value)} />
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="location">Ubicación</Label>
+                <Label htmlFor="category">Categoría *</Label>
                 <Input
-                  id="location"
-                  value={formData.location}
-                  onChange={(e) => handleChange("location", e.target.value)}
-                  placeholder="ej: Estante A1"
+                  id="category"
+                  value={formData.category}
+                  onChange={(e) => handleChange("category", e.target.value)}
+                  placeholder="ej: Analgésico"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="principio_activo">Principio Activo</Label>
+                <Input
+                  id="principio_activo"
+                  value={formData.principio_activo}
+                  onChange={(e) => handleChange("principio_activo", e.target.value)}
+                  placeholder="ej: Paracetamol"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="supplier">Proveedor</Label>
+                <Input
+                  id="supplier"
+                  value={formData.supplier}
+                  onChange={(e) => handleChange("supplier", e.target.value)}
                 />
               </div>
 
               <div className="md:col-span-2 space-y-2">
-                <Label htmlFor="description">Descripción</Label>
-                <textarea
-                  id="description"
-                  value={formData.description}
-                  onChange={(e) => handleChange("description", e.target.value)}
-                  className="w-full p-2 border rounded-md font-sans"
+                <Label htmlFor="descripcion">Descripción</Label>
+                <Textarea
+                  id="descripcion"
+                  value={formData.descripcion}
+                  onChange={(e) => handleChange("descripcion", e.target.value)}
                   rows={3}
                 />
               </div>
             </div>
           </div>
 
-          {/* Presentations */}
+          {/* Presentations as Cards */}
           <div className="space-y-4">
             <div className="flex justify-between items-center">
-              <h3 className="font-semibold">Presentaciones</h3>
-              <Button size="sm" onClick={addPresentation} className="gap-2">
+              <h3 className="font-semibold text-lg">Presentaciones</h3>
+              <Button size="sm" onClick={handleAddPresentation} className="gap-2" type="button">
                 <Plus className="w-4 h-4" />
                 Agregar Presentación
               </Button>
             </div>
 
             <div className="space-y-4">
-              {formData.presentations.map((pres, index) => (
-                <div key={pres.id} className="border rounded-lg p-4 space-y-3">
-                  <div className="flex justify-between items-center mb-2">
-                    <p className="font-medium">Presentación {index + 1}</p>
-                    {formData.presentations.length > 1 && (
+              {formData.presentations && formData.presentations.length > 0 ? (
+                formData.presentations.map((pres, index) => (
+                  <div key={index} className="border rounded-lg p-4 space-y-4 bg-card relative">
+                    <div className="flex justify-between items-start">
+                      <h4 className="font-medium">Presentación {index + 1}</h4>
                       <button
-                        onClick={() => removePresentation(index)}
-                        className="p-1 hover:bg-destructive/10 rounded text-destructive"
+                        onClick={() => handleDeletePresentation(index)}
+                        className="p-1 hover:bg-destructive/10 rounded transition-colors"
+                        type="button"
+                        title="Eliminar"
                       >
-                        <Trash2 className="w-4 h-4" />
+                        <Trash2 className="w-4 h-4 text-destructive" />
                       </button>
-                    )}
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <div className="space-y-2">
-                      <Label>Tipo de Presentación</Label>
-                      <Input
-                        value={pres.type}
-                        onChange={(e) => handlePresentationChange(index, "type", e.target.value)}
-                        placeholder="ej: Tableta - Caja de 30"
-                      />
                     </div>
 
-                    <div className="space-y-2">
-                      <Label>Cantidad</Label>
-                      <Input
-                        type="number"
-                        value={pres.quantity}
-                        onChange={(e) =>
-                          handlePresentationChange(index, "quantity", Number.parseInt(e.target.value) || 0)
-                        }
-                      />
-                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div className="space-y-2">
+                        <Label>Tipo de Presentación</Label>
+                        <Input
+                          value={pres.presentation_name}
+                          onChange={(e) => handlePresentationChange(index, "presentation_name", e.target.value)}
+                          placeholder="ej: Tableta - Caja de 30"
+                        />
+                      </div>
 
-                    <div className="space-y-2">
-                      <Label>Precio de Venta ($)</Label>
-                      <Input
-                        type="number"
-                        step="0.01"
-                        value={pres.price}
-                        onChange={(e) =>
-                          handlePresentationChange(index, "price", Number.parseFloat(e.target.value) || 0)
-                        }
-                      />
-                    </div>
+                      <div className="space-y-2">
+                        <Label>Cantidad</Label>
+                        <Input
+                          type="number"
+                          value={pres.units}
+                          onChange={(e) => handlePresentationChange(index, "units", Number(e.target.value))}
+                          placeholder="30"
+                        />
+                      </div>
 
-                    <div className="space-y-2">
-                      <Label>Costo ($)</Label>
-                      <Input
-                        type="number"
-                        step="0.01"
-                        value={pres.cost}
-                        onChange={(e) =>
-                          handlePresentationChange(index, "cost", Number.parseFloat(e.target.value) || 0)
-                        }
-                      />
-                    </div>
+                      <div className="space-y-2">
+                        <Label>Precio de Venta ($)</Label>
+                        <Input
+                          type="number"
+                          step="0.01"
+                          value={pres.price}
+                          onChange={(e) => handlePresentationChange(index, "price", Number(e.target.value))}
+                          placeholder="0.7"
+                        />
+                      </div>
 
-                    <div className="space-y-2">
-                      <Label>Fecha de Vencimiento</Label>
-                      <Input
-                        type="date"
-                        value={pres.expireDate}
-                        onChange={(e) => handlePresentationChange(index, "expireDate", e.target.value)}
-                      />
-                    </div>
+                      <div className="space-y-2">
+                        <Label>Costo ($)</Label>
+                        <Input
+                          type="number"
+                          step="0.01"
+                          value={pres.cost}
+                          onChange={(e) => handlePresentationChange(index, "cost", Number(e.target.value))}
+                          placeholder="0.5"
+                        />
+                      </div>
 
-                    <div className="space-y-2">
-                      <Label>Fecha de Compra</Label>
-                      <Input
-                        type="date"
-                        value={pres.purchaseDate}
-                        onChange={(e) => handlePresentationChange(index, "purchaseDate", e.target.value)}
-                      />
+                      <div className="space-y-2">
+                        <Label>Margen de Ganancia</Label>
+                        <Input value={`${(pres.profit_percent * 100).toFixed(1)}%`} disabled className="bg-muted" />
+                      </div>
+
+                      <div className="space-y-2">
+                        <Label>SKU</Label>
+                        <Input
+                          value={pres.sku}
+                          onChange={(e) => handlePresentationChange(index, "sku", e.target.value)}
+                          placeholder="SKU-123"
+                          className="font-mono text-sm"
+                        />
+                      </div>
                     </div>
                   </div>
+                ))
+              ) : (
+                <div className="text-center py-8 text-muted-foreground border-2 border-dashed rounded-lg">
+                  No hay presentaciones. Haga clic en "Agregar Presentación" para comenzar.
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </div>
 
-        <DialogFooter>
+        <DialogFooter className="gap-2">
           <Button variant="outline" onClick={() => onOpenChange(false)}>
             Cancelar
           </Button>
-          <Button onClick={handleSave}>Guardar Cambios</Button>
+          <Button onClick={handleSave}>Guardar Producto</Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>
