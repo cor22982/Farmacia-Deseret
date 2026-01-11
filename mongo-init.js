@@ -14,6 +14,7 @@ db.products.insertOne({
     {
       presentation_name: "unidad",
       units: 1,
+      cost: 0.45,
       price: 0.60,
       profit_percent: 0.15,
       sku: "ACE-U-01"
@@ -21,6 +22,7 @@ db.products.insertOne({
     {
       presentation_name: "blister",
       units: 8,
+      cost: 2.80,
       price: 3.50,
       profit_percent: 0.20,
       sku: "ACE-B-01"
@@ -28,6 +30,7 @@ db.products.insertOne({
     {
       presentation_name: "caja",
       units: 80,
+      cost: 18.75,
       price: 25.00,
       profit_percent: 0.25,
       sku: "ACE-C-01"

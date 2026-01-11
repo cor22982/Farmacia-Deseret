@@ -27,6 +27,7 @@ def create_product(product: dict = Body(...)):
 def get_products(skip: int = 0, limit: int = 100):
     """Obtener todos los productos"""
     products = list(products_collection.find().skip(skip).limit(limit))
+    
     return serialize_list(products)
 
 @router.get("/search")

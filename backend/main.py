@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from config.database import client
+from fastapi.staticfiles import StaticFiles
+
 
 # Importar routers
 from routes import products, stock_batches, sales, users, shopping_cart
@@ -10,6 +12,11 @@ app = FastAPI(
     title="Farmacia API",
     description="Sistema de gestión para farmacia con MongoDB",
     version="1.0.0"
+)
+app.mount(
+    "/uploads",
+    StaticFiles(directory="uploads"),
+    name="uploads"
 )
 
 # Configurar CORS
