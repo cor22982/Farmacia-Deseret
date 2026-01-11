@@ -5,16 +5,11 @@ import { ProductDetailModal } from "@/components/product-detail-modal"
 import { AdminLoginModal } from "@/components/admin-login-modal"
 import { ProductCard } from "@/components/product-card"
 import { Button } from "@/components/ui/button"
-import { mockProducts, type Product, type Presentation } from "@/lib/mock-data"
+import { mockProducts, mockStockBatches } from "@/lib/mock-data"
+import type { Product, ProductPresentation, CartItem } from "@/lib/types"
 import { ShoppingCart, LogOut, Settings, Search, X } from "lucide-react"
 import Link from "next/link"
 import { PaymentModal } from "@/components/payment-modal"
-
-interface CartItem {
-  product: Product
-  presentation: Presentation
-  quantity: number
-}
 
 export default function Home() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
@@ -28,23 +23,33 @@ export default function Home() {
   const [selectedPresentation, setSelectedPresentation] = useState<string | null>(null)
   const [priceRange, setPriceRange] = useState<{ min: number; max: number } | null>(null)
 
-  const handleAddToCart = (product: Product, presentation: Presentation, quantity = 1) => {
+  const handleAddToCart = (product: Product, presentation: ProductPresentation, quantity = 1) => {
     setCartItems((prev) => {
-      const existing = prev.find((item) => item.product.id === product.id && item.presentation.id === presentation.id)
+      const existing = prev.find(
+        (item) => item.product_id === product._id && item.presentation_name === presentation.presentation_name,
+      )
       if (existing) {
         return prev.map((item) =>
-          item.product.id === product.id && item.presentation.id === presentation.id
-            ? { ...item, quantity: item.quantity + quantity }
+          item.product_id === product._id && item.presentation_name === presentation.presentation_name
+            ? { ...item, qty: item.qty + quantity }
             : item,
         )
       }
-      return [...prev, { product, presentation, quantity }]
+      return [
+        ...prev,
+        {
+          product_id: product._id,
+          presentation_name: presentation.presentation_name,
+          qty: quantity,
+          price_unit: presentation.price,
+        },
+      ]
     })
   }
 
-  const handleRemoveFromCart = (productId: string, presentationId: string) => {
+  const handleRemoveFromCart = (productId: string, presentationName: string) => {
     setCartItems((prev) =>
-      prev.filter((item) => !(item.product.id === productId && item.presentation.id === presentationId)),
+      prev.filter((item) => !(item.product_id === productId && item.presentation_name === presentationName)),
     )
   }
 
@@ -52,10 +57,11 @@ export default function Home() {
     return mockProducts.filter((product) => {
       const matchesSearch =
         product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        product.description.toLowerCase().includes(searchTerm.toLowerCase())
+        product.descripcion.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        product.category.toLowerCase().includes(searchTerm.toLowerCase())
 
       const matchesPresentation =
-        !selectedPresentation || product.presentations.some((p) => p.type.includes(selectedPresentation))
+        !selectedPresentation || product.presentations.some((p) => p.presentation_name.includes(selectedPresentation))
 
       const matchesPrice =
         !priceRange || product.presentations.some((p) => p.price >= priceRange.min && p.price <= priceRange.max)
@@ -64,9 +70,11 @@ export default function Home() {
     })
   }, [searchTerm, selectedPresentation, priceRange])
 
-  const cartTotal = cartItems.reduce((sum, item) => sum + item.presentation.price * item.quantity, 0)
+  const cartTotal = cartItems.reduce((sum, item) => sum + item.price_unit * item.qty, 0)
 
-  const presentations = Array.from(new Set(mockProducts.flatMap((p) => p.presentations.map((pr) => pr.type))))
+  const presentations = Array.from(
+    new Set(mockProducts.flatMap((p) => p.presentations.map((pr) => pr.presentation_name))),
+  )
   const maxPrice = Math.max(...mockProducts.flatMap((p) => p.presentations.map((pr) => pr.price)))
 
   return (
@@ -128,27 +136,30 @@ export default function Home() {
               ) : (
                 <>
                   <div className="space-y-4 mb-6">
-                    {cartItems.map((item) => (
-                      <div
-                        key={`${item.product.id}-${item.presentation.id}`}
-                        className="flex justify-between items-start border-b pb-3"
-                      >
-                        <div className="flex-1">
-                          <p className="font-medium">{item.product.name}</p>
-                          <p className="text-xs text-muted-foreground">{item.presentation.type}</p>
-                          <p className="text-sm text-muted-foreground">Cantidad: {item.quantity}</p>
-                          <p className="text-sm font-semibold text-primary">
-                            ${(item.presentation.price * item.quantity).toFixed(2)}
-                          </p>
-                        </div>
-                        <button
-                          onClick={() => handleRemoveFromCart(item.product.id, item.presentation.id)}
-                          className="text-xs text-destructive hover:bg-destructive/10 px-2 py-1 rounded"
+                    {cartItems.map((item) => {
+                      const product = mockProducts.find((p) => p._id === item.product_id)
+                      return (
+                        <div
+                          key={`${item.product_id}-${item.presentation_name}`}
+                          className="flex justify-between items-start border-b pb-3"
                         >
-                          Eliminar
-                        </button>
-                      </div>
-                    ))}
+                          <div className="flex-1">
+                            <p className="font-medium">{product?.name}</p>
+                            <p className="text-xs text-muted-foreground capitalize">{item.presentation_name}</p>
+                            <p className="text-sm text-muted-foreground">Cantidad: {item.qty}</p>
+                            <p className="text-sm font-semibold text-primary">
+                              ${(item.price_unit * item.qty).toFixed(2)}
+                            </p>
+                          </div>
+                          <button
+                            onClick={() => handleRemoveFromCart(item.product_id, item.presentation_name)}
+                            className="text-xs text-destructive hover:bg-destructive/10 px-2 py-1 rounded"
+                          >
+                            Eliminar
+                          </button>
+                        </div>
+                      )
+                    })}
                   </div>
 
                   <div className="bg-accent/10 p-4 rounded-lg mb-6">
@@ -174,7 +185,6 @@ export default function Home() {
           <p className="text-muted-foreground mb-6">Explora nuestra selección de medicamentos y suplementos</p>
 
           <div className="space-y-4 mb-6">
-            {/* Search Bar */}
             <div className="relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
               <input
@@ -194,25 +204,22 @@ export default function Home() {
               )}
             </div>
 
-            {/* Filters */}
             <div className="flex flex-wrap gap-3">
-              {/* Presentation Filter */}
               <div className="flex gap-2">
                 <select
                   value={selectedPresentation || ""}
                   onChange={(e) => setSelectedPresentation(e.target.value || null)}
-                  className="px-4 py-2 border border-border rounded-lg bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="px-4 py-2 border border-border rounded-lg bg-background focus:outline-none focus:ring-2 focus:ring-primary capitalize"
                 >
                   <option value="">Todas las Presentaciones</option>
                   {presentations.map((pres) => (
-                    <option key={pres} value={pres}>
+                    <option key={pres} value={pres} className="capitalize">
                       {pres}
                     </option>
                   ))}
                 </select>
               </div>
 
-              {/* Price Range Filter */}
               <div className="flex gap-2 items-center">
                 <input
                   type="number"
@@ -241,7 +248,6 @@ export default function Home() {
                 />
               </div>
 
-              {/* Clear Filters Button */}
               {(searchTerm || selectedPresentation || priceRange) && (
                 <Button
                   variant="ghost"
@@ -257,7 +263,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Results Count */}
           <p className="text-sm text-muted-foreground mb-6">
             Mostrando {filteredProducts.length} de {mockProducts.length} productos
           </p>
@@ -286,8 +291,9 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {filteredProducts.map((product) => (
                 <ProductCard
-                  key={product.id}
+                  key={product._id}
                   product={product}
+                  batches={mockStockBatches}
                   onViewDetails={(product) => {
                     setSelectedProduct(product)
                     setShowProductModal(true)
@@ -306,6 +312,7 @@ export default function Home() {
       {/* Modals */}
       <ProductDetailModal
         product={selectedProduct}
+        batches={mockStockBatches}
         open={showProductModal}
         onOpenChange={setShowProductModal}
         onAddToCart={handleAddToCart}
@@ -325,6 +332,7 @@ export default function Home() {
         onOpenChange={setShowPaymentModal}
         cartItems={cartItems}
         cartTotal={cartTotal}
+        products={mockProducts}
       />
     </div>
   )

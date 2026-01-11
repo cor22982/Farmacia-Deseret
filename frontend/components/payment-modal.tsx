@@ -5,23 +5,18 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import type { Product, Presentation } from "@/lib/mock-data"
-
-interface CartItem {
-  product: Product
-  presentation: Presentation
-  quantity: number
-}
+import type { CartItem, Product } from "@/lib/types"
 
 interface PaymentModalProps {
   open: boolean
   onOpenChange: (open: boolean) => void
   cartItems: CartItem[]
   cartTotal: number
+  products: Product[]
 }
 
-export function PaymentModal({ open, onOpenChange, cartItems, cartTotal }: PaymentModalProps) {
-  const [paymentMethod, setPaymentMethod] = useState<"cash" | "card" | "transfer">("cash")
+export function PaymentModal({ open, onOpenChange, cartItems, cartTotal, products }: PaymentModalProps) {
+  const [paymentMethod, setPaymentMethod] = useState<"efectivo" | "tarjeta" | "transferencia">("efectivo")
   const [amountReceived, setAmountReceived] = useState<number>(cartTotal)
   const [customerName, setCustomerName] = useState("")
 
@@ -30,21 +25,23 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal }: Payme
   const handleCheckout = () => {
     console.log("Processing order:", {
       customer: customerName,
-      items: cartItems.map((item) => ({
-        productId: item.product.id,
-        productName: item.product.name,
-        presentationType: item.presentation.type,
-        quantity: item.quantity,
-        price: item.presentation.price,
-      })),
+      items: cartItems.map((item) => {
+        const product = products.find((p) => p._id === item.product_id)
+        return {
+          product_id: item.product_id,
+          presentation_name: item.presentation_name,
+          qty: item.qty,
+          price_unit: item.price_unit,
+          productName: product?.name,
+        }
+      }),
       total: cartTotal,
-      paymentMethod,
-      amountReceived,
-      change,
+      payment_method: paymentMethod,
+      paid_amount: paymentMethod === "efectivo" ? amountReceived : cartTotal,
+      change: paymentMethod === "efectivo" ? change : 0,
     })
 
-    // Show success message
-    alert(`Pedido confirmado! Cambio: $${change.toFixed(2)}`)
+    alert(`Pedido confirmado! ${paymentMethod === "efectivo" ? `Cambio: $${change.toFixed(2)}` : "Pago procesado"}`)
     onOpenChange(false)
   }
 
@@ -60,21 +57,24 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal }: Payme
           <div className="space-y-3">
             <h3 className="font-semibold text-lg">Resumen de Compra</h3>
             <div className="border rounded-lg p-4 space-y-2 max-h-48 overflow-y-auto">
-              {cartItems.map((item) => (
-                <div
-                  key={`${item.product.id}-${item.presentation.id}`}
-                  className="space-y-1 pb-2 border-b last:border-b-0"
-                >
-                  <div className="flex justify-between items-start text-sm">
-                    <div>
-                      <p className="font-medium">{item.product.name}</p>
-                      <p className="text-xs text-muted-foreground">{item.presentation.type}</p>
+              {cartItems.map((item) => {
+                const product = products.find((p) => p._id === item.product_id)
+                return (
+                  <div
+                    key={`${item.product_id}-${item.presentation_name}`}
+                    className="space-y-1 pb-2 border-b last:border-b-0"
+                  >
+                    <div className="flex justify-between items-start text-sm">
+                      <div>
+                        <p className="font-medium">{product?.name}</p>
+                        <p className="text-xs text-muted-foreground capitalize">{item.presentation_name}</p>
+                      </div>
+                      <span className="font-medium">${(item.price_unit * item.qty).toFixed(2)}</span>
                     </div>
-                    <span className="font-medium">${(item.presentation.price * item.quantity).toFixed(2)}</span>
+                    <p className="text-xs text-muted-foreground">Cantidad: {item.qty}</p>
                   </div>
-                  <p className="text-xs text-muted-foreground">Cantidad: {item.quantity}</p>
-                </div>
-              ))}
+                )
+              })}
             </div>
             <div className="bg-accent/10 p-3 rounded-lg">
               <div className="flex justify-between items-center">
@@ -99,12 +99,12 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal }: Payme
           <div className="space-y-3">
             <h3 className="font-semibold">Método de Pago</h3>
             <div className="grid grid-cols-3 gap-3">
-              {(["cash", "card", "transfer"] as const).map((method) => (
+              {(["efectivo", "tarjeta", "transferencia"] as const).map((method) => (
                 <button
                   key={method}
                   onClick={() => {
                     setPaymentMethod(method)
-                    if (method !== "cash") setAmountReceived(cartTotal)
+                    if (method !== "efectivo") setAmountReceived(cartTotal)
                   }}
                   className={`p-3 rounded-lg border-2 transition-all capitalize font-medium ${
                     paymentMethod === method
@@ -112,14 +112,18 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal }: Payme
                       : "border-border hover:border-muted-foreground"
                   }`}
                 >
-                  {method === "card" ? "💳 Tarjeta" : method === "transfer" ? "🏦 Transferencia" : "💵 Efectivo"}
+                  {method === "tarjeta"
+                    ? "💳 Tarjeta"
+                    : method === "transferencia"
+                      ? "🏦 Transferencia"
+                      : "💵 Efectivo"}
                 </button>
               ))}
             </div>
           </div>
 
           {/* Amount Received (for cash only) */}
-          {paymentMethod === "cash" && (
+          {paymentMethod === "efectivo" && (
             <div className="space-y-3">
               <Label htmlFor="amount-received">Cantidad Recibida</Label>
               <Input
@@ -152,7 +156,7 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal }: Payme
           )}
 
           {/* Auto-filled for card/transfer */}
-          {paymentMethod !== "cash" && (
+          {paymentMethod !== "efectivo" && (
             <div className="bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 p-4 rounded-lg">
               <div className="flex justify-between items-center">
                 <span className="font-semibold">Monto Total:</span>

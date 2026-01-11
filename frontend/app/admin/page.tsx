@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { useRouter } from "next/navigation"
-import { type Product, type Supplier, mockProducts, mockSuppliers, mockOrders } from "@/lib/mock-data"
+import { mockProducts, mockStockBatches, mockSuppliers, mockSales } from "@/lib/mock-data"
+import type { Product, StockBatch, Supplier } from "@/lib/types"
 import { InventoryFormModal } from "@/components/inventory-form-modal"
 import { SupplierFormModal } from "@/components/supplier-form-modal"
 import { exportProductsToExcel, exportSuppliersToExcel } from "@/components/export-excel"
@@ -15,8 +15,8 @@ import { ConfirmDeleteModal } from "@/components/confirm-delete-modal"
 import { SalesReport } from "@/components/sales-report"
 
 export default function AdminDashboard() {
-  const router = useRouter()
   const [products, setProducts] = useState<Product[]>(mockProducts)
+  const [batches, setBatches] = useState<StockBatch[]>(mockStockBatches)
   const [suppliers, setSuppliers] = useState<Supplier[]>(mockSuppliers)
   const [activeTab, setActiveTab] = useState<"inventory" | "suppliers" | "sales">("inventory")
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
@@ -30,7 +30,7 @@ export default function AdminDashboard() {
   const [supplierToDelete, setSupplierToDelete] = useState<string | null>(null)
 
   const filteredProducts = products.filter(
-    (p) => p.name.toLowerCase().includes(searchTerm.toLowerCase()) || p.id.includes(searchTerm),
+    (p) => p.name.toLowerCase().includes(searchTerm.toLowerCase()) || p._id.includes(searchTerm),
   )
 
   const handleEditProduct = (product: Product) => {
@@ -46,8 +46,8 @@ export default function AdminDashboard() {
   const handleSaveProduct = (updatedProduct: Product) => {
     setProducts((prev) =>
       selectedProduct
-        ? prev.map((p) => (p.id === updatedProduct.id ? updatedProduct : p))
-        : [...prev, { ...updatedProduct, id: `PROD-${Date.now()}` }],
+        ? prev.map((p) => (p._id === updatedProduct._id ? updatedProduct : p))
+        : [...prev, { ...updatedProduct, _id: `prod-${Date.now()}` }],
     )
   }
 
@@ -58,7 +58,7 @@ export default function AdminDashboard() {
 
   const confirmDeleteProduct = () => {
     if (productToDelete) {
-      setProducts((prev) => prev.filter((p) => p.id !== productToDelete))
+      setProducts((prev) => prev.filter((p) => p._id !== productToDelete))
       setProductToDelete(null)
     }
   }
@@ -76,8 +76,8 @@ export default function AdminDashboard() {
   const handleSaveSupplier = (updatedSupplier: Supplier) => {
     setSuppliers((prev) =>
       selectedSupplier
-        ? prev.map((s) => (s.id === updatedSupplier.id ? updatedSupplier : s))
-        : [...prev, { ...updatedSupplier, id: `SUP-${Date.now()}` }],
+        ? prev.map((s) => (s._id === updatedSupplier._id ? updatedSupplier : s))
+        : [...prev, { ...updatedSupplier, _id: `sup-${Date.now()}` }],
     )
   }
 
@@ -88,17 +88,16 @@ export default function AdminDashboard() {
 
   const confirmDeleteSupplier = () => {
     if (supplierToDelete) {
-      setSuppliers((prev) => prev.filter((s) => s.id !== supplierToDelete))
+      setSuppliers((prev) => prev.filter((s) => s._id !== supplierToDelete))
       setSupplierToDelete(null)
     }
   }
 
-  const deletingProductName = products.find((p) => p.id === productToDelete)?.name || "Producto"
-  const deletingSupplierName = suppliers.find((s) => s.id === supplierToDelete)?.name || "Proveedor"
+  const deletingProductName = products.find((p) => p._id === productToDelete)?.name || "Producto"
+  const deletingSupplierName = suppliers.find((s) => s._id === supplierToDelete)?.name || "Proveedor"
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
       <header className="bg-card border-b border-border">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
@@ -114,7 +113,6 @@ export default function AdminDashboard() {
       </header>
 
       <main className="container mx-auto px-4 py-12">
-        {/* Tab Navigation */}
         <div className="flex gap-2 mb-8 flex-wrap">
           <Button variant={activeTab === "inventory" ? "default" : "outline"} onClick={() => setActiveTab("inventory")}>
             Gestión de Inventario
@@ -127,7 +125,6 @@ export default function AdminDashboard() {
           </Button>
         </div>
 
-        {/* Inventory Management Tab */}
         {activeTab === "inventory" && (
           <div className="space-y-6">
             <div className="flex justify-between items-center gap-4">
@@ -149,7 +146,6 @@ export default function AdminDashboard() {
               </div>
             </div>
 
-            {/* Products Table */}
             <Card>
               <CardHeader>
                 <CardTitle>Productos</CardTitle>
@@ -160,31 +156,32 @@ export default function AdminDashboard() {
                     <thead className="border-b">
                       <tr className="text-muted-foreground">
                         <th className="text-left py-2 px-2">Nombre</th>
+                        <th className="text-left py-2 px-2">Categoría</th>
                         <th className="text-left py-2 px-2">Presentaciones</th>
                         <th className="text-left py-2 px-2">Total Stock</th>
-                        <th className="text-left py-2 px-2">Ubicación</th>
-                        <th className="text-left py-2 px-2">Próximo Vencimiento</th>
+                        <th className="text-left py-2 px-2">Proveedor</th>
                         <th className="text-left py-2 px-2">Acciones</th>
                       </tr>
                     </thead>
                     <tbody>
                       {filteredProducts.map((product) => {
-                        const totalStock = product.presentations.reduce((sum, p) => sum + p.quantity, 0)
-                        const nextExpire = new Date(
-                          Math.min(...product.presentations.map((p) => new Date(p.expireDate).getTime())),
-                        )
+                        const totalStock = batches
+                          .filter((b) => b.product_id === product._id)
+                          .reduce((sum, b) => sum + b.stock_units, 0)
 
                         return (
-                          <tr key={product.id} className="border-b hover:bg-accent/5">
+                          <tr key={product._id} className="border-b hover:bg-accent/5">
                             <td className="py-3 px-2 font-medium">{product.name}</td>
-                            <td className="py-3 px-2 text-xs">{product.presentations.map((p) => p.type).join(", ")}</td>
+                            <td className="py-3 px-2 text-xs capitalize">{product.category}</td>
+                            <td className="py-3 px-2 text-xs capitalize">
+                              {product.presentations.map((p) => p.presentation_name).join(", ")}
+                            </td>
                             <td className="py-3 px-2">
                               <span className={totalStock < 50 ? "text-destructive font-semibold" : ""}>
-                                {totalStock}
+                                {totalStock} unidades
                               </span>
                             </td>
-                            <td className="py-3 px-2">{product.location}</td>
-                            <td className="py-3 px-2">{nextExpire.toLocaleDateString()}</td>
+                            <td className="py-3 px-2 text-xs">{product.supplier}</td>
                             <td className="py-3 px-2 flex gap-2">
                               <button
                                 onClick={() => handleEditProduct(product)}
@@ -194,7 +191,7 @@ export default function AdminDashboard() {
                                 <Edit2 className="w-4 h-4 text-primary" />
                               </button>
                               <button
-                                onClick={() => handleDeleteProduct(product.id)}
+                                onClick={() => handleDeleteProduct(product._id)}
                                 className="p-1 hover:bg-destructive/10 rounded transition-colors"
                                 title="Eliminar"
                               >
@@ -212,7 +209,6 @@ export default function AdminDashboard() {
           </div>
         )}
 
-        {/* Suppliers Tab */}
         {activeTab === "suppliers" && (
           <div className="space-y-6">
             <div className="flex justify-end gap-2">
@@ -226,10 +222,9 @@ export default function AdminDashboard() {
               </Button>
             </div>
 
-            {/* Suppliers Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {suppliers.map((supplier) => (
-                <Card key={supplier.id}>
+                <Card key={supplier._id}>
                   <CardHeader>
                     <CardTitle className="text-lg">{supplier.name}</CardTitle>
                   </CardHeader>
@@ -255,7 +250,7 @@ export default function AdminDashboard() {
                         Editar
                       </button>
                       <button
-                        onClick={() => handleDeleteSupplier(supplier.id)}
+                        onClick={() => handleDeleteSupplier(supplier._id)}
                         className="flex-1 flex items-center justify-center gap-2 p-2 hover:bg-destructive/10 rounded transition-colors text-destructive"
                       >
                         <Trash2 className="w-4 h-4" />
@@ -269,11 +264,9 @@ export default function AdminDashboard() {
           </div>
         )}
 
-        {/* Sales Report Tab */}
-        {activeTab === "sales" && <SalesReport orders={mockOrders} />}
+        {activeTab === "sales" && <SalesReport sales={mockSales} products={products} />}
       </main>
 
-      {/* Modals */}
       <ConfirmDeleteModal
         open={showDeleteProductModal}
         onOpenChange={setShowDeleteProductModal}
