@@ -9,7 +9,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "PharmaCare - Pharmacy Management System",
+  title: "Farmacia Deseret - Sistema de Farmacia",
   description: "Professional pharmacy e-commerce and inventory management",
   generator: "v0.app",
   icons: {

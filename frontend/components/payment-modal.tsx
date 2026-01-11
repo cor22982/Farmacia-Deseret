@@ -69,7 +69,7 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal, product
                         <p className="font-medium">{product?.name}</p>
                         <p className="text-xs text-muted-foreground capitalize">{item.presentation_name}</p>
                       </div>
-                      <span className="font-medium">${(item.price_unit * item.qty).toFixed(2)}</span>
+                      <span className="font-medium">Q{(item.price_unit * item.qty).toFixed(2)}</span>
                     </div>
                     <p className="text-xs text-muted-foreground">Cantidad: {item.qty}</p>
                   </div>
@@ -79,7 +79,7 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal, product
             <div className="bg-accent/10 p-3 rounded-lg">
               <div className="flex justify-between items-center">
                 <span className="font-semibold">Total:</span>
-                <span className="text-2xl font-bold text-accent">${cartTotal.toFixed(2)}</span>
+                <span className="text-2xl font-bold text-accent">Q{cartTotal.toFixed(2)}</span>
               </div>
             </div>
           </div>
@@ -140,15 +140,15 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal, product
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
                     <span>Cantidad Recibida:</span>
-                    <span className="font-medium">${amountReceived.toFixed(2)}</span>
+                    <span className="font-medium">Q{amountReceived.toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span>Total:</span>
-                    <span className="font-medium">−${cartTotal.toFixed(2)}</span>
+                    <span className="font-medium">−Q{cartTotal.toFixed(2)}</span>
                   </div>
                   <div className="border-t border-green-200 dark:border-green-800 pt-2 flex justify-between">
                     <span className="font-semibold">Cambio a Devolver:</span>
-                    <span className="text-xl font-bold text-green-600 dark:text-green-400">${change.toFixed(2)}</span>
+                    <span className="text-xl font-bold text-green-600 dark:text-green-400">Q{change.toFixed(2)}</span>
                   </div>
                 </div>
               </div>
@@ -160,7 +160,7 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal, product
             <div className="bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 p-4 rounded-lg">
               <div className="flex justify-between items-center">
                 <span className="font-semibold">Monto Total:</span>
-                <span className="text-xl font-bold text-blue-600 dark:text-blue-400">${cartTotal.toFixed(2)}</span>
+                <span className="text-xl font-bold text-blue-600 dark:text-blue-400">Q{cartTotal.toFixed(2)}</span>
               </div>
             </div>
           )}

@@ -42,6 +42,19 @@ def get_batch(batch_id: str):
         raise HTTPException(status_code=404, detail="Lote no encontrado")
     return serialize_doc(batch)
 
+@router.get("/productid/{product_id}")
+def get_batches_by_product_id(product_id: str):
+    """Obtener todos los lotes de un producto"""
+    batches_cursor = stock_batches_collection.find({"product_id": product_id})
+
+    batches = [serialize_doc(batch) for batch in batches_cursor]
+
+    if not batches:
+        raise HTTPException(status_code=404, detail="No hay lotes para este producto")
+
+    return batches
+
+
 @router.put("/{batch_id}")
 def update_batch(batch_id: str, batch: dict = Body(...)):
     """Actualizar un lote de stock"""

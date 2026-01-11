@@ -15,6 +15,7 @@ interface ProductCardProps {
 export function ProductCard({ product, batches, onViewDetails, onAddToCart }: ProductCardProps) {
   const lowestPrice = Math.min(...product.presentations.map((p) => p.price))
   const presentationTypes = product.presentations.map((p) => p.presentation_name).join(", ")
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
   const totalStock = batches.filter((b) => b.product_id === product._id).reduce((sum, b) => sum + b.stock_units, 0)
 
@@ -26,7 +27,7 @@ export function ProductCard({ product, batches, onViewDetails, onAddToCart }: Pr
           onClick={() => onViewDetails(product)}
         >
           <Image
-            src={product.image_url || "/placeholder.svg"}
+            src={apiUrl + product.image_url || "/placeholder.svg"}
             alt={product.name}
             fill
             className="object-cover hover:scale-105 transition-transform"
@@ -48,7 +49,7 @@ export function ProductCard({ product, batches, onViewDetails, onAddToCart }: Pr
         </div>
 
         <div className="flex justify-between items-center mb-4 mt-auto">
-          <span className="text-2xl font-bold text-primary">desde ${lowestPrice.toFixed(2)}</span>
+          <span className="text-2xl font-bold text-primary">desde Q{lowestPrice.toFixed(2)}</span>
         </div>
 
         <div className="flex gap-2">
