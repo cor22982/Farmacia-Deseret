@@ -11,6 +11,10 @@ interface UseFetchConfig {
   enabled?: boolean;
 }
 
+interface UsePostConfig {
+  url: string;
+}
+
 export function useFetch<T>({
   url,
   params,
@@ -58,6 +62,54 @@ export function useFetch<T>({
     loading,
     error,
     refetch: fetchData,
+    reset,
+  };
+}
+
+export function usePost<TResponse, TBody = any>({
+  url,
+}: UsePostConfig) {
+  const [data, setData] = useState<TResponse | null>(null);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const post = useCallback(
+    async (body: TBody) => {
+      setLoading(true);
+      setError(null);
+
+      try {
+        const res = await apiClient.post<TResponse>(url, body);
+        setData(res.data);
+        return res.data; // útil para await
+      } catch (err) {
+        const axiosError = err as AxiosError<any>;
+        const message =
+          axiosError.response?.data?.detail ||
+          axiosError.message ||
+          "Error inesperado";
+
+        setError(message);
+        setData(null);
+        throw message;
+      } finally {
+        setLoading(false);
+      }
+    },
+    [url]
+  );
+
+  const reset = () => {
+    setData(null);
+    setError(null);
+    setLoading(false);
+  };
+
+  return {
+    data,
+    loading,
+    error,
+    post,
     reset,
   };
 }

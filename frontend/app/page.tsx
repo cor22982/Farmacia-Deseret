@@ -377,6 +377,7 @@ export default function Home() {
         onOpenChange={setShowPaymentModal}
         cartItems={cartItems}
         cartTotal={cartTotal}
+        setCartItems={setCartItems}
         products={safeProducts}
       />
     </div>

@@ -6,24 +6,33 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import type { CartItem, Product } from "@/lib/types"
+import { usePost } from "@/hooks/use-Products"
+import { toast } from "react-toastify";
+
 
 interface PaymentModalProps {
   open: boolean
   onOpenChange: (open: boolean) => void
   cartItems: CartItem[]
   cartTotal: number
+  setCartItems: React.Dispatch<React.SetStateAction<CartItem[]>>; 
   products: Product[]
 }
 
-export function PaymentModal({ open, onOpenChange, cartItems, cartTotal, products }: PaymentModalProps) {
+export function PaymentModal({ open, onOpenChange, cartItems, cartTotal, products, setCartItems }: PaymentModalProps) {
   const [paymentMethod, setPaymentMethod] = useState<"efectivo" | "tarjeta" | "transferencia">("efectivo")
   const [amountReceived, setAmountReceived] = useState<number>(cartTotal)
   const [customerName, setCustomerName] = useState("")
 
+  const { post, data } = usePost({
+    url: "/shopping-cart",
+  });
+
   const change = Math.max(0, amountReceived - cartTotal)
 
-  const handleCheckout = () => {
-    console.log("Processing order:", {
+  const handleCheckout = async() => {
+
+    let data_tosend = {
       customer: customerName,
       items: cartItems.map((item) => {
         const product = products.find((p) => p._id === item.product_id)
@@ -39,10 +48,18 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal, product
       payment_method: paymentMethod,
       paid_amount: paymentMethod === "efectivo" ? amountReceived : cartTotal,
       change: paymentMethod === "efectivo" ? change : 0,
-    })
+    }
 
-    alert(`Pedido confirmado! ${paymentMethod === "efectivo" ? `Cambio: $${change.toFixed(2)}` : "Pago procesado"}`)
+
+    console.log("Processing order:", data_tosend)
+
+    await post(data_tosend);
+
+
     onOpenChange(false)
+    setCartItems([])
+    toast.success(`Pedido confirmado! ${paymentMethod === "efectivo" ? `Cambio: $${change.toFixed(2)}` : "Pago procesado"}`);
+
   }
 
   return (

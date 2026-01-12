@@ -4,6 +4,7 @@ import type { Product, StockBatch } from "@/lib/types"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import { useFetch } from "@/hooks/use-Products"
 
 interface ProductCardProps {
   product: Product
@@ -16,8 +17,19 @@ export function ProductCard({ product, batches, onViewDetails, onAddToCart }: Pr
   const lowestPrice = Math.min(...product.presentations.map((p) => p.price))
   const presentationTypes = product.presentations.map((p) => p.presentation_name).join(", ")
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+  const {
+    data: productBatches,
+    loading,
+    error,
+    refetch,
+    reset, // Agregar reset si tu hook lo tiene, o setData
+  } = useFetch<StockBatch[]>({
+    url: product?._id ? `/stock-batches/productid/${product._id}` : null,
+  });
 
-  const totalStock = batches.filter((b) => b.product_id === product._id).reduce((sum, b) => sum + b.stock_units, 0)
+  const safeproductBatches = Array.isArray(productBatches) ? productBatches : []
+  
+  const totalStock = safeproductBatches.filter((b) => b.product_id === product._id).reduce((sum, b) => sum + b.stock_units, 0)
 
   return (
     <Card className="hover:shadow-lg transition-shadow overflow-hidden flex flex-col h-full">
