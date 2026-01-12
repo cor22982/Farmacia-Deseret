@@ -54,9 +54,60 @@ docker volume ls
 - **Documentación API**: http://localhost:8000/docs
 - **MongoDB**: localhost:27017
 
+
+## .ENV son
+
+- NEXT_PUBLIC_API_URL=http://192.168.1.5:8000 en la carpeta frontend
+- En la raiz del proyecto
+```
+# ========================================
+# CONFIGURACIÓN DE MONGODB
+# ========================================
+MONGO_ROOT_USERNAME=admin
+MONGO_ROOT_PASSWORD=password123
+MONGO_DATABASE=farmacia
+MONGO_PORT=27017
+
+# ========================================
+# CONFIGURACIÓN DE BACKEND
+# ========================================
+BACKEND_PORT=8000
+# URL del backend accesible desde el navegador
+BACKEND_URL=http://localhost:8000
+
+# ========================================
+# CONFIGURACIÓN DE FRONTEND
+# ========================================
+FRONTEND_PORT=3000
+# IP específica donde se expondrá el frontend
+# 0.0.0.0 = todas las interfaces (accesible desde cualquier IP)
+# 127.0.0.1 = solo localhost
+# 192.168.1.X = IP específica de tu red local
+FRONTEND_HOST=192.168.1.5
+
+# Si quieres exponer en una IP específica de red local, por ejemplo:
+# FRONTEND_HOST=192.168.1.100
+
 ## 💾 Persistencia de Datos
 
 Los volúmenes configurados garantizan que:
 - **mongodb_data**: Los datos de MongoDB persisten incluso si eliminas el contenedor
 - **backend_data**: Archivos del backend se mantienen
 - **frontend_build**: Los builds de producción se mantienen
+```
+- en backend
+```
+# MongoDB
+MONGO_ROOT_USERNAME=admin
+MONGO_ROOT_PASSWORD=password123
+MONGO_DATABASE=farmacia
+MONGO_PORT=27017
+
+# Backend
+BACKEND_PORT=8000
+BACKEND_URL=http://localhost:8000
+
+# Frontend
+FRONTEND_HOST=0.0.0.0
+FRONTEND_PORT=3000
+```
