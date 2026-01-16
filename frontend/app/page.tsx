@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo } from "react"
+import { useState, useMemo, useEffect } from "react"
 import { ProductDetailModal } from "@/components/product-detail-modal"
 import { AdminLoginModal } from "@/components/admin-login-modal"
 import { ProductCard } from "@/components/product-card"
@@ -90,6 +90,16 @@ export default function Home() {
     new Set(safeProducts.flatMap((p) => p.presentations.map((pr) => pr.presentation_name))),
   )
   const maxPrice = safeProducts.length > 0 ? Math.max(...safeProducts.flatMap((p) => p.presentations.map((pr) => pr.price))) : 0
+
+  // Efecto para actualizar el producto seleccionado cuando cambian los productos
+  useEffect(() => {
+    if (selectedProduct && safeProducts.length > 0) {
+      const updatedProduct = safeProducts.find(p => p._id === selectedProduct._id)
+      if (updatedProduct) {
+        setSelectedProduct(updatedProduct)
+      }
+    }
+  }, [safeProducts])
 
   return (
     <div className="min-h-screen bg-background">
@@ -373,7 +383,6 @@ export default function Home() {
       />
 
       <PaymentModal
-
         refetch={refetch}
         open={showPaymentModal}
         onOpenChange={setShowPaymentModal}

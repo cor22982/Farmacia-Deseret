@@ -1,7 +1,7 @@
 "use client"
 
-import { useState } from "react"
-import { mockProducts, mockStockBatches, mockSuppliers, mockSales } from "@/lib/mock-data"
+import { useState, useEffect } from "react"
+import { mockSuppliers, mockSales } from "@/lib/mock-data"
 import type { Product, StockBatch, Supplier } from "@/lib/types"
 import { StockBatchFormModal } from "@/components/stock-batch-form-modal"
 import { SupplierFormModal } from "@/components/supplier-form-modal"
@@ -10,15 +10,14 @@ import { exportProductsToExcel, exportSuppliersToExcel } from "@/components/expo
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Edit2, Download, Plus, Trash2, ArrowLeft, Package, Archive } from "lucide-react"
+import { Edit2, Download, Plus, Trash2, ArrowLeft, Package, Archive, Loader2 } from "lucide-react"
 import Link from "next/link"
 import { ConfirmDeleteModal } from "@/components/confirm-delete-modal"
 import { SalesReport } from "@/components/sales-report"
 import { StockBatchesModal } from "@/components/stock-batches-modal"
+import { useFetch } from "@/hooks/use-Products"
 
 export default function AdminDashboard() {
-  const [products, setProducts] = useState<Product[]>(mockProducts)
-  const [batches, setBatches] = useState<StockBatch[]>(mockStockBatches)
   const [suppliers, setSuppliers] = useState<Supplier[]>(mockSuppliers)
   const [activeTab, setActiveTab] = useState<"inventory" | "suppliers" | "sales">("inventory")
   const [inventoryMode, setInventoryMode] = useState<"products" | "batches">("products")
@@ -37,6 +36,39 @@ export default function AdminDashboard() {
   const [productToDelete, setProductToDelete] = useState<string | null>(null)
   const [showStockBatchesModal, setShowStockBatchesModal] = useState(false)
   const [selectedProductForBatches, setSelectedProductForBatches] = useState<Product | null>(null)
+
+  const [products, setProducts] = useState<Product[]>([])
+  const [batches, setBatches] = useState<StockBatch[]>([])
+
+  const {
+    data: productos,
+    loading: loadingProducts,
+    error: errorProducts,
+    refetch: refetchProducts,
+  } = useFetch<Product[]>({
+    url: "/products",
+  })
+
+  const {
+    data: inventarios,
+    loading: loadingInventario,
+    error: errorInventario,
+    refetch: refetchInventario,
+  } = useFetch<StockBatch[]>({
+    url: "/stock-batches",
+  })
+
+  useEffect(() => {
+    if (productos) {
+      setProducts(productos)
+    }
+  }, [productos])
+
+  useEffect(() => {
+    if (inventarios) {
+      setBatches(inventarios)
+    }
+  }, [inventarios])
 
   const filteredProducts = products.filter(
     (p) => p.name.toLowerCase().includes(searchTerm.toLowerCase()) || p._id.includes(searchTerm),
@@ -60,12 +92,10 @@ export default function AdminDashboard() {
     setShowProductModal(true)
   }
 
-  const handleSaveProduct = (updatedProduct: Product) => {
-    setProducts((prev) =>
-      selectedProduct
-        ? prev.map((p) => (p._id === updatedProduct._id ? updatedProduct : p))
-        : [...prev, { ...updatedProduct, _id: `prod-${Date.now()}` }],
-    )
+  const handleSaveProduct = async(updatedProduct: Product) => {
+    console.log("updatedProduct", updatedProduct)
+    // Aquí deberías llamar a la API para guardar/actualizar
+    await refetchProducts()
   }
 
   const handleDeleteProduct = (productId: string) => {
@@ -75,7 +105,8 @@ export default function AdminDashboard() {
 
   const confirmDeleteProduct = () => {
     if (productToDelete) {
-      setProducts((prev) => prev.filter((p) => p._id !== productToDelete))
+      // Aquí deberías llamar a la API para eliminar
+      refetchProducts()
       setProductToDelete(null)
     }
   }
@@ -91,9 +122,8 @@ export default function AdminDashboard() {
   }
 
   const handleSaveBatch = (updatedBatch: StockBatch) => {
-    setBatches((prev) =>
-      selectedBatch ? prev.map((b) => (b._id === updatedBatch._id ? updatedBatch : b)) : [...prev, updatedBatch],
-    )
+    // Aquí deberías llamar a la API para guardar/actualizar
+    refetchInventario()
   }
 
   const handleDeleteBatch = (batchId: string) => {
@@ -103,7 +133,8 @@ export default function AdminDashboard() {
 
   const confirmDeleteBatch = () => {
     if (batchToDelete) {
-      setBatches((prev) => prev.filter((b) => b._id !== batchToDelete))
+      // Aquí deberías llamar a la API para eliminar
+      refetchInventario()
       setBatchToDelete(null)
     }
   }
@@ -147,6 +178,9 @@ export default function AdminDashboard() {
   const deletingSupplierName = suppliers.find((s) => s._id === supplierToDelete)?.name || "Proveedor"
   const deletingProductName = products.find((p) => p._id === productToDelete)?.name || "Producto"
 
+  const isLoading = loadingProducts || loadingInventario
+  const hasError = errorProducts || errorInventario
+
   return (
     <div className="min-h-screen bg-background">
       <header className="bg-card border-b border-border">
@@ -175,6 +209,29 @@ export default function AdminDashboard() {
             Reporte de Ventas
           </Button>
         </div>
+
+        {hasError && (
+          <Card className="mb-6 border-destructive">
+            <CardContent className="pt-6">
+              <div className="flex items-center gap-3 text-destructive">
+                <div>
+                  <p className="font-semibold">Error al cargar datos</p>
+                  <p className="text-sm">{errorProducts?.message || errorInventario?.message}</p>
+                </div>
+                <Button 
+                  onClick={() => {
+                    refetchProducts()
+                    refetchInventario()
+                  }} 
+                  variant="outline"
+                  size="sm"
+                >
+                  Reintentar
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        )}
 
         {activeTab === "inventory" && (
           <div className="space-y-6">
@@ -223,77 +280,83 @@ export default function AdminDashboard() {
                     <CardTitle>Catálogo de Productos</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="overflow-x-auto">
-                      <table className="w-full text-sm">
-                        <thead className="border-b">
-                          <tr className="text-muted-foreground">
-                            <th className="text-left py-2 px-2">Nombre</th>
-                            <th className="text-left py-2 px-2">Categoría</th>
-                            <th className="text-left py-2 px-2">Principio Activo</th>
-                            <th className="text-left py-2 px-2">Proveedor</th>
-                            <th className="text-left py-2 px-2">Presentaciones</th>
-                            <th className="text-left py-2 px-2">Stock Total</th>
-                            <th className="text-left py-2 px-2">Acciones</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {filteredProducts.map((product) => {
-                            const totalStock = batches
-                              .filter((b) => b.product_id === product._id)
-                              .reduce((sum, b) => sum + b.stock_units, 0)
+                    {loadingProducts ? (
+                      <div className="flex justify-center items-center py-12">
+                        <Loader2 className="w-8 h-8 animate-spin text-primary" />
+                      </div>
+                    ) : (
+                      <div className="overflow-x-auto">
+                        <table className="w-full text-sm">
+                          <thead className="border-b">
+                            <tr className="text-muted-foreground">
+                              <th className="text-left py-2 px-2">Nombre</th>
+                              <th className="text-left py-2 px-2">Categoría</th>
+                              <th className="text-left py-2 px-2">Principio Activo</th>
+                              <th className="text-left py-2 px-2">Proveedor</th>
+                              <th className="text-left py-2 px-2">Presentaciones</th>
+                              <th className="text-left py-2 px-2">Stock Total</th>
+                              <th className="text-left py-2 px-2">Acciones</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {filteredProducts.map((product) => {
+                              const totalStock = batches
+                                .filter((b) => b.product_id === product._id)
+                                .reduce((sum, b) => sum + b.stock_units, 0)
 
-                            return (
-                              <tr key={product._id} className="border-b hover:bg-accent/5">
-                                <td className="py-3 px-2 font-medium">{product.name}</td>
-                                <td className="py-3 px-2 capitalize text-xs">{product.category}</td>
-                                <td className="py-3 px-2 text-xs">{product.principio_activo}</td>
-                                <td className="py-3 px-2 text-xs">{product.supplier}</td>
-                                <td className="py-3 px-2">
-                                  <span className="text-xs px-2 py-1 bg-primary/10 rounded">
-                                    {product.presentations.length} presentacion
-                                    {product.presentations.length !== 1 ? "es" : ""}
-                                  </span>
-                                </td>
-                                <td className="py-3 px-2">
-                                  <button
-                                    onClick={() => handleManageStock(product)}
-                                    className="hover:underline"
-                                    title="Gestionar Stock"
-                                  >
-                                    <span className={totalStock < 50 ? "text-destructive font-semibold" : ""}>
-                                      {totalStock} unidades
+                              return (
+                                <tr key={product._id} className="border-b hover:bg-accent/5">
+                                  <td className="py-3 px-2 font-medium">{product.name}</td>
+                                  <td className="py-3 px-2 capitalize text-xs">{product.category}</td>
+                                  <td className="py-3 px-2 text-xs">{product.principio_activo}</td>
+                                  <td className="py-3 px-2 text-xs">{product.supplier}</td>
+                                  <td className="py-3 px-2">
+                                    <span className="text-xs px-2 py-1 bg-primary/10 rounded">
+                                      {product.presentations.length} presentacion
+                                      {product.presentations.length !== 1 ? "es" : ""}
                                     </span>
-                                  </button>
-                                </td>
-                                <td className="py-3 px-2 flex gap-2">
-                                  <button
-                                    onClick={() => handleEditProduct(product)}
-                                    className="p-1 hover:bg-primary/10 rounded transition-colors"
-                                    title="Editar Producto"
-                                  >
-                                    <Edit2 className="w-4 h-4 text-primary" />
-                                  </button>
-                                  <button
-                                    onClick={() => handleManageStock(product)}
-                                    className="p-1 hover:bg-blue-500/10 rounded transition-colors"
-                                    title="Gestionar Stock"
-                                  >
-                                    <Archive className="w-4 h-4 text-blue-600" />
-                                  </button>
-                                  <button
-                                    onClick={() => handleDeleteProduct(product._id)}
-                                    className="p-1 hover:bg-destructive/10 rounded transition-colors"
-                                    title="Eliminar Producto"
-                                  >
-                                    <Trash2 className="w-4 h-4 text-destructive" />
-                                  </button>
-                                </td>
-                              </tr>
-                            )
-                          })}
-                        </tbody>
-                      </table>
-                    </div>
+                                  </td>
+                                  <td className="py-3 px-2">
+                                    <button
+                                      onClick={() => handleManageStock(product)}
+                                      className="hover:underline"
+                                      title="Gestionar Stock"
+                                    >
+                                      <span className={totalStock < 50 ? "text-destructive font-semibold" : ""}>
+                                        {totalStock} unidades
+                                      </span>
+                                    </button>
+                                  </td>
+                                  <td className="py-3 px-2 flex gap-2">
+                                    <button
+                                      onClick={() => handleEditProduct(product)}
+                                      className="p-1 hover:bg-primary/10 rounded transition-colors"
+                                      title="Editar Producto"
+                                    >
+                                      <Edit2 className="w-4 h-4 text-primary" />
+                                    </button>
+                                    <button
+                                      onClick={() => handleManageStock(product)}
+                                      className="p-1 hover:bg-blue-500/10 rounded transition-colors"
+                                      title="Gestionar Stock"
+                                    >
+                                      <Archive className="w-4 h-4 text-blue-600" />
+                                    </button>
+                                    <button
+                                      onClick={() => handleDeleteProduct(product._id)}
+                                      className="p-1 hover:bg-destructive/10 rounded transition-colors"
+                                      title="Eliminar Producto"
+                                    >
+                                      <Trash2 className="w-4 h-4 text-destructive" />
+                                    </button>
+                                  </td>
+                                </tr>
+                              )
+                            })}
+                          </tbody>
+                        </table>
+                      </div>
+                    )}
                   </CardContent>
                 </Card>
               </div>
@@ -319,72 +382,78 @@ export default function AdminDashboard() {
                     <CardTitle>Lotes de Stock</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="overflow-x-auto">
-                      <table className="w-full text-sm">
-                        <thead className="border-b">
-                          <tr className="text-muted-foreground">
-                            <th className="text-left py-2 px-2">Producto</th>
-                            <th className="text-left py-2 px-2">Código Lote</th>
-                            <th className="text-left py-2 px-2">Stock</th>
-                            <th className="text-left py-2 px-2">Costo/Unidad</th>
-                            <th className="text-left py-2 px-2">Ubicación</th>
-                            <th className="text-left py-2 px-2">Fecha Compra</th>
-                            <th className="text-left py-2 px-2">Vencimiento</th>
-                            <th className="text-left py-2 px-2">Acciones</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {filteredBatches.map((batch) => {
-                            const product = products.find((p) => p._id === batch.product_id)
-                            const daysToExpire = Math.floor(
-                              (new Date(batch.expiration_date).getTime() - Date.now()) / (1000 * 60 * 60 * 24),
-                            )
-                            const isExpiringSoon = daysToExpire < 30
+                    {loadingInventario ? (
+                      <div className="flex justify-center items-center py-12">
+                        <Loader2 className="w-8 h-8 animate-spin text-primary" />
+                      </div>
+                    ) : (
+                      <div className="overflow-x-auto">
+                        <table className="w-full text-sm">
+                          <thead className="border-b">
+                            <tr className="text-muted-foreground">
+                              <th className="text-left py-2 px-2">Producto</th>
+                              <th className="text-left py-2 px-2">Código Lote</th>
+                              <th className="text-left py-2 px-2">Stock</th>
+                              <th className="text-left py-2 px-2">Costo/Unidad</th>
+                              <th className="text-left py-2 px-2">Ubicación</th>
+                              <th className="text-left py-2 px-2">Fecha Compra</th>
+                              <th className="text-left py-2 px-2">Vencimiento</th>
+                              <th className="text-left py-2 px-2">Acciones</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {filteredBatches.map((batch) => {
+                              const product = products.find((p) => p._id === batch.product_id)
+                              const daysToExpire = Math.floor(
+                                (new Date(batch.expiration_date).getTime() - Date.now()) / (1000 * 60 * 60 * 24),
+                              )
+                              const isExpiringSoon = daysToExpire < 30
 
-                            return (
-                              <tr key={batch._id} className="border-b hover:bg-accent/5">
-                                <td className="py-3 px-2 font-medium">{product?.name || batch.product_id}</td>
-                                <td className="py-3 px-2 font-mono text-xs">{batch.lot_code}</td>
-                                <td className="py-3 px-2">
-                                  <span className={batch.stock_units < 100 ? "text-orange-600 font-semibold" : ""}>
-                                    {batch.stock_units}
-                                  </span>
-                                </td>
-                                <td className="py-3 px-2">${batch.cost_per_unit.toFixed(2)}</td>
-                                <td className="py-3 px-2 capitalize">
-                                  <span className="px-2 py-1 rounded text-xs bg-accent">{batch.location}</span>
-                                </td>
-                                <td className="py-3 px-2 text-xs">
-                                  {new Date(batch.purchase_date).toLocaleDateString()}
-                                </td>
-                                <td className="py-3 px-2 text-xs">
-                                  <span className={isExpiringSoon ? "text-destructive font-semibold" : ""}>
-                                    {new Date(batch.expiration_date).toLocaleDateString()}
-                                    {isExpiringSoon && ` (${daysToExpire}d)`}
-                                  </span>
-                                </td>
-                                <td className="py-3 px-2 flex gap-2">
-                                  <button
-                                    onClick={() => handleEditBatch(batch)}
-                                    className="p-1 hover:bg-primary/10 rounded transition-colors"
-                                    title="Editar"
-                                  >
-                                    <Edit2 className="w-4 h-4 text-primary" />
-                                  </button>
-                                  <button
-                                    onClick={() => handleDeleteBatch(batch._id)}
-                                    className="p-1 hover:bg-destructive/10 rounded transition-colors"
-                                    title="Eliminar"
-                                  >
-                                    <Trash2 className="w-4 h-4 text-destructive" />
-                                  </button>
-                                </td>
-                              </tr>
-                            )
-                          })}
-                        </tbody>
-                      </table>
-                    </div>
+                              return (
+                                <tr key={batch._id} className="border-b hover:bg-accent/5">
+                                  <td className="py-3 px-2 font-medium">{product?.name || batch.product_id}</td>
+                                  <td className="py-3 px-2 font-mono text-xs">{batch.lot_code}</td>
+                                  <td className="py-3 px-2">
+                                    <span className={batch.stock_units < 100 ? "text-orange-600 font-semibold" : ""}>
+                                      {batch.stock_units}
+                                    </span>
+                                  </td>
+                                  <td className="py-3 px-2">${batch.cost_per_unit.toFixed(2)}</td>
+                                  <td className="py-3 px-2 capitalize">
+                                    <span className="px-2 py-1 rounded text-xs bg-accent">{batch.location}</span>
+                                  </td>
+                                  <td className="py-3 px-2 text-xs">
+                                    {new Date(batch.purchase_date).toLocaleDateString()}
+                                  </td>
+                                  <td className="py-3 px-2 text-xs">
+                                    <span className={isExpiringSoon ? "text-destructive font-semibold" : ""}>
+                                      {new Date(batch.expiration_date).toLocaleDateString()}
+                                      {isExpiringSoon && ` (${daysToExpire}d)`}
+                                    </span>
+                                  </td>
+                                  <td className="py-3 px-2 flex gap-2">
+                                    <button
+                                      onClick={() => handleEditBatch(batch)}
+                                      className="p-1 hover:bg-primary/10 rounded transition-colors"
+                                      title="Editar"
+                                    >
+                                      <Edit2 className="w-4 h-4 text-primary" />
+                                    </button>
+                                    <button
+                                      onClick={() => handleDeleteBatch(batch._id)}
+                                      className="p-1 hover:bg-destructive/10 rounded transition-colors"
+                                      title="Eliminar"
+                                    >
+                                      <Trash2 className="w-4 h-4 text-destructive" />
+                                    </button>
+                                  </td>
+                                </tr>
+                              )
+                            })}
+                          </tbody>
+                        </table>
+                      </div>
+                    )}
                   </CardContent>
                 </Card>
               </div>
@@ -504,7 +573,7 @@ export default function AdminDashboard() {
           onOpenChange={setShowStockBatchesModal}
           onSaveBatch={handleSaveBatch}
           onDeleteBatch={(batchId) => {
-            setBatches((prev) => prev.filter((b) => b._id !== batchId))
+            refetchInventario()
           }}
         />
       )}

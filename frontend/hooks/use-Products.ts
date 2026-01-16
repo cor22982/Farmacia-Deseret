@@ -113,3 +113,56 @@ export function usePost<TResponse, TBody = any>({
     reset,
   };
 }
+
+
+interface UseUpdateConfig {
+  url: string;
+}
+
+export function useUpdate<TResponse, TBody = any>({
+  url,
+}: UseUpdateConfig) {
+  const [data, setData] = useState<TResponse | null>(null);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const update = useCallback(
+    async (body: TBody) => {
+      setLoading(true);
+      setError(null);
+
+      try {
+        const res = await apiClient.put<TResponse>(url, body);
+        setData(res.data);
+        return res.data; // permite await
+      } catch (err) {
+        const axiosError = err as AxiosError<any>;
+        const message =
+          axiosError.response?.data?.detail ||
+          axiosError.message ||
+          "Error inesperado";
+
+        setError(message);
+        setData(null);
+        throw message;
+      } finally {
+        setLoading(false);
+      }
+    },
+    [url]
+  );
+
+  const reset = () => {
+    setData(null);
+    setError(null);
+    setLoading(false);
+  };
+
+  return {
+    data,
+    loading,
+    error,
+    update,
+    reset,
+  };
+}

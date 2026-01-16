@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import type { Product, ProductPresentation, StockBatch } from "@/lib/types"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
@@ -28,7 +28,6 @@ export function ProductDetailModal({
     loading,
     error,
     refetch,
-    reset, // Agregar reset si tu hook lo tiene, o setData
   } = useFetch<StockBatch[]>({
     url: product?._id ? `/stock-batches/productid/${product._id}` : null,
   });
@@ -36,13 +35,18 @@ export function ProductDetailModal({
   const [selectedPresentation, setSelectedPresentation] = useState(null)
   const [quantity, setQuantity] = useState(1)
 
+  // Refetch batches cuando cambie el producto o cuando se abra el modal
+  useEffect(() => {
+    if (open && product?._id) {
+      refetch()
+    }
+  }, [open, product?._id])
+
   // Limpiar estado cuando se cierra el modal
   const handleOpenChange = (isOpen: boolean) => {
     if (!isOpen) {
       setSelectedPresentation(null)
       setQuantity(1)
-      // Resetear productBatches si tu hook tiene reset
-      if (reset) reset()
     }
     onOpenChange(isOpen)
   }

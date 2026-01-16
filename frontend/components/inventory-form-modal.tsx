@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Trash2, Plus } from "lucide-react"
+import { useUpdate } from "@/hooks/use-Products"
 
 interface InventoryFormModalProps {
   product: Product | null
@@ -17,6 +18,10 @@ interface InventoryFormModalProps {
 }
 
 export function InventoryFormModal({ product, open, onOpenChange, onSave }: InventoryFormModalProps) {
+  const { update, loading, error } = useUpdate({
+      url: `/products/${product?._id}`,
+    });
+  
   const [formData, setFormData] = useState<Partial<Product>>({
     name: "",
     category: "",
@@ -26,6 +31,7 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
     image_url: "/pharmacy-product.jpg",
     presentations: [],
   })
+  
 
   useEffect(() => {
     if (product) {
@@ -94,7 +100,7 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
     })
   }
 
-  const handleSave = () => {
+  const handleSave = async() => {
     if (!formData.name || !formData.category) {
       alert("Complete los campos requeridos del producto")
       return
@@ -121,6 +127,7 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
     } as Product
 
     onSave(savedProduct)
+    await update(savedProduct)
     onOpenChange(false)
   }
 
@@ -229,7 +236,7 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
                       </div>
 
                       <div className="space-y-2">
-                        <Label>Precio de Venta ($)</Label>
+                        <Label>Precio de Venta (Q)</Label>
                         <Input
                           type="number"
                           step="0.01"
@@ -240,7 +247,7 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
                       </div>
 
                       <div className="space-y-2">
-                        <Label>Costo ($)</Label>
+                        <Label>Costo (Q)</Label>
                         <Input
                           type="number"
                           step="0.01"
