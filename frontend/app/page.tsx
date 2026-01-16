@@ -373,6 +373,8 @@ export default function Home() {
       />
 
       <PaymentModal
+
+        refetch={refetch}
         open={showPaymentModal}
         onOpenChange={setShowPaymentModal}
         cartItems={cartItems}

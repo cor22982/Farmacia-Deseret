@@ -16,10 +16,11 @@ interface PaymentModalProps {
   cartItems: CartItem[]
   cartTotal: number
   setCartItems: React.Dispatch<React.SetStateAction<CartItem[]>>; 
-  products: Product[]
+  products: Product[],
+  refetch: () => void
 }
 
-export function PaymentModal({ open, onOpenChange, cartItems, cartTotal, products, setCartItems }: PaymentModalProps) {
+export function PaymentModal({ refetch,open, onOpenChange, cartItems, cartTotal, products, setCartItems }: PaymentModalProps) {
   const [paymentMethod, setPaymentMethod] = useState<"efectivo" | "tarjeta" | "transferencia">("efectivo")
   const [amountReceived, setAmountReceived] = useState<number>(cartTotal)
   const [customerName, setCustomerName] = useState("")
@@ -58,6 +59,7 @@ export function PaymentModal({ open, onOpenChange, cartItems, cartTotal, product
 
     onOpenChange(false)
     setCartItems([])
+    refetch()
     toast.success(`Pedido confirmado! ${paymentMethod === "efectivo" ? `Cambio: $${change.toFixed(2)}` : "Pago procesado"}`);
 
   }

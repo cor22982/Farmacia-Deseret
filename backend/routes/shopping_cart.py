@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, status, Body
-from config.database import shopping_cart_collection, serialize_doc, serialize_list
+from config.database import shopping_cart_collection, serialize_doc, serialize_list, products_collection, stock_batches_collection
 from datetime import datetime
 
 router = APIRouter(prefix="/shopping-cart", tags=["Shopping Cart"])
@@ -23,6 +23,66 @@ def create_cart(cart: dict = Body(...)):
     try:
         result = shopping_cart_collection.insert_one(cart)
         cart["_id"] = str(result.inserted_id)
+        
+        for item in cart["items"]:
+            product_id = item["product_id"]
+
+            product = products_collection.find_one({"_id": product_id})
+            if not product:
+                raise Exception(f"Producto no encontrado: {product_id}")
+
+            units = next(
+                (p["units"] for p in product["presentations"]
+                if p["presentation_name"] == item["presentation_name"]),
+                None
+            )
+
+            if units is None:
+                raise Exception("No se pudo determinar units")
+
+            remaining_units = units * int(item["qty"])
+
+            # 1️⃣ Obtener batches ordenados por fecha de expiración
+            batches = stock_batches_collection.find(
+                {"product_id": product_id, "stock_units": {"$gt": 0}}
+            ).sort("expiration_date", 1)
+
+            for batch in batches:
+                if remaining_units <= 0:
+                    break
+
+                available = batch["stock_units"]
+
+                if available >= remaining_units:
+                    # 2️⃣ Este batch cubre todo
+                    stock_batches_collection.update_one(
+                        {"_id": batch["_id"]},
+                        {
+                            "$inc": {"stock_units": -remaining_units},
+                            "$set": {"updated_at": datetime.utcnow()}
+                        }
+                    )
+                    remaining_units = 0
+                else:
+                    # 3️⃣ Consumimos todo el batch y seguimos
+                    stock_batches_collection.update_one(
+                        {"_id": batch["_id"]},
+                        {
+                            "$set": {
+                                "stock_units": 0,
+                                "updated_at": datetime.utcnow()
+                            }
+                        }
+                    )
+                    remaining_units -= available
+
+            if remaining_units > 0:
+                raise Exception(
+                    f"Stock insuficiente para {product_id}. Faltan {remaining_units} unidades"
+                )
+
+        
+                
         return serialize_doc(cart)
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Error: {str(e)}")
