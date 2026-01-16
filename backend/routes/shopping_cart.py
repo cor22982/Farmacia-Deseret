@@ -1,48 +1,72 @@
 from fastapi import APIRouter, HTTPException, status, Body
-from config.database import shopping_cart_collection, serialize_doc, serialize_list, products_collection, stock_batches_collection
+from config.database import shopping_cart_collection, serialize_doc, serialize_list, products_collection, stock_batches_collection, sales_collection
 from datetime import datetime
+import calendar
+from bson import ObjectId
+from zoneinfo import ZoneInfo
+
+
+GT_TZ = ZoneInfo("America/Guatemala")
 
 router = APIRouter(prefix="/shopping-cart", tags=["Shopping Cart"])
 
 @router.post("", status_code=status.HTTP_201_CREATED)
 def create_cart(cart: dict = Body(...)):
-    """Crear un nuevo carrito de compras"""
-    cart["created_at"] = datetime.utcnow()
-    cart["updated_at"] = datetime.utcnow()
-    
+    """Crear carrito, descontar stock y registrar venta"""
+
+    now = datetime.now(GT_TZ)
+
+
+    cart["created_at"] = now
+    cart["updated_at"] = now
+
     # Valores por defecto
-    if "items" not in cart:
-        cart["items"] = []
-    if "total" not in cart:
-        cart["total"] = 0
-    if "paid_amount" not in cart:
-        cart["paid_amount"] = 0
-    if "payment_method" not in cart:
-        cart["payment_method"] = None
-    
+    cart.setdefault("items", [])
+    cart.setdefault("total", 0)
+    cart.setdefault("paid_amount", 0)
+    cart.setdefault("payment_method", None)
+
     try:
+        # ======================
+        # 1️⃣ Guardar carrito
+        # ======================
         result = shopping_cart_collection.insert_one(cart)
         cart["_id"] = str(result.inserted_id)
-        
+
+        sale_items = []
+        sale_total = 0
+
+        # ======================
+        # 2️⃣ Procesar items
+        # ======================
         for item in cart["items"]:
             product_id = item["product_id"]
+            qty = int(item["qty"])
 
             product = products_collection.find_one({"_id": product_id})
             if not product:
                 raise Exception(f"Producto no encontrado: {product_id}")
 
-            units = next(
-                (p["units"] for p in product["presentations"]
-                if p["presentation_name"] == item["presentation_name"]),
+            presentation = next(
+                (p for p in product["presentations"]
+                 if p["presentation_name"] == item["presentation_name"]),
                 None
             )
 
-            if units is None:
-                raise Exception("No se pudo determinar units")
+            if not presentation:
+                raise Exception("Presentación no encontrada")
 
-            remaining_units = units * int(item["qty"])
+            units_per_presentation = presentation["units"]
+            price_unit = presentation["price"]
+            profit_percent = presentation["profit_percent"]
 
-            # 1️⃣ Obtener batches ordenados por fecha de expiración
+            remaining_units = units_per_presentation * qty
+            subtotal = price_unit * qty
+            sale_total += subtotal
+
+            # ======================
+            # 3️⃣ Descuento FIFO por batch
+            # ======================
             batches = stock_batches_collection.find(
                 {"product_id": product_id, "stock_units": {"$gt": 0}}
             ).sort("expiration_date", 1)
@@ -52,41 +76,72 @@ def create_cart(cart: dict = Body(...)):
                     break
 
                 available = batch["stock_units"]
+                used_units = min(available, remaining_units)
 
-                if available >= remaining_units:
-                    # 2️⃣ Este batch cubre todo
-                    stock_batches_collection.update_one(
-                        {"_id": batch["_id"]},
-                        {
-                            "$inc": {"stock_units": -remaining_units},
-                            "$set": {"updated_at": datetime.utcnow()}
-                        }
-                    )
-                    remaining_units = 0
-                else:
-                    # 3️⃣ Consumimos todo el batch y seguimos
-                    stock_batches_collection.update_one(
-                        {"_id": batch["_id"]},
-                        {
-                            "$set": {
-                                "stock_units": 0,
-                                "updated_at": datetime.utcnow()
-                            }
-                        }
-                    )
-                    remaining_units -= available
+                # Descontar stock
+                stock_batches_collection.update_one(
+                    {"_id": batch["_id"]},
+                    {
+                        "$inc": {"stock_units": -used_units},
+                        "$set": {"updated_at": now}
+                    }
+                )
+
+                real_cost = used_units * batch["cost_per_unit"]
+                real_profit = subtotal - real_cost
+
+                sale_items.append({
+                    "product_id": product_id,
+                    "presentation_name": item["presentation_name"],
+                    "qty": qty,
+                    "units_deducted": used_units,
+                    "batch_id": batch["_id"],
+                    "price_unit": price_unit,
+                    "profit_percent": profit_percent,
+                    "subtotal": subtotal,
+                    "batch_cost_per_unit": batch["cost_per_unit"],
+                    "real_cost": real_cost,
+                    "real_profit": real_profit
+                })
+
+                remaining_units -= used_units
 
             if remaining_units > 0:
                 raise Exception(
-                    f"Stock insuficiente para {product_id}. Faltan {remaining_units} unidades"
+                    f"Stock insuficiente para {product_id}. "
+                    f"Faltan {remaining_units} unidades"
                 )
 
-        
-                
-        return serialize_doc(cart)
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=f"Error: {str(e)}")
+        # ======================
+        # 4️⃣ Registrar venta
+        # ======================
+        shift = "noche" if now.hour >= 17 else "día"
+        day_of_week = calendar.day_name[now.weekday()].lower()
 
+        sale = {
+            "_id": f"sale-{ObjectId()}",
+            "sale_name": f"Venta {now.strftime('%Y%m%d-%H%M%S')}",
+            "datetime": now,
+            "day_of_week": day_of_week,
+            "shift": shift,
+            "items": sale_items,
+            "total": sale_total,
+            "payment_method": cart["payment_method"],
+            "created_at": now
+        }
+
+        sales_collection.insert_one(sale)
+
+        return serialize_doc({
+            "cart": cart,
+            "sale": sale
+        })
+
+    except Exception as e:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Error al procesar la venta: {str(e)}"
+        )
 @router.get("")
 def get_carts(skip: int = 0, limit: int = 100, user_id: str = None):
     """Obtener todos los carritos"""
