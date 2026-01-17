@@ -6,6 +6,9 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Download } from "lucide-react"
 import type { Sale, Product } from "@/lib/types"
+import { usePost } from "@/hooks/use-Products"
+import { exportReporteVentasExcel } from "@/lib/utils"
+
 // @ts-ignore
 import * as XLSX from "xlsx"
 
@@ -38,6 +41,22 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
     tarjeta: filteredSales.filter((s) => s.payment_method === "tarjeta").length,
     transferencia: filteredSales.filter((s) => s.payment_method === "transferencia").length,
   }
+
+  const { post, data } = usePost({
+        url: "reports/weekly-monthly?month=1&year=2026",
+      });
+
+  
+  const generateFileReport = async() => {
+  
+      const respuesta  = await post({});
+      exportReporteVentasExcel(respuesta)
+      console.log(respuesta)
+  
+  
+    }
+
+
 
   const handleExportReport = () => {
     const data = filteredSales.map((sale) => {
@@ -106,7 +125,10 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
               <Input type="date" value={endDate} onChange={(e) => setEndDate(e.target.value)} className="mt-1" />
             </div>
           </div>
-          <Button onClick={handleExportReport} className="gap-2 w-full md:w-auto">
+          <Button 
+            //onClick={handleExportReport} 
+            onClick={generateFileReport}
+            className="gap-2 w-full md:w-auto cursor-pointer">
             <Download className="w-4 h-4" />
             Exportar Reporte como Excel
           </Button>

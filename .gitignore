@@ -127,3 +127,55 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Python build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# mypy / pyright
+.mypy_cache/
+.pyright/
+
+# FastAPI / Uvicorn logs
+uvicorn.log
+gunicorn.log
+*.log
+
+# dotenv (Python)
+.env
+.env.*
+
+# SQLite (si algún día usas local)
+*.sqlite3
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+__pycache__/*

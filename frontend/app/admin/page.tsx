@@ -16,6 +16,8 @@ import { ConfirmDeleteModal } from "@/components/confirm-delete-modal"
 import { SalesReport } from "@/components/sales-report"
 import { StockBatchesModal } from "@/components/stock-batches-modal"
 import { useFetch } from "@/hooks/use-Products"
+import { usePost } from "@/hooks/use-Products"
+import { exportInventarioToExcel } from "@/lib/utils"
 
 export default function AdminDashboard() {
   const [suppliers, setSuppliers] = useState<Supplier[]>(mockSuppliers)
@@ -57,6 +59,13 @@ export default function AdminDashboard() {
   } = useFetch<StockBatch[]>({
     url: "/stock-batches",
   })
+
+  const { post, data } = usePost({
+      url: "/reports/inventario",
+    });
+
+
+  
 
   useEffect(() => {
     if (productos) {
@@ -174,6 +183,15 @@ export default function AdminDashboard() {
     setShowStockBatchesModal(true)
   }
 
+  const generateFileReport = async() => {
+
+    const respuesta  = await post({});
+    exportInventarioToExcel(respuesta)
+    console.log(respuesta)
+
+
+  }
+
   const deletingBatchName = batches.find((b) => b._id === batchToDelete)?.lot_code || "Lote"
   const deletingSupplierName = suppliers.find((s) => s._id === supplierToDelete)?.name || "Proveedor"
   const deletingProductName = products.find((p) => p._id === productToDelete)?.name || "Producto"
@@ -264,9 +282,13 @@ export default function AdminDashboard() {
                     className="max-w-md"
                   />
                   <div className="flex gap-2">
-                    <Button onClick={() => exportProductsToExcel(products)} variant="outline" className="gap-2">
+                    <Button
+                      className="cursor-pointer" 
+                      //onClick={() => exportProductsToExcel(products)} variant="outline" className="gap-2"
+                      
+                      onClick={generateFileReport}>
                       <Download className="w-4 h-4" />
-                      Exportar Excel
+                      Exportar Excel Inventario
                     </Button>
                     <Button onClick={handleAddProduct} className="gap-2">
                       <Plus className="w-4 h-4" />

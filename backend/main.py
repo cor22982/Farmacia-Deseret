@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 
 
 # Importar routers
-from routes import products, stock_batches, sales, users, shopping_cart
+from routes import products, stock_batches, sales, users, shopping_cart, reports
 
 # Crear aplicación FastAPI
 app = FastAPI(
@@ -34,6 +34,7 @@ app.include_router(stock_batches.router)
 app.include_router(sales.router)
 app.include_router(users.router)
 app.include_router(shopping_cart.router)
+app.include_router(reports.router)
 
 # Rutas principales
 @app.get("/")
