@@ -1,0 +1,20 @@
+{
+  "_id": "batch-PROD-YYYY-NN",
+  "product_id": "producto-id",
+  "lot_code": "LOTE123",
+  "expiration_date": {
+    "$date": "2026-12-31T00:00:00.000Z"
+  },
+  "purchase_date": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "stock_units": 0,
+  "cost_per_unit": 0.00,
+  "location": "farmacia",
+  "created_at": {
+    "$date": "2026-01-17T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-17T14:00:00.000Z"
+  }
+}
