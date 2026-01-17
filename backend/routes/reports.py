@@ -2,6 +2,9 @@ from fastapi import APIRouter
 from datetime import datetime, timedelta
 from config.database import products_collection, stock_batches_collection, sales_collection
 from utils.helpers  import to_datetime, format_date
+from zoneinfo import ZoneInfo
+
+
 router = APIRouter(prefix="/reports", tags=["Reports"])
 
 DAY_MAP = {
@@ -19,6 +22,29 @@ SHIFT_MAP = {
     "tarde": "pm",
     "noche": "pm",
 }
+GT_TZ = ZoneInfo("America/Guatemala")
+UTC_TZ = ZoneInfo("UTC")
+def normalize_gt_datetime(dt):
+    if not dt:
+        return None
+
+    dt = to_datetime(dt)
+
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=UTC_TZ)
+
+    return dt.astimezone(GT_TZ)
+
+
+def first_business_monday(year: int, month: int) -> datetime:
+    """Primer lunes DENTRO del mes"""
+    first_day = datetime(year, month, 1, tzinfo=GT_TZ)
+
+    if first_day.weekday() == 0:
+        return first_day
+
+    return first_day + timedelta(days=(7 - first_day.weekday()))
+
 
 @router.post("/weekly-monthly")
 def sales_inventory_report(month: int, year: int):
@@ -26,28 +52,37 @@ def sales_inventory_report(month: int, year: int):
     products = list(products_collection.find())
     report = []
 
-    first_day = datetime(year, month, 1)
-    first_monday = first_day - timedelta(days=first_day.weekday())
+    # 📅 Semanas de negocio (NO ISO)
+    first_monday = first_business_monday(year, month)
     weeks = [first_monday + timedelta(weeks=i) for i in range(4)]
+
+    # 📦 Límites Mongo en UTC
+    start_utc = weeks[0].astimezone(UTC_TZ)
+    end_utc = (weeks[-1] + timedelta(days=7)).astimezone(UTC_TZ)
 
     for product in products:
 
+        # 💲 Precio base
         base = min(product["presentations"], key=lambda p: p["units"])
         pp = base["price"]
 
+        # 📦 Stock
         batches = list(stock_batches_collection.find({
             "product_id": product["_id"]
         }))
 
-        existencia = sum(b["stock_units"] for b in batches)
+        existencia = sum(b.get("stock_units", 0) for b in batches)
 
-        # 🔧 NORMALIZAR FECHAS
+        # 🔧 Normalizar lotes
         normalized_batches = []
         for b in batches:
-            exp = to_datetime(b.get("expiration_date"))
-            pur = to_datetime(b.get("purchase_date"))
+            if b.get("stock_units", 0) <= 0:
+                continue
 
-            if b.get("stock_units", 0) > 0 and exp:
+            exp = normalize_gt_datetime(b.get("expiration_date"))
+            pur = normalize_gt_datetime(b.get("purchase_date"))
+
+            if exp:
                 b["_exp_dt"] = exp
                 b["_pur_dt"] = pur
                 normalized_batches.append(b)
@@ -58,6 +93,7 @@ def sales_inventory_report(month: int, year: int):
             default=None
         )
 
+        # 📊 Ventas por día / turno
         ventas_dia = {
             "lunes_am": 0, "lunes_pm": 0,
             "martes_am": 0, "martes_pm": 0,
@@ -67,14 +103,20 @@ def sales_inventory_report(month: int, year: int):
             "sabado": 0,
         }
 
+        # 🧾 Ventas del período
         sales = list(sales_collection.find({
             "items.product_id": product["_id"],
             "datetime": {
-                "$gte": first_monday,
-                "$lt": first_monday + timedelta(days=28)
+                "$gte": start_utc,
+                "$lt": end_utc
             }
         }))
 
+        # 🔧 Normalizar fechas de ventas
+        for sale in sales:
+            sale["_dt_gt"] = normalize_gt_datetime(sale.get("datetime"))
+
+        # 📊 Ventas por día
         for sale in sales:
             raw_day = sale.get("day_of_week", "").lower()
             raw_shift = sale.get("shift", "").lower()
@@ -89,21 +131,26 @@ def sales_inventory_report(month: int, year: int):
                 if item["product_id"] != product["_id"]:
                     continue
 
-                units = item["units_deducted"]
+                units = item.get("units_deducted", 0)
 
                 if day == "sabado":
                     ventas_dia["sabado"] += units
                 elif shift in ("am", "pm"):
                     ventas_dia[f"{day}_{shift}"] += units
 
+        # 📆 Ventas por semana (YA CORRECTAS)
         week_totals = []
+
         for w in weeks:
             total = 0
             for sale in sales:
-                if w <= sale["datetime"] < w + timedelta(days=7):
+                sale_dt = sale["_dt_gt"]
+
+                if w <= sale_dt < w + timedelta(days=7):
                     for item in sale["items"]:
                         if item["product_id"] == product["_id"]:
-                            total += item["units_deducted"]
+                            total += item.get("units_deducted", 0)
+
             week_totals.append(total)
 
         total_mes = sum(week_totals)
@@ -127,9 +174,9 @@ def sales_inventory_report(month: int, year: int):
                 "sem_4": week_totals[3],
             },
             "total": total_mes,
-            "promedio": total_mes / 4,
+            "promedio": total_mes / 4 if total_mes else 0,
             "mes_1": total_mes,
-            "mes_2": total_mes * 2
+            "mes_2": total_mes * 2,
         })
 
     return report

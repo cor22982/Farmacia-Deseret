@@ -107,18 +107,22 @@ export function exportInventarioToExcel(data: InventarioExcel[]) {
   )
 }
 
-function getMonday(date: Date) {
-  const d = new Date(date)
-  const day = d.getDay()
-  const diff = day === 0 ? -6 : 1 - day
-  d.setDate(d.getDate() + diff)
-  return d
+function getFirstBusinessMonday(year: number, month: number) {
+  // month: 0–11
+  const firstDay = new Date(year, month, 1)
+  const day = firstDay.getDay() // 0=domingo, 1=lunes...
+
+  if (day === 1) return firstDay // ya es lunes
+
+  const diff = day === 0 ? 1 : 8 - day
+  firstDay.setDate(firstDay.getDate() + diff)
+  return firstDay
 }
 
+
 function formatSemanaLabel(date: Date) {
-  const monday = getMonday(date)
-  const day = monday.getDate()
-  const month = monday
+  const day = date.getDate()
+  const month = date
     .toLocaleDateString("es-GT", { month: "long" })
     .toUpperCase()
 
@@ -126,12 +130,18 @@ function formatSemanaLabel(date: Date) {
 }
 
 function getSemanasHeaders(baseDate: Date) {
+  const year = baseDate.getFullYear()
+  const month = baseDate.getMonth()
+
+  const firstMonday = getFirstBusinessMonday(year, month)
+
   return Array.from({ length: 4 }).map((_, i) => {
-    const d = new Date(baseDate)
+    const d = new Date(firstMonday)
     d.setDate(d.getDate() + i * 7)
     return formatSemanaLabel(d)
   })
 }
+
 
 
 
