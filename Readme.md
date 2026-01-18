@@ -45,6 +45,8 @@ docker-compose down -v
 
 # 6. Ver volúmenes creados
 docker volume ls
+
+docker compose -f .\\dockerdeploy.yml up --build -d
 ```
 
 ## 🔍 Verificación
@@ -67,6 +69,8 @@ MONGO_ROOT_USERNAME=admin
 MONGO_ROOT_PASSWORD=password123
 MONGO_DATABASE=farmacia
 MONGO_PORT=27017
+MONGO_URL=urldeladb
+
 
 # ========================================
 # CONFIGURACIÓN DE BACKEND
