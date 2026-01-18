@@ -75,17 +75,17 @@ def health_check():
 # Evento de inicio
 @app.on_event("startup")
 async def startup_event():
-    print("🚀 Iniciando Farmacia API...")
-    print("📊 Conectando a MongoDB...")
+    print(" Iniciando Farmacia API...")
+    print("Conectando a MongoDB...")
     try:
         client.admin.command('ping')
-        print("✅ Conexión exitosa a MongoDB")
+        print("Conexión exitosa a MongoDB")
     except Exception as e:
-        print(f"❌ Error al conectar a MongoDB: {e}")
+        print(f"Error al conectar a MongoDB: {e}")
 
 # Evento de cierre
 @app.on_event("shutdown")
 async def shutdown_event():
-    print("👋 Cerrando Farmacia API...")
+    print("Cerrando Farmacia API...")
     client.close()
-    print("✅ Conexión a MongoDB cerrada")
+    print("Conexión a MongoDB cerrada")

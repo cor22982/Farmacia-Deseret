@@ -52,11 +52,11 @@ def sales_inventory_report(month: int, year: int):
     products = list(products_collection.find())
     report = []
 
-    # 📅 Semanas de negocio (NO ISO)
+    #  Semanas de negocio (NO ISO)
     first_monday = first_business_monday(year, month)
     weeks = [first_monday + timedelta(weeks=i) for i in range(4)]
 
-    # 📦 Límites Mongo en UTC
+    #  Límites Mongo en UTC
     start_utc = weeks[0].astimezone(UTC_TZ)
     end_utc = (weeks[-1] + timedelta(days=7)).astimezone(UTC_TZ)
 
@@ -66,7 +66,7 @@ def sales_inventory_report(month: int, year: int):
         base = min(product["presentations"], key=lambda p: p["units"])
         pp = base["price"]
 
-        # 📦 Stock
+        #  Stock
         batches = list(stock_batches_collection.find({
             "product_id": product["_id"]
         }))
@@ -93,7 +93,7 @@ def sales_inventory_report(month: int, year: int):
             default=None
         )
 
-        # 📊 Ventas por día / turno
+        #  Ventas por día / turno
         ventas_dia = {
             "lunes_am": 0, "lunes_pm": 0,
             "martes_am": 0, "martes_pm": 0,
@@ -103,7 +103,7 @@ def sales_inventory_report(month: int, year: int):
             "sabado": 0,
         }
 
-        # 🧾 Ventas del período
+        #  Ventas del período
         sales = list(sales_collection.find({
             "items.product_id": product["_id"],
             "datetime": {
@@ -116,7 +116,7 @@ def sales_inventory_report(month: int, year: int):
         for sale in sales:
             sale["_dt_gt"] = normalize_gt_datetime(sale.get("datetime"))
 
-        # 📊 Ventas por día
+        #  Ventas por día
         for sale in sales:
             raw_day = sale.get("day_of_week", "").lower()
             raw_shift = sale.get("shift", "").lower()
@@ -138,7 +138,7 @@ def sales_inventory_report(month: int, year: int):
                 elif shift in ("am", "pm"):
                     ventas_dia[f"{day}_{shift}"] += units
 
-        # 📆 Ventas por semana (YA CORRECTAS)
+        #  Ventas por semana (YA CORRECTAS)
         week_totals = []
 
         for w in weeks:
