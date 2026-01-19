@@ -22,6 +22,7 @@ export default function Home() {
   const [showCart, setShowCart] = useState(false)
   const [showPaymentModal, setShowPaymentModal] = useState(false)
   const [searchTerm, setSearchTerm] = useState("")
+  const [loadingAdmin, setLoadingAdmin] = useState(false);
   const [selectedPresentation, setSelectedPresentation] = useState<string | null>(null)
   const [priceRange, setPriceRange] = useState<{ min: number; max: number } | null>(null)
   
@@ -117,15 +118,26 @@ export default function Home() {
             {isAdminLoggedIn ? (
               <>
                 <Link href="/admin">
-                  <Button variant="outline" size="sm" className="gap-2 bg-transparent">
-                    <Settings className="w-4 h-4" />
-                    Panel de Administración
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="gap-2 bg-transparent"
+                    onClick={() => setLoadingAdmin(true)}
+                    disabled={loadingAdmin}>
+                     {loadingAdmin ? (
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                    ) : (
+                      <Settings className="w-4 h-4" />
+                    )}
+                    {loadingAdmin ? "Cargando..." : "Panel de Administración"}
                   </Button>
                 </Link>
-                <Button size="sm" variant="ghost" onClick={() => setIsAdminLoggedIn(false)} className="gap-2">
-                  <LogOut className="w-4 h-4" />
-                  Cerrar Sesión
-                </Button>
+                <Link href="/">
+                  <Button size="sm" variant="ghost" className="gap-2">
+                    <LogOut className="w-4 h-4" />
+                    Cerrar Sesión
+                  </Button>
+                </Link>
               </>
             ) : (
               <Button size="sm" variant="outline" onClick={() => setShowAdminLogin(true)}>

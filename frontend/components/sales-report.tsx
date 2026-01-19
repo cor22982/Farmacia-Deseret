@@ -8,6 +8,7 @@ import { Download } from "lucide-react"
 import type { Sale, Product } from "@/lib/types"
 import { usePost } from "@/hooks/use-Products"
 import { exportReporteVentasExcel } from "@/lib/utils"
+import { Loader2 } from "lucide-react"
 
 // @ts-ignore
 import * as XLSX from "xlsx"
@@ -20,6 +21,7 @@ interface SalesReportProps {
 export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
   const [startDate, setStartDate] = useState("2025-11-20")
   const [endDate, setEndDate] = useState("2025-11-30")
+  const [loadingExcelSales, setLoadingExcelSales] = useState(false);
 
   const filteredSales = sales.filter((sale) => {
     const saleDate = new Date(sale.datetime)
@@ -48,10 +50,21 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
 
   
   const generateFileReport = async() => {
+      setLoadingExcelSales(true)
+      try{
+        const respuesta  = await post({});
+        exportReporteVentasExcel(respuesta)
+        console.log(respuesta)
+      }
+      catch (err) {
+      // Handle the error
+      console.error('Error occurred:', err.message);
   
-      const respuesta  = await post({});
-      exportReporteVentasExcel(respuesta)
-      console.log(respuesta)
+      } finally {
+      // This runs regardless of success or failure
+      setLoadingExcelSales(false);
+     }
+      
   
   
     }
@@ -129,7 +142,11 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
             //onClick={handleExportReport} 
             onClick={generateFileReport}
             className="gap-2 w-full md:w-auto cursor-pointer">
-            <Download className="w-4 h-4" />
+            {loadingExcelSales ? (
+                                            <Loader2 className="w-4 h-4 animate-spin" />
+                                          ) : (
+                                           <Download className="w-4 h-4" />
+                                          )}
             Exportar Reporte como Excel
           </Button>
         </CardContent>

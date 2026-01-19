@@ -38,6 +38,8 @@ export default function AdminDashboard() {
   const [productToDelete, setProductToDelete] = useState<string | null>(null)
   const [showStockBatchesModal, setShowStockBatchesModal] = useState(false)
   const [selectedProductForBatches, setSelectedProductForBatches] = useState<Product | null>(null)
+  const [loadingExcelInvt, setLoadingExcelInvt] = useState(false);
+
 
   const [products, setProducts] = useState<Product[]>([])
   const [batches, setBatches] = useState<StockBatch[]>([])
@@ -184,10 +186,20 @@ export default function AdminDashboard() {
   }
 
   const generateFileReport = async() => {
-
-    const respuesta  = await post({});
-    exportInventarioToExcel(respuesta)
-    console.log(respuesta)
+    setLoadingExcelInvt(true)
+    try{
+      const respuesta  = await post({});
+      exportInventarioToExcel(respuesta)
+      console.log(respuesta)
+    }catch (err) {
+      // Handle the error
+      console.error('Error occurred:', err.message);
+  
+    } finally {
+      // This runs regardless of success or failure
+      setLoadingExcelInvt(false);
+    }
+    
 
 
   }
@@ -211,7 +223,10 @@ export default function AdminDashboard() {
             </Link>
             <h1 className="text-3xl font-bold">Panel de Administración</h1>
           </div>
-          <Button variant="outline">Cerrar Sesión</Button>
+          <Link href="/">
+              <Button variant="outline">Cerrar Sesión</Button>
+            </Link>
+          
         </div>
       </header>
 
@@ -287,7 +302,11 @@ export default function AdminDashboard() {
                       //onClick={() => exportProductsToExcel(products)} variant="outline" className="gap-2"
                       
                       onClick={generateFileReport}>
-                      <Download className="w-4 h-4" />
+                        {loadingExcelInvt ? (
+                                            <Loader2 className="w-4 h-4 animate-spin" />
+                                          ) : (
+                                           <Download className="w-4 h-4" />
+                                          )}
                       Exportar Excel Inventario
                     </Button>
                     <Button onClick={handleAddProduct} className="gap-2">
