@@ -7,6 +7,8 @@ from zoneinfo import ZoneInfo
 
 router = APIRouter(prefix="/reports", tags=["Reports"])
 
+
+
 DAY_MAP = {
     "monday": "lunes",
     "tuesday": "martes",
@@ -17,13 +19,10 @@ DAY_MAP = {
     "sunday": "domingo",
 }
 
-SHIFT_MAP = {
-    "día": "am",
-    "tarde": "pm",
-    "noche": "pm",
-}
 GT_TZ = ZoneInfo("America/Guatemala")
 UTC_TZ = ZoneInfo("UTC")
+
+
 def normalize_gt_datetime(dt):
     if not dt:
         return None
@@ -34,6 +33,25 @@ def normalize_gt_datetime(dt):
         dt = dt.replace(tzinfo=UTC_TZ)
 
     return dt.astimezone(GT_TZ)
+
+
+def get_shift_from_datetime(dt: datetime):
+    """
+    AM:  08:30 - 14:00
+    PM:  15:00 - 20:30
+    """
+    h = dt.hour
+    m = dt.minute
+
+    # AM
+    if (h == 8 and m >= 30) or (9 <= h < 14) or (h == 14 and m == 0):
+        return "am"
+
+    # PM
+    if (15 <= h < 20) or (h == 20 and m <= 30):
+        return "pm"
+
+    return None
 
 
 def first_business_monday(year: int, month: int) -> datetime:
@@ -52,11 +70,11 @@ def sales_inventory_report(month: int, year: int):
     products = list(products_collection.find())
     report = []
 
-    #  Semanas de negocio (NO ISO)
+    # Semanas de negocio (NO ISO)
     first_monday = first_business_monday(year, month)
     weeks = [first_monday + timedelta(weeks=i) for i in range(4)]
 
-    #  Límites Mongo en UTC
+    # Límites Mongo en UTC
     start_utc = weeks[0].astimezone(UTC_TZ)
     end_utc = (weeks[-1] + timedelta(days=7)).astimezone(UTC_TZ)
 
@@ -66,7 +84,7 @@ def sales_inventory_report(month: int, year: int):
         base = min(product["presentations"], key=lambda p: p["units"])
         pp = base["price"]
 
-        #  Stock
+        # 📦 Stock
         batches = list(stock_batches_collection.find({
             "product_id": product["_id"]
         }))
@@ -93,7 +111,7 @@ def sales_inventory_report(month: int, year: int):
             default=None
         )
 
-        #  Ventas por día / turno
+        # 📊 Ventas por día / horario
         ventas_dia = {
             "lunes_am": 0, "lunes_pm": 0,
             "martes_am": 0, "martes_pm": 0,
@@ -103,7 +121,7 @@ def sales_inventory_report(month: int, year: int):
             "sabado": 0,
         }
 
-        #  Ventas del período
+        # 🧾 Ventas del período
         sales = list(sales_collection.find({
             "items.product_id": product["_id"],
             "datetime": {
@@ -116,16 +134,16 @@ def sales_inventory_report(month: int, year: int):
         for sale in sales:
             sale["_dt_gt"] = normalize_gt_datetime(sale.get("datetime"))
 
-        #  Ventas por día
+        # 📊 Ventas por día usando datetime
         for sale in sales:
-            raw_day = sale.get("day_of_week", "").lower()
-            raw_shift = sale.get("shift", "").lower()
-
+            sale_dt = sale["_dt_gt"]
+            raw_day = sale_dt.strftime("%A").lower()
             day = DAY_MAP.get(raw_day)
-            shift = SHIFT_MAP.get(raw_shift)
 
             if not day:
                 continue
+
+            shift = get_shift_from_datetime(sale_dt)
 
             for item in sale["items"]:
                 if item["product_id"] != product["_id"]:
@@ -133,24 +151,25 @@ def sales_inventory_report(month: int, year: int):
 
                 units = item.get("units_deducted", 0)
 
+                # Sábado sin AM / PM
                 if day == "sabado":
                     ventas_dia["sabado"] += units
+
+                # Lunes a viernes
                 elif shift in ("am", "pm"):
                     ventas_dia[f"{day}_{shift}"] += units
 
-        #  Ventas por semana (YA CORRECTAS)
+        # 📅 Ventas por semana
         week_totals = []
 
         for w in weeks:
             total = 0
             for sale in sales:
                 sale_dt = sale["_dt_gt"]
-
                 if w <= sale_dt < w + timedelta(days=7):
                     for item in sale["items"]:
                         if item["product_id"] == product["_id"]:
                             total += item.get("units_deducted", 0)
-
             week_totals.append(total)
 
         total_mes = sum(week_totals)
