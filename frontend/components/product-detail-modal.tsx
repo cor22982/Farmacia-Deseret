@@ -57,12 +57,22 @@ export function ProductDetailModal({
   // Asegurar que siempre sea un array
   const safeproductBatches = Array.isArray(productBatches) ? productBatches : []
 
+ 
   const totalStock = safeproductBatches.reduce((sum, b) => sum + b.stock_units, 0)
   
   const earliestExpiration =
     safeproductBatches.length > 0
       ? new Date(Math.min(...safeproductBatches.map((b) => new Date(b.expiration_date).getTime())))
       : null
+
+  const recentUbication =
+  safeproductBatches.length > 0
+    ? safeproductBatches.reduce((earliest, current) => {
+        return new Date(current.expiration_date) < new Date(earliest.expiration_date)
+          ? current
+          : earliest
+      }).location
+    : null
   
   console.log("Safeproducts", safeproductBatches)
   
@@ -110,9 +120,13 @@ export function ProductDetailModal({
                 <div>
                   <p className="text-xs text-muted-foreground">Próximo vencimiento</p>
                   <p className="font-medium">{earliestExpiration.toLocaleDateString()}</p>
+                  
                 </div>
               )}
             </div>
+            
+            <p className="text-xs text-muted-foreground">Ubicación</p>
+  <p className="font-medium">{recentUbication ?? "—"}</p>
 
             <div>
               <p className="text-xs text-muted-foreground">Principio activo</p>
@@ -221,12 +235,21 @@ export function ProductDetailModal({
                 <p className="text-xs text-muted-foreground">Stock disponible</p>
                 <p className="font-medium">{maxQuantityForPresentation}</p>
               </div>
-              {earliestExpiration && (
-                <div>
-                  <p className="text-xs text-muted-foreground">Vence</p>
-                  <p className="font-medium">{earliestExpiration.toLocaleDateString()}</p>
-                </div>
-              )}
+             <div>
+  <p className="text-xs text-muted-foreground">Ubicación</p>
+  <p className="font-medium">{recentUbication ?? "—"}</p>
+
+  {earliestExpiration && (
+    <div className="mt-1">
+      <p className="text-xs text-muted-foreground">Vence</p>
+      <p className="font-medium">
+        {earliestExpiration.toLocaleDateString()}
+      </p>
+    </div>
+  )}
+</div>
+
+              
             </div>
 
             {/* Cantidad */}
