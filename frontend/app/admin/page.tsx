@@ -18,6 +18,8 @@ import { StockBatchesModal } from "@/components/stock-batches-modal"
 import { useFetch } from "@/hooks/use-Products"
 import { usePost } from "@/hooks/use-Products"
 import { exportInventarioToExcel } from "@/lib/utils"
+import { useDelete } from "@/hooks/use-Products"
+
 
 export default function AdminDashboard() {
   const [suppliers, setSuppliers] = useState<Supplier[]>(mockSuppliers)
@@ -40,6 +42,7 @@ export default function AdminDashboard() {
   const [selectedProductForBatches, setSelectedProductForBatches] = useState<Product | null>(null)
   const [loadingExcelInvt, setLoadingExcelInvt] = useState(false);
 
+  const { remove, loading } = useDelete();
 
   const [products, setProducts] = useState<Product[]>([])
   const [batches, setBatches] = useState<StockBatch[]>([])
@@ -107,6 +110,7 @@ export default function AdminDashboard() {
     console.log("updatedProduct", updatedProduct)
     // Aquí deberías llamar a la API para guardar/actualizar
     await refetchProducts()
+    await refetchProducts()
   }
 
   const handleDeleteProduct = (productId: string) => {
@@ -114,10 +118,13 @@ export default function AdminDashboard() {
     setShowDeleteProductModal(true)
   }
 
-  const confirmDeleteProduct = () => {
+  const confirmDeleteProduct = async() => {
+    await remove(`/products/${productToDelete}`);
+
     if (productToDelete) {
       // Aquí deberías llamar a la API para eliminar
-      refetchProducts()
+      await refetchProducts()
+      await refetchProducts()
       setProductToDelete(null)
     }
   }
@@ -129,10 +136,12 @@ export default function AdminDashboard() {
 
   const handleAddBatch = () => {
     setSelectedBatch(null)
+    setSelectedBatch(null)
     setShowBatchModal(true)
   }
 
   const handleSaveBatch = (updatedBatch: StockBatch) => {
+    
     // Aquí deberías llamar a la API para guardar/actualizar
     refetchInventario()
   }
@@ -235,9 +244,9 @@ export default function AdminDashboard() {
           <Button variant={activeTab === "inventory" ? "default" : "outline"} onClick={() => setActiveTab("inventory")}>
             Gestión de Inventario
           </Button>
-          <Button variant={activeTab === "suppliers" ? "default" : "outline"} onClick={() => setActiveTab("suppliers")}>
-            Proveedores
-          </Button>
+            {/* <Button variant={activeTab === "suppliers" ? "default" : "outline"} onClick={() => setActiveTab("suppliers")}>
+              Proveedores
+            </Button> */}
           <Button variant={activeTab === "sales" ? "default" : "outline"} onClick={() => setActiveTab("sales")}>
             Reporte de Ventas
           </Button>
@@ -277,14 +286,14 @@ export default function AdminDashboard() {
                 <Package className="w-4 h-4" />
                 Productos y Presentaciones
               </Button>
-              <Button
+              {/* <Button
                 variant={inventoryMode === "batches" ? "default" : "outline"}
                 onClick={() => setInventoryMode("batches")}
                 className="gap-2"
               >
                 <Archive className="w-4 h-4" />
                 Lotes de Stock
-              </Button>
+              </Button> */}
             </div>
 
             {inventoryMode === "products" && (
@@ -371,21 +380,21 @@ export default function AdminDashboard() {
                                   <td className="py-3 px-2 flex gap-2">
                                     <button
                                       onClick={() => handleEditProduct(product)}
-                                      className="p-1 hover:bg-primary/10 rounded transition-colors"
+                                      className="p-1 hover:bg-primary/10 rounded transition-colors cursor-pointer"
                                       title="Editar Producto"
                                     >
                                       <Edit2 className="w-4 h-4 text-primary" />
                                     </button>
                                     <button
                                       onClick={() => handleManageStock(product)}
-                                      className="p-1 hover:bg-blue-500/10 rounded transition-colors"
+                                      className="p-1 hover:bg-blue-500/10 rounded transition-colors cursor-pointer"
                                       title="Gestionar Stock"
                                     >
                                       <Archive className="w-4 h-4 text-blue-600" />
                                     </button>
                                     <button
                                       onClick={() => handleDeleteProduct(product._id)}
-                                      className="p-1 hover:bg-destructive/10 rounded transition-colors"
+                                      className="p-1 hover:bg-destructive/10 rounded transition-colors cursor-pointer"
                                       title="Eliminar Producto"
                                     >
                                       <Trash2 className="w-4 h-4 text-destructive" />

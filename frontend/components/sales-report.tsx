@@ -45,14 +45,17 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
   }
 
   const { post, data } = usePost({
-        url: "reports/weekly-monthly?month=1&year=2026",
+        url: "reports/weekly-monthly",
       });
 
   
   const generateFileReport = async() => {
       setLoadingExcelSales(true)
       try{
-        const respuesta  = await post({});
+        const respuesta  = await post({
+          fecha_inicio:startDate,
+          fecha_fin: endDate
+        });
         exportReporteVentasExcel(respuesta)
         console.log(respuesta)
       }
@@ -152,7 +155,7 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
         </CardContent>
       </Card>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <Card>
           <CardHeader className="pb-2">
             <CardTitle className="text-sm font-medium text-muted-foreground">Total de Ventas</CardTitle>
@@ -290,7 +293,7 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
             </table>
           </div>
         </CardContent>
-      </Card>
+      </Card> */}
     </div>
   )
 }

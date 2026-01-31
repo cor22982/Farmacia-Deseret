@@ -1,6 +1,7 @@
 from fastapi import APIRouter, HTTPException, status, Body
 from config.database import stock_batches_collection, serialize_doc, serialize_list
 from datetime import datetime
+from utils.helpers import update_product_presentations_from_stock
 
 router = APIRouter(prefix="/stock-batches", tags=["Stock Batches"])
 
@@ -56,25 +57,38 @@ def get_batches_by_product_id(product_id: str):
 
 
 @router.put("/{batch_id}")
-def update_batch(batch_id: str, batch: dict = Body(...)):
-    """Actualizar un lote de stock"""
-    # Convertir fechas si vienen como string
-    if "expiration_date" in batch and isinstance(batch["expiration_date"], str):
-        batch["expiration_date"] = datetime.fromisoformat(batch["expiration_date"].replace("Z", "+00:00"))
-    
-    if "purchase_date" in batch and isinstance(batch["purchase_date"], str):
-        batch["purchase_date"] = datetime.fromisoformat(batch["purchase_date"].replace("Z", "+00:00"))
-    
-    batch["updated_at"] = datetime.utcnow()
-    
-    result = stock_batches_collection.update_one(
+def upsert_batch(batch_id: str, batch: dict = Body(...)):
+
+    # 1️⃣ Normalizar fechas
+    for field in ["expiration_date", "purchase_date"]:
+        if field in batch and isinstance(batch.get(field), str):
+            batch[field] = datetime.fromisoformat(
+                batch[field].replace("Z", "+00:00")
+            )
+
+    now = datetime.utcnow()
+    batch["_id"] = batch_id
+    batch["updated_at"] = now
+    batch.setdefault("created_at", now)
+
+    # 2️⃣ Upsert del batch
+    stock_batches_collection.update_one(
         {"_id": batch_id},
-        {"$set": batch}
+        {"$set": batch},
+        upsert=True
     )
-    
-    if result.matched_count == 0:
-        raise HTTPException(status_code=404, detail="Lote no encontrado")
-    
+
+    # 3️⃣ Recalcular presentaciones del producto
+    product_id = batch.get("product_id")
+    if not product_id:
+        raise HTTPException(
+            status_code=400,
+            detail="El batch debe contener product_id"
+        )
+
+    update_product_presentations_from_stock(product_id)
+
+    # 4️⃣ Retornar batch actualizado
     updated_batch = stock_batches_collection.find_one({"_id": batch_id})
     return serialize_doc(updated_batch)
 

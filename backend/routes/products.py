@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, status, Body
-from config.database import products_collection, serialize_doc, serialize_list
+from config.database import products_collection, serialize_doc, serialize_list, stock_batches_collection
 from datetime import datetime
 
 router = APIRouter(prefix="/products", tags=["Products"])
@@ -61,28 +61,47 @@ def get_product(product_id: str):
         raise HTTPException(status_code=404, detail="Producto no encontrado")
     return serialize_doc(product)
 
-@router.put("/{product_id}")
-def update_product(product_id: str, product: dict = Body(...)):
-    """Actualizar un producto"""
-    product["updated_at"] = datetime.utcnow()
-    
+@router.put("/{product_id}", status_code=status.HTTP_200_OK)
+def upsert_product(product_id: str, product: dict = Body(...)):
+    """Crear o actualizar un producto (upsert)"""
+
+    now = datetime.utcnow()
+    product["updated_at"] = now
+
+    # Si se crea por primera vez
+    product.setdefault("created_at", now)
+    product["_id"] = product_id
+
     result = products_collection.update_one(
         {"_id": product_id},
-        {"$set": product}
+        {"$set": product},
+        upsert=True
     )
-    
-    if result.matched_count == 0:
-        raise HTTPException(status_code=404, detail="Producto no encontrado")
-    
+
     updated_product = products_collection.find_one({"_id": product_id})
     return serialize_doc(updated_product)
 
 @router.delete("/{product_id}")
 def delete_product(product_id: str):
-    """Eliminar un producto"""
-    result = products_collection.delete_one({"_id": product_id})
-    
-    if result.deleted_count == 0:
-        raise HTTPException(status_code=404, detail="Producto no encontrado")
-    
-    return {"message": "Producto eliminado", "product_id": product_id}
+    """Eliminar un producto y sus batches relacionados"""
+
+  
+    batches_result = stock_batches_collection.delete_many(
+        {"product_id": product_id}
+    )
+
+    product_result = products_collection.delete_one(
+        {"_id": product_id}
+    )
+
+    if product_result.deleted_count == 0:
+        raise HTTPException(
+            status_code=404,
+            detail="Producto no encontrado"
+        )
+
+    return {
+        "message": "Producto eliminado correctamente",
+        "product_id": product_id,
+        "batches_deleted": batches_result.deleted_count
+    }

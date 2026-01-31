@@ -1,12 +1,12 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Query, Body
 from datetime import datetime, timedelta
 from config.database import products_collection, stock_batches_collection, sales_collection
-from utils.helpers  import to_datetime, format_date
+from utils.helpers import to_datetime, format_date
 from zoneinfo import ZoneInfo
+from typing import Optional
 
 
 router = APIRouter(prefix="/reports", tags=["Reports"])
-
 
 
 DAY_MAP = {
@@ -54,6 +54,19 @@ def get_shift_from_datetime(dt: datetime):
     return None
 
 
+def get_week_range(date: datetime):
+    """Obtiene el lunes y domingo de la semana de una fecha dada"""
+    # Encontrar el lunes de esta semana
+    days_since_monday = date.weekday()
+    monday = date - timedelta(days=days_since_monday)
+    monday = monday.replace(hour=0, minute=0, second=0, microsecond=0)
+    
+    # El domingo es 6 días después
+    sunday = monday + timedelta(days=6, hours=23, minutes=59, seconds=59)
+    
+    return monday, sunday
+
+
 def first_business_monday(year: int, month: int) -> datetime:
     """Primer lunes DENTRO del mes"""
     first_day = datetime(year, month, 1, tzinfo=GT_TZ)
@@ -65,18 +78,52 @@ def first_business_monday(year: int, month: int) -> datetime:
 
 
 @router.post("/weekly-monthly")
-def sales_inventory_report(month: int, year: int):
-
+def sales_inventory_report(
+    fecha_inicio: Optional[str] = Body(None, description="Fecha inicio (YYYY-MM-DD)"),
+    fecha_fin: Optional[str] = Body(None, description="Fecha fin (YYYY-MM-DD)")
+):
+    """
+    Reporte de ventas e inventario.
+    
+    - Si no se pasan fechas, usa la semana actual
+    - Las ventas por día (lunes_am, martes_pm, etc.) son de la semana del rango
+    - Las semanas mensuales se calculan automáticamente del mes del rango
+    """
+    
+    # 📅 Determinar rango de fechas
+    now_gt = datetime.now(GT_TZ)
+    
+    if fecha_inicio and fecha_fin:
+        # Parsear fechas proporcionadas
+        start_gt = datetime.fromisoformat(fecha_inicio).replace(tzinfo=GT_TZ)
+        end_gt = datetime.fromisoformat(fecha_fin).replace(tzinfo=GT_TZ)
+        # Asegurar que end_gt incluya todo el día
+        end_gt = end_gt.replace(hour=23, minute=59, second=59)
+    else:
+        # Usar semana actual
+        start_gt, end_gt = get_week_range(now_gt)
+    
+    # Extraer año y mes del rango
+    year = start_gt.year
+    month = start_gt.month
+    
+    # 🗓️ Rango de la semana para ventas diarias (lunes_am, martes_pm, etc.)
+    week_start, week_end = get_week_range(start_gt)
+    
     products = list(products_collection.find())
     report = []
 
-    # Semanas de negocio (NO ISO)
+    # Semanas de negocio del mes (para el análisis semanal)
     first_monday = first_business_monday(year, month)
     weeks = [first_monday + timedelta(weeks=i) for i in range(4)]
 
-    # Límites Mongo en UTC
-    start_utc = weeks[0].astimezone(UTC_TZ)
-    end_utc = (weeks[-1] + timedelta(days=7)).astimezone(UTC_TZ)
+    # Límites Mongo en UTC para las semanas del mes
+    month_start_utc = weeks[0].astimezone(UTC_TZ)
+    month_end_utc = (weeks[-1] + timedelta(days=7)).astimezone(UTC_TZ)
+    
+    # Límites para las ventas de la semana actual/rango
+    week_start_utc = week_start.astimezone(UTC_TZ)
+    week_end_utc = week_end.astimezone(UTC_TZ)
 
     for product in products:
 
@@ -111,7 +158,7 @@ def sales_inventory_report(month: int, year: int):
             default=None
         )
 
-        # 📊 Ventas por día / horario
+        # 📊 Ventas por día / horario (DE LA SEMANA DEL RANGO)
         ventas_dia = {
             "lunes_am": 0, "lunes_pm": 0,
             "martes_am": 0, "martes_pm": 0,
@@ -121,21 +168,21 @@ def sales_inventory_report(month: int, year: int):
             "sabado": 0,
         }
 
-        # 🧾 Ventas del período
-        sales = list(sales_collection.find({
+        # 🧾 Ventas de la semana del rango
+        week_sales = list(sales_collection.find({
             "items.product_id": product["_id"],
             "datetime": {
-                "$gte": start_utc,
-                "$lt": end_utc
+                "$gte": week_start_utc,
+                "$lte": week_end_utc
             }
         }))
 
-        # 🔧 Normalizar fechas de ventas
-        for sale in sales:
+        # 🔧 Normalizar fechas de ventas de la semana
+        for sale in week_sales:
             sale["_dt_gt"] = normalize_gt_datetime(sale.get("datetime"))
 
         # 📊 Ventas por día usando datetime
-        for sale in sales:
+        for sale in week_sales:
             sale_dt = sale["_dt_gt"]
             raw_day = sale_dt.strftime("%A").lower()
             day = DAY_MAP.get(raw_day)
@@ -159,12 +206,25 @@ def sales_inventory_report(month: int, year: int):
                 elif shift in ("am", "pm"):
                     ventas_dia[f"{day}_{shift}"] += units
 
-        # 📅 Ventas por semana
+        # 🧾 Ventas del mes completo (para análisis semanal)
+        month_sales = list(sales_collection.find({
+            "items.product_id": product["_id"],
+            "datetime": {
+                "$gte": month_start_utc,
+                "$lt": month_end_utc
+            }
+        }))
+
+        # 🔧 Normalizar fechas de ventas del mes
+        for sale in month_sales:
+            sale["_dt_gt"] = normalize_gt_datetime(sale.get("datetime"))
+
+        # 📅 Ventas por semana del mes
         week_totals = []
 
         for w in weeks:
             total = 0
-            for sale in sales:
+            for sale in month_sales:
                 sale_dt = sale["_dt_gt"]
                 if w <= sale_dt < w + timedelta(days=7):
                     for item in sale["items"]:
@@ -199,7 +259,6 @@ def sales_inventory_report(month: int, year: int):
         })
 
     return report
-
 
 @router.post("/inventario")
 def inventory_report():

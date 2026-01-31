@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { Trash2, Plus } from "lucide-react"
+import { Trash2, Plus, Loader2 } from "lucide-react"
 import { useUpdate } from "@/hooks/use-Products"
 
 interface InventoryFormModalProps {
@@ -18,9 +18,7 @@ interface InventoryFormModalProps {
 }
 
 export function InventoryFormModal({ product, open, onOpenChange, onSave }: InventoryFormModalProps) {
-  const { update, loading, error } = useUpdate({
-      url: `/products/${product?._id}`,
-    });
+  const { update, loading, error } =  useUpdate();
   
   const [formData, setFormData] = useState<Partial<Product>>({
     name: "",
@@ -34,20 +32,39 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
   
 
   useEffect(() => {
-    if (product) {
-      setFormData(product)
-    } else {
-      setFormData({
-        name: "",
-        category: "",
-        principio_activo: "",
-        descripcion: "",
-        supplier: "",
-        image_url: "/pharmacy-product.jpg",
-        presentations: [],
-      })
-    }
-  }, [product, open])
+  if (!open) {
+    console.log("Entre aqui2")
+    setFormData({
+      name: "",
+      category: "",
+      principio_activo: "",
+      descripcion: "",
+      supplier: "",
+      image_url: "/pharmacy-product.jpg",
+      presentations: [],
+    });
+    return;
+  }
+
+  if (product) {
+    console.log("Entre aqui")
+    // 📝 Editar
+    setFormData(product);
+  } else {
+    
+    // ➕ Crear
+    setFormData({
+      name: "",
+      category: "",
+      principio_activo: "",
+      descripcion: "",
+      supplier: "",
+      image_url: "/pharmacy-product.jpg",
+      presentations: [],
+    });
+  }
+}, [open, product]);
+
 
   const handleChange = (field: keyof Product, value: string) => {
     setFormData({
@@ -84,7 +101,7 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
       const cost = field === "cost" ? Number(value) : updatedPresentations[index].cost
       const price = field === "price" ? Number(value) : updatedPresentations[index].price
       const profit = price - cost
-      updatedPresentations[index].profit_percent = cost > 0 ? profit / cost : 0
+      updatedPresentations[index].profit_percent = cost > 0 ? profit / price : 0
     }
 
     setFormData({
@@ -127,7 +144,19 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
     } as Product
 
     onSave(savedProduct)
-    await update(savedProduct)
+
+    console.log(savedProduct)
+    await update(`/products/${product?._id || (savedProduct.name + savedProduct._id) }`,savedProduct)
+    setFormData({
+        name: "",
+        category: "",
+        principio_activo: "",
+        descripcion: "",
+        supplier: "",
+        image_url: "/pharmacy-product.jpg",
+        presentations: [],
+      })
+
     onOpenChange(false)
   }
 
@@ -287,7 +316,10 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
           <Button variant="outline" onClick={() => onOpenChange(false)}>
             Cancelar
           </Button>
-          <Button onClick={handleSave}>Guardar Producto</Button>
+          <Button onClick={handleSave} disabled={loading}>
+          {loading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+          {loading ? "Guardando..." : "Guardar Producto"}
+        </Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>

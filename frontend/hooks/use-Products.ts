@@ -119,50 +119,63 @@ interface UseUpdateConfig {
   url: string;
 }
 
-export function useUpdate<TResponse, TBody = any>({
-  url,
-}: UseUpdateConfig) {
+export function useUpdate<TResponse, TBody = any>() {
   const [data, setData] = useState<TResponse | null>(null);
-  const [loading, setLoading] = useState<boolean>(false);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const update = useCallback(
-    async (body: TBody) => {
-      setLoading(true);
-      setError(null);
-
-      try {
-        const res = await apiClient.put<TResponse>(url, body);
-        setData(res.data);
-        return res.data; // permite await
-      } catch (err) {
-        const axiosError = err as AxiosError<any>;
-        const message =
-          axiosError.response?.data?.detail ||
-          axiosError.message ||
-          "Error inesperado";
-
-        setError(message);
-        setData(null);
-        throw message;
-      } finally {
-        setLoading(false);
-      }
-    },
-    [url]
-  );
-
-  const reset = () => {
-    setData(null);
+  const update = async (url: string, body: TBody) => {
+    setLoading(true);
     setError(null);
-    setLoading(false);
+
+    try {
+      const res = await apiClient.put<TResponse>(url, body);
+      setData(res.data);
+      return res.data;
+    } catch (err) {
+      const axiosError = err as AxiosError<any>;
+      const message =
+        axiosError.response?.data?.detail ||
+        axiosError.message ||
+        "Error inesperado";
+
+      setError(message);
+      throw message;
+    } finally {
+      setLoading(false);
+    }
   };
 
-  return {
-    data,
-    loading,
-    error,
-    update,
-    reset,
+  return { data, loading, error, update };
+}
+
+
+export function useDelete<TResponse = any>() {
+  const [data, setData] = useState<TResponse | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const remove = async (url: string) => {
+    setLoading(true);
+    setError(null);
+
+    try {
+      const res = await apiClient.delete<TResponse>(url);
+      setData(res.data);
+      return res.data; // permite await
+    } catch (err) {
+      const axiosError = err as AxiosError<any>;
+      const message =
+        axiosError.response?.data?.detail ||
+        axiosError.message ||
+        "Error inesperado";
+
+      setError(message);
+      throw message;
+    } finally {
+      setLoading(false);
+    }
   };
+
+  return { data, loading, error, remove };
 }
