@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -9,6 +9,7 @@ import type { Sale, Product } from "@/lib/types"
 import { usePost } from "@/hooks/use-Products"
 import { exportReporteVentasExcel } from "@/lib/utils"
 import { Loader2 } from "lucide-react"
+import { getCurrentWeekDates } from "@/lib/utils"
 
 // @ts-ignore
 import * as XLSX from "xlsx"
@@ -19,8 +20,8 @@ interface SalesReportProps {
 }
 
 export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
-  const [startDate, setStartDate] = useState("2025-11-20")
-  const [endDate, setEndDate] = useState("2025-11-30")
+  const [startDate, setStartDate] = useState("")
+  const [endDate, setEndDate] = useState("")
   const [loadingExcelSales, setLoadingExcelSales] = useState(false);
 
   const filteredSales = sales.filter((sale) => {
@@ -29,6 +30,12 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
     const end = new Date(endDate)
     return saleDate >= start && saleDate <= end
   })
+
+   useEffect(() => {
+    const { start, end } = getCurrentWeekDates();
+    setStartDate(start);
+    setEndDate(end);
+  }, []);
 
   const totalRevenue = filteredSales.reduce((sum, sale) => sum + sale.total, 0)
   const totalCost = filteredSales.reduce((sum, sale) => {

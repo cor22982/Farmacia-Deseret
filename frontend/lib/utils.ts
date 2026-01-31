@@ -144,7 +144,27 @@ function getSemanasHeaders(baseDate: Date) {
 
 
 
+export function getCurrentWeekDates() {
+  const today = new Date();
+  const day = today.getDay(); 
+  // getDay(): 0=domingo, 1=lunes, ..., 6=sábado
 
+  // Ajuste para que lunes sea el inicio
+  const diffToMonday = day === 0 ? -6 : 1 - day;
+
+  const monday = new Date(today);
+  monday.setDate(today.getDate() + diffToMonday);
+
+  const saturday = new Date(monday);
+  saturday.setDate(monday.getDate() + 5);
+
+  const format = (date) => date.toISOString().split("T")[0];
+
+  return {
+    start: format(monday),
+    end: format(saturday),
+  };
+}
 
 export function exportReporteVentasExcel(data: any[]) {
   const baseDate = new Date()
