@@ -110,7 +110,9 @@ def sales_inventory_report(
     # 🗓️ Rango de la semana para ventas diarias (lunes_am, martes_pm, etc.)
     week_start, week_end = get_week_range(start_gt)
     
-    products = list(products_collection.find())
+    products = list(products_collection.find({
+        "supplier": {"$regex": "T.*FUERTE", "$options": "i"}
+    }).sort("name", 1))
     report = []
 
     # Semanas de negocio del mes (para el análisis semanal)
@@ -127,16 +129,19 @@ def sales_inventory_report(
 
     for product in products:
 
-        # 💲 Precio base
+        # 💲 Obtener la presentación más pequeña (menor units)
         base = min(product["presentations"], key=lambda p: p["units"])
         pp = base["price"]
+        base_units = base["units"]  # 🔑 DIVISOR para normalizar TODO
 
         # 📦 Stock
         batches = list(stock_batches_collection.find({
             "product_id": product["_id"]
         }))
 
-        existencia = sum(b.get("stock_units", 0) for b in batches)
+        # ✅ DIVIDIR stock_units entre base_units
+        existencia_raw = sum(b.get("stock_units", 0) for b in batches)
+        existencia = existencia_raw / base_units
 
         # 🔧 Normalizar lotes
         normalized_batches = []
@@ -197,14 +202,16 @@ def sales_inventory_report(
                     continue
 
                 units = item.get("units_deducted", 0)
+                # ✅ DIVIDIR entre la presentación más pequeña
+                units_normalized = units / base_units
 
                 # Sábado sin AM / PM
                 if day == "sabado":
-                    ventas_dia["sabado"] += units
+                    ventas_dia["sabado"] += units_normalized
 
                 # Lunes a viernes
                 elif shift in ("am", "pm"):
-                    ventas_dia[f"{day}_{shift}"] += units
+                    ventas_dia[f"{day}_{shift}"] += units_normalized
 
         # 🧾 Ventas del mes completo (para análisis semanal)
         month_sales = list(sales_collection.find({
@@ -229,7 +236,9 @@ def sales_inventory_report(
                 if w <= sale_dt < w + timedelta(days=7):
                     for item in sale["items"]:
                         if item["product_id"] == product["_id"]:
-                            total += item.get("units_deducted", 0)
+                            units = item.get("units_deducted", 0)
+                            # ✅ DIVIDIR entre la presentación más pequeña
+                            total += units / base_units
             week_totals.append(total)
 
         total_mes = sum(week_totals)
@@ -237,9 +246,9 @@ def sales_inventory_report(
 
         report.append({
             "articulo": product["name"],
-            "existencia": existencia + total_ventas_dia,
-            "ventas_semana": ventas_dia,
-            "nva_existencia": existencia,
+            "existencia": existencia + total_ventas_dia,  # ✅ YA normalizado
+            "ventas_semana": ventas_dia,  # ✅ YA normalizado
+            "nva_existencia": existencia,  # ✅ YA normalizado
             "pedido": 0,
             "pp": pp,
             "fecha_vencimiento": format_date(next_batch["_exp_dt"] if next_batch else None),
@@ -247,18 +256,19 @@ def sales_inventory_report(
             "bodega": 0,
             "compras": 0,
             "semanas": {
-                "sem_1": week_totals[0],
-                "sem_2": week_totals[1],
-                "sem_3": week_totals[2],
-                "sem_4": week_totals[3],
+                "sem_1": week_totals[0],  # ✅ YA normalizado
+                "sem_2": week_totals[1],  # ✅ YA normalizado
+                "sem_3": week_totals[2],  # ✅ YA normalizado
+                "sem_4": week_totals[3],  # ✅ YA normalizado
             },
-            "total": total_mes,
-            "promedio": total_mes / 4 if total_mes else 0,
-            "mes_1": total_mes,
-            "mes_2": total_mes * 2,
+            "total": total_mes,  # ✅ YA normalizado
+            "promedio": total_mes / 4 if total_mes else 0,  # ✅ YA normalizado
+            "mes_1": total_mes,  # ✅ YA normalizado
+            "mes_2": total_mes * 2,  # ✅ YA normalizado
         })
 
     return report
+
 
 @router.post("/inventario")
 def inventory_report():
@@ -303,3 +313,44 @@ def inventory_report():
         })
 
     return report
+
+
+@router.get("/statistics")
+def sales_statistics_today():
+    now_gt = datetime.now(GT_TZ)
+
+    start_gt = now_gt.replace(hour=0, minute=0, second=0, microsecond=0)
+    end_gt = now_gt.replace(hour=23, minute=59, second=59, microsecond=999999)
+
+    # 🔄 Convertir a UTC para Mongo
+    start_utc = start_gt.astimezone(UTC_TZ)
+    end_utc = end_gt.astimezone(UTC_TZ)
+
+    # 🧾 Ventas de hoy
+    sales_today = list(
+        sales_collection.find({
+            "datetime": {
+                "$gte": start_utc,
+                "$lte": end_utc
+            }
+        })
+    )
+
+    # 📄 Cantidad de documentos
+    total_documents = len(sales_today)
+
+    # 📦 Total unidades vendidas (units_deducted)
+    total_units_deducted = 0
+    for sale in sales_today:
+        for item in sale.get("items", []):
+            total_units_deducted += item.get("units_deducted", 0)
+
+    # 💰 Total vendido (sumatoria de sale.total)
+    total_sales_amount = sum(sale.get("total", 0) for sale in sales_today)
+
+    return {
+        "date": start_gt.date().isoformat(),
+        "total_documents": total_documents,
+        "total_units_deducted": total_units_deducted,
+        "total_sales_amount": total_sales_amount
+    }

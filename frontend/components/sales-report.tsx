@@ -5,8 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Download } from "lucide-react"
-import type { Sale, Product } from "@/lib/types"
-import { usePost } from "@/hooks/use-Products"
+import type { Sale, Product, SalesStatistics } from "@/lib/types"
+import { usePost, useFetch } from "@/hooks/use-Products"
 import { exportReporteVentasExcel } from "@/lib/utils"
 import { Loader2 } from "lucide-react"
 import { getCurrentWeekDates } from "@/lib/utils"
@@ -23,6 +23,15 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
   const [startDate, setStartDate] = useState("")
   const [endDate, setEndDate] = useState("")
   const [loadingExcelSales, setLoadingExcelSales] = useState(false);
+
+  const {
+      data: stadistics,
+      loading,
+      error,
+      refetch,
+    } = useFetch<SalesStatistics>({
+      url: "/reports/statistics",
+    });
 
   const filteredSales = sales.filter((sale) => {
     const saleDate = new Date(sale.datetime)
@@ -63,7 +72,7 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
           fecha_inicio:startDate,
           fecha_fin: endDate
         });
-        exportReporteVentasExcel(respuesta)
+        exportReporteVentasExcel(respuesta, startDate)
         console.log(respuesta)
       }
       catch (err) {
@@ -161,6 +170,40 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
           </Button>
         </CardContent>
       </Card>
+     <Card>
+  <CardHeader className="pb-2">
+    <CardTitle className="text-sm font-medium text-muted-foreground">
+      Estadísticas de Hoy
+    </CardTitle>
+  </CardHeader>
+
+  <CardContent>
+    <div className="flex items-center justify-between gap-8">
+      
+      <div>
+        <p className="text-sm text-muted-foreground">Total de Ventas</p>
+        <p className="text-3xl font-bold">
+          {stadistics?.total_documents ?? 0}
+        </p>
+      </div>
+
+      <div className="text-right">
+        <p className="text-sm text-muted-foreground">Productos Vendidos</p>
+        <p className="text-3xl font-bold text-red-600">
+        {stadistics?.total_units_deducted ?? 0}
+        </p>
+      </div>
+      <div className="text-right">
+        <p className="text-sm text-muted-foreground">Total </p>
+        <p className="text-3xl font-bold text-green-600">
+        Q{stadistics?.total_sales_amount?? 0}
+        </p>
+      </div>
+
+    </div>
+  </CardContent>
+</Card>
+
 
       {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <Card>

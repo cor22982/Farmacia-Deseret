@@ -8,6 +8,14 @@ export interface ProductPresentation {
   sku: string // Stock keeping unit code
 }
 
+export interface SalesStatistics {
+  date: string           // YYYY-MM-DD
+  total_documents: number
+  total_units_deducted: number
+  total_sales_amount: number
+}
+
+
 export interface Product {
   _id: string
   name: string

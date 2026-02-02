@@ -129,10 +129,8 @@ function formatSemanaLabel(date: Date) {
   return `SEM ${day} ${month}`
 }
 
-function getSemanasHeaders(baseDate: Date) {
-  const year = baseDate.getFullYear()
-  const month = baseDate.getMonth()
-
+function getSemanasHeaders(year: number, month: number) {
+  // month: 0–11
   const firstMonday = getFirstBusinessMonday(year, month)
 
   return Array.from({ length: 4 }).map((_, i) => {
@@ -166,9 +164,16 @@ export function getCurrentWeekDates() {
   };
 }
 
-export function exportReporteVentasExcel(data: any[]) {
-  const baseDate = new Date()
-  const [SEM1, SEM2, SEM3, SEM4] = getSemanasHeaders(baseDate)
+
+export function exportReporteVentasExcel(
+  data: any[],
+  fecha: any
+) {
+  const [y, m] = fecha.split("-")
+  const year = Number(y)
+  const month = Number(m) - 1
+
+  const [SEM1, SEM2, SEM3, SEM4] = getSemanasHeaders(year, month)
 
   const rows = [
     {
@@ -249,7 +254,6 @@ export function exportReporteVentasExcel(data: any[]) {
     { wch: 10 }, { wch: 12 }, { wch: 10 }, { wch: 10 },
   ]
 
-  const range = XLSX.utils.decode_range(ws["!ref"]!)
   const border = {
     top: { style: "thin" },
     bottom: { style: "thin" },
@@ -257,24 +261,54 @@ export function exportReporteVentasExcel(data: any[]) {
     right: { style: "thin" },
   }
 
+  const getHeaderColor = (C: number) => {
+    if (C === 2) return "FFD9D9D9"              // EXISTENCIA
+    if (C >= 3 && C <= 12) return "FFDDEBF7"    // L–V
+    if (C === 13) return "FFFCE4D6"             // SABADO
+    if (C === 14) return "FFFFFF00"             // NVA EXIST
+    if (C === 15 || C === 16) return "FFF4CCCC" // PEDIDO / PP
+    if (C === 17 || C === 18) return "FFE2EFDA" // OBS / FV
+    if (C === 19 || C === 20) return "FFD9E1F2" // BODEGA / COMPRAS
+    if (C === 21) return "FFFCE4D6"              // FECHA COMPRA
+    if (C >= 22 && C <= 25) return "FFF8CBAD"   // SEMANAS
+    if (C >= 26) return "FFEDEDED"               // TOTAL / PROM / MESES
+    return null
+  }
+
+  const range = XLSX.utils.decode_range(ws["!ref"]!)
+
   for (let R = 0; R <= range.e.r; R++) {
     for (let C = 0; C <= range.e.c; C++) {
-      const cellRef = XLSX.utils.encode_cell({ r: R, c: C })
-      const cell = ws[cellRef]
+      const ref = XLSX.utils.encode_cell({ r: R, c: C })
+      const cell = ws[ref]
       if (!cell) continue
+
+      const headerColor = R === 0 ? getHeaderColor(C) : null
 
       cell.s = {
         border,
-        font: R === 0 ? { bold: true } : {},
+        font: R === 0 ? { bold: true, sz: 10 } : {},
         alignment: {
           vertical: "center",
           horizontal: R === 0 ? "center" : C <= 1 ? "left" : "right",
+          textRotation: R === 0 && C >= 2 ? 90 : 0, // 🔄 ROTADO
+          wrapText: true,
         },
+        fill: headerColor
+          ? {
+              patternType: "solid",
+              fgColor: { rgb: headerColor },
+            }
+          : undefined,
       }
 
-      if (R > 0 && C === 16) cell.z = '"Q"#,##0.00' // PP
+      if (R > 0 && C === 16) {
+        cell.z = '"Q"#,##0.00' // PP
+      }
     }
   }
+
+  ws["!rows"] = [{ hpt: 80 }] // altura del header
 
   const now = new Date()
   const date = now.toLocaleDateString("en-CA")
@@ -287,4 +321,3 @@ export function exportReporteVentasExcel(data: any[]) {
 
   XLSX.writeFile(wb, `reporte_ventas_${date}_${time}.xlsx`)
 }
-
