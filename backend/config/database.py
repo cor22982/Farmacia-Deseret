@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from bson import ObjectId
 
 # Variables de entorno
-MONGODB_URL = "mongodb+srv://usuarioDb:yi4TQe1KTxwzmJDf@cluster0.2jtwdjg.mongodb.net/"
+MONGODB_URL = os.getenv("MONGODB_URL","")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "farmacia")
 
 # Cliente MongoDB

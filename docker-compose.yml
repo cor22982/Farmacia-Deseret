@@ -31,7 +31,7 @@ services:
     container_name: backend
     restart: always
     environment:
-      MONGODB_URL: mongodb://${MONGO_ROOT_USERNAME:-admin}:${MONGO_ROOT_PASSWORD:-password123}@mongodb:27017
+      MONGODB_URL: ${MONGODB_URL}
       DATABASE_NAME: ${MONGO_DATABASE:-farmacia}
       BACKEND_PORT: ${BACKEND_PORT:-8000}
     ports:

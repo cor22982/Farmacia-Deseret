@@ -80,7 +80,8 @@ def first_business_monday(year: int, month: int) -> datetime:
 @router.post("/weekly-monthly")
 def sales_inventory_report(
     fecha_inicio: Optional[str] = Body(None, description="Fecha inicio (YYYY-MM-DD)"),
-    fecha_fin: Optional[str] = Body(None, description="Fecha fin (YYYY-MM-DD)")
+    fecha_fin: Optional[str] = Body(None, description="Fecha fin (YYYY-MM-DD)"),
+    proveedor: Optional[str] = Body(None, description="Proveedor"),
 ):
     """
     Reporte de ventas e inventario.
@@ -110,9 +111,18 @@ def sales_inventory_report(
     # 🗓️ Rango de la semana para ventas diarias (lunes_am, martes_pm, etc.)
     week_start, week_end = get_week_range(start_gt)
     
-    products = list(products_collection.find({
-        "supplier": {"$regex": "T.*FUERTE", "$options": "i"}
-    }).sort("name", 1))
+    filtro = {}
+    if proveedor and proveedor.strip() != "":
+        filtro["supplier"] = {
+            "$regex": proveedor,   # o f"T.*{proveedor}" si quieres lógica extra
+            "$options": "i"
+        }
+
+    products = list(
+        products_collection
+            .find(filtro)
+            .sort("name", 1)
+    )
     report = []
 
     # Semanas de negocio del mes (para el análisis semanal)

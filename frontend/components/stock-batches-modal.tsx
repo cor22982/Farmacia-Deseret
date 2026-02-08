@@ -131,7 +131,7 @@ export function StockBatchesModal({
                             <div className="text-xs text-muted-foreground uppercase font-medium mb-1">
                               Código Lote
                             </div>
-                            <div className="text-sm font-semibold">
+                            <div className="text-sm font-semibold truncate">
                               {batch.lot_code}
                             </div>
                           </div>
