@@ -7,8 +7,10 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { Trash2, Plus, Loader2 } from "lucide-react"
+import { Trash2, Plus, Loader2, ChevronDown, Check } from "lucide-react"
 import { useUpdate } from "@/hooks/use-Products"
+import { SUPPLIERS } from "@/lib/utils"
+
 
 interface InventoryFormModalProps {
   product: Product | null
@@ -29,6 +31,10 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
     image_url: "/pharmacy-product.jpg",
     presentations: [],
   })
+  const [isOpen, setIsOpen] = useState(false);
+
+
+
   
 
   useEffect(() => {
@@ -199,11 +205,43 @@ export function InventoryFormModal({ product, open, onOpenChange, onSave }: Inve
 
               <div className="space-y-2">
                 <Label htmlFor="supplier">Proveedor</Label>
-                <Input
-                  id="supplier"
-                  value={formData.supplier}
-                  onChange={(e) => handleChange("supplier", e.target.value)}
-                />
+                  <div className="relative w-50">
+                                      <button
+                                        onClick={() => setIsOpen(!isOpen)}
+                                        className="w-full px-3 py-2 text-left bg-white border rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 flex items-center justify-between"
+                                      >
+                                        <span className={!formData.supplier ? "text-gray-400" : ""}>
+                                          {SUPPLIERS.find(s => s.value === formData.supplier)?.label || "Filtrar por proveedor"}
+                                        </span>
+                                        <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? "rotate-180" : ""}`} />
+                                      </button>
+                
+                                      {isOpen && (
+                                        <>
+                                          <div className="fixed inset-0 z-10" onClick={() => setIsOpen(false)} />
+                                          <div className="absolute z-20 w-full mt-1 bg-white border rounded-md shadow-lg max-h-60 overflow-auto">
+                                            <button
+                                              onClick={() => {  handleChange("supplier",""); setIsOpen(false); }}
+                                              className="w-full px-3 py-2 text-left text-sm hover:bg-gray-100 flex items-center justify-between"
+                                            >
+                                              Todos los proveedores
+                                              {!formData.supplier && <Check className="w-4 h-4" />}
+                                            </button>
+                                            {SUPPLIERS.map((supplier) => (
+                                              <button
+                                                key={supplier.value}
+                                                onClick={() => { handleChange("supplier",supplier.value); setIsOpen(false); }}
+                                                className="w-full px-3 py-2 text-left text-sm hover:bg-gray-100 flex items-center justify-between"
+                                              >
+                                                {supplier.label}
+                                                {formData.supplier === supplier.value && <Check className="w-4 h-4" />}
+                                              </button>
+                                            ))}
+                                          </div>
+                                        </>
+                                      )}
+                                    </div>
+             
               </div>
 
               <div className="md:col-span-2 space-y-2">
