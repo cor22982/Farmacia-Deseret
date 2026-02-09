@@ -163,6 +163,11 @@ export function getCurrentWeekDates() {
     end: format(saturday),
   };
 }
+export const SUPPLIERS = [
+  { label: "T FUERTE", value: "T FUERTE" },
+  { label: "BENDICIÓN", value: "BENDICION" },
+  { label: "BYF", value: "BYF" },
+];
 
 
 export function exportReporteVentasExcel(

@@ -10,6 +10,7 @@ import { usePost, useFetch } from "@/hooks/use-Products"
 import { exportReporteVentasExcel } from "@/lib/utils"
 import { Loader2 } from "lucide-react"
 import { getCurrentWeekDates } from "@/lib/utils"
+import { SUPPLIERS } from "@/lib/utils"
 
 // @ts-ignore
 import * as XLSX from "xlsx"
@@ -22,6 +23,9 @@ interface SalesReportProps {
 export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
   const [startDate, setStartDate] = useState("")
   const [endDate, setEndDate] = useState("")
+  const [selectedSupplier, setSelectedSupplier] = useState("");
+
+
   const [loadingExcelSales, setLoadingExcelSales] = useState(false);
 
   const {
@@ -70,7 +74,8 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
       try{
         const respuesta  = await post({
           fecha_inicio:startDate,
-          fecha_fin: endDate
+          fecha_fin: endDate,
+          proveedor: selectedSupplier
         });
         exportReporteVentasExcel(respuesta, startDate)
         console.log(respuesta)
@@ -143,33 +148,49 @@ export function SalesReport({ sales = [], products = [] }: SalesReportProps) {
   return (
     <div className="space-y-6">
       <Card>
-        <CardHeader>
-          <CardTitle>Filtrar por Rango de Fechas</CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <label className="text-sm font-medium">Fecha Inicial</label>
-              <Input type="date" value={startDate} onChange={(e) => setStartDate(e.target.value)} className="mt-1" />
-            </div>
-            <div>
-              <label className="text-sm font-medium">Fecha Final</label>
-              <Input type="date" value={endDate} onChange={(e) => setEndDate(e.target.value)} className="mt-1" />
-            </div>
-          </div>
-          <Button 
-            //onClick={handleExportReport} 
-            onClick={generateFileReport}
-            className="gap-2 w-full md:w-auto cursor-pointer">
-            {loadingExcelSales ? (
-                                            <Loader2 className="w-4 h-4 animate-spin" />
-                                          ) : (
-                                           <Download className="w-4 h-4" />
-                                          )}
-            Exportar Reporte como Excel
-          </Button>
-        </CardContent>
-      </Card>
+  <CardHeader>
+    <CardTitle>Filtrar por Rango de Fechas</CardTitle>
+  </CardHeader>
+  <CardContent className="space-y-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <label className="text-sm font-medium">Fecha Inicial</label>
+        <Input type="date" value={startDate} onChange={(e) => setStartDate(e.target.value)} className="mt-1" />
+      </div>
+      <div>
+        <label className="text-sm font-medium">Fecha Final</label>
+        <Input type="date" value={endDate} onChange={(e) => setEndDate(e.target.value)} className="mt-1" />
+      </div>
+    </div>
+    
+    <div>
+      <label className="text-sm font-medium">Proveedor</label>
+      <select 
+        value={selectedSupplier} 
+        onChange={(e) => setSelectedSupplier(e.target.value)}
+        className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+      >
+        <option value="">Todos los proveedores</option>
+        {SUPPLIERS.map((supplier) => (
+          <option key={supplier.value} value={supplier.value}>
+            {supplier.label}
+          </option>
+        ))}
+      </select>
+    </div>
+
+    <Button 
+      onClick={generateFileReport}
+      className="gap-2 w-full md:w-auto cursor-pointer">
+      {loadingExcelSales ? (
+        <Loader2 className="w-4 h-4 animate-spin" />
+      ) : (
+        <Download className="w-4 h-4" />
+      )}
+      Exportar Reporte como Excel
+    </Button>
+  </CardContent>
+</Card>
      <Card>
   <CardHeader className="pb-2">
     <CardTitle className="text-sm font-medium text-muted-foreground">

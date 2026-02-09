@@ -19,6 +19,8 @@ import { useFetch } from "@/hooks/use-Products"
 import { usePost } from "@/hooks/use-Products"
 import { exportInventarioToExcel } from "@/lib/utils"
 import { useDelete } from "@/hooks/use-Products"
+import { Search, X,  ChevronDown, Check  } from "lucide-react"
+import { SUPPLIERS } from "@/lib/utils"
 
 
 export default function AdminDashboard() {
@@ -41,6 +43,10 @@ export default function AdminDashboard() {
   const [showStockBatchesModal, setShowStockBatchesModal] = useState(false)
   const [selectedProductForBatches, setSelectedProductForBatches] = useState<Product | null>(null)
   const [loadingExcelInvt, setLoadingExcelInvt] = useState(false);
+  const [suplierFilter, setSupplierFilter] = useState("")
+
+  const [isOpen, setIsOpen] = useState(false);
+
 
   const { remove, loading } = useDelete();
 
@@ -84,9 +90,15 @@ export default function AdminDashboard() {
     }
   }, [inventarios])
 
-  const filteredProducts = products.filter(
-    (p) => p.name.toLowerCase().includes(searchTerm.toLowerCase()) || p._id.includes(searchTerm),
-  )
+  const filteredProducts = products.filter((p) => {
+  const matchesSearch = 
+    p.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+    p._id.includes(searchTerm);
+  
+  const matchesSupplier = !suplierFilter || p.supplier === suplierFilter;
+  
+  return matchesSearch && matchesSupplier;
+});
 
   const filteredBatches = batches.filter((b) => {
     const product = products.find((p) => p._id === b.product_id)
@@ -197,7 +209,11 @@ export default function AdminDashboard() {
   const generateFileReport = async() => {
     setLoadingExcelInvt(true)
     try{
-      const respuesta  = await post({});
+      const body = suplierFilter && suplierFilter.trim() !== ""
+    ? { proveedor: suplierFilter }
+    : { proveedor: null };  // 👈 Envía null en lugar de objeto vacío
+  
+       const respuesta = await post(body);
       exportInventarioToExcel(respuesta)
       console.log(respuesta)
     }catch (err) {
@@ -299,12 +315,63 @@ export default function AdminDashboard() {
             {inventoryMode === "products" && (
               <div className="space-y-6">
                 <div className="flex justify-between items-center gap-4">
-                  <Input
-                    placeholder="Buscar productos por nombre o ID..."
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    className="max-w-md"
-                  />
+                  <div className="relative max-w-md">
+                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+                    <Input
+                      placeholder="Buscar productos por nombre o ID..."
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                      className="pl-10 pr-10"
+                    />
+                    {searchTerm && (
+                      <button
+                        onClick={() => setSearchTerm("")}
+                        className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                      >
+                        <X className="w-4 h-4" />
+                      </button>
+                    )}
+
+                    
+
+
+                  </div>
+                    <div className="relative w-64">
+                      <button
+                        onClick={() => setIsOpen(!isOpen)}
+                        className="w-full px-3 py-2 text-left bg-white border rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 flex items-center justify-between"
+                      >
+                        <span className={!suplierFilter ? "text-gray-400" : ""}>
+                          {SUPPLIERS.find(s => s.value === suplierFilter)?.label || "Filtrar por proveedor"}
+                        </span>
+                        <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? "rotate-180" : ""}`} />
+                      </button>
+
+                      {isOpen && (
+                        <>
+                          <div className="fixed inset-0 z-10" onClick={() => setIsOpen(false)} />
+                          <div className="absolute z-20 w-full mt-1 bg-white border rounded-md shadow-lg max-h-60 overflow-auto">
+                            <button
+                              onClick={() => { setSupplierFilter(""); setIsOpen(false); }}
+                              className="w-full px-3 py-2 text-left text-sm hover:bg-gray-100 flex items-center justify-between"
+                            >
+                              Todos los proveedores
+                              {!suplierFilter && <Check className="w-4 h-4" />}
+                            </button>
+                            {SUPPLIERS.map((supplier) => (
+                              <button
+                                key={supplier.value}
+                                onClick={() => { setSupplierFilter(supplier.value); setIsOpen(false); }}
+                                className="w-full px-3 py-2 text-left text-sm hover:bg-gray-100 flex items-center justify-between"
+                              >
+                                {supplier.label}
+                                {suplierFilter === supplier.value && <Check className="w-4 h-4" />}
+                              </button>
+                            ))}
+                          </div>
+                        </>
+                      )}
+                    </div>
                   <div className="flex gap-2">
                     <Button
                       className="cursor-pointer" 

@@ -4,8 +4,11 @@ from config.database import products_collection, stock_batches_collection, sales
 from utils.helpers import to_datetime, format_date
 from zoneinfo import ZoneInfo
 from typing import Optional
+from pydantic import BaseModel
 
-
+class InventoryReportRequest(BaseModel):
+    proveedor: Optional[str] = None
+    
 router = APIRouter(prefix="/reports", tags=["Reports"])
 
 
@@ -281,9 +284,19 @@ def sales_inventory_report(
 
 
 @router.post("/inventario")
-def inventory_report():
-
-    products = list(products_collection.find())
+def inventory_report(
+    request: InventoryReportRequest
+):
+    proveedor = request.proveedor
+    
+    filtro = {}
+    if proveedor and proveedor.strip() != "":
+        filtro["supplier"] = {
+            "$regex": proveedor,
+            "$options": "i"
+        }
+    
+    products = list(products_collection.find(filtro).sort("name", 1))
     report = []
 
     for product in products:
