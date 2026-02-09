@@ -1,0 +1,3148 @@
+[
+  {
+    "_id": "batch-aceite_de_recino_1_onz_lasana-2026-1",
+    "product_id": "aceite_de_recino_1_onz_lasana",
+    "lot_code": "LOT-C266DB0384",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 6.85,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:16.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:16.000Z"
+    }
+  },
+  {
+    "_id": "batch-acetona__pura_2_onz_lasana-2026-2",
+    "product_id": "acetona__pura_2_onz_lasana",
+    "lot_code": "LOT-9E95E277D7",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 5.1,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:18.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:18.000Z"
+    }
+  },
+  {
+    "_id": "batch-aciclovir_400_mg5ml__fco_100_ml_caplin-2026-3",
+    "product_id": "aciclovir_400_mg5ml__fco_100_ml_caplin",
+    "lot_code": "LOT-FD59C46523",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 19.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:20.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:20.000Z"
+    }
+  },
+  {
+    "_id": "batch-acido_acetilsalicilico_100_mg_blister_x_10_caja_x_100-2026-4",
+    "product_id": "acido_acetilsalicilico_100_mg_blister_x_10_caja_x_100",
+    "lot_code": "LOT-DA18D3456E",
+    "expiration_date": {
+      "$date": "2028-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 0.8,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:22.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:22.000Z"
+    }
+  },
+  {
+    "_id": "batch-acido_borico_polvo_1_onz_bolsa_x_8-2026-5",
+    "product_id": "acido_borico_polvo_1_onz_bolsa_x_8",
+    "lot_code": "LOT-67F0E006D4",
+    "expiration_date": {
+      "$date": "2029-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 20,
+    "cost_per_unit": 1.81,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:24.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:24.000Z"
+    }
+  },
+  {
+    "_id": "batch-agua_cal_de_segunda_fco_60_ml-2026-6",
+    "product_id": "agua_cal_de_segunda_fco_60_ml",
+    "lot_code": "LOT-69D50CF9FB",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 6.6,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:27.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:27.000Z"
+    }
+  },
+  {
+    "_id": "batch-albendazol_400_mg_susp_fco_x_10_ml_caplin-2026-7",
+    "product_id": "albendazol_400_mg_susp_fco_x_10_ml_caplin",
+    "lot_code": "LOT-88BBE4AFFB",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 3.25,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:29.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:29.000Z"
+    }
+  },
+  {
+    "_id": "batch-albendazol_caja_x_2_tab_caplin_y_argus-2026-8",
+    "product_id": "albendazol_caja_x_2_tab_caplin_y_argus",
+    "lot_code": "LOT-D730AA0A26",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 1.2,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:31.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:31.000Z"
+    }
+  },
+  {
+    "_id": "batch-alcanfor_fco_x_100_cuadros-2026-9",
+    "product_id": "alcanfor_fco_x_100_cuadros",
+    "lot_code": "LOT-C3036D2E56",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 76,
+    "cost_per_unit": 0.6,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:33.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:33.000Z"
+    }
+  },
+  {
+    "_id": "batch-alcohol__elitico70_12_litro_vesa-2026-10",
+    "product_id": "alcohol__elitico70_12_litro_vesa",
+    "lot_code": "LOT-6E53AC32B8",
+    "expiration_date": {
+      "$date": "2027-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 10.3,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:35.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:35.000Z"
+    }
+  },
+  {
+    "_id": "batch-alcohol_alcanforado_120_ml_sante-2026-11",
+    "product_id": "alcohol_alcanforado_120_ml_sante",
+    "lot_code": "LOT-CC740BD404",
+    "expiration_date": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 4.55,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:38.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:38.000Z"
+    }
+  },
+  {
+    "_id": "batch-alcohol_etilico_vesa_70_1_litro-2026-12",
+    "product_id": "alcohol_etilico_vesa_70_1_litro",
+    "lot_code": "LOT-511C770F14",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 17.5,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:40.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:40.000Z"
+    }
+  },
+  {
+    "_id": "batch-alopurinol_300_mg_blister_x_10_caja_x_100-2026-13",
+    "product_id": "alopurinol_300_mg_blister_x_10_caja_x_100",
+    "lot_code": "LOT-A4FB4CAFBF",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 8,
+    "cost_per_unit": 3.0,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:45.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:45.000Z"
+    }
+  },
+  {
+    "_id": "batch-amlodipina_10_mg_blister_x_10_caja_x_100-2026-14",
+    "product_id": "amlodipina_10_mg_blister_x_10_caja_x_100",
+    "lot_code": "LOT-A0DEF08C92",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 14,
+    "cost_per_unit": 2.4,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:47.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:47.000Z"
+    }
+  },
+  {
+    "_id": "batch-amlodipina_5_mg_blister_x_10_caja_x_100-2026-15",
+    "product_id": "amlodipina_5_mg_blister_x_10_caja_x_100",
+    "lot_code": "LOT-BB2F0AD229",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 11,
+    "cost_per_unit": 1.9,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:50.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:50.000Z"
+    }
+  },
+  {
+    "_id": "batch-amoxicilina_500_mg_blist_x_10_caja_x_100_argus_o_caplin-2026-16",
+    "product_id": "amoxicilina_500_mg_blist_x_10_caja_x_100_argus_o_caplin",
+    "lot_code": "LOT-DC670500A3",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 18,
+    "cost_per_unit": 2.9,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:52.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:52.000Z"
+    }
+  },
+  {
+    "_id": "batch-ampicilina_500_mg_blister_x_10_caja_x__100-2026-17",
+    "product_id": "ampicilina_500_mg_blister_x_10_caja_x__100",
+    "lot_code": "LOT-B7EEB580B8",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 4.63,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:54.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:54.000Z"
+    }
+  },
+  {
+    "_id": "batch-antigripito_infanil_jbe_60_ml-2026-18",
+    "product_id": "antigripito_infanil_jbe_60_ml",
+    "lot_code": "LOT-C7DD722CD7",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 16.6,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:56.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:56.000Z"
+    }
+  },
+  {
+    "_id": "batch-atenolol_100_mg_blist_x_a10_caja_x_100_argus_o_caplin-2026-19",
+    "product_id": "atenolol_100_mg_blist_x_a10_caja_x_100_argus_o_caplin",
+    "lot_code": "LOT-8081AD34EF",
+    "expiration_date": {
+      "$date": "2026-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "stock_units": 14,
+    "cost_per_unit": 1.7,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:26:58.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:26:58.000Z"
+    }
+  },
+  {
+    "_id": "batch-azitromicina_200_mgs_fco_x_30_ml_caplin-2026-20",
+    "product_id": "azitromicina_200_mgs_fco_x_30_ml_caplin",
+    "lot_code": "LOT-46652B5EEB",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-06-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 12.0,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:01.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:01.000Z"
+    }
+  },
+  {
+    "_id": "batch-azitromicina_500_mg_caja_x_3_tab-2026-21",
+    "product_id": "azitromicina_500_mg_caja_x_3_tab",
+    "lot_code": "LOT-C50987F6C5",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 9,
+    "cost_per_unit": 9.1,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:03.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:03.000Z"
+    }
+  },
+  {
+    "_id": "batch-benzoato_de_bencilo_fco_x_120_ml_selec-2026-22",
+    "product_id": "benzoato_de_bencilo_fco_x_120_ml_selec",
+    "lot_code": "LOT-0F018D0E99",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 10.8,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:06.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-bicarbonato_de_sodio_media_libra_disfavil-2026-23",
+    "product_id": "bicarbonato_de_sodio_media_libra_disfavil",
+    "lot_code": "LOT-80AA876103",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 4.4,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:08.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:08.000Z"
+    }
+  },
+  {
+    "_id": "batch-brazalete_repelente_para_niños_away_vesa-2026-24",
+    "product_id": "brazalete_repelente_para_niños_away_vesa",
+    "lot_code": "LOT-FAC2F1B591",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 5.75,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:10.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:10.000Z"
+    }
+  },
+  {
+    "_id": "batch-calcio__vitamina_d__blister_x_10_caja_x_100_selec-2026-25",
+    "product_id": "calcio__vitamina_d__blister_x_10_caja_x_100_selec",
+    "lot_code": "LOT-16DBD1B406",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 3.56,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:12.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:12.000Z"
+    }
+  },
+  {
+    "_id": "batch-carbamazepina_200_mg_blist_x_10_caja_x_100_selec-2026-26",
+    "product_id": "carbamazepina_200_mg_blist_x_10_caja_x_100_selec",
+    "lot_code": "LOT-4DDD7E1B6E",
+    "expiration_date": {
+      "$date": "2029-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 9,
+    "cost_per_unit": 5.0,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:14.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:14.000Z"
+    }
+  },
+  {
+    "_id": "batch-carbamazepina_200_mgs_blist_x_10_caja_x_100_caplin-2026-27",
+    "product_id": "carbamazepina_200_mgs_blist_x_10_caja_x_100_caplin",
+    "lot_code": "LOT-4442B7BA58",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 2.6,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:16.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:16.000Z"
+    }
+  },
+  {
+    "_id": "batch-cefixima_100mg5ml_x_fco_100_ml_shekinah-2026-28",
+    "product_id": "cefixima_100mg5ml_x_fco_100_ml_shekinah",
+    "lot_code": "LOT-D659B33AEA",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 19.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:18.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:18.000Z"
+    }
+  },
+  {
+    "_id": "batch-celecoxib_200_mgs_blist_x_10_caja_x_100_caplin-2026-29",
+    "product_id": "celecoxib_200_mgs_blist_x_10_caja_x_100_caplin",
+    "lot_code": "LOT-6FDF9D2886",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 11,
+    "cost_per_unit": 4.6,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:21.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:21.000Z"
+    }
+  },
+  {
+    "_id": "batch-cetirizina_10_mg_caja_x_10_tab_caplin-2026-30",
+    "product_id": "cetirizina_10_mg_caja_x_10_tab_caplin",
+    "lot_code": "LOT-E430D81EC9",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 30,
+    "cost_per_unit": 0.7,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:23.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:23.000Z"
+    }
+  },
+  {
+    "_id": "batch-ciprofloxacina_03__sol_oftalmicas__faco_x_5_ml_selec-2026-31",
+    "product_id": "ciprofloxacina_03__sol_oftalmicas__faco_x_5_ml_selec",
+    "lot_code": "LOT-7B4FF78017",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 17.55,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:25.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:25.000Z"
+    }
+  },
+  {
+    "_id": "batch-clopidrogel_75_mgs_blist_x_10_caja_x_100_abil_chempharma-2026-32",
+    "product_id": "clopidrogel_75_mgs_blist_x_10_caja_x_100_abil_chempharma",
+    "lot_code": "LOT-3E1E2AB677",
+    "expiration_date": {
+      "$date": "2028-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 8.32,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:26.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-clotrimazol_2__crema_vag_20_grs_selec-2026-33",
+    "product_id": "clotrimazol_2__crema_vag_20_grs_selec",
+    "lot_code": "LOT-DEFC2DE00B",
+    "expiration_date": {
+      "$date": "2029-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 9.75,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:28.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:28.000Z"
+    }
+  },
+  {
+    "_id": "batch-clotrimazol_2__crema_vag_30_grs_caplin-2026-34",
+    "product_id": "clotrimazol_2__crema_vag_30_grs_caplin",
+    "lot_code": "LOT-D2487CFC25",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 8.75,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:30.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:30.000Z"
+    }
+  },
+  {
+    "_id": "batch-clotriplex_pomada_latita_x__125_grs_caja_x_40-2026-35",
+    "product_id": "clotriplex_pomada_latita_x__125_grs_caja_x_40",
+    "lot_code": "LOT-34BD7684F6",
+    "expiration_date": {
+      "$date": "2028-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 70,
+    "cost_per_unit": 5.94,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:32.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:32.000Z"
+    }
+  },
+  {
+    "_id": "batch-complejo_b_blister_x_10_caja_x_100_caplin-2026-36",
+    "product_id": "complejo_b_blister_x_10_caja_x_100_caplin",
+    "lot_code": "LOT-DD523BB49A",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-06-01T00:00:00.000Z"
+    },
+    "stock_units": 25,
+    "cost_per_unit": 0.75,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:34.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:34.000Z"
+    }
+  },
+  {
+    "_id": "batch-complejo_b_jarabe_caja_x_10_sobres_caplin-2026-37",
+    "product_id": "complejo_b_jarabe_caja_x_10_sobres_caplin",
+    "lot_code": "LOT-D14379480F",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 22.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:36.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:36.000Z"
+    }
+  },
+  {
+    "_id": "batch-crema_lassar_bb_cool_120_grs-2026-38",
+    "product_id": "crema_lassar_bb_cool_120_grs",
+    "lot_code": "LOT-FCDD740A59",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 13.45,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:39.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:39.000Z"
+    }
+  },
+  {
+    "_id": "batch-cuesiigermina_caja_x_10_amp_pharmav-2026-39",
+    "product_id": "cuesiigermina_caja_x_10_amp_pharmav",
+    "lot_code": "LOT-0C8F8CB1D2",
+    "expiration_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 13,
+    "cost_per_unit": 5.62,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:41.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:41.000Z"
+    }
+  },
+  {
+    "_id": "batch-desloratadina_5_mg_blister_x_10_caja_x_100_caplin-2026-40",
+    "product_id": "desloratadina_5_mg_blister_x_10_caja_x_100_caplin",
+    "lot_code": "LOT-A7EC21E877",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 8,
+    "cost_per_unit": 2.78,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:43.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:43.000Z"
+    }
+  },
+  {
+    "_id": "batch-desloratadina_5_mg_blister_x_20_caja_x_100_selec-2026-41",
+    "product_id": "desloratadina_5_mg_blister_x_20_caja_x_100_selec",
+    "lot_code": "LOT-66147B5CE9",
+    "expiration_date": {
+      "$date": "2028-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 4.39,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:45.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:45.000Z"
+    }
+  },
+  {
+    "_id": "batch-deslortadina_jarabe_fco_x_60_ml_selec-2026-42",
+    "product_id": "deslortadina_jarabe_fco_x_60_ml_selec",
+    "lot_code": "LOT-F7795CB846",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 22.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:47.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:47.000Z"
+    }
+  },
+  {
+    "_id": "batch-dexametasona_blist_x_10_caja_x_100_caplin-2026-43",
+    "product_id": "dexametasona_blist_x_10_caja_x_100_caplin",
+    "lot_code": "LOT-9800ECDF48",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 4.0,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:49.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:49.000Z"
+    }
+  },
+  {
+    "_id": "batch-dexasel_05_mg_blistr_x_20_selec_dexametasona-2026-44",
+    "product_id": "dexasel_05_mg_blistr_x_20_selec_dexametasona",
+    "lot_code": "LOT-2E85B062C8",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 123,
+    "cost_per_unit": 0.42,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:51.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:51.000Z"
+    }
+  },
+  {
+    "_id": "batch-dextrometorfano__jbe_120_ml_selec-2026-45",
+    "product_id": "dextrometorfano__jbe_120_ml_selec",
+    "lot_code": "LOT-EA92AC4A14",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 9.85,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:53.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:53.000Z"
+    }
+  },
+  {
+    "_id": "batch-diclocien_100_mgs_gel_caps_blist_x_10_caja_x_100-2026-46",
+    "product_id": "diclocien_100_mgs_gel_caps_blist_x_10_caja_x_100",
+    "lot_code": "LOT-3FD98FB658",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 4.4,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:55.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:55.000Z"
+    }
+  },
+  {
+    "_id": "batch-diclofenaco_100_mgs_sod_gel_caps_blist_x_10_caja_x_100_ar-2026-47",
+    "product_id": "diclofenaco_100_mgs_sod_gel_caps_blist_x_10_caja_x_100_ar",
+    "lot_code": "LOT-6D28853D0C",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-06-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 0.43,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:57.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:57.000Z"
+    }
+  },
+  {
+    "_id": "batch-diclofenaco_pot_50_mg_blist_x_10_caja_x_100_azul-2026-48",
+    "product_id": "diclofenaco_pot_50_mg_blist_x_10_caja_x_100_azul",
+    "lot_code": "LOT-0550F5D160",
+    "expiration_date": {
+      "$date": "2027-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 13,
+    "cost_per_unit": 0.75,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:27:59.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:27:59.000Z"
+    }
+  },
+  {
+    "_id": "batch-dicloxacilina_500_mg_blister_x_10_caplin_caja_x_100-2026-49",
+    "product_id": "dicloxacilina_500_mg_blister_x_10_caplin_caja_x_100",
+    "lot_code": "LOT-B974FC3C8F",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 11,
+    "cost_per_unit": 8.35,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:01.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:01.000Z"
+    }
+  },
+  {
+    "_id": "batch-dipirona_ampolla_2_ml_caplin-2026-50",
+    "product_id": "dipirona_ampolla_2_ml_caplin",
+    "lot_code": "LOT-DCD7C9243E",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 1.75,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:03.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:03.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolfix_100_mgs_caps_granu_blist_x_10_caja_x_100-2026-51",
+    "product_id": "dolfix_100_mgs_caps_granu_blist_x_10_caja_x_100",
+    "lot_code": "LOT-4F88CFEFBA",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 12,
+    "cost_per_unit": 6.5,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:05.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:05.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolfix_100_mgs_gel_caps_blist_x_10_caja_x_20-2026-52",
+    "product_id": "dolfix_100_mgs_gel_caps_blist_x_10_caja_x_20",
+    "lot_code": "LOT-C9B42FB34F",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 6.75,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:07.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:07.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolodent_sante_18_ml_caja_x_12_unidades-2026-53",
+    "product_id": "dolodent_sante_18_ml_caja_x_12_unidades",
+    "lot_code": "LOT-DC159ECE87",
+    "expiration_date": {
+      "$date": "2026-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-06-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 4.04,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:09.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:09.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolonervisel__kit-2026-54",
+    "product_id": "dolonervisel__kit",
+    "lot_code": "LOT-D36A7D76E4",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 10.71,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:11.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:11.000Z"
+    }
+  },
+  {
+    "_id": "batch-doxiciclina_100_mgs_caja_x_100_blist_x_10_caplin-2026-55",
+    "product_id": "doxiciclina_100_mgs_caja_x_100_blist_x_10_caplin",
+    "lot_code": "LOT-8D75BC137F",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 3.4,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:13.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:13.000Z"
+    }
+  },
+  {
+    "_id": "batch-dropadex_25_mgs_gel_caps_blist_x_10_caja_x_10-2026-56",
+    "product_id": "dropadex_25_mgs_gel_caps_blist_x_10_caja_x_10",
+    "lot_code": "LOT-CFB6FAAC9B",
+    "expiration_date": {
+      "$date": "2026-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 28,
+    "cost_per_unit": 2.1,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:16.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:16.000Z"
+    }
+  },
+  {
+    "_id": "batch-dropadex_duo_blist_x_10_caja_x_10-2026-57",
+    "product_id": "dropadex_duo_blist_x_10_caja_x_10",
+    "lot_code": "LOT-881C2D77F5",
+    "expiration_date": {
+      "$date": "2028-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 41,
+    "cost_per_unit": 2.5,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:17.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:17.000Z"
+    }
+  },
+  {
+    "_id": "batch-enzitrol_blist_x_10_caja_x_100-2026-58",
+    "product_id": "enzitrol_blist_x_10_caja_x_100",
+    "lot_code": "LOT-F62EA59307",
+    "expiration_date": {
+      "$date": "2028-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 9,
+    "cost_per_unit": 7.92,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:19.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:19.000Z"
+    }
+  },
+  {
+    "_id": "batch-esomeprazol_40_mg_blist_x_10_caja_x_100_washington-2026-59",
+    "product_id": "esomeprazol_40_mg_blist_x_10_caja_x_100_washington",
+    "lot_code": "LOT-2855CB91A1",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 11.5,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:22.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:22.000Z"
+    }
+  },
+  {
+    "_id": "batch-etoricoxib_90_mg_caja_x_10_tab_caplin-2026-60",
+    "product_id": "etoricoxib_90_mg_caja_x_10_tab_caplin",
+    "lot_code": "LOT-A5B6A45A07",
+    "expiration_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 12,
+    "cost_per_unit": 5.0,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:27.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:27.000Z"
+    }
+  },
+  {
+    "_id": "batch-ex__flu_multisintomas_120_ml-2026-61",
+    "product_id": "ex__flu_multisintomas_120_ml",
+    "lot_code": "LOT-2AE9457EB9",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 11.65,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:29.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:29.000Z"
+    }
+  },
+  {
+    "_id": "batch-ex__flu_sinus_120_ml_adulto-2026-62",
+    "product_id": "ex__flu_sinus_120_ml_adulto",
+    "lot_code": "LOT-BB6B290727",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 18.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:31.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:31.000Z"
+    }
+  },
+  {
+    "_id": "batch-ex__flu_tos_120_ml-2026-63",
+    "product_id": "ex__flu_tos_120_ml",
+    "lot_code": "LOT-FEB5A840AC",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 23.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:33.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:33.000Z"
+    }
+  },
+  {
+    "_id": "batch-fexadrildexclobetam_jbe_120_ml_winzer-2026-64",
+    "product_id": "fexadrildexclobetam_jbe_120_ml_winzer",
+    "lot_code": "LOT-2C3D0FF475",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 59.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:36.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:36.000Z"
+    }
+  },
+  {
+    "_id": "batch-fluconazol_150_mg_caja_x_2_caps_caplin-2026-65",
+    "product_id": "fluconazol_150_mg_caja_x_2_caps_caplin",
+    "lot_code": "LOT-A3570294E6",
+    "expiration_date": {
+      "$date": "2028-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 2.16,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:37.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:37.000Z"
+    }
+  },
+  {
+    "_id": "batch-fosfolip_esenc_dr_kendal_caja_x_30_blist_x_10-2026-66",
+    "product_id": "fosfolip_esenc_dr_kendal_caja_x_30_blist_x_10",
+    "lot_code": "LOT-AD17DBB547",
+    "expiration_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 14,
+    "cost_per_unit": 9.08,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:39.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:39.000Z"
+    }
+  },
+  {
+    "_id": "batch-gabapentina_400_mg_blist_x_10__caja_x_100_argus-2026-67",
+    "product_id": "gabapentina_400_mg_blist_x_10__caja_x_100_argus",
+    "lot_code": "LOT-0909CBC4A3",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 105,
+    "cost_per_unit": 1.42,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:41.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:41.000Z"
+    }
+  },
+  {
+    "_id": "batch-gastropral_blist_x_10_caja_x_100-2026-68",
+    "product_id": "gastropral_blist_x_10_caja_x_100",
+    "lot_code": "LOT-30F2A34F4F",
+    "expiration_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 8,
+    "cost_per_unit": 5.9,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:44.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:44.000Z"
+    }
+  },
+  {
+    "_id": "batch-gencloben_crema_tubo_30_gms-2026-69",
+    "product_id": "gencloben_crema_tubo_30_gms",
+    "lot_code": "LOT-A0546D4D05",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 13.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:46.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:46.000Z"
+    }
+  },
+  {
+    "_id": "batch-geriatri_h3_cgins_rojo_gel_caps_blist_x_10_caja_x_30_cona-2026-70",
+    "product_id": "geriatri_h3_cgins_rojo_gel_caps_blist_x_10_caja_x_30_cona",
+    "lot_code": "LOT-6E4001F20F",
+    "expiration_date": {
+      "$date": "2027-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-10-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 5.86,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:47.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:47.000Z"
+    }
+  },
+  {
+    "_id": "batch-ginko_bilobag_blist_x_10_caja_x_50_gel_caps__conamep-2026-71",
+    "product_id": "ginko_bilobag_blist_x_10_caja_x_50_gel_caps__conamep",
+    "lot_code": "LOT-395EFEFB92",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 1.12,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:49.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:49.000Z"
+    }
+  },
+  {
+    "_id": "batch-ginseng_jalea_real_caja_x_10_ml_caplin-2026-72",
+    "product_id": "ginseng_jalea_real_caja_x_10_ml_caplin",
+    "lot_code": "LOT-746F95E8FC",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 18.8,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:51.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:51.000Z"
+    }
+  },
+  {
+    "_id": "batch-glicitos_jbe_fco_x_120_ml-2026-73",
+    "product_id": "glicitos_jbe_fco_x_120_ml",
+    "lot_code": "LOT-DF8C91C760",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 10.65,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:53.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:53.000Z"
+    }
+  },
+  {
+    "_id": "batch-gluxicam_sobre_caja_x_14_meloxicam__glucos-2026-74",
+    "product_id": "gluxicam_sobre_caja_x_14_meloxicam__glucos",
+    "lot_code": "LOT-DD18E9320B",
+    "expiration_date": {
+      "$date": "2027-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 5.34,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:56.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:56.000Z"
+    }
+  },
+  {
+    "_id": "batch-griin_vitamin_liquipack_sobre_caja_x_12-2026-75",
+    "product_id": "griin_vitamin_liquipack_sobre_caja_x_12",
+    "lot_code": "LOT-1173174C4A",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 44.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:28:58.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:28:58.000Z"
+    }
+  },
+  {
+    "_id": "batch-guayatos_fco_x_120_ml-2026-76",
+    "product_id": "guayatos_fco_x_120_ml",
+    "lot_code": "LOT-1F89147866",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 8.1,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:00.000Z"
+    }
+  },
+  {
+    "_id": "batch-hidroclorotiazida_50_mg_blist_x_10_caja_x_100_caplin-2026-77",
+    "product_id": "hidroclorotiazida_50_mg_blist_x_10_caja_x_100_caplin",
+    "lot_code": "LOT-D4AE847662",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 17,
+    "cost_per_unit": 2.5,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:02.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-histaprin_caja_x20_tab_blis_x10-2026-78",
+    "product_id": "histaprin_caja_x20_tab_blis_x10",
+    "lot_code": "LOT-F3AEC20C6D",
+    "expiration_date": {
+      "$date": "2028-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 16,
+    "cost_per_unit": 2.06,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:04.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:04.000Z"
+    }
+  },
+  {
+    "_id": "batch-ibuprofen_400_mgs_blister_x_10__caja_x_100_argus-2026-79",
+    "product_id": "ibuprofen_400_mgs_blister_x_10__caja_x_100_argus",
+    "lot_code": "LOT-323A6CD4E5",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 18,
+    "cost_per_unit": 1.84,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:07.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:07.000Z"
+    }
+  },
+  {
+    "_id": "batch-ibuprofen_600_mgs_blister_x_10_caja_x_100__argus-2026-80",
+    "product_id": "ibuprofen_600_mgs_blister_x_10_caja_x_100__argus",
+    "lot_code": "LOT-EE673AAEE8",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 16,
+    "cost_per_unit": 2.23,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:08.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:08.000Z"
+    }
+  },
+  {
+    "_id": "batch-ibuprofen_800_mgs_blister_x_10_caja_x_100_argus-2026-81",
+    "product_id": "ibuprofen_800_mgs_blister_x_10_caja_x_100_argus",
+    "lot_code": "LOT-98F51C9D40",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 12,
+    "cost_per_unit": 3.4,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:10.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:10.000Z"
+    }
+  },
+  {
+    "_id": "batch-ibuprofeno_800_gelcaps_argus_blist_x_10_caja_x_100-2026-82",
+    "product_id": "ibuprofeno_800_gelcaps_argus_blist_x_10_caja_x_100",
+    "lot_code": "LOT-055CCDC361",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 8.0,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:12.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:12.000Z"
+    }
+  },
+  {
+    "_id": "batch-ibuwin_400_gel_caps_blist_x_10__caja_x_50-2026-83",
+    "product_id": "ibuwin_400_gel_caps_blist_x_10__caja_x_50",
+    "lot_code": "LOT-1EBB507CE9",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 30,
+    "cost_per_unit": 0.47,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:14.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:14.000Z"
+    }
+  },
+  {
+    "_id": "batch-ibuwin_600_gel_caps_blist_x_10_caja_x_100-2026-84",
+    "product_id": "ibuwin_600_gel_caps_blist_x_10_caja_x_100",
+    "lot_code": "LOT-847035A1BB",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 150,
+    "cost_per_unit": 0.78,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:16.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:16.000Z"
+    }
+  },
+  {
+    "_id": "batch-ibuwin_forte__gel_caps_blist_x_10__caja_x_100-2026-85",
+    "product_id": "ibuwin_forte__gel_caps_blist_x_10__caja_x_100",
+    "lot_code": "LOT-72FBF8E5C8",
+    "expiration_date": {
+      "$date": "2027-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 20,
+    "cost_per_unit": 10.28,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:18.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:18.000Z"
+    }
+  },
+  {
+    "_id": "batch-jeringa_10_ml_22_x_1_12_caja_x_100-2026-86",
+    "product_id": "jeringa_10_ml_22_x_1_12_caja_x_100",
+    "lot_code": "LOT-3AF3E7A9C4",
+    "expiration_date": {
+      "$date": "2029-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 57,
+    "cost_per_unit": 0.6,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:20.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:20.000Z"
+    }
+  },
+  {
+    "_id": "batch-jeringa_3_ml_22_x1_12_sum_shin_caja_x_100-2026-87",
+    "product_id": "jeringa_3_ml_22_x1_12_sum_shin_caja_x_100",
+    "lot_code": "LOT-996A075EEC",
+    "expiration_date": {
+      "$date": "2028-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 46,
+    "cost_per_unit": 0.36,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:22.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:22.000Z"
+    }
+  },
+  {
+    "_id": "batch-jeringa_3_ml_23_x_1_14_therfam_caja_x_100-2026-88",
+    "product_id": "jeringa_3_ml_23_x_1_14_therfam_caja_x_100",
+    "lot_code": "LOT-D29564CB85",
+    "expiration_date": {
+      "$date": "2029-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-11-01T00:00:00.000Z"
+    },
+    "stock_units": 111,
+    "cost_per_unit": 0.34,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:24.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:24.000Z"
+    }
+  },
+  {
+    "_id": "batch-jeringa_3ml_23x1_112_difasa_caja_x_100-2026-89",
+    "product_id": "jeringa_3ml_23x1_112_difasa_caja_x_100",
+    "lot_code": "LOT-FDD81A474B",
+    "expiration_date": {
+      "$date": "2028-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-11-01T00:00:00.000Z"
+    },
+    "stock_units": 36,
+    "cost_per_unit": 0.4,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:26.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-jeringa_5_ml_22_x_1_12_caja_x_100-2026-90",
+    "product_id": "jeringa_5_ml_22_x_1_12_caja_x_100",
+    "lot_code": "LOT-DB4B83F0E4",
+    "expiration_date": {
+      "$date": "2030-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 49,
+    "cost_per_unit": 0.36,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:28.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:28.000Z"
+    }
+  },
+  {
+    "_id": "batch-ketoconazol_crema_15_gm_argus_caplin-2026-91",
+    "product_id": "ketoconazol_crema_15_gm_argus_caplin",
+    "lot_code": "LOT-618065DA7B",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 4.5,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:30.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:30.000Z"
+    }
+  },
+  {
+    "_id": "batch-ketorolaco_20_mg_blist_x_10_caja_x_50-2026-92",
+    "product_id": "ketorolaco_20_mg_blist_x_10_caja_x_50",
+    "lot_code": "LOT-B40C07B812",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 125,
+    "cost_per_unit": 1.04,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:32.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:32.000Z"
+    }
+  },
+  {
+    "_id": "batch-klorprosin__clonispro__blist_x_10_caja_x_100-2026-93",
+    "product_id": "klorprosin__clonispro__blist_x_10_caja_x_100",
+    "lot_code": "LOT-38359DC3A2",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 107,
+    "cost_per_unit": 0.84,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:35.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:35.000Z"
+    }
+  },
+  {
+    "_id": "batch-klorprosin_kit_iny_x_unidad-2026-94",
+    "product_id": "klorprosin_kit_iny_x_unidad",
+    "lot_code": "LOT-27B89C0B46",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 13.75,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:36.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:36.000Z"
+    }
+  },
+  {
+    "_id": "batch-lansoprazol_30mg_blis_x_10_caja_x_100_argus-2026-95",
+    "product_id": "lansoprazol_30mg_blis_x_10_caja_x_100_argus",
+    "lot_code": "LOT-D8EACB42EC",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 16,
+    "cost_per_unit": 4.16,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:39.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:39.000Z"
+    }
+  },
+  {
+    "_id": "batch-levogastric_caja_x_30_blister_x_5-2026-96",
+    "product_id": "levogastric_caja_x_30_blister_x_5",
+    "lot_code": "LOT-DB2EE80553",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 8,
+    "cost_per_unit": 6.15,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:41.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:41.000Z"
+    }
+  },
+  {
+    "_id": "batch-licopodio_12_onz_cart_x_8_sobres-2026-97",
+    "product_id": "licopodio_12_onz_cart_x_8_sobres",
+    "lot_code": "LOT-68E77BB34B",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 3.38,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:43.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:43.000Z"
+    }
+  },
+  {
+    "_id": "batch-limopirinacaja_x_25_sobres_piersan-2026-98",
+    "product_id": "limopirinacaja_x_25_sobres_piersan",
+    "lot_code": "LOT-C70D355213",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 13,
+    "cost_per_unit": 1.12,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:45.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:45.000Z"
+    }
+  },
+  {
+    "_id": "batch-loratadina_10mg__blistx_10_tabs_caplin_caja_x_100-2026-99",
+    "product_id": "loratadina_10mg__blistx_10_tabs_caplin_caja_x_100",
+    "lot_code": "LOT-45216BC35B",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 17,
+    "cost_per_unit": 1.57,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:47.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:47.000Z"
+    }
+  },
+  {
+    "_id": "batch-loratadina_10mg_x_blis_x_20_caja_x_100_selec-2026-100",
+    "product_id": "loratadina_10mg_x_blis_x_20_caja_x_100_selec",
+    "lot_code": "LOT-713130EA08",
+    "expiration_date": {
+      "$date": "2029-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 14,
+    "cost_per_unit": 4.19,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:49.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:49.000Z"
+    }
+  },
+  {
+    "_id": "batch-loratadina_5_mg_jbe_selec-2026-101",
+    "product_id": "loratadina_5_mg_jbe_selec",
+    "lot_code": "LOT-D06D88BC85",
+    "expiration_date": {
+      "$date": "2028-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 9.25,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:50.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:50.000Z"
+    }
+  },
+  {
+    "_id": "batch-lubricante_vive_120_ml_natural-2026-102",
+    "product_id": "lubricante_vive_120_ml_natural",
+    "lot_code": "LOT-F4557379A3",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 25.35,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:52.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:52.000Z"
+    }
+  },
+  {
+    "_id": "batch-magnesio_live_vit_c_caja_x_18_sobres-2026-103",
+    "product_id": "magnesio_live_vit_c_caja_x_18_sobres",
+    "lot_code": "LOT-04267A7B60",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    },
+    "stock_units": 17,
+    "cost_per_unit": 8.35,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:54.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:54.000Z"
+    }
+  },
+  {
+    "_id": "batch-menoestrogen_blist_x_0_cap_caja_x_30-2026-104",
+    "product_id": "menoestrogen_blist_x_0_cap_caja_x_30",
+    "lot_code": "LOT-C81B2080B4",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 11.67,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:57.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:57.000Z"
+    }
+  },
+  {
+    "_id": "batch-metformina_1_gm_blist_x_10_caja_x_100_caplin-2026-105",
+    "product_id": "metformina_1_gm_blist_x_10_caja_x_100_caplin",
+    "lot_code": "LOT-ECE19242F5",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 6.0,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:29:59.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:29:59.000Z"
+    }
+  },
+  {
+    "_id": "batch-metformina_850_mg_blist_x_10_tab_infasa-2026-106",
+    "product_id": "metformina_850_mg_blist_x_10_tab_infasa",
+    "lot_code": "LOT-F4AD417B70",
+    "expiration_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 14,
+    "cost_per_unit": 3.92,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:01.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:01.000Z"
+    }
+  },
+  {
+    "_id": "batch-metocarbamol_blist_x_10_caja_x_100_caplin-2026-107",
+    "product_id": "metocarbamol_blist_x_10_caja_x_100_caplin",
+    "lot_code": "LOT-9616F2A3D8",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 9,
+    "cost_per_unit": 3.3,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:03.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:03.000Z"
+    }
+  },
+  {
+    "_id": "batch-metocarbamol_blist_x_10_caja_x_100_select-2026-108",
+    "product_id": "metocarbamol_blist_x_10_caja_x_100_select",
+    "lot_code": "LOT-B2969C65EA",
+    "expiration_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 11,
+    "cost_per_unit": 4.5,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:04.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:04.000Z"
+    }
+  },
+  {
+    "_id": "batch-montelukast_10_mg_cja_x_50_tab_washintong-2026-109",
+    "product_id": "montelukast_10_mg_cja_x_50_tab_washintong",
+    "lot_code": "LOT-5355A95684",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 40,
+    "cost_per_unit": 1.65,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:07.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:07.000Z"
+    }
+  },
+  {
+    "_id": "batch-nafasolina_025_de_15_ml-2026-110",
+    "product_id": "nafasolina_025_de_15_ml",
+    "lot_code": "LOT-59136442D5",
+    "expiration_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-08-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 10.51,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:09.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:09.000Z"
+    }
+  },
+  {
+    "_id": "batch-naproliv__naproxeno__550_mg_caja_x_50_blist_x_10-2026-111",
+    "product_id": "naproliv__naproxeno__550_mg_caja_x_50_blist_x_10",
+    "lot_code": "LOT-256EC9A77C",
+    "expiration_date": {
+      "$date": "2029-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 10.26,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:11.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:11.000Z"
+    }
+  },
+  {
+    "_id": "batch-naproxeno_550_mg_blist_x_10_caja_x_100_caplinargus-2026-112",
+    "product_id": "naproxeno_550_mg_blist_x_10_caja_x_100_caplinargus",
+    "lot_code": "LOT-53AA49D78A",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 9,
+    "cost_per_unit": 8.0,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:13.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:13.000Z"
+    }
+  },
+  {
+    "_id": "batch-nasolin_gotas_15_ml__mediprod-2026-113",
+    "product_id": "nasolin_gotas_15_ml__mediprod",
+    "lot_code": "LOT-C2A159F604",
+    "expiration_date": {
+      "$date": "2029-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 18.25,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:15.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:15.000Z"
+    }
+  },
+  {
+    "_id": "batch-neurotropas_gel_caps_caja_x_50_blist_x_10_conamep-2026-114",
+    "product_id": "neurotropas_gel_caps_caja_x_50_blist_x_10_conamep",
+    "lot_code": "LOT-099F77499D",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 45,
+    "cost_per_unit": 0.93,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:17.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:17.000Z"
+    }
+  },
+  {
+    "_id": "batch-nistatina_30ml_gotas_selec-2026-115",
+    "product_id": "nistatina_30ml_gotas_selec",
+    "lot_code": "LOT-819E90EF2A",
+    "expiration_date": {
+      "$date": "2028-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 9.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:20.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:20.000Z"
+    }
+  },
+  {
+    "_id": "batch-nistatina_crema_selec-2026-116",
+    "product_id": "nistatina_crema_selec",
+    "lot_code": "LOT-26BFD92ACB",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 10.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:22.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:22.000Z"
+    }
+  },
+  {
+    "_id": "batch-nistatina_suspension__30_ml_caplin-2026-117",
+    "product_id": "nistatina_suspension__30_ml_caplin",
+    "lot_code": "LOT-896C3F4D81",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 8.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:24.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:24.000Z"
+    }
+  },
+  {
+    "_id": "batch-nitasel_nitaxozanida_100mg5ml_sus_selec-2026-118",
+    "product_id": "nitasel_nitaxozanida_100mg5ml_sus_selec",
+    "lot_code": "LOT-0B1517C7A2",
+    "expiration_date": {
+      "$date": "2028-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 25.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:27.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:27.000Z"
+    }
+  },
+  {
+    "_id": "batch-nitasel_nitazoxanida_500mg_x6tab_select-2026-119",
+    "product_id": "nitasel_nitazoxanida_500mg_x6tab_select",
+    "lot_code": "LOT-F01E1BA507",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 16.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:29.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:29.000Z"
+    }
+  },
+  {
+    "_id": "batch-olmersartan_20mg_blist_x_10_caja_x_30_caplin-2026-120",
+    "product_id": "olmersartan_20mg_blist_x_10_caja_x_30_caplin",
+    "lot_code": "LOT-8EDFBD55BC",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 24.32,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:31.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:31.000Z"
+    }
+  },
+  {
+    "_id": "batch-olmersartan_40mg__hidro_125mg_blist_x_10_caja_x_30_cap-2026-121",
+    "product_id": "olmersartan_40mg__hidro_125mg_blist_x_10_caja_x_30_cap",
+    "lot_code": "LOT-CD2291495A",
+    "expiration_date": {
+      "$date": "2026-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 38.32,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:35.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:35.000Z"
+    }
+  },
+  {
+    "_id": "batch-omeprazol_20_mg_blister_x_10_argus_caja_x_100-2026-122",
+    "product_id": "omeprazol_20_mg_blister_x_10_argus_caja_x_100",
+    "lot_code": "LOT-5E86DE6482",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 15,
+    "cost_per_unit": 2.1,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:37.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:37.000Z"
+    }
+  },
+  {
+    "_id": "batch-penetracina_3_crema_15_gr_mediprod-2026-123",
+    "product_id": "penetracina_3_crema_15_gr_mediprod",
+    "lot_code": "LOT-C1A8DD3EF6",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 29.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:40.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:40.000Z"
+    }
+  },
+  {
+    "_id": "batch-podofilina_25_x_5_ml_f_quimica-2026-124",
+    "product_id": "podofilina_25_x_5_ml_f_quimica",
+    "lot_code": "LOT-A3ED96FF31",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-06-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 35.85,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:42.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:42.000Z"
+    }
+  },
+  {
+    "_id": "batch-prednisona_50mg_blister_x_10_selec_caja_x_50-2026-125",
+    "product_id": "prednisona_50mg_blister_x_10_selec_caja_x_50",
+    "lot_code": "LOT-31D0350102",
+    "expiration_date": {
+      "$date": "2029-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 55,
+    "cost_per_unit": 1.88,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:44.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:44.000Z"
+    }
+  },
+  {
+    "_id": "batch-prenatales_plus_6_blis_x_5_caja_x_30_cap_conamep-2026-126",
+    "product_id": "prenatales_plus_6_blis_x_5_caja_x_30_cap_conamep",
+    "lot_code": "LOT-FA42108929",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 6.9,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:46.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:46.000Z"
+    }
+  },
+  {
+    "_id": "batch-prostaline_caja_x_30_blister_x_10_cap-2026-127",
+    "product_id": "prostaline_caja_x_30_blister_x_10_cap",
+    "lot_code": "LOT-8FD0738F96",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 12.33,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:48.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:48.000Z"
+    }
+  },
+  {
+    "_id": "batch-prudence_caja_x_3___menta_fresachocolateuva-2026-128",
+    "product_id": "prudence_caja_x_3___menta_fresachocolateuva",
+    "lot_code": "LOT-27BE9CC4FA",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-08-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 14.15,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:50.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:50.000Z"
+    }
+  },
+  {
+    "_id": "batch-prudence_retardante_sobre_x_3_perservativos-2026-129",
+    "product_id": "prudence_retardante_sobre_x_3_perservativos",
+    "lot_code": "LOT-89187AEBD6",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 20.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:52.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:52.000Z"
+    }
+  },
+  {
+    "_id": "batch-reakt_100mg5ml_susp_nitazoxanida_leven-2026-130",
+    "product_id": "reakt_100mg5ml_susp_nitazoxanida_leven",
+    "lot_code": "LOT-5A47FF8DDA",
+    "expiration_date": {
+      "$date": "2028-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 24.05,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:55.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:55.000Z"
+    }
+  },
+  {
+    "_id": "batch-relax_plus_caja_x_30_caps_blist_x_10_conamep-2026-131",
+    "product_id": "relax_plus_caja_x_30_caps_blist_x_10_conamep",
+    "lot_code": "LOT-A58F2D4FB8",
+    "expiration_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 84,
+    "cost_per_unit": 0.88,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:57.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:57.000Z"
+    }
+  },
+  {
+    "_id": "batch-rupatadina_10_mg_caja_x_10_tab_caplin-2026-132",
+    "product_id": "rupatadina_10_mg_caja_x_10_tab_caplin",
+    "lot_code": "LOT-A1F5B95BDF",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 7.2,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:30:59.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:30:59.000Z"
+    }
+  },
+  {
+    "_id": "batch-sal_inglesa_sobre_x_25_vesa-2026-133",
+    "product_id": "sal_inglesa_sobre_x_25_vesa",
+    "lot_code": "LOT-58AAF3C2EF",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 18,
+    "cost_per_unit": 0.33,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:01.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:01.000Z"
+    }
+  },
+  {
+    "_id": "batch-secnidazol_500_mg_x_4_tab_argus-2026-134",
+    "product_id": "secnidazol_500_mg_x_4_tab_argus",
+    "lot_code": "LOT-6F566E0346",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 3.54,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:03.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:03.000Z"
+    }
+  },
+  {
+    "_id": "batch-secnidazol_500_mg_x_4_tab_caplin-2026-135",
+    "product_id": "secnidazol_500_mg_x_4_tab_caplin",
+    "lot_code": "LOT-1FD018AC4A",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 4.17,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:05.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:05.000Z"
+    }
+  },
+  {
+    "_id": "batch-segura_plus-2026-136",
+    "product_id": "segura_plus",
+    "lot_code": "LOT-BE05C15CDE",
+    "expiration_date": {
+      "$date": "2029-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 13.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:07.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:07.000Z"
+    }
+  },
+  {
+    "_id": "batch-senosidos__caja_x_30_blist_x_10_conamep-2026-137",
+    "product_id": "senosidos__caja_x_30_blist_x_10_conamep",
+    "lot_code": "LOT-2E202467F7",
+    "expiration_date": {
+      "$date": "2027-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 13,
+    "cost_per_unit": 0.6,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:09.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:09.000Z"
+    }
+  },
+  {
+    "_id": "batch-sostengo_sildenafil_100mg_caja_x_24_sob_y_cajita_x_2_tab-2026-138",
+    "product_id": "sostengo_sildenafil_100mg_caja_x_24_sob_y_cajita_x_2_tab",
+    "lot_code": "LOT-A7B860BD1A",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 4.92,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:12.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:12.000Z"
+    }
+  },
+  {
+    "_id": "batch-spasmoclor_clordiabrom_de_clid_blisx_20_cja_x_100-2026-139",
+    "product_id": "spasmoclor_clordiabrom_de_clid_blisx_20_cja_x_100",
+    "lot_code": "LOT-2DF54DEEA6",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-07-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 0.94,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:14.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:14.000Z"
+    }
+  },
+  {
+    "_id": "batch-sport_gel_forte_30_grs-2026-140",
+    "product_id": "sport_gel_forte_30_grs",
+    "lot_code": "LOT-62431521DD",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 11.25,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:16.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:16.000Z"
+    }
+  },
+  {
+    "_id": "batch-sulfatiazol_1g_x_10_sobres_disfavil-2026-141",
+    "product_id": "sulfatiazol_1g_x_10_sobres_disfavil",
+    "lot_code": "LOT-819EF6A09D",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 11,
+    "cost_per_unit": 2.9,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:19.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:19.000Z"
+    }
+  },
+  {
+    "_id": "batch-sulfato_ferroso_350_mg_blist_x_10_selec-2026-142",
+    "product_id": "sulfato_ferroso_350_mg_blist_x_10_selec",
+    "lot_code": "LOT-4B18671214",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 1.62,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:21.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:21.000Z"
+    }
+  },
+  {
+    "_id": "batch-supositorios_acetaminf_300mg_caplin-2026-143",
+    "product_id": "supositorios_acetaminf_300mg_caplin",
+    "lot_code": "LOT-3226BAE221",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-06-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 1.26,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:23.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:23.000Z"
+    }
+  },
+  {
+    "_id": "batch-tapec_b_x_2_caplin-2026-144",
+    "product_id": "tapec_b_x_2_caplin",
+    "lot_code": "LOT-5C930C37E5",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 97,
+    "cost_per_unit": 0.3,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:25.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:25.000Z"
+    }
+  },
+  {
+    "_id": "batch-tetraciclina_500_mg_blister_x_10_caja_x_100-2026-145",
+    "product_id": "tetraciclina_500_mg_blister_x_10_caja_x_100",
+    "lot_code": "LOT-EAF68C8512",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 3.49,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:27.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:27.000Z"
+    }
+  },
+  {
+    "_id": "batch-trimetose_vijosa_120ml_jarabe-2026-146",
+    "product_id": "trimetose_vijosa_120ml_jarabe",
+    "lot_code": "LOT-ACD84BE9E9",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 21.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:29.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:29.000Z"
+    }
+  },
+  {
+    "_id": "batch-triple_c_fluid_caja_x_30_sobres_acetilpiridoxina_vit_c-2026-147",
+    "product_id": "triple_c_fluid_caja_x_30_sobres_acetilpiridoxina_vit_c",
+    "lot_code": "LOT-738A1B20EC",
+    "expiration_date": {
+      "$date": "2026-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-06-01T00:00:00.000Z"
+    },
+    "stock_units": 20,
+    "cost_per_unit": 8.3,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:31.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:31.000Z"
+    }
+  },
+  {
+    "_id": "batch-triple_c_forte_500_ml_natural_garden-2026-148",
+    "product_id": "triple_c_forte_500_ml_natural_garden",
+    "lot_code": "LOT-8F440CB6EE",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 79.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:33.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:33.000Z"
+    }
+  },
+  {
+    "_id": "batch-unal_anticocep_mens_inyec_piersan-2026-149",
+    "product_id": "unal_anticocep_mens_inyec_piersan",
+    "lot_code": "LOT-B7D2900E4A",
+    "expiration_date": {
+      "$date": "2028-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 19.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:36.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:36.000Z"
+    }
+  },
+  {
+    "_id": "batch-viro_grip_am_sobre_x_2_gel_cap_caja_x_24-2026-150",
+    "product_id": "viro_grip_am_sobre_x_2_gel_cap_caja_x_24",
+    "lot_code": "LOT-DD1D192A3D",
+    "expiration_date": {
+      "$date": "2026-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 33,
+    "cost_per_unit": 2.87,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:38.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:38.000Z"
+    }
+  },
+  {
+    "_id": "batch-viro_grip_pm_sobre_x_2_gel_cap_caja_x_24-2026-151",
+    "product_id": "viro_grip_pm_sobre_x_2_gel_cap_caja_x_24",
+    "lot_code": "LOT-0570F8E6CA",
+    "expiration_date": {
+      "$date": "2026-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 33,
+    "cost_per_unit": 2.87,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:40.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:40.000Z"
+    }
+  },
+  {
+    "_id": "batch-virogrip_nf_limon_polvo_am_x_24_sobres-2026-152",
+    "product_id": "virogrip_nf_limon_polvo_am_x_24_sobres",
+    "lot_code": "LOT-3380EA64A0",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 20,
+    "cost_per_unit": 3.05,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:42.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:42.000Z"
+    }
+  },
+  {
+    "_id": "batch-virogrip_nf_limon_polvo_pm_x_24_sobres-2026-153",
+    "product_id": "virogrip_nf_limon_polvo_pm_x_24_sobres",
+    "lot_code": "LOT-410C1FA196",
+    "expiration_date": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 20,
+    "cost_per_unit": 2.87,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:44.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:44.000Z"
+    }
+  },
+  {
+    "_id": "batch-vitamina_k_ampolla_selec-2026-154",
+    "product_id": "vitamina_k_ampolla_selec",
+    "lot_code": "LOT-F652490E80",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 4.3,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:47.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:47.000Z"
+    }
+  },
+  {
+    "_id": "batch-warfarina_5_mg_blist_x_10-2026-155",
+    "product_id": "warfarina_5_mg_blist_x_10",
+    "lot_code": "LOT-AC4FAC4BF0",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 12,
+    "cost_per_unit": 1.2,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:49.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:49.000Z"
+    }
+  },
+  {
+    "_id": "batch-zinc_15_mg_gel_blister_x_10__caja_x_50-2026-156",
+    "product_id": "zinc_15_mg_gel_blister_x_10__caja_x_50",
+    "lot_code": "LOT-210C80741C",
+    "expiration_date": {
+      "$date": "2028-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 4.15,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:51.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:51.000Z"
+    }
+  },
+  {
+    "_id": "batch-zinkvanz_zinc10mg5ml_jbe_120ml_seven-2026-157",
+    "product_id": "zinkvanz_zinc10mg5ml_jbe_120ml_seven",
+    "lot_code": "LOT-4F1A93CE01",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-06-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 48.45,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:53.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:53.000Z"
+    }
+  },
+  {
+    "_id": "batch-zorritone_jarabe_120_ml-2026-158",
+    "product_id": "zorritone_jarabe_120_ml",
+    "lot_code": "LOT-C424A17A16",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 20.95,
+    "location": "farmacia",
+    "created_at": {
+      "$date": "2026-02-09T07:31:56.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-02-09T07:31:56.000Z"
+    }
+  }
+]
