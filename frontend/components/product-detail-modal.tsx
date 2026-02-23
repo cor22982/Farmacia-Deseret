@@ -29,7 +29,9 @@ export function ProductDetailModal({
     error,
     refetch,
   } = useFetch<StockBatch[]>({
-    url: product?._id ? `/stock-batches/productid/${product._id}` : null,
+    url: open && product?._id 
+      ? `/stock-batches/productid/${product._id}` 
+      : null,
   });
   
   const [selectedPresentation, setSelectedPresentation] = useState(null)

@@ -13,23 +13,11 @@ interface ProductCardProps {
   onAddToCart: (product: Product) => void
 }
 
-export function ProductCard({ product, batches, onViewDetails, onAddToCart }: ProductCardProps) {
+export function ProductCard({ product, onViewDetails, onAddToCart }: ProductCardProps) {
   const lowestPrice = Math.min(...product.presentations.map((p) => p.price))
   const presentationTypes = product.presentations.map((p) => p.presentation_name).join(", ")
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const {
-    data: productBatches,
-    loading,
-    error,
-    refetch,
-    reset, // Agregar reset si tu hook lo tiene, o setData
-  } = useFetch<StockBatch[]>({
-    url: product?._id ? `/stock-batches/productid/${product._id}` : null,
-  });
 
-  const safeproductBatches = Array.isArray(productBatches) ? productBatches : []
-  
-  const totalStock = safeproductBatches.filter((b) => b.product_id === product._id).reduce((sum, b) => sum + b.stock_units, 0)
 
   return (
     <Card className="hover:shadow-lg transition-shadow overflow-hidden flex flex-col h-full">
@@ -54,10 +42,7 @@ export function ProductCard({ product, batches, onViewDetails, onAddToCart }: Pr
             <p className="text-xs text-muted-foreground">Presentaciones</p>
             <p className="text-sm font-medium line-clamp-1">{presentationTypes}</p>
           </div>
-          <div className="text-right">
-            <p className="text-xs text-muted-foreground">Stock</p>
-            <p className="text-sm font-medium">{totalStock} unidades</p>
-          </div>
+          
         </div>
 
         <div className="flex justify-between items-center mb-4 mt-auto">

@@ -11,7 +11,7 @@ const apiClient: AxiosInstance = axios.create({
   headers: {
     "Content-Type": "application/json",
   },
-  timeout: 10000,
+  timeout: 90000,
 });
 
 // ✅ REQUEST interceptor (TIPO CORRECTO)

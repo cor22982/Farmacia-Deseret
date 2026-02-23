@@ -21,7 +21,7 @@ def create_sale(sale: dict = Body(...)):
         raise HTTPException(status_code=400, detail=f"Error: {str(e)}")
 
 @router.get("")
-def get_sales(skip: int = 0, limit: int = 100, payment_method: str = None, shift: str = None):
+def get_sales(skip: int = 0, limit: int = 10000, payment_method: str = None, shift: str = None):
     """Obtener todas las ventas con filtros opcionales"""
     query = {}
     if payment_method:

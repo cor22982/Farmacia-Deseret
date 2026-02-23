@@ -24,11 +24,14 @@ def create_product(product: dict = Body(...)):
         raise HTTPException(status_code=400, detail=f"Error: {str(e)}")
 
 @router.get("")
-def get_products(skip: int = 0, limit: int = 100):
+def get_products(skip: int = 0, limit: int = 10000):
     """Obtener todos los productos"""
     products = list(products_collection.find().skip(skip).limit(limit))
     
     return serialize_list(products)
+
+
+
 
 @router.get("/search")
 def search_products(q: str):

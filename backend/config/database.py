@@ -27,5 +27,9 @@ def serialize_doc(doc):
     return doc
 
 def serialize_list(docs):
-    """Serializa lista de documentos"""
-    return [serialize_doc(doc) for doc in docs]
+    out = []
+    for doc in docs:
+       
+        res = serialize_doc(doc)
+        out.append(res)
+    return out
