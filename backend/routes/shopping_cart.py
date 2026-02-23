@@ -143,7 +143,7 @@ def create_cart(cart: dict = Body(...)):
             detail=f"Error al procesar la venta: {str(e)}"
         )
 @router.get("")
-def get_carts(skip: int = 0, limit: int = 1000, user_id: str = None):
+def get_carts(skip: int = 0, limit: int = 10000, user_id: str = None):
     """Obtener todos los carritos"""
     query = {}
     if user_id:
