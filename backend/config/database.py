@@ -1,6 +1,9 @@
 import os
 from pymongo import MongoClient
 from bson import ObjectId
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Variables de entorno
 MONGODB_URL = os.getenv("MONGODB_URL","")

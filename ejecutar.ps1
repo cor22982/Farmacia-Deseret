@@ -1,6 +1,5 @@
 Write-Host "Actualizar proyecto..."
 pm2 delete all
-git pull
 Write-Host "Levantando frontend..."
 cd .\frontend\
 npm install

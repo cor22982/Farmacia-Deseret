@@ -6,9 +6,24 @@ module.exports = {
       script: "./venv/Scripts/python.exe",
       args: `
         -c "
-import subprocess, sys
+import subprocess, sys, os
+from dotenv import load_dotenv
+
+load_dotenv()  # carga backend/.env
+
+host = os.getenv('HOST','')
+port = os.getenv('PORT','')
+
 subprocess.run([r'./venv/Scripts/pip.exe','install','-r','requirements.txt'])
-subprocess.run([sys.executable,'-m','uvicorn','main:app','--host','127.0.0.1','--port','8000','--reload'])
+
+subprocess.run([
+    sys.executable,
+    '-m','uvicorn',
+    'main:app',
+    '--host', host,
+    '--port', port,
+    '--reload'
+])
         "
       `,
       autorestart: true,
