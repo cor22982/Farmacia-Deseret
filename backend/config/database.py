@@ -2,6 +2,8 @@ import os
 from pymongo import MongoClient
 from bson import ObjectId
 from dotenv import load_dotenv
+from datetime import datetime
+
 
 load_dotenv()
 
@@ -22,11 +24,18 @@ shopping_cart_collection = db.shopping_cart
 
 # Funciones auxiliares
 def serialize_doc(doc):
-    """Convierte ObjectId a string para JSON"""
-    if doc is None:
-        return None
-    if "_id" in doc and isinstance(doc["_id"], ObjectId):
-        doc["_id"] = str(doc["_id"])
+    if isinstance(doc, ObjectId):
+        return str(doc)
+
+    if isinstance(doc, datetime):
+        return doc.isoformat()
+
+    if isinstance(doc, dict):
+        return {k: serialize_doc(v) for k, v in doc.items()}
+
+    if isinstance(doc, list):
+        return [serialize_doc(i) for i in doc]
+
     return doc
 
 def serialize_list(docs):
