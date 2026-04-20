@@ -1,6 +1,6 @@
 [
   {
-    "_id": "esparadrapo_12",
+    "_id": "ROXVEL_esparadrapo_12",
     "name": "ESPARADRAPO 1/2",
     "category": "Material de curación",
     "principio_activo": "No aplica",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T08:36:03.946194"
   },
   {
-    "_id": "esparadrapo_de_1",
+    "_id": "ROXVEL_esparadrapo_de_1",
     "name": "ESPARADRAPO DE 1",
     "category": "Material de curación",
     "principio_activo": "Ninguno",
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T08:36:08.201637"
   },
   {
-    "_id": "hoja_de_bisturi_no_21",
+    "_id": "ROXVEL_hoja_de_bisturi_no_21",
     "name": "HOJA DE BISTURI No 21",
     "category": "Instrumental quirúrgico",
     "principio_activo": "N/A",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T08:36:10.984592"
   },
   {
-    "_id": "hoja_de_bisturi_no_22",
+    "_id": "ROXVEL_hoja_de_bisturi_no_22",
     "name": "HOJA DE BISTURI No 22",
     "category": "Instrumental quirúrgico",
     "principio_activo": "N/A",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T08:36:13.486133"
   },
   {
-    "_id": "hoja_de_bisturi_no_24",
+    "_id": "ROXVEL_hoja_de_bisturi_no_24",
     "name": "HOJA DE BISTURI No 24",
     "category": "Instrumental quirúrgico",
     "principio_activo": "N/A",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T08:36:16.250009"
   },
   {
-    "_id": "jeringa_de_20_cc",
+    "_id": "ROXVEL_jeringa_de_20_cc",
     "name": "JERINGA DE 20 CC",
     "category": "Material de curación",
     "principio_activo": null,
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T08:36:18.871698"
   },
   {
-    "_id": "jeringa_de_50_cc",
+    "_id": "ROXVEL_jeringa_de_50_cc",
     "name": "JERINGA DE 50 CC",
     "category": "Material de laboratorio",
     "principio_activo": null,
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T08:36:21.492342"
   },
   {
-    "_id": "ketoc_ketoconazol_ovulos__x_3_u",
+    "_id": "ROXVEL_ketoc_ketoconazol_ovulos__x_3_u",
     "name": "KETOC (KETOCONAZOL OVULOS ) X 3 U",
     "category": "Antifúngicos",
     "principio_activo": "Ketoconazol",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T08:36:24.131065"
   },
   {
-    "_id": "ligadura_para_torniquete",
+    "_id": "ROXVEL_ligadura_para_torniquete",
     "name": "LIGADURA PARA TORNIQUETE",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T08:36:26.588120"
   },
   {
-    "_id": "methycobal_kit_inyec",
+    "_id": "ROXVEL_methycobal_kit_inyec",
     "name": "METHYCOBAL KIT INYEC",
     "category": "Suplemento vitamínico",
     "principio_activo": "Cobalamina (Vitamina B12)",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T08:36:29.979046"
   },
   {
-    "_id": "perilla_de_hule_saca_mocos_no_1",
+    "_id": "ROXVEL_perilla_de_hule_saca_mocos_no_1",
     "name": "PERILLA DE HULE (SACA MOCOS) No 1",
     "category": "Instrumental médico",
     "principio_activo": "Ninguno",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T08:36:33.549376"
   },
   {
-    "_id": "redecilla_negra",
+    "_id": "ROXVEL_redecilla_negra",
     "name": "REDECILLA NEGRA",
     "category": "Accesorios para el cuidado del cabello",
     "principio_activo": "N/A",
@@ -252,7 +252,7 @@
     "updated_at": "2026-04-20T08:36:36.465721"
   },
   {
-    "_id": "rocefort_ceftriaxona_1_gramo",
+    "_id": "ROXVEL_rocefort_ceftriaxona_1_gramo",
     "name": "ROCEFORT (CEFTRIAXONA) 1 GRAMO",
     "category": "Antibiótico",
     "principio_activo": "Ceftriaxona",
@@ -273,7 +273,7 @@
     "updated_at": "2026-04-20T08:36:39.651800"
   },
   {
-    "_id": "sertal_gotas_20_ml",
+    "_id": "ROXVEL_sertal_gotas_20_ml",
     "name": "SERTAL GOTAS 20 ML",
     "category": "Medicamento para el sistema nervioso central",
     "principio_activo": "Sertralina",
@@ -294,7 +294,7 @@
     "updated_at": "2026-04-20T08:36:42.821610"
   },
   {
-    "_id": "suero_hidravida_oral__coco_x_30",
+    "_id": "ROXVEL_suero_hidravida_oral__coco_x_30",
     "name": "SUERO HIDRAVIDA ORAL  COCO X 30",
     "category": "Suplemento Hidratante Oral",
     "principio_activo": "Electrolitos y glucosa",
@@ -315,7 +315,7 @@
     "updated_at": "2026-04-20T08:36:45.795288"
   },
   {
-    "_id": "suero_hidravida_oral__fresa_x_30",
+    "_id": "ROXVEL_suero_hidravida_oral__fresa_x_30",
     "name": "SUERO HIDRAVIDA ORAL  FRESA X 30",
     "category": "Suplemento Hidratante Oral",
     "principio_activo": "Electrolitos y glucosa",
@@ -336,7 +336,7 @@
     "updated_at": "2026-04-20T08:36:49.448368"
   },
   {
-    "_id": "suero_hidravida_oral__naranja_x_30",
+    "_id": "ROXVEL_suero_hidravida_oral__naranja_x_30",
     "name": "SUERO HIDRAVIDA ORAL  NARANJA X 30",
     "category": "Suplemento Hidratante Oral",
     "principio_activo": "Electrolitos y glucosa",
@@ -357,7 +357,7 @@
     "updated_at": "2026-04-20T08:36:55.643357"
   },
   {
-    "_id": "sutura_nylon_negra_no_30",
+    "_id": "ROXVEL_sutura_nylon_negra_no_30",
     "name": "SUTURA NYLON NEGRA No 3-0",
     "category": "Material de sutura",
     "principio_activo": "Nylon",
@@ -378,7 +378,7 @@
     "updated_at": "2026-04-20T08:36:58.577389"
   },
   {
-    "_id": "sutura_nylon_negro_no_20",
+    "_id": "ROXVEL_sutura_nylon_negro_no_20",
     "name": "SUTURA NYLON NEGRO No 2-0",
     "category": "Material de sutura",
     "principio_activo": "Nylon",
@@ -399,7 +399,7 @@
     "updated_at": "2026-04-20T08:37:01.087425"
   },
   {
-    "_id": "sutura_seda_negra_no_30",
+    "_id": "ROXVEL_sutura_seda_negra_no_30",
     "name": "SUTURA SEDA NEGRA No 3-0",
     "category": "Material de sutura",
     "principio_activo": "Seda negra",

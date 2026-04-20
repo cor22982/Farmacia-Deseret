@@ -1,6 +1,6 @@
 [
   {
-    "_id": "acetaminofen_bayer_500_mg_cj_x_100_blist_x_10",
+    "_id": "AMICELCO_acetaminofen_bayer_500_mg_cj_x_100_blist_x_10",
     "name": "ACETAMINOFEN BAYER 500 MG CJ X 100 BLIST X 10",
     "category": "Analgésico y antipirético",
     "principio_activo": "Acetaminofén",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T08:11:27.643814"
   },
   {
-    "_id": "afrin_adulto_spray_nasal_15_ml",
+    "_id": "AMICELCO_afrin_adulto_spray_nasal_15_ml",
     "name": "AFRIN ADULTO SPRAY NASAL 15 ML",
     "category": "Descongestionante nasal",
     "principio_activo": "Oximetazolina",
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T08:11:30.887382"
   },
   {
-    "_id": "agua_esteril_100_ml_aculife",
+    "_id": "AMICELCO_agua_esteril_100_ml_aculife",
     "name": "AGUA ESTERIL 100 ML ACULIFE",
     "category": "Solución estéril",
     "principio_activo": "Agua estéril",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T08:11:33.607265"
   },
   {
-    "_id": "alka_extreme_boost__caja_x_50",
+    "_id": "AMICELCO_alka_extreme_boost__caja_x_50",
     "name": "ALKA EXTREME BOOST  CAJA X 50",
     "category": "Suplemento alimenticio",
     "principio_activo": "No especificado",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T08:11:37.042940"
   },
   {
-    "_id": "clarityne_d_caja_x_10_tas",
+    "_id": "AMICELCO_clarityne_d_caja_x_10_tas",
     "name": "CLARITYNE D CAJA X 10 TAS",
     "category": "Antihistamínico y descongestionante",
     "principio_activo": "Loratadina y pseudoefedrina",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T08:11:43.583035"
   },
   {
-    "_id": "curitas_hansaplast_transparente",
+    "_id": "AMICELCO_curitas_hansaplast_transparente",
     "name": "CURITAS HANSAPLAST TRANSPARENTE",
     "category": "Apósitos adhesivos",
     "principio_activo": "No aplica",
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T08:11:46.261125"
   },
   {
-    "_id": "jabon_azufre_100_grs",
+    "_id": "AMICELCO_jabon_azufre_100_grs",
     "name": "JABON AZUFRE 100 GRS",
     "category": "Antiséptico y queratolítico",
     "principio_activo": "Azufre",
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T08:11:49.125818"
   },
   {
-    "_id": "medidor_de_glucosa_premier_kit",
+    "_id": "AMICELCO_medidor_de_glucosa_premier_kit",
     "name": "MEDIDOR DE GLUCOSA PREMIER KIT",
     "category": "Dispositivo médico",
     "principio_activo": "No aplica",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T08:11:51.825908"
   },
   {
-    "_id": "mydocalma_caja_x_30_blist_x_10_caps",
+    "_id": "AMICELCO_mydocalma_caja_x_30_blist_x_10_caps",
     "name": "MYDOCALM-A CAJA X 30 BLIST X 10 CAPS",
     "category": "Relajante muscular",
     "principio_activo": "Tolperisona",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T08:11:54.769829"
   },
   {
-    "_id": "solucion_salina_09_100_ml_aculife",
+    "_id": "AMICELCO_solucion_salina_09_100_ml_aculife",
     "name": "SOLUCION SALINA 0.9% 100 ML ACULIFE",
     "category": "Solución salina",
     "principio_activo": "Cloruro de sodio 0.9%",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T08:11:57.508177"
   },
   {
-    "_id": "solucion_salina_09_1000_ml_aculife",
+    "_id": "AMICELCO_solucion_salina_09_1000_ml_aculife",
     "name": "SOLUCION SALINA 0.9% 1000 ML ACULIFE",
     "category": "Solución salina",
     "principio_activo": "Cloruro de sodio 0.9%",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T08:12:00.261485"
   },
   {
-    "_id": "solucion_salina_100_ml_bolsa",
+    "_id": "AMICELCO_solucion_salina_100_ml_bolsa",
     "name": "SOLUCION SALINA 100 ML BOLSA",
     "category": "Soluciones parenterales",
     "principio_activo": "Cloruro de sodio",
@@ -252,7 +252,7 @@
     "updated_at": "2026-04-20T08:12:04.135771"
   },
   {
-    "_id": "tinte_gallo_gris_15_grs",
+    "_id": "AMICELCO_tinte_gallo_gris_15_grs",
     "name": "TINTE GALLO GRIS 15 grs",
     "category": "Tinte para cabello",
     "principio_activo": "No aplica",
@@ -273,7 +273,7 @@
     "updated_at": "2026-04-20T08:12:09.177176"
   },
   {
-    "_id": "tinte_gallo_negro_15_grs",
+    "_id": "AMICELCO_tinte_gallo_negro_15_grs",
     "name": "TINTE GALLO NEGRO 15 grs",
     "category": "Tinte para cabello",
     "principio_activo": "No aplica",
@@ -294,7 +294,7 @@
     "updated_at": "2026-04-20T08:12:13.694243"
   },
   {
-    "_id": "trojan_doble_accion_x_3_condones",
+    "_id": "AMICELCO_trojan_doble_accion_x_3_condones",
     "name": "TROJAN DOBLE ACCION X 3 CONDONES",
     "category": "Preservativos",
     "principio_activo": "No aplica",
@@ -315,7 +315,7 @@
     "updated_at": "2026-04-20T08:12:16.865032"
   },
   {
-    "_id": "trojan_piel_desnuda_x_3_condones",
+    "_id": "AMICELCO_trojan_piel_desnuda_x_3_condones",
     "name": "TROJAN PIEL DESNUDA X 3 CONDONES",
     "category": "Anticonceptivos",
     "principio_activo": "Látex",
@@ -336,7 +336,7 @@
     "updated_at": "2026-04-20T08:12:19.187872"
   },
   {
-    "_id": "trojan_seguridad_x_3_condones",
+    "_id": "AMICELCO_trojan_seguridad_x_3_condones",
     "name": "TROJAN SEGURIDAD X 3 CONDONES",
     "category": "Anticonceptivos",
     "principio_activo": "Látex",
@@ -357,7 +357,7 @@
     "updated_at": "2026-04-20T08:12:22.365145"
   },
   {
-    "_id": "xacto_prueba_de_embarazo",
+    "_id": "AMICELCO_xacto_prueba_de_embarazo",
     "name": "X-ACTO PRUEBA DE EMBARAZO",
     "category": "Prueba de embarazo",
     "principio_activo": "Hormona gonadotropina coriónica humana (hCG)",

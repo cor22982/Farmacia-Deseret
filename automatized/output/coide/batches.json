@@ -1,7 +1,7 @@
 [
   {
-    "_id": "batch-aceite_de_higado_x_100_siete_mares-2026-1",
-    "product_id": "aceite_de_higado_x_100_siete_mares",
+    "_id": "COIDE_batch-aceite_de_higado_x_100_siete_mares-2026-1",
+    "product_id": "COIDE_aceite_de_higado_x_100_siete_mares",
     "lot_code": "LOT-6647A8CAD7",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -18,8 +18,8 @@
     }
   },
   {
-    "_id": "BODEGA-aceite_de_higado_x_100_siete_mares-2026-1",
-    "product_id": "aceite_de_higado_x_100_siete_mares",
+    "_id": "COIDE_BODEGA-aceite_de_higado_x_100_siete_mares-2026-1",
+    "product_id": "COIDE_aceite_de_higado_x_100_siete_mares",
     "lot_code": "LOT-AA7B3A8FC2",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -36,8 +36,8 @@
     }
   },
   {
-    "_id": "batch-aguja_18g_x_112_rosada-2026-2",
-    "product_id": "aguja_18g_x_112_rosada",
+    "_id": "COIDE_batch-aguja_18g_x_112_rosada-2026-2",
+    "product_id": "COIDE_aguja_18g_x_112_rosada",
     "lot_code": "LOT-6BF3CC0C9C",
     "expiration_date": {
       "$date": "2029-04-01T00:00:00.000Z"
@@ -54,8 +54,8 @@
     }
   },
   {
-    "_id": "batch-aguja_21g_x_1_x_12_verde-2026-3",
-    "product_id": "aguja_21g_x_1_x_12_verde",
+    "_id": "COIDE_batch-aguja_21g_x_1_x_12_verde-2026-3",
+    "product_id": "COIDE_aguja_21g_x_1_x_12_verde",
     "lot_code": "LOT-05D9665DFB",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -72,8 +72,8 @@
     }
   },
   {
-    "_id": "batch-aguja_23g_x_1___azul_nipro_ped-2026-4",
-    "product_id": "aguja_23g_x_1___azul_nipro_ped",
+    "_id": "COIDE_batch-aguja_23g_x_1___azul_nipro_ped-2026-4",
+    "product_id": "COIDE_aguja_23g_x_1___azul_nipro_ped",
     "lot_code": "LOT-B4C1B7705E",
     "expiration_date": null,
     "purchase_date": {
@@ -88,8 +88,8 @@
     }
   },
   {
-    "_id": "batch-aguja_23g_x_112_celeste_nipro-2026-5",
-    "product_id": "aguja_23g_x_112_celeste_nipro",
+    "_id": "COIDE_batch-aguja_23g_x_112_celeste_nipro-2026-5",
+    "product_id": "COIDE_aguja_23g_x_112_celeste_nipro",
     "lot_code": "LOT-6D0FA182D4",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -106,8 +106,8 @@
     }
   },
   {
-    "_id": "batch-aleve_extra_fuerte_x_36_tab-2026-6",
-    "product_id": "aleve_extra_fuerte_x_36_tab",
+    "_id": "COIDE_batch-aleve_extra_fuerte_x_36_tab-2026-6",
+    "product_id": "COIDE_aleve_extra_fuerte_x_36_tab",
     "lot_code": "LOT-B5C7AB6B62",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -124,8 +124,8 @@
     }
   },
   {
-    "_id": "BODEGA-aleve_extra_fuerte_x_36_tab-2026-6",
-    "product_id": "aleve_extra_fuerte_x_36_tab",
+    "_id": "COIDE_BODEGA-aleve_extra_fuerte_x_36_tab-2026-6",
+    "product_id": "COIDE_aleve_extra_fuerte_x_36_tab",
     "lot_code": "LOT-F5E3D993C6",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -142,8 +142,8 @@
     }
   },
   {
-    "_id": "batch-algodón_2_grs_bolsa_x_25_vesa-2026-7",
-    "product_id": "algodón_2_grs_bolsa_x_25_vesa",
+    "_id": "COIDE_batch-algodón_2_grs_bolsa_x_25_vesa-2026-7",
+    "product_id": "COIDE_algodón_2_grs_bolsa_x_25_vesa",
     "lot_code": "LOT-EA8DB8A515",
     "expiration_date": null,
     "purchase_date": {
@@ -158,8 +158,8 @@
     }
   },
   {
-    "_id": "BODEGA-algodón_2_grs_bolsa_x_25_vesa-2026-7",
-    "product_id": "algodón_2_grs_bolsa_x_25_vesa",
+    "_id": "COIDE_BODEGA-algodón_2_grs_bolsa_x_25_vesa-2026-7",
+    "product_id": "COIDE_algodón_2_grs_bolsa_x_25_vesa",
     "lot_code": "LOT-ABA90F668B",
     "expiration_date": null,
     "purchase_date": {
@@ -174,8 +174,8 @@
     }
   },
   {
-    "_id": "batch-alka_gastric_blist_x_6_disp_x_36_tab-2026-8",
-    "product_id": "alka_gastric_blist_x_6_disp_x_36_tab",
+    "_id": "COIDE_batch-alka_gastric_blist_x_6_disp_x_36_tab-2026-8",
+    "product_id": "COIDE_alka_gastric_blist_x_6_disp_x_36_tab",
     "lot_code": "LOT-85FD8E13A8",
     "expiration_date": {
       "$date": "2030-05-01T00:00:00.000Z"
@@ -192,8 +192,8 @@
     }
   },
   {
-    "_id": "batch-anestenca_tubo_x_5_ml-2026-9",
-    "product_id": "anestenca_tubo_x_5_ml",
+    "_id": "COIDE_batch-anestenca_tubo_x_5_ml-2026-9",
+    "product_id": "COIDE_anestenca_tubo_x_5_ml",
     "lot_code": "LOT-37B205CA57",
     "expiration_date": null,
     "purchase_date": null,
@@ -206,8 +206,8 @@
     }
   },
   {
-    "_id": "batch-anestevil_gotas_5_ml_anestesico_local-2026-10",
-    "product_id": "anestevil_gotas_5_ml_anestesico_local",
+    "_id": "COIDE_batch-anestevil_gotas_5_ml_anestesico_local-2026-10",
+    "product_id": "COIDE_anestevil_gotas_5_ml_anestesico_local",
     "lot_code": "LOT-6469E8E3CB",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -224,8 +224,8 @@
     }
   },
   {
-    "_id": "BODEGA-anestevil_gotas_5_ml_anestesico_local-2026-10",
-    "product_id": "anestevil_gotas_5_ml_anestesico_local",
+    "_id": "COIDE_BODEGA-anestevil_gotas_5_ml_anestesico_local-2026-10",
+    "product_id": "COIDE_anestevil_gotas_5_ml_anestesico_local",
     "lot_code": "LOT-86FBF4A566",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -242,8 +242,8 @@
     }
   },
   {
-    "_id": "batch-anestil_5_ml_x_12_tubos-2026-11",
-    "product_id": "anestil_5_ml_x_12_tubos",
+    "_id": "COIDE_batch-anestil_5_ml_x_12_tubos-2026-11",
+    "product_id": "COIDE_anestil_5_ml_x_12_tubos",
     "lot_code": "LOT-FA49194644",
     "expiration_date": {
       "$date": "2029-08-01T00:00:00.000Z"
@@ -260,8 +260,8 @@
     }
   },
   {
-    "_id": "batch-angiocat__16-2026-12",
-    "product_id": "angiocat__16",
+    "_id": "COIDE_batch-angiocat__16-2026-12",
+    "product_id": "COIDE_angiocat__16",
     "lot_code": "LOT-CC0E62AF6D",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -278,8 +278,8 @@
     }
   },
   {
-    "_id": "BODEGA-angiocat__16-2026-12",
-    "product_id": "angiocat__16",
+    "_id": "COIDE_BODEGA-angiocat__16-2026-12",
+    "product_id": "COIDE_angiocat__16",
     "lot_code": "LOT-B6036B110C",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -296,8 +296,8 @@
     }
   },
   {
-    "_id": "batch-apositos_para_cayos_hansaplast__x_6-2026-13",
-    "product_id": "apositos_para_cayos_hansaplast__x_6",
+    "_id": "COIDE_batch-apositos_para_cayos_hansaplast__x_6-2026-13",
+    "product_id": "COIDE_apositos_para_cayos_hansaplast__x_6",
     "lot_code": "LOT-1D3602A7BD",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -314,8 +314,8 @@
     }
   },
   {
-    "_id": "batch-aquamar_fco_50_ml_spray_nasal-2026-14",
-    "product_id": "aquamar_fco_50_ml_spray_nasal",
+    "_id": "COIDE_batch-aquamar_fco_50_ml_spray_nasal-2026-14",
+    "product_id": "COIDE_aquamar_fco_50_ml_spray_nasal",
     "lot_code": "LOT-CDE07A2716",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -332,8 +332,8 @@
     }
   },
   {
-    "_id": "batch-aspirador_nasal_gerber-2026-15",
-    "product_id": "aspirador_nasal_gerber",
+    "_id": "COIDE_batch-aspirador_nasal_gerber-2026-15",
+    "product_id": "COIDE_aspirador_nasal_gerber",
     "lot_code": "LOT-33A76459EF",
     "expiration_date": null,
     "purchase_date": {
@@ -348,8 +348,8 @@
     }
   },
   {
-    "_id": "BODEGA-aspirador_nasal_gerber-2026-15",
-    "product_id": "aspirador_nasal_gerber",
+    "_id": "COIDE_BODEGA-aspirador_nasal_gerber-2026-15",
+    "product_id": "COIDE_aspirador_nasal_gerber",
     "lot_code": "LOT-ABC13B9B5D",
     "expiration_date": null,
     "purchase_date": {
@@ -364,8 +364,8 @@
     }
   },
   {
-    "_id": "batch-aspirina_adulto_blist_x_10_caja_x_100-2026-16",
-    "product_id": "aspirina_adulto_blist_x_10_caja_x_100",
+    "_id": "COIDE_batch-aspirina_adulto_blist_x_10_caja_x_100-2026-16",
+    "product_id": "COIDE_aspirina_adulto_blist_x_10_caja_x_100",
     "lot_code": "LOT-C580DA3E09",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -382,8 +382,8 @@
     }
   },
   {
-    "_id": "BODEGA-aspirina_adulto_blist_x_10_caja_x_100-2026-16",
-    "product_id": "aspirina_adulto_blist_x_10_caja_x_100",
+    "_id": "COIDE_BODEGA-aspirina_adulto_blist_x_10_caja_x_100-2026-16",
+    "product_id": "COIDE_aspirina_adulto_blist_x_10_caja_x_100",
     "lot_code": "LOT-12C65D7B92",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -400,8 +400,8 @@
     }
   },
   {
-    "_id": "batch-aspirina_forte_caja_x_100_blist_x_10-2026-17",
-    "product_id": "aspirina_forte_caja_x_100_blist_x_10",
+    "_id": "COIDE_batch-aspirina_forte_caja_x_100_blist_x_10-2026-17",
+    "product_id": "COIDE_aspirina_forte_caja_x_100_blist_x_10",
     "lot_code": "LOT-E348A20595",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -418,8 +418,8 @@
     }
   },
   {
-    "_id": "BODEGA-aspirina_forte_caja_x_100_blist_x_10-2026-17",
-    "product_id": "aspirina_forte_caja_x_100_blist_x_10",
+    "_id": "COIDE_BODEGA-aspirina_forte_caja_x_100_blist_x_10-2026-17",
+    "product_id": "COIDE_aspirina_forte_caja_x_100_blist_x_10",
     "lot_code": "LOT-7250B4EEE9",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -436,8 +436,8 @@
     }
   },
   {
-    "_id": "batch-aspirina_niños_blist_x_10_caja_x_100-2026-18",
-    "product_id": "aspirina_niños_blist_x_10_caja_x_100",
+    "_id": "COIDE_batch-aspirina_niños_blist_x_10_caja_x_100-2026-18",
+    "product_id": "COIDE_aspirina_niños_blist_x_10_caja_x_100",
     "lot_code": "LOT-AE68AC9E12",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -454,8 +454,8 @@
     }
   },
   {
-    "_id": "BODEGA-aspirina_niños_blist_x_10_caja_x_100-2026-18",
-    "product_id": "aspirina_niños_blist_x_10_caja_x_100",
+    "_id": "COIDE_BODEGA-aspirina_niños_blist_x_10_caja_x_100-2026-18",
+    "product_id": "COIDE_aspirina_niños_blist_x_10_caja_x_100",
     "lot_code": "LOT-AD8E76D124",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -472,8 +472,8 @@
     }
   },
   {
-    "_id": "batch-ballena_azul_200_ml-2026-19",
-    "product_id": "ballena_azul_200_ml",
+    "_id": "COIDE_batch-ballena_azul_200_ml-2026-19",
+    "product_id": "COIDE_ballena_azul_200_ml",
     "lot_code": "LOT-FB4FD139D0",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -490,8 +490,8 @@
     }
   },
   {
-    "_id": "batch-balsamico_gms_12_grs-2026-20",
-    "product_id": "balsamico_gms_12_grs",
+    "_id": "COIDE_batch-balsamico_gms_12_grs-2026-20",
+    "product_id": "COIDE_balsamico_gms_12_grs",
     "lot_code": "LOT-C09F6E7AEA",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -508,8 +508,8 @@
     }
   },
   {
-    "_id": "batch-baykid_dolor_y_fiebre_caja_x_36_blist_x_12_tab-2026-21",
-    "product_id": "baykid_dolor_y_fiebre_caja_x_36_blist_x_12_tab",
+    "_id": "COIDE_batch-baykid_dolor_y_fiebre_caja_x_36_blist_x_12_tab-2026-21",
+    "product_id": "COIDE_baykid_dolor_y_fiebre_caja_x_36_blist_x_12_tab",
     "lot_code": "LOT-A3E6812058",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -526,8 +526,8 @@
     }
   },
   {
-    "_id": "batch-bep0anthene_pomada_30_grs-2026-22",
-    "product_id": "bep0anthene_pomada_30_grs",
+    "_id": "COIDE_batch-bep0anthene_pomada_30_grs-2026-22",
+    "product_id": "COIDE_bep0anthene_pomada_30_grs",
     "lot_code": "LOT-03CFD041CD",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -544,8 +544,8 @@
     }
   },
   {
-    "_id": "batch-bephanthene_crema_5_30g_quemaduras-2026-23",
-    "product_id": "bephanthene_crema_5_30g_quemaduras",
+    "_id": "COIDE_batch-bephanthene_crema_5_30g_quemaduras-2026-23",
+    "product_id": "COIDE_bephanthene_crema_5_30g_quemaduras",
     "lot_code": "LOT-5654795803",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -562,8 +562,8 @@
     }
   },
   {
-    "_id": "BODEGA-bephanthene_crema_5_30g_quemaduras-2026-23",
-    "product_id": "bephanthene_crema_5_30g_quemaduras",
+    "_id": "COIDE_BODEGA-bephanthene_crema_5_30g_quemaduras-2026-23",
+    "product_id": "COIDE_bephanthene_crema_5_30g_quemaduras",
     "lot_code": "LOT-1F1261F68F",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -580,8 +580,8 @@
     }
   },
   {
-    "_id": "batch-bicarbonato__x_25_sobres_de_10_grs_vesa-2026-24",
-    "product_id": "bicarbonato__x_25_sobres_de_10_grs_vesa",
+    "_id": "COIDE_batch-bicarbonato__x_25_sobres_de_10_grs_vesa-2026-24",
+    "product_id": "COIDE_bicarbonato__x_25_sobres_de_10_grs_vesa",
     "lot_code": "LOT-380CFE6B74",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -598,8 +598,8 @@
     }
   },
   {
-    "_id": "BODEGA-bicarbonato__x_25_sobres_de_10_grs_vesa-2026-24",
-    "product_id": "bicarbonato__x_25_sobres_de_10_grs_vesa",
+    "_id": "COIDE_BODEGA-bicarbonato__x_25_sobres_de_10_grs_vesa-2026-24",
+    "product_id": "COIDE_bicarbonato__x_25_sobres_de_10_grs_vesa",
     "lot_code": "LOT-E202A84D89",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -616,8 +616,8 @@
     }
   },
   {
-    "_id": "batch-bicarbonato_x_1_libra_disfavil-2026-25",
-    "product_id": "bicarbonato_x_1_libra_disfavil",
+    "_id": "COIDE_batch-bicarbonato_x_1_libra_disfavil-2026-25",
+    "product_id": "COIDE_bicarbonato_x_1_libra_disfavil",
     "lot_code": "LOT-E6022D3197",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -634,8 +634,8 @@
     }
   },
   {
-    "_id": "BODEGA-bicarbonato_x_1_libra_disfavil-2026-25",
-    "product_id": "bicarbonato_x_1_libra_disfavil",
+    "_id": "COIDE_BODEGA-bicarbonato_x_1_libra_disfavil-2026-25",
+    "product_id": "COIDE_bicarbonato_x_1_libra_disfavil",
     "lot_code": "LOT-49D286E2B0",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -652,8 +652,8 @@
     }
   },
   {
-    "_id": "batch-bicarbonato_x_16_sobres_de_28_grs_disfavil-2026-26",
-    "product_id": "bicarbonato_x_16_sobres_de_28_grs_disfavil",
+    "_id": "COIDE_batch-bicarbonato_x_16_sobres_de_28_grs_disfavil-2026-26",
+    "product_id": "COIDE_bicarbonato_x_16_sobres_de_28_grs_disfavil",
     "lot_code": "LOT-A4212381DE",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -670,8 +670,8 @@
     }
   },
   {
-    "_id": "BODEGA-bicarbonato_x_16_sobres_de_28_grs_disfavil-2026-26",
-    "product_id": "bicarbonato_x_16_sobres_de_28_grs_disfavil",
+    "_id": "COIDE_BODEGA-bicarbonato_x_16_sobres_de_28_grs_disfavil-2026-26",
+    "product_id": "COIDE_bicarbonato_x_16_sobres_de_28_grs_disfavil",
     "lot_code": "LOT-2F89B9E472",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -688,8 +688,8 @@
     }
   },
   {
-    "_id": "batch-bolsa_de_algodón_160_bolitas_superior-2026-27",
-    "product_id": "bolsa_de_algodón_160_bolitas_superior",
+    "_id": "COIDE_batch-bolsa_de_algodón_160_bolitas_superior-2026-27",
+    "product_id": "COIDE_bolsa_de_algodón_160_bolitas_superior",
     "lot_code": "LOT-609D9251B9",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -706,8 +706,8 @@
     }
   },
   {
-    "_id": "BODEGA-bolsa_de_algodón_160_bolitas_superior-2026-27",
-    "product_id": "bolsa_de_algodón_160_bolitas_superior",
+    "_id": "COIDE_BODEGA-bolsa_de_algodón_160_bolitas_superior-2026-27",
+    "product_id": "COIDE_bolsa_de_algodón_160_bolitas_superior",
     "lot_code": "LOT-F24FC03742",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -724,8 +724,8 @@
     }
   },
   {
-    "_id": "batch-calcio_vitaminado_ampolla-2026-28",
-    "product_id": "calcio_vitaminado_ampolla",
+    "_id": "COIDE_batch-calcio_vitaminado_ampolla-2026-28",
+    "product_id": "COIDE_calcio_vitaminado_ampolla",
     "lot_code": "LOT-6C0DEBDB0A",
     "expiration_date": null,
     "purchase_date": null,
@@ -738,8 +738,8 @@
     }
   },
   {
-    "_id": "batch-callofin_pomada_12_grs-2026-29",
-    "product_id": "callofin_pomada_12_grs",
+    "_id": "COIDE_batch-callofin_pomada_12_grs-2026-29",
+    "product_id": "COIDE_callofin_pomada_12_grs",
     "lot_code": "LOT-6390C0F6E2",
     "expiration_date": {
       "$date": "2026-11-01T00:00:00.000Z"
@@ -756,8 +756,8 @@
     }
   },
   {
-    "_id": "batch-calmante_sobre_bolsa_x_100-2026-30",
-    "product_id": "calmante_sobre_bolsa_x_100",
+    "_id": "COIDE_batch-calmante_sobre_bolsa_x_100-2026-30",
+    "product_id": "COIDE_calmante_sobre_bolsa_x_100",
     "lot_code": "LOT-FBF4FAF722",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -774,8 +774,8 @@
     }
   },
   {
-    "_id": "batch-canesten_100_mg_x_18_ovulos_vag-2026-31",
-    "product_id": "canesten_100_mg_x_18_ovulos_vag",
+    "_id": "COIDE_batch-canesten_100_mg_x_18_ovulos_vag-2026-31",
+    "product_id": "COIDE_canesten_100_mg_x_18_ovulos_vag",
     "lot_code": "LOT-46C9AAF030",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -792,8 +792,8 @@
     }
   },
   {
-    "_id": "batch-canesten_triple_accion_15_grs-2026-32",
-    "product_id": "canesten_triple_accion_15_grs",
+    "_id": "COIDE_batch-canesten_triple_accion_15_grs-2026-32",
+    "product_id": "COIDE_canesten_triple_accion_15_grs",
     "lot_code": "LOT-97B985D3A9",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -810,8 +810,8 @@
     }
   },
   {
-    "_id": "BODEGA-canesten_triple_accion_15_grs-2026-32",
-    "product_id": "canesten_triple_accion_15_grs",
+    "_id": "COIDE_BODEGA-canesten_triple_accion_15_grs-2026-32",
+    "product_id": "COIDE_canesten_triple_accion_15_grs",
     "lot_code": "LOT-62A87B74EA",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -828,8 +828,8 @@
     }
   },
   {
-    "_id": "batch-cardioaspirina_caja_x_48_tab-2026-33",
-    "product_id": "cardioaspirina_caja_x_48_tab",
+    "_id": "COIDE_batch-cardioaspirina_caja_x_48_tab-2026-33",
+    "product_id": "COIDE_cardioaspirina_caja_x_48_tab",
     "lot_code": "LOT-2A1BFD35C0",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -846,8 +846,8 @@
     }
   },
   {
-    "_id": "BODEGA-cardioaspirina_caja_x_48_tab-2026-33",
-    "product_id": "cardioaspirina_caja_x_48_tab",
+    "_id": "COIDE_BODEGA-cardioaspirina_caja_x_48_tab-2026-33",
+    "product_id": "COIDE_cardioaspirina_caja_x_48_tab",
     "lot_code": "LOT-7C022DF930",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -864,8 +864,8 @@
     }
   },
   {
-    "_id": "batch-cirbral_25_mg_blist_x_20_caja_x_60-2026-34",
-    "product_id": "cirbral_25_mg_blist_x_20_caja_x_60",
+    "_id": "COIDE_batch-cirbral_25_mg_blist_x_20_caja_x_60-2026-34",
+    "product_id": "COIDE_cirbral_25_mg_blist_x_20_caja_x_60",
     "lot_code": "LOT-3D19A3AB80",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -882,8 +882,8 @@
     }
   },
   {
-    "_id": "BODEGA-cirbral_25_mg_blist_x_20_caja_x_60-2026-34",
-    "product_id": "cirbral_25_mg_blist_x_20_caja_x_60",
+    "_id": "COIDE_BODEGA-cirbral_25_mg_blist_x_20_caja_x_60-2026-34",
+    "product_id": "COIDE_cirbral_25_mg_blist_x_20_caja_x_60",
     "lot_code": "LOT-83C64A41DF",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -900,8 +900,8 @@
     }
   },
   {
-    "_id": "batch-cirbral_forte_75_mg_blist_x_10_caja_x_30-2026-35",
-    "product_id": "cirbral_forte_75_mg_blist_x_10_caja_x_30",
+    "_id": "COIDE_batch-cirbral_forte_75_mg_blist_x_10_caja_x_30-2026-35",
+    "product_id": "COIDE_cirbral_forte_75_mg_blist_x_10_caja_x_30",
     "lot_code": "LOT-D6E6398E19",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -918,8 +918,8 @@
     }
   },
   {
-    "_id": "BODEGA-cirbral_forte_75_mg_blist_x_10_caja_x_30-2026-35",
-    "product_id": "cirbral_forte_75_mg_blist_x_10_caja_x_30",
+    "_id": "COIDE_BODEGA-cirbral_forte_75_mg_blist_x_10_caja_x_30-2026-35",
+    "product_id": "COIDE_cirbral_forte_75_mg_blist_x_10_caja_x_30",
     "lot_code": "LOT-2470430F2D",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -936,8 +936,8 @@
     }
   },
   {
-    "_id": "batch-citrato_de_magnesia_bolsa_x_16_sobres-2026-36",
-    "product_id": "citrato_de_magnesia_bolsa_x_16_sobres",
+    "_id": "COIDE_batch-citrato_de_magnesia_bolsa_x_16_sobres-2026-36",
+    "product_id": "COIDE_citrato_de_magnesia_bolsa_x_16_sobres",
     "lot_code": "LOT-9052DB29AB",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -954,8 +954,8 @@
     }
   },
   {
-    "_id": "BODEGA-citrato_de_magnesia_bolsa_x_16_sobres-2026-36",
-    "product_id": "citrato_de_magnesia_bolsa_x_16_sobres",
+    "_id": "COIDE_BODEGA-citrato_de_magnesia_bolsa_x_16_sobres-2026-36",
+    "product_id": "COIDE_citrato_de_magnesia_bolsa_x_16_sobres",
     "lot_code": "LOT-1EC8C7C92E",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -972,8 +972,8 @@
     }
   },
   {
-    "_id": "batch-cloprim_01mggotas_15_ml-2026-37",
-    "product_id": "cloprim_01mggotas_15_ml",
+    "_id": "COIDE_batch-cloprim_01mggotas_15_ml-2026-37",
+    "product_id": "COIDE_cloprim_01mggotas_15_ml",
     "lot_code": "LOT-D751A6FF91",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -990,8 +990,8 @@
     }
   },
   {
-    "_id": "batch-cloprim_10mg_blist_x_10_caja_x_40_tabs-2026-38",
-    "product_id": "cloprim_10mg_blist_x_10_caja_x_40_tabs",
+    "_id": "COIDE_batch-cloprim_10mg_blist_x_10_caja_x_40_tabs-2026-38",
+    "product_id": "COIDE_cloprim_10mg_blist_x_10_caja_x_40_tabs",
     "lot_code": "LOT-944CB43347",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -1008,8 +1008,8 @@
     }
   },
   {
-    "_id": "batch-cloprim_5mg5ml_jarabe_120_ml-2026-39",
-    "product_id": "cloprim_5mg5ml_jarabe_120_ml",
+    "_id": "COIDE_batch-cloprim_5mg5ml_jarabe_120_ml-2026-39",
+    "product_id": "COIDE_cloprim_5mg5ml_jarabe_120_ml",
     "lot_code": "LOT-F2B5C82600",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -1026,8 +1026,8 @@
     }
   },
   {
-    "_id": "batch-cloprim_caja_x_3_ampollas-2026-40",
-    "product_id": "cloprim_caja_x_3_ampollas",
+    "_id": "COIDE_batch-cloprim_caja_x_3_ampollas-2026-40",
+    "product_id": "COIDE_cloprim_caja_x_3_ampollas",
     "lot_code": "LOT-C19B6A18DD",
     "expiration_date": null,
     "purchase_date": {
@@ -1042,8 +1042,8 @@
     }
   },
   {
-    "_id": "BODEGA-cloprim_caja_x_3_ampollas-2026-40",
-    "product_id": "cloprim_caja_x_3_ampollas",
+    "_id": "COIDE_BODEGA-cloprim_caja_x_3_ampollas-2026-40",
+    "product_id": "COIDE_cloprim_caja_x_3_ampollas",
     "lot_code": "LOT-9C93F9604E",
     "expiration_date": null,
     "purchase_date": {
@@ -1058,8 +1058,8 @@
     }
   },
   {
-    "_id": "batch-coderpina_jbe_60_ml-2026-41",
-    "product_id": "coderpina_jbe_60_ml",
+    "_id": "COIDE_batch-coderpina_jbe_60_ml-2026-41",
+    "product_id": "COIDE_coderpina_jbe_60_ml",
     "lot_code": "LOT-41718D4D9F",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -1076,8 +1076,8 @@
     }
   },
   {
-    "_id": "BODEGA-coderpina_jbe_60_ml-2026-41",
-    "product_id": "coderpina_jbe_60_ml",
+    "_id": "COIDE_BODEGA-coderpina_jbe_60_ml-2026-41",
+    "product_id": "COIDE_coderpina_jbe_60_ml",
     "lot_code": "LOT-B146250B7D",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -1094,8 +1094,8 @@
     }
   },
   {
-    "_id": "batch-coqueluche_fco_120_ml-2026-42",
-    "product_id": "coqueluche_fco_120_ml",
+    "_id": "COIDE_batch-coqueluche_fco_120_ml-2026-42",
+    "product_id": "COIDE_coqueluche_fco_120_ml",
     "lot_code": "LOT-67AC8F55AE",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -1112,8 +1112,8 @@
     }
   },
   {
-    "_id": "BODEGA-coqueluche_fco_120_ml-2026-42",
-    "product_id": "coqueluche_fco_120_ml",
+    "_id": "COIDE_BODEGA-coqueluche_fco_120_ml-2026-42",
+    "product_id": "COIDE_coqueluche_fco_120_ml",
     "lot_code": "LOT-5A9B294598",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -1130,8 +1130,8 @@
     }
   },
   {
-    "_id": "batch-curita_redonda__cureband_caja_x_100-2026-43",
-    "product_id": "curita_redonda__cureband_caja_x_100",
+    "_id": "COIDE_batch-curita_redonda__cureband_caja_x_100-2026-43",
+    "product_id": "COIDE_curita_redonda__cureband_caja_x_100",
     "lot_code": "LOT-C1D69B7689",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -1148,8 +1148,8 @@
     }
   },
   {
-    "_id": "batch-dapaz_amitrip__clordia__caja_x_30_blist_x_10-2026-44",
-    "product_id": "dapaz_amitrip__clordia__caja_x_30_blist_x_10",
+    "_id": "COIDE_batch-dapaz_amitrip__clordia__caja_x_30_blist_x_10-2026-44",
+    "product_id": "COIDE_dapaz_amitrip__clordia__caja_x_30_blist_x_10",
     "lot_code": "LOT-8DAE99ADAC",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -1166,8 +1166,8 @@
     }
   },
   {
-    "_id": "batch-diyodo_650_caja_x_100_blist_x_10_tab-2026-45",
-    "product_id": "diyodo_650_caja_x_100_blist_x_10_tab",
+    "_id": "COIDE_batch-diyodo_650_caja_x_100_blist_x_10_tab-2026-45",
+    "product_id": "COIDE_diyodo_650_caja_x_100_blist_x_10_tab",
     "lot_code": "LOT-BAD0B31135",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -1184,8 +1184,8 @@
     }
   },
   {
-    "_id": "batch-dolovitanervo_kit_ampolla-2026-46",
-    "product_id": "dolovitanervo_kit_ampolla",
+    "_id": "COIDE_batch-dolovitanervo_kit_ampolla-2026-46",
+    "product_id": "COIDE_dolovitanervo_kit_ampolla",
     "lot_code": "LOT-01EB120F80",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -1202,8 +1202,8 @@
     }
   },
   {
-    "_id": "BODEGA-dolovitanervo_kit_ampolla-2026-46",
-    "product_id": "dolovitanervo_kit_ampolla",
+    "_id": "COIDE_BODEGA-dolovitanervo_kit_ampolla-2026-46",
+    "product_id": "COIDE_dolovitanervo_kit_ampolla",
     "lot_code": "LOT-F2ADD80092",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -1220,8 +1220,8 @@
     }
   },
   {
-    "_id": "batch-dorival_gel_200mg_caja_x_36_gelcaps-2026-47",
-    "product_id": "dorival_gel_200mg_caja_x_36_gelcaps",
+    "_id": "COIDE_batch-dorival_gel_200mg_caja_x_36_gelcaps-2026-47",
+    "product_id": "COIDE_dorival_gel_200mg_caja_x_36_gelcaps",
     "lot_code": "LOT-A23764F51B",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -1238,8 +1238,8 @@
     }
   },
   {
-    "_id": "BODEGA-dorival_gel_200mg_caja_x_36_gelcaps-2026-47",
-    "product_id": "dorival_gel_200mg_caja_x_36_gelcaps",
+    "_id": "COIDE_BODEGA-dorival_gel_200mg_caja_x_36_gelcaps-2026-47",
+    "product_id": "COIDE_dorival_gel_200mg_caja_x_36_gelcaps",
     "lot_code": "LOT-C9632EC8AE",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -1256,8 +1256,8 @@
     }
   },
   {
-    "_id": "batch-enteroguanil_adulto_dis_x_200_blist_x_4_tabs-2026-48",
-    "product_id": "enteroguanil_adulto_dis_x_200_blist_x_4_tabs",
+    "_id": "COIDE_batch-enteroguanil_adulto_dis_x_200_blist_x_4_tabs-2026-48",
+    "product_id": "COIDE_enteroguanil_adulto_dis_x_200_blist_x_4_tabs",
     "lot_code": "LOT-A15A30FD89",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -1274,8 +1274,8 @@
     }
   },
   {
-    "_id": "batch-escabin_jabon_de_azufre_80_grs_sante-2026-49",
-    "product_id": "escabin_jabon_de_azufre_80_grs_sante",
+    "_id": "COIDE_batch-escabin_jabon_de_azufre_80_grs_sante-2026-49",
+    "product_id": "COIDE_escabin_jabon_de_azufre_80_grs_sante",
     "lot_code": "LOT-292182BEB1",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -1292,8 +1292,8 @@
     }
   },
   {
-    "_id": "BODEGA-escabin_jabon_de_azufre_80_grs_sante-2026-49",
-    "product_id": "escabin_jabon_de_azufre_80_grs_sante",
+    "_id": "COIDE_BODEGA-escabin_jabon_de_azufre_80_grs_sante-2026-49",
+    "product_id": "COIDE_escabin_jabon_de_azufre_80_grs_sante",
     "lot_code": "LOT-9DBFA41F1C",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -1310,8 +1310,8 @@
     }
   },
   {
-    "_id": "batch-ferridoce_caja_x_30tab_blist_x_10-2026-50",
-    "product_id": "ferridoce_caja_x_30tab_blist_x_10",
+    "_id": "COIDE_batch-ferridoce_caja_x_30tab_blist_x_10-2026-50",
+    "product_id": "COIDE_ferridoce_caja_x_30tab_blist_x_10",
     "lot_code": "LOT-28B970BC31",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -1328,8 +1328,8 @@
     }
   },
   {
-    "_id": "batch-gasa_enfermerita__12_x_1_yd-2026-51",
-    "product_id": "gasa_enfermerita__12_x_1_yd",
+    "_id": "COIDE_batch-gasa_enfermerita__12_x_1_yd-2026-51",
+    "product_id": "COIDE_gasa_enfermerita__12_x_1_yd",
     "lot_code": "LOT-A48A6FE238",
     "expiration_date": null,
     "purchase_date": {
@@ -1344,8 +1344,8 @@
     }
   },
   {
-    "_id": "BODEGA-gasa_enfermerita__12_x_1_yd-2026-51",
-    "product_id": "gasa_enfermerita__12_x_1_yd",
+    "_id": "COIDE_BODEGA-gasa_enfermerita__12_x_1_yd-2026-51",
+    "product_id": "COIDE_gasa_enfermerita__12_x_1_yd",
     "lot_code": "LOT-01C720DA21",
     "expiration_date": null,
     "purchase_date": {
@@ -1360,8 +1360,8 @@
     }
   },
   {
-    "_id": "batch-gasa_enfermerita_3_x_1-2026-52",
-    "product_id": "gasa_enfermerita_3_x_1",
+    "_id": "COIDE_batch-gasa_enfermerita_3_x_1-2026-52",
+    "product_id": "COIDE_gasa_enfermerita_3_x_1",
     "lot_code": "LOT-190AD7A33A",
     "expiration_date": null,
     "purchase_date": {
@@ -1376,8 +1376,8 @@
     }
   },
   {
-    "_id": "BODEGA-gasa_enfermerita_3_x_1-2026-52",
-    "product_id": "gasa_enfermerita_3_x_1",
+    "_id": "COIDE_BODEGA-gasa_enfermerita_3_x_1-2026-52",
+    "product_id": "COIDE_gasa_enfermerita_3_x_1",
     "lot_code": "LOT-286D09F65E",
     "expiration_date": null,
     "purchase_date": {
@@ -1392,8 +1392,8 @@
     }
   },
   {
-    "_id": "batch-gasa_superior__2_x_10_yd-2026-53",
-    "product_id": "gasa_superior__2_x_10_yd",
+    "_id": "COIDE_batch-gasa_superior__2_x_10_yd-2026-53",
+    "product_id": "COIDE_gasa_superior__2_x_10_yd",
     "lot_code": "LOT-DC06EE202A",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -1410,8 +1410,8 @@
     }
   },
   {
-    "_id": "BODEGA-gasa_superior__2_x_10_yd-2026-53",
-    "product_id": "gasa_superior__2_x_10_yd",
+    "_id": "COIDE_BODEGA-gasa_superior__2_x_10_yd-2026-53",
+    "product_id": "COIDE_gasa_superior__2_x_10_yd",
     "lot_code": "LOT-2993CC3566",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -1428,8 +1428,8 @@
     }
   },
   {
-    "_id": "batch-gasa_superior__3_x_10_yd-2026-54",
-    "product_id": "gasa_superior__3_x_10_yd",
+    "_id": "COIDE_batch-gasa_superior__3_x_10_yd-2026-54",
+    "product_id": "COIDE_gasa_superior__3_x_10_yd",
     "lot_code": "LOT-FD23BF96D7",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -1446,8 +1446,8 @@
     }
   },
   {
-    "_id": "BODEGA-gasa_superior__3_x_10_yd-2026-54",
-    "product_id": "gasa_superior__3_x_10_yd",
+    "_id": "COIDE_BODEGA-gasa_superior__3_x_10_yd-2026-54",
+    "product_id": "COIDE_gasa_superior__3_x_10_yd",
     "lot_code": "LOT-8F5A8C2890",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -1464,8 +1464,8 @@
     }
   },
   {
-    "_id": "batch-gasa_superior__4_x_10-2026-55",
-    "product_id": "gasa_superior__4_x_10",
+    "_id": "COIDE_batch-gasa_superior__4_x_10-2026-55",
+    "product_id": "COIDE_gasa_superior__4_x_10",
     "lot_code": "LOT-576678E35D",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -1482,8 +1482,8 @@
     }
   },
   {
-    "_id": "BODEGA-gasa_superior__4_x_10-2026-55",
-    "product_id": "gasa_superior__4_x_10",
+    "_id": "COIDE_BODEGA-gasa_superior__4_x_10-2026-55",
+    "product_id": "COIDE_gasa_superior__4_x_10",
     "lot_code": "LOT-D7E97A46B1",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -1500,8 +1500,8 @@
     }
   },
   {
-    "_id": "batch-gasa_superior_6_x_10_yds-2026-56",
-    "product_id": "gasa_superior_6_x_10_yds",
+    "_id": "COIDE_batch-gasa_superior_6_x_10_yds-2026-56",
+    "product_id": "COIDE_gasa_superior_6_x_10_yds",
     "lot_code": "LOT-FBC82E3023",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -1518,8 +1518,8 @@
     }
   },
   {
-    "_id": "BODEGA-gasa_superior_6_x_10_yds-2026-56",
-    "product_id": "gasa_superior_6_x_10_yds",
+    "_id": "COIDE_BODEGA-gasa_superior_6_x_10_yds-2026-56",
+    "product_id": "COIDE_gasa_superior_6_x_10_yds",
     "lot_code": "LOT-9DBB8947C4",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -1536,8 +1536,8 @@
     }
   },
   {
-    "_id": "batch-gingivex_pinceladas_fco_27_ml-2026-57",
-    "product_id": "gingivex_pinceladas_fco_27_ml",
+    "_id": "COIDE_batch-gingivex_pinceladas_fco_27_ml-2026-57",
+    "product_id": "COIDE_gingivex_pinceladas_fco_27_ml",
     "lot_code": "LOT-5ADFD63137",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -1554,8 +1554,8 @@
     }
   },
   {
-    "_id": "BODEGA-gingivex_pinceladas_fco_27_ml-2026-57",
-    "product_id": "gingivex_pinceladas_fco_27_ml",
+    "_id": "COIDE_BODEGA-gingivex_pinceladas_fco_27_ml-2026-57",
+    "product_id": "COIDE_gingivex_pinceladas_fco_27_ml",
     "lot_code": "LOT-70C09B635C",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -1572,8 +1572,8 @@
     }
   },
   {
-    "_id": "batch-jabòn_hipoalergènico__100g_neutro-2026-58",
-    "product_id": "jabòn_hipoalergènico__100g_neutro",
+    "_id": "COIDE_batch-jabòn_hipoalergènico__100g_neutro-2026-58",
+    "product_id": "COIDE_jabòn_hipoalergènico__100g_neutro",
     "lot_code": "LOT-57A7EDBDA5",
     "expiration_date": null,
     "purchase_date": {
@@ -1588,8 +1588,8 @@
     }
   },
   {
-    "_id": "BODEGA-jabòn_hipoalergènico__100g_neutro-2026-58",
-    "product_id": "jabòn_hipoalergènico__100g_neutro",
+    "_id": "COIDE_BODEGA-jabòn_hipoalergènico__100g_neutro-2026-58",
+    "product_id": "COIDE_jabòn_hipoalergènico__100g_neutro",
     "lot_code": "LOT-028FD25AC0",
     "expiration_date": null,
     "purchase_date": {
@@ -1604,8 +1604,8 @@
     }
   },
   {
-    "_id": "batch-jeringa_5_cc_23_x_1_12-2026-59",
-    "product_id": "jeringa_5_cc_23_x_1_12",
+    "_id": "COIDE_batch-jeringa_5_cc_23_x_1_12-2026-59",
+    "product_id": "COIDE_jeringa_5_cc_23_x_1_12",
     "lot_code": "LOT-DD1A636782",
     "expiration_date": {
       "$date": "2029-08-01T00:00:00.000Z"
@@ -1622,8 +1622,8 @@
     }
   },
   {
-    "_id": "batch-kura_kura_lata_13_grs-2026-60",
-    "product_id": "kura_kura_lata_13_grs",
+    "_id": "COIDE_batch-kura_kura_lata_13_grs-2026-60",
+    "product_id": "COIDE_kura_kura_lata_13_grs",
     "lot_code": "LOT-4327E1D338",
     "expiration_date": null,
     "purchase_date": null,
@@ -1636,8 +1636,8 @@
     }
   },
   {
-    "_id": "batch-lassar_crema_lafco_120_grs-2026-61",
-    "product_id": "lassar_crema_lafco_120_grs",
+    "_id": "COIDE_batch-lassar_crema_lafco_120_grs-2026-61",
+    "product_id": "COIDE_lassar_crema_lafco_120_grs",
     "lot_code": "LOT-24C1EE6C23",
     "expiration_date": {
       "$date": "2030-02-01T00:00:00.000Z"
@@ -1654,8 +1654,8 @@
     }
   },
   {
-    "_id": "BODEGA-lassar_crema_lafco_120_grs-2026-61",
-    "product_id": "lassar_crema_lafco_120_grs",
+    "_id": "COIDE_BODEGA-lassar_crema_lafco_120_grs-2026-61",
+    "product_id": "COIDE_lassar_crema_lafco_120_grs",
     "lot_code": "LOT-ADB5F3C5B2",
     "expiration_date": {
       "$date": "2030-02-01T00:00:00.000Z"
@@ -1672,8 +1672,8 @@
     }
   },
   {
-    "_id": "batch-levadura_sante_frasco_x100tab-2026-62",
-    "product_id": "levadura_sante_frasco_x100tab",
+    "_id": "COIDE_batch-levadura_sante_frasco_x100tab-2026-62",
+    "product_id": "COIDE_levadura_sante_frasco_x100tab",
     "lot_code": "LOT-B6119EEBD3",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -1690,8 +1690,8 @@
     }
   },
   {
-    "_id": "BODEGA-levadura_sante_frasco_x100tab-2026-62",
-    "product_id": "levadura_sante_frasco_x100tab",
+    "_id": "COIDE_BODEGA-levadura_sante_frasco_x100tab-2026-62",
+    "product_id": "COIDE_levadura_sante_frasco_x100tab",
     "lot_code": "LOT-803698C9DF",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -1708,8 +1708,8 @@
     }
   },
   {
-    "_id": "batch-magnesia_de_salud_therfam_dispen_x_72_sob-2026-63",
-    "product_id": "magnesia_de_salud_therfam_dispen_x_72_sob",
+    "_id": "COIDE_batch-magnesia_de_salud_therfam_dispen_x_72_sob-2026-63",
+    "product_id": "COIDE_magnesia_de_salud_therfam_dispen_x_72_sob",
     "lot_code": "LOT-13511272FD",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -1726,8 +1726,8 @@
     }
   },
   {
-    "_id": "BODEGA-magnesia_de_salud_therfam_dispen_x_72_sob-2026-63",
-    "product_id": "magnesia_de_salud_therfam_dispen_x_72_sob",
+    "_id": "COIDE_BODEGA-magnesia_de_salud_therfam_dispen_x_72_sob-2026-63",
+    "product_id": "COIDE_magnesia_de_salud_therfam_dispen_x_72_sob",
     "lot_code": "LOT-EEE952955F",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -1744,8 +1744,8 @@
     }
   },
   {
-    "_id": "batch-mana_sobre_laxante_1_onz-2026-64",
-    "product_id": "mana_sobre_laxante_1_onz",
+    "_id": "COIDE_batch-mana_sobre_laxante_1_onz-2026-64",
+    "product_id": "COIDE_mana_sobre_laxante_1_onz",
     "lot_code": "LOT-64BED3F0CD",
     "expiration_date": null,
     "purchase_date": {
@@ -1760,8 +1760,8 @@
     }
   },
   {
-    "_id": "batch-manteca_de_cacao-2026-65",
-    "product_id": "manteca_de_cacao",
+    "_id": "COIDE_batch-manteca_de_cacao-2026-65",
+    "product_id": "COIDE_manteca_de_cacao",
     "lot_code": "LOT-EC2E0BD7C6",
     "expiration_date": null,
     "purchase_date": {
@@ -1776,8 +1776,8 @@
     }
   },
   {
-    "_id": "batch-mentol_davis_grande_12_grs-2026-66",
-    "product_id": "mentol_davis_grande_12_grs",
+    "_id": "COIDE_batch-mentol_davis_grande_12_grs-2026-66",
+    "product_id": "COIDE_mentol_davis_grande_12_grs",
     "lot_code": "LOT-269B4BC731",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -1794,8 +1794,8 @@
     }
   },
   {
-    "_id": "BODEGA-mentol_davis_grande_12_grs-2026-66",
-    "product_id": "mentol_davis_grande_12_grs",
+    "_id": "COIDE_BODEGA-mentol_davis_grande_12_grs-2026-66",
+    "product_id": "COIDE_mentol_davis_grande_12_grs",
     "lot_code": "LOT-665A320E5C",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -1812,8 +1812,8 @@
     }
   },
   {
-    "_id": "batch-meprogesico_ii__blister_x_10-2026-67",
-    "product_id": "meprogesico_ii__blister_x_10",
+    "_id": "COIDE_batch-meprogesico_ii__blister_x_10-2026-67",
+    "product_id": "COIDE_meprogesico_ii__blister_x_10",
     "lot_code": "LOT-74CDC28FEF",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -1830,8 +1830,8 @@
     }
   },
   {
-    "_id": "batch-micropore_cureband_blanco__2_x_10_yd-2026-68",
-    "product_id": "micropore_cureband_blanco__2_x_10_yd",
+    "_id": "COIDE_batch-micropore_cureband_blanco__2_x_10_yd-2026-68",
+    "product_id": "COIDE_micropore_cureband_blanco__2_x_10_yd",
     "lot_code": "LOT-51FCF3300A",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -1848,8 +1848,8 @@
     }
   },
   {
-    "_id": "BODEGA-micropore_cureband_blanco__2_x_10_yd-2026-68",
-    "product_id": "micropore_cureband_blanco__2_x_10_yd",
+    "_id": "COIDE_BODEGA-micropore_cureband_blanco__2_x_10_yd-2026-68",
+    "product_id": "COIDE_micropore_cureband_blanco__2_x_10_yd",
     "lot_code": "LOT-36A8D6A4FF",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -1866,8 +1866,8 @@
     }
   },
   {
-    "_id": "batch-micropore_cureband_piel_2_x_10_yd-2026-69",
-    "product_id": "micropore_cureband_piel_2_x_10_yd",
+    "_id": "COIDE_batch-micropore_cureband_piel_2_x_10_yd-2026-69",
+    "product_id": "COIDE_micropore_cureband_piel_2_x_10_yd",
     "lot_code": "LOT-DFC7F31DD1",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -1884,8 +1884,8 @@
     }
   },
   {
-    "_id": "BODEGA-micropore_cureband_piel_2_x_10_yd-2026-69",
-    "product_id": "micropore_cureband_piel_2_x_10_yd",
+    "_id": "COIDE_BODEGA-micropore_cureband_piel_2_x_10_yd-2026-69",
+    "product_id": "COIDE_micropore_cureband_piel_2_x_10_yd",
     "lot_code": "LOT-5C4266C25B",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -1902,8 +1902,8 @@
     }
   },
   {
-    "_id": "batch-micropore_piel_12_cureband-2026-70",
-    "product_id": "micropore_piel_12_cureband",
+    "_id": "COIDE_batch-micropore_piel_12_cureband-2026-70",
+    "product_id": "COIDE_micropore_piel_12_cureband",
     "lot_code": "LOT-CF66B3DF0F",
     "expiration_date": {
       "$date": "2029-06-01T00:00:00.000Z"
@@ -1920,8 +1920,8 @@
     }
   },
   {
-    "_id": "BODEGA-micropore_piel_12_cureband-2026-70",
-    "product_id": "micropore_piel_12_cureband",
+    "_id": "COIDE_BODEGA-micropore_piel_12_cureband-2026-70",
+    "product_id": "COIDE_micropore_piel_12_cureband",
     "lot_code": "LOT-C0CA3185C2",
     "expiration_date": {
       "$date": "2029-06-01T00:00:00.000Z"
@@ -1938,8 +1938,8 @@
     }
   },
   {
-    "_id": "batch-nauseol_1_ml_x_1_ampolla-2026-71",
-    "product_id": "nauseol_1_ml_x_1_ampolla",
+    "_id": "COIDE_batch-nauseol_1_ml_x_1_ampolla-2026-71",
+    "product_id": "COIDE_nauseol_1_ml_x_1_ampolla",
     "lot_code": "LOT-8B517F12C3",
     "expiration_date": {
       "$date": "2030-06-01T00:00:00.000Z"
@@ -1956,8 +1956,8 @@
     }
   },
   {
-    "_id": "BODEGA-nauseol_1_ml_x_1_ampolla-2026-71",
-    "product_id": "nauseol_1_ml_x_1_ampolla",
+    "_id": "COIDE_BODEGA-nauseol_1_ml_x_1_ampolla-2026-71",
+    "product_id": "COIDE_nauseol_1_ml_x_1_ampolla",
     "lot_code": "LOT-A6336E3B6A",
     "expiration_date": {
       "$date": "2030-06-01T00:00:00.000Z"
@@ -1974,8 +1974,8 @@
     }
   },
   {
-    "_id": "batch-nauseol_infantil_supositorios_x_6_bonin-2026-72",
-    "product_id": "nauseol_infantil_supositorios_x_6_bonin",
+    "_id": "COIDE_batch-nauseol_infantil_supositorios_x_6_bonin-2026-72",
+    "product_id": "COIDE_nauseol_infantil_supositorios_x_6_bonin",
     "lot_code": "LOT-63A9F515EC",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -1992,8 +1992,8 @@
     }
   },
   {
-    "_id": "BODEGA-nauseol_infantil_supositorios_x_6_bonin-2026-72",
-    "product_id": "nauseol_infantil_supositorios_x_6_bonin",
+    "_id": "COIDE_BODEGA-nauseol_infantil_supositorios_x_6_bonin-2026-72",
+    "product_id": "COIDE_nauseol_infantil_supositorios_x_6_bonin",
     "lot_code": "LOT-F89F28DEE1",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -2010,8 +2010,8 @@
     }
   },
   {
-    "_id": "batch-nauseol_susp_jbe_fco_60_ml-2026-73",
-    "product_id": "nauseol_susp_jbe_fco_60_ml",
+    "_id": "COIDE_batch-nauseol_susp_jbe_fco_60_ml-2026-73",
+    "product_id": "COIDE_nauseol_susp_jbe_fco_60_ml",
     "lot_code": "LOT-F36765D84E",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -2028,8 +2028,8 @@
     }
   },
   {
-    "_id": "batch-neomelubrina_caja_x_5_supositorios-2026-74",
-    "product_id": "neomelubrina_caja_x_5_supositorios",
+    "_id": "COIDE_batch-neomelubrina_caja_x_5_supositorios-2026-74",
+    "product_id": "COIDE_neomelubrina_caja_x_5_supositorios",
     "lot_code": "LOT-BEA1AB5E25",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -2046,8 +2046,8 @@
     }
   },
   {
-    "_id": "batch-neomelubrina_jbe_100_ml-2026-75",
-    "product_id": "neomelubrina_jbe_100_ml",
+    "_id": "COIDE_batch-neomelubrina_jbe_100_ml-2026-75",
+    "product_id": "COIDE_neomelubrina_jbe_100_ml",
     "lot_code": "LOT-83BECE8D72",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -2064,8 +2064,8 @@
     }
   },
   {
-    "_id": "batch-nervaden_caja_x_30_blist_x_10_caps-2026-76",
-    "product_id": "nervaden_caja_x_30_blist_x_10_caps",
+    "_id": "COIDE_batch-nervaden_caja_x_30_blist_x_10_caps-2026-76",
+    "product_id": "COIDE_nervaden_caja_x_30_blist_x_10_caps",
     "lot_code": "LOT-1D0FD0AD06",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -2082,8 +2082,8 @@
     }
   },
   {
-    "_id": "batch-nervifen_blist_x_10_caja_x_30_pheniel-2026-77",
-    "product_id": "nervifen_blist_x_10_caja_x_30_pheniel",
+    "_id": "COIDE_batch-nervifen_blist_x_10_caja_x_30_pheniel-2026-77",
+    "product_id": "COIDE_nervifen_blist_x_10_caja_x_30_pheniel",
     "lot_code": "LOT-B03AC5C75D",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -2100,8 +2100,8 @@
     }
   },
   {
-    "_id": "BODEGA-nervifen_blist_x_10_caja_x_30_pheniel-2026-77",
-    "product_id": "nervifen_blist_x_10_caja_x_30_pheniel",
+    "_id": "COIDE_BODEGA-nervifen_blist_x_10_caja_x_30_pheniel-2026-77",
+    "product_id": "COIDE_nervifen_blist_x_10_caja_x_30_pheniel",
     "lot_code": "LOT-12D9DFB459",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -2118,8 +2118,8 @@
     }
   },
   {
-    "_id": "batch-neumonil_forte_disp_x_100_blist_x_2_tab-2026-78",
-    "product_id": "neumonil_forte_disp_x_100_blist_x_2_tab",
+    "_id": "COIDE_batch-neumonil_forte_disp_x_100_blist_x_2_tab-2026-78",
+    "product_id": "COIDE_neumonil_forte_disp_x_100_blist_x_2_tab",
     "lot_code": "LOT-9C69C3217B",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -2136,8 +2136,8 @@
     }
   },
   {
-    "_id": "batch-neumonil_g_x_60_tabs-2026-79",
-    "product_id": "neumonil_g_x_60_tabs",
+    "_id": "COIDE_batch-neumonil_g_x_60_tabs-2026-79",
+    "product_id": "COIDE_neumonil_g_x_60_tabs",
     "lot_code": "LOT-D765E56A54",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -2154,8 +2154,8 @@
     }
   },
   {
-    "_id": "batch-nomagest_caja_x_1_ampolla_1_ml-2026-80",
-    "product_id": "nomagest_caja_x_1_ampolla_1_ml",
+    "_id": "COIDE_batch-nomagest_caja_x_1_ampolla_1_ml-2026-80",
+    "product_id": "COIDE_nomagest_caja_x_1_ampolla_1_ml",
     "lot_code": "LOT-AE37DFD322",
     "expiration_date": {
       "$date": "2030-02-01T00:00:00.000Z"
@@ -2172,8 +2172,8 @@
     }
   },
   {
-    "_id": "batch-oidol_gotas_15_ml-2026-81",
-    "product_id": "oidol_gotas_15_ml",
+    "_id": "COIDE_batch-oidol_gotas_15_ml-2026-81",
+    "product_id": "COIDE_oidol_gotas_15_ml",
     "lot_code": "LOT-502EAF2725",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -2190,8 +2190,8 @@
     }
   },
   {
-    "_id": "batch-ojo_de_aguila_gotas-2026-82",
-    "product_id": "ojo_de_aguila_gotas",
+    "_id": "COIDE_batch-ojo_de_aguila_gotas-2026-82",
+    "product_id": "COIDE_ojo_de_aguila_gotas",
     "lot_code": "LOT-223AF71E51",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2208,8 +2208,8 @@
     }
   },
   {
-    "_id": "BODEGA-ojo_de_aguila_gotas-2026-82",
-    "product_id": "ojo_de_aguila_gotas",
+    "_id": "COIDE_BODEGA-ojo_de_aguila_gotas-2026-82",
+    "product_id": "COIDE_ojo_de_aguila_gotas",
     "lot_code": "LOT-F76BD35DC8",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2226,8 +2226,8 @@
     }
   },
   {
-    "_id": "batch-orfengesic_orfeparac_blist_x_10_caja_x_20-2026-83",
-    "product_id": "orfengesic_orfeparac_blist_x_10_caja_x_20",
+    "_id": "COIDE_batch-orfengesic_orfeparac_blist_x_10_caja_x_20-2026-83",
+    "product_id": "COIDE_orfengesic_orfeparac_blist_x_10_caja_x_20",
     "lot_code": "LOT-F854378E33",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -2244,8 +2244,8 @@
     }
   },
   {
-    "_id": "BODEGA-orfengesic_orfeparac_blist_x_10_caja_x_20-2026-83",
-    "product_id": "orfengesic_orfeparac_blist_x_10_caja_x_20",
+    "_id": "COIDE_BODEGA-orfengesic_orfeparac_blist_x_10_caja_x_20-2026-83",
+    "product_id": "COIDE_orfengesic_orfeparac_blist_x_10_caja_x_20",
     "lot_code": "LOT-C21B13EBC0",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -2262,8 +2262,8 @@
     }
   },
   {
-    "_id": "batch-otik_gotas-2026-84",
-    "product_id": "otik_gotas",
+    "_id": "COIDE_batch-otik_gotas-2026-84",
+    "product_id": "COIDE_otik_gotas",
     "lot_code": "LOT-B24C3EB425",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2280,8 +2280,8 @@
     }
   },
   {
-    "_id": "BODEGA-otik_gotas-2026-84",
-    "product_id": "otik_gotas",
+    "_id": "COIDE_BODEGA-otik_gotas-2026-84",
+    "product_id": "COIDE_otik_gotas",
     "lot_code": "LOT-6E37EBAC74",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2298,8 +2298,8 @@
     }
   },
   {
-    "_id": "batch-panadol_niños_disp_x_100_tab_mastic-2026-85",
-    "product_id": "panadol_niños_disp_x_100_tab_mastic",
+    "_id": "COIDE_batch-panadol_niños_disp_x_100_tab_mastic-2026-85",
+    "product_id": "COIDE_panadol_niños_disp_x_100_tab_mastic",
     "lot_code": "LOT-8E079D90C5",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -2316,8 +2316,8 @@
     }
   },
   {
-    "_id": "batch-parche_leon-2026-86",
-    "product_id": "parche_leon",
+    "_id": "COIDE_batch-parche_leon-2026-86",
+    "product_id": "COIDE_parche_leon",
     "lot_code": "LOT-35F3E44E67",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -2334,8 +2334,8 @@
     }
   },
   {
-    "_id": "BODEGA-parche_leon-2026-86",
-    "product_id": "parche_leon",
+    "_id": "COIDE_BODEGA-parche_leon-2026-86",
+    "product_id": "COIDE_parche_leon",
     "lot_code": "LOT-B2EC082088",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -2352,8 +2352,8 @@
     }
   },
   {
-    "_id": "batch-pezonera_de_vidrio_edigar-2026-87",
-    "product_id": "pezonera_de_vidrio_edigar",
+    "_id": "COIDE_batch-pezonera_de_vidrio_edigar-2026-87",
+    "product_id": "COIDE_pezonera_de_vidrio_edigar",
     "lot_code": "LOT-A431BB4369",
     "expiration_date": null,
     "purchase_date": {
@@ -2368,8 +2368,8 @@
     }
   },
   {
-    "_id": "BODEGA-pezonera_de_vidrio_edigar-2026-87",
-    "product_id": "pezonera_de_vidrio_edigar",
+    "_id": "COIDE_BODEGA-pezonera_de_vidrio_edigar-2026-87",
+    "product_id": "COIDE_pezonera_de_vidrio_edigar",
     "lot_code": "LOT-63919B2235",
     "expiration_date": null,
     "purchase_date": {
@@ -2384,8 +2384,8 @@
     }
   },
   {
-    "_id": "batch-pomada_gms_12_grs-2026-88",
-    "product_id": "pomada_gms_12_grs",
+    "_id": "COIDE_batch-pomada_gms_12_grs-2026-88",
+    "product_id": "COIDE_pomada_gms_12_grs",
     "lot_code": "LOT-2C2C554D7A",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -2402,8 +2402,8 @@
     }
   },
   {
-    "_id": "BODEGA-pomada_gms_12_grs-2026-88",
-    "product_id": "pomada_gms_12_grs",
+    "_id": "COIDE_BODEGA-pomada_gms_12_grs-2026-88",
+    "product_id": "COIDE_pomada_gms_12_grs",
     "lot_code": "LOT-C2FD36008F",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -2420,8 +2420,8 @@
     }
   },
   {
-    "_id": "batch-pomada_gms_tarro_50_grs-2026-89",
-    "product_id": "pomada_gms_tarro_50_grs",
+    "_id": "COIDE_batch-pomada_gms_tarro_50_grs-2026-89",
+    "product_id": "COIDE_pomada_gms_tarro_50_grs",
     "lot_code": "LOT-CFA4BC334A",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -2438,8 +2438,8 @@
     }
   },
   {
-    "_id": "batch-reumetan_crema_30_grs_tubo-2026-90",
-    "product_id": "reumetan_crema_30_grs_tubo",
+    "_id": "COIDE_batch-reumetan_crema_30_grs_tubo-2026-90",
+    "product_id": "COIDE_reumetan_crema_30_grs_tubo",
     "lot_code": "LOT-E0777B9714",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2456,8 +2456,8 @@
     }
   },
   {
-    "_id": "BODEGA-reumetan_crema_30_grs_tubo-2026-90",
-    "product_id": "reumetan_crema_30_grs_tubo",
+    "_id": "COIDE_BODEGA-reumetan_crema_30_grs_tubo-2026-90",
+    "product_id": "COIDE_reumetan_crema_30_grs_tubo",
     "lot_code": "LOT-9665B1A131",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2474,8 +2474,8 @@
     }
   },
   {
-    "_id": "batch-reumetan_s_25_mg_blist_x_10_caja_x_100-2026-91",
-    "product_id": "reumetan_s_25_mg_blist_x_10_caja_x_100",
+    "_id": "COIDE_batch-reumetan_s_25_mg_blist_x_10_caja_x_100-2026-91",
+    "product_id": "COIDE_reumetan_s_25_mg_blist_x_10_caja_x_100",
     "lot_code": "LOT-A52DAEBE33",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -2492,8 +2492,8 @@
     }
   },
   {
-    "_id": "BODEGA-reumetan_s_25_mg_blist_x_10_caja_x_100-2026-91",
-    "product_id": "reumetan_s_25_mg_blist_x_10_caja_x_100",
+    "_id": "COIDE_BODEGA-reumetan_s_25_mg_blist_x_10_caja_x_100-2026-91",
+    "product_id": "COIDE_reumetan_s_25_mg_blist_x_10_caja_x_100",
     "lot_code": "LOT-07D27D71F5",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -2510,8 +2510,8 @@
     }
   },
   {
-    "_id": "batch-santemicina_75_grs_sobre_caja_x_50-2026-92",
-    "product_id": "santemicina_75_grs_sobre_caja_x_50",
+    "_id": "COIDE_batch-santemicina_75_grs_sobre_caja_x_50-2026-92",
+    "product_id": "COIDE_santemicina_75_grs_sobre_caja_x_50",
     "lot_code": "LOT-BEEDA44B1D",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -2528,8 +2528,8 @@
     }
   },
   {
-    "_id": "BODEGA-santemicina_75_grs_sobre_caja_x_50-2026-92",
-    "product_id": "santemicina_75_grs_sobre_caja_x_50",
+    "_id": "COIDE_BODEGA-santemicina_75_grs_sobre_caja_x_50-2026-92",
+    "product_id": "COIDE_santemicina_75_grs_sobre_caja_x_50",
     "lot_code": "LOT-1E1D1AA840",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -2546,8 +2546,8 @@
     }
   },
   {
-    "_id": "batch-scudo_natural_caja_x_3-2026-93",
-    "product_id": "scudo_natural_caja_x_3",
+    "_id": "COIDE_batch-scudo_natural_caja_x_3-2026-93",
+    "product_id": "COIDE_scudo_natural_caja_x_3",
     "lot_code": "LOT-3F4103BDB4",
     "expiration_date": {
       "$date": "2029-01-01T00:00:00.000Z"
@@ -2564,8 +2564,8 @@
     }
   },
   {
-    "_id": "batch-scudo_oro_retardante_caja_x_3-2026-94",
-    "product_id": "scudo_oro_retardante_caja_x_3",
+    "_id": "COIDE_batch-scudo_oro_retardante_caja_x_3-2026-94",
+    "product_id": "COIDE_scudo_oro_retardante_caja_x_3",
     "lot_code": "LOT-BF4412C092",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -2582,8 +2582,8 @@
     }
   },
   {
-    "_id": "BODEGA-scudo_oro_retardante_caja_x_3-2026-94",
-    "product_id": "scudo_oro_retardante_caja_x_3",
+    "_id": "COIDE_BODEGA-scudo_oro_retardante_caja_x_3-2026-94",
+    "product_id": "COIDE_scudo_oro_retardante_caja_x_3",
     "lot_code": "LOT-D74FA570F1",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -2600,8 +2600,8 @@
     }
   },
   {
-    "_id": "batch-sinsueño_blist_x_10-2026-95",
-    "product_id": "sinsueño_blist_x_10",
+    "_id": "COIDE_batch-sinsueño_blist_x_10-2026-95",
+    "product_id": "COIDE_sinsueño_blist_x_10",
     "lot_code": "LOT-373ED64C6A",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -2618,8 +2618,8 @@
     }
   },
   {
-    "_id": "BODEGA-sinsueño_blist_x_10-2026-95",
-    "product_id": "sinsueño_blist_x_10",
+    "_id": "COIDE_BODEGA-sinsueño_blist_x_10-2026-95",
+    "product_id": "COIDE_sinsueño_blist_x_10",
     "lot_code": "LOT-95A1D80F0D",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -2636,8 +2636,8 @@
     }
   },
   {
-    "_id": "batch-solutina_gotas_oftalmicas-2026-96",
-    "product_id": "solutina_gotas_oftalmicas",
+    "_id": "COIDE_batch-solutina_gotas_oftalmicas-2026-96",
+    "product_id": "COIDE_solutina_gotas_oftalmicas",
     "lot_code": "LOT-204EEB4BA5",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2654,8 +2654,8 @@
     }
   },
   {
-    "_id": "batch-sucrassyl_caja_x_30_pahil-2026-97",
-    "product_id": "sucrassyl_caja_x_30_pahil",
+    "_id": "COIDE_batch-sucrassyl_caja_x_30_pahil-2026-97",
+    "product_id": "COIDE_sucrassyl_caja_x_30_pahil",
     "lot_code": "LOT-72EE552CEE",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -2672,8 +2672,8 @@
     }
   },
   {
-    "_id": "BODEGA-sucrassyl_caja_x_30_pahil-2026-97",
-    "product_id": "sucrassyl_caja_x_30_pahil",
+    "_id": "COIDE_BODEGA-sucrassyl_caja_x_30_pahil-2026-97",
+    "product_id": "COIDE_sucrassyl_caja_x_30_pahil",
     "lot_code": "LOT-01E32F02BA",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -2690,8 +2690,8 @@
     }
   },
   {
-    "_id": "batch-suero_mixto_5_fco_500_ml-2026-98",
-    "product_id": "suero_mixto_5_fco_500_ml",
+    "_id": "COIDE_batch-suero_mixto_5_fco_500_ml-2026-98",
+    "product_id": "COIDE_suero_mixto_5_fco_500_ml",
     "lot_code": "LOT-39457D13BC",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -2708,8 +2708,8 @@
     }
   },
   {
-    "_id": "batch-tabcin_ad_fm_ef_dispen_x_72_sobresceleste-2026-99",
-    "product_id": "tabcin_ad_fm_ef_dispen_x_72_sobresceleste",
+    "_id": "COIDE_batch-tabcin_ad_fm_ef_dispen_x_72_sobresceleste-2026-99",
+    "product_id": "COIDE_tabcin_ad_fm_ef_dispen_x_72_sobresceleste",
     "lot_code": "LOT-21FDEC0A02",
     "expiration_date": {
       "$date": "2026-11-01T00:00:00.000Z"
@@ -2726,8 +2726,8 @@
     }
   },
   {
-    "_id": "batch-tabcin_extra_fuerte_x_60_eferv_rojo-2026-100",
-    "product_id": "tabcin_extra_fuerte_x_60_eferv_rojo",
+    "_id": "COIDE_batch-tabcin_extra_fuerte_x_60_eferv_rojo-2026-100",
+    "product_id": "COIDE_tabcin_extra_fuerte_x_60_eferv_rojo",
     "lot_code": "LOT-B817D7B332",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -2744,8 +2744,8 @@
     }
   },
   {
-    "_id": "batch-tabcin_gripe_y_tos_x_60_tabs_eferv_morado-2026-101",
-    "product_id": "tabcin_gripe_y_tos_x_60_tabs_eferv_morado",
+    "_id": "COIDE_batch-tabcin_gripe_y_tos_x_60_tabs_eferv_morado-2026-101",
+    "product_id": "COIDE_tabcin_gripe_y_tos_x_60_tabs_eferv_morado",
     "lot_code": "LOT-51E79D3E6F",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -2762,8 +2762,8 @@
     }
   },
   {
-    "_id": "batch-tabcin_niños_disp_x_48_blist_x_12_mastic-2026-102",
-    "product_id": "tabcin_niños_disp_x_48_blist_x_12_mastic",
+    "_id": "COIDE_batch-tabcin_niños_disp_x_48_blist_x_12_mastic-2026-102",
+    "product_id": "COIDE_tabcin_niños_disp_x_48_blist_x_12_mastic",
     "lot_code": "LOT-AF0A51749F",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -2780,8 +2780,8 @@
     }
   },
   {
-    "_id": "batch-tabcin_niños_x_60_eferv-2026-103",
-    "product_id": "tabcin_niños_x_60_eferv",
+    "_id": "COIDE_batch-tabcin_niños_x_60_eferv-2026-103",
+    "product_id": "COIDE_tabcin_niños_x_60_eferv",
     "lot_code": "LOT-885354FC50",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -2798,8 +2798,8 @@
     }
   },
   {
-    "_id": "BODEGA-tabcin_niños_x_60_eferv-2026-103",
-    "product_id": "tabcin_niños_x_60_eferv",
+    "_id": "COIDE_BODEGA-tabcin_niños_x_60_eferv-2026-103",
+    "product_id": "COIDE_tabcin_niños_x_60_eferv",
     "lot_code": "LOT-5794E6DC0F",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -2816,8 +2816,8 @@
     }
   },
   {
-    "_id": "batch-talco_dermog11_300_grs-2026-104",
-    "product_id": "talco_dermog11_300_grs",
+    "_id": "COIDE_batch-talco_dermog11_300_grs-2026-104",
+    "product_id": "COIDE_talco_dermog11_300_grs",
     "lot_code": "LOT-091467E2D5",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2834,8 +2834,8 @@
     }
   },
   {
-    "_id": "BODEGA-talco_dermog11_300_grs-2026-104",
-    "product_id": "talco_dermog11_300_grs",
+    "_id": "COIDE_BODEGA-talco_dermog11_300_grs-2026-104",
+    "product_id": "COIDE_talco_dermog11_300_grs",
     "lot_code": "LOT-57DADD2B77",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2852,8 +2852,8 @@
     }
   },
   {
-    "_id": "batch-talco_sudorin_110_grs-2026-105",
-    "product_id": "talco_sudorin_110_grs",
+    "_id": "COIDE_batch-talco_sudorin_110_grs-2026-105",
+    "product_id": "COIDE_talco_sudorin_110_grs",
     "lot_code": "LOT-BB6A6E2C3A",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -2870,8 +2870,8 @@
     }
   },
   {
-    "_id": "batch-termometro_de_cinta_meditem_front-2026-106",
-    "product_id": "termometro_de_cinta_meditem_front",
+    "_id": "COIDE_batch-termometro_de_cinta_meditem_front-2026-106",
+    "product_id": "COIDE_termometro_de_cinta_meditem_front",
     "lot_code": "LOT-17086E30D0",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -2888,8 +2888,8 @@
     }
   },
   {
-    "_id": "BODEGA-termometro_de_cinta_meditem_front-2026-106",
-    "product_id": "termometro_de_cinta_meditem_front",
+    "_id": "COIDE_BODEGA-termometro_de_cinta_meditem_front-2026-106",
+    "product_id": "COIDE_termometro_de_cinta_meditem_front",
     "lot_code": "LOT-9C1B4399B2",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -2906,8 +2906,8 @@
     }
   },
   {
-    "_id": "batch-tiamina_100_mg_fco_x_10__ml_piersan-2026-107",
-    "product_id": "tiamina_100_mg_fco_x_10__ml_piersan",
+    "_id": "COIDE_batch-tiamina_100_mg_fco_x_10__ml_piersan-2026-107",
+    "product_id": "COIDE_tiamina_100_mg_fco_x_10__ml_piersan",
     "lot_code": "LOT-E551270341",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -2924,8 +2924,8 @@
     }
   },
   {
-    "_id": "batch-tintura_de_yodo_negro_1_onz-2026-108",
-    "product_id": "tintura_de_yodo_negro_1_onz",
+    "_id": "COIDE_batch-tintura_de_yodo_negro_1_onz-2026-108",
+    "product_id": "COIDE_tintura_de_yodo_negro_1_onz",
     "lot_code": "LOT-AED665790D",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2942,8 +2942,8 @@
     }
   },
   {
-    "_id": "batch-tira_leche_dan_plastico-2026-109",
-    "product_id": "tira_leche_dan_plastico",
+    "_id": "COIDE_batch-tira_leche_dan_plastico-2026-109",
+    "product_id": "COIDE_tira_leche_dan_plastico",
     "lot_code": "LOT-1F728478AE",
     "expiration_date": {
       "$date": "2029-12-01T00:00:00.000Z"
@@ -2960,8 +2960,8 @@
     }
   },
   {
-    "_id": "BODEGA-tira_leche_dan_plastico-2026-109",
-    "product_id": "tira_leche_dan_plastico",
+    "_id": "COIDE_BODEGA-tira_leche_dan_plastico-2026-109",
+    "product_id": "COIDE_tira_leche_dan_plastico",
     "lot_code": "LOT-ECA2FB58E4",
     "expiration_date": {
       "$date": "2029-12-01T00:00:00.000Z"
@@ -2978,8 +2978,8 @@
     }
   },
   {
-    "_id": "batch-venditas_curebands_kids_niña_caja_x_20-2026-110",
-    "product_id": "venditas_curebands_kids_niña_caja_x_20",
+    "_id": "COIDE_batch-venditas_curebands_kids_niña_caja_x_20-2026-110",
+    "product_id": "COIDE_venditas_curebands_kids_niña_caja_x_20",
     "lot_code": "LOT-6B5417D5B5",
     "expiration_date": null,
     "purchase_date": {
@@ -2994,8 +2994,8 @@
     }
   },
   {
-    "_id": "batch-vick_inhalador-2026-111",
-    "product_id": "vick_inhalador",
+    "_id": "COIDE_batch-vick_inhalador-2026-111",
+    "product_id": "COIDE_vick_inhalador",
     "lot_code": "LOT-2E748740AA",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -3012,8 +3012,8 @@
     }
   },
   {
-    "_id": "BODEGA-vick_inhalador-2026-111",
-    "product_id": "vick_inhalador",
+    "_id": "COIDE_BODEGA-vick_inhalador-2026-111",
+    "product_id": "COIDE_vick_inhalador",
     "lot_code": "LOT-59165F25F7",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -3030,8 +3030,8 @@
     }
   },
   {
-    "_id": "batch-vick_tarro_100_grs-2026-112",
-    "product_id": "vick_tarro_100_grs",
+    "_id": "COIDE_batch-vick_tarro_100_grs-2026-112",
+    "product_id": "COIDE_vick_tarro_100_grs",
     "lot_code": "LOT-C47F42A2A4",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -3048,8 +3048,8 @@
     }
   },
   {
-    "_id": "batch-vick_tarro_50_grs-2026-113",
-    "product_id": "vick_tarro_50_grs",
+    "_id": "COIDE_batch-vick_tarro_50_grs-2026-113",
+    "product_id": "COIDE_vick_tarro_50_grs",
     "lot_code": "LOT-186A8ECC37",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -3066,8 +3066,8 @@
     }
   },
   {
-    "_id": "BODEGA-vick_tarro_50_grs-2026-113",
-    "product_id": "vick_tarro_50_grs",
+    "_id": "COIDE_BODEGA-vick_tarro_50_grs-2026-113",
+    "product_id": "COIDE_vick_tarro_50_grs",
     "lot_code": "LOT-BAE3486880",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -3084,8 +3084,8 @@
     }
   },
   {
-    "_id": "batch-viro_grip_gripe_y_tos_jbe_120_ml-2026-114",
-    "product_id": "viro_grip_gripe_y_tos_jbe_120_ml",
+    "_id": "COIDE_batch-viro_grip_gripe_y_tos_jbe_120_ml-2026-114",
+    "product_id": "COIDE_viro_grip_gripe_y_tos_jbe_120_ml",
     "lot_code": "LOT-6279F9FFB6",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -3102,8 +3102,8 @@
     }
   },
   {
-    "_id": "BODEGA-viro_grip_gripe_y_tos_jbe_120_ml-2026-114",
-    "product_id": "viro_grip_gripe_y_tos_jbe_120_ml",
+    "_id": "COIDE_BODEGA-viro_grip_gripe_y_tos_jbe_120_ml-2026-114",
+    "product_id": "COIDE_viro_grip_gripe_y_tos_jbe_120_ml",
     "lot_code": "LOT-07643BB793",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -3120,8 +3120,8 @@
     }
   },
   {
-    "_id": "batch-vitamina_c_zinc_mk_caja_x_100_blist_x_10-2026-115",
-    "product_id": "vitamina_c_zinc_mk_caja_x_100_blist_x_10",
+    "_id": "COIDE_batch-vitamina_c_zinc_mk_caja_x_100_blist_x_10-2026-115",
+    "product_id": "COIDE_vitamina_c_zinc_mk_caja_x_100_blist_x_10",
     "lot_code": "LOT-AF02B4F08A",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -3138,8 +3138,8 @@
     }
   },
   {
-    "_id": "BODEGA-vitamina_c_zinc_mk_caja_x_100_blist_x_10-2026-115",
-    "product_id": "vitamina_c_zinc_mk_caja_x_100_blist_x_10",
+    "_id": "COIDE_BODEGA-vitamina_c_zinc_mk_caja_x_100_blist_x_10-2026-115",
+    "product_id": "COIDE_vitamina_c_zinc_mk_caja_x_100_blist_x_10",
     "lot_code": "LOT-D9827730E8",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -3156,8 +3156,8 @@
     }
   },
   {
-    "_id": "batch-vitanervo_25000_kit_amp_piersan-2026-116",
-    "product_id": "vitanervo_25000_kit_amp_piersan",
+    "_id": "COIDE_batch-vitanervo_25000_kit_amp_piersan-2026-116",
+    "product_id": "COIDE_vitanervo_25000_kit_amp_piersan",
     "lot_code": "LOT-DA08DF4305",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -3174,8 +3174,8 @@
     }
   },
   {
-    "_id": "BODEGA-vitanervo_25000_kit_amp_piersan-2026-116",
-    "product_id": "vitanervo_25000_kit_amp_piersan",
+    "_id": "COIDE_BODEGA-vitanervo_25000_kit_amp_piersan-2026-116",
+    "product_id": "COIDE_vitanervo_25000_kit_amp_piersan",
     "lot_code": "LOT-63639EB7A2",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -3192,8 +3192,8 @@
     }
   },
   {
-    "_id": "batch-vitapyrena_disp_x50-2026-117",
-    "product_id": "vitapyrena_disp_x50",
+    "_id": "COIDE_batch-vitapyrena_disp_x50-2026-117",
+    "product_id": "COIDE_vitapyrena_disp_x50",
     "lot_code": "LOT-2B2070E376",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -3210,8 +3210,8 @@
     }
   },
   {
-    "_id": "BODEGA-vitapyrena_disp_x50-2026-117",
-    "product_id": "vitapyrena_disp_x50",
+    "_id": "COIDE_BODEGA-vitapyrena_disp_x50-2026-117",
+    "product_id": "COIDE_vitapyrena_disp_x50",
     "lot_code": "LOT-C5A5D29CA2",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -3228,8 +3228,8 @@
     }
   },
   {
-    "_id": "batch-xiconeural_caja_x_30_inductor_del_sueño-2026-118",
-    "product_id": "xiconeural_caja_x_30_inductor_del_sueño",
+    "_id": "COIDE_batch-xiconeural_caja_x_30_inductor_del_sueño-2026-118",
+    "product_id": "COIDE_xiconeural_caja_x_30_inductor_del_sueño",
     "lot_code": "LOT-F8F926D2D5",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -3246,8 +3246,8 @@
     }
   },
   {
-    "_id": "BODEGA-xiconeural_caja_x_30_inductor_del_sueño-2026-118",
-    "product_id": "xiconeural_caja_x_30_inductor_del_sueño",
+    "_id": "COIDE_BODEGA-xiconeural_caja_x_30_inductor_del_sueño-2026-118",
+    "product_id": "COIDE_xiconeural_caja_x_30_inductor_del_sueño",
     "lot_code": "LOT-CADAE0F5F4",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -3264,8 +3264,8 @@
     }
   },
   {
-    "_id": "batch-xirmen_4_mg_2_ml_x_1_amp_inyect-2026-119",
-    "product_id": "xirmen_4_mg_2_ml_x_1_amp_inyect",
+    "_id": "COIDE_batch-xirmen_4_mg_2_ml_x_1_amp_inyect-2026-119",
+    "product_id": "COIDE_xirmen_4_mg_2_ml_x_1_amp_inyect",
     "lot_code": "LOT-2ABA644F59",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -3282,8 +3282,8 @@
     }
   },
   {
-    "_id": "BODEGA-xirmen_4_mg_2_ml_x_1_amp_inyect-2026-119",
-    "product_id": "xirmen_4_mg_2_ml_x_1_amp_inyect",
+    "_id": "COIDE_BODEGA-xirmen_4_mg_2_ml_x_1_amp_inyect-2026-119",
+    "product_id": "COIDE_xirmen_4_mg_2_ml_x_1_amp_inyect",
     "lot_code": "LOT-CCE25EBEE7",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"

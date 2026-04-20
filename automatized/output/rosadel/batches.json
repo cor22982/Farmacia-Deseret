@@ -1,7 +1,7 @@
 [
   {
-    "_id": "batch-abrexil_susp_120ml-2026-1",
-    "product_id": "abrexil_susp_120ml",
+    "_id": "ROSADEL_batch-abrexil_susp_120ml-2026-1",
+    "product_id": "ROSADEL_abrexil_susp_120ml",
     "lot_code": "LOT-A5AE7D57FF",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -18,8 +18,8 @@
     }
   },
   {
-    "_id": "BODEGA-abrexil_susp_120ml-2026-1",
-    "product_id": "abrexil_susp_120ml",
+    "_id": "ROSADEL_BODEGA-abrexil_susp_120ml-2026-1",
+    "product_id": "ROSADEL_abrexil_susp_120ml",
     "lot_code": "LOT-387844D90C",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -36,8 +36,8 @@
     }
   },
   {
-    "_id": "batch-acetaminofen_gotas_100_mg_fco_30_ml_selec-2026-2",
-    "product_id": "acetaminofen_gotas_100_mg_fco_30_ml_selec",
+    "_id": "ROSADEL_batch-acetaminofen_gotas_100_mg_fco_30_ml_selec-2026-2",
+    "product_id": "ROSADEL_acetaminofen_gotas_100_mg_fco_30_ml_selec",
     "lot_code": "LOT-6E7ECEAE3B",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -54,8 +54,8 @@
     }
   },
   {
-    "_id": "BODEGA-acetaminofen_gotas_100_mg_fco_30_ml_selec-2026-2",
-    "product_id": "acetaminofen_gotas_100_mg_fco_30_ml_selec",
+    "_id": "ROSADEL_BODEGA-acetaminofen_gotas_100_mg_fco_30_ml_selec-2026-2",
+    "product_id": "ROSADEL_acetaminofen_gotas_100_mg_fco_30_ml_selec",
     "lot_code": "LOT-BFE4540DB3",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -72,8 +72,8 @@
     }
   },
   {
-    "_id": "batch-acetaminofen_jbe_120_ml_selec-2026-3",
-    "product_id": "acetaminofen_jbe_120_ml_selec",
+    "_id": "ROSADEL_batch-acetaminofen_jbe_120_ml_selec-2026-3",
+    "product_id": "ROSADEL_acetaminofen_jbe_120_ml_selec",
     "lot_code": "LOT-7314FD6A65",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -90,8 +90,8 @@
     }
   },
   {
-    "_id": "BODEGA-acetaminofen_jbe_120_ml_selec-2026-3",
-    "product_id": "acetaminofen_jbe_120_ml_selec",
+    "_id": "ROSADEL_BODEGA-acetaminofen_jbe_120_ml_selec-2026-3",
+    "product_id": "ROSADEL_acetaminofen_jbe_120_ml_selec",
     "lot_code": "LOT-FC6889CA7A",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -108,8 +108,8 @@
     }
   },
   {
-    "_id": "batch-aciclovir_400_mg_blist_x_10_caja_x_50_selec-2026-4",
-    "product_id": "aciclovir_400_mg_blist_x_10_caja_x_50_selec",
+    "_id": "ROSADEL_batch-aciclovir_400_mg_blist_x_10_caja_x_50_selec-2026-4",
+    "product_id": "ROSADEL_aciclovir_400_mg_blist_x_10_caja_x_50_selec",
     "lot_code": "LOT-B0530772CA",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -126,8 +126,8 @@
     }
   },
   {
-    "_id": "BODEGA-aciclovir_400_mg_blist_x_10_caja_x_50_selec-2026-4",
-    "product_id": "aciclovir_400_mg_blist_x_10_caja_x_50_selec",
+    "_id": "ROSADEL_BODEGA-aciclovir_400_mg_blist_x_10_caja_x_50_selec-2026-4",
+    "product_id": "ROSADEL_aciclovir_400_mg_blist_x_10_caja_x_50_selec",
     "lot_code": "LOT-FE3948EB7F",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -144,8 +144,8 @@
     }
   },
   {
-    "_id": "batch-aciclovir_5_crema_10_gms_selec-2026-5",
-    "product_id": "aciclovir_5_crema_10_gms_selec",
+    "_id": "ROSADEL_batch-aciclovir_5_crema_10_gms_selec-2026-5",
+    "product_id": "ROSADEL_aciclovir_5_crema_10_gms_selec",
     "lot_code": "LOT-E4FF17621B",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -162,8 +162,8 @@
     }
   },
   {
-    "_id": "BODEGA-aciclovir_5_crema_10_gms_selec-2026-5",
-    "product_id": "aciclovir_5_crema_10_gms_selec",
+    "_id": "ROSADEL_BODEGA-aciclovir_5_crema_10_gms_selec-2026-5",
+    "product_id": "ROSADEL_aciclovir_5_crema_10_gms_selec",
     "lot_code": "LOT-223DE927A7",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -180,8 +180,8 @@
     }
   },
   {
-    "_id": "batch-acido_folico_5_mg_blister_x_20_caja_x_100_selec-2026-6",
-    "product_id": "acido_folico_5_mg_blister_x_20_caja_x_100_selec",
+    "_id": "ROSADEL_batch-acido_folico_5_mg_blister_x_20_caja_x_100_selec-2026-6",
+    "product_id": "ROSADEL_acido_folico_5_mg_blister_x_20_caja_x_100_selec",
     "lot_code": "LOT-AF22F90BDA",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -198,8 +198,8 @@
     }
   },
   {
-    "_id": "batch-agua_oxigenada_3_sol_loralva_120_ml-2026-7",
-    "product_id": "agua_oxigenada_3_sol_loralva_120_ml",
+    "_id": "ROSADEL_batch-agua_oxigenada_3_sol_loralva_120_ml-2026-7",
+    "product_id": "ROSADEL_agua_oxigenada_3_sol_loralva_120_ml",
     "lot_code": "LOT-56A277A7AA",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -216,8 +216,8 @@
     }
   },
   {
-    "_id": "BODEGA-agua_oxigenada_3_sol_loralva_120_ml-2026-7",
-    "product_id": "agua_oxigenada_3_sol_loralva_120_ml",
+    "_id": "ROSADEL_BODEGA-agua_oxigenada_3_sol_loralva_120_ml-2026-7",
+    "product_id": "ROSADEL_agua_oxigenada_3_sol_loralva_120_ml",
     "lot_code": "LOT-5995C9072E",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -234,8 +234,8 @@
     }
   },
   {
-    "_id": "batch-albendazol_200mg5ml_susp_selecpharma-2026-8",
-    "product_id": "albendazol_200mg5ml_susp_selecpharma",
+    "_id": "ROSADEL_batch-albendazol_200mg5ml_susp_selecpharma-2026-8",
+    "product_id": "ROSADEL_albendazol_200mg5ml_susp_selecpharma",
     "lot_code": "LOT-68772E512C",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -252,8 +252,8 @@
     }
   },
   {
-    "_id": "BODEGA-albendazol_200mg5ml_susp_selecpharma-2026-8",
-    "product_id": "albendazol_200mg5ml_susp_selecpharma",
+    "_id": "ROSADEL_BODEGA-albendazol_200mg5ml_susp_selecpharma-2026-8",
+    "product_id": "ROSADEL_albendazol_200mg5ml_susp_selecpharma",
     "lot_code": "LOT-BF26215999",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -270,8 +270,8 @@
     }
   },
   {
-    "_id": "batch-alermine_cort_caja_x_10_tabs-2026-9",
-    "product_id": "alermine_cort_caja_x_10_tabs",
+    "_id": "ROSADEL_batch-alermine_cort_caja_x_10_tabs-2026-9",
+    "product_id": "ROSADEL_alermine_cort_caja_x_10_tabs",
     "lot_code": "LOT-4BEF3E11D7",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -288,8 +288,8 @@
     }
   },
   {
-    "_id": "batch-alermine_cort_jbe_60_ml-2026-10",
-    "product_id": "alermine_cort_jbe_60_ml",
+    "_id": "ROSADEL_batch-alermine_cort_jbe_60_ml-2026-10",
+    "product_id": "ROSADEL_alermine_cort_jbe_60_ml",
     "lot_code": "LOT-5F8E6FB0F5",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -306,8 +306,8 @@
     }
   },
   {
-    "_id": "BODEGA-alermine_cort_jbe_60_ml-2026-10",
-    "product_id": "alermine_cort_jbe_60_ml",
+    "_id": "ROSADEL_BODEGA-alermine_cort_jbe_60_ml-2026-10",
+    "product_id": "ROSADEL_alermine_cort_jbe_60_ml",
     "lot_code": "LOT-AAAD34F9CE",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -324,8 +324,8 @@
     }
   },
   {
-    "_id": "batch-amoxicilina_250_mg_120_ml_select-2026-11",
-    "product_id": "amoxicilina_250_mg_120_ml_select",
+    "_id": "ROSADEL_batch-amoxicilina_250_mg_120_ml_select-2026-11",
+    "product_id": "ROSADEL_amoxicilina_250_mg_120_ml_select",
     "lot_code": "LOT-21A73F5853",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -342,8 +342,8 @@
     }
   },
   {
-    "_id": "batch-amoxicilina_gotas_100_mgs_15_ml_selec-2026-12",
-    "product_id": "amoxicilina_gotas_100_mgs_15_ml_selec",
+    "_id": "ROSADEL_batch-amoxicilina_gotas_100_mgs_15_ml_selec-2026-12",
+    "product_id": "ROSADEL_amoxicilina_gotas_100_mgs_15_ml_selec",
     "lot_code": "LOT-91856E8D34",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -360,8 +360,8 @@
     }
   },
   {
-    "_id": "batch-amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14-2026-13",
-    "product_id": "amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14",
+    "_id": "ROSADEL_batch-amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14-2026-13",
+    "product_id": "ROSADEL_amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14",
     "lot_code": "LOT-8A6C569024",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -378,8 +378,8 @@
     }
   },
   {
-    "_id": "BODEGA-amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14-2026-13",
-    "product_id": "amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14",
+    "_id": "ROSADEL_BODEGA-amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14-2026-13",
+    "product_id": "ROSADEL_amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14",
     "lot_code": "LOT-EF7A7A7F01",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -396,8 +396,8 @@
     }
   },
   {
-    "_id": "batch-antigrip_sobre_x_4_tab_disp_x_100-2026-14",
-    "product_id": "antigrip_sobre_x_4_tab_disp_x_100",
+    "_id": "ROSADEL_batch-antigrip_sobre_x_4_tab_disp_x_100-2026-14",
+    "product_id": "ROSADEL_antigrip_sobre_x_4_tab_disp_x_100",
     "lot_code": "LOT-33FAEFE791",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -414,8 +414,8 @@
     }
   },
   {
-    "_id": "BODEGA-antigrip_sobre_x_4_tab_disp_x_100-2026-14",
-    "product_id": "antigrip_sobre_x_4_tab_disp_x_100",
+    "_id": "ROSADEL_BODEGA-antigrip_sobre_x_4_tab_disp_x_100-2026-14",
+    "product_id": "ROSADEL_antigrip_sobre_x_4_tab_disp_x_100",
     "lot_code": "LOT-B1CC3E492E",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -432,8 +432,8 @@
     }
   },
   {
-    "_id": "batch-antigripito_sobre_x_4_tab_disp_x_100-2026-15",
-    "product_id": "antigripito_sobre_x_4_tab_disp_x_100",
+    "_id": "ROSADEL_batch-antigripito_sobre_x_4_tab_disp_x_100-2026-15",
+    "product_id": "ROSADEL_antigripito_sobre_x_4_tab_disp_x_100",
     "lot_code": "LOT-98A0B23C52",
     "expiration_date": null,
     "purchase_date": {
@@ -448,8 +448,8 @@
     }
   },
   {
-    "_id": "batch-atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10-2026-16",
-    "product_id": "atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10",
+    "_id": "ROSADEL_batch-atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10-2026-16",
+    "product_id": "ROSADEL_atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10",
     "lot_code": "LOT-DD91A3DFAB",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -466,8 +466,8 @@
     }
   },
   {
-    "_id": "BODEGA-atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10-2026-16",
-    "product_id": "atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10",
+    "_id": "ROSADEL_BODEGA-atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10-2026-16",
+    "product_id": "ROSADEL_atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10",
     "lot_code": "LOT-54327CA00E",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -484,8 +484,8 @@
     }
   },
   {
-    "_id": "batch-azitromicina_500_mgs_caja_x_5_select-2026-17",
-    "product_id": "azitromicina_500_mgs_caja_x_5_select",
+    "_id": "ROSADEL_batch-azitromicina_500_mgs_caja_x_5_select-2026-17",
+    "product_id": "ROSADEL_azitromicina_500_mgs_caja_x_5_select",
     "lot_code": "LOT-1329691F49",
     "expiration_date": {
       "$date": "2029-09-01T00:00:00.000Z"
@@ -502,8 +502,8 @@
     }
   },
   {
-    "_id": "BODEGA-azitromicina_500_mgs_caja_x_5_select-2026-17",
-    "product_id": "azitromicina_500_mgs_caja_x_5_select",
+    "_id": "ROSADEL_BODEGA-azitromicina_500_mgs_caja_x_5_select-2026-17",
+    "product_id": "ROSADEL_azitromicina_500_mgs_caja_x_5_select",
     "lot_code": "LOT-ED1A1A9F0E",
     "expiration_date": {
       "$date": "2029-09-01T00:00:00.000Z"
@@ -520,8 +520,8 @@
     }
   },
   {
-    "_id": "batch-baby_or_not_prueba_de_embarazo_dismev-2026-18",
-    "product_id": "baby_or_not_prueba_de_embarazo_dismev",
+    "_id": "ROSADEL_batch-baby_or_not_prueba_de_embarazo_dismev-2026-18",
+    "product_id": "ROSADEL_baby_or_not_prueba_de_embarazo_dismev",
     "lot_code": "LOT-C63A1BE22A",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -538,8 +538,8 @@
     }
   },
   {
-    "_id": "BODEGA-baby_or_not_prueba_de_embarazo_dismev-2026-18",
-    "product_id": "baby_or_not_prueba_de_embarazo_dismev",
+    "_id": "ROSADEL_BODEGA-baby_or_not_prueba_de_embarazo_dismev-2026-18",
+    "product_id": "ROSADEL_baby_or_not_prueba_de_embarazo_dismev",
     "lot_code": "LOT-FD1FD70E41",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -556,8 +556,8 @@
     }
   },
   {
-    "_id": "batch-betametasona_05acido_salici_3_selec_tubo-2026-19",
-    "product_id": "betametasona_05acido_salici_3_selec_tubo",
+    "_id": "ROSADEL_batch-betametasona_05acido_salici_3_selec_tubo-2026-19",
+    "product_id": "ROSADEL_betametasona_05acido_salici_3_selec_tubo",
     "lot_code": "LOT-D1A7D4FBDA",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -574,8 +574,8 @@
     }
   },
   {
-    "_id": "BODEGA-betametasona_05acido_salici_3_selec_tubo-2026-19",
-    "product_id": "betametasona_05acido_salici_3_selec_tubo",
+    "_id": "ROSADEL_BODEGA-betametasona_05acido_salici_3_selec_tubo-2026-19",
+    "product_id": "ROSADEL_betametasona_05acido_salici_3_selec_tubo",
     "lot_code": "LOT-0DBB824FAA",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -592,8 +592,8 @@
     }
   },
   {
-    "_id": "batch-bifonex__crema_1_15g_selec_tubo-2026-20",
-    "product_id": "bifonex__crema_1_15g_selec_tubo",
+    "_id": "ROSADEL_batch-bifonex__crema_1_15g_selec_tubo-2026-20",
+    "product_id": "ROSADEL_bifonex__crema_1_15g_selec_tubo",
     "lot_code": "LOT-423CDD757D",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -610,8 +610,8 @@
     }
   },
   {
-    "_id": "batch-bisalex_laxante_blister_x_10-2026-21",
-    "product_id": "bisalex_laxante_blister_x_10",
+    "_id": "ROSADEL_batch-bisalex_laxante_blister_x_10-2026-21",
+    "product_id": "ROSADEL_bisalex_laxante_blister_x_10",
     "lot_code": "LOT-260C33C737",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -628,8 +628,8 @@
     }
   },
   {
-    "_id": "batch-bosman__caja_x_16_sobre_x_3_condones-2026-22",
-    "product_id": "bosman__caja_x_16_sobre_x_3_condones",
+    "_id": "ROSADEL_batch-bosman__caja_x_16_sobre_x_3_condones-2026-22",
+    "product_id": "ROSADEL_bosman__caja_x_16_sobre_x_3_condones",
     "lot_code": "LOT-E5A5682816",
     "expiration_date": null,
     "purchase_date": null,
@@ -642,8 +642,8 @@
     }
   },
   {
-    "_id": "batch-bromhexina_120_ml_jbe_selec_exiflem-2026-23",
-    "product_id": "bromhexina_120_ml_jbe_selec_exiflem",
+    "_id": "ROSADEL_batch-bromhexina_120_ml_jbe_selec_exiflem-2026-23",
+    "product_id": "ROSADEL_bromhexina_120_ml_jbe_selec_exiflem",
     "lot_code": "LOT-D373B9ED6D",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -660,8 +660,8 @@
     }
   },
   {
-    "_id": "BODEGA-bromhexina_120_ml_jbe_selec_exiflem-2026-23",
-    "product_id": "bromhexina_120_ml_jbe_selec_exiflem",
+    "_id": "ROSADEL_BODEGA-bromhexina_120_ml_jbe_selec_exiflem-2026-23",
+    "product_id": "ROSADEL_bromhexina_120_ml_jbe_selec_exiflem",
     "lot_code": "LOT-9F55D921E5",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -678,8 +678,8 @@
     }
   },
   {
-    "_id": "batch-bromuro_de_otilonio_caja_x_30_blist_x_15-2026-24",
-    "product_id": "bromuro_de_otilonio_caja_x_30_blist_x_15",
+    "_id": "ROSADEL_batch-bromuro_de_otilonio_caja_x_30_blist_x_15-2026-24",
+    "product_id": "ROSADEL_bromuro_de_otilonio_caja_x_30_blist_x_15",
     "lot_code": "LOT-819045CFA7",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -696,8 +696,8 @@
     }
   },
   {
-    "_id": "BODEGA-bromuro_de_otilonio_caja_x_30_blist_x_15-2026-24",
-    "product_id": "bromuro_de_otilonio_caja_x_30_blist_x_15",
+    "_id": "ROSADEL_BODEGA-bromuro_de_otilonio_caja_x_30_blist_x_15-2026-24",
+    "product_id": "ROSADEL_bromuro_de_otilonio_caja_x_30_blist_x_15",
     "lot_code": "LOT-10CA4F9978",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -714,8 +714,8 @@
     }
   },
   {
-    "_id": "batch-broncomat_15_ml_solpara_raespirar-2026-25",
-    "product_id": "broncomat_15_ml_solpara_raespirar",
+    "_id": "ROSADEL_batch-broncomat_15_ml_solpara_raespirar-2026-25",
+    "product_id": "ROSADEL_broncomat_15_ml_solpara_raespirar",
     "lot_code": "LOT-B3CBAEF80F",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -732,8 +732,8 @@
     }
   },
   {
-    "_id": "BODEGA-broncomat_15_ml_solpara_raespirar-2026-25",
-    "product_id": "broncomat_15_ml_solpara_raespirar",
+    "_id": "ROSADEL_BODEGA-broncomat_15_ml_solpara_raespirar-2026-25",
+    "product_id": "ROSADEL_broncomat_15_ml_solpara_raespirar",
     "lot_code": "LOT-FC07097C5C",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -750,8 +750,8 @@
     }
   },
   {
-    "_id": "batch-broncurol_nf_blist_x_10_tabs-2026-26",
-    "product_id": "broncurol_nf_blist_x_10_tabs",
+    "_id": "ROSADEL_batch-broncurol_nf_blist_x_10_tabs-2026-26",
+    "product_id": "ROSADEL_broncurol_nf_blist_x_10_tabs",
     "lot_code": "LOT-A7AC4E8053",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -768,8 +768,8 @@
     }
   },
   {
-    "_id": "batch-cefadroxilo_250mg60ml_sus_selec-2026-27",
-    "product_id": "cefadroxilo_250mg60ml_sus_selec",
+    "_id": "ROSADEL_batch-cefadroxilo_250mg60ml_sus_selec-2026-27",
+    "product_id": "ROSADEL_cefadroxilo_250mg60ml_sus_selec",
     "lot_code": "LOT-CD3FB155CE",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -786,8 +786,8 @@
     }
   },
   {
-    "_id": "batch-cefadroxilo_500mg_blis_x_10_caja_50_tab_select-2026-28",
-    "product_id": "cefadroxilo_500mg_blis_x_10_caja_50_tab_select",
+    "_id": "ROSADEL_batch-cefadroxilo_500mg_blis_x_10_caja_50_tab_select-2026-28",
+    "product_id": "ROSADEL_cefadroxilo_500mg_blis_x_10_caja_50_tab_select",
     "lot_code": "LOT-4C69E89218",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -804,8 +804,8 @@
     }
   },
   {
-    "_id": "batch-cefixima_400_mg_caja_x_5_caps_selec-2026-29",
-    "product_id": "cefixima_400_mg_caja_x_5_caps_selec",
+    "_id": "ROSADEL_batch-cefixima_400_mg_caja_x_5_caps_selec-2026-29",
+    "product_id": "ROSADEL_cefixima_400_mg_caja_x_5_caps_selec",
     "lot_code": "LOT-764166E5B2",
     "expiration_date": {
       "$date": "2029-01-01T00:00:00.000Z"
@@ -822,8 +822,8 @@
     }
   },
   {
-    "_id": "batch-ceftriaxona_1_gr_panal_caplin-2026-30",
-    "product_id": "ceftriaxona_1_gr_panal_caplin",
+    "_id": "ROSADEL_batch-ceftriaxona_1_gr_panal_caplin-2026-30",
+    "product_id": "ROSADEL_ceftriaxona_1_gr_panal_caplin",
     "lot_code": "LOT-96B5FDDECB",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -840,8 +840,8 @@
     }
   },
   {
-    "_id": "batch-ciprofibrato_100mg_blister_x_10_caja_x_30_selec-2026-31",
-    "product_id": "ciprofibrato_100mg_blister_x_10_caja_x_30_selec",
+    "_id": "ROSADEL_batch-ciprofibrato_100mg_blister_x_10_caja_x_30_selec-2026-31",
+    "product_id": "ROSADEL_ciprofibrato_100mg_blister_x_10_caja_x_30_selec",
     "lot_code": "LOT-9525955189",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -858,8 +858,8 @@
     }
   },
   {
-    "_id": "BODEGA-ciprofibrato_100mg_blister_x_10_caja_x_30_selec-2026-31",
-    "product_id": "ciprofibrato_100mg_blister_x_10_caja_x_30_selec",
+    "_id": "ROSADEL_BODEGA-ciprofibrato_100mg_blister_x_10_caja_x_30_selec-2026-31",
+    "product_id": "ROSADEL_ciprofibrato_100mg_blister_x_10_caja_x_30_selec",
     "lot_code": "LOT-2C606A758C",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -876,8 +876,8 @@
     }
   },
   {
-    "_id": "batch-ciprofloxacina_500_mgs_blist_x_10_caja_x_100-2026-32",
-    "product_id": "ciprofloxacina_500_mgs_blist_x_10_caja_x_100",
+    "_id": "ROSADEL_batch-ciprofloxacina_500_mgs_blist_x_10_caja_x_100-2026-32",
+    "product_id": "ROSADEL_ciprofloxacina_500_mgs_blist_x_10_caja_x_100",
     "lot_code": "LOT-9485D710FA",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -894,8 +894,8 @@
     }
   },
   {
-    "_id": "batch-ciruelax_75_mg_blister_x_10__garden-2026-33",
-    "product_id": "ciruelax_75_mg_blister_x_10__garden",
+    "_id": "ROSADEL_batch-ciruelax_75_mg_blister_x_10__garden-2026-33",
+    "product_id": "ROSADEL_ciruelax_75_mg_blister_x_10__garden",
     "lot_code": "LOT-6E228B70FD",
     "expiration_date": null,
     "purchase_date": null,
@@ -908,8 +908,8 @@
     }
   },
   {
-    "_id": "batch-ciruelax_forte_caja_x_24_tab-2026-34",
-    "product_id": "ciruelax_forte_caja_x_24_tab",
+    "_id": "ROSADEL_batch-ciruelax_forte_caja_x_24_tab-2026-34",
+    "product_id": "ROSADEL_ciruelax_forte_caja_x_24_tab",
     "lot_code": "LOT-45AAF799AE",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -926,8 +926,8 @@
     }
   },
   {
-    "_id": "batch-clindamicina_300_mg_blister_x_10_med_pharma-2026-35",
-    "product_id": "clindamicina_300_mg_blister_x_10_med_pharma",
+    "_id": "ROSADEL_batch-clindamicina_300_mg_blister_x_10_med_pharma-2026-35",
+    "product_id": "ROSADEL_clindamicina_300_mg_blister_x_10_med_pharma",
     "lot_code": "LOT-6B40131572",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -944,8 +944,8 @@
     }
   },
   {
-    "_id": "BODEGA-clindamicina_300_mg_blister_x_10_med_pharma-2026-35",
-    "product_id": "clindamicina_300_mg_blister_x_10_med_pharma",
+    "_id": "ROSADEL_BODEGA-clindamicina_300_mg_blister_x_10_med_pharma-2026-35",
+    "product_id": "ROSADEL_clindamicina_300_mg_blister_x_10_med_pharma",
     "lot_code": "LOT-1F3E868F17",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -962,8 +962,8 @@
     }
   },
   {
-    "_id": "batch-cloradexanafa_gotas_selec-2026-36",
-    "product_id": "cloradexanafa_gotas_selec",
+    "_id": "ROSADEL_batch-cloradexanafa_gotas_selec-2026-36",
+    "product_id": "ROSADEL_cloradexanafa_gotas_selec",
     "lot_code": "LOT-5837CA58B0",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -980,8 +980,8 @@
     }
   },
   {
-    "_id": "BODEGA-cloradexanafa_gotas_selec-2026-36",
-    "product_id": "cloradexanafa_gotas_selec",
+    "_id": "ROSADEL_BODEGA-cloradexanafa_gotas_selec-2026-36",
+    "product_id": "ROSADEL_cloradexanafa_gotas_selec",
     "lot_code": "LOT-BDA82A87EA",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -998,8 +998,8 @@
     }
   },
   {
-    "_id": "batch-cloranfdexametasona_colirio_15_ml_selec-2026-37",
-    "product_id": "cloranfdexametasona_colirio_15_ml_selec",
+    "_id": "ROSADEL_batch-cloranfdexametasona_colirio_15_ml_selec-2026-37",
+    "product_id": "ROSADEL_cloranfdexametasona_colirio_15_ml_selec",
     "lot_code": "LOT-2DC102A1B1",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -1016,8 +1016,8 @@
     }
   },
   {
-    "_id": "batch-clorfeniramina_10_mg_amp_selec-2026-38",
-    "product_id": "clorfeniramina_10_mg_amp_selec",
+    "_id": "ROSADEL_batch-clorfeniramina_10_mg_amp_selec-2026-38",
+    "product_id": "ROSADEL_clorfeniramina_10_mg_amp_selec",
     "lot_code": "LOT-114603EFA2",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -1034,8 +1034,8 @@
     }
   },
   {
-    "_id": "batch-clorfeniramina_4_mg_blis_x_20_selec_caja_x_100-2026-39",
-    "product_id": "clorfeniramina_4_mg_blis_x_20_selec_caja_x_100",
+    "_id": "ROSADEL_batch-clorfeniramina_4_mg_blis_x_20_selec_caja_x_100-2026-39",
+    "product_id": "ROSADEL_clorfeniramina_4_mg_blis_x_20_selec_caja_x_100",
     "lot_code": "LOT-2607A2CEB3",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -1052,8 +1052,8 @@
     }
   },
   {
-    "_id": "batch-clorfeniramina_maleato_2mg_jbe_select-2026-40",
-    "product_id": "clorfeniramina_maleato_2mg_jbe_select",
+    "_id": "ROSADEL_batch-clorfeniramina_maleato_2mg_jbe_select-2026-40",
+    "product_id": "ROSADEL_clorfeniramina_maleato_2mg_jbe_select",
     "lot_code": "LOT-5E4C1601D8",
     "expiration_date": null,
     "purchase_date": {
@@ -1068,8 +1068,8 @@
     }
   },
   {
-    "_id": "BODEGA-clorfeniramina_maleato_2mg_jbe_select-2026-40",
-    "product_id": "clorfeniramina_maleato_2mg_jbe_select",
+    "_id": "ROSADEL_BODEGA-clorfeniramina_maleato_2mg_jbe_select-2026-40",
+    "product_id": "ROSADEL_clorfeniramina_maleato_2mg_jbe_select",
     "lot_code": "LOT-FC79330EBA",
     "expiration_date": null,
     "purchase_date": {
@@ -1084,8 +1084,8 @@
     }
   },
   {
-    "_id": "batch-cloromilan_caja_x_102-2026-41",
-    "product_id": "cloromilan_caja_x_102",
+    "_id": "ROSADEL_batch-cloromilan_caja_x_102-2026-41",
+    "product_id": "ROSADEL_cloromilan_caja_x_102",
     "lot_code": "LOT-90E2A03C70",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -1102,8 +1102,8 @@
     }
   },
   {
-    "_id": "BODEGA-cloromilan_caja_x_102-2026-41",
-    "product_id": "cloromilan_caja_x_102",
+    "_id": "ROSADEL_BODEGA-cloromilan_caja_x_102-2026-41",
+    "product_id": "ROSADEL_cloromilan_caja_x_102",
     "lot_code": "LOT-ADDAA0EC00",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -1120,8 +1120,8 @@
     }
   },
   {
-    "_id": "batch-clotrimazol_1__crema_20_grs_selec-2026-42",
-    "product_id": "clotrimazol_1__crema_20_grs_selec",
+    "_id": "ROSADEL_batch-clotrimazol_1__crema_20_grs_selec-2026-42",
+    "product_id": "ROSADEL_clotrimazol_1__crema_20_grs_selec",
     "lot_code": "LOT-72E2596385",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -1138,8 +1138,8 @@
     }
   },
   {
-    "_id": "BODEGA-clotrimazol_1__crema_20_grs_selec-2026-42",
-    "product_id": "clotrimazol_1__crema_20_grs_selec",
+    "_id": "ROSADEL_BODEGA-clotrimazol_1__crema_20_grs_selec-2026-42",
+    "product_id": "ROSADEL_clotrimazol_1__crema_20_grs_selec",
     "lot_code": "LOT-0782592D57",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -1156,8 +1156,8 @@
     }
   },
   {
-    "_id": "batch-clotrimazol_1__gel_topico_tubo_20_grs_balaxi-2026-43",
-    "product_id": "clotrimazol_1__gel_topico_tubo_20_grs_balaxi",
+    "_id": "ROSADEL_batch-clotrimazol_1__gel_topico_tubo_20_grs_balaxi-2026-43",
+    "product_id": "ROSADEL_clotrimazol_1__gel_topico_tubo_20_grs_balaxi",
     "lot_code": "LOT-3B7A8ECD5D",
     "expiration_date": {
       "$date": "2030-11-01T00:00:00.000Z"
@@ -1174,8 +1174,8 @@
     }
   },
   {
-    "_id": "batch-clotrimazol_ov_vag_100_mg_caja_x_6_caplin-2026-44",
-    "product_id": "clotrimazol_ov_vag_100_mg_caja_x_6_caplin",
+    "_id": "ROSADEL_batch-clotrimazol_ov_vag_100_mg_caja_x_6_caplin-2026-44",
+    "product_id": "ROSADEL_clotrimazol_ov_vag_100_mg_caja_x_6_caplin",
     "lot_code": "LOT-3D521FF623",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -1192,8 +1192,8 @@
     }
   },
   {
-    "_id": "BODEGA-clotrimazol_ov_vag_100_mg_caja_x_6_caplin-2026-44",
-    "product_id": "clotrimazol_ov_vag_100_mg_caja_x_6_caplin",
+    "_id": "ROSADEL_BODEGA-clotrimazol_ov_vag_100_mg_caja_x_6_caplin-2026-44",
+    "product_id": "ROSADEL_clotrimazol_ov_vag_100_mg_caja_x_6_caplin",
     "lot_code": "LOT-0D237A80B6",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -1210,8 +1210,8 @@
     }
   },
   {
-    "_id": "batch-clotriplex_crematubo_15_gms-2026-45",
-    "product_id": "clotriplex_crematubo_15_gms",
+    "_id": "ROSADEL_batch-clotriplex_crematubo_15_gms-2026-45",
+    "product_id": "ROSADEL_clotriplex_crematubo_15_gms",
     "lot_code": "LOT-104D988F50",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -1228,8 +1228,8 @@
     }
   },
   {
-    "_id": "BODEGA-clotriplex_crematubo_15_gms-2026-45",
-    "product_id": "clotriplex_crematubo_15_gms",
+    "_id": "ROSADEL_BODEGA-clotriplex_crematubo_15_gms-2026-45",
+    "product_id": "ROSADEL_clotriplex_crematubo_15_gms",
     "lot_code": "LOT-C025751069",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -1246,8 +1246,8 @@
     }
   },
   {
-    "_id": "batch-colageno_caja_x_100_cap_gel_blister_x_10-2026-46",
-    "product_id": "colageno_caja_x_100_cap_gel_blister_x_10",
+    "_id": "ROSADEL_batch-colageno_caja_x_100_cap_gel_blister_x_10-2026-46",
+    "product_id": "ROSADEL_colageno_caja_x_100_cap_gel_blister_x_10",
     "lot_code": "LOT-10FCDC8699",
     "expiration_date": {
       "$date": "2026-11-01T00:00:00.000Z"
@@ -1264,8 +1264,8 @@
     }
   },
   {
-    "_id": "batch-colchicina_05_mg_blister_x_20_caja_x_100__selec-2026-47",
-    "product_id": "colchicina_05_mg_blister_x_20_caja_x_100__selec",
+    "_id": "ROSADEL_batch-colchicina_05_mg_blister_x_20_caja_x_100__selec-2026-47",
+    "product_id": "ROSADEL_colchicina_05_mg_blister_x_20_caja_x_100__selec",
     "lot_code": "LOT-7A83756DEE",
     "expiration_date": {
       "$date": "2029-04-01T00:00:00.000Z"
@@ -1282,8 +1282,8 @@
     }
   },
   {
-    "_id": "batch-colchicina_05mg_blister_x_10_caplin-2026-48",
-    "product_id": "colchicina_05mg_blister_x_10_caplin",
+    "_id": "ROSADEL_batch-colchicina_05mg_blister_x_10_caplin-2026-48",
+    "product_id": "ROSADEL_colchicina_05mg_blister_x_10_caplin",
     "lot_code": "LOT-C960FED2DF",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -1300,8 +1300,8 @@
     }
   },
   {
-    "_id": "batch-colector_de_heces_cpaleta_60ml-2026-49",
-    "product_id": "colector_de_heces_cpaleta_60ml",
+    "_id": "ROSADEL_batch-colector_de_heces_cpaleta_60ml-2026-49",
+    "product_id": "ROSADEL_colector_de_heces_cpaleta_60ml",
     "lot_code": "LOT-FDA5CCBB34",
     "expiration_date": null,
     "purchase_date": {
@@ -1316,8 +1316,8 @@
     }
   },
   {
-    "_id": "BODEGA-colector_de_heces_cpaleta_60ml-2026-49",
-    "product_id": "colector_de_heces_cpaleta_60ml",
+    "_id": "ROSADEL_BODEGA-colector_de_heces_cpaleta_60ml-2026-49",
+    "product_id": "ROSADEL_colector_de_heces_cpaleta_60ml",
     "lot_code": "LOT-D6F2879775",
     "expiration_date": null,
     "purchase_date": {
@@ -1332,8 +1332,8 @@
     }
   },
   {
-    "_id": "batch-colector_de_orina_120ml-2026-50",
-    "product_id": "colector_de_orina_120ml",
+    "_id": "ROSADEL_batch-colector_de_orina_120ml-2026-50",
+    "product_id": "ROSADEL_colector_de_orina_120ml",
     "lot_code": "LOT-78277E7DAB",
     "expiration_date": null,
     "purchase_date": {
@@ -1348,8 +1348,8 @@
     }
   },
   {
-    "_id": "BODEGA-colector_de_orina_120ml-2026-50",
-    "product_id": "colector_de_orina_120ml",
+    "_id": "ROSADEL_BODEGA-colector_de_orina_120ml-2026-50",
+    "product_id": "ROSADEL_colector_de_orina_120ml",
     "lot_code": "LOT-7CA0D70B51",
     "expiration_date": null,
     "purchase_date": {
@@ -1364,8 +1364,8 @@
     }
   },
   {
-    "_id": "batch-colector_orina_pediatrico_bolsa_operson-2026-51",
-    "product_id": "colector_orina_pediatrico_bolsa_operson",
+    "_id": "ROSADEL_batch-colector_orina_pediatrico_bolsa_operson-2026-51",
+    "product_id": "ROSADEL_colector_orina_pediatrico_bolsa_operson",
     "lot_code": "LOT-5151FB1528",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -1382,8 +1382,8 @@
     }
   },
   {
-    "_id": "BODEGA-colector_orina_pediatrico_bolsa_operson-2026-51",
-    "product_id": "colector_orina_pediatrico_bolsa_operson",
+    "_id": "ROSADEL_BODEGA-colector_orina_pediatrico_bolsa_operson-2026-51",
+    "product_id": "ROSADEL_colector_orina_pediatrico_bolsa_operson",
     "lot_code": "LOT-119B5520A8",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -1400,8 +1400,8 @@
     }
   },
   {
-    "_id": "batch-crospovidona_20__susp_60_ml_selec-2026-52",
-    "product_id": "crospovidona_20__susp_60_ml_selec",
+    "_id": "ROSADEL_batch-crospovidona_20__susp_60_ml_selec-2026-52",
+    "product_id": "ROSADEL_crospovidona_20__susp_60_ml_selec",
     "lot_code": "LOT-1570E0A7DE",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -1418,8 +1418,8 @@
     }
   },
   {
-    "_id": "BODEGA-crospovidona_20__susp_60_ml_selec-2026-52",
-    "product_id": "crospovidona_20__susp_60_ml_selec",
+    "_id": "ROSADEL_BODEGA-crospovidona_20__susp_60_ml_selec-2026-52",
+    "product_id": "ROSADEL_crospovidona_20__susp_60_ml_selec",
     "lot_code": "LOT-19EEB1B473",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -1436,8 +1436,8 @@
     }
   },
   {
-    "_id": "batch-cyclofem_ampolla_panal_1_ml-2026-53",
-    "product_id": "cyclofem_ampolla_panal_1_ml",
+    "_id": "ROSADEL_batch-cyclofem_ampolla_panal_1_ml-2026-53",
+    "product_id": "ROSADEL_cyclofem_ampolla_panal_1_ml",
     "lot_code": "LOT-304D9F4905",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -1454,8 +1454,8 @@
     }
   },
   {
-    "_id": "batch-denguina_caja_x_100_blist_x_10-2026-54",
-    "product_id": "denguina_caja_x_100_blist_x_10",
+    "_id": "ROSADEL_batch-denguina_caja_x_100_blist_x_10-2026-54",
+    "product_id": "ROSADEL_denguina_caja_x_100_blist_x_10",
     "lot_code": "LOT-ADC12B02EB",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -1472,8 +1472,8 @@
     }
   },
   {
-    "_id": "batch-dexaneomicina_1__oftalmica_selec-2026-55",
-    "product_id": "dexaneomicina_1__oftalmica_selec",
+    "_id": "ROSADEL_batch-dexaneomicina_1__oftalmica_selec-2026-55",
+    "product_id": "ROSADEL_dexaneomicina_1__oftalmica_selec",
     "lot_code": "LOT-63D2295944",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -1490,8 +1490,8 @@
     }
   },
   {
-    "_id": "batch-dexametasona_ampolla_8_mg_caplin-2026-56",
-    "product_id": "dexametasona_ampolla_8_mg_caplin",
+    "_id": "ROSADEL_batch-dexametasona_ampolla_8_mg_caplin-2026-56",
+    "product_id": "ROSADEL_dexametasona_ampolla_8_mg_caplin",
     "lot_code": "LOT-01131163CA",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -1508,8 +1508,8 @@
     }
   },
   {
-    "_id": "BODEGA-dexametasona_ampolla_8_mg_caplin-2026-56",
-    "product_id": "dexametasona_ampolla_8_mg_caplin",
+    "_id": "ROSADEL_BODEGA-dexametasona_ampolla_8_mg_caplin-2026-56",
+    "product_id": "ROSADEL_dexametasona_ampolla_8_mg_caplin",
     "lot_code": "LOT-4E8054A23C",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -1526,8 +1526,8 @@
     }
   },
   {
-    "_id": "batch-dexanervisel_kit-2026-57",
-    "product_id": "dexanervisel_kit",
+    "_id": "ROSADEL_batch-dexanervisel_kit-2026-57",
+    "product_id": "ROSADEL_dexanervisel_kit",
     "lot_code": "LOT-91AA50BEB5",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -1544,8 +1544,8 @@
     }
   },
   {
-    "_id": "BODEGA-dexanervisel_kit-2026-57",
-    "product_id": "dexanervisel_kit",
+    "_id": "ROSADEL_BODEGA-dexanervisel_kit-2026-57",
+    "product_id": "ROSADEL_dexanervisel_kit",
     "lot_code": "LOT-2B3AB626DF",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -1562,8 +1562,8 @@
     }
   },
   {
-    "_id": "batch-diclofenaco_1_gel_tubo_20_gr_select-2026-58",
-    "product_id": "diclofenaco_1_gel_tubo_20_gr_select",
+    "_id": "ROSADEL_batch-diclofenaco_1_gel_tubo_20_gr_select-2026-58",
+    "product_id": "ROSADEL_diclofenaco_1_gel_tubo_20_gr_select",
     "lot_code": "LOT-BA555C5510",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -1580,8 +1580,8 @@
     }
   },
   {
-    "_id": "batch-diclofenaco_1_gel_tubo_25_gr_balaxi-2026-59",
-    "product_id": "diclofenaco_1_gel_tubo_25_gr_balaxi",
+    "_id": "ROSADEL_batch-diclofenaco_1_gel_tubo_25_gr_balaxi-2026-59",
+    "product_id": "ROSADEL_diclofenaco_1_gel_tubo_25_gr_balaxi",
     "lot_code": "LOT-43BDE269AD",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -1598,8 +1598,8 @@
     }
   },
   {
-    "_id": "batch-diclofenaco_acido_libre_9mg_fco_120_ml_sele-2026-60",
-    "product_id": "diclofenaco_acido_libre_9mg_fco_120_ml_sele",
+    "_id": "ROSADEL_batch-diclofenaco_acido_libre_9mg_fco_120_ml_sele-2026-60",
+    "product_id": "ROSADEL_diclofenaco_acido_libre_9mg_fco_120_ml_sele",
     "lot_code": "LOT-F20185783B",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -1616,8 +1616,8 @@
     }
   },
   {
-    "_id": "batch-diclofenaco_ampolla_75_mgs-2026-61",
-    "product_id": "diclofenaco_ampolla_75_mgs",
+    "_id": "ROSADEL_batch-diclofenaco_ampolla_75_mgs-2026-61",
+    "product_id": "ROSADEL_diclofenaco_ampolla_75_mgs",
     "lot_code": "LOT-2230DE945A",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -1634,8 +1634,8 @@
     }
   },
   {
-    "_id": "batch-diclofenaco_pot_50_mgs_blist_x_10_caja_x_100_rojo-2026-62",
-    "product_id": "diclofenaco_pot_50_mgs_blist_x_10_caja_x_100_rojo",
+    "_id": "ROSADEL_batch-diclofenaco_pot_50_mgs_blist_x_10_caja_x_100_rojo-2026-62",
+    "product_id": "ROSADEL_diclofenaco_pot_50_mgs_blist_x_10_caja_x_100_rojo",
     "lot_code": "LOT-9AE80B48FE",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -1652,8 +1652,8 @@
     }
   },
   {
-    "_id": "batch-dolofor_500_mgs_dipirona_magnesica_blist_x_10-2026-63",
-    "product_id": "dolofor_500_mgs_dipirona_magnesica_blist_x_10",
+    "_id": "ROSADEL_batch-dolofor_500_mgs_dipirona_magnesica_blist_x_10-2026-63",
+    "product_id": "ROSADEL_dolofor_500_mgs_dipirona_magnesica_blist_x_10",
     "lot_code": "LOT-9FA375B56E",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -1670,8 +1670,8 @@
     }
   },
   {
-    "_id": "batch-dolonervisel_blist_x_10_caja_x_100-2026-64",
-    "product_id": "dolonervisel_blist_x_10_caja_x_100",
+    "_id": "ROSADEL_batch-dolonervisel_blist_x_10_caja_x_100-2026-64",
+    "product_id": "ROSADEL_dolonervisel_blist_x_10_caja_x_100",
     "lot_code": "LOT-1505EEC874",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -1688,8 +1688,8 @@
     }
   },
   {
-    "_id": "batch-dropa_gel_ketoprofeno_25_50g-2026-65",
-    "product_id": "dropa_gel_ketoprofeno_25_50g",
+    "_id": "ROSADEL_batch-dropa_gel_ketoprofeno_25_50g-2026-65",
+    "product_id": "ROSADEL_dropa_gel_ketoprofeno_25_50g",
     "lot_code": "LOT-753EEEF0AC",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -1706,8 +1706,8 @@
     }
   },
   {
-    "_id": "batch-enalapril_10_mgs_blister_x_20__caja_x_100_selec-2026-66",
-    "product_id": "enalapril_10_mgs_blister_x_20__caja_x_100_selec",
+    "_id": "ROSADEL_batch-enalapril_10_mgs_blister_x_20__caja_x_100_selec-2026-66",
+    "product_id": "ROSADEL_enalapril_10_mgs_blister_x_20__caja_x_100_selec",
     "lot_code": "LOT-7E8C87EE66",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -1724,8 +1724,8 @@
     }
   },
   {
-    "_id": "batch-enalapril_20_mg_blister_x_10_caja_x_100__caplin-2026-67",
-    "product_id": "enalapril_20_mg_blister_x_10_caja_x_100__caplin",
+    "_id": "ROSADEL_batch-enalapril_20_mg_blister_x_10_caja_x_100__caplin-2026-67",
+    "product_id": "ROSADEL_enalapril_20_mg_blister_x_10_caja_x_100__caplin",
     "lot_code": "LOT-5C210D3DC0",
     "expiration_date": {
       "$date": "2026-11-01T00:00:00.000Z"
@@ -1742,8 +1742,8 @@
     }
   },
   {
-    "_id": "batch-enalapril_20mg_blist_x_20_select_caja_x_100-2026-68",
-    "product_id": "enalapril_20mg_blist_x_20_select_caja_x_100",
+    "_id": "ROSADEL_batch-enalapril_20mg_blist_x_20_select_caja_x_100-2026-68",
+    "product_id": "ROSADEL_enalapril_20mg_blist_x_20_select_caja_x_100",
     "lot_code": "LOT-7F00F6ED04",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -1760,8 +1760,8 @@
     }
   },
   {
-    "_id": "batch-esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi-2026-69",
-    "product_id": "esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi",
+    "_id": "ROSADEL_batch-esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi-2026-69",
+    "product_id": "ROSADEL_esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi",
     "lot_code": "LOT-078559D299",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -1778,8 +1778,8 @@
     }
   },
   {
-    "_id": "BODEGA-esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi-2026-69",
-    "product_id": "esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi",
+    "_id": "ROSADEL_BODEGA-esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi-2026-69",
+    "product_id": "ROSADEL_esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi",
     "lot_code": "LOT-C57214292C",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -1796,8 +1796,8 @@
     }
   },
   {
-    "_id": "batch-ex_flu_antigripal_gotas_30ml_selec-2026-70",
-    "product_id": "ex_flu_antigripal_gotas_30ml_selec",
+    "_id": "ROSADEL_batch-ex_flu_antigripal_gotas_30ml_selec-2026-70",
+    "product_id": "ROSADEL_ex_flu_antigripal_gotas_30ml_selec",
     "lot_code": "LOT-384485FC00",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -1814,8 +1814,8 @@
     }
   },
   {
-    "_id": "batch-exflu_ampolla_panal_selec-2026-71",
-    "product_id": "exflu_ampolla_panal_selec",
+    "_id": "ROSADEL_batch-exflu_ampolla_panal_selec-2026-71",
+    "product_id": "ROSADEL_exflu_ampolla_panal_selec",
     "lot_code": "LOT-89813BF8E0",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -1832,8 +1832,8 @@
     }
   },
   {
-    "_id": "batch-exflu_antigripal_blister_x_10_caja_x_70-2026-72",
-    "product_id": "exflu_antigripal_blister_x_10_caja_x_70",
+    "_id": "ROSADEL_batch-exflu_antigripal_blister_x_10_caja_x_70-2026-72",
+    "product_id": "ROSADEL_exflu_antigripal_blister_x_10_caja_x_70",
     "lot_code": "LOT-48305A489E",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -1850,8 +1850,8 @@
     }
   },
   {
-    "_id": "BODEGA-exflu_antigripal_blister_x_10_caja_x_70-2026-72",
-    "product_id": "exflu_antigripal_blister_x_10_caja_x_70",
+    "_id": "ROSADEL_BODEGA-exflu_antigripal_blister_x_10_caja_x_70-2026-72",
+    "product_id": "ROSADEL_exflu_antigripal_blister_x_10_caja_x_70",
     "lot_code": "LOT-68501403FF",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -1868,8 +1868,8 @@
     }
   },
   {
-    "_id": "batch-exflu_kit_ampolla_selec-2026-73",
-    "product_id": "exflu_kit_ampolla_selec",
+    "_id": "ROSADEL_batch-exflu_kit_ampolla_selec-2026-73",
+    "product_id": "ROSADEL_exflu_kit_ampolla_selec",
     "lot_code": "LOT-62B8B6FCC9",
     "expiration_date": null,
     "purchase_date": null,
@@ -1882,8 +1882,8 @@
     }
   },
   {
-    "_id": "batch-exflu_niños_sinus_120_ml-2026-74",
-    "product_id": "exflu_niños_sinus_120_ml",
+    "_id": "ROSADEL_batch-exflu_niños_sinus_120_ml-2026-74",
+    "product_id": "ROSADEL_exflu_niños_sinus_120_ml",
     "lot_code": "LOT-327D5A72F8",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -1900,8 +1900,8 @@
     }
   },
   {
-    "_id": "BODEGA-exflu_niños_sinus_120_ml-2026-74",
-    "product_id": "exflu_niños_sinus_120_ml",
+    "_id": "ROSADEL_BODEGA-exflu_niños_sinus_120_ml-2026-74",
+    "product_id": "ROSADEL_exflu_niños_sinus_120_ml",
     "lot_code": "LOT-7486B10531",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -1918,8 +1918,8 @@
     }
   },
   {
-    "_id": "batch-famotidina_40_mg_caja_x_100_tab_caplin-2026-75",
-    "product_id": "famotidina_40_mg_caja_x_100_tab_caplin",
+    "_id": "ROSADEL_batch-famotidina_40_mg_caja_x_100_tab_caplin-2026-75",
+    "product_id": "ROSADEL_famotidina_40_mg_caja_x_100_tab_caplin",
     "lot_code": "LOT-753FEE9E29",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -1936,8 +1936,8 @@
     }
   },
   {
-    "_id": "BODEGA-famotidina_40_mg_caja_x_100_tab_caplin-2026-75",
-    "product_id": "famotidina_40_mg_caja_x_100_tab_caplin",
+    "_id": "ROSADEL_BODEGA-famotidina_40_mg_caja_x_100_tab_caplin-2026-75",
+    "product_id": "ROSADEL_famotidina_40_mg_caja_x_100_tab_caplin",
     "lot_code": "LOT-67DD6B0DF3",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -1954,8 +1954,8 @@
     }
   },
   {
-    "_id": "batch-ferrociton_b_caja_x_10_amp_bebibles-2026-76",
-    "product_id": "ferrociton_b_caja_x_10_amp_bebibles",
+    "_id": "ROSADEL_batch-ferrociton_b_caja_x_10_amp_bebibles-2026-76",
+    "product_id": "ROSADEL_ferrociton_b_caja_x_10_amp_bebibles",
     "lot_code": "LOT-E94E779857",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -1972,8 +1972,8 @@
     }
   },
   {
-    "_id": "BODEGA-ferrociton_b_caja_x_10_amp_bebibles-2026-76",
-    "product_id": "ferrociton_b_caja_x_10_amp_bebibles",
+    "_id": "ROSADEL_BODEGA-ferrociton_b_caja_x_10_amp_bebibles-2026-76",
+    "product_id": "ROSADEL_ferrociton_b_caja_x_10_amp_bebibles",
     "lot_code": "LOT-3CB2DC5687",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -1990,8 +1990,8 @@
     }
   },
   {
-    "_id": "batch-fluconazol_150_mgs_caja_x_2_caps_selec-2026-77",
-    "product_id": "fluconazol_150_mgs_caja_x_2_caps_selec",
+    "_id": "ROSADEL_batch-fluconazol_150_mgs_caja_x_2_caps_selec-2026-77",
+    "product_id": "ROSADEL_fluconazol_150_mgs_caja_x_2_caps_selec",
     "lot_code": "LOT-CA8BBA1608",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -2008,8 +2008,8 @@
     }
   },
   {
-    "_id": "BODEGA-fluconazol_150_mgs_caja_x_2_caps_selec-2026-77",
-    "product_id": "fluconazol_150_mgs_caja_x_2_caps_selec",
+    "_id": "ROSADEL_BODEGA-fluconazol_150_mgs_caja_x_2_caps_selec-2026-77",
+    "product_id": "ROSADEL_fluconazol_150_mgs_caja_x_2_caps_selec",
     "lot_code": "LOT-6F4DCC01E8",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -2026,8 +2026,8 @@
     }
   },
   {
-    "_id": "batch-fluconazol_200_mg_x_4_caps_hiperfarma-2026-78",
-    "product_id": "fluconazol_200_mg_x_4_caps_hiperfarma",
+    "_id": "ROSADEL_batch-fluconazol_200_mg_x_4_caps_hiperfarma-2026-78",
+    "product_id": "ROSADEL_fluconazol_200_mg_x_4_caps_hiperfarma",
     "lot_code": "LOT-240D17F0A0",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2044,8 +2044,8 @@
     }
   },
   {
-    "_id": "BODEGA-fluconazol_200_mg_x_4_caps_hiperfarma-2026-78",
-    "product_id": "fluconazol_200_mg_x_4_caps_hiperfarma",
+    "_id": "ROSADEL_BODEGA-fluconazol_200_mg_x_4_caps_hiperfarma-2026-78",
+    "product_id": "ROSADEL_fluconazol_200_mg_x_4_caps_hiperfarma",
     "lot_code": "LOT-6874E06536",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2062,8 +2062,8 @@
     }
   },
   {
-    "_id": "batch-fluconazol_200mg_select_x2_tab_caja-2026-79",
-    "product_id": "fluconazol_200mg_select_x2_tab_caja",
+    "_id": "ROSADEL_batch-fluconazol_200mg_select_x2_tab_caja-2026-79",
+    "product_id": "ROSADEL_fluconazol_200mg_select_x2_tab_caja",
     "lot_code": "LOT-D1F4AC514C",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -2080,8 +2080,8 @@
     }
   },
   {
-    "_id": "BODEGA-fluconazol_200mg_select_x2_tab_caja-2026-79",
-    "product_id": "fluconazol_200mg_select_x2_tab_caja",
+    "_id": "ROSADEL_BODEGA-fluconazol_200mg_select_x2_tab_caja-2026-79",
+    "product_id": "ROSADEL_fluconazol_200mg_select_x2_tab_caja",
     "lot_code": "LOT-B41294D470",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -2098,8 +2098,8 @@
     }
   },
   {
-    "_id": "batch-flufin_alergias_caja_x_50_blis_x_10_gel_blanda-2026-80",
-    "product_id": "flufin_alergias_caja_x_50_blis_x_10_gel_blanda",
+    "_id": "ROSADEL_batch-flufin_alergias_caja_x_50_blis_x_10_gel_blanda-2026-80",
+    "product_id": "ROSADEL_flufin_alergias_caja_x_50_blis_x_10_gel_blanda",
     "lot_code": "LOT-3D24A668DD",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -2116,8 +2116,8 @@
     }
   },
   {
-    "_id": "BODEGA-flufin_alergias_caja_x_50_blis_x_10_gel_blanda-2026-80",
-    "product_id": "flufin_alergias_caja_x_50_blis_x_10_gel_blanda",
+    "_id": "ROSADEL_BODEGA-flufin_alergias_caja_x_50_blis_x_10_gel_blanda-2026-80",
+    "product_id": "ROSADEL_flufin_alergias_caja_x_50_blis_x_10_gel_blanda",
     "lot_code": "LOT-CE6328436E",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -2134,8 +2134,8 @@
     }
   },
   {
-    "_id": "batch-flufin_am_sobre_2_gel_caps_caplin_x_25_sobres-2026-81",
-    "product_id": "flufin_am_sobre_2_gel_caps_caplin_x_25_sobres",
+    "_id": "ROSADEL_batch-flufin_am_sobre_2_gel_caps_caplin_x_25_sobres-2026-81",
+    "product_id": "ROSADEL_flufin_am_sobre_2_gel_caps_caplin_x_25_sobres",
     "lot_code": "LOT-FBFF80B65A",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -2152,8 +2152,8 @@
     }
   },
   {
-    "_id": "batch-flufin_pm_sobre_2_gel_caps_cap_cja_x_25_sobres-2026-82",
-    "product_id": "flufin_pm_sobre_2_gel_caps_cap_cja_x_25_sobres",
+    "_id": "ROSADEL_batch-flufin_pm_sobre_2_gel_caps_cap_cja_x_25_sobres-2026-82",
+    "product_id": "ROSADEL_flufin_pm_sobre_2_gel_caps_cap_cja_x_25_sobres",
     "lot_code": "LOT-47237D1349",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -2170,8 +2170,8 @@
     }
   },
   {
-    "_id": "batch-furosemida_20_mg_ampolla_2_ml_caplin-2026-83",
-    "product_id": "furosemida_20_mg_ampolla_2_ml_caplin",
+    "_id": "ROSADEL_batch-furosemida_20_mg_ampolla_2_ml_caplin-2026-83",
+    "product_id": "ROSADEL_furosemida_20_mg_ampolla_2_ml_caplin",
     "lot_code": "LOT-C90D0A026F",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -2188,8 +2188,8 @@
     }
   },
   {
-    "_id": "batch-furosemida_40_mg_caja_x_100_blist_x_10_caplin-2026-84",
-    "product_id": "furosemida_40_mg_caja_x_100_blist_x_10_caplin",
+    "_id": "ROSADEL_batch-furosemida_40_mg_caja_x_100_blist_x_10_caplin-2026-84",
+    "product_id": "ROSADEL_furosemida_40_mg_caja_x_100_blist_x_10_caplin",
     "lot_code": "LOT-F8566F8DF0",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -2206,8 +2206,8 @@
     }
   },
   {
-    "_id": "batch-furosemida_40mg_blister_x_10_selec-2026-85",
-    "product_id": "furosemida_40mg_blister_x_10_selec",
+    "_id": "ROSADEL_batch-furosemida_40mg_blister_x_10_selec-2026-85",
+    "product_id": "ROSADEL_furosemida_40mg_blister_x_10_selec",
     "lot_code": "LOT-F66F46D06C",
     "expiration_date": {
       "$date": "2030-06-01T00:00:00.000Z"
@@ -2224,8 +2224,8 @@
     }
   },
   {
-    "_id": "batch-gentamicina_80_mg2ml_ampolla_caplin-2026-86",
-    "product_id": "gentamicina_80_mg2ml_ampolla_caplin",
+    "_id": "ROSADEL_batch-gentamicina_80_mg2ml_ampolla_caplin-2026-86",
+    "product_id": "ROSADEL_gentamicina_80_mg2ml_ampolla_caplin",
     "lot_code": "LOT-5C8C554803",
     "expiration_date": null,
     "purchase_date": {
@@ -2240,8 +2240,8 @@
     }
   },
   {
-    "_id": "batch-glibenclamida_5_mg___blister_x_20_caja_x_100_selec-2026-87",
-    "product_id": "glibenclamida_5_mg___blister_x_20_caja_x_100_selec",
+    "_id": "ROSADEL_batch-glibenclamida_5_mg___blister_x_20_caja_x_100_selec-2026-87",
+    "product_id": "ROSADEL_glibenclamida_5_mg___blister_x_20_caja_x_100_selec",
     "lot_code": "LOT-27B9B77C4A",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -2258,8 +2258,8 @@
     }
   },
   {
-    "_id": "BODEGA-glibenclamida_5_mg___blister_x_20_caja_x_100_selec-2026-87",
-    "product_id": "glibenclamida_5_mg___blister_x_20_caja_x_100_selec",
+    "_id": "ROSADEL_BODEGA-glibenclamida_5_mg___blister_x_20_caja_x_100_selec-2026-87",
+    "product_id": "ROSADEL_glibenclamida_5_mg___blister_x_20_caja_x_100_selec",
     "lot_code": "LOT-E8689079DD",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -2276,8 +2276,8 @@
     }
   },
   {
-    "_id": "batch-glimepirida_4_mg_blister_x_10_caja_x_100_caplin-2026-88",
-    "product_id": "glimepirida_4_mg_blister_x_10_caja_x_100_caplin",
+    "_id": "ROSADEL_batch-glimepirida_4_mg_blister_x_10_caja_x_100_caplin-2026-88",
+    "product_id": "ROSADEL_glimepirida_4_mg_blister_x_10_caja_x_100_caplin",
     "lot_code": "LOT-FF39666ACE",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -2294,8 +2294,8 @@
     }
   },
   {
-    "_id": "BODEGA-glimepirida_4_mg_blister_x_10_caja_x_100_caplin-2026-88",
-    "product_id": "glimepirida_4_mg_blister_x_10_caja_x_100_caplin",
+    "_id": "ROSADEL_BODEGA-glimepirida_4_mg_blister_x_10_caja_x_100_caplin-2026-88",
+    "product_id": "ROSADEL_glimepirida_4_mg_blister_x_10_caja_x_100_caplin",
     "lot_code": "LOT-392DA05B39",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -2312,8 +2312,8 @@
     }
   },
   {
-    "_id": "batch-gotero_plastico-2026-89",
-    "product_id": "gotero_plastico",
+    "_id": "ROSADEL_batch-gotero_plastico-2026-89",
+    "product_id": "ROSADEL_gotero_plastico",
     "lot_code": "LOT-71D130FB40",
     "expiration_date": null,
     "purchase_date": {
@@ -2328,8 +2328,8 @@
     }
   },
   {
-    "_id": "BODEGA-gotero_plastico-2026-89",
-    "product_id": "gotero_plastico",
+    "_id": "ROSADEL_BODEGA-gotero_plastico-2026-89",
+    "product_id": "ROSADEL_gotero_plastico",
     "lot_code": "LOT-F3E5A86E1F",
     "expiration_date": null,
     "purchase_date": {
@@ -2344,8 +2344,8 @@
     }
   },
   {
-    "_id": "batch-hidrocortisona_025_selec-2026-90",
-    "product_id": "hidrocortisona_025_selec",
+    "_id": "ROSADEL_batch-hidrocortisona_025_selec-2026-90",
+    "product_id": "ROSADEL_hidrocortisona_025_selec",
     "lot_code": "LOT-8EE870BCBD",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2362,8 +2362,8 @@
     }
   },
   {
-    "_id": "BODEGA-hidrocortisona_025_selec-2026-90",
-    "product_id": "hidrocortisona_025_selec",
+    "_id": "ROSADEL_BODEGA-hidrocortisona_025_selec-2026-90",
+    "product_id": "ROSADEL_hidrocortisona_025_selec",
     "lot_code": "LOT-99B94078CA",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2380,8 +2380,8 @@
     }
   },
   {
-    "_id": "batch-hidrocortizona_1_crema_30_grs_selec-2026-91",
-    "product_id": "hidrocortizona_1_crema_30_grs_selec",
+    "_id": "ROSADEL_batch-hidrocortizona_1_crema_30_grs_selec-2026-91",
+    "product_id": "ROSADEL_hidrocortizona_1_crema_30_grs_selec",
     "lot_code": "LOT-EA0C0A5375",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -2398,8 +2398,8 @@
     }
   },
   {
-    "_id": "BODEGA-hidrocortizona_1_crema_30_grs_selec-2026-91",
-    "product_id": "hidrocortizona_1_crema_30_grs_selec",
+    "_id": "ROSADEL_BODEGA-hidrocortizona_1_crema_30_grs_selec-2026-91",
+    "product_id": "ROSADEL_hidrocortizona_1_crema_30_grs_selec",
     "lot_code": "LOT-9B29A139E5",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -2416,8 +2416,8 @@
     }
   },
   {
-    "_id": "batch-hierro_acido_folico_x_30_tab_selec-2026-92",
-    "product_id": "hierro_acido_folico_x_30_tab_selec",
+    "_id": "ROSADEL_batch-hierro_acido_folico_x_30_tab_selec-2026-92",
+    "product_id": "ROSADEL_hierro_acido_folico_x_30_tab_selec",
     "lot_code": "LOT-BAC4C35CD2",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2434,8 +2434,8 @@
     }
   },
   {
-    "_id": "BODEGA-hierro_acido_folico_x_30_tab_selec-2026-92",
-    "product_id": "hierro_acido_folico_x_30_tab_selec",
+    "_id": "ROSADEL_BODEGA-hierro_acido_folico_x_30_tab_selec-2026-92",
+    "product_id": "ROSADEL_hierro_acido_folico_x_30_tab_selec",
     "lot_code": "LOT-1123F1DFA9",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2452,8 +2452,8 @@
     }
   },
   {
-    "_id": "batch-ibuprofen_100mg5ml_susp_selec-2026-93",
-    "product_id": "ibuprofen_100mg5ml_susp_selec",
+    "_id": "ROSADEL_batch-ibuprofen_100mg5ml_susp_selec-2026-93",
+    "product_id": "ROSADEL_ibuprofen_100mg5ml_susp_selec",
     "lot_code": "LOT-63D6B60695",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -2470,8 +2470,8 @@
     }
   },
   {
-    "_id": "BODEGA-ibuprofen_100mg5ml_susp_selec-2026-93",
-    "product_id": "ibuprofen_100mg5ml_susp_selec",
+    "_id": "ROSADEL_BODEGA-ibuprofen_100mg5ml_susp_selec-2026-93",
+    "product_id": "ROSADEL_ibuprofen_100mg5ml_susp_selec",
     "lot_code": "LOT-CCAA964885",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -2488,8 +2488,8 @@
     }
   },
   {
-    "_id": "batch-ibuprofenometocarba_caja_x_30_blist_x_10-2026-94",
-    "product_id": "ibuprofenometocarba_caja_x_30_blist_x_10",
+    "_id": "ROSADEL_batch-ibuprofenometocarba_caja_x_30_blist_x_10-2026-94",
+    "product_id": "ROSADEL_ibuprofenometocarba_caja_x_30_blist_x_10",
     "lot_code": "LOT-221A22C13A",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -2506,8 +2506,8 @@
     }
   },
   {
-    "_id": "batch-irbersahidro_30025_blist_x_10_caj_x_30_caplin-2026-95",
-    "product_id": "irbersahidro_30025_blist_x_10_caj_x_30_caplin",
+    "_id": "ROSADEL_batch-irbersahidro_30025_blist_x_10_caj_x_30_caplin-2026-95",
+    "product_id": "ROSADEL_irbersahidro_30025_blist_x_10_caj_x_30_caplin",
     "lot_code": "LOT-241316EF39",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -2524,8 +2524,8 @@
     }
   },
   {
-    "_id": "batch-irbersartan_150_mgs_caja_x_30_blist_x_10_selec-2026-96",
-    "product_id": "irbersartan_150_mgs_caja_x_30_blist_x_10_selec",
+    "_id": "ROSADEL_batch-irbersartan_150_mgs_caja_x_30_blist_x_10_selec-2026-96",
+    "product_id": "ROSADEL_irbersartan_150_mgs_caja_x_30_blist_x_10_selec",
     "lot_code": "LOT-AA5E65A9C7",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -2542,8 +2542,8 @@
     }
   },
   {
-    "_id": "batch-irbersartan_300_mg_caja_x_30_blist_x_10__selec-2026-97",
-    "product_id": "irbersartan_300_mg_caja_x_30_blist_x_10__selec",
+    "_id": "ROSADEL_batch-irbersartan_300_mg_caja_x_30_blist_x_10__selec-2026-97",
+    "product_id": "ROSADEL_irbersartan_300_mg_caja_x_30_blist_x_10__selec",
     "lot_code": "LOT-6DE324BCBB",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -2560,8 +2560,8 @@
     }
   },
   {
-    "_id": "batch-irbesartan_150125mg_hidroclo_x_30_tabs_caplin-2026-98",
-    "product_id": "irbesartan_150125mg_hidroclo_x_30_tabs_caplin",
+    "_id": "ROSADEL_batch-irbesartan_150125mg_hidroclo_x_30_tabs_caplin-2026-98",
+    "product_id": "ROSADEL_irbesartan_150125mg_hidroclo_x_30_tabs_caplin",
     "lot_code": "LOT-4D89F2671B",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -2578,8 +2578,8 @@
     }
   },
   {
-    "_id": "BODEGA-irbesartan_150125mg_hidroclo_x_30_tabs_caplin-2026-98",
-    "product_id": "irbesartan_150125mg_hidroclo_x_30_tabs_caplin",
+    "_id": "ROSADEL_BODEGA-irbesartan_150125mg_hidroclo_x_30_tabs_caplin-2026-98",
+    "product_id": "ROSADEL_irbesartan_150125mg_hidroclo_x_30_tabs_caplin",
     "lot_code": "LOT-F1698CDD30",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -2596,8 +2596,8 @@
     }
   },
   {
-    "_id": "batch-ketorolaco_60mg2ml_ampolla_bonket-2026-99",
-    "product_id": "ketorolaco_60mg2ml_ampolla_bonket",
+    "_id": "ROSADEL_batch-ketorolaco_60mg2ml_ampolla_bonket-2026-99",
+    "product_id": "ROSADEL_ketorolaco_60mg2ml_ampolla_bonket",
     "lot_code": "LOT-19BD9EE648",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -2614,8 +2614,8 @@
     }
   },
   {
-    "_id": "batch-lactulosa_10_grs_susp_240_ml_caplin-2026-100",
-    "product_id": "lactulosa_10_grs_susp_240_ml_caplin",
+    "_id": "ROSADEL_batch-lactulosa_10_grs_susp_240_ml_caplin-2026-100",
+    "product_id": "ROSADEL_lactulosa_10_grs_susp_240_ml_caplin",
     "lot_code": "LOT-847ACBBFDB",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2632,8 +2632,8 @@
     }
   },
   {
-    "_id": "batch-lagrimas_oculares_grs_15_ml_gotas_selec-2026-101",
-    "product_id": "lagrimas_oculares_grs_15_ml_gotas_selec",
+    "_id": "ROSADEL_batch-lagrimas_oculares_grs_15_ml_gotas_selec-2026-101",
+    "product_id": "ROSADEL_lagrimas_oculares_grs_15_ml_gotas_selec",
     "lot_code": "LOT-DA0FD86730",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -2650,8 +2650,8 @@
     }
   },
   {
-    "_id": "BODEGA-lagrimas_oculares_grs_15_ml_gotas_selec-2026-101",
-    "product_id": "lagrimas_oculares_grs_15_ml_gotas_selec",
+    "_id": "ROSADEL_BODEGA-lagrimas_oculares_grs_15_ml_gotas_selec-2026-101",
+    "product_id": "ROSADEL_lagrimas_oculares_grs_15_ml_gotas_selec",
     "lot_code": "LOT-BD69002CA9",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -2668,8 +2668,8 @@
     }
   },
   {
-    "_id": "batch-levofloxacina_500_mg_blist_x_10_selec_umedica-2026-102",
-    "product_id": "levofloxacina_500_mg_blist_x_10_selec_umedica",
+    "_id": "ROSADEL_batch-levofloxacina_500_mg_blist_x_10_selec_umedica-2026-102",
+    "product_id": "ROSADEL_levofloxacina_500_mg_blist_x_10_selec_umedica",
     "lot_code": "LOT-F82B04CB74",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -2686,8 +2686,8 @@
     }
   },
   {
-    "_id": "batch-lidocaina_1_35_ml_promegal-2026-103",
-    "product_id": "lidocaina_1_35_ml_promegal",
+    "_id": "ROSADEL_batch-lidocaina_1_35_ml_promegal-2026-103",
+    "product_id": "ROSADEL_lidocaina_1_35_ml_promegal",
     "lot_code": "LOT-764ABD61BE",
     "expiration_date": null,
     "purchase_date": {
@@ -2702,8 +2702,8 @@
     }
   },
   {
-    "_id": "batch-lidocaina_2_caplin_3ml-2026-104",
-    "product_id": "lidocaina_2_caplin_3ml",
+    "_id": "ROSADEL_batch-lidocaina_2_caplin_3ml-2026-104",
+    "product_id": "ROSADEL_lidocaina_2_caplin_3ml",
     "lot_code": "LOT-0EA6D086D8",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2720,8 +2720,8 @@
     }
   },
   {
-    "_id": "BODEGA-lidocaina_2_caplin_3ml-2026-104",
-    "product_id": "lidocaina_2_caplin_3ml",
+    "_id": "ROSADEL_BODEGA-lidocaina_2_caplin_3ml-2026-104",
+    "product_id": "ROSADEL_lidocaina_2_caplin_3ml",
     "lot_code": "LOT-0AA2E7EF4E",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2738,8 +2738,8 @@
     }
   },
   {
-    "_id": "batch-loperamida_2mg_caja_x_100_blist_x_20_select-2026-105",
-    "product_id": "loperamida_2mg_caja_x_100_blist_x_20_select",
+    "_id": "ROSADEL_batch-loperamida_2mg_caja_x_100_blist_x_20_select-2026-105",
+    "product_id": "ROSADEL_loperamida_2mg_caja_x_100_blist_x_20_select",
     "lot_code": "LOT-97238CDF75",
     "expiration_date": {
       "$date": "2029-06-01T00:00:00.000Z"
@@ -2756,8 +2756,8 @@
     }
   },
   {
-    "_id": "BODEGA-loperamida_2mg_caja_x_100_blist_x_20_select-2026-105",
-    "product_id": "loperamida_2mg_caja_x_100_blist_x_20_select",
+    "_id": "ROSADEL_BODEGA-loperamida_2mg_caja_x_100_blist_x_20_select-2026-105",
+    "product_id": "ROSADEL_loperamida_2mg_caja_x_100_blist_x_20_select",
     "lot_code": "LOT-0ACF9B4907",
     "expiration_date": {
       "$date": "2029-06-01T00:00:00.000Z"
@@ -2774,8 +2774,8 @@
     }
   },
   {
-    "_id": "batch-losartan_100_mgs_caja_x_100_blister_x_10_caplin-2026-106",
-    "product_id": "losartan_100_mgs_caja_x_100_blister_x_10_caplin",
+    "_id": "ROSADEL_batch-losartan_100_mgs_caja_x_100_blister_x_10_caplin-2026-106",
+    "product_id": "ROSADEL_losartan_100_mgs_caja_x_100_blister_x_10_caplin",
     "lot_code": "LOT-15F1E6784E",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -2792,8 +2792,8 @@
     }
   },
   {
-    "_id": "batch-losartan_50_mg_blis_x_10_caja_x_100_caplin-2026-107",
-    "product_id": "losartan_50_mg_blis_x_10_caja_x_100_caplin",
+    "_id": "ROSADEL_batch-losartan_50_mg_blis_x_10_caja_x_100_caplin-2026-107",
+    "product_id": "ROSADEL_losartan_50_mg_blis_x_10_caja_x_100_caplin",
     "lot_code": "LOT-59BDDB1CFC",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -2810,8 +2810,8 @@
     }
   },
   {
-    "_id": "batch-lubricante_vive_sashet_5_ml_fresa-2026-108",
-    "product_id": "lubricante_vive_sashet_5_ml_fresa",
+    "_id": "ROSADEL_batch-lubricante_vive_sashet_5_ml_fresa-2026-108",
+    "product_id": "ROSADEL_lubricante_vive_sashet_5_ml_fresa",
     "lot_code": "LOT-C6B71EF63D",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -2828,8 +2828,8 @@
     }
   },
   {
-    "_id": "BODEGA-lubricante_vive_sashet_5_ml_fresa-2026-108",
-    "product_id": "lubricante_vive_sashet_5_ml_fresa",
+    "_id": "ROSADEL_BODEGA-lubricante_vive_sashet_5_ml_fresa-2026-108",
+    "product_id": "ROSADEL_lubricante_vive_sashet_5_ml_fresa",
     "lot_code": "LOT-B372724F28",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -2846,8 +2846,8 @@
     }
   },
   {
-    "_id": "batch-lubricante_vive_sashet_5_ml_sin_sabor-2026-109",
-    "product_id": "lubricante_vive_sashet_5_ml_sin_sabor",
+    "_id": "ROSADEL_batch-lubricante_vive_sashet_5_ml_sin_sabor-2026-109",
+    "product_id": "ROSADEL_lubricante_vive_sashet_5_ml_sin_sabor",
     "lot_code": "LOT-FEF4945FE6",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -2864,8 +2864,8 @@
     }
   },
   {
-    "_id": "batch-mebendazol_100mg_susp_30_ml_selec-2026-110",
-    "product_id": "mebendazol_100mg_susp_30_ml_selec",
+    "_id": "ROSADEL_batch-mebendazol_100mg_susp_30_ml_selec-2026-110",
+    "product_id": "ROSADEL_mebendazol_100mg_susp_30_ml_selec",
     "lot_code": "LOT-87A711B1D8",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -2882,8 +2882,8 @@
     }
   },
   {
-    "_id": "batch-mebendazol_100mgx_blist_x_6_tab-2026-111",
-    "product_id": "mebendazol_100mgx_blist_x_6_tab",
+    "_id": "ROSADEL_batch-mebendazol_100mgx_blist_x_6_tab-2026-111",
+    "product_id": "ROSADEL_mebendazol_100mgx_blist_x_6_tab",
     "lot_code": "LOT-6D7B91E974",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -2900,8 +2900,8 @@
     }
   },
   {
-    "_id": "BODEGA-mebendazol_100mgx_blist_x_6_tab-2026-111",
-    "product_id": "mebendazol_100mgx_blist_x_6_tab",
+    "_id": "ROSADEL_BODEGA-mebendazol_100mgx_blist_x_6_tab-2026-111",
+    "product_id": "ROSADEL_mebendazol_100mgx_blist_x_6_tab",
     "lot_code": "LOT-D374C77FDA",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -2918,8 +2918,8 @@
     }
   },
   {
-    "_id": "batch-meloxicam_15_mg15_ml_amp_selec-2026-112",
-    "product_id": "meloxicam_15_mg15_ml_amp_selec",
+    "_id": "ROSADEL_batch-meloxicam_15_mg15_ml_amp_selec-2026-112",
+    "product_id": "ROSADEL_meloxicam_15_mg15_ml_amp_selec",
     "lot_code": "LOT-949EAF4368",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -2936,8 +2936,8 @@
     }
   },
   {
-    "_id": "batch-meloxican_15mg_caja_x_30_tabs_blist_x_10_selec-2026-113",
-    "product_id": "meloxican_15mg_caja_x_30_tabs_blist_x_10_selec",
+    "_id": "ROSADEL_batch-meloxican_15mg_caja_x_30_tabs_blist_x_10_selec-2026-113",
+    "product_id": "ROSADEL_meloxican_15mg_caja_x_30_tabs_blist_x_10_selec",
     "lot_code": "LOT-2C2712BC60",
     "expiration_date": {
       "$date": "2030-06-01T00:00:00.000Z"
@@ -2954,8 +2954,8 @@
     }
   },
   {
-    "_id": "BODEGA-meloxican_15mg_caja_x_30_tabs_blist_x_10_selec-2026-113",
-    "product_id": "meloxican_15mg_caja_x_30_tabs_blist_x_10_selec",
+    "_id": "ROSADEL_BODEGA-meloxican_15mg_caja_x_30_tabs_blist_x_10_selec-2026-113",
+    "product_id": "ROSADEL_meloxican_15mg_caja_x_30_tabs_blist_x_10_selec",
     "lot_code": "LOT-20D2238455",
     "expiration_date": {
       "$date": "2030-06-01T00:00:00.000Z"
@@ -2972,8 +2972,8 @@
     }
   },
   {
-    "_id": "batch-merlix_dexketoprofeno__inyect_unipharm-2026-114",
-    "product_id": "merlix_dexketoprofeno__inyect_unipharm",
+    "_id": "ROSADEL_batch-merlix_dexketoprofeno__inyect_unipharm-2026-114",
+    "product_id": "ROSADEL_merlix_dexketoprofeno__inyect_unipharm",
     "lot_code": "LOT-0CB37893F2",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -2990,8 +2990,8 @@
     }
   },
   {
-    "_id": "BODEGA-merlix_dexketoprofeno__inyect_unipharm-2026-114",
-    "product_id": "merlix_dexketoprofeno__inyect_unipharm",
+    "_id": "ROSADEL_BODEGA-merlix_dexketoprofeno__inyect_unipharm-2026-114",
+    "product_id": "ROSADEL_merlix_dexketoprofeno__inyect_unipharm",
     "lot_code": "LOT-4694D8EADA",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -3008,8 +3008,8 @@
     }
   },
   {
-    "_id": "batch-metformina_500_mg__blist_x_10_caja_x_30_selec-2026-115",
-    "product_id": "metformina_500_mg__blist_x_10_caja_x_30_selec",
+    "_id": "ROSADEL_batch-metformina_500_mg__blist_x_10_caja_x_30_selec-2026-115",
+    "product_id": "ROSADEL_metformina_500_mg__blist_x_10_caja_x_30_selec",
     "lot_code": "LOT-B2B01C3F39",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -3026,8 +3026,8 @@
     }
   },
   {
-    "_id": "batch-metocarbamol_amp_select-2026-116",
-    "product_id": "metocarbamol_amp_select",
+    "_id": "ROSADEL_batch-metocarbamol_amp_select-2026-116",
+    "product_id": "ROSADEL_metocarbamol_amp_select",
     "lot_code": "LOT-26DD545E1C",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -3044,8 +3044,8 @@
     }
   },
   {
-    "_id": "batch-metronidazol_125_mg_susp_120_ml_selec-2026-117",
-    "product_id": "metronidazol_125_mg_susp_120_ml_selec",
+    "_id": "ROSADEL_batch-metronidazol_125_mg_susp_120_ml_selec-2026-117",
+    "product_id": "ROSADEL_metronidazol_125_mg_susp_120_ml_selec",
     "lot_code": "LOT-6B09A2840F",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -3062,8 +3062,8 @@
     }
   },
   {
-    "_id": "BODEGA-metronidazol_125_mg_susp_120_ml_selec-2026-117",
-    "product_id": "metronidazol_125_mg_susp_120_ml_selec",
+    "_id": "ROSADEL_BODEGA-metronidazol_125_mg_susp_120_ml_selec-2026-117",
+    "product_id": "ROSADEL_metronidazol_125_mg_susp_120_ml_selec",
     "lot_code": "LOT-BCBE99FE50",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -3080,8 +3080,8 @@
     }
   },
   {
-    "_id": "batch-metronidazol_500_mg_blist_x_10_caja_x_100__caplin-2026-118",
-    "product_id": "metronidazol_500_mg_blist_x_10_caja_x_100__caplin",
+    "_id": "ROSADEL_batch-metronidazol_500_mg_blist_x_10_caja_x_100__caplin-2026-118",
+    "product_id": "ROSADEL_metronidazol_500_mg_blist_x_10_caja_x_100__caplin",
     "lot_code": "LOT-B9B36D9366",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -3098,8 +3098,8 @@
     }
   },
   {
-    "_id": "batch-metronidazol_500_mgs_x_10_ovulos_vag_caplin-2026-119",
-    "product_id": "metronidazol_500_mgs_x_10_ovulos_vag_caplin",
+    "_id": "ROSADEL_batch-metronidazol_500_mgs_x_10_ovulos_vag_caplin-2026-119",
+    "product_id": "ROSADEL_metronidazol_500_mgs_x_10_ovulos_vag_caplin",
     "lot_code": "LOT-DE1F7CCA92",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -3116,8 +3116,8 @@
     }
   },
   {
-    "_id": "BODEGA-metronidazol_500_mgs_x_10_ovulos_vag_caplin-2026-119",
-    "product_id": "metronidazol_500_mgs_x_10_ovulos_vag_caplin",
+    "_id": "ROSADEL_BODEGA-metronidazol_500_mgs_x_10_ovulos_vag_caplin-2026-119",
+    "product_id": "ROSADEL_metronidazol_500_mgs_x_10_ovulos_vag_caplin",
     "lot_code": "LOT-99A2CD1B29",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -3134,8 +3134,8 @@
     }
   },
   {
-    "_id": "batch-metronidazol_nist_caja_5_ov_caplin-2026-120",
-    "product_id": "metronidazol_nist_caja_5_ov_caplin",
+    "_id": "ROSADEL_batch-metronidazol_nist_caja_5_ov_caplin-2026-120",
+    "product_id": "ROSADEL_metronidazol_nist_caja_5_ov_caplin",
     "lot_code": "LOT-BBB4AAE181",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -3152,8 +3152,8 @@
     }
   },
   {
-    "_id": "BODEGA-metronidazol_nist_caja_5_ov_caplin-2026-120",
-    "product_id": "metronidazol_nist_caja_5_ov_caplin",
+    "_id": "ROSADEL_BODEGA-metronidazol_nist_caja_5_ov_caplin-2026-120",
+    "product_id": "ROSADEL_metronidazol_nist_caja_5_ov_caplin",
     "lot_code": "LOT-222DDE7E65",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -3170,8 +3170,8 @@
     }
   },
   {
-    "_id": "batch-miconazol_2_crema_15_grs_caplin-2026-121",
-    "product_id": "miconazol_2_crema_15_grs_caplin",
+    "_id": "ROSADEL_batch-miconazol_2_crema_15_grs_caplin-2026-121",
+    "product_id": "ROSADEL_miconazol_2_crema_15_grs_caplin",
     "lot_code": "LOT-5433021AEA",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -3188,8 +3188,8 @@
     }
   },
   {
-    "_id": "batch-mucobroxol_120_ml-2026-122",
-    "product_id": "mucobroxol_120_ml",
+    "_id": "ROSADEL_batch-mucobroxol_120_ml-2026-122",
+    "product_id": "ROSADEL_mucobroxol_120_ml",
     "lot_code": "LOT-35A64EC0F3",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -3206,8 +3206,8 @@
     }
   },
   {
-    "_id": "BODEGA-mucobroxol_120_ml-2026-122",
-    "product_id": "mucobroxol_120_ml",
+    "_id": "ROSADEL_BODEGA-mucobroxol_120_ml-2026-122",
+    "product_id": "ROSADEL_mucobroxol_120_ml",
     "lot_code": "LOT-367CD15FE3",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -3224,8 +3224,8 @@
     }
   },
   {
-    "_id": "batch-nervisel_10000_ampolla_selec_panal-2026-123",
-    "product_id": "nervisel_10000_ampolla_selec_panal",
+    "_id": "ROSADEL_batch-nervisel_10000_ampolla_selec_panal-2026-123",
+    "product_id": "ROSADEL_nervisel_10000_ampolla_selec_panal",
     "lot_code": "LOT-82D4C45791",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -3242,8 +3242,8 @@
     }
   },
   {
-    "_id": "batch-nervisel_25000__ampolla_panal_select-2026-124",
-    "product_id": "nervisel_25000__ampolla_panal_select",
+    "_id": "ROSADEL_batch-nervisel_25000__ampolla_panal_select-2026-124",
+    "product_id": "ROSADEL_nervisel_25000__ampolla_panal_select",
     "lot_code": "LOT-F60C133E85",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -3260,8 +3260,8 @@
     }
   },
   {
-    "_id": "batch-nervisel_25000_kit_selec-2026-125",
-    "product_id": "nervisel_25000_kit_selec",
+    "_id": "ROSADEL_batch-nervisel_25000_kit_selec-2026-125",
+    "product_id": "ROSADEL_nervisel_25000_kit_selec",
     "lot_code": "LOT-3A06C78A14",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -3278,8 +3278,8 @@
     }
   },
   {
-    "_id": "BODEGA-nervisel_25000_kit_selec-2026-125",
-    "product_id": "nervisel_25000_kit_selec",
+    "_id": "ROSADEL_BODEGA-nervisel_25000_kit_selec-2026-125",
+    "product_id": "ROSADEL_nervisel_25000_kit_selec",
     "lot_code": "LOT-5404BFF0C7",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -3296,8 +3296,8 @@
     }
   },
   {
-    "_id": "batch-nervisel_tabs_blist_x_10_caja_x_30-2026-126",
-    "product_id": "nervisel_tabs_blist_x_10_caja_x_30",
+    "_id": "ROSADEL_batch-nervisel_tabs_blist_x_10_caja_x_30-2026-126",
+    "product_id": "ROSADEL_nervisel_tabs_blist_x_10_caja_x_30",
     "lot_code": "LOT-D985F415FE",
     "expiration_date": {
       "$date": "2026-11-01T00:00:00.000Z"
@@ -3314,8 +3314,8 @@
     }
   },
   {
-    "_id": "batch-olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap-2026-127",
-    "product_id": "olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap",
+    "_id": "ROSADEL_batch-olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap-2026-127",
+    "product_id": "ROSADEL_olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap",
     "lot_code": "LOT-1C683C9AE0",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -3332,8 +3332,8 @@
     }
   },
   {
-    "_id": "BODEGA-olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap-2026-127",
-    "product_id": "olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap",
+    "_id": "ROSADEL_BODEGA-olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap-2026-127",
+    "product_id": "ROSADEL_olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap",
     "lot_code": "LOT-D2593EBAD7",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -3350,8 +3350,8 @@
     }
   },
   {
-    "_id": "batch-piroxicam_20_mg_blist_x_10_caja_x_100-2026-128",
-    "product_id": "piroxicam_20_mg_blist_x_10_caja_x_100",
+    "_id": "ROSADEL_batch-piroxicam_20_mg_blist_x_10_caja_x_100-2026-128",
+    "product_id": "ROSADEL_piroxicam_20_mg_blist_x_10_caja_x_100",
     "lot_code": "LOT-FC39968FAA",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -3368,8 +3368,8 @@
     }
   },
   {
-    "_id": "BODEGA-piroxicam_20_mg_blist_x_10_caja_x_100-2026-128",
-    "product_id": "piroxicam_20_mg_blist_x_10_caja_x_100",
+    "_id": "ROSADEL_BODEGA-piroxicam_20_mg_blist_x_10_caja_x_100-2026-128",
+    "product_id": "ROSADEL_piroxicam_20_mg_blist_x_10_caja_x_100",
     "lot_code": "LOT-30D532C6B8",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -3386,8 +3386,8 @@
     }
   },
   {
-    "_id": "batch-piroxicam_ampolla_40_mgs-2026-129",
-    "product_id": "piroxicam_ampolla_40_mgs",
+    "_id": "ROSADEL_batch-piroxicam_ampolla_40_mgs-2026-129",
+    "product_id": "ROSADEL_piroxicam_ampolla_40_mgs",
     "lot_code": "LOT-F9727BBB94",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -3404,8 +3404,8 @@
     }
   },
   {
-    "_id": "BODEGA-piroxicam_ampolla_40_mgs-2026-129",
-    "product_id": "piroxicam_ampolla_40_mgs",
+    "_id": "ROSADEL_BODEGA-piroxicam_ampolla_40_mgs-2026-129",
+    "product_id": "ROSADEL_piroxicam_ampolla_40_mgs",
     "lot_code": "LOT-8859B3C7C5",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -3422,8 +3422,8 @@
     }
   },
   {
-    "_id": "batch-prednisona_5mg_blist_x_20_caja_x_100__selec-2026-130",
-    "product_id": "prednisona_5mg_blist_x_20_caja_x_100__selec",
+    "_id": "ROSADEL_batch-prednisona_5mg_blist_x_20_caja_x_100__selec-2026-130",
+    "product_id": "ROSADEL_prednisona_5mg_blist_x_20_caja_x_100__selec",
     "lot_code": "LOT-016E7CFF42",
     "expiration_date": {
       "$date": "2029-04-01T00:00:00.000Z"
@@ -3440,8 +3440,8 @@
     }
   },
   {
-    "_id": "batch-propanolol_40_mg_caja_x_100_blist_x_10_caplin-2026-131",
-    "product_id": "propanolol_40_mg_caja_x_100_blist_x_10_caplin",
+    "_id": "ROSADEL_batch-propanolol_40_mg_caja_x_100_blist_x_10_caplin-2026-131",
+    "product_id": "ROSADEL_propanolol_40_mg_caja_x_100_blist_x_10_caplin",
     "lot_code": "LOT-3678162EC0",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -3458,8 +3458,8 @@
     }
   },
   {
-    "_id": "batch-propolderma_spray_bucal_30_ml-2026-132",
-    "product_id": "propolderma_spray_bucal_30_ml",
+    "_id": "ROSADEL_batch-propolderma_spray_bucal_30_ml-2026-132",
+    "product_id": "ROSADEL_propolderma_spray_bucal_30_ml",
     "lot_code": "LOT-D5B9695924",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -3476,8 +3476,8 @@
     }
   },
   {
-    "_id": "batch-recover_1_lt_cereza-2026-133",
-    "product_id": "recover_1_lt_cereza",
+    "_id": "ROSADEL_batch-recover_1_lt_cereza-2026-133",
+    "product_id": "ROSADEL_recover_1_lt_cereza",
     "lot_code": "LOT-6D27C94849",
     "expiration_date": {
       "$date": "2026-11-01T00:00:00.000Z"
@@ -3494,8 +3494,8 @@
     }
   },
   {
-    "_id": "BODEGA-recover_1_lt_cereza-2026-133",
-    "product_id": "recover_1_lt_cereza",
+    "_id": "ROSADEL_BODEGA-recover_1_lt_cereza-2026-133",
+    "product_id": "ROSADEL_recover_1_lt_cereza",
     "lot_code": "LOT-CC9CBF7934",
     "expiration_date": {
       "$date": "2026-11-01T00:00:00.000Z"
@@ -3512,8 +3512,8 @@
     }
   },
   {
-    "_id": "batch-recover_1_lt_coco-2026-134",
-    "product_id": "recover_1_lt_coco",
+    "_id": "ROSADEL_batch-recover_1_lt_coco-2026-134",
+    "product_id": "ROSADEL_recover_1_lt_coco",
     "lot_code": "LOT-092CCCDBF3",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -3530,8 +3530,8 @@
     }
   },
   {
-    "_id": "BODEGA-recover_1_lt_coco-2026-134",
-    "product_id": "recover_1_lt_coco",
+    "_id": "ROSADEL_BODEGA-recover_1_lt_coco-2026-134",
+    "product_id": "ROSADEL_recover_1_lt_coco",
     "lot_code": "LOT-A908825D3B",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -3548,8 +3548,8 @@
     }
   },
   {
-    "_id": "batch-recover_1_lt_manzana-2026-135",
-    "product_id": "recover_1_lt_manzana",
+    "_id": "ROSADEL_batch-recover_1_lt_manzana-2026-135",
+    "product_id": "ROSADEL_recover_1_lt_manzana",
     "lot_code": "LOT-87E191CEDB",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -3566,8 +3566,8 @@
     }
   },
   {
-    "_id": "BODEGA-recover_1_lt_manzana-2026-135",
-    "product_id": "recover_1_lt_manzana",
+    "_id": "ROSADEL_BODEGA-recover_1_lt_manzana-2026-135",
+    "product_id": "ROSADEL_recover_1_lt_manzana",
     "lot_code": "LOT-1E187003A4",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -3584,8 +3584,8 @@
     }
   },
   {
-    "_id": "batch-recover_1_lt_melocoton-2026-136",
-    "product_id": "recover_1_lt_melocoton",
+    "_id": "ROSADEL_batch-recover_1_lt_melocoton-2026-136",
+    "product_id": "ROSADEL_recover_1_lt_melocoton",
     "lot_code": "LOT-525532CEAA",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -3602,8 +3602,8 @@
     }
   },
   {
-    "_id": "BODEGA-recover_1_lt_melocoton-2026-136",
-    "product_id": "recover_1_lt_melocoton",
+    "_id": "ROSADEL_BODEGA-recover_1_lt_melocoton-2026-136",
+    "product_id": "ROSADEL_recover_1_lt_melocoton",
     "lot_code": "LOT-60E27CE986",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -3620,8 +3620,8 @@
     }
   },
   {
-    "_id": "batch-recover_1_lt_uva-2026-137",
-    "product_id": "recover_1_lt_uva",
+    "_id": "ROSADEL_batch-recover_1_lt_uva-2026-137",
+    "product_id": "ROSADEL_recover_1_lt_uva",
     "lot_code": "LOT-01D0515880",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -3638,8 +3638,8 @@
     }
   },
   {
-    "_id": "batch-recover_500_ml_uva-2026-138",
-    "product_id": "recover_500_ml_uva",
+    "_id": "ROSADEL_batch-recover_500_ml_uva-2026-138",
+    "product_id": "ROSADEL_recover_500_ml_uva",
     "lot_code": "LOT-4C9E4EE48A",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -3656,8 +3656,8 @@
     }
   },
   {
-    "_id": "BODEGA-recover_500_ml_uva-2026-138",
-    "product_id": "recover_500_ml_uva",
+    "_id": "ROSADEL_BODEGA-recover_500_ml_uva-2026-138",
+    "product_id": "ROSADEL_recover_500_ml_uva",
     "lot_code": "LOT-A4D9BBCDBF",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -3674,8 +3674,8 @@
     }
   },
   {
-    "_id": "batch-recover_500ml_cereza-2026-139",
-    "product_id": "recover_500ml_cereza",
+    "_id": "ROSADEL_batch-recover_500ml_cereza-2026-139",
+    "product_id": "ROSADEL_recover_500ml_cereza",
     "lot_code": "LOT-9673D11365",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -3692,8 +3692,8 @@
     }
   },
   {
-    "_id": "batch-recover_500ml_coco-2026-140",
-    "product_id": "recover_500ml_coco",
+    "_id": "ROSADEL_batch-recover_500ml_coco-2026-140",
+    "product_id": "ROSADEL_recover_500ml_coco",
     "lot_code": "LOT-F181F80CB5",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -3710,8 +3710,8 @@
     }
   },
   {
-    "_id": "BODEGA-recover_500ml_coco-2026-140",
-    "product_id": "recover_500ml_coco",
+    "_id": "ROSADEL_BODEGA-recover_500ml_coco-2026-140",
+    "product_id": "ROSADEL_recover_500ml_coco",
     "lot_code": "LOT-4C6AACCBF2",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -3728,8 +3728,8 @@
     }
   },
   {
-    "_id": "batch-recover_500ml_manzana-2026-141",
-    "product_id": "recover_500ml_manzana",
+    "_id": "ROSADEL_batch-recover_500ml_manzana-2026-141",
+    "product_id": "ROSADEL_recover_500ml_manzana",
     "lot_code": "LOT-BE1D918746",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -3746,8 +3746,8 @@
     }
   },
   {
-    "_id": "batch-recover_500ml_melocoton-2026-142",
-    "product_id": "recover_500ml_melocoton",
+    "_id": "ROSADEL_batch-recover_500ml_melocoton-2026-142",
+    "product_id": "ROSADEL_recover_500ml_melocoton",
     "lot_code": "LOT-A348F95173",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -3764,8 +3764,8 @@
     }
   },
   {
-    "_id": "BODEGA-recover_500ml_melocoton-2026-142",
-    "product_id": "recover_500ml_melocoton",
+    "_id": "ROSADEL_BODEGA-recover_500ml_melocoton-2026-142",
+    "product_id": "ROSADEL_recover_500ml_melocoton",
     "lot_code": "LOT-2897213159",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -3782,8 +3782,8 @@
     }
   },
   {
-    "_id": "batch-recover_diabetico_litro_cereza-2026-143",
-    "product_id": "recover_diabetico_litro_cereza",
+    "_id": "ROSADEL_batch-recover_diabetico_litro_cereza-2026-143",
+    "product_id": "ROSADEL_recover_diabetico_litro_cereza",
     "lot_code": "LOT-012DF90565",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -3800,8 +3800,8 @@
     }
   },
   {
-    "_id": "BODEGA-recover_diabetico_litro_cereza-2026-143",
-    "product_id": "recover_diabetico_litro_cereza",
+    "_id": "ROSADEL_BODEGA-recover_diabetico_litro_cereza-2026-143",
+    "product_id": "ROSADEL_recover_diabetico_litro_cereza",
     "lot_code": "LOT-4EDBDCB4C0",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -3818,8 +3818,8 @@
     }
   },
   {
-    "_id": "batch-recover_diabetico_litro_coco-2026-144",
-    "product_id": "recover_diabetico_litro_coco",
+    "_id": "ROSADEL_batch-recover_diabetico_litro_coco-2026-144",
+    "product_id": "ROSADEL_recover_diabetico_litro_coco",
     "lot_code": "LOT-F68716C628",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -3836,8 +3836,8 @@
     }
   },
   {
-    "_id": "batch-recover_diabetico_litro_manzana-2026-145",
-    "product_id": "recover_diabetico_litro_manzana",
+    "_id": "ROSADEL_batch-recover_diabetico_litro_manzana-2026-145",
+    "product_id": "ROSADEL_recover_diabetico_litro_manzana",
     "lot_code": "LOT-ACDA2D876C",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -3854,8 +3854,8 @@
     }
   },
   {
-    "_id": "BODEGA-recover_diabetico_litro_manzana-2026-145",
-    "product_id": "recover_diabetico_litro_manzana",
+    "_id": "ROSADEL_BODEGA-recover_diabetico_litro_manzana-2026-145",
+    "product_id": "ROSADEL_recover_diabetico_litro_manzana",
     "lot_code": "LOT-27B2BAF0C3",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -3872,8 +3872,8 @@
     }
   },
   {
-    "_id": "batch-recover_diabetico_litro_piña-2026-146",
-    "product_id": "recover_diabetico_litro_piña",
+    "_id": "ROSADEL_batch-recover_diabetico_litro_piña-2026-146",
+    "product_id": "ROSADEL_recover_diabetico_litro_piña",
     "lot_code": "LOT-EBF7E2835E",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -3890,8 +3890,8 @@
     }
   },
   {
-    "_id": "BODEGA-recover_diabetico_litro_piña-2026-146",
-    "product_id": "recover_diabetico_litro_piña",
+    "_id": "ROSADEL_BODEGA-recover_diabetico_litro_piña-2026-146",
+    "product_id": "ROSADEL_recover_diabetico_litro_piña",
     "lot_code": "LOT-A86D404DB7",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -3908,8 +3908,8 @@
     }
   },
   {
-    "_id": "batch-restaler_loratad__beta_caja_x_10_tab-2026-147",
-    "product_id": "restaler_loratad__beta_caja_x_10_tab",
+    "_id": "ROSADEL_batch-restaler_loratad__beta_caja_x_10_tab-2026-147",
+    "product_id": "ROSADEL_restaler_loratad__beta_caja_x_10_tab",
     "lot_code": "LOT-AAEE0860F4",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -3926,8 +3926,8 @@
     }
   },
   {
-    "_id": "BODEGA-restaler_loratad__beta_caja_x_10_tab-2026-147",
-    "product_id": "restaler_loratad__beta_caja_x_10_tab",
+    "_id": "ROSADEL_BODEGA-restaler_loratad__beta_caja_x_10_tab-2026-147",
+    "product_id": "ROSADEL_restaler_loratad__beta_caja_x_10_tab",
     "lot_code": "LOT-2760086868",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -3944,8 +3944,8 @@
     }
   },
   {
-    "_id": "batch-salbutamol_2mg_120_ml_selec-2026-148",
-    "product_id": "salbutamol_2mg_120_ml_selec",
+    "_id": "ROSADEL_batch-salbutamol_2mg_120_ml_selec-2026-148",
+    "product_id": "ROSADEL_salbutamol_2mg_120_ml_selec",
     "lot_code": "LOT-63742A0A3C",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -3962,8 +3962,8 @@
     }
   },
   {
-    "_id": "batch-sextron_sildenafil_100_mg_x_1tab-2026-149",
-    "product_id": "sextron_sildenafil_100_mg_x_1tab",
+    "_id": "ROSADEL_batch-sextron_sildenafil_100_mg_x_1tab-2026-149",
+    "product_id": "ROSADEL_sextron_sildenafil_100_mg_x_1tab",
     "lot_code": "LOT-9DA06251A1",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -3980,8 +3980,8 @@
     }
   },
   {
-    "_id": "BODEGA-sextron_sildenafil_100_mg_x_1tab-2026-149",
-    "product_id": "sextron_sildenafil_100_mg_x_1tab",
+    "_id": "ROSADEL_BODEGA-sextron_sildenafil_100_mg_x_1tab-2026-149",
+    "product_id": "ROSADEL_sextron_sildenafil_100_mg_x_1tab",
     "lot_code": "LOT-19595F8EA1",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -3998,8 +3998,8 @@
     }
   },
   {
-    "_id": "batch-sildenalfin_100_mg_x4_tbs_umedica-2026-150",
-    "product_id": "sildenalfin_100_mg_x4_tbs_umedica",
+    "_id": "ROSADEL_batch-sildenalfin_100_mg_x4_tbs_umedica-2026-150",
+    "product_id": "ROSADEL_sildenalfin_100_mg_x4_tbs_umedica",
     "lot_code": "LOT-C86C729FAA",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -4016,8 +4016,8 @@
     }
   },
   {
-    "_id": "BODEGA-sildenalfin_100_mg_x4_tbs_umedica-2026-150",
-    "product_id": "sildenalfin_100_mg_x4_tbs_umedica",
+    "_id": "ROSADEL_BODEGA-sildenalfin_100_mg_x4_tbs_umedica-2026-150",
+    "product_id": "ROSADEL_sildenalfin_100_mg_x4_tbs_umedica",
     "lot_code": "LOT-DCF7735685",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -4034,8 +4034,8 @@
     }
   },
   {
-    "_id": "batch-simeticona_100mgml_gts_fco_30ml_select-2026-151",
-    "product_id": "simeticona_100mgml_gts_fco_30ml_select",
+    "_id": "ROSADEL_batch-simeticona_100mgml_gts_fco_30ml_select-2026-151",
+    "product_id": "ROSADEL_simeticona_100mgml_gts_fco_30ml_select",
     "lot_code": "LOT-0532BF5AA6",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -4052,8 +4052,8 @@
     }
   },
   {
-    "_id": "batch-simeticona_40mg_mast_blist_x_10_selec_caja_x_30-2026-152",
-    "product_id": "simeticona_40mg_mast_blist_x_10_selec_caja_x_30",
+    "_id": "ROSADEL_batch-simeticona_40mg_mast_blist_x_10_selec_caja_x_30-2026-152",
+    "product_id": "ROSADEL_simeticona_40mg_mast_blist_x_10_selec_caja_x_30",
     "lot_code": "LOT-BD45C51D8A",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -4070,8 +4070,8 @@
     }
   },
   {
-    "_id": "batch-soluto_vital_15_ml-2026-153",
-    "product_id": "soluto_vital_15_ml",
+    "_id": "ROSADEL_batch-soluto_vital_15_ml-2026-153",
+    "product_id": "ROSADEL_soluto_vital_15_ml",
     "lot_code": "LOT-4367D94195",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -4088,8 +4088,8 @@
     }
   },
   {
-    "_id": "batch-suero_en_polvo_cereza__1lt_caplin_x_50-2026-154",
-    "product_id": "suero_en_polvo_cereza__1lt_caplin_x_50",
+    "_id": "ROSADEL_batch-suero_en_polvo_cereza__1lt_caplin_x_50-2026-154",
+    "product_id": "ROSADEL_suero_en_polvo_cereza__1lt_caplin_x_50",
     "lot_code": "LOT-3E29FC7DF3",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -4106,8 +4106,8 @@
     }
   },
   {
-    "_id": "batch-sulfacetamida_10_15_ml_got_slect-2026-155",
-    "product_id": "sulfacetamida_10_15_ml_got_slect",
+    "_id": "ROSADEL_batch-sulfacetamida_10_15_ml_got_slect-2026-155",
+    "product_id": "ROSADEL_sulfacetamida_10_15_ml_got_slect",
     "lot_code": "LOT-CC970CA569",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -4124,8 +4124,8 @@
     }
   },
   {
-    "_id": "BODEGA-sulfacetamida_10_15_ml_got_slect-2026-155",
-    "product_id": "sulfacetamida_10_15_ml_got_slect",
+    "_id": "ROSADEL_BODEGA-sulfacetamida_10_15_ml_got_slect-2026-155",
+    "product_id": "ROSADEL_sulfacetamida_10_15_ml_got_slect",
     "lot_code": "LOT-421101A302",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -4142,8 +4142,8 @@
     }
   },
   {
-    "_id": "batch-tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4-2026-156",
-    "product_id": "tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4",
+    "_id": "ROSADEL_batch-tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4-2026-156",
+    "product_id": "ROSADEL_tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4",
     "lot_code": "LOT-F28C5B80D0",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -4160,8 +4160,8 @@
     }
   },
   {
-    "_id": "BODEGA-tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4-2026-156",
-    "product_id": "tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4",
+    "_id": "ROSADEL_BODEGA-tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4-2026-156",
+    "product_id": "ROSADEL_tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4",
     "lot_code": "LOT-C9C340DEB0",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -4178,8 +4178,8 @@
     }
   },
   {
-    "_id": "batch-thiorelax_tiocolchicósico_8_mg_x_10_tabs-2026-157",
-    "product_id": "thiorelax_tiocolchicósico_8_mg_x_10_tabs",
+    "_id": "ROSADEL_batch-thiorelax_tiocolchicósico_8_mg_x_10_tabs-2026-157",
+    "product_id": "ROSADEL_thiorelax_tiocolchicósico_8_mg_x_10_tabs",
     "lot_code": "LOT-D65D5F92B7",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -4196,8 +4196,8 @@
     }
   },
   {
-    "_id": "batch-toallitas_de_alcohol_x_200-2026-158",
-    "product_id": "toallitas_de_alcohol_x_200",
+    "_id": "ROSADEL_batch-toallitas_de_alcohol_x_200-2026-158",
+    "product_id": "ROSADEL_toallitas_de_alcohol_x_200",
     "lot_code": "LOT-1C61634347",
     "expiration_date": {
       "$date": "2030-01-01T00:00:00.000Z"
@@ -4214,8 +4214,8 @@
     }
   },
   {
-    "_id": "BODEGA-toallitas_de_alcohol_x_200-2026-158",
-    "product_id": "toallitas_de_alcohol_x_200",
+    "_id": "ROSADEL_BODEGA-toallitas_de_alcohol_x_200-2026-158",
+    "product_id": "ROSADEL_toallitas_de_alcohol_x_200",
     "lot_code": "LOT-221DC9AA04",
     "expiration_date": {
       "$date": "2030-01-01T00:00:00.000Z"
@@ -4232,8 +4232,8 @@
     }
   },
   {
-    "_id": "batch-tosiflem_jarabe_240_ml-2026-159",
-    "product_id": "tosiflem_jarabe_240_ml",
+    "_id": "ROSADEL_batch-tosiflem_jarabe_240_ml-2026-159",
+    "product_id": "ROSADEL_tosiflem_jarabe_240_ml",
     "lot_code": "LOT-ED526E0FF4",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -4250,8 +4250,8 @@
     }
   },
   {
-    "_id": "BODEGA-tosiflem_jarabe_240_ml-2026-159",
-    "product_id": "tosiflem_jarabe_240_ml",
+    "_id": "ROSADEL_BODEGA-tosiflem_jarabe_240_ml-2026-159",
+    "product_id": "ROSADEL_tosiflem_jarabe_240_ml",
     "lot_code": "LOT-C2D3D7AECD",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -4268,8 +4268,8 @@
     }
   },
   {
-    "_id": "batch-tossadios_fco_con__100_caramelos-2026-160",
-    "product_id": "tossadios_fco_con__100_caramelos",
+    "_id": "ROSADEL_batch-tossadios_fco_con__100_caramelos-2026-160",
+    "product_id": "ROSADEL_tossadios_fco_con__100_caramelos",
     "lot_code": "LOT-83970EC237",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -4286,8 +4286,8 @@
     }
   },
   {
-    "_id": "batch-tramadol_50_mg_caja_x_100_blist_x_10_getics-2026-161",
-    "product_id": "tramadol_50_mg_caja_x_100_blist_x_10_getics",
+    "_id": "ROSADEL_batch-tramadol_50_mg_caja_x_100_blist_x_10_getics-2026-161",
+    "product_id": "ROSADEL_tramadol_50_mg_caja_x_100_blist_x_10_getics",
     "lot_code": "LOT-BAE7A0B166",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -4304,8 +4304,8 @@
     }
   },
   {
-    "_id": "batch-tramadol_50mg_caja_x_100_blist_x_10_caplin-2026-162",
-    "product_id": "tramadol_50mg_caja_x_100_blist_x_10_caplin",
+    "_id": "ROSADEL_batch-tramadol_50mg_caja_x_100_blist_x_10_caplin-2026-162",
+    "product_id": "ROSADEL_tramadol_50mg_caja_x_100_blist_x_10_caplin",
     "lot_code": "LOT-F67A4F2C25",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -4322,8 +4322,8 @@
     }
   },
   {
-    "_id": "BODEGA-tramadol_50mg_caja_x_100_blist_x_10_caplin-2026-162",
-    "product_id": "tramadol_50mg_caja_x_100_blist_x_10_caplin",
+    "_id": "ROSADEL_BODEGA-tramadol_50mg_caja_x_100_blist_x_10_caplin-2026-162",
+    "product_id": "ROSADEL_tramadol_50mg_caja_x_100_blist_x_10_caplin",
     "lot_code": "LOT-80AF19ECA4",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -4340,8 +4340,8 @@
     }
   },
   {
-    "_id": "batch-tramadol_ampolla__2ml_bandeja_x_10_amp-2026-163",
-    "product_id": "tramadol_ampolla__2ml_bandeja_x_10_amp",
+    "_id": "ROSADEL_batch-tramadol_ampolla__2ml_bandeja_x_10_amp-2026-163",
+    "product_id": "ROSADEL_tramadol_ampolla__2ml_bandeja_x_10_amp",
     "lot_code": "LOT-BB05AA7A81",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -4358,8 +4358,8 @@
     }
   },
   {
-    "_id": "batch-tresbiot_20_grs_caplin-2026-164",
-    "product_id": "tresbiot_20_grs_caplin",
+    "_id": "ROSADEL_batch-tresbiot_20_grs_caplin-2026-164",
+    "product_id": "ROSADEL_tresbiot_20_grs_caplin",
     "lot_code": "LOT-5CE5C239D7",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -4376,8 +4376,8 @@
     }
   },
   {
-    "_id": "BODEGA-tresbiot_20_grs_caplin-2026-164",
-    "product_id": "tresbiot_20_grs_caplin",
+    "_id": "ROSADEL_BODEGA-tresbiot_20_grs_caplin-2026-164",
+    "product_id": "ROSADEL_tresbiot_20_grs_caplin",
     "lot_code": "LOT-F565DBCF1E",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -4394,8 +4394,8 @@
     }
   },
   {
-    "_id": "batch-trilox_180_ml-2026-165",
-    "product_id": "trilox_180_ml",
+    "_id": "ROSADEL_batch-trilox_180_ml-2026-165",
+    "product_id": "ROSADEL_trilox_180_ml",
     "lot_code": "LOT-1AE75607DE",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -4412,8 +4412,8 @@
     }
   },
   {
-    "_id": "BODEGA-trilox_180_ml-2026-165",
-    "product_id": "trilox_180_ml",
+    "_id": "ROSADEL_BODEGA-trilox_180_ml-2026-165",
+    "product_id": "ROSADEL_trilox_180_ml",
     "lot_code": "LOT-C0486A84F3",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -4430,8 +4430,8 @@
     }
   },
   {
-    "_id": "batch-trilox_360_ml-2026-166",
-    "product_id": "trilox_360_ml",
+    "_id": "ROSADEL_batch-trilox_360_ml-2026-166",
+    "product_id": "ROSADEL_trilox_360_ml",
     "lot_code": "LOT-906A0532AA",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -4448,8 +4448,8 @@
     }
   },
   {
-    "_id": "batch-trimetoprim_120_ml_selec_sulfabac-2026-167",
-    "product_id": "trimetoprim_120_ml_selec_sulfabac",
+    "_id": "ROSADEL_batch-trimetoprim_120_ml_selec_sulfabac-2026-167",
+    "product_id": "ROSADEL_trimetoprim_120_ml_selec_sulfabac",
     "lot_code": "LOT-2BCF3B516F",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -4466,8 +4466,8 @@
     }
   },
   {
-    "_id": "BODEGA-trimetoprim_120_ml_selec_sulfabac-2026-167",
-    "product_id": "trimetoprim_120_ml_selec_sulfabac",
+    "_id": "ROSADEL_BODEGA-trimetoprim_120_ml_selec_sulfabac-2026-167",
+    "product_id": "ROSADEL_trimetoprim_120_ml_selec_sulfabac",
     "lot_code": "LOT-95701ECC0C",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -4484,8 +4484,8 @@
     }
   },
   {
-    "_id": "batch-uniactv__jabon_intimo_femenino_200_ml_caplin-2026-168",
-    "product_id": "uniactv__jabon_intimo_femenino_200_ml_caplin",
+    "_id": "ROSADEL_batch-uniactv__jabon_intimo_femenino_200_ml_caplin-2026-168",
+    "product_id": "ROSADEL_uniactv__jabon_intimo_femenino_200_ml_caplin",
     "lot_code": "LOT-07FB2F7167",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -4502,8 +4502,8 @@
     }
   },
   {
-    "_id": "BODEGA-uniactv__jabon_intimo_femenino_200_ml_caplin-2026-168",
-    "product_id": "uniactv__jabon_intimo_femenino_200_ml_caplin",
+    "_id": "ROSADEL_BODEGA-uniactv__jabon_intimo_femenino_200_ml_caplin-2026-168",
+    "product_id": "ROSADEL_uniactv__jabon_intimo_femenino_200_ml_caplin",
     "lot_code": "LOT-FE2DFB6C76",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -4520,8 +4520,8 @@
     }
   },
   {
-    "_id": "batch-unicil_la_24_mega_peni_bena_vial_unipharm-2026-169",
-    "product_id": "unicil_la_24_mega_peni_bena_vial_unipharm",
+    "_id": "ROSADEL_batch-unicil_la_24_mega_peni_bena_vial_unipharm-2026-169",
+    "product_id": "ROSADEL_unicil_la_24_mega_peni_bena_vial_unipharm",
     "lot_code": "LOT-12A2867636",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -4538,8 +4538,8 @@
     }
   },
   {
-    "_id": "batch-valsartan_80_mg_caja_x_30_tab_caplin-2026-170",
-    "product_id": "valsartan_80_mg_caja_x_30_tab_caplin",
+    "_id": "ROSADEL_batch-valsartan_80_mg_caja_x_30_tab_caplin-2026-170",
+    "product_id": "ROSADEL_valsartan_80_mg_caja_x_30_tab_caplin",
     "lot_code": "LOT-CAF395E831",
     "expiration_date": null,
     "purchase_date": null,
@@ -4552,8 +4552,8 @@
     }
   },
   {
-    "_id": "batch-venda_elastica_2_x_5-2026-171",
-    "product_id": "venda_elastica_2_x_5",
+    "_id": "ROSADEL_batch-venda_elastica_2_x_5-2026-171",
+    "product_id": "ROSADEL_venda_elastica_2_x_5",
     "lot_code": "LOT-D2F1CB8203",
     "expiration_date": {
       "$date": "2030-05-01T00:00:00.000Z"
@@ -4570,8 +4570,8 @@
     }
   },
   {
-    "_id": "BODEGA-venda_elastica_2_x_5-2026-171",
-    "product_id": "venda_elastica_2_x_5",
+    "_id": "ROSADEL_BODEGA-venda_elastica_2_x_5-2026-171",
+    "product_id": "ROSADEL_venda_elastica_2_x_5",
     "lot_code": "LOT-83A62F1BD5",
     "expiration_date": {
       "$date": "2030-05-01T00:00:00.000Z"
@@ -4588,8 +4588,8 @@
     }
   },
   {
-    "_id": "batch-venda_elastica_3_x_5-2026-172",
-    "product_id": "venda_elastica_3_x_5",
+    "_id": "ROSADEL_batch-venda_elastica_3_x_5-2026-172",
+    "product_id": "ROSADEL_venda_elastica_3_x_5",
     "lot_code": "LOT-0F0BA56D08",
     "expiration_date": {
       "$date": "2029-02-01T00:00:00.000Z"
@@ -4606,8 +4606,8 @@
     }
   },
   {
-    "_id": "BODEGA-venda_elastica_3_x_5-2026-172",
-    "product_id": "venda_elastica_3_x_5",
+    "_id": "ROSADEL_BODEGA-venda_elastica_3_x_5-2026-172",
+    "product_id": "ROSADEL_venda_elastica_3_x_5",
     "lot_code": "LOT-081337C039",
     "expiration_date": {
       "$date": "2029-02-01T00:00:00.000Z"
@@ -4624,8 +4624,8 @@
     }
   },
   {
-    "_id": "batch-venda_elastica_4_x_5-2026-173",
-    "product_id": "venda_elastica_4_x_5",
+    "_id": "ROSADEL_batch-venda_elastica_4_x_5-2026-173",
+    "product_id": "ROSADEL_venda_elastica_4_x_5",
     "lot_code": "LOT-D18E7EDEE4",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -4642,8 +4642,8 @@
     }
   },
   {
-    "_id": "BODEGA-venda_elastica_4_x_5-2026-173",
-    "product_id": "venda_elastica_4_x_5",
+    "_id": "ROSADEL_BODEGA-venda_elastica_4_x_5-2026-173",
+    "product_id": "ROSADEL_venda_elastica_4_x_5",
     "lot_code": "LOT-345FAEB12D",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -4660,8 +4660,8 @@
     }
   },
   {
-    "_id": "batch-venda_elastica_6_x_5-2026-174",
-    "product_id": "venda_elastica_6_x_5",
+    "_id": "ROSADEL_batch-venda_elastica_6_x_5-2026-174",
+    "product_id": "ROSADEL_venda_elastica_6_x_5",
     "lot_code": "LOT-978EE842D9",
     "expiration_date": {
       "$date": "2029-01-01T00:00:00.000Z"
@@ -4678,8 +4678,8 @@
     }
   },
   {
-    "_id": "BODEGA-venda_elastica_6_x_5-2026-174",
-    "product_id": "venda_elastica_6_x_5",
+    "_id": "ROSADEL_BODEGA-venda_elastica_6_x_5-2026-174",
+    "product_id": "ROSADEL_venda_elastica_6_x_5",
     "lot_code": "LOT-02510EC6FB",
     "expiration_date": {
       "$date": "2029-01-01T00:00:00.000Z"
@@ -4696,8 +4696,8 @@
     }
   },
   {
-    "_id": "batch-venotropa_x_30caps_farmalin-2026-175",
-    "product_id": "venotropa_x_30caps_farmalin",
+    "_id": "ROSADEL_batch-venotropa_x_30caps_farmalin-2026-175",
+    "product_id": "ROSADEL_venotropa_x_30caps_farmalin",
     "lot_code": "LOT-06C16457E0",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -4714,8 +4714,8 @@
     }
   },
   {
-    "_id": "batch-viriman_plus_tadalafil_20_mg_selec_caja_x_1_tab-2026-176",
-    "product_id": "viriman_plus_tadalafil_20_mg_selec_caja_x_1_tab",
+    "_id": "ROSADEL_batch-viriman_plus_tadalafil_20_mg_selec_caja_x_1_tab-2026-176",
+    "product_id": "ROSADEL_viriman_plus_tadalafil_20_mg_selec_caja_x_1_tab",
     "lot_code": "LOT-3B1D9EF2F6",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -4732,8 +4732,8 @@
     }
   },
   {
-    "_id": "batch-vitamina_e_1000_ui_blist_x_10_caja_x_60_gelc_kurantis-2026-177",
-    "product_id": "vitamina_e_1000_ui_blist_x_10_caja_x_60_gelc_kurantis",
+    "_id": "ROSADEL_batch-vitamina_e_1000_ui_blist_x_10_caja_x_60_gelc_kurantis-2026-177",
+    "product_id": "ROSADEL_vitamina_e_1000_ui_blist_x_10_caja_x_60_gelc_kurantis",
     "lot_code": "LOT-F04E930D1D",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -4750,8 +4750,8 @@
     }
   },
   {
-    "_id": "batch-vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis-2026-178",
-    "product_id": "vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis",
+    "_id": "ROSADEL_batch-vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis-2026-178",
+    "product_id": "ROSADEL_vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis",
     "lot_code": "LOT-EA0C4068C7",
     "expiration_date": null,
     "purchase_date": {

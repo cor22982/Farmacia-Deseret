@@ -1,6 +1,6 @@
 [
   {
-    "_id": "aceite_de_recino_1_onz_lasana",
+    "_id": "BYF_aceite_de_recino_1_onz_lasana",
     "name": "ACEITE DE RECINO 1 ONZ LASANA",
     "category": "Laxante",
     "principio_activo": "Aceite de ricino",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T04:53:55.504480"
   },
   {
-    "_id": "acetona__pura_2_onz_lasana",
+    "_id": "BYF_acetona__pura_2_onz_lasana",
     "name": "ACETONA  PURA 2 ONZ LASANA",
     "category": "Solvente y limpiador",
     "principio_activo": "Acetona",
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T04:53:55.505455"
   },
   {
-    "_id": "aciclovir_400_mg5ml__fco_100_ml_caplin",
+    "_id": "BYF_aciclovir_400_mg5ml__fco_100_ml_caplin",
     "name": "ACICLOVIR 400 MG/5ML  FCO 100 ML CAPLIN",
     "category": "Antiviral",
     "principio_activo": "Aciclovir",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T04:53:55.506453"
   },
   {
-    "_id": "acido_acetilsalicilico_100_mg_blister_x_10_caja_x_100",
+    "_id": "BYF_acido_acetilsalicilico_100_mg_blister_x_10_caja_x_100",
     "name": "ACIDO ACETILSALICILICO 100 MG BLISTER X 10 CAJA X 100",
     "category": "Analgésicos y antipiréticos",
     "principio_activo": "Ácido acetilsalicílico",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T04:53:55.506453"
   },
   {
-    "_id": "acido_borico_polvo_1_onz_bolsa_x_8",
+    "_id": "BYF_acido_borico_polvo_1_onz_bolsa_x_8",
     "name": "ACIDO BORICO POLVO 1 ONZ BOLSA X 8",
     "category": "Antisépticos y desinfectantes",
     "principio_activo": "Ácido bórico",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T04:53:55.506453"
   },
   {
-    "_id": "agua_cal_de_segunda_fco_60_ml",
+    "_id": "BYF_agua_cal_de_segunda_fco_60_ml",
     "name": "AGUA CAL DE SEGUNDA FCO 60 ML",
     "category": "Antiséptico y desinfectante",
     "principio_activo": "Hipoclorito de calcio",
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T04:53:55.506453"
   },
   {
-    "_id": "albendazol_400_mg_susp_fco_x_10_ml_caplin",
+    "_id": "BYF_albendazol_400_mg_susp_fco_x_10_ml_caplin",
     "name": "ALBENDAZOL 400 MG SUSP FCO X 10 ML CAPLIN",
     "category": "Antiparasitario",
     "principio_activo": "Albendazol",
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T04:53:55.507455"
   },
   {
-    "_id": "albendazol_caja_x_2_tab_caplin_y_argus",
+    "_id": "BYF_albendazol_caja_x_2_tab_caplin_y_argus",
     "name": "ALBENDAZOL CAJA X 2 TAB CAPLIN Y ARGUS",
     "category": "Antiparasitario",
     "principio_activo": "Albendazol",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T04:53:55.507455"
   },
   {
-    "_id": "alcanfor_fco_x_100_cuadros",
+    "_id": "BYF_alcanfor_fco_x_100_cuadros",
     "name": "ALCANFOR FCO X 100 CUADROS",
     "category": "Analgésico tópico",
     "principio_activo": "Alcanfor",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T04:53:55.507455"
   },
   {
-    "_id": "alcohol__elitico70_12_litro_vesa",
+    "_id": "BYF_alcohol__elitico70_12_litro_vesa",
     "name": "ALCOHOL  ELITICO70% 1/2 LITRO VESA",
     "category": "Antiséptico y desinfectante",
     "principio_activo": "Alcohol etílico 70%",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T04:53:55.508452"
   },
   {
-    "_id": "alcohol_alcanforado_120_ml_sante",
+    "_id": "BYF_alcohol_alcanforado_120_ml_sante",
     "name": "ALCOHOL ALCANFORADO 120 ML SANTE",
     "category": "Antiséptico y Desinfectante",
     "principio_activo": "Alcohol etílico y alcanfor",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T04:53:55.508452"
   },
   {
-    "_id": "alcohol_etilico_vesa_70_1_litro",
+    "_id": "BYF_alcohol_etilico_vesa_70_1_litro",
     "name": "ALCOHOL ETILICO VESA 70% 1 LITRO",
     "category": "Antisépticos y desinfectantes",
     "principio_activo": "Alcohol etílico",
@@ -252,7 +252,7 @@
     "updated_at": "2026-04-20T04:53:55.508452"
   },
   {
-    "_id": "alopurinol_300_mg_blister_x_10_caja_x_100",
+    "_id": "BYF_alopurinol_300_mg_blister_x_10_caja_x_100",
     "name": "ALOPURINOL 300 MG BLISTER X 10 CAJA X 100",
     "category": "Antigotosos y agentes uricosúricos",
     "principio_activo": "Alopurinol",
@@ -273,7 +273,7 @@
     "updated_at": "2026-04-20T04:53:55.508452"
   },
   {
-    "_id": "amlodipina_10_mg_blister_x_10_caja_x_100",
+    "_id": "BYF_amlodipina_10_mg_blister_x_10_caja_x_100",
     "name": "AMLODIPINA 10 MG BLISTER X 10 CAJA X 100",
     "category": "Antihipertensivo",
     "principio_activo": "Amlodipina",
@@ -294,7 +294,7 @@
     "updated_at": "2026-04-20T04:53:55.509453"
   },
   {
-    "_id": "amlodipina_5_mg_blister_x_10_caja_x_100",
+    "_id": "BYF_amlodipina_5_mg_blister_x_10_caja_x_100",
     "name": "AMLODIPINA 5 MG BLISTER X 10 CAJA X 100",
     "category": "Antihipertensivo",
     "principio_activo": "Amlodipina",
@@ -315,7 +315,7 @@
     "updated_at": "2026-04-20T04:53:55.510454"
   },
   {
-    "_id": "amoxicilina_500_mg_blist_x_10_caja_x_100_argus_o_caplin",
+    "_id": "BYF_amoxicilina_500_mg_blist_x_10_caja_x_100_argus_o_caplin",
     "name": "AMOXICILINA 500 MG BLIST X 10 CAJA X 100 (ARGUS O CAPLIN)",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina",
@@ -336,7 +336,7 @@
     "updated_at": "2026-04-20T04:53:55.511454"
   },
   {
-    "_id": "ampicilina_500_mg_blister_x_10_caja_x__100",
+    "_id": "BYF_ampicilina_500_mg_blister_x_10_caja_x__100",
     "name": "AMPICILINA 500 MG BLISTER X 10 CAJA X  100",
     "category": "Antibiótico",
     "principio_activo": "Ampicilina",
@@ -357,7 +357,7 @@
     "updated_at": "2026-04-20T04:53:55.511454"
   },
   {
-    "_id": "antigripito_infanil_jbe_60_ml",
+    "_id": "BYF_antigripito_infanil_jbe_60_ml",
     "name": "ANTIGRIPITO INFANIL JBE 60 ML",
     "category": "Antigripales",
     "principio_activo": "Paracetamol, Fenilefrina, Clorfeniramina",
@@ -378,7 +378,7 @@
     "updated_at": "2026-04-20T04:53:55.511454"
   },
   {
-    "_id": "atenolol_100_mg_blist_x_a10_caja_x_100_argus_o_caplin",
+    "_id": "BYF_atenolol_100_mg_blist_x_a10_caja_x_100_argus_o_caplin",
     "name": "ATENOLOL 100 MG BLIST X A10 CAJA X 100 (ARGUS O CAPLIN)",
     "category": "Betabloqueante",
     "principio_activo": "Atenolol",
@@ -399,7 +399,7 @@
     "updated_at": "2026-04-20T04:53:55.512454"
   },
   {
-    "_id": "azitromicina_200_mgs_fco_x_30_ml_caplin",
+    "_id": "BYF_azitromicina_200_mgs_fco_x_30_ml_caplin",
     "name": "AZITROMICINA 200 MGS FCO X 30 ML CAPLIN",
     "category": "Antibiótico macrólido",
     "principio_activo": "Azitromicina",
@@ -420,7 +420,7 @@
     "updated_at": "2026-04-20T04:53:55.512454"
   },
   {
-    "_id": "benzoato_de_bencilo_fco_x_120_ml_selec",
+    "_id": "BYF_benzoato_de_bencilo_fco_x_120_ml_selec",
     "name": "BENZOATO DE BENCILO FCO X 120 ML SELEC",
     "category": "Antiparasitarios tópicos",
     "principio_activo": "Benzoato de bencilo",
@@ -441,7 +441,7 @@
     "updated_at": "2026-04-20T04:53:55.512454"
   },
   {
-    "_id": "bicarbonato_de_sodio_media_libra_disfavil",
+    "_id": "BYF_bicarbonato_de_sodio_media_libra_disfavil",
     "name": "BICARBONATO DE SODIO MEDIA LIBRA DISFAVIL",
     "category": "Antiácido",
     "principio_activo": "Bicarbonato de sodio",
@@ -462,7 +462,7 @@
     "updated_at": "2026-04-20T04:53:55.513454"
   },
   {
-    "_id": "brazalete_repelente_para_niños_away_vesa",
+    "_id": "BYF_brazalete_repelente_para_niños_away_vesa",
     "name": "BRAZALETE REPELENTE PARA NIÑOS AWAY VESA",
     "category": "Repelente de insectos",
     "principio_activo": "No especificado (probablemente ingredientes naturales o DEET)",
@@ -483,7 +483,7 @@
     "updated_at": "2026-04-20T04:53:55.513454"
   },
   {
-    "_id": "calcio__vitamina_d__blister_x_10_caja_x_100_selec",
+    "_id": "BYF_calcio__vitamina_d__blister_x_10_caja_x_100_selec",
     "name": "CALCIO + VITAMINA D  BLISTER X 10 CAJA X 100 SELEC",
     "category": "Suplemento mineral y vitamínico",
     "principio_activo": "Calcio y Vitamina D",
@@ -504,7 +504,7 @@
     "updated_at": "2026-04-20T04:53:55.513454"
   },
   {
-    "_id": "carbamazepina_200_mg_blist_x_10_caja_x_100_selec",
+    "_id": "BYF_carbamazepina_200_mg_blist_x_10_caja_x_100_selec",
     "name": "CARBAMAZEPINA 200 MG BLIST X 10 CAJA X 100 SELEC",
     "category": "Antiepiléptico",
     "principio_activo": "Carbamazepina",
@@ -525,7 +525,7 @@
     "updated_at": "2026-04-20T04:53:55.513454"
   },
   {
-    "_id": "carbamazepina_200_mgs_blist_x_10_caja_x_100_caplin",
+    "_id": "BYF_carbamazepina_200_mgs_blist_x_10_caja_x_100_caplin",
     "name": "CARBAMAZEPINA 200 MGS BLIST X 10 CAJA X 100 CAPLIN",
     "category": "Anticonvulsivante",
     "principio_activo": "Carbamazepina",
@@ -546,7 +546,7 @@
     "updated_at": "2026-04-20T04:53:55.514453"
   },
   {
-    "_id": "cefixima_100mg5ml_x_fco_100_ml_shekinah",
+    "_id": "BYF_cefixima_100mg5ml_x_fco_100_ml_shekinah",
     "name": "CEFIXIMA 100MG/5ML X FCO 100 ML SHEKINAH",
     "category": "Antibiótico",
     "principio_activo": "Cefixima",
@@ -567,7 +567,7 @@
     "updated_at": "2026-04-20T04:53:55.514453"
   },
   {
-    "_id": "celecoxib_200_mgs_blist_x_10_caja_x_100_caplin",
+    "_id": "BYF_celecoxib_200_mgs_blist_x_10_caja_x_100_caplin",
     "name": "CELECOXIB 200 MGS BLIST X 10 CAJA X 100 CAPLIN",
     "category": "Antiinflamatorio no esteroideo (AINE), inhibidor selectivo de COX-2",
     "principio_activo": "Celecoxib",
@@ -588,7 +588,7 @@
     "updated_at": "2026-04-20T04:53:55.514453"
   },
   {
-    "_id": "cetirizina_10_mg_caja_x_10_tab_caplin",
+    "_id": "BYF_cetirizina_10_mg_caja_x_10_tab_caplin",
     "name": "CETIRIZINA 10 MG CAJA X 10 TAB CAPLIN",
     "category": "Antihistamínicos",
     "principio_activo": "Cetirizina",
@@ -609,7 +609,7 @@
     "updated_at": "2026-04-20T04:53:55.515452"
   },
   {
-    "_id": "ciprofloxacina_03__sol_oftalmicas__faco_x_5_ml_selec",
+    "_id": "BYF_ciprofloxacina_03__sol_oftalmicas__faco_x_5_ml_selec",
     "name": "CIPROFLOXACINA 0.3 % SOL OFTALMICAS  FACO X 5 ML SELEC",
     "category": "Antibiótico oftálmico",
     "principio_activo": "Ciprofloxacina",
@@ -630,7 +630,7 @@
     "updated_at": "2026-04-20T04:53:55.515452"
   },
   {
-    "_id": "claritromicina_caplin_250_mg_60_ml_susp",
+    "_id": "BYF_claritromicina_caplin_250_mg_60_ml_susp",
     "name": "CLARITROMICINA CAPLIN 250 MG /60 ML SUSP",
     "category": "Antibiótico macrólido",
     "principio_activo": "Claritromicina",
@@ -651,7 +651,7 @@
     "updated_at": "2026-04-20T04:53:56.896306"
   },
   {
-    "_id": "clotrimazol_2__crema_vag_20_grs_selec",
+    "_id": "BYF_clotrimazol_2__crema_vag_20_grs_selec",
     "name": "CLOTRIMAZOL 2 % CREMA VAG 20 GRS SELEC",
     "category": "Antifúngico tópico",
     "principio_activo": "Clotrimazol",
@@ -672,7 +672,7 @@
     "updated_at": "2026-04-20T04:53:56.896306"
   },
   {
-    "_id": "clotrimazol_2__crema_vag_30_grs_caplin",
+    "_id": "BYF_clotrimazol_2__crema_vag_30_grs_caplin",
     "name": "CLOTRIMAZOL 2 % CREMA VAG 30 GRS CAPLIN",
     "category": "Antimicótico tópico",
     "principio_activo": "Clotrimazol",
@@ -693,7 +693,7 @@
     "updated_at": "2026-04-20T04:53:56.897316"
   },
   {
-    "_id": "clotriplex_pomada_latita_x__125_grs_caja_x_40",
+    "_id": "BYF_clotriplex_pomada_latita_x__125_grs_caja_x_40",
     "name": "CLOTRIPLEX POMADA LATITA X  12.5 GRS CAJA X 40",
     "category": "Antifúngicos tópicos",
     "principio_activo": "Clotrimazol",
@@ -714,7 +714,7 @@
     "updated_at": "2026-04-20T04:53:56.898349"
   },
   {
-    "_id": "complejo_b_blister_x_10_caja_x_100_caplin",
+    "_id": "BYF_complejo_b_blister_x_10_caja_x_100_caplin",
     "name": "COMPLEJO B BLISTER X 10 CAJA X 100 CAPLIN",
     "category": "Suplemento vitamínico",
     "principio_activo": "Complejo B (vitaminas del grupo B)",
@@ -735,7 +735,7 @@
     "updated_at": "2026-04-20T04:53:56.899310"
   },
   {
-    "_id": "complejo_b_jarabe_caja_x_10_sobres_caplin",
+    "_id": "BYF_complejo_b_jarabe_caja_x_10_sobres_caplin",
     "name": "COMPLEJO B JARABE CAJA X 10 SOBRES CAPLIN",
     "category": "Suplemento vitamínico",
     "principio_activo": "Complejo B (vitaminas B1, B2, B6, B12, niacina, ácido fólico, ácido pantoténico)",
@@ -756,7 +756,7 @@
     "updated_at": "2026-04-20T04:53:56.900306"
   },
   {
-    "_id": "crema_lassar_bb_cool_120_grs",
+    "_id": "BYF_crema_lassar_bb_cool_120_grs",
     "name": "CREMA LASSAR BB COOL 120 GRS",
     "category": "Corticosteroides tópicos",
     "principio_activo": "Acetónido de triamcinolona",
@@ -777,7 +777,7 @@
     "updated_at": "2026-04-20T04:53:56.900306"
   },
   {
-    "_id": "cuesiigermina_caja_x_10_amp_pharmav",
+    "_id": "BYF_cuesiigermina_caja_x_10_amp_pharmav",
     "name": "CUESIIGERMINA CAJA X 10 AMP PHARMAV",
     "category": "Desconocida",
     "principio_activo": "Desconocido",
@@ -798,7 +798,7 @@
     "updated_at": "2026-04-20T04:53:56.901302"
   },
   {
-    "_id": "desloratadina_5_mg_blister_x_10_caja_x_100_caplin",
+    "_id": "BYF_desloratadina_5_mg_blister_x_10_caja_x_100_caplin",
     "name": "DESLORATADINA 5 MG BLISTER X 10 CAJA X 100 CAPLIN",
     "category": "Antihistamínico",
     "principio_activo": "Desloratadina",
@@ -819,7 +819,7 @@
     "updated_at": "2026-04-20T04:53:56.902303"
   },
   {
-    "_id": "desloratadina_5_mg_blister_x_20_caja_x_100_selec",
+    "_id": "BYF_desloratadina_5_mg_blister_x_20_caja_x_100_selec",
     "name": "DESLORATADINA 5 MG BLISTER X 20 CAJA X 100 SELEC",
     "category": "Antihistamínico",
     "principio_activo": "Desloratadina",
@@ -840,7 +840,7 @@
     "updated_at": "2026-04-20T04:53:56.903304"
   },
   {
-    "_id": "deslortadina_jarabe_fco_x_60_ml_selec",
+    "_id": "BYF_deslortadina_jarabe_fco_x_60_ml_selec",
     "name": "DESLORTADINA JARABE FCO X 60 ML SELEC",
     "category": "Antihistamínicos",
     "principio_activo": "Desloratadina",
@@ -861,7 +861,7 @@
     "updated_at": "2026-04-20T04:53:56.903304"
   },
   {
-    "_id": "dexametasona_blist_x_10_caja_x_100_caplin",
+    "_id": "BYF_dexametasona_blist_x_10_caja_x_100_caplin",
     "name": "DEXAMETASONA BLIST X 10 CAJA X 100 CAPLIN",
     "category": "Corticosteroides",
     "principio_activo": "Dexametasona",
@@ -882,7 +882,7 @@
     "updated_at": "2026-04-20T04:53:56.904309"
   },
   {
-    "_id": "dexasel_05_mg_blistr_x_20_selec_dexametasona",
+    "_id": "BYF_dexasel_05_mg_blistr_x_20_selec_dexametasona",
     "name": "DEXASEL 0.5 MG BLISTR X 20 SELEC (DEXAMETASONA)",
     "category": "Corticosteroides",
     "principio_activo": "Dexametasona",
@@ -903,7 +903,7 @@
     "updated_at": "2026-04-20T04:53:56.905302"
   },
   {
-    "_id": "dextrometorfano__jbe_120_ml_selec",
+    "_id": "BYF_dextrometorfano__jbe_120_ml_selec",
     "name": "DEXTROMETORFANO  JBE 120 ML SELEC",
     "category": "Antitusivos",
     "principio_activo": "Dextrometorfano",
@@ -924,7 +924,7 @@
     "updated_at": "2026-04-20T04:53:56.905302"
   },
   {
-    "_id": "diclocien_100_mgs_gel_caps_blist_x_10_caja_x_100",
+    "_id": "BYF_diclocien_100_mgs_gel_caps_blist_x_10_caja_x_100",
     "name": "DICLOCIEN 100 MGS GEL CAPS BLIST X 10 CAJA X 100",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Diclofenaco",
@@ -945,7 +945,7 @@
     "updated_at": "2026-04-20T04:53:56.906301"
   },
   {
-    "_id": "diclofenaco_100_mgs_sod_gel_caps_blist_x_10_caja_x_100_ar",
+    "_id": "BYF_diclofenaco_100_mgs_sod_gel_caps_blist_x_10_caja_x_100_ar",
     "name": "DICLOFENACO 100 MGS SOD GEL CAPS BLIST X 10 CAJA X 100 AR",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Diclofenaco sódico",
@@ -966,7 +966,7 @@
     "updated_at": "2026-04-20T04:53:56.906301"
   },
   {
-    "_id": "diclofenaco_pot_50_mg_blist_x_10_caja_x_100_azul",
+    "_id": "BYF_diclofenaco_pot_50_mg_blist_x_10_caja_x_100_azul",
     "name": "DICLOFENACO POT 50 MG BLIST X 10 CAJA X 100 AZUL",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Diclofenaco potásico",
@@ -987,7 +987,7 @@
     "updated_at": "2026-04-20T04:53:56.907301"
   },
   {
-    "_id": "dicloxacilina_500_mg_blister_x_10_caplin_caja_x_100",
+    "_id": "BYF_dicloxacilina_500_mg_blister_x_10_caplin_caja_x_100",
     "name": "DICLOXACILINA 500 MG BLISTER X 10 CAPLIN CAJA X 100",
     "category": "Antibiótico",
     "principio_activo": "Dicloxacilina",
@@ -1008,7 +1008,7 @@
     "updated_at": "2026-04-20T04:53:56.907301"
   },
   {
-    "_id": "dipirona_ampolla_2_ml_caplin",
+    "_id": "BYF_dipirona_ampolla_2_ml_caplin",
     "name": "DIPIRONA AMPOLLA 2 ML CAPLIN",
     "category": "Analgésico y antipirético",
     "principio_activo": "Dipirona (Metamizol)",
@@ -1029,7 +1029,7 @@
     "updated_at": "2026-04-20T04:53:56.908300"
   },
   {
-    "_id": "dolfix_100_mgs_caps_granu_blist_x_10_caja_x_100",
+    "_id": "BYF_dolfix_100_mgs_caps_granu_blist_x_10_caja_x_100",
     "name": "DOLFIX 100 MGS CAPS GRANU BLIST X 10 CAJA X 100",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Dexketoprofeno",
@@ -1050,7 +1050,7 @@
     "updated_at": "2026-04-20T04:53:56.908300"
   },
   {
-    "_id": "dolodent_sante_18_ml_caja_x_12_unidades",
+    "_id": "BYF_dolodent_sante_18_ml_caja_x_12_unidades",
     "name": "DOLODENT SANTE 18 ML CAJA X 12 UNIDADES",
     "category": "Analgésicos y antiinflamatorios tópicos",
     "principio_activo": "Benzocaína",
@@ -1071,7 +1071,7 @@
     "updated_at": "2026-04-20T04:53:56.909299"
   },
   {
-    "_id": "dolonervisel__kit",
+    "_id": "BYF_dolonervisel__kit",
     "name": "DOLO-NERVISEL  KIT",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Paracetamol, Cafeína, Diclofenaco sódico",
@@ -1092,7 +1092,7 @@
     "updated_at": "2026-04-20T04:53:56.909299"
   },
   {
-    "_id": "doxiciclina_100_mgs_caja_x_100_blist_x_10_caplin",
+    "_id": "BYF_doxiciclina_100_mgs_caja_x_100_blist_x_10_caplin",
     "name": "DOXICICLINA 100 MGS CAJA X 100 BLIST X 10 CAPLIN",
     "category": "Antibiótico",
     "principio_activo": "Doxiciclina",
@@ -1113,7 +1113,7 @@
     "updated_at": "2026-04-20T04:53:56.910299"
   },
   {
-    "_id": "dropadex_25_mgs_gel_caps_blist_x_10_caja_x_10",
+    "_id": "BYF_dropadex_25_mgs_gel_caps_blist_x_10_caja_x_10",
     "name": "DROPADEX 25 MGS GEL CAPS BLIST X 10 CAJA X 10",
     "category": "Antiemético",
     "principio_activo": "Domperidona",
@@ -1134,7 +1134,7 @@
     "updated_at": "2026-04-20T04:53:56.910299"
   },
   {
-    "_id": "dropadex_duo_blist_x_10_caja_x_10",
+    "_id": "BYF_dropadex_duo_blist_x_10_caja_x_10",
     "name": "DROPADEX DUO BLIST X 10 CAJA X 10",
     "category": "Descongestionante nasal",
     "principio_activo": "Clorfeniramina y Fenilefrina",
@@ -1155,7 +1155,7 @@
     "updated_at": "2026-04-20T04:53:56.911299"
   },
   {
-    "_id": "enzitrol_blist_x_10_caja_x_100",
+    "_id": "BYF_enzitrol_blist_x_10_caja_x_100",
     "name": "ENZITROL BLIST X 10 CAJA X 100",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas del complejo B",
@@ -1176,7 +1176,7 @@
     "updated_at": "2026-04-20T04:53:56.911299"
   },
   {
-    "_id": "esomeprazol_40_mg_blist_x_10_caja_x_100_washington",
+    "_id": "BYF_esomeprazol_40_mg_blist_x_10_caja_x_100_washington",
     "name": "ESOMEPRAZOL 40 MG BLIST X 10 CAJA X 100 WASHINGTON",
     "category": "Inhibidor de la bomba de protones",
     "principio_activo": "Esomeprazol",
@@ -1197,7 +1197,7 @@
     "updated_at": "2026-04-20T04:53:56.912300"
   },
   {
-    "_id": "etoricoxib_90_mg_caja_x_10_tab_caplin",
+    "_id": "BYF_etoricoxib_90_mg_caja_x_10_tab_caplin",
     "name": "ETORICOXIB 90 MG CAJA X 10 TAB CAPLIN",
     "category": "Antiinflamatorio no esteroideo (AINE), inhibidor selectivo de COX-2",
     "principio_activo": "Etoricoxib",
@@ -1218,7 +1218,7 @@
     "updated_at": "2026-04-20T04:53:56.912300"
   },
   {
-    "_id": "ex__flu_multisintomas_120_ml",
+    "_id": "BYF_ex__flu_multisintomas_120_ml",
     "name": "EX - FLU MULTISINTOMAS 120 ML",
     "category": "Antigripal",
     "principio_activo": "Paracetamol, Clorfeniramina, Fenilefrina",
@@ -1239,7 +1239,7 @@
     "updated_at": "2026-04-20T04:53:56.912300"
   },
   {
-    "_id": "ex__flu_sinus_120_ml_adulto",
+    "_id": "BYF_ex__flu_sinus_120_ml_adulto",
     "name": "EX - FLU SINUS 120 ML ADULTO",
     "category": "Descongestionante nasal",
     "principio_activo": "Pseudoefedrina",
@@ -1260,7 +1260,7 @@
     "updated_at": "2026-04-20T04:53:56.913297"
   },
   {
-    "_id": "ex__flu_tos_120_ml",
+    "_id": "BYF_ex__flu_tos_120_ml",
     "name": "EX - FLU TOS 120 ML",
     "category": "Antitusivo y expectorante",
     "principio_activo": "Dextrometorfano y Guaifenesina",
@@ -1281,7 +1281,7 @@
     "updated_at": "2026-04-20T04:53:56.913297"
   },
   {
-    "_id": "fexadrildexclobetam_jbe_120_ml_winzer",
+    "_id": "BYF_fexadrildexclobetam_jbe_120_ml_winzer",
     "name": "FEXADRIL(DEXCLO+BETAM) JBE 120 ML WINZER",
     "category": "Antialérgico y antiinflamatorio",
     "principio_activo": "Dexclorfeniramina + Betametasona",
@@ -1302,7 +1302,7 @@
     "updated_at": "2026-04-20T04:53:56.914299"
   },
   {
-    "_id": "fluconazol_150_mg_caja_x_2_caps_caplin",
+    "_id": "BYF_fluconazol_150_mg_caja_x_2_caps_caplin",
     "name": "FLUCONAZOL 150 MG CAJA X 2 CAPS CAPLIN",
     "category": "Antifúngicos",
     "principio_activo": "Fluconazol",
@@ -1323,7 +1323,7 @@
     "updated_at": "2026-04-20T04:53:56.915300"
   },
   {
-    "_id": "fludisin_com_ambrcleb_100_ml_legsa",
+    "_id": "BYF_fludisin_com_ambrcleb_100_ml_legsa",
     "name": "FLUDISIN COM (AMBR+CLEB) 100 ML LEGSA",
     "category": "Solución para nebulización",
     "principio_activo": "Ambroxol + Clenbuterol",
@@ -1344,7 +1344,7 @@
     "updated_at": "2026-04-20T04:53:59.785583"
   },
   {
-    "_id": "fosfolip_esenc_dr_kendal_caja_x_30_blist_x_10",
+    "_id": "BYF_fosfolip_esenc_dr_kendal_caja_x_30_blist_x_10",
     "name": "FOSFOLIP ESENC DR KENDAL CAJA X 30 BLIST X 10",
     "category": "Suplemento nutricional",
     "principio_activo": "Fosfolípidos esenciales",
@@ -1365,7 +1365,7 @@
     "updated_at": "2026-04-20T04:53:59.785583"
   },
   {
-    "_id": "gabapentina_400_mg_blist_x_10__caja_x_100_argus",
+    "_id": "BYF_gabapentina_400_mg_blist_x_10__caja_x_100_argus",
     "name": "GABAPENTINA 400 MG BLIST X 10  CAJA X 100 ARGUS",
     "category": "Antiepilépticos y Neuropáticos",
     "principio_activo": "Gabapentina",
@@ -1386,7 +1386,7 @@
     "updated_at": "2026-04-20T04:53:59.786688"
   },
   {
-    "_id": "gastropral_blist_x_10_caja_x_100",
+    "_id": "BYF_gastropral_blist_x_10_caja_x_100",
     "name": "GASTROPRAL BLIST X 10 CAJA X 100",
     "category": "Antiácidos / Inhibidores de la bomba de protones",
     "principio_activo": "Omeprazol",
@@ -1407,7 +1407,7 @@
     "updated_at": "2026-04-20T04:53:59.787716"
   },
   {
-    "_id": "gencloben_crema_tubo_30_gms",
+    "_id": "BYF_gencloben_crema_tubo_30_gms",
     "name": "GENCLOBEN CREMA TUBO 30 GMS",
     "category": "Antibiótico tópico",
     "principio_activo": "Clindamicina",
@@ -1428,7 +1428,7 @@
     "updated_at": "2026-04-20T04:53:59.788715"
   },
   {
-    "_id": "geriatri_h3_cgins_rojo_gel_caps_blist_x_10_caja_x_30_cona",
+    "_id": "BYF_geriatri_h3_cgins_rojo_gel_caps_blist_x_10_caja_x_30_cona",
     "name": "GERIATRI H3 C/GINS ROJO GEL CAPS BLIST X 10 CAJA X 30 CONA",
     "category": "Suplemento dietético",
     "principio_activo": "Ginseng rojo",
@@ -1449,7 +1449,7 @@
     "updated_at": "2026-04-20T04:53:59.789715"
   },
   {
-    "_id": "ginko_bilobag_blist_x_10_caja_x_50_gel_caps__conamep",
+    "_id": "BYF_ginko_bilobag_blist_x_10_caja_x_50_gel_caps__conamep",
     "name": "GINKO BILOBA+G BLIST X 10 CAJA X 50 GEL CAPS  CONAMEP",
     "category": "Suplemento dietético",
     "principio_activo": "Ginkgo biloba",
@@ -1470,7 +1470,7 @@
     "updated_at": "2026-04-20T04:53:59.789715"
   },
   {
-    "_id": "ginseng_jalea_real_caja_x_10_ml_caplin",
+    "_id": "BYF_ginseng_jalea_real_caja_x_10_ml_caplin",
     "name": "GINSENG JALEA REAL CAJA X 10 ML CAPLIN",
     "category": "Suplemento alimenticio",
     "principio_activo": "Ginseng, Jalea Real",
@@ -1491,7 +1491,7 @@
     "updated_at": "2026-04-20T04:53:59.790716"
   },
   {
-    "_id": "glicitos_jbe_fco_x_120_ml",
+    "_id": "BYF_glicitos_jbe_fco_x_120_ml",
     "name": "GLICITOS JBE FCO X 120 ML",
     "category": "Jarabe",
     "principio_activo": "Glicirricina",
@@ -1512,7 +1512,7 @@
     "updated_at": "2026-04-20T04:53:59.791713"
   },
   {
-    "_id": "gluxicam_sobre_caja_x_14_meloxicam__glucos",
+    "_id": "BYF_gluxicam_sobre_caja_x_14_meloxicam__glucos",
     "name": "GLUXICAM SOBRE CAJA X 14 (MELOXICAM + GLUCOS)",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Meloxicam + Glucosamina",
@@ -1533,7 +1533,7 @@
     "updated_at": "2026-04-20T04:53:59.792718"
   },
   {
-    "_id": "griin_vitamin_liquipack_sobre_caja_x_12",
+    "_id": "BYF_griin_vitamin_liquipack_sobre_caja_x_12",
     "name": "GRIIN VITAMIN LIQUIPACK SOBRE CAJA X 12",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas",
@@ -1554,7 +1554,7 @@
     "updated_at": "2026-04-20T04:53:59.793714"
   },
   {
-    "_id": "guayatos_fco_x_120_ml",
+    "_id": "BYF_guayatos_fco_x_120_ml",
     "name": "GUAYATOS FCO X 120 ML",
     "category": "Jarabe expectorante",
     "principio_activo": "Guaifenesina",
@@ -1575,7 +1575,7 @@
     "updated_at": "2026-04-20T04:53:59.794719"
   },
   {
-    "_id": "hidroclorotiazida_50_mg_blist_x_10_caja_x_100_caplin",
+    "_id": "BYF_hidroclorotiazida_50_mg_blist_x_10_caja_x_100_caplin",
     "name": "HIDROCLOROTIAZIDA 50 MG BLIST X 10 CAJA X 100 CAPLIN",
     "category": "Diurético tiazídico",
     "principio_activo": "Hidroclorotiazida",
@@ -1596,7 +1596,7 @@
     "updated_at": "2026-04-20T04:53:59.794719"
   },
   {
-    "_id": "histaprin_caja_x20_tab_blis_x10",
+    "_id": "BYF_histaprin_caja_x20_tab_blis_x10",
     "name": "HISTAPRIN CAJA X20 TAB BLIS X10",
     "category": "Antihistamínico",
     "principio_activo": "Loratadina",
@@ -1617,7 +1617,7 @@
     "updated_at": "2026-04-20T04:53:59.795718"
   },
   {
-    "_id": "ibuprofen_400_mgs_blister_x_10__caja_x_100_argus",
+    "_id": "BYF_ibuprofen_400_mgs_blister_x_10__caja_x_100_argus",
     "name": "IBUPROFEN 400 MGS BLISTER X 10  CAJA X 100 ARGUS",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Ibuprofeno",
@@ -1638,7 +1638,7 @@
     "updated_at": "2026-04-20T04:53:59.795718"
   },
   {
-    "_id": "ibuprofen_600_mgs_blister_x_10_caja_x_100__argus",
+    "_id": "BYF_ibuprofen_600_mgs_blister_x_10_caja_x_100__argus",
     "name": "IBUPROFEN 600 MGS BLISTER X 10 CAJA X 100  ARGUS",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Ibuprofeno",
@@ -1659,7 +1659,7 @@
     "updated_at": "2026-04-20T04:53:59.796715"
   },
   {
-    "_id": "ibuprofen_800_mgs_blister_x_10_caja_x_100_argus",
+    "_id": "BYF_ibuprofen_800_mgs_blister_x_10_caja_x_100_argus",
     "name": "IBUPROFEN 800 MGS BLISTER X 10 CAJA X 100 ARGUS",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Ibuprofeno",
@@ -1680,7 +1680,7 @@
     "updated_at": "2026-04-20T04:53:59.797715"
   },
   {
-    "_id": "ibuwin_400_gel_caps_blist_x_10__caja_x_50",
+    "_id": "BYF_ibuwin_400_gel_caps_blist_x_10__caja_x_50",
     "name": "IBUWIN 400 GEL CAPS BLIST X 10  CAJA X 50",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Ibuprofeno",
@@ -1701,7 +1701,7 @@
     "updated_at": "2026-04-20T04:53:59.797715"
   },
   {
-    "_id": "ibuwin_600_gel_caps_blist_x_10_caja_x_100",
+    "_id": "BYF_ibuwin_600_gel_caps_blist_x_10_caja_x_100",
     "name": "IBUWIN 600 GEL CAPS BLIST X 10 CAJA X 100",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Ibuprofeno",
@@ -1722,7 +1722,7 @@
     "updated_at": "2026-04-20T04:53:59.798714"
   },
   {
-    "_id": "ibuwin_forte__gel_caps_blist_x_10__caja_x_100",
+    "_id": "BYF_ibuwin_forte__gel_caps_blist_x_10__caja_x_100",
     "name": "IBUWIN FORTE  GEL CAPS BLIST X 10  CAJA X 100",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Ibuprofeno",
@@ -1743,7 +1743,7 @@
     "updated_at": "2026-04-20T04:53:59.798714"
   },
   {
-    "_id": "jeringa_10_ml_22_x_1_12_caja_x_100",
+    "_id": "BYF_jeringa_10_ml_22_x_1_12_caja_x_100",
     "name": "JERINGA 10 ML 22 X 1 1/2 CAJA X 100",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -1764,7 +1764,7 @@
     "updated_at": "2026-04-20T04:53:59.799714"
   },
   {
-    "_id": "jeringa_3_ml_22_x1_12_sum_shin_caja_x_100",
+    "_id": "BYF_jeringa_3_ml_22_x1_12_sum_shin_caja_x_100",
     "name": "JERINGA 3 ML 22 X1 1/2 SUM SHIN CAJA X 100",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -1785,7 +1785,7 @@
     "updated_at": "2026-04-20T04:53:59.799714"
   },
   {
-    "_id": "jeringa_3_ml_23_x_1__therfam_caja_x_100",
+    "_id": "BYF_jeringa_3_ml_23_x_1__therfam_caja_x_100",
     "name": "JERINGA 3 ML 23 X 1  THERFAM CAJA X 100",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -1806,7 +1806,7 @@
     "updated_at": "2026-04-20T04:54:02.139756"
   },
   {
-    "_id": "jeringa_3ml_23x1_112_difasa_caja_x_100",
+    "_id": "BYF_jeringa_3ml_23x1_112_difasa_caja_x_100",
     "name": "JERINGA 3ML 23X1 1/12 DIFASA CAJA X 100",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -1827,7 +1827,7 @@
     "updated_at": "2026-04-20T04:54:02.140761"
   },
   {
-    "_id": "jeringa_5_ml_22_x_1_12_caja_x_100",
+    "_id": "BYF_jeringa_5_ml_22_x_1_12_caja_x_100",
     "name": "JERINGA 5 ML 22 X 1 1/2 CAJA X 100",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -1848,7 +1848,7 @@
     "updated_at": "2026-04-20T04:54:02.140761"
   },
   {
-    "_id": "ketoconazol_crema_15_gm_argus_caplin",
+    "_id": "BYF_ketoconazol_crema_15_gm_argus_caplin",
     "name": "KETOCONAZOL CREMA 15 GM ARGUS CAPLIN",
     "category": "Antifúngicos tópicos",
     "principio_activo": "Ketoconazol",
@@ -1869,7 +1869,7 @@
     "updated_at": "2026-04-20T04:54:02.141760"
   },
   {
-    "_id": "ketorolaco_20_mg_blist_x_10_caja_x_50",
+    "_id": "BYF_ketorolaco_20_mg_blist_x_10_caja_x_50",
     "name": "KETOROLACO 20 MG BLIST X 10 CAJA X 50",
     "category": "Analgésicos y antiinflamatorios no esteroideos (AINEs)",
     "principio_activo": "Ketorolaco",
@@ -1890,7 +1890,7 @@
     "updated_at": "2026-04-20T04:54:02.142760"
   },
   {
-    "_id": "klorprosin__clonispro__blist_x_10_caja_x_100",
+    "_id": "BYF_klorprosin__clonispro__blist_x_10_caja_x_100",
     "name": "KLORPROSIN  (CLONIS+PRO)  BLIST X 10 CAJA X 100",
     "category": "Antibiótico combinado",
     "principio_activo": "Cloranfenicol + Probenecid",
@@ -1911,7 +1911,7 @@
     "updated_at": "2026-04-20T04:54:02.143764"
   },
   {
-    "_id": "klorprosin_kit_iny_x_unidad",
+    "_id": "BYF_klorprosin_kit_iny_x_unidad",
     "name": "KLORPROSIN KIT INY X UNIDAD",
     "category": "Antiséptico y desinfectante",
     "principio_activo": "Cloruro de benzalconio",
@@ -1932,7 +1932,7 @@
     "updated_at": "2026-04-20T04:54:02.144762"
   },
   {
-    "_id": "lansoprazol_30mg_blis_x_10_caja_x_100_argus",
+    "_id": "BYF_lansoprazol_30mg_blis_x_10_caja_x_100_argus",
     "name": "LANSOPRAZOL 30MG BLIS X 10 CAJA X 100 ARGUS",
     "category": "Inhibidor de la bomba de protones",
     "principio_activo": "Lansoprazol",
@@ -1953,7 +1953,7 @@
     "updated_at": "2026-04-20T04:54:02.145761"
   },
   {
-    "_id": "levogastric_caja_x_30_blister_x_5",
+    "_id": "BYF_levogastric_caja_x_30_blister_x_5",
     "name": "LEVOGASTRIC CAJA X 30 BLISTER X 5",
     "category": "Antiácido / Protector gástrico",
     "principio_activo": "Levosulpirida",
@@ -1974,7 +1974,7 @@
     "updated_at": "2026-04-20T04:54:02.145761"
   },
   {
-    "_id": "licopodio_12_onz_cart_x_8_sobres",
+    "_id": "BYF_licopodio_12_onz_cart_x_8_sobres",
     "name": "LICOPODIO 1/2 ONZ CART X 8 SOBRES",
     "category": "Suplemento herbario",
     "principio_activo": "Lycopodium clavatum",
@@ -1995,7 +1995,7 @@
     "updated_at": "2026-04-20T04:54:02.146804"
   },
   {
-    "_id": "limopirinacaja_x_25_sobres_piersan",
+    "_id": "BYF_limopirinacaja_x_25_sobres_piersan",
     "name": "LIMOPIRINACAJA X 25 SOBRES PIERSAN",
     "category": "Analgésico y antipirético",
     "principio_activo": "Paracetamol",
@@ -2016,7 +2016,7 @@
     "updated_at": "2026-04-20T04:54:02.147764"
   },
   {
-    "_id": "loratadina_10mg__blistx_10_tabs_caplin_caja_x_100",
+    "_id": "BYF_loratadina_10mg__blistx_10_tabs_caplin_caja_x_100",
     "name": "LORATADINA 10MG  BLISTX 10 TABS CAPLIN CAJA X 100",
     "category": "Antihistamínicos",
     "principio_activo": "Loratadina",
@@ -2037,7 +2037,7 @@
     "updated_at": "2026-04-20T04:54:02.148766"
   },
   {
-    "_id": "loratadina_10mg_x_blis_x_20_caja_x_100_selec",
+    "_id": "BYF_loratadina_10mg_x_blis_x_20_caja_x_100_selec",
     "name": "LORATADINA 10MG X BLIS X 20 CAJA X 100 SELEC",
     "category": "Antihistamínico",
     "principio_activo": "Loratadina",
@@ -2058,7 +2058,7 @@
     "updated_at": "2026-04-20T04:54:02.149761"
   },
   {
-    "_id": "loratadina_5_mg_jbe_selec",
+    "_id": "BYF_loratadina_5_mg_jbe_selec",
     "name": "LORATADINA 5 MG JBE SELEC",
     "category": "Antihistamínico",
     "principio_activo": "Loratadina",
@@ -2079,7 +2079,7 @@
     "updated_at": "2026-04-20T04:54:02.150761"
   },
   {
-    "_id": "lubricante_vive_120_ml_natural",
+    "_id": "BYF_lubricante_vive_120_ml_natural",
     "name": "LUBRICANTE VIVE 120 ML NATURAL",
     "category": "Lubricante íntimo",
     "principio_activo": "No especificado (producto natural)",
@@ -2100,7 +2100,7 @@
     "updated_at": "2026-04-20T04:54:02.151762"
   },
   {
-    "_id": "lubricante_vive_30_ml__fresa",
+    "_id": "BYF_lubricante_vive_30_ml__fresa",
     "name": "LUBRICANTE VIVE 30 ML  FRESA",
     "category": "Lubricante íntimo",
     "principio_activo": "No aplica",
@@ -2121,7 +2121,7 @@
     "updated_at": "2026-04-20T04:54:03.716028"
   },
   {
-    "_id": "magnesio_live_vit_c_caja_x_18_sobres",
+    "_id": "BYF_magnesio_live_vit_c_caja_x_18_sobres",
     "name": "MAGNESIO LIVE VIT C CAJA X 18 SOBRES",
     "category": "Suplemento mineral y vitamínico",
     "principio_activo": "Magnesio y Vitamina C",
@@ -2142,7 +2142,7 @@
     "updated_at": "2026-04-20T04:54:03.717028"
   },
   {
-    "_id": "menoestrogen_caja_x_30_blist_x_10",
+    "_id": "BYF_menoestrogen_caja_x_30_blist_x_10",
     "name": "MENOESTROGEN CAJA X 30 BLIST X 10",
     "category": "Hormonas y moduladores del sistema endocrino",
     "principio_activo": "Estrógenos y progestágenos",
@@ -2163,7 +2163,7 @@
     "updated_at": "2026-04-20T04:54:05.587429"
   },
   {
-    "_id": "metformina_1_gm_blist_x_10_caja_x_100_caplin",
+    "_id": "BYF_metformina_1_gm_blist_x_10_caja_x_100_caplin",
     "name": "METFORMINA 1 GM BLIST X 10 CAJA X 100 CAPLIN",
     "category": "Antidiabético",
     "principio_activo": "Metformina",
@@ -2184,7 +2184,7 @@
     "updated_at": "2026-04-20T04:54:05.587429"
   },
   {
-    "_id": "metformina_850_mg_blist_x_10_tab_infasa",
+    "_id": "BYF_metformina_850_mg_blist_x_10_tab_infasa",
     "name": "METFORMINA 850 MG BLIST X 10 TAB INFASA",
     "category": "Antidiabético",
     "principio_activo": "Metformina",
@@ -2205,7 +2205,7 @@
     "updated_at": "2026-04-20T04:54:05.588403"
   },
   {
-    "_id": "metocarbamol_blist_x_10_caja_x_100_caplin",
+    "_id": "BYF_metocarbamol_blist_x_10_caja_x_100_caplin",
     "name": "METOCARBAMOL BLIST X 10 CAJA X 100 CAPLIN",
     "category": "Relajante muscular",
     "principio_activo": "Metocarbamol",
@@ -2226,7 +2226,7 @@
     "updated_at": "2026-04-20T04:54:05.589393"
   },
   {
-    "_id": "metocarbamol_blist_x_10_caja_x_100_select",
+    "_id": "BYF_metocarbamol_blist_x_10_caja_x_100_select",
     "name": "METOCARBAMOL BLIST X 10 CAJA X 100 SELECT",
     "category": "Relajante muscular",
     "principio_activo": "Metocarbamol",
@@ -2247,7 +2247,7 @@
     "updated_at": "2026-04-20T04:54:05.589393"
   },
   {
-    "_id": "montelukast_10_mg_cja_x_50_tab_washintong",
+    "_id": "BYF_montelukast_10_mg_cja_x_50_tab_washintong",
     "name": "MONTELUKAST 10 MG CJA X 50 TAB WASHINTONG",
     "category": "Antiasmático y antialérgico",
     "principio_activo": "Montelukast",
@@ -2268,7 +2268,7 @@
     "updated_at": "2026-04-20T04:54:05.590398"
   },
   {
-    "_id": "naproliv__naproxeno__550_mg_caja_x_50_blist_x_10",
+    "_id": "BYF_naproliv__naproxeno__550_mg_caja_x_50_blist_x_10",
     "name": "NAPROLIV  (NAPROXENO  550 MG) CAJA X 50 BLIST X 10",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Naproxeno",
@@ -2289,7 +2289,7 @@
     "updated_at": "2026-04-20T04:54:05.590398"
   },
   {
-    "_id": "naproxeno_550_mg_blist_x_10_caja_x_100_caplinargus",
+    "_id": "BYF_naproxeno_550_mg_blist_x_10_caja_x_100_caplinargus",
     "name": "NAPROXENO 550 MG BLIST X 10 CAJA X 100 CAPLIN/ARGUS",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Naproxeno",
@@ -2310,7 +2310,7 @@
     "updated_at": "2026-04-20T04:54:05.591394"
   },
   {
-    "_id": "nasolin_gotas_15_ml__mediprod",
+    "_id": "BYF_nasolin_gotas_15_ml__mediprod",
     "name": "NASOLIN GOTAS 15 ML  MEDIPROD",
     "category": "Descongestionante nasal",
     "principio_activo": "Clorhidrato de nafazolina",
@@ -2331,7 +2331,7 @@
     "updated_at": "2026-04-20T04:54:05.592395"
   },
   {
-    "_id": "neurotropas_gel_caps_caja_x_50_blist_x_10_conamep",
+    "_id": "BYF_neurotropas_gel_caps_caja_x_50_blist_x_10_conamep",
     "name": "NEUROTROPAS GEL CAPS CAJA X 50 BLIST X 10 CONAMEP",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas del complejo B (B1, B6, B12)",
@@ -2352,7 +2352,7 @@
     "updated_at": "2026-04-20T04:54:05.592395"
   },
   {
-    "_id": "nistatina_30ml_gotas_selec",
+    "_id": "BYF_nistatina_30ml_gotas_selec",
     "name": "NISTATINA 30ML GOTAS SELEC",
     "category": "Antifúngicos",
     "principio_activo": "Nistatina",
@@ -2373,7 +2373,7 @@
     "updated_at": "2026-04-20T04:54:05.593393"
   },
   {
-    "_id": "nistatina_crema_selec",
+    "_id": "BYF_nistatina_crema_selec",
     "name": "NISTATINA CREMA SELEC",
     "category": "Antifúngico tópico",
     "principio_activo": "Nistatina",
@@ -2394,7 +2394,7 @@
     "updated_at": "2026-04-20T04:54:05.594395"
   },
   {
-    "_id": "nistatina_suspension__30_ml_caplin",
+    "_id": "BYF_nistatina_suspension__30_ml_caplin",
     "name": "NISTATINA SUSPENSION  30 ML CAPLIN",
     "category": "Antifúngicos",
     "principio_activo": "Nistatina",
@@ -2415,7 +2415,7 @@
     "updated_at": "2026-04-20T04:54:05.594395"
   },
   {
-    "_id": "nitasel_nitazoxanida_500mg_x6tab_select",
+    "_id": "BYF_nitasel_nitazoxanida_500mg_x6tab_select",
     "name": "NITASEL NITAZOXANIDA 500MG X6TAB SELECT",
     "category": "Antiparasitarios",
     "principio_activo": "Nitazoxanida",
@@ -2436,7 +2436,7 @@
     "updated_at": "2026-04-20T04:54:05.595395"
   },
   {
-    "_id": "nitazoxanida_caplin_caja_x_6_tab",
+    "_id": "BYF_nitazoxanida_caplin_caja_x_6_tab",
     "name": "NITAZOXANIDA CAPLIN CAJA X 6 TAB",
     "category": "Antiparasitarios",
     "principio_activo": "Nitazoxanida",
@@ -2457,7 +2457,7 @@
     "updated_at": "2026-04-20T04:54:07.288420"
   },
   {
-    "_id": "olmersartan_20mg_blist_x_10_caja_x_30_caplin",
+    "_id": "BYF_olmersartan_20mg_blist_x_10_caja_x_30_caplin",
     "name": "OLMERSARTAN 20MG BLIST X 10 CAJA X 30 CAPLIN",
     "category": "Antihipertensivo",
     "principio_activo": "Olmesartán",
@@ -2478,7 +2478,7 @@
     "updated_at": "2026-04-20T04:54:07.288420"
   },
   {
-    "_id": "olmersartan_40mg__hidro_125mg_blist_x_10_caja_x_30_cap",
+    "_id": "BYF_olmersartan_40mg__hidro_125mg_blist_x_10_caja_x_30_cap",
     "name": "OLMERSARTAN 40MG + HIDRO 12.5MG BLIST X 10 CAJA X 30 CAP",
     "category": "Antihipertensivo",
     "principio_activo": "Olmesartán medoxomilo e Hidroclorotiazida",
@@ -2499,7 +2499,7 @@
     "updated_at": "2026-04-20T04:54:07.288420"
   },
   {
-    "_id": "omeprazol_20_mg_blister_x_10_argus_caja_x_100",
+    "_id": "BYF_omeprazol_20_mg_blister_x_10_argus_caja_x_100",
     "name": "OMEPRAZOL 20 MG BLISTER X 10 ARGUS CAJA X 100",
     "category": "Inhibidores de la bomba de protones",
     "principio_activo": "Omeprazol",
@@ -2520,7 +2520,7 @@
     "updated_at": "2026-04-20T04:54:07.289388"
   },
   {
-    "_id": "penetracina_3_crema_15_gr_mediprod",
+    "_id": "BYF_penetracina_3_crema_15_gr_mediprod",
     "name": "PENETRACINA 3 CREMA 15 GR MEDIPROD",
     "category": "Antibiótico tópico",
     "principio_activo": "Neomicina, Bacitracina y Polimixina B",
@@ -2541,7 +2541,7 @@
     "updated_at": "2026-04-20T04:54:07.289388"
   },
   {
-    "_id": "podofilina_25_x_5_ml_f_quimica",
+    "_id": "BYF_podofilina_25_x_5_ml_f_quimica",
     "name": "PODOFILINA 25% X 5 ML F QUIMICA",
     "category": "Antimitótico y queratolítico",
     "principio_activo": "Podofilina",
@@ -2562,7 +2562,7 @@
     "updated_at": "2026-04-20T04:54:07.289388"
   },
   {
-    "_id": "prednisona_50mg_blister_x_10_selec_caja_x_50",
+    "_id": "BYF_prednisona_50mg_blister_x_10_selec_caja_x_50",
     "name": "PREDNISONA 50MG BLISTER X 10 SELEC CAJA X 50",
     "category": "Corticosteroides",
     "principio_activo": "Prednisona",
@@ -2583,7 +2583,7 @@
     "updated_at": "2026-04-20T04:54:07.290421"
   },
   {
-    "_id": "prenatales_plus_6_blis_x_5_caja_x_30_cap_conamep",
+    "_id": "BYF_prenatales_plus_6_blis_x_5_caja_x_30_cap_conamep",
     "name": "PRENATALES PLUS 6 BLIS X 5 CAJA X 30 CAP CONAMEP",
     "category": "Suplemento vitamínico y mineral",
     "principio_activo": "Vitaminas y minerales (complejo prenatal)",
@@ -2604,7 +2604,7 @@
     "updated_at": "2026-04-20T04:54:07.290421"
   },
   {
-    "_id": "prostaline_caja_x_30_blister_x_10_cap",
+    "_id": "BYF_prostaline_caja_x_30_blister_x_10_cap",
     "name": "PROSTALINE CAJA X 30 BLISTER X 10 CAP",
     "category": "Suplemento para la salud prostática",
     "principio_activo": "Extractos naturales para la salud de la próstata",
@@ -2625,7 +2625,7 @@
     "updated_at": "2026-04-20T04:54:07.291425"
   },
   {
-    "_id": "prudence_caja_x_3___menta_fresachocolateuva",
+    "_id": "BYF_prudence_caja_x_3___menta_fresachocolateuva",
     "name": "PRUDENCE CAJA X 3   MENTA, FRESA,CHOCOLATE,UVA",
     "category": "Preservativo",
     "principio_activo": "No aplica",
@@ -2646,7 +2646,7 @@
     "updated_at": "2026-04-20T04:54:07.291425"
   },
   {
-    "_id": "reakt_100mg5ml_susp_nitazoxanida_leven",
+    "_id": "BYF_reakt_100mg5ml_susp_nitazoxanida_leven",
     "name": "REAKT 100MG/5ML SUSP (NITAZOXANIDA) LEVEN",
     "category": "Antiparasitarios",
     "principio_activo": "Nitazoxanida",
@@ -2667,7 +2667,7 @@
     "updated_at": "2026-04-20T04:54:07.292385"
   },
   {
-    "_id": "relax_plus_caja_x_30_caps_blist_x_10_conamep",
+    "_id": "BYF_relax_plus_caja_x_30_caps_blist_x_10_conamep",
     "name": "RELAX PLUS CAJA X 30 CAPS BLIST X 10 CONAMEP",
     "category": "Suplemento alimenticio / Relajante muscular",
     "principio_activo": "No especificado",
@@ -2688,7 +2688,7 @@
     "updated_at": "2026-04-20T04:54:07.292385"
   },
   {
-    "_id": "rupatadina_10_mg_caja_x_10_tab_caplin",
+    "_id": "BYF_rupatadina_10_mg_caja_x_10_tab_caplin",
     "name": "RUPATADINA 10 MG CAJA X 10 TAB CAPLIN",
     "category": "Antihistamínico",
     "principio_activo": "Rupatadina",
@@ -2709,7 +2709,7 @@
     "updated_at": "2026-04-20T04:54:07.293389"
   },
   {
-    "_id": "sal_inglesa_sobre_x_25_vesa",
+    "_id": "BYF_sal_inglesa_sobre_x_25_vesa",
     "name": "SAL INGLESA SOBRE X 25 VESA",
     "category": "Laxantes y sales minerales",
     "principio_activo": "Sulfato de magnesio",
@@ -2730,7 +2730,7 @@
     "updated_at": "2026-04-20T04:54:07.293389"
   },
   {
-    "_id": "secnidazol_500_mg_x_4_tab_argus",
+    "_id": "BYF_secnidazol_500_mg_x_4_tab_argus",
     "name": "SECNIDAZOL 500 MG X 4 TAB ARGUS",
     "category": "Antiprotozoarios y antihelmínticos",
     "principio_activo": "Secnidazol",
@@ -2751,7 +2751,7 @@
     "updated_at": "2026-04-20T04:54:07.293389"
   },
   {
-    "_id": "secnidazol_500_mg_x_4_tab_caplin",
+    "_id": "BYF_secnidazol_500_mg_x_4_tab_caplin",
     "name": "SECNIDAZOL 500 MG X 4 TAB CAPLIN",
     "category": "Antiprotozoarios y antihelmínticos",
     "principio_activo": "Secnidazol",
@@ -2772,7 +2772,7 @@
     "updated_at": "2026-04-20T04:54:07.294387"
   },
   {
-    "_id": "segura_plus",
+    "_id": "BYF_segura_plus",
     "name": "SEGURA PLUS",
     "category": "Anticonceptivo",
     "principio_activo": "Levonorgestrel y Etinilestradiol",
@@ -2793,7 +2793,7 @@
     "updated_at": "2026-04-20T04:54:07.294387"
   },
   {
-    "_id": "senosidos__caja_x_30_blist_x_10_conamep",
+    "_id": "BYF_senosidos__caja_x_30_blist_x_10_conamep",
     "name": "SENOSIDOS  CAJA X 30 BLIST X 10 CONAMEP",
     "category": "Laxantes",
     "principio_activo": "SENOSIDOS",
@@ -2814,7 +2814,7 @@
     "updated_at": "2026-04-20T04:54:07.295386"
   },
   {
-    "_id": "sostengo_sildenafil_100mg_caja_x_24_sob_y_cajita_x_2_tab",
+    "_id": "BYF_sostengo_sildenafil_100mg_caja_x_24_sob_y_cajita_x_2_tab",
     "name": "SOSTENGO SILDENAFIL 100MG CAJA X 24 SOB Y CAJITA X 2 TAB",
     "category": "Inhibidores de la fosfodiesterasa tipo 5",
     "principio_activo": "Sildenafil",
@@ -2835,7 +2835,7 @@
     "updated_at": "2026-04-20T04:54:07.295386"
   },
   {
-    "_id": "spasmoclor_clordiabrom_de_clid_blisx_20_cja_x_100",
+    "_id": "BYF_spasmoclor_clordiabrom_de_clid_blisx_20_cja_x_100",
     "name": "SPASMOCLOR (CLORDIA+BROM DE CLID) BLISX 20 CJA X 100",
     "category": "Antiespasmódico",
     "principio_activo": "Clordiazepóxido y Bromuro de Clidinio",
@@ -2856,7 +2856,7 @@
     "updated_at": "2026-04-20T04:54:07.295386"
   },
   {
-    "_id": "sport_gel_forte_30_grs",
+    "_id": "BYF_sport_gel_forte_30_grs",
     "name": "SPORT GEL FORTE 30 GRS",
     "category": "Analgésico tópico / Anti-inflamatorio",
     "principio_activo": "No especificado (posiblemente mentol, salicilatos o similar)",
@@ -2877,7 +2877,7 @@
     "updated_at": "2026-04-20T04:54:07.296387"
   },
   {
-    "_id": "sulfatiazol_1g_x_10_sobres_disfavil",
+    "_id": "BYF_sulfatiazol_1g_x_10_sobres_disfavil",
     "name": "SULFATIAZOL 1G X 10 SOBRES DISFAVIL",
     "category": "Antibiótico sulfonamida",
     "principio_activo": "Sulfatiazol",
@@ -2898,7 +2898,7 @@
     "updated_at": "2026-04-20T04:54:07.296387"
   },
   {
-    "_id": "sulfato_ferroso_350_mg_blist_x_10_selec",
+    "_id": "BYF_sulfato_ferroso_350_mg_blist_x_10_selec",
     "name": "SULFATO FERROSO 350 MG BLIST X 10 SELEC",
     "category": "Suplemento mineral",
     "principio_activo": "Sulfato ferroso",
@@ -2919,7 +2919,7 @@
     "updated_at": "2026-04-20T04:54:07.296387"
   },
   {
-    "_id": "supositorios_acetaminf_300mg_caplin",
+    "_id": "BYF_supositorios_acetaminf_300mg_caplin",
     "name": "SUPOSITORIOS ACETAMINF 300MG CAPLIN",
     "category": "Analgésicos y antipiréticos",
     "principio_activo": "Acetaminofén",
@@ -2940,7 +2940,7 @@
     "updated_at": "2026-04-20T04:54:07.297390"
   },
   {
-    "_id": "tapec_b_x_2_caplin_caja_x_100",
+    "_id": "BYF_tapec_b_x_2_caplin_caja_x_100",
     "name": "TAPE-C B X 2 CAPLIN CAJA X 100",
     "category": "Suplemento vitamínico",
     "principio_activo": "Calcio y Vitamina B",
@@ -2961,7 +2961,7 @@
     "updated_at": "2026-04-20T04:54:08.727570"
   },
   {
-    "_id": "tetraciclina_500_mg_blister_x_10_caja_x_100",
+    "_id": "BYF_tetraciclina_500_mg_blister_x_10_caja_x_100",
     "name": "TETRACICLINA 500 MG BLISTER X 10 CAJA X 100",
     "category": "Antibiótico",
     "principio_activo": "Tetraciclina",
@@ -2982,7 +2982,7 @@
     "updated_at": "2026-04-20T04:54:08.727570"
   },
   {
-    "_id": "tramadol_50_mg_caj_x_20_blist_x_5_infasa",
+    "_id": "BYF_tramadol_50_mg_caj_x_20_blist_x_5_infasa",
     "name": "TRAMADOL 50 MG CAJ X 20 BLIST X 5 INFASA",
     "category": "Analgesico opioide",
     "principio_activo": "Tramadol",
@@ -3003,7 +3003,7 @@
     "updated_at": "2026-04-20T04:54:10.345702"
   },
   {
-    "_id": "trimetose_vijosa_120ml_jarabe",
+    "_id": "BYF_trimetose_vijosa_120ml_jarabe",
     "name": "TRIMETOSE VIJOSA 120ML JARABE",
     "category": "Jarabe expectorante",
     "principio_activo": "Bromhexina",
@@ -3024,7 +3024,7 @@
     "updated_at": "2026-04-20T04:54:10.346701"
   },
   {
-    "_id": "triple_c_fluid_caja_x_30_sobres_acetilpiridoxina_vit_c",
+    "_id": "BYF_triple_c_fluid_caja_x_30_sobres_acetilpiridoxina_vit_c",
     "name": "TRIPLE C FLUID CAJA X 30 SOBRES (ACETIL,PIRIDOXINA, VIT C)",
     "category": "Suplemento vitamínico",
     "principio_activo": "Acetilcisteína, Piridoxina (Vitamina B6), Vitamina C",
@@ -3045,7 +3045,7 @@
     "updated_at": "2026-04-20T04:54:10.347701"
   },
   {
-    "_id": "triple_c_forte_500_ml_natural_garden",
+    "_id": "BYF_triple_c_forte_500_ml_natural_garden",
     "name": "TRIPLE C FORTE 500 ML NATURAL GARDEN",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitamina C",
@@ -3066,7 +3066,7 @@
     "updated_at": "2026-04-20T04:54:10.348664"
   },
   {
-    "_id": "unal_anticocep_mens_inyec_piersan",
+    "_id": "BYF_unal_anticocep_mens_inyec_piersan",
     "name": "UNAL (ANTICOCEP MENS) INYEC PIERSAN",
     "category": "Anticonceptivo hormonal",
     "principio_activo": "Levonorgestrel y etinilestradiol",
@@ -3087,7 +3087,7 @@
     "updated_at": "2026-04-20T04:54:10.349659"
   },
   {
-    "_id": "viro_grip_am_sobre_x_2_gel_cap_caja_x_24",
+    "_id": "BYF_viro_grip_am_sobre_x_2_gel_cap_caja_x_24",
     "name": "VIRO GRIP AM SOBRE X 2 GEL CAP CAJA X 24",
     "category": "Antigripal",
     "principio_activo": "Paracetamol, Cafeína, Fenilefrina",
@@ -3108,7 +3108,7 @@
     "updated_at": "2026-04-20T04:54:10.349659"
   },
   {
-    "_id": "viro_grip_pm_sobre_x_2_gel_cap_caja_x_24",
+    "_id": "BYF_viro_grip_pm_sobre_x_2_gel_cap_caja_x_24",
     "name": "VIRO GRIP PM SOBRE X 2 GEL CAP CAJA X 24",
     "category": "Antigripal y Analgésico",
     "principio_activo": "Paracetamol, Cafeína, Fenilefrina, Dextrometorfano",
@@ -3129,7 +3129,7 @@
     "updated_at": "2026-04-20T04:54:10.351664"
   },
   {
-    "_id": "virogrip_nf_limon_polvo_am_x_24_sobres",
+    "_id": "BYF_virogrip_nf_limon_polvo_am_x_24_sobres",
     "name": "VIROGRIP NF LIMON POLVO AM X 24 SOBRES",
     "category": "Antigripal y analgésico",
     "principio_activo": "Paracetamol, Cafeína, Ácido ascórbico (Vitamina C)",
@@ -3150,7 +3150,7 @@
     "updated_at": "2026-04-20T04:54:10.352658"
   },
   {
-    "_id": "virogrip_nf_limon_polvo_pm_x_24_sobres",
+    "_id": "BYF_virogrip_nf_limon_polvo_pm_x_24_sobres",
     "name": "VIROGRIP NF LIMON POLVO PM X 24 SOBRES",
     "category": "Antigripal",
     "principio_activo": "Paracetamol, Cafeína, Fenilefrina",
@@ -3171,7 +3171,7 @@
     "updated_at": "2026-04-20T04:54:10.352658"
   },
   {
-    "_id": "vitamina_k_ampolla_selec",
+    "_id": "BYF_vitamina_k_ampolla_selec",
     "name": "VITAMINA K AMPOLLA SELEC",
     "category": "Vitaminas y suplementos",
     "principio_activo": "Vitamina K",
@@ -3192,7 +3192,7 @@
     "updated_at": "2026-04-20T04:54:10.353664"
   },
   {
-    "_id": "warfarina_5_mg_blist_x_10",
+    "_id": "BYF_warfarina_5_mg_blist_x_10",
     "name": "WARFARINA 5 MG BLIST X 10",
     "category": "Anticoagulantes",
     "principio_activo": "Warfarina",
@@ -3213,7 +3213,7 @@
     "updated_at": "2026-04-20T04:54:10.354659"
   },
   {
-    "_id": "zinc_15_mg_gel_blister_x_10__caja_x_50",
+    "_id": "BYF_zinc_15_mg_gel_blister_x_10__caja_x_50",
     "name": "ZINC 15 MG GEL BLISTER X 10  CAJA X 50",
     "category": "Suplemento mineral",
     "principio_activo": "Zinc",
@@ -3234,7 +3234,7 @@
     "updated_at": "2026-04-20T04:54:10.355656"
   },
   {
-    "_id": "zinkvanz_zinc10mg5ml_jbe_120ml_seven",
+    "_id": "BYF_zinkvanz_zinc10mg5ml_jbe_120ml_seven",
     "name": "ZINKVANZ (ZINC)10MG/5ML JBE 120ML SEVEN",
     "category": "Suplemento mineral",
     "principio_activo": "Zinc",
@@ -3255,7 +3255,7 @@
     "updated_at": "2026-04-20T04:54:10.356656"
   },
   {
-    "_id": "zorripulmin_240_ml_jbe_acanto",
+    "_id": "BYF_zorripulmin_240_ml_jbe_acanto",
     "name": "ZORRIPULMIN 240 ML JBE ACANTO",
     "category": "Antidiarreico",
     "principio_activo": "Racecadotrilo",
@@ -3276,7 +3276,7 @@
     "updated_at": "2026-04-20T04:54:11.992083"
   },
   {
-    "_id": "zorritone_jarabe_120_ml",
+    "_id": "BYF_zorritone_jarabe_120_ml",
     "name": "ZORRITONE JARABE 120 ML",
     "category": "Antitusivos y expectorantes",
     "principio_activo": "Dextrometorfano",

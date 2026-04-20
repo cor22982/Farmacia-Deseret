@@ -1,7 +1,7 @@
 [
   {
-    "_id": "batch-atenolol_100_mg_blist_x_a10_caja_x_100_argus_o_caplin-2026-1",
-    "product_id": "atenolol_100_mg_blist_x_a10_caja_x_100_argus_o_caplin",
+    "_id": "NO_SISTEMA_batch-atenolol_100_mg_blist_x_a10_caja_x_100_argus_o_caplin-2026-1",
+    "product_id": "NO_SISTEMA_atenolol_100_mg_blist_x_a10_caja_x_100_argus_o_caplin",
     "lot_code": "LOT-673E331BFA",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -18,8 +18,8 @@
     }
   },
   {
-    "_id": "batch-balsamico_del_deportista_lata_12_grs-2026-2",
-    "product_id": "balsamico_del_deportista_lata_12_grs",
+    "_id": "NO_SISTEMA_batch-balsamico_del_deportista_lata_12_grs-2026-2",
+    "product_id": "NO_SISTEMA_balsamico_del_deportista_lata_12_grs",
     "lot_code": "LOT-D2B7E4EA5E",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -36,8 +36,8 @@
     }
   },
   {
-    "_id": "batch-bisoprolol_5_mgs_blist_x_10-2026-3",
-    "product_id": "bisoprolol_5_mgs_blist_x_10",
+    "_id": "NO_SISTEMA_batch-bisoprolol_5_mgs_blist_x_10-2026-3",
+    "product_id": "NO_SISTEMA_bisoprolol_5_mgs_blist_x_10",
     "lot_code": "LOT-015EA8710D",
     "expiration_date": {
       "$date": "2026-02-01T00:00:00.000Z"
@@ -54,8 +54,8 @@
     }
   },
   {
-    "_id": "batch-cardiovital_caja_x_30_gelcpas-2026-4",
-    "product_id": "cardiovital_caja_x_30_gelcpas",
+    "_id": "NO_SISTEMA_batch-cardiovital_caja_x_30_gelcpas-2026-4",
+    "product_id": "NO_SISTEMA_cardiovital_caja_x_30_gelcpas",
     "lot_code": "LOT-73ACB55A7B",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -72,8 +72,8 @@
     }
   },
   {
-    "_id": "batch-cepillo_dental_dentito-2026-5",
-    "product_id": "cepillo_dental_dentito",
+    "_id": "NO_SISTEMA_batch-cepillo_dental_dentito-2026-5",
+    "product_id": "NO_SISTEMA_cepillo_dental_dentito",
     "lot_code": "LOT-572AB708BB",
     "expiration_date": null,
     "purchase_date": {
@@ -88,8 +88,8 @@
     }
   },
   {
-    "_id": "BODEGA-cepillo_dental_dentito-2026-5",
-    "product_id": "cepillo_dental_dentito",
+    "_id": "NO_SISTEMA_BODEGA-cepillo_dental_dentito-2026-5",
+    "product_id": "NO_SISTEMA_cepillo_dental_dentito",
     "lot_code": "LOT-EB76BF4CFB",
     "expiration_date": null,
     "purchase_date": {
@@ -104,8 +104,8 @@
     }
   },
   {
-    "_id": "batch-chicle_bubba_rojo-2026-6",
-    "product_id": "chicle_bubba_rojo",
+    "_id": "NO_SISTEMA_batch-chicle_bubba_rojo-2026-6",
+    "product_id": "NO_SISTEMA_chicle_bubba_rojo",
     "lot_code": "LOT-6BB74C5086",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -122,8 +122,8 @@
     }
   },
   {
-    "_id": "BODEGA-chicle_bubba_rojo-2026-6",
-    "product_id": "chicle_bubba_rojo",
+    "_id": "NO_SISTEMA_BODEGA-chicle_bubba_rojo-2026-6",
+    "product_id": "NO_SISTEMA_chicle_bubba_rojo",
     "lot_code": "LOT-9F9D347669",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -140,8 +140,8 @@
     }
   },
   {
-    "_id": "batch-ciruelax_75_mg_blister_x_10__garden-2026-7",
-    "product_id": "ciruelax_75_mg_blister_x_10__garden",
+    "_id": "NO_SISTEMA_batch-ciruelax_75_mg_blister_x_10__garden-2026-7",
+    "product_id": "NO_SISTEMA_ciruelax_75_mg_blister_x_10__garden",
     "lot_code": "LOT-6CE4F8BDF3",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -158,8 +158,8 @@
     }
   },
   {
-    "_id": "batch-crema_lubriderm_400_ml_rosada-2026-8",
-    "product_id": "crema_lubriderm_400_ml_rosada",
+    "_id": "NO_SISTEMA_batch-crema_lubriderm_400_ml_rosada-2026-8",
+    "product_id": "NO_SISTEMA_crema_lubriderm_400_ml_rosada",
     "lot_code": "LOT-2657E42118",
     "expiration_date": null,
     "purchase_date": {
@@ -174,8 +174,8 @@
     }
   },
   {
-    "_id": "batch-crema_nivea_400_ml_aloe_refrescante-2026-9",
-    "product_id": "crema_nivea_400_ml_aloe_refrescante",
+    "_id": "NO_SISTEMA_batch-crema_nivea_400_ml_aloe_refrescante-2026-9",
+    "product_id": "NO_SISTEMA_crema_nivea_400_ml_aloe_refrescante",
     "lot_code": "LOT-87101CFD37",
     "expiration_date": {
       "$date": "2026-03-01T00:00:00.000Z"
@@ -192,8 +192,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_nivea_400_ml_aloe_refrescante-2026-9",
-    "product_id": "crema_nivea_400_ml_aloe_refrescante",
+    "_id": "NO_SISTEMA_BODEGA-crema_nivea_400_ml_aloe_refrescante-2026-9",
+    "product_id": "NO_SISTEMA_crema_nivea_400_ml_aloe_refrescante",
     "lot_code": "LOT-764CD9CF5C",
     "expiration_date": {
       "$date": "2026-03-01T00:00:00.000Z"
@@ -210,8 +210,8 @@
     }
   },
   {
-    "_id": "batch-desenfriolito_plus_caja_x_24_tabletas_masticables-2026-10",
-    "product_id": "desenfriolito_plus_caja_x_24_tabletas_masticables",
+    "_id": "NO_SISTEMA_batch-desenfriolito_plus_caja_x_24_tabletas_masticables-2026-10",
+    "product_id": "NO_SISTEMA_desenfriolito_plus_caja_x_24_tabletas_masticables",
     "lot_code": "LOT-5668C24167",
     "expiration_date": null,
     "purchase_date": {
@@ -226,8 +226,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_gillette_gel_h_82_grs-2026-11",
-    "product_id": "desodorante_gillette_gel_h_82_grs",
+    "_id": "NO_SISTEMA_batch-desodorante_gillette_gel_h_82_grs-2026-11",
+    "product_id": "NO_SISTEMA_desodorante_gillette_gel_h_82_grs",
     "lot_code": "LOT-FD5203AF3D",
     "expiration_date": null,
     "purchase_date": {
@@ -242,8 +242,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_lady_speed-2026-12",
-    "product_id": "desodorante_lady_speed",
+    "_id": "NO_SISTEMA_batch-desodorante_lady_speed-2026-12",
+    "product_id": "NO_SISTEMA_desodorante_lady_speed",
     "lot_code": "LOT-BBC7A4A3E0",
     "expiration_date": {
       "$date": "2026-06-01T00:00:00.000Z"
@@ -260,8 +260,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_rexona_barra_clinical_mujer-2026-13",
-    "product_id": "desodorante_rexona_barra_clinical_mujer",
+    "_id": "NO_SISTEMA_batch-desodorante_rexona_barra_clinical_mujer-2026-13",
+    "product_id": "NO_SISTEMA_desodorante_rexona_barra_clinical_mujer",
     "lot_code": "LOT-B8D512B681",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -278,8 +278,8 @@
     }
   },
   {
-    "_id": "BODEGA-desodorante_rexona_barra_clinical_mujer-2026-13",
-    "product_id": "desodorante_rexona_barra_clinical_mujer",
+    "_id": "NO_SISTEMA_BODEGA-desodorante_rexona_barra_clinical_mujer-2026-13",
+    "product_id": "NO_SISTEMA_desodorante_rexona_barra_clinical_mujer",
     "lot_code": "LOT-760516A479",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -296,8 +296,8 @@
     }
   },
   {
-    "_id": "batch-dezzzcansar_50_mg_bister_x_10_caja_100-2026-14",
-    "product_id": "dezzzcansar_50_mg_bister_x_10_caja_100",
+    "_id": "NO_SISTEMA_batch-dezzzcansar_50_mg_bister_x_10_caja_100-2026-14",
+    "product_id": "NO_SISTEMA_dezzzcansar_50_mg_bister_x_10_caja_100",
     "lot_code": "LOT-80A18EB6AE",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -314,8 +314,8 @@
     }
   },
   {
-    "_id": "batch-dipironadexametasona_x_3_dosis-2026-15",
-    "product_id": "dipironadexametasona_x_3_dosis",
+    "_id": "NO_SISTEMA_batch-dipironadexametasona_x_3_dosis-2026-15",
+    "product_id": "NO_SISTEMA_dipironadexametasona_x_3_dosis",
     "lot_code": "LOT-15777AF60B",
     "expiration_date": {
       "$date": "2026-02-01T00:00:00.000Z"
@@ -332,8 +332,8 @@
     }
   },
   {
-    "_id": "batch-dropadex_25_mgs_gel_caps_blist_x_10_caja_x_10-2026-16",
-    "product_id": "dropadex_25_mgs_gel_caps_blist_x_10_caja_x_10",
+    "_id": "NO_SISTEMA_batch-dropadex_25_mgs_gel_caps_blist_x_10_caja_x_10-2026-16",
+    "product_id": "NO_SISTEMA_dropadex_25_mgs_gel_caps_blist_x_10_caja_x_10",
     "lot_code": "LOT-F08A06B4C9",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -350,8 +350,8 @@
     }
   },
   {
-    "_id": "batch-espirinolactona-2026-17",
-    "product_id": "espirinolactona",
+    "_id": "NO_SISTEMA_batch-espirinolactona-2026-17",
+    "product_id": "NO_SISTEMA_espirinolactona",
     "lot_code": "LOT-A6E02615C9",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -368,8 +368,8 @@
     }
   },
   {
-    "_id": "BODEGA-espirinolactona-2026-17",
-    "product_id": "espirinolactona",
+    "_id": "NO_SISTEMA_BODEGA-espirinolactona-2026-17",
+    "product_id": "NO_SISTEMA_espirinolactona",
     "lot_code": "LOT-63DDBA9F8A",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -386,8 +386,8 @@
     }
   },
   {
-    "_id": "batch-gargadin_sabor_naranja_blistser_x_8_pastillas-2026-18",
-    "product_id": "gargadin_sabor_naranja_blistser_x_8_pastillas",
+    "_id": "NO_SISTEMA_batch-gargadin_sabor_naranja_blistser_x_8_pastillas-2026-18",
+    "product_id": "NO_SISTEMA_gargadin_sabor_naranja_blistser_x_8_pastillas",
     "lot_code": "LOT-43CBC76692",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -404,8 +404,8 @@
     }
   },
   {
-    "_id": "batch-hidravida_naranjamandarina-2026-19",
-    "product_id": "hidravida_naranjamandarina",
+    "_id": "NO_SISTEMA_batch-hidravida_naranjamandarina-2026-19",
+    "product_id": "NO_SISTEMA_hidravida_naranjamandarina",
     "lot_code": "LOT-51137F4989",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -422,8 +422,8 @@
     }
   },
   {
-    "_id": "BODEGA-hidravida_naranjamandarina-2026-19",
-    "product_id": "hidravida_naranjamandarina",
+    "_id": "NO_SISTEMA_BODEGA-hidravida_naranjamandarina-2026-19",
+    "product_id": "NO_SISTEMA_hidravida_naranjamandarina",
     "lot_code": "LOT-D4E838F798",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -440,8 +440,8 @@
     }
   },
   {
-    "_id": "batch-indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira-2026-20",
-    "product_id": "indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
+    "_id": "NO_SISTEMA_batch-indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira-2026-20",
+    "product_id": "NO_SISTEMA_indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
     "lot_code": "LOT-87C1A97208",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -458,8 +458,8 @@
     }
   },
   {
-    "_id": "BODEGA-indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira-2026-20",
-    "product_id": "indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
+    "_id": "NO_SISTEMA_BODEGA-indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira-2026-20",
+    "product_id": "NO_SISTEMA_indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
     "lot_code": "LOT-EF8689C0A7",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -476,8 +476,8 @@
     }
   },
   {
-    "_id": "batch-kerafilm_crema_78_grs-2026-21",
-    "product_id": "kerafilm_crema_78_grs",
+    "_id": "NO_SISTEMA_batch-kerafilm_crema_78_grs-2026-21",
+    "product_id": "NO_SISTEMA_kerafilm_crema_78_grs",
     "lot_code": "LOT-EEE1DD5407",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -494,8 +494,8 @@
     }
   },
   {
-    "_id": "batch-listerine_250_ml-2026-22",
-    "product_id": "listerine_250_ml",
+    "_id": "NO_SISTEMA_batch-listerine_250_ml-2026-22",
+    "product_id": "NO_SISTEMA_listerine_250_ml",
     "lot_code": "LOT-ED7B130AF6",
     "expiration_date": {
       "$date": "2026-03-01T00:00:00.000Z"
@@ -512,8 +512,8 @@
     }
   },
   {
-    "_id": "batch-lubricante_vive_120_ml_s_fresa-2026-23",
-    "product_id": "lubricante_vive_120_ml_s_fresa",
+    "_id": "NO_SISTEMA_batch-lubricante_vive_120_ml_s_fresa-2026-23",
+    "product_id": "NO_SISTEMA_lubricante_vive_120_ml_s_fresa",
     "lot_code": "LOT-AA180F365E",
     "expiration_date": null,
     "purchase_date": null,
@@ -526,8 +526,8 @@
     }
   },
   {
-    "_id": "batch-membrana_bio_film_unidad_10_x_10-2026-24",
-    "product_id": "membrana_bio_film_unidad_10_x_10",
+    "_id": "NO_SISTEMA_batch-membrana_bio_film_unidad_10_x_10-2026-24",
+    "product_id": "NO_SISTEMA_membrana_bio_film_unidad_10_x_10",
     "lot_code": "LOT-4F232D8060",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -544,8 +544,8 @@
     }
   },
   {
-    "_id": "BODEGA-membrana_bio_film_unidad_10_x_10-2026-24",
-    "product_id": "membrana_bio_film_unidad_10_x_10",
+    "_id": "NO_SISTEMA_BODEGA-membrana_bio_film_unidad_10_x_10-2026-24",
+    "product_id": "NO_SISTEMA_membrana_bio_film_unidad_10_x_10",
     "lot_code": "LOT-B9BAE6FC9F",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -562,8 +562,8 @@
     }
   },
   {
-    "_id": "batch-next_noche_caja_x_40_blister_x_10-2026-25",
-    "product_id": "next_noche_caja_x_40_blister_x_10",
+    "_id": "NO_SISTEMA_batch-next_noche_caja_x_40_blister_x_10-2026-25",
+    "product_id": "NO_SISTEMA_next_noche_caja_x_40_blister_x_10",
     "lot_code": "LOT-820EB3C1FA",
     "expiration_date": null,
     "purchase_date": null,
@@ -576,8 +576,8 @@
     }
   },
   {
-    "_id": "batch-pacha_25_onzas_baby_feeding_bottle_y_farlin-2026-26",
-    "product_id": "pacha_25_onzas_baby_feeding_bottle_y_farlin",
+    "_id": "NO_SISTEMA_batch-pacha_25_onzas_baby_feeding_bottle_y_farlin-2026-26",
+    "product_id": "NO_SISTEMA_pacha_25_onzas_baby_feeding_bottle_y_farlin",
     "lot_code": "LOT-D62C0094DD",
     "expiration_date": null,
     "purchase_date": {
@@ -592,8 +592,8 @@
     }
   },
   {
-    "_id": "batch-pasta_colgate_total_12___150_ml-2026-27",
-    "product_id": "pasta_colgate_total_12___150_ml",
+    "_id": "NO_SISTEMA_batch-pasta_colgate_total_12___150_ml-2026-27",
+    "product_id": "NO_SISTEMA_pasta_colgate_total_12___150_ml",
     "lot_code": "LOT-0463AB86D8",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -610,8 +610,8 @@
     }
   },
   {
-    "_id": "batch-pediaflora_granu_disp_x_50_sobres_pahil-2026-28",
-    "product_id": "pediaflora_granu_disp_x_50_sobres_pahil",
+    "_id": "NO_SISTEMA_batch-pediaflora_granu_disp_x_50_sobres_pahil-2026-28",
+    "product_id": "NO_SISTEMA_pediaflora_granu_disp_x_50_sobres_pahil",
     "lot_code": "LOT-4A172F0C62",
     "expiration_date": null,
     "purchase_date": {
@@ -626,8 +626,8 @@
     }
   },
   {
-    "_id": "batch-raid_casa_jardin400_ml-2026-29",
-    "product_id": "raid_casa_jardin400_ml",
+    "_id": "NO_SISTEMA_batch-raid_casa_jardin400_ml-2026-29",
+    "product_id": "NO_SISTEMA_raid_casa_jardin400_ml",
     "lot_code": "LOT-28CB057974",
     "expiration_date": null,
     "purchase_date": null,
@@ -640,8 +640,8 @@
     }
   },
   {
-    "_id": "batch-sci40_mg__blister_x_5_caja_x_20-2026-30",
-    "product_id": "sci40_mg__blister_x_5_caja_x_20",
+    "_id": "NO_SISTEMA_batch-sci40_mg__blister_x_5_caja_x_20-2026-30",
+    "product_id": "NO_SISTEMA_sci40_mg__blister_x_5_caja_x_20",
     "lot_code": "LOT-24046D81D0",
     "expiration_date": null,
     "purchase_date": {
@@ -656,8 +656,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_medicasp_130ml-2026-31",
-    "product_id": "shampoo_medicasp_130ml",
+    "_id": "NO_SISTEMA_batch-shampoo_medicasp_130ml-2026-31",
+    "product_id": "NO_SISTEMA_shampoo_medicasp_130ml",
     "lot_code": "LOT-36D322E04E",
     "expiration_date": {
       "$date": "2026-03-01T00:00:00.000Z"
@@ -674,8 +674,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_415_ml_anti_edad-2026-32",
-    "product_id": "shampoo_tio_nacho_415_ml_anti_edad",
+    "_id": "NO_SISTEMA_batch-shampoo_tio_nacho_415_ml_anti_edad-2026-32",
+    "product_id": "NO_SISTEMA_shampoo_tio_nacho_415_ml_anti_edad",
     "lot_code": "LOT-2663EFC52E",
     "expiration_date": {
       "$date": "2026-03-01T00:00:00.000Z"
@@ -692,8 +692,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_415_ml_herbolaria-2026-33",
-    "product_id": "shampoo_tio_nacho_415_ml_herbolaria",
+    "_id": "NO_SISTEMA_batch-shampoo_tio_nacho_415_ml_herbolaria-2026-33",
+    "product_id": "NO_SISTEMA_shampoo_tio_nacho_415_ml_herbolaria",
     "lot_code": "LOT-44EE448585",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -710,8 +710,8 @@
     }
   },
   {
-    "_id": "BODEGA-shampoo_tio_nacho_415_ml_herbolaria-2026-33",
-    "product_id": "shampoo_tio_nacho_415_ml_herbolaria",
+    "_id": "NO_SISTEMA_BODEGA-shampoo_tio_nacho_415_ml_herbolaria-2026-33",
+    "product_id": "NO_SISTEMA_shampoo_tio_nacho_415_ml_herbolaria",
     "lot_code": "LOT-BBF432DB39",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -728,8 +728,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_ginseng_415_ml-2026-34",
-    "product_id": "shampoo_tio_nacho_ginseng_415_ml",
+    "_id": "NO_SISTEMA_batch-shampoo_tio_nacho_ginseng_415_ml-2026-34",
+    "product_id": "NO_SISTEMA_shampoo_tio_nacho_ginseng_415_ml",
     "lot_code": "LOT-5205BBB872",
     "expiration_date": {
       "$date": "2026-03-01T00:00:00.000Z"
@@ -746,8 +746,8 @@
     }
   },
   {
-    "_id": "batch-silka_medik_15_grs-2026-35",
-    "product_id": "silka_medik_15_grs",
+    "_id": "NO_SISTEMA_batch-silka_medik_15_grs-2026-35",
+    "product_id": "NO_SISTEMA_silka_medik_15_grs",
     "lot_code": "LOT-A090A2EEA2",
     "expiration_date": null,
     "purchase_date": {
@@ -762,8 +762,8 @@
     }
   },
   {
-    "_id": "batch-sixtynine_silden_x_100_mgs_caja_x_30_sob_y_cart_x_4-2026-36",
-    "product_id": "sixtynine_silden_x_100_mgs_caja_x_30_sob_y_cart_x_4",
+    "_id": "NO_SISTEMA_batch-sixtynine_silden_x_100_mgs_caja_x_30_sob_y_cart_x_4-2026-36",
+    "product_id": "NO_SISTEMA_sixtynine_silden_x_100_mgs_caja_x_30_sob_y_cart_x_4",
     "lot_code": "LOT-ED7B43DD23",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -778,8 +778,8 @@
     }
   },
   {
-    "_id": "batch-suerox_mora_azul_hierbabuena_630_ml-2026-37",
-    "product_id": "suerox_mora_azul_hierbabuena_630_ml",
+    "_id": "NO_SISTEMA_batch-suerox_mora_azul_hierbabuena_630_ml-2026-37",
+    "product_id": "NO_SISTEMA_suerox_mora_azul_hierbabuena_630_ml",
     "lot_code": "LOT-03562E0F78",
     "expiration_date": {
       "$date": "2026-02-01T00:00:00.000Z"
@@ -796,8 +796,8 @@
     }
   },
   {
-    "_id": "BODEGA-suerox_mora_azul_hierbabuena_630_ml-2026-37",
-    "product_id": "suerox_mora_azul_hierbabuena_630_ml",
+    "_id": "NO_SISTEMA_BODEGA-suerox_mora_azul_hierbabuena_630_ml-2026-37",
+    "product_id": "NO_SISTEMA_suerox_mora_azul_hierbabuena_630_ml",
     "lot_code": "LOT-1C684D39F5",
     "expiration_date": {
       "$date": "2026-02-01T00:00:00.000Z"
@@ -814,8 +814,8 @@
     }
   },
   {
-    "_id": "batch-tabcin_liquid_gel_noche_x_30-2026-38",
-    "product_id": "tabcin_liquid_gel_noche_x_30",
+    "_id": "NO_SISTEMA_batch-tabcin_liquid_gel_noche_x_30-2026-38",
+    "product_id": "NO_SISTEMA_tabcin_liquid_gel_noche_x_30",
     "lot_code": "LOT-C2A58EFDB9",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -832,8 +832,8 @@
     }
   },
   {
-    "_id": "batch-te_digestivo_caja_x_20_sobres-2026-39",
-    "product_id": "te_digestivo_caja_x_20_sobres",
+    "_id": "NO_SISTEMA_batch-te_digestivo_caja_x_20_sobres-2026-39",
+    "product_id": "NO_SISTEMA_te_digestivo_caja_x_20_sobres",
     "lot_code": "LOT-521DA6C4F6",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -850,8 +850,8 @@
     }
   },
   {
-    "_id": "BODEGA-te_digestivo_caja_x_20_sobres-2026-39",
-    "product_id": "te_digestivo_caja_x_20_sobres",
+    "_id": "NO_SISTEMA_BODEGA-te_digestivo_caja_x_20_sobres-2026-39",
+    "product_id": "NO_SISTEMA_te_digestivo_caja_x_20_sobres",
     "lot_code": "LOT-4AFFEAA160",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -868,8 +868,8 @@
     }
   },
   {
-    "_id": "batch-te_laxante_natural_caja_x_20_sobres-2026-40",
-    "product_id": "te_laxante_natural_caja_x_20_sobres",
+    "_id": "NO_SISTEMA_batch-te_laxante_natural_caja_x_20_sobres-2026-40",
+    "product_id": "NO_SISTEMA_te_laxante_natural_caja_x_20_sobres",
     "lot_code": "LOT-561FA53D8A",
     "expiration_date": null,
     "purchase_date": null,
@@ -882,8 +882,8 @@
     }
   },
   {
-    "_id": "batch-te_noche_caja_x_20_sobres-2026-41",
-    "product_id": "te_noche_caja_x_20_sobres",
+    "_id": "NO_SISTEMA_batch-te_noche_caja_x_20_sobres-2026-41",
+    "product_id": "NO_SISTEMA_te_noche_caja_x_20_sobres",
     "lot_code": "LOT-B548C26650",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -900,8 +900,8 @@
     }
   },
   {
-    "_id": "BODEGA-te_noche_caja_x_20_sobres-2026-41",
-    "product_id": "te_noche_caja_x_20_sobres",
+    "_id": "NO_SISTEMA_BODEGA-te_noche_caja_x_20_sobres-2026-41",
+    "product_id": "NO_SISTEMA_te_noche_caja_x_20_sobres",
     "lot_code": "LOT-A5454C3101",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -918,8 +918,8 @@
     }
   },
   {
-    "_id": "batch-te_pericon_caja_x_20_sobres-2026-42",
-    "product_id": "te_pericon_caja_x_20_sobres",
+    "_id": "NO_SISTEMA_batch-te_pericon_caja_x_20_sobres-2026-42",
+    "product_id": "NO_SISTEMA_te_pericon_caja_x_20_sobres",
     "lot_code": "LOT-C0D4930C39",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -936,8 +936,8 @@
     }
   },
   {
-    "_id": "batch-te_renal_caja_x_20_sobres-2026-43",
-    "product_id": "te_renal_caja_x_20_sobres",
+    "_id": "NO_SISTEMA_batch-te_renal_caja_x_20_sobres-2026-43",
+    "product_id": "NO_SISTEMA_te_renal_caja_x_20_sobres",
     "lot_code": "LOT-F052699B02",
     "expiration_date": {
       "$date": "2026-03-01T00:00:00.000Z"
@@ -954,8 +954,8 @@
     }
   },
   {
-    "_id": "batch-tiazil_hidroamilorida_505_blist_x_10_infasa-2026-44",
-    "product_id": "tiazil_hidroamilorida_505_blist_x_10_infasa",
+    "_id": "NO_SISTEMA_batch-tiazil_hidroamilorida_505_blist_x_10_infasa-2026-44",
+    "product_id": "NO_SISTEMA_tiazil_hidroamilorida_505_blist_x_10_infasa",
     "lot_code": "LOT-F3EBDB96EE",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -972,8 +972,8 @@
     }
   },
   {
-    "_id": "BODEGA-tiazil_hidroamilorida_505_blist_x_10_infasa-2026-44",
-    "product_id": "tiazil_hidroamilorida_505_blist_x_10_infasa",
+    "_id": "NO_SISTEMA_BODEGA-tiazil_hidroamilorida_505_blist_x_10_infasa-2026-44",
+    "product_id": "NO_SISTEMA_tiazil_hidroamilorida_505_blist_x_10_infasa",
     "lot_code": "LOT-4224C2D01A",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -990,8 +990,8 @@
     }
   },
   {
-    "_id": "batch-tinte_gallo_amarillo_15_grs-2026-45",
-    "product_id": "tinte_gallo_amarillo_15_grs",
+    "_id": "NO_SISTEMA_batch-tinte_gallo_amarillo_15_grs-2026-45",
+    "product_id": "NO_SISTEMA_tinte_gallo_amarillo_15_grs",
     "lot_code": "LOT-ED610F79B1",
     "expiration_date": {
       "$date": "2025-11-01T00:00:00.000Z"
@@ -1006,8 +1006,8 @@
     }
   },
   {
-    "_id": "batch-tinte_gallo_anaranjado_15_grs-2026-46",
-    "product_id": "tinte_gallo_anaranjado_15_grs",
+    "_id": "NO_SISTEMA_batch-tinte_gallo_anaranjado_15_grs-2026-46",
+    "product_id": "NO_SISTEMA_tinte_gallo_anaranjado_15_grs",
     "lot_code": "LOT-FBDF5D77A2",
     "expiration_date": {
       "$date": "2025-11-01T00:00:00.000Z"
@@ -1022,8 +1022,8 @@
     }
   },
   {
-    "_id": "batch-tinte_gallo_rojo_15_grs-2026-47",
-    "product_id": "tinte_gallo_rojo_15_grs",
+    "_id": "NO_SISTEMA_batch-tinte_gallo_rojo_15_grs-2026-47",
+    "product_id": "NO_SISTEMA_tinte_gallo_rojo_15_grs",
     "lot_code": "LOT-27E84270E1",
     "expiration_date": {
       "$date": "2025-06-01T00:00:00.000Z"
@@ -1038,8 +1038,8 @@
     }
   },
   {
-    "_id": "batch-tinte_gallo_rosado_15_grs-2026-48",
-    "product_id": "tinte_gallo_rosado_15_grs",
+    "_id": "NO_SISTEMA_batch-tinte_gallo_rosado_15_grs-2026-48",
+    "product_id": "NO_SISTEMA_tinte_gallo_rosado_15_grs",
     "lot_code": "LOT-15219FDC95",
     "expiration_date": {
       "$date": "2025-11-01T00:00:00.000Z"
@@ -1054,8 +1054,8 @@
     }
   },
   {
-    "_id": "batch-tinte_gallo_verde_15_grs-2026-49",
-    "product_id": "tinte_gallo_verde_15_grs",
+    "_id": "NO_SISTEMA_batch-tinte_gallo_verde_15_grs-2026-49",
+    "product_id": "NO_SISTEMA_tinte_gallo_verde_15_grs",
     "lot_code": "LOT-1F89CF9946",
     "expiration_date": {
       "$date": "2025-06-01T00:00:00.000Z"
@@ -1070,8 +1070,8 @@
     }
   },
   {
-    "_id": "batch-tinte_garnier_no_70-2026-50",
-    "product_id": "tinte_garnier_no_70",
+    "_id": "NO_SISTEMA_batch-tinte_garnier_no_70-2026-50",
+    "product_id": "NO_SISTEMA_tinte_garnier_no_70",
     "lot_code": "LOT-0011B7BD48",
     "expiration_date": null,
     "purchase_date": null,
@@ -1084,8 +1084,8 @@
     }
   },
   {
-    "_id": "batch-toalla_amrilla-2026-51",
-    "product_id": "toalla_amrilla",
+    "_id": "NO_SISTEMA_batch-toalla_amrilla-2026-51",
+    "product_id": "NO_SISTEMA_toalla_amrilla",
     "lot_code": "LOT-D5768358B8",
     "expiration_date": null,
     "purchase_date": null,
@@ -1098,8 +1098,8 @@
     }
   },
   {
-    "_id": "batch-unesia_20_grs-2026-52",
-    "product_id": "unesia_20_grs",
+    "_id": "NO_SISTEMA_batch-unesia_20_grs-2026-52",
+    "product_id": "NO_SISTEMA_unesia_20_grs",
     "lot_code": "LOT-72C1E01902",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -1116,8 +1116,8 @@
     }
   },
   {
-    "_id": "BODEGA-unesia_20_grs-2026-52",
-    "product_id": "unesia_20_grs",
+    "_id": "NO_SISTEMA_BODEGA-unesia_20_grs-2026-52",
+    "product_id": "NO_SISTEMA_unesia_20_grs",
     "lot_code": "LOT-83B629D386",
     "expiration_date": {
       "$date": "2026-04-01T00:00:00.000Z"
@@ -1134,8 +1134,8 @@
     }
   },
   {
-    "_id": "batch-vaselina_baby-2026-53",
-    "product_id": "vaselina_baby",
+    "_id": "NO_SISTEMA_batch-vaselina_baby-2026-53",
+    "product_id": "NO_SISTEMA_vaselina_baby",
     "lot_code": "LOT-85B0D55529",
     "expiration_date": null,
     "purchase_date": null,
@@ -1148,8 +1148,8 @@
     }
   },
   {
-    "_id": "batch-vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis-2026-54",
-    "product_id": "vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis",
+    "_id": "NO_SISTEMA_batch-vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis-2026-54",
+    "product_id": "NO_SISTEMA_vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis",
     "lot_code": "LOT-E3EBC6903E",
     "expiration_date": {
       "$date": "2026-02-01T00:00:00.000Z"

@@ -1,6 +1,6 @@
 [
   {
-    "_id": "alprazolam_lyverium__05_mg_blist_x_10_tabs",
+    "_id": "TFUERTE_alprazolam_lyverium__05_mg_blist_x_10_tabs",
     "name": "ALPRAZOLAM (LYVERIUM)  0.5 MG BLIST X 10 TABS",
     "category": "Ansiolítico",
     "principio_activo": "Alprazolam",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T07:33:45.882326"
   },
   {
-    "_id": "brominter_bromazepan_3_mgs_blist_x_20_tabs",
+    "_id": "TFUERTE_brominter_bromazepan_3_mgs_blist_x_20_tabs",
     "name": "BROMINTER (BROMAZEPAN 3 MGS) BLIST X 20 TABS",
     "category": "Ansiolítico",
     "principio_activo": "Bromazepam",
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T07:33:48.709767"
   },
   {
-    "_id": "clonofax_clonazepan_2_mg_blist_x_20_tab",
+    "_id": "TFUERTE_clonofax_clonazepan_2_mg_blist_x_20_tab",
     "name": "CLONOFAX (CLONAZEPAN 2 MG) BLIST X 20 TAB",
     "category": "Ansiolíticos y anticonvulsivos",
     "principio_activo": "Clonazepam",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T07:33:52.149064"
   },
   {
-    "_id": "diazepan_10_mgs_mk_blis_x_10_caja_x_100",
+    "_id": "TFUERTE_diazepan_10_mgs_mk_blis_x_10_caja_x_100",
     "name": "DIAZEPAN 10 MGS MK BLIS X 10 CAJA X 100",
     "category": "Ansiolítico",
     "principio_activo": "Diazepam",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T07:33:55.341859"
   },
   {
-    "_id": "equiliv_2_mg__blist_x_10_tabs_clonazepam",
+    "_id": "TFUERTE_equiliv_2_mg__blist_x_10_tabs_clonazepam",
     "name": "EQUILIV 2 MG  BLIST X 10 TABS (CLONAZEPAM)",
     "category": "Ansiolítico",
     "principio_activo": "Clonazepam",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T07:34:00.930130"
   },
   {
-    "_id": "equiliv_gotas_10_ml",
+    "_id": "TFUERTE_equiliv_gotas_10_ml",
     "name": "EQUILIV GOTAS 10 ML",
     "category": "Suplemento dietético",
     "principio_activo": "Extractos de plantas y vitaminas",
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T07:34:03.837848"
   },
   {
-    "_id": "escitalopram_10_mgs_blist_x_10_inhiser_med_farma",
+    "_id": "TFUERTE_escitalopram_10_mgs_blist_x_10_inhiser_med_farma",
     "name": "ESCITALOPRAM 10 MGS BLIST X 10 (INHISER) MED FARMA",
     "category": "Antidepresivo",
     "principio_activo": "Escitalopram",
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T07:34:06.702860"
   },
   {
-    "_id": "fenobarbital_caja_x_100_blist_x_10",
+    "_id": "TFUERTE_fenobarbital_caja_x_100_blist_x_10",
     "name": "FENOBARBITAL CAJA X 100 BLIST X 10",
     "category": "Anticonvulsivante",
     "principio_activo": "Fenobarbital",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T07:34:09.682747"
   },
   {
-    "_id": "lorazepan_2_mg_mk_blist_x_10",
+    "_id": "TFUERTE_lorazepan_2_mg_mk_blist_x_10",
     "name": "LORAZEPAN 2 MG MK BLIST X 10",
     "category": "Ansiolíticos",
     "principio_activo": "Lorazepam",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T07:34:12.196720"
   },
   {
-    "_id": "paranten_diazepan_10_mg_bist_x_10_caja_x_40",
+    "_id": "TFUERTE_paranten_diazepan_10_mg_bist_x_10_caja_x_40",
     "name": "PARANTEN (DIAZEPAN 10 MG) BIST X 10 CAJA X 40",
     "category": "Ansiolítico",
     "principio_activo": "Diazepam",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T07:34:15.668549"
   },
   {
-    "_id": "sublimex_alprazolam_05_blist_x_20",
+    "_id": "TFUERTE_sublimex_alprazolam_05_blist_x_20",
     "name": "SUBLIMEX (ALPRAZOLAM 0.5) BLIST X 20",
     "category": "Ansiolítico",
     "principio_activo": "Alprazolam 0.5 mg",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T07:34:18.492281"
   },
   {
-    "_id": "tensil_25_mg_caja_x_40_blist_x_20",
+    "_id": "TFUERTE_tensil_25_mg_caja_x_40_blist_x_20",
     "name": "TENSIL 25 MG CAJA X 40 BLIST X 20",
     "category": "Medicamento",
     "principio_activo": "Tensilon (Edrofonio)",

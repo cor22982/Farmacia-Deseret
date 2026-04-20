@@ -1,6 +1,6 @@
 [
   {
-    "_id": "aceite_coco_120_ml",
+    "_id": "OLAM_aceite_coco_120_ml",
     "name": "ACEITE COCO 120 ML",
     "category": "Aceite natural",
     "principio_activo": "Aceite de coco",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T07:20:48.266576"
   },
   {
-    "_id": "acetaminofen_125mg_jbe_ruipharm",
+    "_id": "OLAM_acetaminofen_125mg_jbe_ruipharm",
     "name": "ACETAMINOFEN 125MG JBE RUIPHARM",
     "category": "Analgésico y antipirético",
     "principio_activo": "Acetaminofén",
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T07:20:51.213389"
   },
   {
-    "_id": "acetaminofen_500_mg_promegal_caja_x_100_blist_x_10",
+    "_id": "OLAM_acetaminofen_500_mg_promegal_caja_x_100_blist_x_10",
     "name": "ACETAMINOFEN 500 MG PROMEGAL CAJA X 100 BLIST X 10",
     "category": "Analgésico y antipirético",
     "principio_activo": "Acetaminofén",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T07:20:54.134941"
   },
   {
-    "_id": "aflac_gotas_pediatricas_15_ml__diclofenaco",
+    "_id": "OLAM_aflac_gotas_pediatricas_15_ml__diclofenaco",
     "name": "AFLAC GOTAS PEDIATRICAS 15 ML  (DICLOFENACO)",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Diclofenaco",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T07:20:57.976882"
   },
   {
-    "_id": "agua_florida_4_rosas_vesa__fco_70_ml",
+    "_id": "OLAM_agua_florida_4_rosas_vesa__fco_70_ml",
     "name": "AGUA FLORIDA 4 ROSAS VESA  FCO 70 ML",
     "category": "Producto cosmético",
     "principio_activo": "No aplica",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T07:21:01.766215"
   },
   {
-    "_id": "aguja_22_g_x_1_12_caplin_negra",
+    "_id": "OLAM_aguja_22_g_x_1_12_caplin_negra",
     "name": "AGUJA 22 G X 1 1/2 CAPLIN (NEGRA)",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T07:21:05.016204"
   },
   {
-    "_id": "albendazol_mk_400_mg_susp_10_ml",
+    "_id": "OLAM_albendazol_mk_400_mg_susp_10_ml",
     "name": "ALBENDAZOL MK 400 MG SUSP 10 ML",
     "category": "Antiparasitario",
     "principio_activo": "Albendazol",
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T07:21:07.649204"
   },
   {
-    "_id": "albendazol_mk_cja_x_2_tab",
+    "_id": "OLAM_albendazol_mk_cja_x_2_tab",
     "name": "ALBENDAZOL MK CJA X 2 TAB",
     "category": "Antiparasitario",
     "principio_activo": "Albendazol",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T07:21:11.185305"
   },
   {
-    "_id": "aleve_lquid_gels_x_24",
+    "_id": "OLAM_aleve_lquid_gels_x_24",
     "name": "ALEVE LQUID GELS X 24",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Naproxeno sódico",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T07:21:14.549438"
   },
   {
-    "_id": "alfer_nicol_ungüento_tubo_5_grs",
+    "_id": "OLAM_alfer_nicol_ungüento_tubo_5_grs",
     "name": "ALFER NICOL UNGÜENTO TUBO 5 GRS",
     "category": "Ungüento dermatológico",
     "principio_activo": "Nicol",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T07:21:18.280360"
   },
   {
-    "_id": "alfuzocina_10_mg_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_alfuzocina_10_mg_blist_x_10_caja_x_100_lotus",
     "name": "ALFUZOCINA 10 MG BLIST X 10 CAJA X 100 LOTUS",
     "category": "Alfa-bloqueantes",
     "principio_activo": "Alfuzocina",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T07:21:21.619569"
   },
   {
-    "_id": "amoxiclavu_susp_3125mg5ml_100__ml_balaxi",
+    "_id": "OLAM_amoxiclavu_susp_3125mg5ml_100__ml_balaxi",
     "name": "AMOXI+CLAVU SUSP 312.5MG/5ML 100  ML BALAXI",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina + Clavulanato de Potasio",
@@ -252,7 +252,7 @@
     "updated_at": "2026-04-20T07:21:24.992393"
   },
   {
-    "_id": "amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7",
+    "_id": "OLAM_amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7",
     "name": "AMOXIPLUS 1 G (AMOXI+CLAV) BALAXI CJ X 14 BLIST X 7",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina + Clavulanato de Potasio",
@@ -273,7 +273,7 @@
     "updated_at": "2026-04-20T07:21:28.431096"
   },
   {
-    "_id": "anestesin_2_c_epinefrina_50_ml_lidocaina",
+    "_id": "OLAM_anestesin_2_c_epinefrina_50_ml_lidocaina",
     "name": "ANESTESIN 2% C/ EPINEFRINA 50 ML LIDOCAINA",
     "category": "Anestésico local",
     "principio_activo": "Lidocaína con epinefrina",
@@ -294,7 +294,7 @@
     "updated_at": "2026-04-20T07:21:31.931712"
   },
   {
-    "_id": "arnidol_pomada_arnica_12_grs",
+    "_id": "OLAM_arnidol_pomada_arnica_12_grs",
     "name": "ARNIDOL POMADA ARNICA 12 GRS",
     "category": "Pomada antiinflamatoria y analgésica",
     "principio_activo": "Árnica",
@@ -315,7 +315,7 @@
     "updated_at": "2026-04-20T07:21:34.674741"
   },
   {
-    "_id": "azitromicina_500_mgs_caja_x_3_umedica",
+    "_id": "OLAM_azitromicina_500_mgs_caja_x_3_umedica",
     "name": "AZITROMICINA 500 MGS CAJA X 3 UMEDICA",
     "category": "Antibiótico",
     "principio_activo": "Azitromicina",
@@ -336,7 +336,7 @@
     "updated_at": "2026-04-20T07:21:37.164056"
   },
   {
-    "_id": "baja_lenguas__de_madera_caja_x_100",
+    "_id": "OLAM_baja_lenguas__de_madera_caja_x_100",
     "name": "BAJA LENGUAS  DE MADERA CAJA X 100",
     "category": "Material de consulta médica",
     "principio_activo": "No aplica",
@@ -357,7 +357,7 @@
     "updated_at": "2026-04-20T07:21:39.899248"
   },
   {
-    "_id": "balsamico_del_deportista_lata_12_grs",
+    "_id": "OLAM_balsamico_del_deportista_lata_12_grs",
     "name": "BALSAMICO DEL DEPORTISTA LATA 12 GRS",
     "category": "Producto tópico para alivio muscular",
     "principio_activo": "Mentol, alcanfor",
@@ -378,7 +378,7 @@
     "updated_at": "2026-04-20T07:21:42.585208"
   },
   {
-    "_id": "bismuto_bebible_caja_x_10_unidosis_hiper",
+    "_id": "OLAM_bismuto_bebible_caja_x_10_unidosis_hiper",
     "name": "BISMUTO BEBIBLE CAJA X 10 UNIDOSIS HIPER",
     "category": "Antidiarreico",
     "principio_activo": "Bismuto",
@@ -399,7 +399,7 @@
     "updated_at": "2026-04-20T07:21:45.206851"
   },
   {
-    "_id": "bolsa_horina_ppierna",
+    "_id": "OLAM_bolsa_horina_ppierna",
     "name": "BOLSA HORINA P/PIERNA",
     "category": "Dispositivos médicos",
     "principio_activo": null,
@@ -420,7 +420,7 @@
     "updated_at": "2026-04-20T07:21:47.953635"
   },
   {
-    "_id": "cabestrillo__l",
+    "_id": "OLAM_cabestrillo__l",
     "name": "CABESTRILLO  L",
     "category": "Ortopedia",
     "principio_activo": "No aplica",
@@ -441,7 +441,7 @@
     "updated_at": "2026-04-20T07:21:50.567207"
   },
   {
-    "_id": "cabestrillo_s_y_m",
+    "_id": "OLAM_cabestrillo_s_y_m",
     "name": "CABESTRILLO S Y M",
     "category": "Dispositivo ortopédico",
     "principio_activo": "N/A",
@@ -462,7 +462,7 @@
     "updated_at": "2026-04-20T07:21:53.425822"
   },
   {
-    "_id": "cardiovital_caja_x_60_blister_x_10",
+    "_id": "OLAM_cardiovital_caja_x_60_blister_x_10",
     "name": "CARDIOVITAL CAJA X 60 BLISTER X 10",
     "category": "Suplemento cardiovascular",
     "principio_activo": "No especificado",
@@ -483,7 +483,7 @@
     "updated_at": "2026-04-20T07:21:56.196834"
   },
   {
-    "_id": "carvedilol_125_cj_x_100_blist_x_10_lotus",
+    "_id": "OLAM_carvedilol_125_cj_x_100_blist_x_10_lotus",
     "name": "CARVEDILOL 12.5 CJ X 100 BLIST X 10 LOTUS",
     "category": "Antihipertensivo",
     "principio_activo": "Carvedilol",
@@ -504,7 +504,7 @@
     "updated_at": "2026-04-20T07:21:58.965575"
   },
   {
-    "_id": "cefixima_400_mg_caja_x_10_tab",
+    "_id": "OLAM_cefixima_400_mg_caja_x_10_tab",
     "name": "CEFIXIMA 400 MG CAJA X 10 TAB",
     "category": "Antibiótico",
     "principio_activo": "Cefixima",
@@ -525,7 +525,7 @@
     "updated_at": "2026-04-20T07:22:02.854692"
   },
   {
-    "_id": "ceftriaxona_1g_vitalis_vial_iny",
+    "_id": "OLAM_ceftriaxona_1g_vitalis_vial_iny",
     "name": "CEFTRIAXONA 1G VITALIS VIAL INY",
     "category": "Antibiótico",
     "principio_activo": "Ceftriaxona",
@@ -546,7 +546,7 @@
     "updated_at": "2026-04-20T07:22:05.359259"
   },
   {
-    "_id": "cetirizina__10_mg__caja_x_100_blist_x_10",
+    "_id": "OLAM_cetirizina__10_mg__caja_x_100_blist_x_10",
     "name": "CETIRIZINA  10 MG  CAJA X 100 BLIST X 10",
     "category": "Antihistamínico",
     "principio_activo": "Cetirizina",
@@ -567,7 +567,7 @@
     "updated_at": "2026-04-20T07:22:08.034275"
   },
   {
-    "_id": "ciruela_sen_caja_x_15_h__v",
+    "_id": "OLAM_ciruela_sen_caja_x_15_h__v",
     "name": "CIRUELA SEN CAJA X 15 H & V",
     "category": "Laxantes",
     "principio_activo": "Senósidos",
@@ -588,7 +588,7 @@
     "updated_at": "2026-04-20T07:22:10.810229"
   },
   {
-    "_id": "clopidrogel_75_mgs_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_clopidrogel_75_mgs_blist_x_10_caja_x_100_lotus",
     "name": "CLOPIDROGEL 75 MGS BLIST X 10 CAJA X 100 LOTUS",
     "category": "Antiplaquetario",
     "principio_activo": "Clopidogrel",
@@ -609,7 +609,7 @@
     "updated_at": "2026-04-20T07:22:13.682999"
   },
   {
-    "_id": "coliverio_plus_cj_x30_caps__blist_x_5",
+    "_id": "OLAM_coliverio_plus_cj_x30_caps__blist_x_5",
     "name": "COLIVERIO PLUS CJ X30 CAPS  BLIST X 5",
     "category": "Suplemento vitamínico",
     "principio_activo": "Colina, Vitamina B12, Ácido fólico",
@@ -630,7 +630,7 @@
     "updated_at": "2026-04-20T07:22:17.966270"
   },
   {
-    "_id": "dexketoprofeno_25_mgs_cj_x_100_tab_blist_x_10_balaxi",
+    "_id": "OLAM_dexketoprofeno_25_mgs_cj_x_100_tab_blist_x_10_balaxi",
     "name": "DEXKETOPROFENO 25 MGS CJ X 100 TAB BLIST X 10 BALAXI",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Dexketoprofeno",
@@ -651,7 +651,7 @@
     "updated_at": "2026-04-20T07:22:20.802564"
   },
   {
-    "_id": "dextrovita_al_5_1_litro",
+    "_id": "OLAM_dextrovita_al_5_1_litro",
     "name": "DEXTROVITA AL 5% 1 LITRO",
     "category": "Solución glucosada",
     "principio_activo": "Dextrosa (glucosa)",
@@ -672,7 +672,7 @@
     "updated_at": "2026-04-20T07:22:25.485743"
   },
   {
-    "_id": "dextrovita_al_5_12_litro",
+    "_id": "OLAM_dextrovita_al_5_12_litro",
     "name": "DEXTROVITA AL 5% 1/2 LITRO",
     "category": "Solución glucosada",
     "principio_activo": "Dextrosa",
@@ -693,7 +693,7 @@
     "updated_at": "2026-04-20T07:22:28.208111"
   },
   {
-    "_id": "dipronova_1_ml_amp",
+    "_id": "OLAM_dipronova_1_ml_amp",
     "name": "DIPRONOVA 1 ML AMP",
     "category": "Corticosteroides",
     "principio_activo": "Betametasona",
@@ -714,7 +714,7 @@
     "updated_at": "2026-04-20T07:22:31.238683"
   },
   {
-    "_id": "dipronova_vial_2_ml",
+    "_id": "OLAM_dipronova_vial_2_ml",
     "name": "DIPRONOVA VIAL 2 ML",
     "category": "Corticosteroides",
     "principio_activo": "Dexametasona",
@@ -735,7 +735,7 @@
     "updated_at": "2026-04-20T07:22:34.049328"
   },
   {
-    "_id": "enzimas_diges_blist_x_10_caja_x_30_conamep",
+    "_id": "OLAM_enzimas_diges_blist_x_10_caja_x_30_conamep",
     "name": "ENZIMAS DIGES BLIST X 10 CAJA X 30 CONAMEP",
     "category": "Suplemento digestivo",
     "principio_activo": "Enzimas digestivas",
@@ -756,7 +756,7 @@
     "updated_at": "2026-04-20T07:22:39.406722"
   },
   {
-    "_id": "equipo__para_suero_nipro",
+    "_id": "OLAM_equipo__para_suero_nipro",
     "name": "EQUIPO  PARA SUERO NIPRO",
     "category": "Equipo para administración de líquidos intravenosos",
     "principio_activo": "No aplica",
@@ -777,7 +777,7 @@
     "updated_at": "2026-04-20T07:22:42.287104"
   },
   {
-    "_id": "esomeprazol_40_mg_iv_ampolla_lotus_balaxi",
+    "_id": "OLAM_esomeprazol_40_mg_iv_ampolla_lotus_balaxi",
     "name": "ESOMEPRAZOL 40 MG IV AMPOLLA LOTUS BALAXI",
     "category": "Inhibidor de la bomba de protones",
     "principio_activo": "Esomeprazol",
@@ -798,7 +798,7 @@
     "updated_at": "2026-04-20T07:22:45.433303"
   },
   {
-    "_id": "ferula_tipo_basball_talla_m",
+    "_id": "OLAM_ferula_tipo_basball_talla_m",
     "name": "FERULA TIPO BASBALL TALLA M",
     "category": "Ortopedia",
     "principio_activo": "No aplica",
@@ -819,7 +819,7 @@
     "updated_at": "2026-04-20T07:22:48.010634"
   },
   {
-    "_id": "ferula_tipo_ranita_talla_m",
+    "_id": "OLAM_ferula_tipo_ranita_talla_m",
     "name": "FERULA TIPO RANITA TALLA M",
     "category": "Ortopedia",
     "principio_activo": "No aplica",
@@ -840,7 +840,7 @@
     "updated_at": "2026-04-20T07:22:50.538700"
   },
   {
-    "_id": "fludisin_d_adulto_100_ml_ambrodexkto",
+    "_id": "OLAM_fludisin_d_adulto_100_ml_ambrodexkto",
     "name": "FLUDISIN D ADULTO 100 ML (AMBRO+DEXKTO)",
     "category": "Solución para rehidratación oral",
     "principio_activo": "Ambroxol + Dextrosa",
@@ -861,7 +861,7 @@
     "updated_at": "2026-04-20T07:22:54.011014"
   },
   {
-    "_id": "fludisin_d_niños_100_ml_ambrodextro",
+    "_id": "OLAM_fludisin_d_niños_100_ml_ambrodextro",
     "name": "FLUDISIN D NIÑOS 100 ML (AMBRO+DEXTRO)",
     "category": "Solución oral para rehidratación",
     "principio_activo": "Ambroxol + Dextrosa",
@@ -882,7 +882,7 @@
     "updated_at": "2026-04-20T07:22:57.397294"
   },
   {
-    "_id": "fryster__salino_120_ml",
+    "_id": "OLAM_fryster__salino_120_ml",
     "name": "FRYSTER  SALINO 120 ML",
     "category": "Solución salina",
     "principio_activo": "Cloruro de sodio",
@@ -903,7 +903,7 @@
     "updated_at": "2026-04-20T07:23:00.282736"
   },
   {
-    "_id": "fryster_lavado_120_ml",
+    "_id": "OLAM_fryster_lavado_120_ml",
     "name": "FRYSTER LAVADO 120 ML",
     "category": "Lavado ocular",
     "principio_activo": "Solución salina estéril",
@@ -924,7 +924,7 @@
     "updated_at": "2026-04-20T07:23:03.271597"
   },
   {
-    "_id": "fungifar_talco_mediano_phongos_50_grs",
+    "_id": "OLAM_fungifar_talco_mediano_phongos_50_grs",
     "name": "FUNGIFAR TALCO MEDIANO P/HONGOS 50 GRS",
     "category": "Antifúngicos tópicos",
     "principio_activo": "Tolnaftato",
@@ -945,7 +945,7 @@
     "updated_at": "2026-04-20T07:23:06.064299"
   },
   {
-    "_id": "fungifar_ultra_cerema_15_grs_butenafina",
+    "_id": "OLAM_fungifar_ultra_cerema_15_grs_butenafina",
     "name": "FUNGIFAR ULTRA CEREMA 15 GRS (BUTENAFINA)",
     "category": "Antifúngico tópico",
     "principio_activo": "Butenafina",
@@ -966,7 +966,7 @@
     "updated_at": "2026-04-20T07:23:08.872910"
   },
   {
-    "_id": "gelprofen_600_mg_cj_x50_caps",
+    "_id": "OLAM_gelprofen_600_mg_cj_x50_caps",
     "name": "GELPROFEN 600 MG CJ X50 CAPS",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Ibuprofeno",
@@ -987,7 +987,7 @@
     "updated_at": "2026-04-20T07:23:11.823717"
   },
   {
-    "_id": "glimepirida_4_mg_blister_x_10_washington",
+    "_id": "OLAM_glimepirida_4_mg_blister_x_10_washington",
     "name": "GLIMEPIRIDA 4 MG BLISTER X 10 WASHINGTON",
     "category": "Antidiabético",
     "principio_activo": "Glimepirida",
@@ -1008,7 +1008,7 @@
     "updated_at": "2026-04-20T07:23:14.507863"
   },
   {
-    "_id": "gloranta_jengibre_menta_caja_x_25_sob_x_4",
+    "_id": "OLAM_gloranta_jengibre_menta_caja_x_25_sob_x_4",
     "name": "GLORANTA JENGIBRE- MENTA CAJA X 25 SOB X 4",
     "category": "Suplemento alimenticio",
     "principio_activo": "Jengibre y menta",
@@ -1029,7 +1029,7 @@
     "updated_at": "2026-04-20T07:23:17.034569"
   },
   {
-    "_id": "gloranta_miel_menta__caja_x_25_sob_x_4",
+    "_id": "OLAM_gloranta_miel_menta__caja_x_25_sob_x_4",
     "name": "GLORANTA MIEL MENTA  CAJA X 25 SOB X 4",
     "category": "Jarabe para la tos",
     "principio_activo": "Mentol",
@@ -1050,7 +1050,7 @@
     "updated_at": "2026-04-20T07:23:19.824797"
   },
   {
-    "_id": "guantes_esteriles_caja_x_50",
+    "_id": "OLAM_guantes_esteriles_caja_x_50",
     "name": "GUANTES ESTERILES CAJA X 50",
     "category": "Material de curación",
     "principio_activo": "Ninguno",
@@ -1071,7 +1071,7 @@
     "updated_at": "2026-04-20T07:23:22.453508"
   },
   {
-    "_id": "guata_4x4_relleno_ortopedico_100_algodón",
+    "_id": "OLAM_guata_4x4_relleno_ortopedico_100_algodón",
     "name": "GUATA 4X4 (RELLENO ORTOPEDICO) 100% ALGODÓN",
     "category": "Materiales ortopédicos",
     "principio_activo": "No aplica",
@@ -1092,7 +1092,7 @@
     "updated_at": "2026-04-20T07:23:25.550714"
   },
   {
-    "_id": "guayacolato_jbe_120_ml_ruipharm",
+    "_id": "OLAM_guayacolato_jbe_120_ml_ruipharm",
     "name": "GUAYACOLATO JBE 120 ML RUIPHARM",
     "category": "Expectorante",
     "principio_activo": "Guayacolato de glicerilo",
@@ -1113,7 +1113,7 @@
     "updated_at": "2026-04-20T07:23:28.360329"
   },
   {
-    "_id": "hartmann_1000_1_litro",
+    "_id": "OLAM_hartmann_1000_1_litro",
     "name": "HARTMANN (1000) 1 LITRO",
     "category": "Solución intravenosa",
     "principio_activo": "Electrolitos (Sodio, Potasio, Calcio, Cloruro, Lactato)",
@@ -1134,7 +1134,7 @@
     "updated_at": "2026-04-20T07:23:31.112280"
   },
   {
-    "_id": "hierro_sacarosa_100mg5ml_caja_x_10_vitalis",
+    "_id": "OLAM_hierro_sacarosa_100mg5ml_caja_x_10_vitalis",
     "name": "HIERRO SACAROSA 100MG/5ML CAJA X 10 VITALIS",
     "category": "Suplemento mineral",
     "principio_activo": "Hierro sacarosa",
@@ -1155,7 +1155,7 @@
     "updated_at": "2026-04-20T07:23:33.897083"
   },
   {
-    "_id": "hioscina_10_mg_blister_x_10_caja_x_100",
+    "_id": "OLAM_hioscina_10_mg_blister_x_10_caja_x_100",
     "name": "HIOSCINA 10 MG BLISTER X 10 CAJA X 100",
     "category": "Antiespasmódico",
     "principio_activo": "Hioscina",
@@ -1176,7 +1176,7 @@
     "updated_at": "2026-04-20T07:23:36.398863"
   },
   {
-    "_id": "ibuplus_firt_800_mgs_caha_x_50_blist_x_10_lotus",
+    "_id": "OLAM_ibuplus_firt_800_mgs_caha_x_50_blist_x_10_lotus",
     "name": "IBU-PLUS FIRT 800 MGS CAHA X 50 BLIST X 10 LOTUS",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Ibuprofeno",
@@ -1197,7 +1197,7 @@
     "updated_at": "2026-04-20T07:23:41.214567"
   },
   {
-    "_id": "indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
+    "_id": "OLAM_indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
     "name": "INDAPAMIDA SR 1.5 MGS CAJA X 100 BLIST X 10 QADIRA",
     "category": "Diurético",
     "principio_activo": "Indapamida",
@@ -1218,7 +1218,7 @@
     "updated_at": "2026-04-20T07:23:43.840347"
   },
   {
-    "_id": "koact_1_gr_amoxclav_caja_x_15_tab_blister_x_5",
+    "_id": "OLAM_koact_1_gr_amoxclav_caja_x_15_tab_blister_x_5",
     "name": "KOACT 1 GR AMOX+CLAV CAJA X 15 TAB BLISTER X 5",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina + Clavulanato de Potasio",
@@ -1239,7 +1239,7 @@
     "updated_at": "2026-04-20T07:24:01.258176"
   },
   {
-    "_id": "koact_625_amoxi_500_acidoclav_x_15_tab_blister_x_5",
+    "_id": "OLAM_koact_625_amoxi_500_acidoclav_x_15_tab_blister_x_5",
     "name": "KOACT 62.5 AMOXI 500 ACIDOCLAV X 15 TAB BLISTER X 5",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina y Ácido Clavulánico",
@@ -1260,7 +1260,7 @@
     "updated_at": "2026-04-20T07:24:04.099356"
   },
   {
-    "_id": "lancetas_nipro_caja_x_100",
+    "_id": "OLAM_lancetas_nipro_caja_x_100",
     "name": "LANCETAS NIPRO CAJA X 100",
     "category": "Material de diagnóstico",
     "principio_activo": "No aplica",
@@ -1281,7 +1281,7 @@
     "updated_at": "2026-04-20T07:24:06.867938"
   },
   {
-    "_id": "leflunomida_20_mg_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_leflunomida_20_mg_blist_x_10_caja_x_100_lotus",
     "name": "LEFLUNOMIDA 20 MG BLIST X 10 CAJA X 100 LOTUS",
     "category": "Antirreumático",
     "principio_activo": "Leflunomida",
@@ -1302,7 +1302,7 @@
     "updated_at": "2026-04-20T07:24:14.973935"
   },
   {
-    "_id": "loratadina_10_mgs_cj_x_100_blist_x10_gel_caps_coname",
+    "_id": "OLAM_loratadina_10_mgs_cj_x_100_blist_x10_gel_caps_coname",
     "name": "LORATADINA 10 MGS CJ X 100 BLIST X10 GEL CAPS CONAME",
     "category": "Antihistamínico",
     "principio_activo": "Loratadina",
@@ -1323,7 +1323,7 @@
     "updated_at": "2026-04-20T07:24:22.070141"
   },
   {
-    "_id": "losartan_potasico_50mg_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_losartan_potasico_50mg_blist_x_10_caja_x_100_lotus",
     "name": "LOSARTAN POTASICO 50MG BLIST X 10 CAJA X 100 LOTUS",
     "category": "Antihipertensivo",
     "principio_activo": "Losartán potásico",
@@ -1344,7 +1344,7 @@
     "updated_at": "2026-04-20T07:24:25.282275"
   },
   {
-    "_id": "mascarilla_nebulizar__neonato_operson",
+    "_id": "OLAM_mascarilla_nebulizar__neonato_operson",
     "name": "MASCARILLA NEBULIZAR  (NEONATO) OPERSON",
     "category": "Mascarilla para nebulización",
     "principio_activo": "No aplica",
@@ -1365,7 +1365,7 @@
     "updated_at": "2026-04-20T07:24:27.809604"
   },
   {
-    "_id": "mascarilla_nebulizar__niño_operson",
+    "_id": "OLAM_mascarilla_nebulizar__niño_operson",
     "name": "MASCARILLA NEBULIZAR  (NIÑO) OPERSON",
     "category": "Dispositivos médicos",
     "principio_activo": "N/A",
@@ -1386,7 +1386,7 @@
     "updated_at": "2026-04-20T07:24:31.560768"
   },
   {
-    "_id": "mascarilla_nebulizar_adulto_operson",
+    "_id": "OLAM_mascarilla_nebulizar_adulto_operson",
     "name": "MASCARILLA NEBULIZAR (ADULTO) OPERSON",
     "category": "Dispositivo médico",
     "principio_activo": "N/A",
@@ -1407,7 +1407,7 @@
     "updated_at": "2026-04-20T07:24:34.159870"
   },
   {
-    "_id": "meropenem_cj_x_vial_20_ml",
+    "_id": "OLAM_meropenem_cj_x_vial_20_ml",
     "name": "MEROPENEM CJ X VIAL 20 ML",
     "category": "Antibiótico Carbapenémico",
     "principio_activo": "Meropenem",
@@ -1428,7 +1428,7 @@
     "updated_at": "2026-04-20T07:24:37.227312"
   },
   {
-    "_id": "neutragel_blister_x_10_tab_bonin",
+    "_id": "OLAM_neutragel_blister_x_10_tab_bonin",
     "name": "NEUTRAGEL BLISTER X 10 TAB (BONIN)",
     "category": "Antiácido",
     "principio_activo": "Almagato",
@@ -1449,7 +1449,7 @@
     "updated_at": "2026-04-20T07:24:40.114620"
   },
   {
-    "_id": "nodik_500_mg_blister_x3_tab",
+    "_id": "OLAM_nodik_500_mg_blister_x3_tab",
     "name": "NODIK 500 MG BLISTER X3 TAB",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Nimesulida",
@@ -1470,7 +1470,7 @@
     "updated_at": "2026-04-20T07:24:43.503474"
   },
   {
-    "_id": "omeprazol_40_mg_vial_iv_vitalis",
+    "_id": "OLAM_omeprazol_40_mg_vial_iv_vitalis",
     "name": "OMEPRAZOL 40 MG VIAL IV (VITALIS)",
     "category": "Inhibidor de la bomba de protones",
     "principio_activo": "Omeprazol",
@@ -1491,7 +1491,7 @@
     "updated_at": "2026-04-20T07:24:46.522162"
   },
   {
-    "_id": "oxido_zinc_sobre_28_grs_bolsa_x__16",
+    "_id": "OLAM_oxido_zinc_sobre_28_grs_bolsa_x__16",
     "name": "OXIDO ZINC SOBRE 28 GRS BOLSA X  16",
     "category": "Antisépticos y protectores cutáneos",
     "principio_activo": "Óxido de zinc",
@@ -1512,7 +1512,7 @@
     "updated_at": "2026-04-20T07:24:49.311382"
   },
   {
-    "_id": "panclasa_pague_30_lleve_40_blister_x_10",
+    "_id": "OLAM_panclasa_pague_30_lleve_40_blister_x_10",
     "name": "PANCLASA PAGUE 30 LLEVE 40 BLISTER X 10",
     "category": "Enzimas digestivas",
     "principio_activo": "Pancreatina",
@@ -1533,7 +1533,7 @@
     "updated_at": "2026-04-20T07:24:53.179474"
   },
   {
-    "_id": "pomada_de_oxido_zinc",
+    "_id": "OLAM_pomada_de_oxido_zinc",
     "name": "POMADA DE OXIDO ZINC",
     "category": "Dermatológico",
     "principio_activo": "Óxido de zinc",
@@ -1554,7 +1554,7 @@
     "updated_at": "2026-04-20T07:24:56.287894"
   },
   {
-    "_id": "prednisolona_15_mgs_jbe_120_ml_pharmadel",
+    "_id": "OLAM_prednisolona_15_mgs_jbe_120_ml_pharmadel",
     "name": "PREDNISOLONA 15 MGS JBE 120 ML PHARMADEL",
     "category": "Corticosteroides",
     "principio_activo": "Prednisolona",
@@ -1575,7 +1575,7 @@
     "updated_at": "2026-04-20T07:24:58.866958"
   },
   {
-    "_id": "pregabalina_75_mg_caja_x_100__blist_x_10_caps",
+    "_id": "OLAM_pregabalina_75_mg_caja_x_100__blist_x_10_caps",
     "name": "PREGABALINA 75 MG CAJA X 100  BLIST X 10 CAPS",
     "category": "Medicamento anticonvulsivante y analgésico",
     "principio_activo": "Pregabalina",
@@ -1596,7 +1596,7 @@
     "updated_at": "2026-04-20T07:25:01.618433"
   },
   {
-    "_id": "prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv",
+    "_id": "OLAM_prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv",
     "name": "PRENATALES FLOUR CON BIOTINA CAJA X 30 BLIST X 10 HV",
     "category": "Suplementos vitamínicos y minerales",
     "principio_activo": "Ácido fólico, biotina",
@@ -1617,7 +1617,7 @@
     "updated_at": "2026-04-20T07:25:04.497004"
   },
   {
-    "_id": "propoltox_propoleo_jbe_120_ml",
+    "_id": "OLAM_propoltox_propoleo_jbe_120_ml",
     "name": "PROPOLTOX (PROPOLEO) JBE 120 ML",
     "category": "Jarabe",
     "principio_activo": "Propóleo",
@@ -1638,7 +1638,7 @@
     "updated_at": "2026-04-20T07:25:07.447571"
   },
   {
-    "_id": "ranitidina_50_mgs2ml_x_10_ampollas_vitalis",
+    "_id": "OLAM_ranitidina_50_mgs2ml_x_10_ampollas_vitalis",
     "name": "RANITIDINA 50 MGS/2ML X 10 AMPOLLAS VITALIS",
     "category": "Antiácido / Antiulceroso",
     "principio_activo": "Ranitidina",
@@ -1659,7 +1659,7 @@
     "updated_at": "2026-04-20T07:25:10.407060"
   },
   {
-    "_id": "rhelax_fleb__pomada_60_grs",
+    "_id": "OLAM_rhelax_fleb__pomada_60_grs",
     "name": "RHELAX FLEB  POMADA 60 GRS",
     "category": "Pomada para tratamiento de problemas venosos",
     "principio_activo": "Extractos de plantas con propiedades flebotónicas y antiinflamatorias",
@@ -1680,7 +1680,7 @@
     "updated_at": "2026-04-20T07:25:13.905923"
   },
   {
-    "_id": "rinofed_plus_cj_x_12_tabs",
+    "_id": "OLAM_rinofed_plus_cj_x_12_tabs",
     "name": "RINOFED PLUS CJ X 12 TABS",
     "category": "Descongestionante nasal",
     "principio_activo": "Pseudoefedrina y clorfeniramina",
@@ -1701,7 +1701,7 @@
     "updated_at": "2026-04-20T07:25:17.274564"
   },
   {
-    "_id": "salbutamol_spray_10mcx_dosis_200_balaxi",
+    "_id": "OLAM_salbutamol_spray_10mcx_dosis_200_balaxi",
     "name": "SALBUTAMOL SPRAY 10MCX DOSIS 200 BALAXI",
     "category": "Broncodilatador",
     "principio_activo": "Salbutamol",
@@ -1722,7 +1722,7 @@
     "updated_at": "2026-04-20T07:25:20.544179"
   },
   {
-    "_id": "secnidazol_500_mg_12_blist_x_4_caja_x_48_infasa",
+    "_id": "OLAM_secnidazol_500_mg_12_blist_x_4_caja_x_48_infasa",
     "name": "SECNIDAZOL 500 MG 12 BLIST X 4 CAJA X 48 INFASA",
     "category": "Antiparasitario",
     "principio_activo": "Secnidazol",
@@ -1743,7 +1743,7 @@
     "updated_at": "2026-04-20T07:25:23.258700"
   },
   {
-    "_id": "sedatos_plus_120_ml_bonin",
+    "_id": "OLAM_sedatos_plus_120_ml_bonin",
     "name": "SEDATOS PLUS 120 ML (BONIN)",
     "category": "Sedante y relajante muscular",
     "principio_activo": "Clorhidrato de clobutinol y otros componentes",
@@ -1764,7 +1764,7 @@
     "updated_at": "2026-04-20T07:25:26.571840"
   },
   {
-    "_id": "serafon_guayacoleucali_x_1000",
+    "_id": "OLAM_serafon_guayacoleucali_x_1000",
     "name": "SERAFON GUAYACOL+EUCALI) X 1000",
     "category": "Expectorante y descongestionante",
     "principio_activo": "Guayacol y Eucaliptol",
@@ -1785,7 +1785,7 @@
     "updated_at": "2026-04-20T07:25:29.269400"
   },
   {
-    "_id": "solucion_salina_para_nebulizar_250_ml",
+    "_id": "OLAM_solucion_salina_para_nebulizar_250_ml",
     "name": "SOLUCION SALINA PARA NEBULIZAR 250 ML",
     "category": "Solución salina",
     "principio_activo": "Cloruro de sodio",
@@ -1806,7 +1806,7 @@
     "updated_at": "2026-04-20T07:25:32.669612"
   },
   {
-    "_id": "sucralfato___200_ml__susp_rhemus",
+    "_id": "OLAM_sucralfato___200_ml__susp_rhemus",
     "name": "SUCRALFATO   200 ML  SUSP RHEMUS",
     "category": "Antiácido y protector gástrico",
     "principio_activo": "Sucralfato",
@@ -1827,7 +1827,7 @@
     "updated_at": "2026-04-20T07:25:36.824770"
   },
   {
-    "_id": "sucralfato_1g_180_ml_susp_jelse",
+    "_id": "OLAM_sucralfato_1g_180_ml_susp_jelse",
     "name": "SUCRALFATO 1G 180 ML SUSP JELSE",
     "category": "Antiácido y protector gástrico",
     "principio_activo": "Sucralfato",
@@ -1848,7 +1848,7 @@
     "updated_at": "2026-04-20T07:25:41.936345"
   },
   {
-    "_id": "suero_en_polvo_naranja_1_lt_promegal_x_25",
+    "_id": "OLAM_suero_en_polvo_naranja_1_lt_promegal_x_25",
     "name": "SUERO EN POLVO NARANJA 1 LT PROMEGAL X 25",
     "category": "Suplemento electrolítico",
     "principio_activo": "Sales minerales y glucosa",
@@ -1869,7 +1869,7 @@
     "updated_at": "2026-04-20T07:25:44.663835"
   },
   {
-    "_id": "termometro_digital_cazul_operson",
+    "_id": "OLAM_termometro_digital_cazul_operson",
     "name": "TERMOMETRO DIGITAL C/AZUL (OPERSON)",
     "category": "Instrumentos médicos",
     "principio_activo": "N/A",
@@ -1890,7 +1890,7 @@
     "updated_at": "2026-04-20T07:25:47.286919"
   },
   {
-    "_id": "termometro_frontal_1_tira_hierfarma",
+    "_id": "OLAM_termometro_frontal_1_tira_hierfarma",
     "name": "TERMOMETRO FRONTAL 1 TIRA HIERFARMA",
     "category": "Termómetros",
     "principio_activo": "",
@@ -1911,7 +1911,7 @@
     "updated_at": "2026-04-20T07:25:50.161852"
   },
   {
-    "_id": "tiras__premier_nipro_caja_x_50",
+    "_id": "OLAM_tiras__premier_nipro_caja_x_50",
     "name": "TIRAS  PREMIER NIPRO CAJA X 50",
     "category": "Tiras reactivas para glucosa",
     "principio_activo": "No aplica",
@@ -1932,7 +1932,7 @@
     "updated_at": "2026-04-20T07:25:53.484985"
   },
   {
-    "_id": "trimetoprim_sulfa_40200mg_ruipharm",
+    "_id": "OLAM_trimetoprim_sulfa_40200mg_ruipharm",
     "name": "TRIMETOPRIM SULFA 40-200MG RUIPHARM",
     "category": "Antibiótico",
     "principio_activo": "Trimetoprim y Sulfametoxazol",
@@ -1953,7 +1953,7 @@
     "updated_at": "2026-04-20T07:25:55.996248"
   },
   {
-    "_id": "tylenol_rojo_extra_f_cj_x_20_tab_10_sob",
+    "_id": "OLAM_tylenol_rojo_extra_f_cj_x_20_tab_10_sob",
     "name": "TYLENOL ROJO EXTRA F CJ X 20 TAB 10 SOB",
     "category": "Analgésico y antipirético",
     "principio_activo": "Paracetamol",
@@ -1974,7 +1974,7 @@
     "updated_at": "2026-04-20T07:25:58.956885"
   },
   {
-    "_id": "unicil_12_megas_unipharm",
+    "_id": "OLAM_unicil_12_megas_unipharm",
     "name": "UNICIL 1.2 MEGAS (UNIPHARM)",
     "category": "Antibiótico",
     "principio_activo": "Cefalexina",
@@ -1995,7 +1995,7 @@
     "updated_at": "2026-04-20T07:26:02.116478"
   },
   {
-    "_id": "unicil_4_megas_unhipharm",
+    "_id": "OLAM_unicil_4_megas_unhipharm",
     "name": "UNICIL 4 MEGAS (UNHIPHARM)",
     "category": "Antibiótico",
     "principio_activo": "Penicilina G benzatina",
@@ -2016,7 +2016,7 @@
     "updated_at": "2026-04-20T07:26:07.544106"
   },
   {
-    "_id": "vick_caramelos_frasco_x_125",
+    "_id": "OLAM_vick_caramelos_frasco_x_125",
     "name": "VICK CARAMELOS FRASCO X 125",
     "category": "Antitusivos y Expectorantes",
     "principio_activo": "Mentol",
@@ -2037,7 +2037,7 @@
     "updated_at": "2026-04-20T07:26:10.075119"
   },
   {
-    "_id": "visina_esteri_jj_gotas_15_ml_tetrizolin",
+    "_id": "OLAM_visina_esteri_jj_gotas_15_ml_tetrizolin",
     "name": "VISINA ESTERI J&J GOTAS 15 ML (TETRIZOLIN)",
     "category": "Colirios y gotas oftálmicas",
     "principio_activo": "Tetrizolina",
@@ -2058,7 +2058,7 @@
     "updated_at": "2026-04-20T07:26:13.467492"
   },
   {
-    "_id": "vista_clara_15_ml_antialergico",
+    "_id": "OLAM_vista_clara_15_ml_antialergico",
     "name": "VISTA CLARA 15 ML (ANTIALERGICO)",
     "category": "Antialérgicos oftálmicos",
     "principio_activo": "Antihistamínicos tópicos",
@@ -2079,7 +2079,7 @@
     "updated_at": "2026-04-20T07:26:17.506725"
   },
   {
-    "_id": "vitamina_c_500_mg_masticable_blist_x_10_caja_x_100",
+    "_id": "OLAM_vitamina_c_500_mg_masticable_blist_x_10_caja_x_100",
     "name": "VITAMINA C 500 MG MASTICABLE BLIST, X 10 CAJA X 100",
     "category": "Suplemento vitamínico",
     "principio_activo": "Ácido ascórbico (Vitamina C)",
@@ -2100,7 +2100,7 @@
     "updated_at": "2026-04-20T07:26:20.608848"
   },
   {
-    "_id": "vitamina_d_2000_blist_x_15_caja_x_30_hv",
+    "_id": "OLAM_vitamina_d_2000_blist_x_15_caja_x_30_hv",
     "name": "VITAMINA D 2000 BLIST X 15 CAJA X 30 H&V",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitamina D",
@@ -2121,7 +2121,7 @@
     "updated_at": "2026-04-20T07:26:24.010489"
   },
   {
-    "_id": "zinc_30_mg_caja_x_30__blist_x_10_caps_foral_salud",
+    "_id": "OLAM_zinc_30_mg_caja_x_30__blist_x_10_caps_foral_salud",
     "name": "ZINC 30 MG CAJA X 30  BLIST X 10 CAPS (FORAL SALUD)",
     "category": "Suplemento mineral",
     "principio_activo": "Zinc",
@@ -2142,7 +2142,7 @@
     "updated_at": "2026-04-20T07:26:27.433888"
   },
   {
-    "_id": "zorritone_caramelo_barra_caja_x_12_jengibre",
+    "_id": "OLAM_zorritone_caramelo_barra_caja_x_12_jengibre",
     "name": "ZORRITONE CARAMELO BARRA CAJA X 12 JENGIBRE",
     "category": "Caramelos medicinales",
     "principio_activo": "Jengibre",

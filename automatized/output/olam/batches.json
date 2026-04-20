@@ -1,7 +1,7 @@
 [
   {
-    "_id": "batch-aceite_coco_120_ml-2026-1",
-    "product_id": "aceite_coco_120_ml",
+    "_id": "OLAM_batch-aceite_coco_120_ml-2026-1",
+    "product_id": "OLAM_aceite_coco_120_ml",
     "lot_code": "LOT-1F60B0D412",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -18,8 +18,8 @@
     }
   },
   {
-    "_id": "BODEGA-aceite_coco_120_ml-2026-1",
-    "product_id": "aceite_coco_120_ml",
+    "_id": "OLAM_BODEGA-aceite_coco_120_ml-2026-1",
+    "product_id": "OLAM_aceite_coco_120_ml",
     "lot_code": "LOT-54BA206C0B",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -36,8 +36,8 @@
     }
   },
   {
-    "_id": "batch-acetaminofen_125mg_jbe_ruipharm-2026-2",
-    "product_id": "acetaminofen_125mg_jbe_ruipharm",
+    "_id": "OLAM_batch-acetaminofen_125mg_jbe_ruipharm-2026-2",
+    "product_id": "OLAM_acetaminofen_125mg_jbe_ruipharm",
     "lot_code": "LOT-8FAD926B7A",
     "expiration_date": {
       "$date": "2028-12-01T00:00:00.000Z"
@@ -54,8 +54,8 @@
     }
   },
   {
-    "_id": "batch-acetaminofen_500_mg_promegal_caja_x_100_blist_x_10-2026-3",
-    "product_id": "acetaminofen_500_mg_promegal_caja_x_100_blist_x_10",
+    "_id": "OLAM_batch-acetaminofen_500_mg_promegal_caja_x_100_blist_x_10-2026-3",
+    "product_id": "OLAM_acetaminofen_500_mg_promegal_caja_x_100_blist_x_10",
     "lot_code": "LOT-F999A8E428",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -72,8 +72,8 @@
     }
   },
   {
-    "_id": "BODEGA-acetaminofen_500_mg_promegal_caja_x_100_blist_x_10-2026-3",
-    "product_id": "acetaminofen_500_mg_promegal_caja_x_100_blist_x_10",
+    "_id": "OLAM_BODEGA-acetaminofen_500_mg_promegal_caja_x_100_blist_x_10-2026-3",
+    "product_id": "OLAM_acetaminofen_500_mg_promegal_caja_x_100_blist_x_10",
     "lot_code": "LOT-1EFB589BF0",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -90,8 +90,8 @@
     }
   },
   {
-    "_id": "batch-aflac_gotas_pediatricas_15_ml__diclofenaco-2026-4",
-    "product_id": "aflac_gotas_pediatricas_15_ml__diclofenaco",
+    "_id": "OLAM_batch-aflac_gotas_pediatricas_15_ml__diclofenaco-2026-4",
+    "product_id": "OLAM_aflac_gotas_pediatricas_15_ml__diclofenaco",
     "lot_code": "LOT-6CC0D28A61",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -108,8 +108,8 @@
     }
   },
   {
-    "_id": "batch-agua_florida_4_rosas_vesa__fco_70_ml-2026-5",
-    "product_id": "agua_florida_4_rosas_vesa__fco_70_ml",
+    "_id": "OLAM_batch-agua_florida_4_rosas_vesa__fco_70_ml-2026-5",
+    "product_id": "OLAM_agua_florida_4_rosas_vesa__fco_70_ml",
     "lot_code": "LOT-712A263957",
     "expiration_date": null,
     "purchase_date": {
@@ -124,8 +124,8 @@
     }
   },
   {
-    "_id": "batch-aguja_22_g_x_1_12_caplin_negra-2026-6",
-    "product_id": "aguja_22_g_x_1_12_caplin_negra",
+    "_id": "OLAM_batch-aguja_22_g_x_1_12_caplin_negra-2026-6",
+    "product_id": "OLAM_aguja_22_g_x_1_12_caplin_negra",
     "lot_code": "LOT-4F1A7E03B8",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -142,8 +142,8 @@
     }
   },
   {
-    "_id": "batch-albendazol_mk_400_mg_susp_10_ml-2026-7",
-    "product_id": "albendazol_mk_400_mg_susp_10_ml",
+    "_id": "OLAM_batch-albendazol_mk_400_mg_susp_10_ml-2026-7",
+    "product_id": "OLAM_albendazol_mk_400_mg_susp_10_ml",
     "lot_code": "LOT-9511A2B047",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -160,8 +160,8 @@
     }
   },
   {
-    "_id": "BODEGA-albendazol_mk_400_mg_susp_10_ml-2026-7",
-    "product_id": "albendazol_mk_400_mg_susp_10_ml",
+    "_id": "OLAM_BODEGA-albendazol_mk_400_mg_susp_10_ml-2026-7",
+    "product_id": "OLAM_albendazol_mk_400_mg_susp_10_ml",
     "lot_code": "LOT-27AF4ABB98",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -178,8 +178,8 @@
     }
   },
   {
-    "_id": "batch-albendazol_mk_cja_x_2_tab-2026-8",
-    "product_id": "albendazol_mk_cja_x_2_tab",
+    "_id": "OLAM_batch-albendazol_mk_cja_x_2_tab-2026-8",
+    "product_id": "OLAM_albendazol_mk_cja_x_2_tab",
     "lot_code": "LOT-4E6BB4AAC1",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -196,8 +196,8 @@
     }
   },
   {
-    "_id": "BODEGA-albendazol_mk_cja_x_2_tab-2026-8",
-    "product_id": "albendazol_mk_cja_x_2_tab",
+    "_id": "OLAM_BODEGA-albendazol_mk_cja_x_2_tab-2026-8",
+    "product_id": "OLAM_albendazol_mk_cja_x_2_tab",
     "lot_code": "LOT-DDE211114A",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -214,8 +214,8 @@
     }
   },
   {
-    "_id": "batch-aleve_lquid_gels_x_24-2026-9",
-    "product_id": "aleve_lquid_gels_x_24",
+    "_id": "OLAM_batch-aleve_lquid_gels_x_24-2026-9",
+    "product_id": "OLAM_aleve_lquid_gels_x_24",
     "lot_code": "LOT-F5B4DABC22",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -232,8 +232,8 @@
     }
   },
   {
-    "_id": "BODEGA-aleve_lquid_gels_x_24-2026-9",
-    "product_id": "aleve_lquid_gels_x_24",
+    "_id": "OLAM_BODEGA-aleve_lquid_gels_x_24-2026-9",
+    "product_id": "OLAM_aleve_lquid_gels_x_24",
     "lot_code": "LOT-BC1FE9FC5B",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -250,8 +250,8 @@
     }
   },
   {
-    "_id": "batch-alfer_nicol_ungüento_tubo_5_grs-2026-10",
-    "product_id": "alfer_nicol_ungüento_tubo_5_grs",
+    "_id": "OLAM_batch-alfer_nicol_ungüento_tubo_5_grs-2026-10",
+    "product_id": "OLAM_alfer_nicol_ungüento_tubo_5_grs",
     "lot_code": "LOT-7296730C09",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -268,8 +268,8 @@
     }
   },
   {
-    "_id": "BODEGA-alfer_nicol_ungüento_tubo_5_grs-2026-10",
-    "product_id": "alfer_nicol_ungüento_tubo_5_grs",
+    "_id": "OLAM_BODEGA-alfer_nicol_ungüento_tubo_5_grs-2026-10",
+    "product_id": "OLAM_alfer_nicol_ungüento_tubo_5_grs",
     "lot_code": "LOT-50DA97FC4D",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -286,8 +286,8 @@
     }
   },
   {
-    "_id": "batch-alfuzocina_10_mg_blist_x_10_caja_x_100_lotus-2026-11",
-    "product_id": "alfuzocina_10_mg_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_batch-alfuzocina_10_mg_blist_x_10_caja_x_100_lotus-2026-11",
+    "product_id": "OLAM_alfuzocina_10_mg_blist_x_10_caja_x_100_lotus",
     "lot_code": "LOT-FA1CE17573",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -304,8 +304,8 @@
     }
   },
   {
-    "_id": "BODEGA-alfuzocina_10_mg_blist_x_10_caja_x_100_lotus-2026-11",
-    "product_id": "alfuzocina_10_mg_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_BODEGA-alfuzocina_10_mg_blist_x_10_caja_x_100_lotus-2026-11",
+    "product_id": "OLAM_alfuzocina_10_mg_blist_x_10_caja_x_100_lotus",
     "lot_code": "LOT-2ED32DB33D",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -322,8 +322,8 @@
     }
   },
   {
-    "_id": "batch-amoxiclavu_susp_3125mg5ml_100__ml_balaxi-2026-12",
-    "product_id": "amoxiclavu_susp_3125mg5ml_100__ml_balaxi",
+    "_id": "OLAM_batch-amoxiclavu_susp_3125mg5ml_100__ml_balaxi-2026-12",
+    "product_id": "OLAM_amoxiclavu_susp_3125mg5ml_100__ml_balaxi",
     "lot_code": "LOT-CC612455CD",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -340,8 +340,8 @@
     }
   },
   {
-    "_id": "BODEGA-amoxiclavu_susp_3125mg5ml_100__ml_balaxi-2026-12",
-    "product_id": "amoxiclavu_susp_3125mg5ml_100__ml_balaxi",
+    "_id": "OLAM_BODEGA-amoxiclavu_susp_3125mg5ml_100__ml_balaxi-2026-12",
+    "product_id": "OLAM_amoxiclavu_susp_3125mg5ml_100__ml_balaxi",
     "lot_code": "LOT-C9AF8890BA",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -358,8 +358,8 @@
     }
   },
   {
-    "_id": "batch-amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7-2026-13",
-    "product_id": "amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7",
+    "_id": "OLAM_batch-amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7-2026-13",
+    "product_id": "OLAM_amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7",
     "lot_code": "LOT-EAF784B2A9",
     "expiration_date": null,
     "purchase_date": null,
@@ -372,8 +372,8 @@
     }
   },
   {
-    "_id": "batch-amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7-2026-14",
-    "product_id": "amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7",
+    "_id": "OLAM_batch-amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7-2026-14",
+    "product_id": "OLAM_amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7",
     "lot_code": "LOT-5F78E2E1AB",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -390,8 +390,8 @@
     }
   },
   {
-    "_id": "BODEGA-amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7-2026-14",
-    "product_id": "amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7",
+    "_id": "OLAM_BODEGA-amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7-2026-14",
+    "product_id": "OLAM_amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7",
     "lot_code": "LOT-044B5AFC41",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -408,8 +408,8 @@
     }
   },
   {
-    "_id": "batch-anestesin_2_c_epinefrina_50_ml_lidocaina-2026-15",
-    "product_id": "anestesin_2_c_epinefrina_50_ml_lidocaina",
+    "_id": "OLAM_batch-anestesin_2_c_epinefrina_50_ml_lidocaina-2026-15",
+    "product_id": "OLAM_anestesin_2_c_epinefrina_50_ml_lidocaina",
     "lot_code": "LOT-5F1595872F",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -426,8 +426,8 @@
     }
   },
   {
-    "_id": "BODEGA-anestesin_2_c_epinefrina_50_ml_lidocaina-2026-15",
-    "product_id": "anestesin_2_c_epinefrina_50_ml_lidocaina",
+    "_id": "OLAM_BODEGA-anestesin_2_c_epinefrina_50_ml_lidocaina-2026-15",
+    "product_id": "OLAM_anestesin_2_c_epinefrina_50_ml_lidocaina",
     "lot_code": "LOT-9E3869A158",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -444,8 +444,8 @@
     }
   },
   {
-    "_id": "batch-arnidol_pomada_arnica_12_grs-2026-16",
-    "product_id": "arnidol_pomada_arnica_12_grs",
+    "_id": "OLAM_batch-arnidol_pomada_arnica_12_grs-2026-16",
+    "product_id": "OLAM_arnidol_pomada_arnica_12_grs",
     "lot_code": "LOT-E3B35F3D74",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -462,8 +462,8 @@
     }
   },
   {
-    "_id": "BODEGA-arnidol_pomada_arnica_12_grs-2026-16",
-    "product_id": "arnidol_pomada_arnica_12_grs",
+    "_id": "OLAM_BODEGA-arnidol_pomada_arnica_12_grs-2026-16",
+    "product_id": "OLAM_arnidol_pomada_arnica_12_grs",
     "lot_code": "LOT-C1969AAB9B",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -480,8 +480,8 @@
     }
   },
   {
-    "_id": "batch-azitromicina_500_mgs_caja_x_3_umedica-2026-17",
-    "product_id": "azitromicina_500_mgs_caja_x_3_umedica",
+    "_id": "OLAM_batch-azitromicina_500_mgs_caja_x_3_umedica-2026-17",
+    "product_id": "OLAM_azitromicina_500_mgs_caja_x_3_umedica",
     "lot_code": "LOT-3D0F56199D",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -498,8 +498,8 @@
     }
   },
   {
-    "_id": "batch-baja_lenguas__de_madera_caja_x_100-2026-18",
-    "product_id": "baja_lenguas__de_madera_caja_x_100",
+    "_id": "OLAM_batch-baja_lenguas__de_madera_caja_x_100-2026-18",
+    "product_id": "OLAM_baja_lenguas__de_madera_caja_x_100",
     "lot_code": "LOT-7AEF582B11",
     "expiration_date": null,
     "purchase_date": {
@@ -514,8 +514,8 @@
     }
   },
   {
-    "_id": "batch-balsamico_del_deportista_lata_12_grs-2026-19",
-    "product_id": "balsamico_del_deportista_lata_12_grs",
+    "_id": "OLAM_batch-balsamico_del_deportista_lata_12_grs-2026-19",
+    "product_id": "OLAM_balsamico_del_deportista_lata_12_grs",
     "lot_code": "LOT-36BE64E7CE",
     "expiration_date": null,
     "purchase_date": {
@@ -530,8 +530,8 @@
     }
   },
   {
-    "_id": "batch-bismuto_bebible_caja_x_10_unidosis_hiper-2026-20",
-    "product_id": "bismuto_bebible_caja_x_10_unidosis_hiper",
+    "_id": "OLAM_batch-bismuto_bebible_caja_x_10_unidosis_hiper-2026-20",
+    "product_id": "OLAM_bismuto_bebible_caja_x_10_unidosis_hiper",
     "lot_code": "LOT-5DC98E95CF",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -548,8 +548,8 @@
     }
   },
   {
-    "_id": "BODEGA-bismuto_bebible_caja_x_10_unidosis_hiper-2026-20",
-    "product_id": "bismuto_bebible_caja_x_10_unidosis_hiper",
+    "_id": "OLAM_BODEGA-bismuto_bebible_caja_x_10_unidosis_hiper-2026-20",
+    "product_id": "OLAM_bismuto_bebible_caja_x_10_unidosis_hiper",
     "lot_code": "LOT-28EE56E6D8",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -566,8 +566,8 @@
     }
   },
   {
-    "_id": "batch-bolsa_horina_ppierna-2026-21",
-    "product_id": "bolsa_horina_ppierna",
+    "_id": "OLAM_batch-bolsa_horina_ppierna-2026-21",
+    "product_id": "OLAM_bolsa_horina_ppierna",
     "lot_code": "LOT-9A4D9F25BF",
     "expiration_date": null,
     "purchase_date": {
@@ -582,8 +582,8 @@
     }
   },
   {
-    "_id": "BODEGA-bolsa_horina_ppierna-2026-21",
-    "product_id": "bolsa_horina_ppierna",
+    "_id": "OLAM_BODEGA-bolsa_horina_ppierna-2026-21",
+    "product_id": "OLAM_bolsa_horina_ppierna",
     "lot_code": "LOT-02EA44C9E1",
     "expiration_date": null,
     "purchase_date": {
@@ -598,8 +598,8 @@
     }
   },
   {
-    "_id": "batch-cabestrillo__l-2026-22",
-    "product_id": "cabestrillo__l",
+    "_id": "OLAM_batch-cabestrillo__l-2026-22",
+    "product_id": "OLAM_cabestrillo__l",
     "lot_code": "LOT-21A69A8AE7",
     "expiration_date": null,
     "purchase_date": {
@@ -614,8 +614,8 @@
     }
   },
   {
-    "_id": "batch-cabestrillo_s_y_m-2026-23",
-    "product_id": "cabestrillo_s_y_m",
+    "_id": "OLAM_batch-cabestrillo_s_y_m-2026-23",
+    "product_id": "OLAM_cabestrillo_s_y_m",
     "lot_code": "LOT-A455F9ABDC",
     "expiration_date": null,
     "purchase_date": {
@@ -630,8 +630,8 @@
     }
   },
   {
-    "_id": "BODEGA-cabestrillo_s_y_m-2026-23",
-    "product_id": "cabestrillo_s_y_m",
+    "_id": "OLAM_BODEGA-cabestrillo_s_y_m-2026-23",
+    "product_id": "OLAM_cabestrillo_s_y_m",
     "lot_code": "LOT-936A9F4FC4",
     "expiration_date": null,
     "purchase_date": {
@@ -646,8 +646,8 @@
     }
   },
   {
-    "_id": "batch-cardiovital_caja_x_60_blister_x_10-2026-24",
-    "product_id": "cardiovital_caja_x_60_blister_x_10",
+    "_id": "OLAM_batch-cardiovital_caja_x_60_blister_x_10-2026-24",
+    "product_id": "OLAM_cardiovital_caja_x_60_blister_x_10",
     "lot_code": "LOT-70D16FBDDB",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -664,8 +664,8 @@
     }
   },
   {
-    "_id": "batch-carvedilol_125_cj_x_100_blist_x_10_lotus-2026-25",
-    "product_id": "carvedilol_125_cj_x_100_blist_x_10_lotus",
+    "_id": "OLAM_batch-carvedilol_125_cj_x_100_blist_x_10_lotus-2026-25",
+    "product_id": "OLAM_carvedilol_125_cj_x_100_blist_x_10_lotus",
     "lot_code": "LOT-A6F363825A",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -682,8 +682,8 @@
     }
   },
   {
-    "_id": "batch-cefixima_400_mg_caja_x_10_tab-2026-26",
-    "product_id": "cefixima_400_mg_caja_x_10_tab",
+    "_id": "OLAM_batch-cefixima_400_mg_caja_x_10_tab-2026-26",
+    "product_id": "OLAM_cefixima_400_mg_caja_x_10_tab",
     "lot_code": "LOT-276134CED7",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -700,8 +700,8 @@
     }
   },
   {
-    "_id": "batch-ceftriaxona_1g_vitalis_vial_iny-2026-27",
-    "product_id": "ceftriaxona_1g_vitalis_vial_iny",
+    "_id": "OLAM_batch-ceftriaxona_1g_vitalis_vial_iny-2026-27",
+    "product_id": "OLAM_ceftriaxona_1g_vitalis_vial_iny",
     "lot_code": "LOT-2AA47EFE0E",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -718,8 +718,8 @@
     }
   },
   {
-    "_id": "BODEGA-ceftriaxona_1g_vitalis_vial_iny-2026-27",
-    "product_id": "ceftriaxona_1g_vitalis_vial_iny",
+    "_id": "OLAM_BODEGA-ceftriaxona_1g_vitalis_vial_iny-2026-27",
+    "product_id": "OLAM_ceftriaxona_1g_vitalis_vial_iny",
     "lot_code": "LOT-BAE61ECBFC",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -736,8 +736,8 @@
     }
   },
   {
-    "_id": "batch-cetirizina__10_mg__caja_x_100_blist_x_10-2026-28",
-    "product_id": "cetirizina__10_mg__caja_x_100_blist_x_10",
+    "_id": "OLAM_batch-cetirizina__10_mg__caja_x_100_blist_x_10-2026-28",
+    "product_id": "OLAM_cetirizina__10_mg__caja_x_100_blist_x_10",
     "lot_code": "LOT-728C2A4BCE",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -754,8 +754,8 @@
     }
   },
   {
-    "_id": "batch-ciruela_sen_caja_x_15_h__v-2026-29",
-    "product_id": "ciruela_sen_caja_x_15_h__v",
+    "_id": "OLAM_batch-ciruela_sen_caja_x_15_h__v-2026-29",
+    "product_id": "OLAM_ciruela_sen_caja_x_15_h__v",
     "lot_code": "LOT-979FBD8AE2",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -772,8 +772,8 @@
     }
   },
   {
-    "_id": "BODEGA-ciruela_sen_caja_x_15_h__v-2026-29",
-    "product_id": "ciruela_sen_caja_x_15_h__v",
+    "_id": "OLAM_BODEGA-ciruela_sen_caja_x_15_h__v-2026-29",
+    "product_id": "OLAM_ciruela_sen_caja_x_15_h__v",
     "lot_code": "LOT-4D9480F97F",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -790,8 +790,8 @@
     }
   },
   {
-    "_id": "batch-clopidrogel_75_mgs_blist_x_10_caja_x_100_lotus-2026-30",
-    "product_id": "clopidrogel_75_mgs_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_batch-clopidrogel_75_mgs_blist_x_10_caja_x_100_lotus-2026-30",
+    "product_id": "OLAM_clopidrogel_75_mgs_blist_x_10_caja_x_100_lotus",
     "lot_code": "LOT-AEC206F553",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -808,8 +808,8 @@
     }
   },
   {
-    "_id": "batch-coliverio_plus_cj_x30_caps__blist_x_5-2026-31",
-    "product_id": "coliverio_plus_cj_x30_caps__blist_x_5",
+    "_id": "OLAM_batch-coliverio_plus_cj_x30_caps__blist_x_5-2026-31",
+    "product_id": "OLAM_coliverio_plus_cj_x30_caps__blist_x_5",
     "lot_code": "LOT-8F077CD873",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -826,8 +826,8 @@
     }
   },
   {
-    "_id": "batch-dexketoprofeno_25_mgs_cj_x_100_tab_blist_x_10_balaxi-2026-32",
-    "product_id": "dexketoprofeno_25_mgs_cj_x_100_tab_blist_x_10_balaxi",
+    "_id": "OLAM_batch-dexketoprofeno_25_mgs_cj_x_100_tab_blist_x_10_balaxi-2026-32",
+    "product_id": "OLAM_dexketoprofeno_25_mgs_cj_x_100_tab_blist_x_10_balaxi",
     "lot_code": "LOT-1B027BC516",
     "expiration_date": {
       "$date": "2028-06-01T00:00:00.000Z"
@@ -844,8 +844,8 @@
     }
   },
   {
-    "_id": "batch-dextrovita_al_5_1_litro-2026-33",
-    "product_id": "dextrovita_al_5_1_litro",
+    "_id": "OLAM_batch-dextrovita_al_5_1_litro-2026-33",
+    "product_id": "OLAM_dextrovita_al_5_1_litro",
     "lot_code": "LOT-7C395EBB87",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -862,8 +862,8 @@
     }
   },
   {
-    "_id": "BODEGA-dextrovita_al_5_1_litro-2026-33",
-    "product_id": "dextrovita_al_5_1_litro",
+    "_id": "OLAM_BODEGA-dextrovita_al_5_1_litro-2026-33",
+    "product_id": "OLAM_dextrovita_al_5_1_litro",
     "lot_code": "LOT-FB6492AB99",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -880,8 +880,8 @@
     }
   },
   {
-    "_id": "batch-dextrovita_al_5_12_litro-2026-34",
-    "product_id": "dextrovita_al_5_12_litro",
+    "_id": "OLAM_batch-dextrovita_al_5_12_litro-2026-34",
+    "product_id": "OLAM_dextrovita_al_5_12_litro",
     "lot_code": "LOT-672629AEFC",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -898,8 +898,8 @@
     }
   },
   {
-    "_id": "batch-dipronova_1_ml_amp-2026-35",
-    "product_id": "dipronova_1_ml_amp",
+    "_id": "OLAM_batch-dipronova_1_ml_amp-2026-35",
+    "product_id": "OLAM_dipronova_1_ml_amp",
     "lot_code": "LOT-50BB08ADE7",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -916,8 +916,8 @@
     }
   },
   {
-    "_id": "batch-dipronova_vial_2_ml-2026-36",
-    "product_id": "dipronova_vial_2_ml",
+    "_id": "OLAM_batch-dipronova_vial_2_ml-2026-36",
+    "product_id": "OLAM_dipronova_vial_2_ml",
     "lot_code": "LOT-9ACA3BECC8",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -934,8 +934,8 @@
     }
   },
   {
-    "_id": "batch-enzimas_diges_blist_x_10_caja_x_30_conamep-2026-37",
-    "product_id": "enzimas_diges_blist_x_10_caja_x_30_conamep",
+    "_id": "OLAM_batch-enzimas_diges_blist_x_10_caja_x_30_conamep-2026-37",
+    "product_id": "OLAM_enzimas_diges_blist_x_10_caja_x_30_conamep",
     "lot_code": "LOT-6139E17E7A",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -952,8 +952,8 @@
     }
   },
   {
-    "_id": "BODEGA-enzimas_diges_blist_x_10_caja_x_30_conamep-2026-37",
-    "product_id": "enzimas_diges_blist_x_10_caja_x_30_conamep",
+    "_id": "OLAM_BODEGA-enzimas_diges_blist_x_10_caja_x_30_conamep-2026-37",
+    "product_id": "OLAM_enzimas_diges_blist_x_10_caja_x_30_conamep",
     "lot_code": "LOT-4F9BD6C74B",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -970,8 +970,8 @@
     }
   },
   {
-    "_id": "batch-equipo__para_suero_nipro-2026-38",
-    "product_id": "equipo__para_suero_nipro",
+    "_id": "OLAM_batch-equipo__para_suero_nipro-2026-38",
+    "product_id": "OLAM_equipo__para_suero_nipro",
     "lot_code": "LOT-1F9F1DCF62",
     "expiration_date": {
       "$date": "2028-12-01T00:00:00.000Z"
@@ -988,8 +988,8 @@
     }
   },
   {
-    "_id": "BODEGA-equipo__para_suero_nipro-2026-38",
-    "product_id": "equipo__para_suero_nipro",
+    "_id": "OLAM_BODEGA-equipo__para_suero_nipro-2026-38",
+    "product_id": "OLAM_equipo__para_suero_nipro",
     "lot_code": "LOT-90775032F9",
     "expiration_date": {
       "$date": "2028-12-01T00:00:00.000Z"
@@ -1006,8 +1006,8 @@
     }
   },
   {
-    "_id": "batch-esomeprazol_40_mg_iv_ampolla_lotus_balaxi-2026-39",
-    "product_id": "esomeprazol_40_mg_iv_ampolla_lotus_balaxi",
+    "_id": "OLAM_batch-esomeprazol_40_mg_iv_ampolla_lotus_balaxi-2026-39",
+    "product_id": "OLAM_esomeprazol_40_mg_iv_ampolla_lotus_balaxi",
     "lot_code": "LOT-FFAAD115F2",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -1024,8 +1024,8 @@
     }
   },
   {
-    "_id": "batch-ferula_tipo_basball_talla_m-2026-40",
-    "product_id": "ferula_tipo_basball_talla_m",
+    "_id": "OLAM_batch-ferula_tipo_basball_talla_m-2026-40",
+    "product_id": "OLAM_ferula_tipo_basball_talla_m",
     "lot_code": "LOT-B8E023FDD6",
     "expiration_date": null,
     "purchase_date": {
@@ -1040,8 +1040,8 @@
     }
   },
   {
-    "_id": "BODEGA-ferula_tipo_basball_talla_m-2026-40",
-    "product_id": "ferula_tipo_basball_talla_m",
+    "_id": "OLAM_BODEGA-ferula_tipo_basball_talla_m-2026-40",
+    "product_id": "OLAM_ferula_tipo_basball_talla_m",
     "lot_code": "LOT-2707C8E575",
     "expiration_date": null,
     "purchase_date": {
@@ -1056,8 +1056,8 @@
     }
   },
   {
-    "_id": "batch-ferula_tipo_ranita_talla_m-2026-41",
-    "product_id": "ferula_tipo_ranita_talla_m",
+    "_id": "OLAM_batch-ferula_tipo_ranita_talla_m-2026-41",
+    "product_id": "OLAM_ferula_tipo_ranita_talla_m",
     "lot_code": "LOT-12E2163362",
     "expiration_date": null,
     "purchase_date": {
@@ -1072,8 +1072,8 @@
     }
   },
   {
-    "_id": "BODEGA-ferula_tipo_ranita_talla_m-2026-41",
-    "product_id": "ferula_tipo_ranita_talla_m",
+    "_id": "OLAM_BODEGA-ferula_tipo_ranita_talla_m-2026-41",
+    "product_id": "OLAM_ferula_tipo_ranita_talla_m",
     "lot_code": "LOT-978B36E1C9",
     "expiration_date": null,
     "purchase_date": {
@@ -1088,8 +1088,8 @@
     }
   },
   {
-    "_id": "batch-fludisin_d_adulto_100_ml_ambrodexkto-2026-42",
-    "product_id": "fludisin_d_adulto_100_ml_ambrodexkto",
+    "_id": "OLAM_batch-fludisin_d_adulto_100_ml_ambrodexkto-2026-42",
+    "product_id": "OLAM_fludisin_d_adulto_100_ml_ambrodexkto",
     "lot_code": "LOT-99C2FEA607",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -1106,8 +1106,8 @@
     }
   },
   {
-    "_id": "BODEGA-fludisin_d_adulto_100_ml_ambrodexkto-2026-42",
-    "product_id": "fludisin_d_adulto_100_ml_ambrodexkto",
+    "_id": "OLAM_BODEGA-fludisin_d_adulto_100_ml_ambrodexkto-2026-42",
+    "product_id": "OLAM_fludisin_d_adulto_100_ml_ambrodexkto",
     "lot_code": "LOT-3E29A696B0",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -1124,8 +1124,8 @@
     }
   },
   {
-    "_id": "batch-fludisin_d_niños_100_ml_ambrodextro-2026-43",
-    "product_id": "fludisin_d_niños_100_ml_ambrodextro",
+    "_id": "OLAM_batch-fludisin_d_niños_100_ml_ambrodextro-2026-43",
+    "product_id": "OLAM_fludisin_d_niños_100_ml_ambrodextro",
     "lot_code": "LOT-35B50DA9C7",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -1142,8 +1142,8 @@
     }
   },
   {
-    "_id": "BODEGA-fludisin_d_niños_100_ml_ambrodextro-2026-43",
-    "product_id": "fludisin_d_niños_100_ml_ambrodextro",
+    "_id": "OLAM_BODEGA-fludisin_d_niños_100_ml_ambrodextro-2026-43",
+    "product_id": "OLAM_fludisin_d_niños_100_ml_ambrodextro",
     "lot_code": "LOT-FC29ED7A3E",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -1160,8 +1160,8 @@
     }
   },
   {
-    "_id": "batch-fryster__salino_120_ml-2026-44",
-    "product_id": "fryster__salino_120_ml",
+    "_id": "OLAM_batch-fryster__salino_120_ml-2026-44",
+    "product_id": "OLAM_fryster__salino_120_ml",
     "lot_code": "LOT-1075188A32",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -1178,8 +1178,8 @@
     }
   },
   {
-    "_id": "BODEGA-fryster__salino_120_ml-2026-44",
-    "product_id": "fryster__salino_120_ml",
+    "_id": "OLAM_BODEGA-fryster__salino_120_ml-2026-44",
+    "product_id": "OLAM_fryster__salino_120_ml",
     "lot_code": "LOT-849C13A0C3",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -1196,8 +1196,8 @@
     }
   },
   {
-    "_id": "batch-fryster_lavado_120_ml-2026-45",
-    "product_id": "fryster_lavado_120_ml",
+    "_id": "OLAM_batch-fryster_lavado_120_ml-2026-45",
+    "product_id": "OLAM_fryster_lavado_120_ml",
     "lot_code": "LOT-04563790F9",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -1214,8 +1214,8 @@
     }
   },
   {
-    "_id": "BODEGA-fryster_lavado_120_ml-2026-45",
-    "product_id": "fryster_lavado_120_ml",
+    "_id": "OLAM_BODEGA-fryster_lavado_120_ml-2026-45",
+    "product_id": "OLAM_fryster_lavado_120_ml",
     "lot_code": "LOT-73AF51E479",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -1232,8 +1232,8 @@
     }
   },
   {
-    "_id": "batch-fungifar_talco_mediano_phongos_50_grs-2026-46",
-    "product_id": "fungifar_talco_mediano_phongos_50_grs",
+    "_id": "OLAM_batch-fungifar_talco_mediano_phongos_50_grs-2026-46",
+    "product_id": "OLAM_fungifar_talco_mediano_phongos_50_grs",
     "lot_code": "LOT-BDAB84CF82",
     "expiration_date": {
       "$date": "2029-11-01T00:00:00.000Z"
@@ -1250,8 +1250,8 @@
     }
   },
   {
-    "_id": "batch-fungifar_ultra_cerema_15_grs_butenafina-2026-47",
-    "product_id": "fungifar_ultra_cerema_15_grs_butenafina",
+    "_id": "OLAM_batch-fungifar_ultra_cerema_15_grs_butenafina-2026-47",
+    "product_id": "OLAM_fungifar_ultra_cerema_15_grs_butenafina",
     "lot_code": "LOT-0E9FA79A64",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -1268,8 +1268,8 @@
     }
   },
   {
-    "_id": "BODEGA-fungifar_ultra_cerema_15_grs_butenafina-2026-47",
-    "product_id": "fungifar_ultra_cerema_15_grs_butenafina",
+    "_id": "OLAM_BODEGA-fungifar_ultra_cerema_15_grs_butenafina-2026-47",
+    "product_id": "OLAM_fungifar_ultra_cerema_15_grs_butenafina",
     "lot_code": "LOT-3A41FEE9DB",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -1286,8 +1286,8 @@
     }
   },
   {
-    "_id": "batch-gelprofen_600_mg_cj_x50_caps-2026-48",
-    "product_id": "gelprofen_600_mg_cj_x50_caps",
+    "_id": "OLAM_batch-gelprofen_600_mg_cj_x50_caps-2026-48",
+    "product_id": "OLAM_gelprofen_600_mg_cj_x50_caps",
     "lot_code": "LOT-0D70646961",
     "expiration_date": {
       "$date": "2026-06-01T00:00:00.000Z"
@@ -1304,8 +1304,8 @@
     }
   },
   {
-    "_id": "batch-glimepirida_4_mg_blister_x_10_washington-2026-49",
-    "product_id": "glimepirida_4_mg_blister_x_10_washington",
+    "_id": "OLAM_batch-glimepirida_4_mg_blister_x_10_washington-2026-49",
+    "product_id": "OLAM_glimepirida_4_mg_blister_x_10_washington",
     "lot_code": "LOT-56BA30B799",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -1322,8 +1322,8 @@
     }
   },
   {
-    "_id": "batch-gloranta_jengibre_menta_caja_x_25_sob_x_4-2026-50",
-    "product_id": "gloranta_jengibre_menta_caja_x_25_sob_x_4",
+    "_id": "OLAM_batch-gloranta_jengibre_menta_caja_x_25_sob_x_4-2026-50",
+    "product_id": "OLAM_gloranta_jengibre_menta_caja_x_25_sob_x_4",
     "lot_code": "LOT-87CC90D3A0",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -1340,8 +1340,8 @@
     }
   },
   {
-    "_id": "batch-gloranta_miel_menta__caja_x_25_sob_x_4-2026-51",
-    "product_id": "gloranta_miel_menta__caja_x_25_sob_x_4",
+    "_id": "OLAM_batch-gloranta_miel_menta__caja_x_25_sob_x_4-2026-51",
+    "product_id": "OLAM_gloranta_miel_menta__caja_x_25_sob_x_4",
     "lot_code": "LOT-FFCB5F4C3D",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -1358,8 +1358,8 @@
     }
   },
   {
-    "_id": "BODEGA-gloranta_miel_menta__caja_x_25_sob_x_4-2026-51",
-    "product_id": "gloranta_miel_menta__caja_x_25_sob_x_4",
+    "_id": "OLAM_BODEGA-gloranta_miel_menta__caja_x_25_sob_x_4-2026-51",
+    "product_id": "OLAM_gloranta_miel_menta__caja_x_25_sob_x_4",
     "lot_code": "LOT-4885F864E8",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -1376,8 +1376,8 @@
     }
   },
   {
-    "_id": "batch-guantes_esteriles_caja_x_50-2026-52",
-    "product_id": "guantes_esteriles_caja_x_50",
+    "_id": "OLAM_batch-guantes_esteriles_caja_x_50-2026-52",
+    "product_id": "OLAM_guantes_esteriles_caja_x_50",
     "lot_code": "LOT-EF13F608C8",
     "expiration_date": {
       "$date": "2028-04-01T00:00:00.000Z"
@@ -1394,8 +1394,8 @@
     }
   },
   {
-    "_id": "batch-guata_4x4_relleno_ortopedico_100_algodón-2026-53",
-    "product_id": "guata_4x4_relleno_ortopedico_100_algodón",
+    "_id": "OLAM_batch-guata_4x4_relleno_ortopedico_100_algodón-2026-53",
+    "product_id": "OLAM_guata_4x4_relleno_ortopedico_100_algodón",
     "lot_code": "LOT-25107E8E6A",
     "expiration_date": {
       "$date": "2029-01-01T00:00:00.000Z"
@@ -1412,8 +1412,8 @@
     }
   },
   {
-    "_id": "BODEGA-guata_4x4_relleno_ortopedico_100_algodón-2026-53",
-    "product_id": "guata_4x4_relleno_ortopedico_100_algodón",
+    "_id": "OLAM_BODEGA-guata_4x4_relleno_ortopedico_100_algodón-2026-53",
+    "product_id": "OLAM_guata_4x4_relleno_ortopedico_100_algodón",
     "lot_code": "LOT-1BD81F215B",
     "expiration_date": {
       "$date": "2029-01-01T00:00:00.000Z"
@@ -1430,8 +1430,8 @@
     }
   },
   {
-    "_id": "batch-guayacolato_jbe_120_ml_ruipharm-2026-54",
-    "product_id": "guayacolato_jbe_120_ml_ruipharm",
+    "_id": "OLAM_batch-guayacolato_jbe_120_ml_ruipharm-2026-54",
+    "product_id": "OLAM_guayacolato_jbe_120_ml_ruipharm",
     "lot_code": "LOT-A021605F49",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -1448,8 +1448,8 @@
     }
   },
   {
-    "_id": "BODEGA-guayacolato_jbe_120_ml_ruipharm-2026-54",
-    "product_id": "guayacolato_jbe_120_ml_ruipharm",
+    "_id": "OLAM_BODEGA-guayacolato_jbe_120_ml_ruipharm-2026-54",
+    "product_id": "OLAM_guayacolato_jbe_120_ml_ruipharm",
     "lot_code": "LOT-CC6EA49936",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -1466,8 +1466,8 @@
     }
   },
   {
-    "_id": "batch-hartmann_1000_1_litro-2026-55",
-    "product_id": "hartmann_1000_1_litro",
+    "_id": "OLAM_batch-hartmann_1000_1_litro-2026-55",
+    "product_id": "OLAM_hartmann_1000_1_litro",
     "lot_code": "LOT-949A340DF8",
     "expiration_date": {
       "$date": "2029-06-01T00:00:00.000Z"
@@ -1484,8 +1484,8 @@
     }
   },
   {
-    "_id": "BODEGA-hartmann_1000_1_litro-2026-55",
-    "product_id": "hartmann_1000_1_litro",
+    "_id": "OLAM_BODEGA-hartmann_1000_1_litro-2026-55",
+    "product_id": "OLAM_hartmann_1000_1_litro",
     "lot_code": "LOT-BED225BD1B",
     "expiration_date": {
       "$date": "2029-06-01T00:00:00.000Z"
@@ -1502,8 +1502,8 @@
     }
   },
   {
-    "_id": "batch-hierro_sacarosa_100mg5ml_caja_x_10_vitalis-2026-56",
-    "product_id": "hierro_sacarosa_100mg5ml_caja_x_10_vitalis",
+    "_id": "OLAM_batch-hierro_sacarosa_100mg5ml_caja_x_10_vitalis-2026-56",
+    "product_id": "OLAM_hierro_sacarosa_100mg5ml_caja_x_10_vitalis",
     "lot_code": "LOT-2B7011E21D",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -1520,8 +1520,8 @@
     }
   },
   {
-    "_id": "BODEGA-hierro_sacarosa_100mg5ml_caja_x_10_vitalis-2026-56",
-    "product_id": "hierro_sacarosa_100mg5ml_caja_x_10_vitalis",
+    "_id": "OLAM_BODEGA-hierro_sacarosa_100mg5ml_caja_x_10_vitalis-2026-56",
+    "product_id": "OLAM_hierro_sacarosa_100mg5ml_caja_x_10_vitalis",
     "lot_code": "LOT-7F5E91967E",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -1538,8 +1538,8 @@
     }
   },
   {
-    "_id": "batch-hioscina_10_mg_blister_x_10_caja_x_100-2026-57",
-    "product_id": "hioscina_10_mg_blister_x_10_caja_x_100",
+    "_id": "OLAM_batch-hioscina_10_mg_blister_x_10_caja_x_100-2026-57",
+    "product_id": "OLAM_hioscina_10_mg_blister_x_10_caja_x_100",
     "lot_code": "LOT-4B6F2D8CBB",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -1556,8 +1556,8 @@
     }
   },
   {
-    "_id": "batch-ibuplus_firt_800_mgs_caha_x_50_blist_x_10_lotus-2026-58",
-    "product_id": "ibuplus_firt_800_mgs_caha_x_50_blist_x_10_lotus",
+    "_id": "OLAM_batch-ibuplus_firt_800_mgs_caha_x_50_blist_x_10_lotus-2026-58",
+    "product_id": "OLAM_ibuplus_firt_800_mgs_caha_x_50_blist_x_10_lotus",
     "lot_code": "LOT-E67D10561D",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -1574,8 +1574,8 @@
     }
   },
   {
-    "_id": "batch-indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira-2026-59",
-    "product_id": "indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
+    "_id": "OLAM_batch-indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira-2026-59",
+    "product_id": "OLAM_indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
     "lot_code": "LOT-D8F114B9A5",
     "expiration_date": null,
     "purchase_date": {
@@ -1590,8 +1590,8 @@
     }
   },
   {
-    "_id": "BODEGA-indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira-2026-59",
-    "product_id": "indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
+    "_id": "OLAM_BODEGA-indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira-2026-59",
+    "product_id": "OLAM_indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
     "lot_code": "LOT-919AC8A6D5",
     "expiration_date": null,
     "purchase_date": {
@@ -1606,8 +1606,8 @@
     }
   },
   {
-    "_id": "batch-koact_1_gr_amoxclav_caja_x_15_tab_blister_x_5-2026-60",
-    "product_id": "koact_1_gr_amoxclav_caja_x_15_tab_blister_x_5",
+    "_id": "OLAM_batch-koact_1_gr_amoxclav_caja_x_15_tab_blister_x_5-2026-60",
+    "product_id": "OLAM_koact_1_gr_amoxclav_caja_x_15_tab_blister_x_5",
     "lot_code": "LOT-3113ECB66B",
     "expiration_date": {
       "$date": "2026-11-01T00:00:00.000Z"
@@ -1624,8 +1624,8 @@
     }
   },
   {
-    "_id": "batch-koact_625_amoxi_500_acidoclav_x_15_tab_blister_x_5-2026-61",
-    "product_id": "koact_625_amoxi_500_acidoclav_x_15_tab_blister_x_5",
+    "_id": "OLAM_batch-koact_625_amoxi_500_acidoclav_x_15_tab_blister_x_5-2026-61",
+    "product_id": "OLAM_koact_625_amoxi_500_acidoclav_x_15_tab_blister_x_5",
     "lot_code": "LOT-89FE018F4E",
     "expiration_date": {
       "$date": "2026-05-01T00:00:00.000Z"
@@ -1642,8 +1642,8 @@
     }
   },
   {
-    "_id": "batch-lancetas_nipro_caja_x_100-2026-62",
-    "product_id": "lancetas_nipro_caja_x_100",
+    "_id": "OLAM_batch-lancetas_nipro_caja_x_100-2026-62",
+    "product_id": "OLAM_lancetas_nipro_caja_x_100",
     "lot_code": "LOT-C94338E235",
     "expiration_date": null,
     "purchase_date": {
@@ -1658,8 +1658,8 @@
     }
   },
   {
-    "_id": "BODEGA-lancetas_nipro_caja_x_100-2026-62",
-    "product_id": "lancetas_nipro_caja_x_100",
+    "_id": "OLAM_BODEGA-lancetas_nipro_caja_x_100-2026-62",
+    "product_id": "OLAM_lancetas_nipro_caja_x_100",
     "lot_code": "LOT-996C934618",
     "expiration_date": null,
     "purchase_date": {
@@ -1674,8 +1674,8 @@
     }
   },
   {
-    "_id": "batch-leflunomida_20_mg_blist_x_10_caja_x_100_lotus-2026-63",
-    "product_id": "leflunomida_20_mg_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_batch-leflunomida_20_mg_blist_x_10_caja_x_100_lotus-2026-63",
+    "product_id": "OLAM_leflunomida_20_mg_blist_x_10_caja_x_100_lotus",
     "lot_code": "LOT-4A328BAF2C",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -1692,8 +1692,8 @@
     }
   },
   {
-    "_id": "BODEGA-leflunomida_20_mg_blist_x_10_caja_x_100_lotus-2026-63",
-    "product_id": "leflunomida_20_mg_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_BODEGA-leflunomida_20_mg_blist_x_10_caja_x_100_lotus-2026-63",
+    "product_id": "OLAM_leflunomida_20_mg_blist_x_10_caja_x_100_lotus",
     "lot_code": "LOT-75ED38DE7E",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -1710,8 +1710,8 @@
     }
   },
   {
-    "_id": "batch-loratadina_10_mgs_cj_x_100_blist_x10_gel_caps_coname-2026-64",
-    "product_id": "loratadina_10_mgs_cj_x_100_blist_x10_gel_caps_coname",
+    "_id": "OLAM_batch-loratadina_10_mgs_cj_x_100_blist_x10_gel_caps_coname-2026-64",
+    "product_id": "OLAM_loratadina_10_mgs_cj_x_100_blist_x10_gel_caps_coname",
     "lot_code": "LOT-81E365B490",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -1728,8 +1728,8 @@
     }
   },
   {
-    "_id": "batch-losartan_potasico_50mg_blist_x_10_caja_x_100_lotus-2026-65",
-    "product_id": "losartan_potasico_50mg_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_batch-losartan_potasico_50mg_blist_x_10_caja_x_100_lotus-2026-65",
+    "product_id": "OLAM_losartan_potasico_50mg_blist_x_10_caja_x_100_lotus",
     "lot_code": "LOT-89C7FD7971",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -1746,8 +1746,8 @@
     }
   },
   {
-    "_id": "BODEGA-losartan_potasico_50mg_blist_x_10_caja_x_100_lotus-2026-65",
-    "product_id": "losartan_potasico_50mg_blist_x_10_caja_x_100_lotus",
+    "_id": "OLAM_BODEGA-losartan_potasico_50mg_blist_x_10_caja_x_100_lotus-2026-65",
+    "product_id": "OLAM_losartan_potasico_50mg_blist_x_10_caja_x_100_lotus",
     "lot_code": "LOT-95A67FAF92",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -1764,8 +1764,8 @@
     }
   },
   {
-    "_id": "batch-mascarilla_nebulizar__neonato_operson-2026-66",
-    "product_id": "mascarilla_nebulizar__neonato_operson",
+    "_id": "OLAM_batch-mascarilla_nebulizar__neonato_operson-2026-66",
+    "product_id": "OLAM_mascarilla_nebulizar__neonato_operson",
     "lot_code": "LOT-734F7FDE3F",
     "expiration_date": {
       "$date": "2029-08-01T00:00:00.000Z"
@@ -1782,8 +1782,8 @@
     }
   },
   {
-    "_id": "BODEGA-mascarilla_nebulizar__neonato_operson-2026-66",
-    "product_id": "mascarilla_nebulizar__neonato_operson",
+    "_id": "OLAM_BODEGA-mascarilla_nebulizar__neonato_operson-2026-66",
+    "product_id": "OLAM_mascarilla_nebulizar__neonato_operson",
     "lot_code": "LOT-9BE9F7BF32",
     "expiration_date": {
       "$date": "2029-08-01T00:00:00.000Z"
@@ -1800,8 +1800,8 @@
     }
   },
   {
-    "_id": "batch-mascarilla_nebulizar__niño_operson-2026-67",
-    "product_id": "mascarilla_nebulizar__niño_operson",
+    "_id": "OLAM_batch-mascarilla_nebulizar__niño_operson-2026-67",
+    "product_id": "OLAM_mascarilla_nebulizar__niño_operson",
     "lot_code": "LOT-81AB4B4FF2",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -1818,8 +1818,8 @@
     }
   },
   {
-    "_id": "BODEGA-mascarilla_nebulizar__niño_operson-2026-67",
-    "product_id": "mascarilla_nebulizar__niño_operson",
+    "_id": "OLAM_BODEGA-mascarilla_nebulizar__niño_operson-2026-67",
+    "product_id": "OLAM_mascarilla_nebulizar__niño_operson",
     "lot_code": "LOT-D46D7F05B3",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -1836,8 +1836,8 @@
     }
   },
   {
-    "_id": "batch-mascarilla_nebulizar_adulto_operson-2026-68",
-    "product_id": "mascarilla_nebulizar_adulto_operson",
+    "_id": "OLAM_batch-mascarilla_nebulizar_adulto_operson-2026-68",
+    "product_id": "OLAM_mascarilla_nebulizar_adulto_operson",
     "lot_code": "LOT-FD05670308",
     "expiration_date": {
       "$date": "2029-08-01T00:00:00.000Z"
@@ -1854,8 +1854,8 @@
     }
   },
   {
-    "_id": "BODEGA-mascarilla_nebulizar_adulto_operson-2026-68",
-    "product_id": "mascarilla_nebulizar_adulto_operson",
+    "_id": "OLAM_BODEGA-mascarilla_nebulizar_adulto_operson-2026-68",
+    "product_id": "OLAM_mascarilla_nebulizar_adulto_operson",
     "lot_code": "LOT-59CFCA3C56",
     "expiration_date": {
       "$date": "2029-08-01T00:00:00.000Z"
@@ -1872,8 +1872,8 @@
     }
   },
   {
-    "_id": "batch-meropenem_cj_x_vial_20_ml-2026-69",
-    "product_id": "meropenem_cj_x_vial_20_ml",
+    "_id": "OLAM_batch-meropenem_cj_x_vial_20_ml-2026-69",
+    "product_id": "OLAM_meropenem_cj_x_vial_20_ml",
     "lot_code": "LOT-45616C3DE1",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -1890,8 +1890,8 @@
     }
   },
   {
-    "_id": "BODEGA-meropenem_cj_x_vial_20_ml-2026-69",
-    "product_id": "meropenem_cj_x_vial_20_ml",
+    "_id": "OLAM_BODEGA-meropenem_cj_x_vial_20_ml-2026-69",
+    "product_id": "OLAM_meropenem_cj_x_vial_20_ml",
     "lot_code": "LOT-E54F649775",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -1908,8 +1908,8 @@
     }
   },
   {
-    "_id": "batch-neutragel_blister_x_10_tab_bonin-2026-70",
-    "product_id": "neutragel_blister_x_10_tab_bonin",
+    "_id": "OLAM_batch-neutragel_blister_x_10_tab_bonin-2026-70",
+    "product_id": "OLAM_neutragel_blister_x_10_tab_bonin",
     "lot_code": "LOT-DF6BF91787",
     "expiration_date": {
       "$date": "2030-05-01T00:00:00.000Z"
@@ -1926,8 +1926,8 @@
     }
   },
   {
-    "_id": "batch-nodik_500_mg_blister_x3_tab-2026-71",
-    "product_id": "nodik_500_mg_blister_x3_tab",
+    "_id": "OLAM_batch-nodik_500_mg_blister_x3_tab-2026-71",
+    "product_id": "OLAM_nodik_500_mg_blister_x3_tab",
     "lot_code": "LOT-EE4F6A8750",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -1944,8 +1944,8 @@
     }
   },
   {
-    "_id": "batch-omeprazol_40_mg_vial_iv_vitalis-2026-72",
-    "product_id": "omeprazol_40_mg_vial_iv_vitalis",
+    "_id": "OLAM_batch-omeprazol_40_mg_vial_iv_vitalis-2026-72",
+    "product_id": "OLAM_omeprazol_40_mg_vial_iv_vitalis",
     "lot_code": "LOT-4D9BFE2883",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -1962,8 +1962,8 @@
     }
   },
   {
-    "_id": "batch-oxido_zinc_sobre_28_grs_bolsa_x__16-2026-73",
-    "product_id": "oxido_zinc_sobre_28_grs_bolsa_x__16",
+    "_id": "OLAM_batch-oxido_zinc_sobre_28_grs_bolsa_x__16-2026-73",
+    "product_id": "OLAM_oxido_zinc_sobre_28_grs_bolsa_x__16",
     "lot_code": "LOT-FF29596BE1",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -1980,8 +1980,8 @@
     }
   },
   {
-    "_id": "batch-panclasa_pague_30_lleve_40_blister_x_10-2026-74",
-    "product_id": "panclasa_pague_30_lleve_40_blister_x_10",
+    "_id": "OLAM_batch-panclasa_pague_30_lleve_40_blister_x_10-2026-74",
+    "product_id": "OLAM_panclasa_pague_30_lleve_40_blister_x_10",
     "lot_code": "LOT-84595E4E99",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -1998,8 +1998,8 @@
     }
   },
   {
-    "_id": "BODEGA-panclasa_pague_30_lleve_40_blister_x_10-2026-74",
-    "product_id": "panclasa_pague_30_lleve_40_blister_x_10",
+    "_id": "OLAM_BODEGA-panclasa_pague_30_lleve_40_blister_x_10-2026-74",
+    "product_id": "OLAM_panclasa_pague_30_lleve_40_blister_x_10",
     "lot_code": "LOT-414C6A20A6",
     "expiration_date": {
       "$date": "2029-05-01T00:00:00.000Z"
@@ -2016,8 +2016,8 @@
     }
   },
   {
-    "_id": "batch-pomada_de_oxido_zinc-2026-75",
-    "product_id": "pomada_de_oxido_zinc",
+    "_id": "OLAM_batch-pomada_de_oxido_zinc-2026-75",
+    "product_id": "OLAM_pomada_de_oxido_zinc",
     "lot_code": "LOT-9B91738073",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -2034,8 +2034,8 @@
     }
   },
   {
-    "_id": "BODEGA-pomada_de_oxido_zinc-2026-75",
-    "product_id": "pomada_de_oxido_zinc",
+    "_id": "OLAM_BODEGA-pomada_de_oxido_zinc-2026-75",
+    "product_id": "OLAM_pomada_de_oxido_zinc",
     "lot_code": "LOT-70992D1883",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -2052,8 +2052,8 @@
     }
   },
   {
-    "_id": "batch-prednisolona_15_mgs_jbe_120_ml_pharmadel-2026-76",
-    "product_id": "prednisolona_15_mgs_jbe_120_ml_pharmadel",
+    "_id": "OLAM_batch-prednisolona_15_mgs_jbe_120_ml_pharmadel-2026-76",
+    "product_id": "OLAM_prednisolona_15_mgs_jbe_120_ml_pharmadel",
     "lot_code": "LOT-D9E1E19A0C",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2070,8 +2070,8 @@
     }
   },
   {
-    "_id": "BODEGA-prednisolona_15_mgs_jbe_120_ml_pharmadel-2026-76",
-    "product_id": "prednisolona_15_mgs_jbe_120_ml_pharmadel",
+    "_id": "OLAM_BODEGA-prednisolona_15_mgs_jbe_120_ml_pharmadel-2026-76",
+    "product_id": "OLAM_prednisolona_15_mgs_jbe_120_ml_pharmadel",
     "lot_code": "LOT-6B14206AB1",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2088,8 +2088,8 @@
     }
   },
   {
-    "_id": "batch-pregabalina_75_mg_caja_x_100__blist_x_10_caps-2026-77",
-    "product_id": "pregabalina_75_mg_caja_x_100__blist_x_10_caps",
+    "_id": "OLAM_batch-pregabalina_75_mg_caja_x_100__blist_x_10_caps-2026-77",
+    "product_id": "OLAM_pregabalina_75_mg_caja_x_100__blist_x_10_caps",
     "lot_code": "LOT-7BB86DEAD6",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -2106,8 +2106,8 @@
     }
   },
   {
-    "_id": "BODEGA-pregabalina_75_mg_caja_x_100__blist_x_10_caps-2026-77",
-    "product_id": "pregabalina_75_mg_caja_x_100__blist_x_10_caps",
+    "_id": "OLAM_BODEGA-pregabalina_75_mg_caja_x_100__blist_x_10_caps-2026-77",
+    "product_id": "OLAM_pregabalina_75_mg_caja_x_100__blist_x_10_caps",
     "lot_code": "LOT-F6C494F764",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -2124,8 +2124,8 @@
     }
   },
   {
-    "_id": "batch-prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv-2026-78",
-    "product_id": "prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv",
+    "_id": "OLAM_batch-prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv-2026-78",
+    "product_id": "OLAM_prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv",
     "lot_code": "LOT-8573D7D0C8",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2142,8 +2142,8 @@
     }
   },
   {
-    "_id": "BODEGA-prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv-2026-78",
-    "product_id": "prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv",
+    "_id": "OLAM_BODEGA-prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv-2026-78",
+    "product_id": "OLAM_prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv",
     "lot_code": "LOT-D7B4A8A5EF",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2160,8 +2160,8 @@
     }
   },
   {
-    "_id": "batch-propoltox_propoleo_jbe_120_ml-2026-79",
-    "product_id": "propoltox_propoleo_jbe_120_ml",
+    "_id": "OLAM_batch-propoltox_propoleo_jbe_120_ml-2026-79",
+    "product_id": "OLAM_propoltox_propoleo_jbe_120_ml",
     "lot_code": "LOT-5CC539F1C7",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -2178,8 +2178,8 @@
     }
   },
   {
-    "_id": "batch-ranitidina_50_mgs2ml_x_10_ampollas_vitalis-2026-80",
-    "product_id": "ranitidina_50_mgs2ml_x_10_ampollas_vitalis",
+    "_id": "OLAM_batch-ranitidina_50_mgs2ml_x_10_ampollas_vitalis-2026-80",
+    "product_id": "OLAM_ranitidina_50_mgs2ml_x_10_ampollas_vitalis",
     "lot_code": "LOT-C380A1E0EC",
     "expiration_date": null,
     "purchase_date": null,
@@ -2192,8 +2192,8 @@
     }
   },
   {
-    "_id": "batch-rhelax_fleb__pomada_60_grs-2026-81",
-    "product_id": "rhelax_fleb__pomada_60_grs",
+    "_id": "OLAM_batch-rhelax_fleb__pomada_60_grs-2026-81",
+    "product_id": "OLAM_rhelax_fleb__pomada_60_grs",
     "lot_code": "LOT-A6423C0E25",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -2210,8 +2210,8 @@
     }
   },
   {
-    "_id": "BODEGA-rhelax_fleb__pomada_60_grs-2026-81",
-    "product_id": "rhelax_fleb__pomada_60_grs",
+    "_id": "OLAM_BODEGA-rhelax_fleb__pomada_60_grs-2026-81",
+    "product_id": "OLAM_rhelax_fleb__pomada_60_grs",
     "lot_code": "LOT-51ECD54570",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -2228,8 +2228,8 @@
     }
   },
   {
-    "_id": "batch-rinofed_plus_cj_x_12_tabs-2026-82",
-    "product_id": "rinofed_plus_cj_x_12_tabs",
+    "_id": "OLAM_batch-rinofed_plus_cj_x_12_tabs-2026-82",
+    "product_id": "OLAM_rinofed_plus_cj_x_12_tabs",
     "lot_code": "LOT-0C88D2A982",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -2246,8 +2246,8 @@
     }
   },
   {
-    "_id": "batch-salbutamol_spray_10mcx_dosis_200_balaxi-2026-83",
-    "product_id": "salbutamol_spray_10mcx_dosis_200_balaxi",
+    "_id": "OLAM_batch-salbutamol_spray_10mcx_dosis_200_balaxi-2026-83",
+    "product_id": "OLAM_salbutamol_spray_10mcx_dosis_200_balaxi",
     "lot_code": "LOT-9C1D47ADF3",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2264,8 +2264,8 @@
     }
   },
   {
-    "_id": "BODEGA-salbutamol_spray_10mcx_dosis_200_balaxi-2026-83",
-    "product_id": "salbutamol_spray_10mcx_dosis_200_balaxi",
+    "_id": "OLAM_BODEGA-salbutamol_spray_10mcx_dosis_200_balaxi-2026-83",
+    "product_id": "OLAM_salbutamol_spray_10mcx_dosis_200_balaxi",
     "lot_code": "LOT-FD0A3DD5B5",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2282,8 +2282,8 @@
     }
   },
   {
-    "_id": "batch-secnidazol_500_mg_12_blist_x_4_caja_x_48_infasa-2026-84",
-    "product_id": "secnidazol_500_mg_12_blist_x_4_caja_x_48_infasa",
+    "_id": "OLAM_batch-secnidazol_500_mg_12_blist_x_4_caja_x_48_infasa-2026-84",
+    "product_id": "OLAM_secnidazol_500_mg_12_blist_x_4_caja_x_48_infasa",
     "lot_code": "LOT-1727FB75D2",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -2300,8 +2300,8 @@
     }
   },
   {
-    "_id": "batch-sedatos_plus_120_ml_bonin-2026-85",
-    "product_id": "sedatos_plus_120_ml_bonin",
+    "_id": "OLAM_batch-sedatos_plus_120_ml_bonin-2026-85",
+    "product_id": "OLAM_sedatos_plus_120_ml_bonin",
     "lot_code": "LOT-8F959F31A0",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -2318,8 +2318,8 @@
     }
   },
   {
-    "_id": "BODEGA-sedatos_plus_120_ml_bonin-2026-85",
-    "product_id": "sedatos_plus_120_ml_bonin",
+    "_id": "OLAM_BODEGA-sedatos_plus_120_ml_bonin-2026-85",
+    "product_id": "OLAM_sedatos_plus_120_ml_bonin",
     "lot_code": "LOT-44520183DD",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -2336,8 +2336,8 @@
     }
   },
   {
-    "_id": "batch-serafon_guayacoleucali_x_1000-2026-86",
-    "product_id": "serafon_guayacoleucali_x_1000",
+    "_id": "OLAM_batch-serafon_guayacoleucali_x_1000-2026-86",
+    "product_id": "OLAM_serafon_guayacoleucali_x_1000",
     "lot_code": "LOT-9E0B4FFB56",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -2354,8 +2354,8 @@
     }
   },
   {
-    "_id": "BODEGA-serafon_guayacoleucali_x_1000-2026-86",
-    "product_id": "serafon_guayacoleucali_x_1000",
+    "_id": "OLAM_BODEGA-serafon_guayacoleucali_x_1000-2026-86",
+    "product_id": "OLAM_serafon_guayacoleucali_x_1000",
     "lot_code": "LOT-9320089DDD",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -2372,8 +2372,8 @@
     }
   },
   {
-    "_id": "batch-solucion_salina_para_nebulizar_250_ml-2026-87",
-    "product_id": "solucion_salina_para_nebulizar_250_ml",
+    "_id": "OLAM_batch-solucion_salina_para_nebulizar_250_ml-2026-87",
+    "product_id": "OLAM_solucion_salina_para_nebulizar_250_ml",
     "lot_code": "LOT-089CA2EACA",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -2390,8 +2390,8 @@
     }
   },
   {
-    "_id": "BODEGA-solucion_salina_para_nebulizar_250_ml-2026-87",
-    "product_id": "solucion_salina_para_nebulizar_250_ml",
+    "_id": "OLAM_BODEGA-solucion_salina_para_nebulizar_250_ml-2026-87",
+    "product_id": "OLAM_solucion_salina_para_nebulizar_250_ml",
     "lot_code": "LOT-7C3FA7242D",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -2408,8 +2408,8 @@
     }
   },
   {
-    "_id": "batch-sucralfato___200_ml__susp_rhemus-2026-88",
-    "product_id": "sucralfato___200_ml__susp_rhemus",
+    "_id": "OLAM_batch-sucralfato___200_ml__susp_rhemus-2026-88",
+    "product_id": "OLAM_sucralfato___200_ml__susp_rhemus",
     "lot_code": "LOT-6DC8CA454C",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -2426,8 +2426,8 @@
     }
   },
   {
-    "_id": "BODEGA-sucralfato___200_ml__susp_rhemus-2026-88",
-    "product_id": "sucralfato___200_ml__susp_rhemus",
+    "_id": "OLAM_BODEGA-sucralfato___200_ml__susp_rhemus-2026-88",
+    "product_id": "OLAM_sucralfato___200_ml__susp_rhemus",
     "lot_code": "LOT-ECD8857D98",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -2444,8 +2444,8 @@
     }
   },
   {
-    "_id": "batch-sucralfato_1g_180_ml_susp_jelse-2026-89",
-    "product_id": "sucralfato_1g_180_ml_susp_jelse",
+    "_id": "OLAM_batch-sucralfato_1g_180_ml_susp_jelse-2026-89",
+    "product_id": "OLAM_sucralfato_1g_180_ml_susp_jelse",
     "lot_code": "LOT-2C7B465320",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -2462,8 +2462,8 @@
     }
   },
   {
-    "_id": "batch-suero_en_polvo_naranja_1_lt_promegal_x_25-2026-90",
-    "product_id": "suero_en_polvo_naranja_1_lt_promegal_x_25",
+    "_id": "OLAM_batch-suero_en_polvo_naranja_1_lt_promegal_x_25-2026-90",
+    "product_id": "OLAM_suero_en_polvo_naranja_1_lt_promegal_x_25",
     "lot_code": "LOT-068E53C79E",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -2480,8 +2480,8 @@
     }
   },
   {
-    "_id": "batch-termometro_digital_cazul_operson-2026-91",
-    "product_id": "termometro_digital_cazul_operson",
+    "_id": "OLAM_batch-termometro_digital_cazul_operson-2026-91",
+    "product_id": "OLAM_termometro_digital_cazul_operson",
     "lot_code": "LOT-E753E227E9",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2498,8 +2498,8 @@
     }
   },
   {
-    "_id": "BODEGA-termometro_digital_cazul_operson-2026-91",
-    "product_id": "termometro_digital_cazul_operson",
+    "_id": "OLAM_BODEGA-termometro_digital_cazul_operson-2026-91",
+    "product_id": "OLAM_termometro_digital_cazul_operson",
     "lot_code": "LOT-5EC6AC23EA",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2516,8 +2516,8 @@
     }
   },
   {
-    "_id": "batch-termometro_frontal_1_tira_hierfarma-2026-92",
-    "product_id": "termometro_frontal_1_tira_hierfarma",
+    "_id": "OLAM_batch-termometro_frontal_1_tira_hierfarma-2026-92",
+    "product_id": "OLAM_termometro_frontal_1_tira_hierfarma",
     "lot_code": "LOT-74722AF0D5",
     "expiration_date": {
       "$date": "2030-01-01T00:00:00.000Z"
@@ -2534,8 +2534,8 @@
     }
   },
   {
-    "_id": "BODEGA-termometro_frontal_1_tira_hierfarma-2026-92",
-    "product_id": "termometro_frontal_1_tira_hierfarma",
+    "_id": "OLAM_BODEGA-termometro_frontal_1_tira_hierfarma-2026-92",
+    "product_id": "OLAM_termometro_frontal_1_tira_hierfarma",
     "lot_code": "LOT-E02B9EBA8B",
     "expiration_date": {
       "$date": "2030-01-01T00:00:00.000Z"
@@ -2552,8 +2552,8 @@
     }
   },
   {
-    "_id": "batch-tiras__premier_nipro_caja_x_50-2026-93",
-    "product_id": "tiras__premier_nipro_caja_x_50",
+    "_id": "OLAM_batch-tiras__premier_nipro_caja_x_50-2026-93",
+    "product_id": "OLAM_tiras__premier_nipro_caja_x_50",
     "lot_code": "LOT-FA3106BB22",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -2570,8 +2570,8 @@
     }
   },
   {
-    "_id": "BODEGA-tiras__premier_nipro_caja_x_50-2026-93",
-    "product_id": "tiras__premier_nipro_caja_x_50",
+    "_id": "OLAM_BODEGA-tiras__premier_nipro_caja_x_50-2026-93",
+    "product_id": "OLAM_tiras__premier_nipro_caja_x_50",
     "lot_code": "LOT-EBD6FBB494",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -2588,8 +2588,8 @@
     }
   },
   {
-    "_id": "batch-trimetoprim_sulfa_40200mg_ruipharm-2026-94",
-    "product_id": "trimetoprim_sulfa_40200mg_ruipharm",
+    "_id": "OLAM_batch-trimetoprim_sulfa_40200mg_ruipharm-2026-94",
+    "product_id": "OLAM_trimetoprim_sulfa_40200mg_ruipharm",
     "lot_code": "LOT-63DC9D30C8",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2606,8 +2606,8 @@
     }
   },
   {
-    "_id": "BODEGA-trimetoprim_sulfa_40200mg_ruipharm-2026-94",
-    "product_id": "trimetoprim_sulfa_40200mg_ruipharm",
+    "_id": "OLAM_BODEGA-trimetoprim_sulfa_40200mg_ruipharm-2026-94",
+    "product_id": "OLAM_trimetoprim_sulfa_40200mg_ruipharm",
     "lot_code": "LOT-F163713A0D",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2624,8 +2624,8 @@
     }
   },
   {
-    "_id": "batch-tylenol_rojo_extra_f_cj_x_20_tab_10_sob-2026-95",
-    "product_id": "tylenol_rojo_extra_f_cj_x_20_tab_10_sob",
+    "_id": "OLAM_batch-tylenol_rojo_extra_f_cj_x_20_tab_10_sob-2026-95",
+    "product_id": "OLAM_tylenol_rojo_extra_f_cj_x_20_tab_10_sob",
     "lot_code": "LOT-B203240056",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -2642,8 +2642,8 @@
     }
   },
   {
-    "_id": "BODEGA-tylenol_rojo_extra_f_cj_x_20_tab_10_sob-2026-95",
-    "product_id": "tylenol_rojo_extra_f_cj_x_20_tab_10_sob",
+    "_id": "OLAM_BODEGA-tylenol_rojo_extra_f_cj_x_20_tab_10_sob-2026-95",
+    "product_id": "OLAM_tylenol_rojo_extra_f_cj_x_20_tab_10_sob",
     "lot_code": "LOT-605D0244E7",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -2660,8 +2660,8 @@
     }
   },
   {
-    "_id": "batch-unicil_12_megas_unipharm-2026-96",
-    "product_id": "unicil_12_megas_unipharm",
+    "_id": "OLAM_batch-unicil_12_megas_unipharm-2026-96",
+    "product_id": "OLAM_unicil_12_megas_unipharm",
     "lot_code": "LOT-8F18A15874",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -2678,8 +2678,8 @@
     }
   },
   {
-    "_id": "BODEGA-unicil_12_megas_unipharm-2026-96",
-    "product_id": "unicil_12_megas_unipharm",
+    "_id": "OLAM_BODEGA-unicil_12_megas_unipharm-2026-96",
+    "product_id": "OLAM_unicil_12_megas_unipharm",
     "lot_code": "LOT-7272AE78A3",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -2696,8 +2696,8 @@
     }
   },
   {
-    "_id": "batch-unicil_4_megas_unhipharm-2026-97",
-    "product_id": "unicil_4_megas_unhipharm",
+    "_id": "OLAM_batch-unicil_4_megas_unhipharm-2026-97",
+    "product_id": "OLAM_unicil_4_megas_unhipharm",
     "lot_code": "LOT-923E0EEED0",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -2714,8 +2714,8 @@
     }
   },
   {
-    "_id": "BODEGA-unicil_4_megas_unhipharm-2026-97",
-    "product_id": "unicil_4_megas_unhipharm",
+    "_id": "OLAM_BODEGA-unicil_4_megas_unhipharm-2026-97",
+    "product_id": "OLAM_unicil_4_megas_unhipharm",
     "lot_code": "LOT-195741AD75",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -2732,8 +2732,8 @@
     }
   },
   {
-    "_id": "batch-vick_caramelos_frasco_x_125-2026-98",
-    "product_id": "vick_caramelos_frasco_x_125",
+    "_id": "OLAM_batch-vick_caramelos_frasco_x_125-2026-98",
+    "product_id": "OLAM_vick_caramelos_frasco_x_125",
     "lot_code": "LOT-5FF8E38297",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -2750,8 +2750,8 @@
     }
   },
   {
-    "_id": "batch-visina_esteri_jj_gotas_15_ml_tetrizolin-2026-99",
-    "product_id": "visina_esteri_jj_gotas_15_ml_tetrizolin",
+    "_id": "OLAM_batch-visina_esteri_jj_gotas_15_ml_tetrizolin-2026-99",
+    "product_id": "OLAM_visina_esteri_jj_gotas_15_ml_tetrizolin",
     "lot_code": "LOT-CDC669288E",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -2768,8 +2768,8 @@
     }
   },
   {
-    "_id": "batch-vista_clara_15_ml_antialergico-2026-100",
-    "product_id": "vista_clara_15_ml_antialergico",
+    "_id": "OLAM_batch-vista_clara_15_ml_antialergico-2026-100",
+    "product_id": "OLAM_vista_clara_15_ml_antialergico",
     "lot_code": "LOT-433482799C",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -2786,8 +2786,8 @@
     }
   },
   {
-    "_id": "BODEGA-vista_clara_15_ml_antialergico-2026-100",
-    "product_id": "vista_clara_15_ml_antialergico",
+    "_id": "OLAM_BODEGA-vista_clara_15_ml_antialergico-2026-100",
+    "product_id": "OLAM_vista_clara_15_ml_antialergico",
     "lot_code": "LOT-F51F1B7CD4",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -2804,8 +2804,8 @@
     }
   },
   {
-    "_id": "batch-vitamina_c_500_mg_masticable_blist_x_10_caja_x_100-2026-101",
-    "product_id": "vitamina_c_500_mg_masticable_blist_x_10_caja_x_100",
+    "_id": "OLAM_batch-vitamina_c_500_mg_masticable_blist_x_10_caja_x_100-2026-101",
+    "product_id": "OLAM_vitamina_c_500_mg_masticable_blist_x_10_caja_x_100",
     "lot_code": "LOT-DED71EE080",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2822,8 +2822,8 @@
     }
   },
   {
-    "_id": "batch-vitamina_d_2000_blist_x_15_caja_x_30_hv-2026-102",
-    "product_id": "vitamina_d_2000_blist_x_15_caja_x_30_hv",
+    "_id": "OLAM_batch-vitamina_d_2000_blist_x_15_caja_x_30_hv-2026-102",
+    "product_id": "OLAM_vitamina_d_2000_blist_x_15_caja_x_30_hv",
     "lot_code": "LOT-C92518CEC8",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2840,8 +2840,8 @@
     }
   },
   {
-    "_id": "BODEGA-vitamina_d_2000_blist_x_15_caja_x_30_hv-2026-102",
-    "product_id": "vitamina_d_2000_blist_x_15_caja_x_30_hv",
+    "_id": "OLAM_BODEGA-vitamina_d_2000_blist_x_15_caja_x_30_hv-2026-102",
+    "product_id": "OLAM_vitamina_d_2000_blist_x_15_caja_x_30_hv",
     "lot_code": "LOT-348024A760",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -2858,8 +2858,8 @@
     }
   },
   {
-    "_id": "batch-zinc_30_mg_caja_x_30__blist_x_10_caps_foral_salud-2026-103",
-    "product_id": "zinc_30_mg_caja_x_30__blist_x_10_caps_foral_salud",
+    "_id": "OLAM_batch-zinc_30_mg_caja_x_30__blist_x_10_caps_foral_salud-2026-103",
+    "product_id": "OLAM_zinc_30_mg_caja_x_30__blist_x_10_caps_foral_salud",
     "lot_code": "LOT-1DBC719C62",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -2876,8 +2876,8 @@
     }
   },
   {
-    "_id": "batch-zorritone_caramelo_barra_caja_x_12_jengibre-2026-104",
-    "product_id": "zorritone_caramelo_barra_caja_x_12_jengibre",
+    "_id": "OLAM_batch-zorritone_caramelo_barra_caja_x_12_jengibre-2026-104",
+    "product_id": "OLAM_zorritone_caramelo_barra_caja_x_12_jengibre",
     "lot_code": "LOT-583BB478A6",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"

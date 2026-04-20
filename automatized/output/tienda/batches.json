@@ -1,7 +1,7 @@
 [
   {
-    "_id": "batch-aceite_coco_450_ml-2026-1",
-    "product_id": "aceite_coco_450_ml",
+    "_id": "TIENDA_batch-aceite_coco_450_ml-2026-1",
+    "product_id": "TIENDA_aceite_coco_450_ml",
     "lot_code": "LOT-09510D7714",
     "expiration_date": {
       "$date": "2028-12-01T00:00:00.000Z"
@@ -18,8 +18,8 @@
     }
   },
   {
-    "_id": "BODEGA-aceite_coco_450_ml-2026-1",
-    "product_id": "aceite_coco_450_ml",
+    "_id": "TIENDA_BODEGA-aceite_coco_450_ml-2026-1",
+    "product_id": "TIENDA_aceite_coco_450_ml",
     "lot_code": "LOT-D4C1413248",
     "expiration_date": {
       "$date": "2028-12-01T00:00:00.000Z"
@@ -36,8 +36,8 @@
     }
   },
   {
-    "_id": "batch-aceite_de_coco__san_lucas_230__ml-2026-2",
-    "product_id": "aceite_de_coco__san_lucas_230__ml",
+    "_id": "TIENDA_batch-aceite_de_coco__san_lucas_230__ml-2026-2",
+    "product_id": "TIENDA_aceite_de_coco__san_lucas_230__ml",
     "lot_code": "LOT-F4ACB87A49",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -54,8 +54,8 @@
     }
   },
   {
-    "_id": "batch-acetona_100_ml_darosa-2026-3",
-    "product_id": "acetona_100_ml_darosa",
+    "_id": "TIENDA_batch-acetona_100_ml_darosa-2026-3",
+    "product_id": "TIENDA_acetona_100_ml_darosa",
     "lot_code": "LOT-0A399715BA",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -72,8 +72,8 @@
     }
   },
   {
-    "_id": "batch-acetona_60_ml_darosa-2026-4",
-    "product_id": "acetona_60_ml_darosa",
+    "_id": "TIENDA_batch-acetona_60_ml_darosa-2026-4",
+    "product_id": "TIENDA_acetona_60_ml_darosa",
     "lot_code": "LOT-422D55C5A8",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -90,8 +90,8 @@
     }
   },
   {
-    "_id": "batch-almendra_entera_bolsita-2026-5",
-    "product_id": "almendra_entera_bolsita",
+    "_id": "TIENDA_batch-almendra_entera_bolsita-2026-5",
+    "product_id": "TIENDA_almendra_entera_bolsita",
     "lot_code": "LOT-338864E22D",
     "expiration_date": null,
     "purchase_date": {
@@ -106,8 +106,8 @@
     }
   },
   {
-    "_id": "BODEGA-almendra_entera_bolsita-2026-5",
-    "product_id": "almendra_entera_bolsita",
+    "_id": "TIENDA_BODEGA-almendra_entera_bolsita-2026-5",
+    "product_id": "TIENDA_almendra_entera_bolsita",
     "lot_code": "LOT-45AC2EEBB6",
     "expiration_date": null,
     "purchase_date": {
@@ -122,8 +122,8 @@
     }
   },
   {
-    "_id": "batch-almendra_rayada_bolsita-2026-6",
-    "product_id": "almendra_rayada_bolsita",
+    "_id": "TIENDA_batch-almendra_rayada_bolsita-2026-6",
+    "product_id": "TIENDA_almendra_rayada_bolsita",
     "lot_code": "LOT-8F55F14A0C",
     "expiration_date": null,
     "purchase_date": {
@@ -138,8 +138,8 @@
     }
   },
   {
-    "_id": "BODEGA-almendra_rayada_bolsita-2026-6",
-    "product_id": "almendra_rayada_bolsita",
+    "_id": "TIENDA_BODEGA-almendra_rayada_bolsita-2026-6",
+    "product_id": "TIENDA_almendra_rayada_bolsita",
     "lot_code": "LOT-07F56F6560",
     "expiration_date": null,
     "purchase_date": {
@@ -154,8 +154,8 @@
     }
   },
   {
-    "_id": "batch-arandanos_bolsa-2026-7",
-    "product_id": "arandanos_bolsa",
+    "_id": "TIENDA_batch-arandanos_bolsa-2026-7",
+    "product_id": "TIENDA_arandanos_bolsa",
     "lot_code": "LOT-65665B1F12",
     "expiration_date": null,
     "purchase_date": {
@@ -170,8 +170,8 @@
     }
   },
   {
-    "_id": "BODEGA-arandanos_bolsa-2026-7",
-    "product_id": "arandanos_bolsa",
+    "_id": "TIENDA_BODEGA-arandanos_bolsa-2026-7",
+    "product_id": "TIENDA_arandanos_bolsa",
     "lot_code": "LOT-E177472258",
     "expiration_date": null,
     "purchase_date": {
@@ -186,8 +186,8 @@
     }
   },
   {
-    "_id": "batch-asepxia_jabon_azufre_100_grs-2026-8",
-    "product_id": "asepxia_jabon_azufre_100_grs",
+    "_id": "TIENDA_batch-asepxia_jabon_azufre_100_grs-2026-8",
+    "product_id": "TIENDA_asepxia_jabon_azufre_100_grs",
     "lot_code": "LOT-B7024ABE69",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -204,8 +204,8 @@
     }
   },
   {
-    "_id": "BODEGA-asepxia_jabon_azufre_100_grs-2026-8",
-    "product_id": "asepxia_jabon_azufre_100_grs",
+    "_id": "TIENDA_BODEGA-asepxia_jabon_azufre_100_grs-2026-8",
+    "product_id": "TIENDA_asepxia_jabon_azufre_100_grs",
     "lot_code": "LOT-25E43337CE",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -222,8 +222,8 @@
     }
   },
   {
-    "_id": "batch-asepxia_jabon_carbon_100_grs-2026-9",
-    "product_id": "asepxia_jabon_carbon_100_grs",
+    "_id": "TIENDA_batch-asepxia_jabon_carbon_100_grs-2026-9",
+    "product_id": "TIENDA_asepxia_jabon_carbon_100_grs",
     "lot_code": "LOT-242004A87C",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -240,8 +240,8 @@
     }
   },
   {
-    "_id": "BODEGA-asepxia_jabon_carbon_100_grs-2026-9",
-    "product_id": "asepxia_jabon_carbon_100_grs",
+    "_id": "TIENDA_BODEGA-asepxia_jabon_carbon_100_grs-2026-9",
+    "product_id": "TIENDA_asepxia_jabon_carbon_100_grs",
     "lot_code": "LOT-9BF28473F2",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -258,8 +258,8 @@
     }
   },
   {
-    "_id": "batch-asepxia_jabon_exfoliante_100_grs-2026-10",
-    "product_id": "asepxia_jabon_exfoliante_100_grs",
+    "_id": "TIENDA_batch-asepxia_jabon_exfoliante_100_grs-2026-10",
+    "product_id": "TIENDA_asepxia_jabon_exfoliante_100_grs",
     "lot_code": "LOT-5D9773F9FD",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -276,8 +276,8 @@
     }
   },
   {
-    "_id": "BODEGA-asepxia_jabon_exfoliante_100_grs-2026-10",
-    "product_id": "asepxia_jabon_exfoliante_100_grs",
+    "_id": "TIENDA_BODEGA-asepxia_jabon_exfoliante_100_grs-2026-10",
+    "product_id": "TIENDA_asepxia_jabon_exfoliante_100_grs",
     "lot_code": "LOT-3AACCBFAB5",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -294,8 +294,8 @@
     }
   },
   {
-    "_id": "batch-bateria_rayovac_doble_a_x_2-2026-11",
-    "product_id": "bateria_rayovac_doble_a_x_2",
+    "_id": "TIENDA_batch-bateria_rayovac_doble_a_x_2-2026-11",
+    "product_id": "TIENDA_bateria_rayovac_doble_a_x_2",
     "lot_code": "LOT-0BCABE5CC0",
     "expiration_date": null,
     "purchase_date": {
@@ -310,8 +310,8 @@
     }
   },
   {
-    "_id": "BODEGA-bateria_rayovac_doble_a_x_2-2026-11",
-    "product_id": "bateria_rayovac_doble_a_x_2",
+    "_id": "TIENDA_BODEGA-bateria_rayovac_doble_a_x_2-2026-11",
+    "product_id": "TIENDA_bateria_rayovac_doble_a_x_2",
     "lot_code": "LOT-03B59E086B",
     "expiration_date": null,
     "purchase_date": {
@@ -326,8 +326,8 @@
     }
   },
   {
-    "_id": "batch-bateria_rayovac_triple_a_x_6-2026-12",
-    "product_id": "bateria_rayovac_triple_a_x_6",
+    "_id": "TIENDA_batch-bateria_rayovac_triple_a_x_6-2026-12",
+    "product_id": "TIENDA_bateria_rayovac_triple_a_x_6",
     "lot_code": "LOT-DA0F24DEF7",
     "expiration_date": null,
     "purchase_date": {
@@ -342,8 +342,8 @@
     }
   },
   {
-    "_id": "BODEGA-bateria_rayovac_triple_a_x_6-2026-12",
-    "product_id": "bateria_rayovac_triple_a_x_6",
+    "_id": "TIENDA_BODEGA-bateria_rayovac_triple_a_x_6-2026-12",
+    "product_id": "TIENDA_bateria_rayovac_triple_a_x_6",
     "lot_code": "LOT-F148F59716",
     "expiration_date": null,
     "purchase_date": {
@@ -358,8 +358,8 @@
     }
   },
   {
-    "_id": "batch-bloqueador_insignis_solar_70_grs-2026-13",
-    "product_id": "bloqueador_insignis_solar_70_grs",
+    "_id": "TIENDA_batch-bloqueador_insignis_solar_70_grs-2026-13",
+    "product_id": "TIENDA_bloqueador_insignis_solar_70_grs",
     "lot_code": "LOT-595EA38414",
     "expiration_date": null,
     "purchase_date": {
@@ -374,8 +374,8 @@
     }
   },
   {
-    "_id": "BODEGA-bloqueador_insignis_solar_70_grs-2026-13",
-    "product_id": "bloqueador_insignis_solar_70_grs",
+    "_id": "TIENDA_BODEGA-bloqueador_insignis_solar_70_grs-2026-13",
+    "product_id": "TIENDA_bloqueador_insignis_solar_70_grs",
     "lot_code": "LOT-C92A327E11",
     "expiration_date": null,
     "purchase_date": {
@@ -390,8 +390,8 @@
     }
   },
   {
-    "_id": "batch-chicle_bubba_rojo-2026-14",
-    "product_id": "chicle_bubba_rojo",
+    "_id": "TIENDA_batch-chicle_bubba_rojo-2026-14",
+    "product_id": "TIENDA_chicle_bubba_rojo",
     "lot_code": "LOT-3E19137B3B",
     "expiration_date": null,
     "purchase_date": {
@@ -406,8 +406,8 @@
     }
   },
   {
-    "_id": "BODEGA-chicle_bubba_rojo-2026-14",
-    "product_id": "chicle_bubba_rojo",
+    "_id": "TIENDA_BODEGA-chicle_bubba_rojo-2026-14",
+    "product_id": "TIENDA_chicle_bubba_rojo",
     "lot_code": "LOT-B51179205A",
     "expiration_date": null,
     "purchase_date": {
@@ -422,8 +422,8 @@
     }
   },
   {
-    "_id": "batch-chicles_trident_canela-2026-15",
-    "product_id": "chicles_trident_canela",
+    "_id": "TIENDA_batch-chicles_trident_canela-2026-15",
+    "product_id": "TIENDA_chicles_trident_canela",
     "lot_code": "LOT-0243CC0400",
     "expiration_date": null,
     "purchase_date": {
@@ -438,8 +438,8 @@
     }
   },
   {
-    "_id": "BODEGA-chicles_trident_canela-2026-15",
-    "product_id": "chicles_trident_canela",
+    "_id": "TIENDA_BODEGA-chicles_trident_canela-2026-15",
+    "product_id": "TIENDA_chicles_trident_canela",
     "lot_code": "LOT-D545A4445A",
     "expiration_date": null,
     "purchase_date": {
@@ -454,8 +454,8 @@
     }
   },
   {
-    "_id": "batch-chicles_trident_cool_buble-2026-16",
-    "product_id": "chicles_trident_cool_buble",
+    "_id": "TIENDA_batch-chicles_trident_cool_buble-2026-16",
+    "product_id": "TIENDA_chicles_trident_cool_buble",
     "lot_code": "LOT-1BF3FD8C01",
     "expiration_date": null,
     "purchase_date": {
@@ -470,8 +470,8 @@
     }
   },
   {
-    "_id": "BODEGA-chicles_trident_cool_buble-2026-16",
-    "product_id": "chicles_trident_cool_buble",
+    "_id": "TIENDA_BODEGA-chicles_trident_cool_buble-2026-16",
+    "product_id": "TIENDA_chicles_trident_cool_buble",
     "lot_code": "LOT-CA60D4D7BA",
     "expiration_date": null,
     "purchase_date": {
@@ -486,8 +486,8 @@
     }
   },
   {
-    "_id": "batch-chicles_trident_fresh_mint-2026-17",
-    "product_id": "chicles_trident_fresh_mint",
+    "_id": "TIENDA_batch-chicles_trident_fresh_mint-2026-17",
+    "product_id": "TIENDA_chicles_trident_fresh_mint",
     "lot_code": "LOT-9C19940FB3",
     "expiration_date": null,
     "purchase_date": {
@@ -502,8 +502,8 @@
     }
   },
   {
-    "_id": "BODEGA-chicles_trident_fresh_mint-2026-17",
-    "product_id": "chicles_trident_fresh_mint",
+    "_id": "TIENDA_BODEGA-chicles_trident_fresh_mint-2026-17",
+    "product_id": "TIENDA_chicles_trident_fresh_mint",
     "lot_code": "LOT-01C3CD6CE0",
     "expiration_date": null,
     "purchase_date": {
@@ -518,8 +518,8 @@
     }
   },
   {
-    "_id": "batch-chicles_trident_fruit_mix-2026-18",
-    "product_id": "chicles_trident_fruit_mix",
+    "_id": "TIENDA_batch-chicles_trident_fruit_mix-2026-18",
+    "product_id": "TIENDA_chicles_trident_fruit_mix",
     "lot_code": "LOT-94C9B50F8B",
     "expiration_date": null,
     "purchase_date": {
@@ -534,8 +534,8 @@
     }
   },
   {
-    "_id": "BODEGA-chicles_trident_fruit_mix-2026-18",
-    "product_id": "chicles_trident_fruit_mix",
+    "_id": "TIENDA_BODEGA-chicles_trident_fruit_mix-2026-18",
+    "product_id": "TIENDA_chicles_trident_fruit_mix",
     "lot_code": "LOT-E9D2379380",
     "expiration_date": null,
     "purchase_date": {
@@ -550,8 +550,8 @@
     }
   },
   {
-    "_id": "batch-chicles_trident_menta-2026-19",
-    "product_id": "chicles_trident_menta",
+    "_id": "TIENDA_batch-chicles_trident_menta-2026-19",
+    "product_id": "TIENDA_chicles_trident_menta",
     "lot_code": "LOT-F6C598B452",
     "expiration_date": null,
     "purchase_date": {
@@ -566,8 +566,8 @@
     }
   },
   {
-    "_id": "BODEGA-chicles_trident_menta-2026-19",
-    "product_id": "chicles_trident_menta",
+    "_id": "TIENDA_BODEGA-chicles_trident_menta-2026-19",
+    "product_id": "TIENDA_chicles_trident_menta",
     "lot_code": "LOT-2406D71C8B",
     "expiration_date": null,
     "purchase_date": {
@@ -582,8 +582,8 @@
     }
   },
   {
-    "_id": "batch-chicles_trident_yerbabuena-2026-20",
-    "product_id": "chicles_trident_yerbabuena",
+    "_id": "TIENDA_batch-chicles_trident_yerbabuena-2026-20",
+    "product_id": "TIENDA_chicles_trident_yerbabuena",
     "lot_code": "LOT-C0A22FEA93",
     "expiration_date": null,
     "purchase_date": {
@@ -598,8 +598,8 @@
     }
   },
   {
-    "_id": "batch-chispitas_de_chocolates-2026-21",
-    "product_id": "chispitas_de_chocolates",
+    "_id": "TIENDA_batch-chispitas_de_chocolates-2026-21",
+    "product_id": "TIENDA_chispitas_de_chocolates",
     "lot_code": "LOT-9D3B0C95C5",
     "expiration_date": null,
     "purchase_date": {
@@ -614,8 +614,8 @@
     }
   },
   {
-    "_id": "BODEGA-chispitas_de_chocolates-2026-21",
-    "product_id": "chispitas_de_chocolates",
+    "_id": "TIENDA_BODEGA-chispitas_de_chocolates-2026-21",
+    "product_id": "TIENDA_chispitas_de_chocolates",
     "lot_code": "LOT-09193A4730",
     "expiration_date": null,
     "purchase_date": {
@@ -630,8 +630,8 @@
     }
   },
   {
-    "_id": "batch-chocolate_hersheys_blanco_peq-2026-22",
-    "product_id": "chocolate_hersheys_blanco_peq",
+    "_id": "TIENDA_batch-chocolate_hersheys_blanco_peq-2026-22",
+    "product_id": "TIENDA_chocolate_hersheys_blanco_peq",
     "lot_code": "LOT-59B85CD01B",
     "expiration_date": null,
     "purchase_date": {
@@ -646,8 +646,8 @@
     }
   },
   {
-    "_id": "BODEGA-chocolate_hersheys_blanco_peq-2026-22",
-    "product_id": "chocolate_hersheys_blanco_peq",
+    "_id": "TIENDA_BODEGA-chocolate_hersheys_blanco_peq-2026-22",
+    "product_id": "TIENDA_chocolate_hersheys_blanco_peq",
     "lot_code": "LOT-0FC05D9487",
     "expiration_date": null,
     "purchase_date": {
@@ -662,8 +662,8 @@
     }
   },
   {
-    "_id": "batch-corta_uñas_corona_mediana_caja_x_12-2026-23",
-    "product_id": "corta_uñas_corona_mediana_caja_x_12",
+    "_id": "TIENDA_batch-corta_uñas_corona_mediana_caja_x_12-2026-23",
+    "product_id": "TIENDA_corta_uñas_corona_mediana_caja_x_12",
     "lot_code": "LOT-9C402AF920",
     "expiration_date": null,
     "purchase_date": {
@@ -678,8 +678,8 @@
     }
   },
   {
-    "_id": "batch-crema_diabetex__tx_400_ml-2026-24",
-    "product_id": "crema_diabetex__tx_400_ml",
+    "_id": "TIENDA_batch-crema_diabetex__tx_400_ml-2026-24",
+    "product_id": "TIENDA_crema_diabetex__tx_400_ml",
     "lot_code": "LOT-7F66E7D47C",
     "expiration_date": null,
     "purchase_date": {
@@ -694,8 +694,8 @@
     }
   },
   {
-    "_id": "batch-crema_goicochea_arnica_y_manzanailla_400_ml-2026-25",
-    "product_id": "crema_goicochea_arnica_y_manzanailla_400_ml",
+    "_id": "TIENDA_batch-crema_goicochea_arnica_y_manzanailla_400_ml-2026-25",
+    "product_id": "TIENDA_crema_goicochea_arnica_y_manzanailla_400_ml",
     "lot_code": "LOT-A076023319",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -712,8 +712,8 @@
     }
   },
   {
-    "_id": "batch-crema_goicochea_doble_mentol-2026-26",
-    "product_id": "crema_goicochea_doble_mentol",
+    "_id": "TIENDA_batch-crema_goicochea_doble_mentol-2026-26",
+    "product_id": "TIENDA_crema_goicochea_doble_mentol",
     "lot_code": "LOT-0D50B8D3EA",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -730,8 +730,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_goicochea_doble_mentol-2026-26",
-    "product_id": "crema_goicochea_doble_mentol",
+    "_id": "TIENDA_BODEGA-crema_goicochea_doble_mentol-2026-26",
+    "product_id": "TIENDA_crema_goicochea_doble_mentol",
     "lot_code": "LOT-34DE923980",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -748,8 +748,8 @@
     }
   },
   {
-    "_id": "batch-crema_goicochea_ginko_biloba_400_ml-2026-27",
-    "product_id": "crema_goicochea_ginko_biloba_400_ml",
+    "_id": "TIENDA_batch-crema_goicochea_ginko_biloba_400_ml-2026-27",
+    "product_id": "TIENDA_crema_goicochea_ginko_biloba_400_ml",
     "lot_code": "LOT-2D0FBCF599",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -766,8 +766,8 @@
     }
   },
   {
-    "_id": "batch-crema_goicochea_serum_piel_deshidratada_400_ml-2026-28",
-    "product_id": "crema_goicochea_serum_piel_deshidratada_400_ml",
+    "_id": "TIENDA_batch-crema_goicochea_serum_piel_deshidratada_400_ml-2026-28",
+    "product_id": "TIENDA_crema_goicochea_serum_piel_deshidratada_400_ml",
     "lot_code": "LOT-BB7F1C4114",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -784,8 +784,8 @@
     }
   },
   {
-    "_id": "batch-crema_goicochea_serum_piel_seca_400_ml-2026-29",
-    "product_id": "crema_goicochea_serum_piel_seca_400_ml",
+    "_id": "TIENDA_batch-crema_goicochea_serum_piel_seca_400_ml-2026-29",
+    "product_id": "TIENDA_crema_goicochea_serum_piel_seca_400_ml",
     "lot_code": "LOT-A3D99FD96E",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -802,8 +802,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_goicochea_serum_piel_seca_400_ml-2026-29",
-    "product_id": "crema_goicochea_serum_piel_seca_400_ml",
+    "_id": "TIENDA_BODEGA-crema_goicochea_serum_piel_seca_400_ml-2026-29",
+    "product_id": "TIENDA_crema_goicochea_serum_piel_seca_400_ml",
     "lot_code": "LOT-F81C84999F",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -820,8 +820,8 @@
     }
   },
   {
-    "_id": "batch-crema_lubriderm_15_lt-2026-30",
-    "product_id": "crema_lubriderm_15_lt",
+    "_id": "TIENDA_batch-crema_lubriderm_15_lt-2026-30",
+    "product_id": "TIENDA_crema_lubriderm_15_lt",
     "lot_code": "LOT-A2FABC6542",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -838,8 +838,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_lubriderm_15_lt-2026-30",
-    "product_id": "crema_lubriderm_15_lt",
+    "_id": "TIENDA_BODEGA-crema_lubriderm_15_lt-2026-30",
+    "product_id": "TIENDA_crema_lubriderm_15_lt",
     "lot_code": "LOT-3FDEAAFB9F",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -856,8 +856,8 @@
     }
   },
   {
-    "_id": "batch-crema_lubriderm_400_ml_azul-2026-31",
-    "product_id": "crema_lubriderm_400_ml_azul",
+    "_id": "TIENDA_batch-crema_lubriderm_400_ml_azul-2026-31",
+    "product_id": "TIENDA_crema_lubriderm_400_ml_azul",
     "lot_code": "LOT-918E229A3F",
     "expiration_date": null,
     "purchase_date": null,
@@ -870,8 +870,8 @@
     }
   },
   {
-    "_id": "batch-crema_lubriderm_400_ml_celeste-2026-32",
-    "product_id": "crema_lubriderm_400_ml_celeste",
+    "_id": "TIENDA_batch-crema_lubriderm_400_ml_celeste-2026-32",
+    "product_id": "TIENDA_crema_lubriderm_400_ml_celeste",
     "lot_code": "LOT-7698B01A67",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -888,8 +888,8 @@
     }
   },
   {
-    "_id": "batch-crema_lubriderm_400_ml_dorada-2026-33",
-    "product_id": "crema_lubriderm_400_ml_dorada",
+    "_id": "TIENDA_batch-crema_lubriderm_400_ml_dorada-2026-33",
+    "product_id": "TIENDA_crema_lubriderm_400_ml_dorada",
     "lot_code": "LOT-5643E57FA1",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -906,8 +906,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_lubriderm_400_ml_dorada-2026-33",
-    "product_id": "crema_lubriderm_400_ml_dorada",
+    "_id": "TIENDA_BODEGA-crema_lubriderm_400_ml_dorada-2026-33",
+    "product_id": "TIENDA_crema_lubriderm_400_ml_dorada",
     "lot_code": "LOT-E851F01D57",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -924,8 +924,8 @@
     }
   },
   {
-    "_id": "batch-crema_lubriderm_400_ml_morada-2026-34",
-    "product_id": "crema_lubriderm_400_ml_morada",
+    "_id": "TIENDA_batch-crema_lubriderm_400_ml_morada-2026-34",
+    "product_id": "TIENDA_crema_lubriderm_400_ml_morada",
     "lot_code": "LOT-ADA17A691E",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -942,8 +942,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_lubriderm_400_ml_morada-2026-34",
-    "product_id": "crema_lubriderm_400_ml_morada",
+    "_id": "TIENDA_BODEGA-crema_lubriderm_400_ml_morada-2026-34",
+    "product_id": "TIENDA_crema_lubriderm_400_ml_morada",
     "lot_code": "LOT-9EBD32BEC1",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -960,8 +960,8 @@
     }
   },
   {
-    "_id": "batch-crema_lubriderm_750_ml_dorada-2026-35",
-    "product_id": "crema_lubriderm_750_ml_dorada",
+    "_id": "TIENDA_batch-crema_lubriderm_750_ml_dorada-2026-35",
+    "product_id": "TIENDA_crema_lubriderm_750_ml_dorada",
     "lot_code": "LOT-37A1EDFF92",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -978,8 +978,8 @@
     }
   },
   {
-    "_id": "batch-crema_lubriderm_morada_lt-2026-36",
-    "product_id": "crema_lubriderm_morada_lt",
+    "_id": "TIENDA_batch-crema_lubriderm_morada_lt-2026-36",
+    "product_id": "TIENDA_crema_lubriderm_morada_lt",
     "lot_code": "LOT-BDDDF75204",
     "expiration_date": null,
     "purchase_date": {
@@ -994,8 +994,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_lubriderm_morada_lt-2026-36",
-    "product_id": "crema_lubriderm_morada_lt",
+    "_id": "TIENDA_BODEGA-crema_lubriderm_morada_lt-2026-36",
+    "product_id": "TIENDA_crema_lubriderm_morada_lt",
     "lot_code": "LOT-9E30ED134B",
     "expiration_date": null,
     "purchase_date": {
@@ -1010,8 +1010,8 @@
     }
   },
   {
-    "_id": "batch-crema_nivea_400_ml__milk-2026-37",
-    "product_id": "crema_nivea_400_ml__milk",
+    "_id": "TIENDA_batch-crema_nivea_400_ml__milk-2026-37",
+    "product_id": "TIENDA_crema_nivea_400_ml__milk",
     "lot_code": "LOT-1F9B1601C7",
     "expiration_date": null,
     "purchase_date": {
@@ -1026,8 +1026,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_nivea_400_ml__milk-2026-37",
-    "product_id": "crema_nivea_400_ml__milk",
+    "_id": "TIENDA_BODEGA-crema_nivea_400_ml__milk-2026-37",
+    "product_id": "TIENDA_crema_nivea_400_ml__milk",
     "lot_code": "LOT-07C37B7FFC",
     "expiration_date": null,
     "purchase_date": {
@@ -1042,8 +1042,8 @@
     }
   },
   {
-    "_id": "batch-crema_nivea_400_ml_aloe_refrescante-2026-38",
-    "product_id": "crema_nivea_400_ml_aloe_refrescante",
+    "_id": "TIENDA_batch-crema_nivea_400_ml_aloe_refrescante-2026-38",
+    "product_id": "TIENDA_crema_nivea_400_ml_aloe_refrescante",
     "lot_code": "LOT-9B9D5639F5",
     "expiration_date": null,
     "purchase_date": {
@@ -1058,8 +1058,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_nivea_400_ml_aloe_refrescante-2026-38",
-    "product_id": "crema_nivea_400_ml_aloe_refrescante",
+    "_id": "TIENDA_BODEGA-crema_nivea_400_ml_aloe_refrescante-2026-38",
+    "product_id": "TIENDA_crema_nivea_400_ml_aloe_refrescante",
     "lot_code": "LOT-A4869D9AA9",
     "expiration_date": null,
     "purchase_date": {
@@ -1074,8 +1074,8 @@
     }
   },
   {
-    "_id": "batch-crema_nivea_400_ml_express_hydration-2026-39",
-    "product_id": "crema_nivea_400_ml_express_hydration",
+    "_id": "TIENDA_batch-crema_nivea_400_ml_express_hydration-2026-39",
+    "product_id": "TIENDA_crema_nivea_400_ml_express_hydration",
     "lot_code": "LOT-6C330F78B6",
     "expiration_date": null,
     "purchase_date": {
@@ -1090,8 +1090,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_nivea_400_ml_express_hydration-2026-39",
-    "product_id": "crema_nivea_400_ml_express_hydration",
+    "_id": "TIENDA_BODEGA-crema_nivea_400_ml_express_hydration-2026-39",
+    "product_id": "TIENDA_crema_nivea_400_ml_express_hydration",
     "lot_code": "LOT-4D1469345D",
     "expiration_date": null,
     "purchase_date": {
@@ -1106,8 +1106,8 @@
     }
   },
   {
-    "_id": "batch-crema_nivea_400_ml_regenaracion_intensiva-2026-40",
-    "product_id": "crema_nivea_400_ml_regenaracion_intensiva",
+    "_id": "TIENDA_batch-crema_nivea_400_ml_regenaracion_intensiva-2026-40",
+    "product_id": "TIENDA_crema_nivea_400_ml_regenaracion_intensiva",
     "lot_code": "LOT-B716AC3983",
     "expiration_date": null,
     "purchase_date": {
@@ -1122,8 +1122,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_nivea_400_ml_regenaracion_intensiva-2026-40",
-    "product_id": "crema_nivea_400_ml_regenaracion_intensiva",
+    "_id": "TIENDA_BODEGA-crema_nivea_400_ml_regenaracion_intensiva-2026-40",
+    "product_id": "TIENDA_crema_nivea_400_ml_regenaracion_intensiva",
     "lot_code": "LOT-3F10C0EF51",
     "expiration_date": null,
     "purchase_date": {
@@ -1138,8 +1138,8 @@
     }
   },
   {
-    "_id": "batch-crema_nivea_400_ml_soft_milk-2026-41",
-    "product_id": "crema_nivea_400_ml_soft_milk",
+    "_id": "TIENDA_batch-crema_nivea_400_ml_soft_milk-2026-41",
+    "product_id": "TIENDA_crema_nivea_400_ml_soft_milk",
     "lot_code": "LOT-176F638589",
     "expiration_date": null,
     "purchase_date": {
@@ -1154,8 +1154,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_nivea_400_ml_soft_milk-2026-41",
-    "product_id": "crema_nivea_400_ml_soft_milk",
+    "_id": "TIENDA_BODEGA-crema_nivea_400_ml_soft_milk-2026-41",
+    "product_id": "TIENDA_crema_nivea_400_ml_soft_milk",
     "lot_code": "LOT-56FD7B009E",
     "expiration_date": null,
     "purchase_date": {
@@ -1170,8 +1170,8 @@
     }
   },
   {
-    "_id": "batch-crema_nivea_400_ml_tono_natural-2026-42",
-    "product_id": "crema_nivea_400_ml_tono_natural",
+    "_id": "TIENDA_batch-crema_nivea_400_ml_tono_natural-2026-42",
+    "product_id": "TIENDA_crema_nivea_400_ml_tono_natural",
     "lot_code": "LOT-1A9FE5F9C7",
     "expiration_date": null,
     "purchase_date": {
@@ -1186,8 +1186,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_nivea_400_ml_tono_natural-2026-42",
-    "product_id": "crema_nivea_400_ml_tono_natural",
+    "_id": "TIENDA_BODEGA-crema_nivea_400_ml_tono_natural-2026-42",
+    "product_id": "TIENDA_crema_nivea_400_ml_tono_natural",
     "lot_code": "LOT-E80789889E",
     "expiration_date": null,
     "purchase_date": {
@@ -1202,8 +1202,8 @@
     }
   },
   {
-    "_id": "batch-crema_nivea_latita_20_ml-2026-43",
-    "product_id": "crema_nivea_latita_20_ml",
+    "_id": "TIENDA_batch-crema_nivea_latita_20_ml-2026-43",
+    "product_id": "TIENDA_crema_nivea_latita_20_ml",
     "lot_code": "LOT-A9450B0392",
     "expiration_date": null,
     "purchase_date": {
@@ -1218,8 +1218,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_nivea_latita_20_ml-2026-43",
-    "product_id": "crema_nivea_latita_20_ml",
+    "_id": "TIENDA_BODEGA-crema_nivea_latita_20_ml-2026-43",
+    "product_id": "TIENDA_crema_nivea_latita_20_ml",
     "lot_code": "LOT-D2EF127576",
     "expiration_date": null,
     "purchase_date": {
@@ -1234,8 +1234,8 @@
     }
   },
   {
-    "_id": "batch-crema_nivea_litro_azul-2026-44",
-    "product_id": "crema_nivea_litro_azul",
+    "_id": "TIENDA_batch-crema_nivea_litro_azul-2026-44",
+    "product_id": "TIENDA_crema_nivea_litro_azul",
     "lot_code": "LOT-5BB232FF00",
     "expiration_date": null,
     "purchase_date": {
@@ -1250,8 +1250,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_nivea_litro_azul-2026-44",
-    "product_id": "crema_nivea_litro_azul",
+    "_id": "TIENDA_BODEGA-crema_nivea_litro_azul-2026-44",
+    "product_id": "TIENDA_crema_nivea_litro_azul",
     "lot_code": "LOT-A380CD7EF1",
     "expiration_date": null,
     "purchase_date": {
@@ -1266,8 +1266,8 @@
     }
   },
   {
-    "_id": "batch-crema_nivea_tarro_400_ml-2026-45",
-    "product_id": "crema_nivea_tarro_400_ml",
+    "_id": "TIENDA_batch-crema_nivea_tarro_400_ml-2026-45",
+    "product_id": "TIENDA_crema_nivea_tarro_400_ml",
     "lot_code": "LOT-18B429A1A4",
     "expiration_date": null,
     "purchase_date": {
@@ -1282,8 +1282,8 @@
     }
   },
   {
-    "_id": "BODEGA-crema_nivea_tarro_400_ml-2026-45",
-    "product_id": "crema_nivea_tarro_400_ml",
+    "_id": "TIENDA_BODEGA-crema_nivea_tarro_400_ml-2026-45",
+    "product_id": "TIENDA_crema_nivea_tarro_400_ml",
     "lot_code": "LOT-2480553B55",
     "expiration_date": null,
     "purchase_date": {
@@ -1298,8 +1298,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_degree_h_76_grs-2026-46",
-    "product_id": "desodorante_degree_h_76_grs",
+    "_id": "TIENDA_batch-desodorante_degree_h_76_grs-2026-46",
+    "product_id": "TIENDA_desodorante_degree_h_76_grs",
     "lot_code": "LOT-7BCC15C580",
     "expiration_date": null,
     "purchase_date": {
@@ -1314,8 +1314,8 @@
     }
   },
   {
-    "_id": "BODEGA-desodorante_degree_h_76_grs-2026-46",
-    "product_id": "desodorante_degree_h_76_grs",
+    "_id": "TIENDA_BODEGA-desodorante_degree_h_76_grs-2026-46",
+    "product_id": "TIENDA_desodorante_degree_h_76_grs",
     "lot_code": "LOT-0559DD2C49",
     "expiration_date": null,
     "purchase_date": {
@@ -1330,8 +1330,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_degree_m_74_grs-2026-47",
-    "product_id": "desodorante_degree_m_74_grs",
+    "_id": "TIENDA_batch-desodorante_degree_m_74_grs-2026-47",
+    "product_id": "TIENDA_desodorante_degree_m_74_grs",
     "lot_code": "LOT-95400F77F7",
     "expiration_date": null,
     "purchase_date": {
@@ -1346,8 +1346,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_dove_barra_m_50_grs-2026-48",
-    "product_id": "desodorante_dove_barra_m_50_grs",
+    "_id": "TIENDA_batch-desodorante_dove_barra_m_50_grs-2026-48",
+    "product_id": "TIENDA_desodorante_dove_barra_m_50_grs",
     "lot_code": "LOT-7CB2F4B0BA",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -1364,8 +1364,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_dove_spray_169_ml_granada-2026-49",
-    "product_id": "desodorante_dove_spray_169_ml_granada",
+    "_id": "TIENDA_batch-desodorante_dove_spray_169_ml_granada-2026-49",
+    "product_id": "TIENDA_desodorante_dove_spray_169_ml_granada",
     "lot_code": "LOT-C7443C20F3",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -1382,8 +1382,8 @@
     }
   },
   {
-    "_id": "BODEGA-desodorante_dove_spray_169_ml_granada-2026-49",
-    "product_id": "desodorante_dove_spray_169_ml_granada",
+    "_id": "TIENDA_BODEGA-desodorante_dove_spray_169_ml_granada-2026-49",
+    "product_id": "TIENDA_desodorante_dove_spray_169_ml_granada",
     "lot_code": "LOT-616B249BA5",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -1400,8 +1400,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_dove_spray_169_ml_original-2026-50",
-    "product_id": "desodorante_dove_spray_169_ml_original",
+    "_id": "TIENDA_batch-desodorante_dove_spray_169_ml_original-2026-50",
+    "product_id": "TIENDA_desodorante_dove_spray_169_ml_original",
     "lot_code": "LOT-E74F8E8BEB",
     "expiration_date": null,
     "purchase_date": {
@@ -1416,8 +1416,8 @@
     }
   },
   {
-    "_id": "BODEGA-desodorante_dove_spray_169_ml_original-2026-50",
-    "product_id": "desodorante_dove_spray_169_ml_original",
+    "_id": "TIENDA_BODEGA-desodorante_dove_spray_169_ml_original-2026-50",
+    "product_id": "TIENDA_desodorante_dove_spray_169_ml_original",
     "lot_code": "LOT-FAA627827E",
     "expiration_date": null,
     "purchase_date": {
@@ -1432,8 +1432,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_nivea_rollon_beauty_touch-2026-51",
-    "product_id": "desodorante_nivea_rollon_beauty_touch",
+    "_id": "TIENDA_batch-desodorante_nivea_rollon_beauty_touch-2026-51",
+    "product_id": "TIENDA_desodorante_nivea_rollon_beauty_touch",
     "lot_code": "LOT-20B0D2F268",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -1450,8 +1450,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_nivea_rollon_pearl__beauty-2026-52",
-    "product_id": "desodorante_nivea_rollon_pearl__beauty",
+    "_id": "TIENDA_batch-desodorante_nivea_rollon_pearl__beauty-2026-52",
+    "product_id": "TIENDA_desodorante_nivea_rollon_pearl__beauty",
     "lot_code": "LOT-9CF7F473D5",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -1468,8 +1468,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_old_spice_85_grs-2026-53",
-    "product_id": "desodorante_old_spice_85_grs",
+    "_id": "TIENDA_batch-desodorante_old_spice_85_grs-2026-53",
+    "product_id": "TIENDA_desodorante_old_spice_85_grs",
     "lot_code": "LOT-05868E0F1A",
     "expiration_date": null,
     "purchase_date": {
@@ -1484,8 +1484,8 @@
     }
   },
   {
-    "_id": "BODEGA-desodorante_old_spice_85_grs-2026-53",
-    "product_id": "desodorante_old_spice_85_grs",
+    "_id": "TIENDA_BODEGA-desodorante_old_spice_85_grs-2026-53",
+    "product_id": "TIENDA_desodorante_old_spice_85_grs",
     "lot_code": "LOT-51B6445204",
     "expiration_date": null,
     "purchase_date": {
@@ -1500,8 +1500,8 @@
     }
   },
   {
-    "_id": "batch-desodorante_secret_73_grs_mujer-2026-54",
-    "product_id": "desodorante_secret_73_grs_mujer",
+    "_id": "TIENDA_batch-desodorante_secret_73_grs_mujer-2026-54",
+    "product_id": "TIENDA_desodorante_secret_73_grs_mujer",
     "lot_code": "LOT-1B4C82B12A",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -1518,8 +1518,8 @@
     }
   },
   {
-    "_id": "batch-dulces_jolly_rancher-2026-55",
-    "product_id": "dulces_jolly_rancher",
+    "_id": "TIENDA_batch-dulces_jolly_rancher-2026-55",
+    "product_id": "TIENDA_dulces_jolly_rancher",
     "lot_code": "LOT-9A107F757B",
     "expiration_date": null,
     "purchase_date": {
@@ -1534,8 +1534,8 @@
     }
   },
   {
-    "_id": "BODEGA-dulces_jolly_rancher-2026-55",
-    "product_id": "dulces_jolly_rancher",
+    "_id": "TIENDA_BODEGA-dulces_jolly_rancher-2026-55",
+    "product_id": "TIENDA_dulces_jolly_rancher",
     "lot_code": "LOT-5D3807D045",
     "expiration_date": null,
     "purchase_date": {
@@ -1550,8 +1550,8 @@
     }
   },
   {
-    "_id": "batch-dulces_menta-2026-56",
-    "product_id": "dulces_menta",
+    "_id": "TIENDA_batch-dulces_menta-2026-56",
+    "product_id": "TIENDA_dulces_menta",
     "lot_code": "LOT-D0EAE963B9",
     "expiration_date": null,
     "purchase_date": {
@@ -1566,8 +1566,8 @@
     }
   },
   {
-    "_id": "BODEGA-dulces_menta-2026-56",
-    "product_id": "dulces_menta",
+    "_id": "TIENDA_BODEGA-dulces_menta-2026-56",
+    "product_id": "TIENDA_dulces_menta",
     "lot_code": "LOT-C6CA1F0EA3",
     "expiration_date": null,
     "purchase_date": {
@@ -1582,8 +1582,8 @@
     }
   },
   {
-    "_id": "batch-gomitas__bolitas_azucar-2026-57",
-    "product_id": "gomitas__bolitas_azucar",
+    "_id": "TIENDA_batch-gomitas__bolitas_azucar-2026-57",
+    "product_id": "TIENDA_gomitas__bolitas_azucar",
     "lot_code": "LOT-D61A2EEFDE",
     "expiration_date": null,
     "purchase_date": {
@@ -1598,8 +1598,8 @@
     }
   },
   {
-    "_id": "batch-gomitas__huevitos-2026-58",
-    "product_id": "gomitas__huevitos",
+    "_id": "TIENDA_batch-gomitas__huevitos-2026-58",
+    "product_id": "TIENDA_gomitas__huevitos",
     "lot_code": "LOT-9C7FF9AB48",
     "expiration_date": null,
     "purchase_date": {
@@ -1614,8 +1614,8 @@
     }
   },
   {
-    "_id": "BODEGA-gomitas__huevitos-2026-58",
-    "product_id": "gomitas__huevitos",
+    "_id": "TIENDA_BODEGA-gomitas__huevitos-2026-58",
+    "product_id": "TIENDA_gomitas__huevitos",
     "lot_code": "LOT-F885DCC1FC",
     "expiration_date": null,
     "purchase_date": {
@@ -1630,8 +1630,8 @@
     }
   },
   {
-    "_id": "batch-gomitas__mangitos-2026-59",
-    "product_id": "gomitas__mangitos",
+    "_id": "TIENDA_batch-gomitas__mangitos-2026-59",
+    "product_id": "TIENDA_gomitas__mangitos",
     "lot_code": "LOT-558196CB11",
     "expiration_date": null,
     "purchase_date": {
@@ -1646,8 +1646,8 @@
     }
   },
   {
-    "_id": "BODEGA-gomitas__mangitos-2026-59",
-    "product_id": "gomitas__mangitos",
+    "_id": "TIENDA_BODEGA-gomitas__mangitos-2026-59",
+    "product_id": "TIENDA_gomitas__mangitos",
     "lot_code": "LOT-EE08EF6886",
     "expiration_date": null,
     "purchase_date": {
@@ -1662,8 +1662,8 @@
     }
   },
   {
-    "_id": "batch-gomitas_culebritas-2026-60",
-    "product_id": "gomitas_culebritas",
+    "_id": "TIENDA_batch-gomitas_culebritas-2026-60",
+    "product_id": "TIENDA_gomitas_culebritas",
     "lot_code": "LOT-918FC74AA1",
     "expiration_date": null,
     "purchase_date": {
@@ -1678,8 +1678,8 @@
     }
   },
   {
-    "_id": "BODEGA-gomitas_culebritas-2026-60",
-    "product_id": "gomitas_culebritas",
+    "_id": "TIENDA_BODEGA-gomitas_culebritas-2026-60",
+    "product_id": "TIENDA_gomitas_culebritas",
     "lot_code": "LOT-CF1030458F",
     "expiration_date": null,
     "purchase_date": {
@@ -1694,8 +1694,8 @@
     }
   },
   {
-    "_id": "batch-gomitas_donitas-2026-61",
-    "product_id": "gomitas_donitas",
+    "_id": "TIENDA_batch-gomitas_donitas-2026-61",
+    "product_id": "TIENDA_gomitas_donitas",
     "lot_code": "LOT-4A4377ED27",
     "expiration_date": null,
     "purchase_date": {
@@ -1710,8 +1710,8 @@
     }
   },
   {
-    "_id": "BODEGA-gomitas_donitas-2026-61",
-    "product_id": "gomitas_donitas",
+    "_id": "TIENDA_BODEGA-gomitas_donitas-2026-61",
+    "product_id": "TIENDA_gomitas_donitas",
     "lot_code": "LOT-F9B20019B2",
     "expiration_date": null,
     "purchase_date": {
@@ -1726,8 +1726,8 @@
     }
   },
   {
-    "_id": "batch-gomitas_moritas-2026-62",
-    "product_id": "gomitas_moritas",
+    "_id": "TIENDA_batch-gomitas_moritas-2026-62",
+    "product_id": "TIENDA_gomitas_moritas",
     "lot_code": "LOT-614E0AB2EA",
     "expiration_date": null,
     "purchase_date": {
@@ -1742,8 +1742,8 @@
     }
   },
   {
-    "_id": "batch-gomitas_moritas_celeste-2026-63",
-    "product_id": "gomitas_moritas_celeste",
+    "_id": "TIENDA_batch-gomitas_moritas_celeste-2026-63",
+    "product_id": "TIENDA_gomitas_moritas_celeste",
     "lot_code": "LOT-4B7EDA8A48",
     "expiration_date": null,
     "purchase_date": {
@@ -1758,8 +1758,8 @@
     }
   },
   {
-    "_id": "BODEGA-gomitas_moritas_celeste-2026-63",
-    "product_id": "gomitas_moritas_celeste",
+    "_id": "TIENDA_BODEGA-gomitas_moritas_celeste-2026-63",
+    "product_id": "TIENDA_gomitas_moritas_celeste",
     "lot_code": "LOT-E5C42DACE6",
     "expiration_date": null,
     "purchase_date": {
@@ -1774,8 +1774,8 @@
     }
   },
   {
-    "_id": "batch-gomitas_ositos-2026-64",
-    "product_id": "gomitas_ositos",
+    "_id": "TIENDA_batch-gomitas_ositos-2026-64",
+    "product_id": "TIENDA_gomitas_ositos",
     "lot_code": "LOT-7EBACB1216",
     "expiration_date": null,
     "purchase_date": {
@@ -1790,8 +1790,8 @@
     }
   },
   {
-    "_id": "BODEGA-gomitas_ositos-2026-64",
-    "product_id": "gomitas_ositos",
+    "_id": "TIENDA_BODEGA-gomitas_ositos-2026-64",
+    "product_id": "TIENDA_gomitas_ositos",
     "lot_code": "LOT-C0BA7C88EB",
     "expiration_date": null,
     "purchase_date": {
@@ -1806,8 +1806,8 @@
     }
   },
   {
-    "_id": "batch-gomitas_tiburones-2026-65",
-    "product_id": "gomitas_tiburones",
+    "_id": "TIENDA_batch-gomitas_tiburones-2026-65",
+    "product_id": "TIENDA_gomitas_tiburones",
     "lot_code": "LOT-020D815B5E",
     "expiration_date": null,
     "purchase_date": {
@@ -1822,8 +1822,8 @@
     }
   },
   {
-    "_id": "BODEGA-gomitas_tiburones-2026-65",
-    "product_id": "gomitas_tiburones",
+    "_id": "TIENDA_BODEGA-gomitas_tiburones-2026-65",
+    "product_id": "TIENDA_gomitas_tiburones",
     "lot_code": "LOT-A9388547BC",
     "expiration_date": null,
     "purchase_date": {
@@ -1838,8 +1838,8 @@
     }
   },
   {
-    "_id": "batch-hilo_dental_colgate-2026-66",
-    "product_id": "hilo_dental_colgate",
+    "_id": "TIENDA_batch-hilo_dental_colgate-2026-66",
+    "product_id": "TIENDA_hilo_dental_colgate",
     "lot_code": "LOT-5EA8461DC0",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -1856,8 +1856,8 @@
     }
   },
   {
-    "_id": "BODEGA-hilo_dental_colgate-2026-66",
-    "product_id": "hilo_dental_colgate",
+    "_id": "TIENDA_BODEGA-hilo_dental_colgate-2026-66",
+    "product_id": "TIENDA_hilo_dental_colgate",
     "lot_code": "LOT-6B4756F32C",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -1874,8 +1874,8 @@
     }
   },
   {
-    "_id": "batch-hilo_dental_oral_b-2026-67",
-    "product_id": "hilo_dental_oral_b",
+    "_id": "TIENDA_batch-hilo_dental_oral_b-2026-67",
+    "product_id": "TIENDA_hilo_dental_oral_b",
     "lot_code": "LOT-105286C7D0",
     "expiration_date": null,
     "purchase_date": {
@@ -1890,8 +1890,8 @@
     }
   },
   {
-    "_id": "BODEGA-hilo_dental_oral_b-2026-67",
-    "product_id": "hilo_dental_oral_b",
+    "_id": "TIENDA_BODEGA-hilo_dental_oral_b-2026-67",
+    "product_id": "TIENDA_hilo_dental_oral_b",
     "lot_code": "LOT-F730AD10F5",
     "expiration_date": null,
     "purchase_date": {
@@ -1906,8 +1906,8 @@
     }
   },
   {
-    "_id": "batch-hisopos_x_100-2026-68",
-    "product_id": "hisopos_x_100",
+    "_id": "TIENDA_batch-hisopos_x_100-2026-68",
+    "product_id": "TIENDA_hisopos_x_100",
     "lot_code": "LOT-5DC69DAD61",
     "expiration_date": null,
     "purchase_date": {
@@ -1922,8 +1922,8 @@
     }
   },
   {
-    "_id": "BODEGA-hisopos_x_100-2026-68",
-    "product_id": "hisopos_x_100",
+    "_id": "TIENDA_BODEGA-hisopos_x_100-2026-68",
+    "product_id": "TIENDA_hisopos_x_100",
     "lot_code": "LOT-1FDC8D184A",
     "expiration_date": null,
     "purchase_date": {
@@ -1938,8 +1938,8 @@
     }
   },
   {
-    "_id": "batch-jabon_dove_135_grs-2026-69",
-    "product_id": "jabon_dove_135_grs",
+    "_id": "TIENDA_batch-jabon_dove_135_grs-2026-69",
+    "product_id": "TIENDA_jabon_dove_135_grs",
     "lot_code": "LOT-8F0F38FF68",
     "expiration_date": null,
     "purchase_date": {
@@ -1954,8 +1954,8 @@
     }
   },
   {
-    "_id": "BODEGA-jabon_dove_135_grs-2026-69",
-    "product_id": "jabon_dove_135_grs",
+    "_id": "TIENDA_BODEGA-jabon_dove_135_grs-2026-69",
+    "product_id": "TIENDA_jabon_dove_135_grs",
     "lot_code": "LOT-C3E659FB08",
     "expiration_date": null,
     "purchase_date": {
@@ -1970,8 +1970,8 @@
     }
   },
   {
-    "_id": "batch-lasar_mimo_tubo_120_grs-2026-70",
-    "product_id": "lasar_mimo_tubo_120_grs",
+    "_id": "TIENDA_batch-lasar_mimo_tubo_120_grs-2026-70",
+    "product_id": "TIENDA_lasar_mimo_tubo_120_grs",
     "lot_code": "LOT-4ED5162702",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -1988,8 +1988,8 @@
     }
   },
   {
-    "_id": "BODEGA-lasar_mimo_tubo_120_grs-2026-70",
-    "product_id": "lasar_mimo_tubo_120_grs",
+    "_id": "TIENDA_BODEGA-lasar_mimo_tubo_120_grs-2026-70",
+    "product_id": "TIENDA_lasar_mimo_tubo_120_grs",
     "lot_code": "LOT-D895E8D349",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -2006,8 +2006,8 @@
     }
   },
   {
-    "_id": "batch-lima_para_uñas-2026-71",
-    "product_id": "lima_para_uñas",
+    "_id": "TIENDA_batch-lima_para_uñas-2026-71",
+    "product_id": "TIENDA_lima_para_uñas",
     "lot_code": "LOT-56B9BE29CA",
     "expiration_date": null,
     "purchase_date": {
@@ -2022,8 +2022,8 @@
     }
   },
   {
-    "_id": "BODEGA-lima_para_uñas-2026-71",
-    "product_id": "lima_para_uñas",
+    "_id": "TIENDA_BODEGA-lima_para_uñas-2026-71",
+    "product_id": "TIENDA_lima_para_uñas",
     "lot_code": "LOT-4449C00466",
     "expiration_date": null,
     "purchase_date": {
@@ -2038,8 +2038,8 @@
     }
   },
   {
-    "_id": "batch-limoncho_120_gramos_caja_x_10-2026-72",
-    "product_id": "limoncho_120_gramos_caja_x_10",
+    "_id": "TIENDA_batch-limoncho_120_gramos_caja_x_10-2026-72",
+    "product_id": "TIENDA_limoncho_120_gramos_caja_x_10",
     "lot_code": "LOT-49D1B42F7E",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -2056,8 +2056,8 @@
     }
   },
   {
-    "_id": "batch-mamon_latex_unidad-2026-73",
-    "product_id": "mamon_latex_unidad",
+    "_id": "TIENDA_batch-mamon_latex_unidad-2026-73",
+    "product_id": "TIENDA_mamon_latex_unidad",
     "lot_code": "LOT-BEF5ED7C13",
     "expiration_date": null,
     "purchase_date": {
@@ -2072,8 +2072,8 @@
     }
   },
   {
-    "_id": "BODEGA-mamon_latex_unidad-2026-73",
-    "product_id": "mamon_latex_unidad",
+    "_id": "TIENDA_BODEGA-mamon_latex_unidad-2026-73",
+    "product_id": "TIENDA_mamon_latex_unidad",
     "lot_code": "LOT-20B8732A3C",
     "expiration_date": null,
     "purchase_date": {
@@ -2088,8 +2088,8 @@
     }
   },
   {
-    "_id": "batch-mamon_silicon_unidad-2026-74",
-    "product_id": "mamon_silicon_unidad",
+    "_id": "TIENDA_batch-mamon_silicon_unidad-2026-74",
+    "product_id": "TIENDA_mamon_silicon_unidad",
     "lot_code": "LOT-442F536C4B",
     "expiration_date": null,
     "purchase_date": {
@@ -2104,8 +2104,8 @@
     }
   },
   {
-    "_id": "BODEGA-mamon_silicon_unidad-2026-74",
-    "product_id": "mamon_silicon_unidad",
+    "_id": "TIENDA_BODEGA-mamon_silicon_unidad-2026-74",
+    "product_id": "TIENDA_mamon_silicon_unidad",
     "lot_code": "LOT-F4B45A1520",
     "expiration_date": null,
     "purchase_date": {
@@ -2120,8 +2120,8 @@
     }
   },
   {
-    "_id": "batch-nuez_de_nogal-2026-75",
-    "product_id": "nuez_de_nogal",
+    "_id": "TIENDA_batch-nuez_de_nogal-2026-75",
+    "product_id": "TIENDA_nuez_de_nogal",
     "lot_code": "LOT-F8149CC251",
     "expiration_date": null,
     "purchase_date": {
@@ -2136,8 +2136,8 @@
     }
   },
   {
-    "_id": "BODEGA-nuez_de_nogal-2026-75",
-    "product_id": "nuez_de_nogal",
+    "_id": "TIENDA_BODEGA-nuez_de_nogal-2026-75",
+    "product_id": "TIENDA_nuez_de_nogal",
     "lot_code": "LOT-81EE586E83",
     "expiration_date": null,
     "purchase_date": {
@@ -2152,8 +2152,8 @@
     }
   },
   {
-    "_id": "batch-pacha_evenflo__y_baby_farlin_2_onz-2026-76",
-    "product_id": "pacha_evenflo__y_baby_farlin_2_onz",
+    "_id": "TIENDA_batch-pacha_evenflo__y_baby_farlin_2_onz-2026-76",
+    "product_id": "TIENDA_pacha_evenflo__y_baby_farlin_2_onz",
     "lot_code": "LOT-CA8DBD368F",
     "expiration_date": null,
     "purchase_date": {
@@ -2168,8 +2168,8 @@
     }
   },
   {
-    "_id": "batch-pacha_evenflo_8_onz-2026-77",
-    "product_id": "pacha_evenflo_8_onz",
+    "_id": "TIENDA_batch-pacha_evenflo_8_onz-2026-77",
+    "product_id": "TIENDA_pacha_evenflo_8_onz",
     "lot_code": "LOT-DE62B01CFF",
     "expiration_date": null,
     "purchase_date": {
@@ -2184,8 +2184,8 @@
     }
   },
   {
-    "_id": "BODEGA-pacha_evenflo_8_onz-2026-77",
-    "product_id": "pacha_evenflo_8_onz",
+    "_id": "TIENDA_BODEGA-pacha_evenflo_8_onz-2026-77",
+    "product_id": "TIENDA_pacha_evenflo_8_onz",
     "lot_code": "LOT-9D0BD2D18E",
     "expiration_date": null,
     "purchase_date": {
@@ -2200,8 +2200,8 @@
     }
   },
   {
-    "_id": "batch-pacha_firts_essential_4_onz-2026-78",
-    "product_id": "pacha_firts_essential_4_onz",
+    "_id": "TIENDA_batch-pacha_firts_essential_4_onz-2026-78",
+    "product_id": "TIENDA_pacha_firts_essential_4_onz",
     "lot_code": "LOT-C6E6CBE5E7",
     "expiration_date": null,
     "purchase_date": null,
@@ -2214,8 +2214,8 @@
     }
   },
   {
-    "_id": "BODEGA-pacha_firts_essential_4_onz-2026-78",
-    "product_id": "pacha_firts_essential_4_onz",
+    "_id": "TIENDA_BODEGA-pacha_firts_essential_4_onz-2026-78",
+    "product_id": "TIENDA_pacha_firts_essential_4_onz",
     "lot_code": "LOT-836FDD5F09",
     "expiration_date": null,
     "purchase_date": null,
@@ -2228,8 +2228,8 @@
     }
   },
   {
-    "_id": "batch-pacha_firts_essential_5_onz-2026-79",
-    "product_id": "pacha_firts_essential_5_onz",
+    "_id": "TIENDA_batch-pacha_firts_essential_5_onz-2026-79",
+    "product_id": "TIENDA_pacha_firts_essential_5_onz",
     "lot_code": "LOT-3561DB81FE",
     "expiration_date": null,
     "purchase_date": null,
@@ -2242,8 +2242,8 @@
     }
   },
   {
-    "_id": "batch-pacha_mum_love_3_onz-2026-80",
-    "product_id": "pacha_mum_love_3_onz",
+    "_id": "TIENDA_batch-pacha_mum_love_3_onz-2026-80",
+    "product_id": "TIENDA_pacha_mum_love_3_onz",
     "lot_code": "LOT-5433C51F1C",
     "expiration_date": null,
     "purchase_date": {
@@ -2258,8 +2258,8 @@
     }
   },
   {
-    "_id": "batch-papillon_bolsa_x_11-2026-81",
-    "product_id": "papillon_bolsa_x_11",
+    "_id": "TIENDA_batch-papillon_bolsa_x_11-2026-81",
+    "product_id": "TIENDA_papillon_bolsa_x_11",
     "lot_code": "LOT-17CCE3F7CE",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -2276,8 +2276,8 @@
     }
   },
   {
-    "_id": "BODEGA-papillon_bolsa_x_11-2026-81",
-    "product_id": "papillon_bolsa_x_11",
+    "_id": "TIENDA_BODEGA-papillon_bolsa_x_11-2026-81",
+    "product_id": "TIENDA_papillon_bolsa_x_11",
     "lot_code": "LOT-67190CCBE1",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -2294,8 +2294,8 @@
     }
   },
   {
-    "_id": "batch-peine_fino-2026-82",
-    "product_id": "peine_fino",
+    "_id": "TIENDA_batch-peine_fino-2026-82",
+    "product_id": "TIENDA_peine_fino",
     "lot_code": "LOT-A9C6F2E5D3",
     "expiration_date": null,
     "purchase_date": {
@@ -2310,8 +2310,8 @@
     }
   },
   {
-    "_id": "batch-picafresas_bolsa_x_100-2026-83",
-    "product_id": "picafresas_bolsa_x_100",
+    "_id": "TIENDA_batch-picafresas_bolsa_x_100-2026-83",
+    "product_id": "TIENDA_picafresas_bolsa_x_100",
     "lot_code": "LOT-A9DE32C812",
     "expiration_date": {
       "$date": "2026-11-01T00:00:00.000Z"
@@ -2328,8 +2328,8 @@
     }
   },
   {
-    "_id": "BODEGA-picafresas_bolsa_x_100-2026-83",
-    "product_id": "picafresas_bolsa_x_100",
+    "_id": "TIENDA_BODEGA-picafresas_bolsa_x_100-2026-83",
+    "product_id": "TIENDA_picafresas_bolsa_x_100",
     "lot_code": "LOT-09A7FB4958",
     "expiration_date": {
       "$date": "2026-11-01T00:00:00.000Z"
@@ -2346,8 +2346,8 @@
     }
   },
   {
-    "_id": "batch-protectores_kotex_x_20-2026-84",
-    "product_id": "protectores_kotex_x_20",
+    "_id": "TIENDA_batch-protectores_kotex_x_20-2026-84",
+    "product_id": "TIENDA_protectores_kotex_x_20",
     "lot_code": "LOT-1B98244019",
     "expiration_date": null,
     "purchase_date": {
@@ -2362,8 +2362,8 @@
     }
   },
   {
-    "_id": "BODEGA-protectores_kotex_x_20-2026-84",
-    "product_id": "protectores_kotex_x_20",
+    "_id": "TIENDA_BODEGA-protectores_kotex_x_20-2026-84",
+    "product_id": "TIENDA_protectores_kotex_x_20",
     "lot_code": "LOT-30DAA423F9",
     "expiration_date": null,
     "purchase_date": {
@@ -2378,8 +2378,8 @@
     }
   },
   {
-    "_id": "batch-rellerindos_mix_bolsa_x_80-2026-85",
-    "product_id": "rellerindos_mix_bolsa_x_80",
+    "_id": "TIENDA_batch-rellerindos_mix_bolsa_x_80-2026-85",
+    "product_id": "TIENDA_rellerindos_mix_bolsa_x_80",
     "lot_code": "LOT-A45D371262",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -2396,8 +2396,8 @@
     }
   },
   {
-    "_id": "BODEGA-rellerindos_mix_bolsa_x_80-2026-85",
-    "product_id": "rellerindos_mix_bolsa_x_80",
+    "_id": "TIENDA_BODEGA-rellerindos_mix_bolsa_x_80-2026-85",
+    "product_id": "TIENDA_rellerindos_mix_bolsa_x_80",
     "lot_code": "LOT-01069F4525",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -2414,8 +2414,8 @@
     }
   },
   {
-    "_id": "batch-ring_pop-2026-86",
-    "product_id": "ring_pop",
+    "_id": "TIENDA_batch-ring_pop-2026-86",
+    "product_id": "TIENDA_ring_pop",
     "lot_code": "LOT-E0A63856FA",
     "expiration_date": null,
     "purchase_date": {
@@ -2430,8 +2430,8 @@
     }
   },
   {
-    "_id": "BODEGA-ring_pop-2026-86",
-    "product_id": "ring_pop",
+    "_id": "TIENDA_BODEGA-ring_pop-2026-86",
+    "product_id": "TIENDA_ring_pop",
     "lot_code": "LOT-A02A1942EF",
     "expiration_date": null,
     "purchase_date": {
@@ -2446,8 +2446,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_415_ml_aclarante-2026-87",
-    "product_id": "shampoo_tio_nacho_415_ml_aclarante",
+    "_id": "TIENDA_batch-shampoo_tio_nacho_415_ml_aclarante-2026-87",
+    "product_id": "TIENDA_shampoo_tio_nacho_415_ml_aclarante",
     "lot_code": "LOT-61A9711AD4",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -2464,8 +2464,8 @@
     }
   },
   {
-    "_id": "BODEGA-shampoo_tio_nacho_415_ml_aclarante-2026-87",
-    "product_id": "shampoo_tio_nacho_415_ml_aclarante",
+    "_id": "TIENDA_BODEGA-shampoo_tio_nacho_415_ml_aclarante-2026-87",
+    "product_id": "TIENDA_shampoo_tio_nacho_415_ml_aclarante",
     "lot_code": "LOT-9B7FBB9DAB",
     "expiration_date": {
       "$date": "2026-10-01T00:00:00.000Z"
@@ -2482,8 +2482,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_415_ml_anti_edad-2026-88",
-    "product_id": "shampoo_tio_nacho_415_ml_anti_edad",
+    "_id": "TIENDA_batch-shampoo_tio_nacho_415_ml_anti_edad-2026-88",
+    "product_id": "TIENDA_shampoo_tio_nacho_415_ml_anti_edad",
     "lot_code": "LOT-F7EE84B2A2",
     "expiration_date": null,
     "purchase_date": {
@@ -2498,8 +2498,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_415_ml_engrosador-2026-89",
-    "product_id": "shampoo_tio_nacho_415_ml_engrosador",
+    "_id": "TIENDA_batch-shampoo_tio_nacho_415_ml_engrosador-2026-89",
+    "product_id": "TIENDA_shampoo_tio_nacho_415_ml_engrosador",
     "lot_code": "LOT-B4AB10F791",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2516,8 +2516,8 @@
     }
   },
   {
-    "_id": "BODEGA-shampoo_tio_nacho_415_ml_engrosador-2026-89",
-    "product_id": "shampoo_tio_nacho_415_ml_engrosador",
+    "_id": "TIENDA_BODEGA-shampoo_tio_nacho_415_ml_engrosador-2026-89",
+    "product_id": "TIENDA_shampoo_tio_nacho_415_ml_engrosador",
     "lot_code": "LOT-AAD5803374",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -2534,8 +2534,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_415_ml_herbolaria-2026-90",
-    "product_id": "shampoo_tio_nacho_415_ml_herbolaria",
+    "_id": "TIENDA_batch-shampoo_tio_nacho_415_ml_herbolaria-2026-90",
+    "product_id": "TIENDA_shampoo_tio_nacho_415_ml_herbolaria",
     "lot_code": "LOT-5F6BC48106",
     "expiration_date": null,
     "purchase_date": {
@@ -2550,8 +2550,8 @@
     }
   },
   {
-    "_id": "BODEGA-shampoo_tio_nacho_415_ml_herbolaria-2026-90",
-    "product_id": "shampoo_tio_nacho_415_ml_herbolaria",
+    "_id": "TIENDA_BODEGA-shampoo_tio_nacho_415_ml_herbolaria-2026-90",
+    "product_id": "TIENDA_shampoo_tio_nacho_415_ml_herbolaria",
     "lot_code": "LOT-5ECA988211",
     "expiration_date": null,
     "purchase_date": {
@@ -2566,8 +2566,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_aloe_415_ml-2026-91",
-    "product_id": "shampoo_tio_nacho_aloe_415_ml",
+    "_id": "TIENDA_batch-shampoo_tio_nacho_aloe_415_ml-2026-91",
+    "product_id": "TIENDA_shampoo_tio_nacho_aloe_415_ml",
     "lot_code": "LOT-4F1C730F59",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -2584,8 +2584,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_coco_415_ml-2026-92",
-    "product_id": "shampoo_tio_nacho_coco_415_ml",
+    "_id": "TIENDA_batch-shampoo_tio_nacho_coco_415_ml-2026-92",
+    "product_id": "TIENDA_shampoo_tio_nacho_coco_415_ml",
     "lot_code": "LOT-24271D69FC",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -2602,8 +2602,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_frutos_rojos_415_ml-2026-93",
-    "product_id": "shampoo_tio_nacho_frutos_rojos_415_ml",
+    "_id": "TIENDA_batch-shampoo_tio_nacho_frutos_rojos_415_ml-2026-93",
+    "product_id": "TIENDA_shampoo_tio_nacho_frutos_rojos_415_ml",
     "lot_code": "LOT-DB76DCA566",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -2620,8 +2620,8 @@
     }
   },
   {
-    "_id": "BODEGA-shampoo_tio_nacho_frutos_rojos_415_ml-2026-93",
-    "product_id": "shampoo_tio_nacho_frutos_rojos_415_ml",
+    "_id": "TIENDA_BODEGA-shampoo_tio_nacho_frutos_rojos_415_ml-2026-93",
+    "product_id": "TIENDA_shampoo_tio_nacho_frutos_rojos_415_ml",
     "lot_code": "LOT-3EA8756183",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -2638,8 +2638,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_ginseng_415_ml-2026-94",
-    "product_id": "shampoo_tio_nacho_ginseng_415_ml",
+    "_id": "TIENDA_batch-shampoo_tio_nacho_ginseng_415_ml-2026-94",
+    "product_id": "TIENDA_shampoo_tio_nacho_ginseng_415_ml",
     "lot_code": "LOT-DE6FA1AABD",
     "expiration_date": {
       "$date": "2000-01-01T00:00:00.000Z"
@@ -2656,8 +2656,8 @@
     }
   },
   {
-    "_id": "batch-shampoo_tio_nacho_purif_cel_madres_415_ml-2026-95",
-    "product_id": "shampoo_tio_nacho_purif_cel_madres_415_ml",
+    "_id": "TIENDA_batch-shampoo_tio_nacho_purif_cel_madres_415_ml-2026-95",
+    "product_id": "TIENDA_shampoo_tio_nacho_purif_cel_madres_415_ml",
     "lot_code": "LOT-2F1657994B",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -2674,8 +2674,8 @@
     }
   },
   {
-    "_id": "batch-splenda_bolsa_de_100-2026-96",
-    "product_id": "splenda_bolsa_de_100",
+    "_id": "TIENDA_batch-splenda_bolsa_de_100-2026-96",
+    "product_id": "TIENDA_splenda_bolsa_de_100",
     "lot_code": "LOT-F84529D073",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -2692,8 +2692,8 @@
     }
   },
   {
-    "_id": "BODEGA-splenda_bolsa_de_100-2026-96",
-    "product_id": "splenda_bolsa_de_100",
+    "_id": "TIENDA_BODEGA-splenda_bolsa_de_100-2026-96",
+    "product_id": "TIENDA_splenda_bolsa_de_100",
     "lot_code": "LOT-D0BC446BA1",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -2710,8 +2710,8 @@
     }
   },
   {
-    "_id": "batch-splenda_bolsa_de_50-2026-97",
-    "product_id": "splenda_bolsa_de_50",
+    "_id": "TIENDA_batch-splenda_bolsa_de_50-2026-97",
+    "product_id": "TIENDA_splenda_bolsa_de_50",
     "lot_code": "LOT-78D51AD524",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -2728,8 +2728,8 @@
     }
   },
   {
-    "_id": "batch-stevia_bolsa_x_100-2026-98",
-    "product_id": "stevia_bolsa_x_100",
+    "_id": "TIENDA_batch-stevia_bolsa_x_100-2026-98",
+    "product_id": "TIENDA_stevia_bolsa_x_100",
     "lot_code": "LOT-73FC4EC811",
     "expiration_date": null,
     "purchase_date": {
@@ -2744,8 +2744,8 @@
     }
   },
   {
-    "_id": "BODEGA-stevia_bolsa_x_100-2026-98",
-    "product_id": "stevia_bolsa_x_100",
+    "_id": "TIENDA_BODEGA-stevia_bolsa_x_100-2026-98",
+    "product_id": "TIENDA_stevia_bolsa_x_100",
     "lot_code": "LOT-C1CB4E810B",
     "expiration_date": null,
     "purchase_date": {
@@ -2760,8 +2760,8 @@
     }
   },
   {
-    "_id": "batch-stevia_bolsa_x_50-2026-99",
-    "product_id": "stevia_bolsa_x_50",
+    "_id": "TIENDA_batch-stevia_bolsa_x_50-2026-99",
+    "product_id": "TIENDA_stevia_bolsa_x_50",
     "lot_code": "LOT-8295071008",
     "expiration_date": null,
     "purchase_date": {
@@ -2776,8 +2776,8 @@
     }
   },
   {
-    "_id": "BODEGA-stevia_bolsa_x_50-2026-99",
-    "product_id": "stevia_bolsa_x_50",
+    "_id": "TIENDA_BODEGA-stevia_bolsa_x_50-2026-99",
+    "product_id": "TIENDA_stevia_bolsa_x_50",
     "lot_code": "LOT-FD4C183783",
     "expiration_date": null,
     "purchase_date": {
@@ -2792,8 +2792,8 @@
     }
   },
   {
-    "_id": "batch-sweetener_bolsa_x_100-2026-100",
-    "product_id": "sweetener_bolsa_x_100",
+    "_id": "TIENDA_batch-sweetener_bolsa_x_100-2026-100",
+    "product_id": "TIENDA_sweetener_bolsa_x_100",
     "lot_code": "LOT-72F223F6E2",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -2810,8 +2810,8 @@
     }
   },
   {
-    "_id": "BODEGA-sweetener_bolsa_x_100-2026-100",
-    "product_id": "sweetener_bolsa_x_100",
+    "_id": "TIENDA_BODEGA-sweetener_bolsa_x_100-2026-100",
+    "product_id": "TIENDA_sweetener_bolsa_x_100",
     "lot_code": "LOT-F0AF8C0AFC",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -2828,8 +2828,8 @@
     }
   },
   {
-    "_id": "batch-sweetener_bolsa_x_50-2026-101",
-    "product_id": "sweetener_bolsa_x_50",
+    "_id": "TIENDA_batch-sweetener_bolsa_x_50-2026-101",
+    "product_id": "TIENDA_sweetener_bolsa_x_50",
     "lot_code": "LOT-8AE7EB5245",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -2846,8 +2846,8 @@
     }
   },
   {
-    "_id": "BODEGA-sweetener_bolsa_x_50-2026-101",
-    "product_id": "sweetener_bolsa_x_50",
+    "_id": "TIENDA_BODEGA-sweetener_bolsa_x_50-2026-101",
+    "product_id": "TIENDA_sweetener_bolsa_x_50",
     "lot_code": "LOT-8E91513B92",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -2864,8 +2864,8 @@
     }
   },
   {
-    "_id": "batch-tintes-2026-102",
-    "product_id": "tintes",
+    "_id": "TIENDA_batch-tintes-2026-102",
+    "product_id": "TIENDA_tintes",
     "lot_code": "LOT-BA0AAF0E28",
     "expiration_date": null,
     "purchase_date": {
@@ -2880,8 +2880,8 @@
     }
   },
   {
-    "_id": "BODEGA-tintes-2026-102",
-    "product_id": "tintes",
+    "_id": "TIENDA_BODEGA-tintes-2026-102",
+    "product_id": "TIENDA_tintes",
     "lot_code": "LOT-A043A22D45",
     "expiration_date": null,
     "purchase_date": {
@@ -2896,8 +2896,8 @@
     }
   },
   {
-    "_id": "batch-toalla_extra_larga_noct_con_alas_x_8-2026-103",
-    "product_id": "toalla_extra_larga_noct_con_alas_x_8",
+    "_id": "TIENDA_batch-toalla_extra_larga_noct_con_alas_x_8-2026-103",
+    "product_id": "TIENDA_toalla_extra_larga_noct_con_alas_x_8",
     "lot_code": "LOT-F98C338111",
     "expiration_date": null,
     "purchase_date": {
@@ -2912,8 +2912,8 @@
     }
   },
   {
-    "_id": "BODEGA-toalla_extra_larga_noct_con_alas_x_8-2026-103",
-    "product_id": "toalla_extra_larga_noct_con_alas_x_8",
+    "_id": "TIENDA_BODEGA-toalla_extra_larga_noct_con_alas_x_8-2026-103",
+    "product_id": "TIENDA_toalla_extra_larga_noct_con_alas_x_8",
     "lot_code": "LOT-F1D3A88801",
     "expiration_date": null,
     "purchase_date": {
@@ -2928,8 +2928,8 @@
     }
   },
   {
-    "_id": "batch-toalla_humeda_family_choice-2026-104",
-    "product_id": "toalla_humeda_family_choice",
+    "_id": "TIENDA_batch-toalla_humeda_family_choice-2026-104",
+    "product_id": "TIENDA_toalla_humeda_family_choice",
     "lot_code": "LOT-B532B7B540",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2946,8 +2946,8 @@
     }
   },
   {
-    "_id": "BODEGA-toalla_humeda_family_choice-2026-104",
-    "product_id": "toalla_humeda_family_choice",
+    "_id": "TIENDA_BODEGA-toalla_humeda_family_choice-2026-104",
+    "product_id": "TIENDA_toalla_humeda_family_choice",
     "lot_code": "LOT-1334B5A497",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -2964,8 +2964,8 @@
     }
   },
   {
-    "_id": "batch-toalla_saba_buenas_noches_8-2026-105",
-    "product_id": "toalla_saba_buenas_noches_8",
+    "_id": "TIENDA_batch-toalla_saba_buenas_noches_8-2026-105",
+    "product_id": "TIENDA_toalla_saba_buenas_noches_8",
     "lot_code": "LOT-110753BC99",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -2982,8 +2982,8 @@
     }
   },
   {
-    "_id": "BODEGA-toalla_saba_buenas_noches_8-2026-105",
-    "product_id": "toalla_saba_buenas_noches_8",
+    "_id": "TIENDA_BODEGA-toalla_saba_buenas_noches_8-2026-105",
+    "product_id": "TIENDA_toalla_saba_buenas_noches_8",
     "lot_code": "LOT-4AB5CE97E4",
     "expiration_date": {
       "$date": "2027-07-01T00:00:00.000Z"
@@ -3000,8 +3000,8 @@
     }
   },
   {
-    "_id": "batch-toalla_saba_ui_dia_caja_x_6_paquete_x_12-2026-106",
-    "product_id": "toalla_saba_ui_dia_caja_x_6_paquete_x_12",
+    "_id": "TIENDA_batch-toalla_saba_ui_dia_caja_x_6_paquete_x_12-2026-106",
+    "product_id": "TIENDA_toalla_saba_ui_dia_caja_x_6_paquete_x_12",
     "lot_code": "LOT-DACB123150",
     "expiration_date": null,
     "purchase_date": {
@@ -3016,8 +3016,8 @@
     }
   },
   {
-    "_id": "BODEGA-toalla_saba_ui_dia_caja_x_6_paquete_x_12-2026-106",
-    "product_id": "toalla_saba_ui_dia_caja_x_6_paquete_x_12",
+    "_id": "TIENDA_BODEGA-toalla_saba_ui_dia_caja_x_6_paquete_x_12-2026-106",
+    "product_id": "TIENDA_toalla_saba_ui_dia_caja_x_6_paquete_x_12",
     "lot_code": "LOT-7BB421DFA7",
     "expiration_date": null,
     "purchase_date": {
@@ -3032,8 +3032,8 @@
     }
   },
   {
-    "_id": "batch-toallas_facial_jaloma_x_100-2026-107",
-    "product_id": "toallas_facial_jaloma_x_100",
+    "_id": "TIENDA_batch-toallas_facial_jaloma_x_100-2026-107",
+    "product_id": "TIENDA_toallas_facial_jaloma_x_100",
     "lot_code": "LOT-478C0A2371",
     "expiration_date": {
       "$date": "2030-05-01T00:00:00.000Z"
@@ -3050,8 +3050,8 @@
     }
   },
   {
-    "_id": "BODEGA-toallas_facial_jaloma_x_100-2026-107",
-    "product_id": "toallas_facial_jaloma_x_100",
+    "_id": "TIENDA_BODEGA-toallas_facial_jaloma_x_100-2026-107",
+    "product_id": "TIENDA_toallas_facial_jaloma_x_100",
     "lot_code": "LOT-D68D01AF0A",
     "expiration_date": {
       "$date": "2030-05-01T00:00:00.000Z"
@@ -3068,8 +3068,8 @@
     }
   },
   {
-    "_id": "batch-toallas_facial_swisspers_x_100-2026-108",
-    "product_id": "toallas_facial_swisspers_x_100",
+    "_id": "TIENDA_batch-toallas_facial_swisspers_x_100-2026-108",
+    "product_id": "TIENDA_toallas_facial_swisspers_x_100",
     "lot_code": "LOT-1CF6309296",
     "expiration_date": null,
     "purchase_date": {
@@ -3084,8 +3084,8 @@
     }
   },
   {
-    "_id": "batch-vaselina_240_grs-2026-109",
-    "product_id": "vaselina_240_grs",
+    "_id": "TIENDA_batch-vaselina_240_grs-2026-109",
+    "product_id": "TIENDA_vaselina_240_grs",
     "lot_code": "LOT-7718E7BF8E",
     "expiration_date": null,
     "purchase_date": {
@@ -3100,8 +3100,8 @@
     }
   },
   {
-    "_id": "batch-vaselina_blanca_bebe_jaloma_60_grs-2026-110",
-    "product_id": "vaselina_blanca_bebe_jaloma_60_grs",
+    "_id": "TIENDA_batch-vaselina_blanca_bebe_jaloma_60_grs-2026-110",
+    "product_id": "TIENDA_vaselina_blanca_bebe_jaloma_60_grs",
     "lot_code": "LOT-A92C7F6EDA",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"

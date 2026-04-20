@@ -1,7 +1,7 @@
 [
   {
-    "_id": "batch-esparadrapo_12-2026-1",
-    "product_id": "esparadrapo_12",
+    "_id": "ROXVEL_batch-esparadrapo_12-2026-1",
+    "product_id": "ROXVEL_esparadrapo_12",
     "lot_code": "LOT-45BFA1DF8E",
     "expiration_date": null,
     "purchase_date": {
@@ -16,8 +16,8 @@
     }
   },
   {
-    "_id": "BODEGA-esparadrapo_12-2026-1",
-    "product_id": "esparadrapo_12",
+    "_id": "ROXVEL_BODEGA-esparadrapo_12-2026-1",
+    "product_id": "ROXVEL_esparadrapo_12",
     "lot_code": "LOT-01B0716C53",
     "expiration_date": null,
     "purchase_date": {
@@ -32,8 +32,8 @@
     }
   },
   {
-    "_id": "batch-esparadrapo_de_1-2026-2",
-    "product_id": "esparadrapo_de_1",
+    "_id": "ROXVEL_batch-esparadrapo_de_1-2026-2",
+    "product_id": "ROXVEL_esparadrapo_de_1",
     "lot_code": "LOT-6D18D3BA8A",
     "expiration_date": null,
     "purchase_date": {
@@ -48,8 +48,8 @@
     }
   },
   {
-    "_id": "BODEGA-esparadrapo_de_1-2026-2",
-    "product_id": "esparadrapo_de_1",
+    "_id": "ROXVEL_BODEGA-esparadrapo_de_1-2026-2",
+    "product_id": "ROXVEL_esparadrapo_de_1",
     "lot_code": "LOT-A3B1088460",
     "expiration_date": null,
     "purchase_date": {
@@ -64,8 +64,8 @@
     }
   },
   {
-    "_id": "batch-hoja_de_bisturi_no_21-2026-3",
-    "product_id": "hoja_de_bisturi_no_21",
+    "_id": "ROXVEL_batch-hoja_de_bisturi_no_21-2026-3",
+    "product_id": "ROXVEL_hoja_de_bisturi_no_21",
     "lot_code": "LOT-EEB7FAB21C",
     "expiration_date": null,
     "purchase_date": {
@@ -80,8 +80,8 @@
     }
   },
   {
-    "_id": "batch-hoja_de_bisturi_no_22-2026-4",
-    "product_id": "hoja_de_bisturi_no_22",
+    "_id": "ROXVEL_batch-hoja_de_bisturi_no_22-2026-4",
+    "product_id": "ROXVEL_hoja_de_bisturi_no_22",
     "lot_code": "LOT-E5FCB48389",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -98,8 +98,8 @@
     }
   },
   {
-    "_id": "batch-hoja_de_bisturi_no_24-2026-5",
-    "product_id": "hoja_de_bisturi_no_24",
+    "_id": "ROXVEL_batch-hoja_de_bisturi_no_24-2026-5",
+    "product_id": "ROXVEL_hoja_de_bisturi_no_24",
     "lot_code": "LOT-165C5A95D1",
     "expiration_date": null,
     "purchase_date": {
@@ -114,8 +114,8 @@
     }
   },
   {
-    "_id": "BODEGA-hoja_de_bisturi_no_24-2026-5",
-    "product_id": "hoja_de_bisturi_no_24",
+    "_id": "ROXVEL_BODEGA-hoja_de_bisturi_no_24-2026-5",
+    "product_id": "ROXVEL_hoja_de_bisturi_no_24",
     "lot_code": "LOT-83CF0B29D0",
     "expiration_date": null,
     "purchase_date": {
@@ -130,8 +130,8 @@
     }
   },
   {
-    "_id": "batch-jeringa_de_20_cc-2026-6",
-    "product_id": "jeringa_de_20_cc",
+    "_id": "ROXVEL_batch-jeringa_de_20_cc-2026-6",
+    "product_id": "ROXVEL_jeringa_de_20_cc",
     "lot_code": "LOT-9F84B40E02",
     "expiration_date": {
       "$date": "2029-09-01T00:00:00.000Z"
@@ -148,8 +148,8 @@
     }
   },
   {
-    "_id": "batch-jeringa_de_50_cc-2026-7",
-    "product_id": "jeringa_de_50_cc",
+    "_id": "ROXVEL_batch-jeringa_de_50_cc-2026-7",
+    "product_id": "ROXVEL_jeringa_de_50_cc",
     "lot_code": "LOT-E18DC29E80",
     "expiration_date": {
       "$date": "2029-09-01T00:00:00.000Z"
@@ -166,8 +166,8 @@
     }
   },
   {
-    "_id": "BODEGA-jeringa_de_50_cc-2026-7",
-    "product_id": "jeringa_de_50_cc",
+    "_id": "ROXVEL_BODEGA-jeringa_de_50_cc-2026-7",
+    "product_id": "ROXVEL_jeringa_de_50_cc",
     "lot_code": "LOT-C30D77DD9E",
     "expiration_date": {
       "$date": "2029-09-01T00:00:00.000Z"
@@ -184,8 +184,8 @@
     }
   },
   {
-    "_id": "batch-ketoc_ketoconazol_ovulos__x_3_u-2026-8",
-    "product_id": "ketoc_ketoconazol_ovulos__x_3_u",
+    "_id": "ROXVEL_batch-ketoc_ketoconazol_ovulos__x_3_u-2026-8",
+    "product_id": "ROXVEL_ketoc_ketoconazol_ovulos__x_3_u",
     "lot_code": "LOT-73E2B32A25",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -202,8 +202,8 @@
     }
   },
   {
-    "_id": "batch-ligadura_para_torniquete-2026-9",
-    "product_id": "ligadura_para_torniquete",
+    "_id": "ROXVEL_batch-ligadura_para_torniquete-2026-9",
+    "product_id": "ROXVEL_ligadura_para_torniquete",
     "lot_code": "LOT-09669F0157",
     "expiration_date": null,
     "purchase_date": {
@@ -218,8 +218,8 @@
     }
   },
   {
-    "_id": "BODEGA-ligadura_para_torniquete-2026-9",
-    "product_id": "ligadura_para_torniquete",
+    "_id": "ROXVEL_BODEGA-ligadura_para_torniquete-2026-9",
+    "product_id": "ROXVEL_ligadura_para_torniquete",
     "lot_code": "LOT-0DB2DFFAF9",
     "expiration_date": null,
     "purchase_date": {
@@ -234,8 +234,8 @@
     }
   },
   {
-    "_id": "batch-methycobal_kit_inyec-2026-10",
-    "product_id": "methycobal_kit_inyec",
+    "_id": "ROXVEL_batch-methycobal_kit_inyec-2026-10",
+    "product_id": "ROXVEL_methycobal_kit_inyec",
     "lot_code": "LOT-22E8FC63D4",
     "expiration_date": {
       "$date": "2028-12-01T00:00:00.000Z"
@@ -252,8 +252,8 @@
     }
   },
   {
-    "_id": "BODEGA-methycobal_kit_inyec-2026-10",
-    "product_id": "methycobal_kit_inyec",
+    "_id": "ROXVEL_BODEGA-methycobal_kit_inyec-2026-10",
+    "product_id": "ROXVEL_methycobal_kit_inyec",
     "lot_code": "LOT-818D2187E8",
     "expiration_date": {
       "$date": "2028-12-01T00:00:00.000Z"
@@ -270,8 +270,8 @@
     }
   },
   {
-    "_id": "batch-perilla_de_hule_saca_mocos_no_1-2026-11",
-    "product_id": "perilla_de_hule_saca_mocos_no_1",
+    "_id": "ROXVEL_batch-perilla_de_hule_saca_mocos_no_1-2026-11",
+    "product_id": "ROXVEL_perilla_de_hule_saca_mocos_no_1",
     "lot_code": "LOT-56F58FB64F",
     "expiration_date": null,
     "purchase_date": {
@@ -286,8 +286,8 @@
     }
   },
   {
-    "_id": "batch-redecilla_negra-2026-12",
-    "product_id": "redecilla_negra",
+    "_id": "ROXVEL_batch-redecilla_negra-2026-12",
+    "product_id": "ROXVEL_redecilla_negra",
     "lot_code": "LOT-19787907D9",
     "expiration_date": null,
     "purchase_date": {
@@ -302,8 +302,8 @@
     }
   },
   {
-    "_id": "batch-rocefort_ceftriaxona_1_gramo-2026-13",
-    "product_id": "rocefort_ceftriaxona_1_gramo",
+    "_id": "ROXVEL_batch-rocefort_ceftriaxona_1_gramo-2026-13",
+    "product_id": "ROXVEL_rocefort_ceftriaxona_1_gramo",
     "lot_code": "LOT-89CDA48985",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -320,8 +320,8 @@
     }
   },
   {
-    "_id": "BODEGA-rocefort_ceftriaxona_1_gramo-2026-13",
-    "product_id": "rocefort_ceftriaxona_1_gramo",
+    "_id": "ROXVEL_BODEGA-rocefort_ceftriaxona_1_gramo-2026-13",
+    "product_id": "ROXVEL_rocefort_ceftriaxona_1_gramo",
     "lot_code": "LOT-9938C993FA",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -338,8 +338,8 @@
     }
   },
   {
-    "_id": "batch-sertal_gotas_20_ml-2026-14",
-    "product_id": "sertal_gotas_20_ml",
+    "_id": "ROXVEL_batch-sertal_gotas_20_ml-2026-14",
+    "product_id": "ROXVEL_sertal_gotas_20_ml",
     "lot_code": "LOT-E305D2022C",
     "expiration_date": {
       "$date": "2029-12-01T00:00:00.000Z"
@@ -356,8 +356,8 @@
     }
   },
   {
-    "_id": "BODEGA-sertal_gotas_20_ml-2026-14",
-    "product_id": "sertal_gotas_20_ml",
+    "_id": "ROXVEL_BODEGA-sertal_gotas_20_ml-2026-14",
+    "product_id": "ROXVEL_sertal_gotas_20_ml",
     "lot_code": "LOT-13A1C86A91",
     "expiration_date": {
       "$date": "2029-12-01T00:00:00.000Z"
@@ -374,8 +374,8 @@
     }
   },
   {
-    "_id": "batch-suero_hidravida_oral__coco_x_30-2026-15",
-    "product_id": "suero_hidravida_oral__coco_x_30",
+    "_id": "ROXVEL_batch-suero_hidravida_oral__coco_x_30-2026-15",
+    "product_id": "ROXVEL_suero_hidravida_oral__coco_x_30",
     "lot_code": "LOT-C274D571FD",
     "expiration_date": {
       "$date": "2029-12-01T00:00:00.000Z"
@@ -392,8 +392,8 @@
     }
   },
   {
-    "_id": "BODEGA-suero_hidravida_oral__coco_x_30-2026-15",
-    "product_id": "suero_hidravida_oral__coco_x_30",
+    "_id": "ROXVEL_BODEGA-suero_hidravida_oral__coco_x_30-2026-15",
+    "product_id": "ROXVEL_suero_hidravida_oral__coco_x_30",
     "lot_code": "LOT-8A0423F974",
     "expiration_date": {
       "$date": "2029-12-01T00:00:00.000Z"
@@ -410,8 +410,8 @@
     }
   },
   {
-    "_id": "batch-suero_hidravida_oral__fresa_x_30-2026-16",
-    "product_id": "suero_hidravida_oral__fresa_x_30",
+    "_id": "ROXVEL_batch-suero_hidravida_oral__fresa_x_30-2026-16",
+    "product_id": "ROXVEL_suero_hidravida_oral__fresa_x_30",
     "lot_code": "LOT-A1CCCFC65D",
     "expiration_date": {
       "$date": "2029-12-01T00:00:00.000Z"
@@ -428,8 +428,8 @@
     }
   },
   {
-    "_id": "BODEGA-suero_hidravida_oral__fresa_x_30-2026-16",
-    "product_id": "suero_hidravida_oral__fresa_x_30",
+    "_id": "ROXVEL_BODEGA-suero_hidravida_oral__fresa_x_30-2026-16",
+    "product_id": "ROXVEL_suero_hidravida_oral__fresa_x_30",
     "lot_code": "LOT-80CE86E64E",
     "expiration_date": {
       "$date": "2029-12-01T00:00:00.000Z"
@@ -446,8 +446,8 @@
     }
   },
   {
-    "_id": "batch-suero_hidravida_oral__naranja_x_30-2026-17",
-    "product_id": "suero_hidravida_oral__naranja_x_30",
+    "_id": "ROXVEL_batch-suero_hidravida_oral__naranja_x_30-2026-17",
+    "product_id": "ROXVEL_suero_hidravida_oral__naranja_x_30",
     "lot_code": "LOT-F811C918A7",
     "expiration_date": {
       "$date": "2029-12-01T00:00:00.000Z"
@@ -464,8 +464,8 @@
     }
   },
   {
-    "_id": "BODEGA-suero_hidravida_oral__naranja_x_30-2026-17",
-    "product_id": "suero_hidravida_oral__naranja_x_30",
+    "_id": "ROXVEL_BODEGA-suero_hidravida_oral__naranja_x_30-2026-17",
+    "product_id": "ROXVEL_suero_hidravida_oral__naranja_x_30",
     "lot_code": "LOT-E6145B1BAF",
     "expiration_date": {
       "$date": "2029-12-01T00:00:00.000Z"
@@ -482,8 +482,8 @@
     }
   },
   {
-    "_id": "batch-sutura_nylon_negra_no_30-2026-18",
-    "product_id": "sutura_nylon_negra_no_30",
+    "_id": "ROXVEL_batch-sutura_nylon_negra_no_30-2026-18",
+    "product_id": "ROXVEL_sutura_nylon_negra_no_30",
     "lot_code": "LOT-9E79ACBF82",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -500,8 +500,8 @@
     }
   },
   {
-    "_id": "batch-sutura_nylon_negro_no_20-2026-19",
-    "product_id": "sutura_nylon_negro_no_20",
+    "_id": "ROXVEL_batch-sutura_nylon_negro_no_20-2026-19",
+    "product_id": "ROXVEL_sutura_nylon_negro_no_20",
     "lot_code": "LOT-67691C075A",
     "expiration_date": null,
     "purchase_date": {
@@ -516,8 +516,8 @@
     }
   },
   {
-    "_id": "batch-sutura_seda_negra_no_30-2026-20",
-    "product_id": "sutura_seda_negra_no_30",
+    "_id": "ROXVEL_batch-sutura_seda_negra_no_30-2026-20",
+    "product_id": "ROXVEL_sutura_seda_negra_no_30",
     "lot_code": "LOT-5B79F6205A",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"

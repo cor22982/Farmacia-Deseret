@@ -1,7 +1,7 @@
 [
   {
-    "_id": "batch-alprazolam_lyverium__05_mg_blist_x_10_tabs-2026-1",
-    "product_id": "alprazolam_lyverium__05_mg_blist_x_10_tabs",
+    "_id": "TFUERTE_batch-alprazolam_lyverium__05_mg_blist_x_10_tabs-2026-1",
+    "product_id": "TFUERTE_alprazolam_lyverium__05_mg_blist_x_10_tabs",
     "lot_code": "LOT-5334125DF6",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -18,8 +18,8 @@
     }
   },
   {
-    "_id": "BODEGA-alprazolam_lyverium__05_mg_blist_x_10_tabs-2026-1",
-    "product_id": "alprazolam_lyverium__05_mg_blist_x_10_tabs",
+    "_id": "TFUERTE_BODEGA-alprazolam_lyverium__05_mg_blist_x_10_tabs-2026-1",
+    "product_id": "TFUERTE_alprazolam_lyverium__05_mg_blist_x_10_tabs",
     "lot_code": "LOT-2A565D9772",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -36,8 +36,8 @@
     }
   },
   {
-    "_id": "batch-brominter_bromazepan_3_mgs_blist_x_20_tabs-2026-2",
-    "product_id": "brominter_bromazepan_3_mgs_blist_x_20_tabs",
+    "_id": "TFUERTE_batch-brominter_bromazepan_3_mgs_blist_x_20_tabs-2026-2",
+    "product_id": "TFUERTE_brominter_bromazepan_3_mgs_blist_x_20_tabs",
     "lot_code": "LOT-ACB0D4BEC0",
     "expiration_date": {
       "$date": "2028-09-01T00:00:00.000Z"
@@ -54,8 +54,8 @@
     }
   },
   {
-    "_id": "batch-clonofax_clonazepan_2_mg_blist_x_20_tab-2026-3",
-    "product_id": "clonofax_clonazepan_2_mg_blist_x_20_tab",
+    "_id": "TFUERTE_batch-clonofax_clonazepan_2_mg_blist_x_20_tab-2026-3",
+    "product_id": "TFUERTE_clonofax_clonazepan_2_mg_blist_x_20_tab",
     "lot_code": "LOT-65B520F3D0",
     "expiration_date": {
       "$date": "2030-02-01T00:00:00.000Z"
@@ -72,8 +72,8 @@
     }
   },
   {
-    "_id": "BODEGA-clonofax_clonazepan_2_mg_blist_x_20_tab-2026-3",
-    "product_id": "clonofax_clonazepan_2_mg_blist_x_20_tab",
+    "_id": "TFUERTE_BODEGA-clonofax_clonazepan_2_mg_blist_x_20_tab-2026-3",
+    "product_id": "TFUERTE_clonofax_clonazepan_2_mg_blist_x_20_tab",
     "lot_code": "LOT-CF4DAE8EA3",
     "expiration_date": {
       "$date": "2030-02-01T00:00:00.000Z"
@@ -90,8 +90,8 @@
     }
   },
   {
-    "_id": "batch-diazepan_10_mgs_mk_blis_x_10_caja_x_100-2026-4",
-    "product_id": "diazepan_10_mgs_mk_blis_x_10_caja_x_100",
+    "_id": "TFUERTE_batch-diazepan_10_mgs_mk_blis_x_10_caja_x_100-2026-4",
+    "product_id": "TFUERTE_diazepan_10_mgs_mk_blis_x_10_caja_x_100",
     "lot_code": "LOT-DEF42FF6F0",
     "expiration_date": {
       "$date": "2027-11-01T00:00:00.000Z"
@@ -108,8 +108,8 @@
     }
   },
   {
-    "_id": "batch-equiliv_2_mg__blist_x_10_tabs_clonazepam-2026-5",
-    "product_id": "equiliv_2_mg__blist_x_10_tabs_clonazepam",
+    "_id": "TFUERTE_batch-equiliv_2_mg__blist_x_10_tabs_clonazepam-2026-5",
+    "product_id": "TFUERTE_equiliv_2_mg__blist_x_10_tabs_clonazepam",
     "lot_code": "LOT-EBEE724827",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -126,8 +126,8 @@
     }
   },
   {
-    "_id": "BODEGA-equiliv_2_mg__blist_x_10_tabs_clonazepam-2026-5",
-    "product_id": "equiliv_2_mg__blist_x_10_tabs_clonazepam",
+    "_id": "TFUERTE_BODEGA-equiliv_2_mg__blist_x_10_tabs_clonazepam-2026-5",
+    "product_id": "TFUERTE_equiliv_2_mg__blist_x_10_tabs_clonazepam",
     "lot_code": "LOT-9434AA6522",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -144,8 +144,8 @@
     }
   },
   {
-    "_id": "batch-equiliv_gotas_10_ml-2026-6",
-    "product_id": "equiliv_gotas_10_ml",
+    "_id": "TFUERTE_batch-equiliv_gotas_10_ml-2026-6",
+    "product_id": "TFUERTE_equiliv_gotas_10_ml",
     "lot_code": "LOT-CDFDCDA8EF",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -162,8 +162,8 @@
     }
   },
   {
-    "_id": "BODEGA-equiliv_gotas_10_ml-2026-6",
-    "product_id": "equiliv_gotas_10_ml",
+    "_id": "TFUERTE_BODEGA-equiliv_gotas_10_ml-2026-6",
+    "product_id": "TFUERTE_equiliv_gotas_10_ml",
     "lot_code": "LOT-BC448B3C9E",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -180,8 +180,8 @@
     }
   },
   {
-    "_id": "batch-escitalopram_10_mgs_blist_x_10_inhiser_med_farma-2026-7",
-    "product_id": "escitalopram_10_mgs_blist_x_10_inhiser_med_farma",
+    "_id": "TFUERTE_batch-escitalopram_10_mgs_blist_x_10_inhiser_med_farma-2026-7",
+    "product_id": "TFUERTE_escitalopram_10_mgs_blist_x_10_inhiser_med_farma",
     "lot_code": "LOT-2DD1654E61",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -198,8 +198,8 @@
     }
   },
   {
-    "_id": "batch-fenobarbital_caja_x_100_blist_x_10-2026-8",
-    "product_id": "fenobarbital_caja_x_100_blist_x_10",
+    "_id": "TFUERTE_batch-fenobarbital_caja_x_100_blist_x_10-2026-8",
+    "product_id": "TFUERTE_fenobarbital_caja_x_100_blist_x_10",
     "lot_code": "LOT-47029D06A5",
     "expiration_date": {
       "$date": "2029-08-01T00:00:00.000Z"
@@ -216,8 +216,8 @@
     }
   },
   {
-    "_id": "BODEGA-fenobarbital_caja_x_100_blist_x_10-2026-8",
-    "product_id": "fenobarbital_caja_x_100_blist_x_10",
+    "_id": "TFUERTE_BODEGA-fenobarbital_caja_x_100_blist_x_10-2026-8",
+    "product_id": "TFUERTE_fenobarbital_caja_x_100_blist_x_10",
     "lot_code": "LOT-AD3B91DAF7",
     "expiration_date": {
       "$date": "2029-08-01T00:00:00.000Z"
@@ -234,8 +234,8 @@
     }
   },
   {
-    "_id": "batch-lorazepan_2_mg_mk_blist_x_10-2026-9",
-    "product_id": "lorazepan_2_mg_mk_blist_x_10",
+    "_id": "TFUERTE_batch-lorazepan_2_mg_mk_blist_x_10-2026-9",
+    "product_id": "TFUERTE_lorazepan_2_mg_mk_blist_x_10",
     "lot_code": "LOT-C81DF54E99",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -252,8 +252,8 @@
     }
   },
   {
-    "_id": "BODEGA-lorazepan_2_mg_mk_blist_x_10-2026-9",
-    "product_id": "lorazepan_2_mg_mk_blist_x_10",
+    "_id": "TFUERTE_BODEGA-lorazepan_2_mg_mk_blist_x_10-2026-9",
+    "product_id": "TFUERTE_lorazepan_2_mg_mk_blist_x_10",
     "lot_code": "LOT-3DC1AE67F8",
     "expiration_date": {
       "$date": "2027-05-01T00:00:00.000Z"
@@ -270,8 +270,8 @@
     }
   },
   {
-    "_id": "batch-paranten_diazepan_10_mg_bist_x_10_caja_x_40-2026-10",
-    "product_id": "paranten_diazepan_10_mg_bist_x_10_caja_x_40",
+    "_id": "TFUERTE_batch-paranten_diazepan_10_mg_bist_x_10_caja_x_40-2026-10",
+    "product_id": "TFUERTE_paranten_diazepan_10_mg_bist_x_10_caja_x_40",
     "lot_code": "LOT-82441143B2",
     "expiration_date": {
       "$date": "2029-04-01T00:00:00.000Z"
@@ -288,8 +288,8 @@
     }
   },
   {
-    "_id": "BODEGA-paranten_diazepan_10_mg_bist_x_10_caja_x_40-2026-10",
-    "product_id": "paranten_diazepan_10_mg_bist_x_10_caja_x_40",
+    "_id": "TFUERTE_BODEGA-paranten_diazepan_10_mg_bist_x_10_caja_x_40-2026-10",
+    "product_id": "TFUERTE_paranten_diazepan_10_mg_bist_x_10_caja_x_40",
     "lot_code": "LOT-4D8DAB6DA8",
     "expiration_date": {
       "$date": "2029-04-01T00:00:00.000Z"
@@ -306,8 +306,8 @@
     }
   },
   {
-    "_id": "batch-sublimex_alprazolam_05_blist_x_20-2026-11",
-    "product_id": "sublimex_alprazolam_05_blist_x_20",
+    "_id": "TFUERTE_batch-sublimex_alprazolam_05_blist_x_20-2026-11",
+    "product_id": "TFUERTE_sublimex_alprazolam_05_blist_x_20",
     "lot_code": "LOT-0D8ABA44DF",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -324,8 +324,8 @@
     }
   },
   {
-    "_id": "BODEGA-sublimex_alprazolam_05_blist_x_20-2026-11",
-    "product_id": "sublimex_alprazolam_05_blist_x_20",
+    "_id": "TFUERTE_BODEGA-sublimex_alprazolam_05_blist_x_20-2026-11",
+    "product_id": "TFUERTE_sublimex_alprazolam_05_blist_x_20",
     "lot_code": "LOT-84DE07856A",
     "expiration_date": {
       "$date": "2029-10-01T00:00:00.000Z"
@@ -342,8 +342,8 @@
     }
   },
   {
-    "_id": "batch-tensil_25_mg_caja_x_40_blist_x_20-2026-12",
-    "product_id": "tensil_25_mg_caja_x_40_blist_x_20",
+    "_id": "TFUERTE_batch-tensil_25_mg_caja_x_40_blist_x_20-2026-12",
+    "product_id": "TFUERTE_tensil_25_mg_caja_x_40_blist_x_20",
     "lot_code": "LOT-00734142E7",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -360,8 +360,8 @@
     }
   },
   {
-    "_id": "BODEGA-tensil_25_mg_caja_x_40_blist_x_20-2026-12",
-    "product_id": "tensil_25_mg_caja_x_40_blist_x_20",
+    "_id": "TFUERTE_BODEGA-tensil_25_mg_caja_x_40_blist_x_20-2026-12",
+    "product_id": "TFUERTE_tensil_25_mg_caja_x_40_blist_x_20",
     "lot_code": "LOT-DA1C389046",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"

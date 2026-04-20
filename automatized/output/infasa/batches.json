@@ -1,7 +1,7 @@
 [
   {
-    "_id": "batch-amoxicilina_500_mg_blister_x_10_caja_x50-2026-1",
-    "product_id": "amoxicilina_500_mg_blister_x_10_caja_x50",
+    "_id": "INFASA_batch-amoxicilina_500_mg_blister_x_10_caja_x50-2026-1",
+    "product_id": "INFASA_amoxicilina_500_mg_blister_x_10_caja_x50",
     "lot_code": "LOT-7C242C0FF8",
     "expiration_date": {
       "$date": "2029-09-01T00:00:00.000Z"
@@ -18,8 +18,8 @@
     }
   },
   {
-    "_id": "batch-arginina_forte_10_amp_bebibles-2026-2",
-    "product_id": "arginina_forte_10_amp_bebibles",
+    "_id": "INFASA_batch-arginina_forte_10_amp_bebibles-2026-2",
+    "product_id": "INFASA_arginina_forte_10_amp_bebibles",
     "lot_code": "LOT-31E1ED82EE",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -36,8 +36,8 @@
     }
   },
   {
-    "_id": "BODEGA-arginina_forte_10_amp_bebibles-2026-2",
-    "product_id": "arginina_forte_10_amp_bebibles",
+    "_id": "INFASA_BODEGA-arginina_forte_10_amp_bebibles-2026-2",
+    "product_id": "INFASA_arginina_forte_10_amp_bebibles",
     "lot_code": "LOT-9DFDF77922",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -54,8 +54,8 @@
     }
   },
   {
-    "_id": "batch-atorvastatina_20_mg_caja_x_30_tab__blist_x_5-2026-3",
-    "product_id": "atorvastatina_20_mg_caja_x_30_tab__blist_x_5",
+    "_id": "INFASA_batch-atorvastatina_20_mg_caja_x_30_tab__blist_x_5-2026-3",
+    "product_id": "INFASA_atorvastatina_20_mg_caja_x_30_tab__blist_x_5",
     "lot_code": "LOT-D16E264556",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -72,8 +72,8 @@
     }
   },
   {
-    "_id": "batch-atorvastatina_40_mg_caja_x_30_tab__blist_x_5-2026-4",
-    "product_id": "atorvastatina_40_mg_caja_x_30_tab__blist_x_5",
+    "_id": "INFASA_batch-atorvastatina_40_mg_caja_x_30_tab__blist_x_5-2026-4",
+    "product_id": "INFASA_atorvastatina_40_mg_caja_x_30_tab__blist_x_5",
     "lot_code": "LOT-6812E9EE46",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -90,8 +90,8 @@
     }
   },
   {
-    "_id": "batch-azitromicina_500_mg_b_x_5_caja_x_30-2026-5",
-    "product_id": "azitromicina_500_mg_b_x_5_caja_x_30",
+    "_id": "INFASA_batch-azitromicina_500_mg_b_x_5_caja_x_30-2026-5",
+    "product_id": "INFASA_azitromicina_500_mg_b_x_5_caja_x_30",
     "lot_code": "LOT-3CD0E76BB5",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -108,8 +108,8 @@
     }
   },
   {
-    "_id": "batch-azitromicina_polvo_susp_200_mg5ml_15ml-2026-6",
-    "product_id": "azitromicina_polvo_susp_200_mg5ml_15ml",
+    "_id": "INFASA_batch-azitromicina_polvo_susp_200_mg5ml_15ml-2026-6",
+    "product_id": "INFASA_azitromicina_polvo_susp_200_mg5ml_15ml",
     "lot_code": "LOT-4F31136108",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -126,8 +126,8 @@
     }
   },
   {
-    "_id": "batch-cefradoxilo_500_mg_cap_caja_x_30_blis_x_10-2026-7",
-    "product_id": "cefradoxilo_500_mg_cap_caja_x_30_blis_x_10",
+    "_id": "INFASA_batch-cefradoxilo_500_mg_cap_caja_x_30_blis_x_10-2026-7",
+    "product_id": "INFASA_cefradoxilo_500_mg_cap_caja_x_30_blis_x_10",
     "lot_code": "LOT-CB74D16C99",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -144,8 +144,8 @@
     }
   },
   {
-    "_id": "BODEGA-cefradoxilo_500_mg_cap_caja_x_30_blis_x_10-2026-7",
-    "product_id": "cefradoxilo_500_mg_cap_caja_x_30_blis_x_10",
+    "_id": "INFASA_BODEGA-cefradoxilo_500_mg_cap_caja_x_30_blis_x_10-2026-7",
+    "product_id": "INFASA_cefradoxilo_500_mg_cap_caja_x_30_blis_x_10",
     "lot_code": "LOT-165FD15520",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -162,8 +162,8 @@
     }
   },
   {
-    "_id": "batch-ciprofloxacina_500_mg_caja_x_60_bl_x_10-2026-8",
-    "product_id": "ciprofloxacina_500_mg_caja_x_60_bl_x_10",
+    "_id": "INFASA_batch-ciprofloxacina_500_mg_caja_x_60_bl_x_10-2026-8",
+    "product_id": "INFASA_ciprofloxacina_500_mg_caja_x_60_bl_x_10",
     "lot_code": "LOT-7BD97DFD82",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -180,8 +180,8 @@
     }
   },
   {
-    "_id": "batch-dextrium_plus_75mg25mg_caja_x_10_dextram-2026-9",
-    "product_id": "dextrium_plus_75mg25mg_caja_x_10_dextram",
+    "_id": "INFASA_batch-dextrium_plus_75mg25mg_caja_x_10_dextram-2026-9",
+    "product_id": "INFASA_dextrium_plus_75mg25mg_caja_x_10_dextram",
     "lot_code": "LOT-62A935D4FF",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -198,8 +198,8 @@
     }
   },
   {
-    "_id": "batch-diclofenaco_gotas_de_15_ml-2026-10",
-    "product_id": "diclofenaco_gotas_de_15_ml",
+    "_id": "INFASA_batch-diclofenaco_gotas_de_15_ml-2026-10",
+    "product_id": "INFASA_diclofenaco_gotas_de_15_ml",
     "lot_code": "LOT-CFA67F06EC",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -216,8 +216,8 @@
     }
   },
   {
-    "_id": "BODEGA-diclofenaco_gotas_de_15_ml-2026-10",
-    "product_id": "diclofenaco_gotas_de_15_ml",
+    "_id": "INFASA_BODEGA-diclofenaco_gotas_de_15_ml-2026-10",
+    "product_id": "INFASA_diclofenaco_gotas_de_15_ml",
     "lot_code": "LOT-F059F96432",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -234,8 +234,8 @@
     }
   },
   {
-    "_id": "batch-dolo_glucoflex_caja_x_15_sobres-2026-11",
-    "product_id": "dolo_glucoflex_caja_x_15_sobres",
+    "_id": "INFASA_batch-dolo_glucoflex_caja_x_15_sobres-2026-11",
+    "product_id": "INFASA_dolo_glucoflex_caja_x_15_sobres",
     "lot_code": "LOT-71795F3C74",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -252,8 +252,8 @@
     }
   },
   {
-    "_id": "BODEGA-dolo_glucoflex_caja_x_15_sobres-2026-11",
-    "product_id": "dolo_glucoflex_caja_x_15_sobres",
+    "_id": "INFASA_BODEGA-dolo_glucoflex_caja_x_15_sobres-2026-11",
+    "product_id": "INFASA_dolo_glucoflex_caja_x_15_sobres",
     "lot_code": "LOT-BC46D5E56B",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -270,8 +270,8 @@
     }
   },
   {
-    "_id": "batch-donadax_caja_x_10_tabs-2026-12",
-    "product_id": "donadax_caja_x_10_tabs",
+    "_id": "INFASA_batch-donadax_caja_x_10_tabs-2026-12",
+    "product_id": "INFASA_donadax_caja_x_10_tabs",
     "lot_code": "LOT-B232B3A461",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -288,8 +288,8 @@
     }
   },
   {
-    "_id": "batch-esogastric_10_mg_caja_x__15_sobres-2026-13",
-    "product_id": "esogastric_10_mg_caja_x__15_sobres",
+    "_id": "INFASA_batch-esogastric_10_mg_caja_x__15_sobres-2026-13",
+    "product_id": "INFASA_esogastric_10_mg_caja_x__15_sobres",
     "lot_code": "LOT-A6E1018037",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -306,8 +306,8 @@
     }
   },
   {
-    "_id": "BODEGA-esogastric_10_mg_caja_x__15_sobres-2026-13",
-    "product_id": "esogastric_10_mg_caja_x__15_sobres",
+    "_id": "INFASA_BODEGA-esogastric_10_mg_caja_x__15_sobres-2026-13",
+    "product_id": "INFASA_esogastric_10_mg_caja_x__15_sobres",
     "lot_code": "LOT-19332061D8",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -324,8 +324,8 @@
     }
   },
   {
-    "_id": "batch-famoxide_40_mg_caja_de_10_comprimidos-2026-14",
-    "product_id": "famoxide_40_mg_caja_de_10_comprimidos",
+    "_id": "INFASA_batch-famoxide_40_mg_caja_de_10_comprimidos-2026-14",
+    "product_id": "INFASA_famoxide_40_mg_caja_de_10_comprimidos",
     "lot_code": "LOT-59921932AA",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -342,8 +342,8 @@
     }
   },
   {
-    "_id": "BODEGA-famoxide_40_mg_caja_de_10_comprimidos-2026-14",
-    "product_id": "famoxide_40_mg_caja_de_10_comprimidos",
+    "_id": "INFASA_BODEGA-famoxide_40_mg_caja_de_10_comprimidos-2026-14",
+    "product_id": "INFASA_famoxide_40_mg_caja_de_10_comprimidos",
     "lot_code": "LOT-C46EDDF78D",
     "expiration_date": {
       "$date": "2027-03-01T00:00:00.000Z"
@@ -360,8 +360,8 @@
     }
   },
   {
-    "_id": "batch-fenitoina_sod_100mg_caja_x__100_caps_blist_x_10-2026-15",
-    "product_id": "fenitoina_sod_100mg_caja_x__100_caps_blist_x_10",
+    "_id": "INFASA_batch-fenitoina_sod_100mg_caja_x__100_caps_blist_x_10-2026-15",
+    "product_id": "INFASA_fenitoina_sod_100mg_caja_x__100_caps_blist_x_10",
     "lot_code": "LOT-91C939B832",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -378,8 +378,8 @@
     }
   },
   {
-    "_id": "BODEGA-fenitoina_sod_100mg_caja_x__100_caps_blist_x_10-2026-15",
-    "product_id": "fenitoina_sod_100mg_caja_x__100_caps_blist_x_10",
+    "_id": "INFASA_BODEGA-fenitoina_sod_100mg_caja_x__100_caps_blist_x_10-2026-15",
+    "product_id": "INFASA_fenitoina_sod_100mg_caja_x__100_caps_blist_x_10",
     "lot_code": "LOT-9410ED8696",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"
@@ -396,8 +396,8 @@
     }
   },
   {
-    "_id": "batch-ferkel_f800_caja_x_30_caps_blist_x_5-2026-16",
-    "product_id": "ferkel_f800_caja_x_30_caps_blist_x_5",
+    "_id": "INFASA_batch-ferkel_f800_caja_x_30_caps_blist_x_5-2026-16",
+    "product_id": "INFASA_ferkel_f800_caja_x_30_caps_blist_x_5",
     "lot_code": "LOT-B55FF430EA",
     "expiration_date": {
       "$date": "2026-09-01T00:00:00.000Z"
@@ -414,8 +414,8 @@
     }
   },
   {
-    "_id": "batch-irs_gotas_de_20_ml-2026-17",
-    "product_id": "irs_gotas_de_20_ml",
+    "_id": "INFASA_batch-irs_gotas_de_20_ml-2026-17",
+    "product_id": "INFASA_irs_gotas_de_20_ml",
     "lot_code": "LOT-77C973A6FC",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -432,8 +432,8 @@
     }
   },
   {
-    "_id": "BODEGA-irs_gotas_de_20_ml-2026-17",
-    "product_id": "irs_gotas_de_20_ml",
+    "_id": "INFASA_BODEGA-irs_gotas_de_20_ml-2026-17",
+    "product_id": "INFASA_irs_gotas_de_20_ml",
     "lot_code": "LOT-E1C79F9192",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -450,8 +450,8 @@
     }
   },
   {
-    "_id": "batch-irs_jarabe_de_120_ml-2026-18",
-    "product_id": "irs_jarabe_de_120_ml",
+    "_id": "INFASA_batch-irs_jarabe_de_120_ml-2026-18",
+    "product_id": "INFASA_irs_jarabe_de_120_ml",
     "lot_code": "LOT-5922C64CCB",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -468,8 +468,8 @@
     }
   },
   {
-    "_id": "BODEGA-irs_jarabe_de_120_ml-2026-18",
-    "product_id": "irs_jarabe_de_120_ml",
+    "_id": "INFASA_BODEGA-irs_jarabe_de_120_ml-2026-18",
+    "product_id": "INFASA_irs_jarabe_de_120_ml",
     "lot_code": "LOT-321F893FD4",
     "expiration_date": {
       "$date": "2028-07-01T00:00:00.000Z"
@@ -486,8 +486,8 @@
     }
   },
   {
-    "_id": "batch-irs_tabelta_blist_x_10_caja_x_20-2026-19",
-    "product_id": "irs_tabelta_blist_x_10_caja_x_20",
+    "_id": "INFASA_batch-irs_tabelta_blist_x_10_caja_x_20-2026-19",
+    "product_id": "INFASA_irs_tabelta_blist_x_10_caja_x_20",
     "lot_code": "LOT-D4148073C3",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -504,8 +504,8 @@
     }
   },
   {
-    "_id": "BODEGA-irs_tabelta_blist_x_10_caja_x_20-2026-19",
-    "product_id": "irs_tabelta_blist_x_10_caja_x_20",
+    "_id": "INFASA_BODEGA-irs_tabelta_blist_x_10_caja_x_20-2026-19",
+    "product_id": "INFASA_irs_tabelta_blist_x_10_caja_x_20",
     "lot_code": "LOT-91565193F7",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -522,8 +522,8 @@
     }
   },
   {
-    "_id": "batch-lansoprazol_30_mg_blist_x_10_caja_x_50___infasa-2026-20",
-    "product_id": "lansoprazol_30_mg_blist_x_10_caja_x_50___infasa",
+    "_id": "INFASA_batch-lansoprazol_30_mg_blist_x_10_caja_x_50___infasa-2026-20",
+    "product_id": "INFASA_lansoprazol_30_mg_blist_x_10_caja_x_50___infasa",
     "lot_code": "LOT-01DA9A7A4F",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -540,8 +540,8 @@
     }
   },
   {
-    "_id": "BODEGA-lansoprazol_30_mg_blist_x_10_caja_x_50___infasa-2026-20",
-    "product_id": "lansoprazol_30_mg_blist_x_10_caja_x_50___infasa",
+    "_id": "INFASA_BODEGA-lansoprazol_30_mg_blist_x_10_caja_x_50___infasa-2026-20",
+    "product_id": "INFASA_lansoprazol_30_mg_blist_x_10_caja_x_50___infasa",
     "lot_code": "LOT-952837E8C8",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -558,8 +558,8 @@
     }
   },
   {
-    "_id": "batch-loratadina_10_mg_blist_x_10_caja_x_100-2026-21",
-    "product_id": "loratadina_10_mg_blist_x_10_caja_x_100",
+    "_id": "INFASA_batch-loratadina_10_mg_blist_x_10_caja_x_100-2026-21",
+    "product_id": "INFASA_loratadina_10_mg_blist_x_10_caja_x_100",
     "lot_code": "LOT-805ACFE686",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -576,8 +576,8 @@
     }
   },
   {
-    "_id": "BODEGA-loratadina_10_mg_blist_x_10_caja_x_100-2026-21",
-    "product_id": "loratadina_10_mg_blist_x_10_caja_x_100",
+    "_id": "INFASA_BODEGA-loratadina_10_mg_blist_x_10_caja_x_100-2026-21",
+    "product_id": "INFASA_loratadina_10_mg_blist_x_10_caja_x_100",
     "lot_code": "LOT-E0666BDD8C",
     "expiration_date": {
       "$date": "2028-02-01T00:00:00.000Z"
@@ -594,8 +594,8 @@
     }
   },
   {
-    "_id": "batch-metfoglib_5005mg_blist_x_10_caja_x_100_infasa-2026-22",
-    "product_id": "metfoglib_5005mg_blist_x_10_caja_x_100_infasa",
+    "_id": "INFASA_batch-metfoglib_5005mg_blist_x_10_caja_x_100_infasa-2026-22",
+    "product_id": "INFASA_metfoglib_5005mg_blist_x_10_caja_x_100_infasa",
     "lot_code": "LOT-53FA616D10",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -612,8 +612,8 @@
     }
   },
   {
-    "_id": "batch-metfoglib_8505mg_blist_x_10_caja_x_100_infasa-2026-23",
-    "product_id": "metfoglib_8505mg_blist_x_10_caja_x_100_infasa",
+    "_id": "INFASA_batch-metfoglib_8505mg_blist_x_10_caja_x_100_infasa-2026-23",
+    "product_id": "INFASA_metfoglib_8505mg_blist_x_10_caja_x_100_infasa",
     "lot_code": "LOT-A8E2B3B4DC",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -630,8 +630,8 @@
     }
   },
   {
-    "_id": "BODEGA-metfoglib_8505mg_blist_x_10_caja_x_100_infasa-2026-23",
-    "product_id": "metfoglib_8505mg_blist_x_10_caja_x_100_infasa",
+    "_id": "INFASA_BODEGA-metfoglib_8505mg_blist_x_10_caja_x_100_infasa-2026-23",
+    "product_id": "INFASA_metfoglib_8505mg_blist_x_10_caja_x_100_infasa",
     "lot_code": "LOT-4BE7972D03",
     "expiration_date": {
       "$date": "2028-10-01T00:00:00.000Z"
@@ -648,8 +648,8 @@
     }
   },
   {
-    "_id": "batch-metformina_1g_blist_x10_tab_caja_x_100_infasa-2026-24",
-    "product_id": "metformina_1g_blist_x10_tab_caja_x_100_infasa",
+    "_id": "INFASA_batch-metformina_1g_blist_x10_tab_caja_x_100_infasa-2026-24",
+    "product_id": "INFASA_metformina_1g_blist_x10_tab_caja_x_100_infasa",
     "lot_code": "LOT-C01DED004A",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -666,8 +666,8 @@
     }
   },
   {
-    "_id": "BODEGA-metformina_1g_blist_x10_tab_caja_x_100_infasa-2026-24",
-    "product_id": "metformina_1g_blist_x10_tab_caja_x_100_infasa",
+    "_id": "INFASA_BODEGA-metformina_1g_blist_x10_tab_caja_x_100_infasa-2026-24",
+    "product_id": "INFASA_metformina_1g_blist_x10_tab_caja_x_100_infasa",
     "lot_code": "LOT-3EF188FDFA",
     "expiration_date": {
       "$date": "2028-08-01T00:00:00.000Z"
@@ -684,8 +684,8 @@
     }
   },
   {
-    "_id": "batch-metocarban_ac_500_mg_blist_x_10_caja_x_30_tab-2026-25",
-    "product_id": "metocarban_ac_500_mg_blist_x_10_caja_x_30_tab",
+    "_id": "INFASA_batch-metocarban_ac_500_mg_blist_x_10_caja_x_30_tab-2026-25",
+    "product_id": "INFASA_metocarban_ac_500_mg_blist_x_10_caja_x_30_tab",
     "lot_code": "LOT-160D51AA77",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -702,8 +702,8 @@
     }
   },
   {
-    "_id": "BODEGA-metocarban_ac_500_mg_blist_x_10_caja_x_30_tab-2026-25",
-    "product_id": "metocarban_ac_500_mg_blist_x_10_caja_x_30_tab",
+    "_id": "INFASA_BODEGA-metocarban_ac_500_mg_blist_x_10_caja_x_30_tab-2026-25",
+    "product_id": "INFASA_metocarban_ac_500_mg_blist_x_10_caja_x_30_tab",
     "lot_code": "LOT-3B7E45269E",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -720,8 +720,8 @@
     }
   },
   {
-    "_id": "batch-neurofortan_blister_x_5_caja_x_60-2026-26",
-    "product_id": "neurofortan_blister_x_5_caja_x_60",
+    "_id": "INFASA_batch-neurofortan_blister_x_5_caja_x_60-2026-26",
+    "product_id": "INFASA_neurofortan_blister_x_5_caja_x_60",
     "lot_code": "LOT-4DC802FC8A",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -738,8 +738,8 @@
     }
   },
   {
-    "_id": "BODEGA-neurofortan_blister_x_5_caja_x_60-2026-26",
-    "product_id": "neurofortan_blister_x_5_caja_x_60",
+    "_id": "INFASA_BODEGA-neurofortan_blister_x_5_caja_x_60-2026-26",
+    "product_id": "INFASA_neurofortan_blister_x_5_caja_x_60",
     "lot_code": "LOT-9455BA60CA",
     "expiration_date": {
       "$date": "2027-10-01T00:00:00.000Z"
@@ -756,8 +756,8 @@
     }
   },
   {
-    "_id": "batch-nutrison_jbe_niños_240_ml-2026-27",
-    "product_id": "nutrison_jbe_niños_240_ml",
+    "_id": "INFASA_batch-nutrison_jbe_niños_240_ml-2026-27",
+    "product_id": "INFASA_nutrison_jbe_niños_240_ml",
     "lot_code": "LOT-5F58D53282",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -774,8 +774,8 @@
     }
   },
   {
-    "_id": "BODEGA-nutrison_jbe_niños_240_ml-2026-27",
-    "product_id": "nutrison_jbe_niños_240_ml",
+    "_id": "INFASA_BODEGA-nutrison_jbe_niños_240_ml-2026-27",
+    "product_id": "INFASA_nutrison_jbe_niños_240_ml",
     "lot_code": "LOT-2DA85D6C36",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -792,8 +792,8 @@
     }
   },
   {
-    "_id": "batch-osmopeg_polvo_caja_x_15_sobres-2026-28",
-    "product_id": "osmopeg_polvo_caja_x_15_sobres",
+    "_id": "INFASA_batch-osmopeg_polvo_caja_x_15_sobres-2026-28",
+    "product_id": "INFASA_osmopeg_polvo_caja_x_15_sobres",
     "lot_code": "LOT-0F130C9F59",
     "expiration_date": {
       "$date": "2027-08-01T00:00:00.000Z"
@@ -810,8 +810,8 @@
     }
   },
   {
-    "_id": "batch-pasinerva_caja_x_30_caps_blister_x_5-2026-29",
-    "product_id": "pasinerva_caja_x_30_caps_blister_x_5",
+    "_id": "INFASA_batch-pasinerva_caja_x_30_caps_blister_x_5-2026-29",
+    "product_id": "INFASA_pasinerva_caja_x_30_caps_blister_x_5",
     "lot_code": "LOT-88CD5B57FA",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -828,8 +828,8 @@
     }
   },
   {
-    "_id": "BODEGA-pasinerva_caja_x_30_caps_blister_x_5-2026-29",
-    "product_id": "pasinerva_caja_x_30_caps_blister_x_5",
+    "_id": "INFASA_BODEGA-pasinerva_caja_x_30_caps_blister_x_5-2026-29",
+    "product_id": "INFASA_pasinerva_caja_x_30_caps_blister_x_5",
     "lot_code": "LOT-71130506C8",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -846,8 +846,8 @@
     }
   },
   {
-    "_id": "batch-paverin_compuesto_caja_x_20_tab_blist_x_5-2026-30",
-    "product_id": "paverin_compuesto_caja_x_20_tab_blist_x_5",
+    "_id": "INFASA_batch-paverin_compuesto_caja_x_20_tab_blist_x_5-2026-30",
+    "product_id": "INFASA_paverin_compuesto_caja_x_20_tab_blist_x_5",
     "lot_code": "LOT-BD28CB41DB",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -864,8 +864,8 @@
     }
   },
   {
-    "_id": "BODEGA-paverin_compuesto_caja_x_20_tab_blist_x_5-2026-30",
-    "product_id": "paverin_compuesto_caja_x_20_tab_blist_x_5",
+    "_id": "INFASA_BODEGA-paverin_compuesto_caja_x_20_tab_blist_x_5-2026-30",
+    "product_id": "INFASA_paverin_compuesto_caja_x_20_tab_blist_x_5",
     "lot_code": "LOT-35F1A5FEB4",
     "expiration_date": {
       "$date": "2027-04-01T00:00:00.000Z"
@@ -882,8 +882,8 @@
     }
   },
   {
-    "_id": "batch-pirex_100_mgs_dispensador_x_12_caja_x_2_tab-2026-31",
-    "product_id": "pirex_100_mgs_dispensador_x_12_caja_x_2_tab",
+    "_id": "INFASA_batch-pirex_100_mgs_dispensador_x_12_caja_x_2_tab-2026-31",
+    "product_id": "INFASA_pirex_100_mgs_dispensador_x_12_caja_x_2_tab",
     "lot_code": "LOT-CC297E5376",
     "expiration_date": {
       "$date": "2029-06-01T00:00:00.000Z"
@@ -900,8 +900,8 @@
     }
   },
   {
-    "_id": "BODEGA-pirex_100_mgs_dispensador_x_12_caja_x_2_tab-2026-31",
-    "product_id": "pirex_100_mgs_dispensador_x_12_caja_x_2_tab",
+    "_id": "INFASA_BODEGA-pirex_100_mgs_dispensador_x_12_caja_x_2_tab-2026-31",
+    "product_id": "INFASA_pirex_100_mgs_dispensador_x_12_caja_x_2_tab",
     "lot_code": "LOT-309DCCB2B6",
     "expiration_date": {
       "$date": "2029-06-01T00:00:00.000Z"
@@ -918,8 +918,8 @@
     }
   },
   {
-    "_id": "batch-vintax_6_mgs_caja_x_2_tab-2026-32",
-    "product_id": "vintax_6_mgs_caja_x_2_tab",
+    "_id": "INFASA_batch-vintax_6_mgs_caja_x_2_tab-2026-32",
+    "product_id": "INFASA_vintax_6_mgs_caja_x_2_tab",
     "lot_code": "LOT-267AFA4E1B",
     "expiration_date": {
       "$date": "2028-01-01T00:00:00.000Z"
@@ -936,8 +936,8 @@
     }
   },
   {
-    "_id": "batch-vitaminas_prenatales_x_100_blist_x_10-2026-33",
-    "product_id": "vitaminas_prenatales_x_100_blist_x_10",
+    "_id": "INFASA_batch-vitaminas_prenatales_x_100_blist_x_10-2026-33",
+    "product_id": "INFASA_vitaminas_prenatales_x_100_blist_x_10",
     "lot_code": "LOT-8BD8255E30",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -954,8 +954,8 @@
     }
   },
   {
-    "_id": "BODEGA-vitaminas_prenatales_x_100_blist_x_10-2026-33",
-    "product_id": "vitaminas_prenatales_x_100_blist_x_10",
+    "_id": "INFASA_BODEGA-vitaminas_prenatales_x_100_blist_x_10-2026-33",
+    "product_id": "INFASA_vitaminas_prenatales_x_100_blist_x_10",
     "lot_code": "LOT-04B8F62A17",
     "expiration_date": {
       "$date": "2026-08-01T00:00:00.000Z"
@@ -972,8 +972,8 @@
     }
   },
   {
-    "_id": "batch-zinc_20_mg_kipp_b_x_10_tab_caja_x_30-2026-34",
-    "product_id": "zinc_20_mg_kipp_b_x_10_tab_caja_x_30",
+    "_id": "INFASA_batch-zinc_20_mg_kipp_b_x_10_tab_caja_x_30-2026-34",
+    "product_id": "INFASA_zinc_20_mg_kipp_b_x_10_tab_caja_x_30",
     "lot_code": "LOT-B7AD2F599B",
     "expiration_date": {
       "$date": "2027-06-01T00:00:00.000Z"

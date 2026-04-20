@@ -1,6 +1,6 @@
 [
   {
-    "_id": "aceite_coco_450_ml",
+    "_id": "TIENDA_aceite_coco_450_ml",
     "name": "ACEITE COCO 450 ML",
     "category": "Suplemento alimenticio",
     "principio_activo": "Aceite de coco",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T08:26:08.949764"
   },
   {
-    "_id": "aceite_de_coco__san_lucas_230__ml",
+    "_id": "TIENDA_aceite_de_coco__san_lucas_230__ml",
     "name": "ACEITE DE COCO  SAN LUCAS 230  ML",
     "category": "Aceite natural",
     "principio_activo": "Aceite de coco",
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T08:26:11.766470"
   },
   {
-    "_id": "acetona_100_ml_darosa",
+    "_id": "TIENDA_acetona_100_ml_darosa",
     "name": "ACETONA 100 ML DAROSA",
     "category": "Solvente y removedor de esmalte",
     "principio_activo": "Acetona",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T08:26:14.373937"
   },
   {
-    "_id": "acetona_60_ml_darosa",
+    "_id": "TIENDA_acetona_60_ml_darosa",
     "name": "ACETONA 60 ML DAROSA",
     "category": "Solvente y removedor de esmalte",
     "principio_activo": "Acetona",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T08:26:16.770322"
   },
   {
-    "_id": "almendra_entera_bolsita",
+    "_id": "TIENDA_almendra_entera_bolsita",
     "name": "ALMENDRA ENTERA BOLSITA",
     "category": "Alimentos y suplementos",
     "principio_activo": "Almendra entera",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T08:26:20.271229"
   },
   {
-    "_id": "almendra_rayada_bolsita",
+    "_id": "TIENDA_almendra_rayada_bolsita",
     "name": "ALMENDRA RAYADA BOLSITA",
     "category": "Producto alimenticio",
     "principio_activo": "Almendra rayada",
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T08:26:23.215614"
   },
   {
-    "_id": "arandanos_bolsa",
+    "_id": "TIENDA_arandanos_bolsa",
     "name": "ARANDANOS BOLSA",
     "category": "Alimentos y suplementos",
     "principio_activo": "Arándanos",
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T08:26:25.978564"
   },
   {
-    "_id": "asepxia_jabon_azufre_100_grs",
+    "_id": "TIENDA_asepxia_jabon_azufre_100_grs",
     "name": "ASEPXIA JABON AZUFRE 100 GRS",
     "category": "Jabón dermatológico",
     "principio_activo": "Azufre",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T08:26:29.776839"
   },
   {
-    "_id": "asepxia_jabon_carbon_100_grs",
+    "_id": "TIENDA_asepxia_jabon_carbon_100_grs",
     "name": "ASEPXIA JABON CARBON 100 GRS",
     "category": "Cuidado de la piel",
     "principio_activo": "Carbón activado",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T08:26:33.201343"
   },
   {
-    "_id": "asepxia_jabon_exfoliante_100_grs",
+    "_id": "TIENDA_asepxia_jabon_exfoliante_100_grs",
     "name": "ASEPXIA JABON EXFOLIANTE 100 GRS",
     "category": "Cuidado de la piel",
     "principio_activo": "Ácido salicílico",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T08:26:35.959745"
   },
   {
-    "_id": "bateria_rayovac_doble_a_x_2",
+    "_id": "TIENDA_bateria_rayovac_doble_a_x_2",
     "name": "BATERIA RAYOVAC DOBLE A X 2",
     "category": "Accesorios y dispositivos",
     "principio_activo": "No aplica",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T08:26:38.393837"
   },
   {
-    "_id": "bateria_rayovac_triple_a_x_6",
+    "_id": "TIENDA_bateria_rayovac_triple_a_x_6",
     "name": "BATERIA RAYOVAC TRIPLE A X 6",
     "category": "Accesorios y dispositivos",
     "principio_activo": "No aplica",
@@ -252,7 +252,7 @@
     "updated_at": "2026-04-20T08:26:48.101243"
   },
   {
-    "_id": "bloqueador_insignis_solar_70_grs",
+    "_id": "TIENDA_bloqueador_insignis_solar_70_grs",
     "name": "BLOQUEADOR INSIGNIS SOLAR 70 GRS",
     "category": "Protector solar",
     "principio_activo": "No especificado",
@@ -273,7 +273,7 @@
     "updated_at": "2026-04-20T08:26:51.081961"
   },
   {
-    "_id": "chicle_bubba_rojo",
+    "_id": "TIENDA_chicle_bubba_rojo",
     "name": "CHICLE BUBBA ROJO",
     "category": "Producto de confitería",
     "principio_activo": "Ninguno",
@@ -294,7 +294,7 @@
     "updated_at": "2026-04-20T08:26:53.506187"
   },
   {
-    "_id": "chicles_trident_canela",
+    "_id": "TIENDA_chicles_trident_canela",
     "name": "CHICLES TRIDENT CANELA",
     "category": "Chicles",
     "principio_activo": "No aplica",
@@ -315,7 +315,7 @@
     "updated_at": "2026-04-20T08:26:56.347465"
   },
   {
-    "_id": "chicles_trident_cool_buble",
+    "_id": "TIENDA_chicles_trident_cool_buble",
     "name": "CHICLES TRIDENT COOL BUBLE",
     "category": "Producto de confitería",
     "principio_activo": "Ninguno",
@@ -336,7 +336,7 @@
     "updated_at": "2026-04-20T08:26:59.107784"
   },
   {
-    "_id": "chicles_trident_fresh_mint",
+    "_id": "TIENDA_chicles_trident_fresh_mint",
     "name": "CHICLES TRIDENT FRESH MINT",
     "category": "Producto de confitería",
     "principio_activo": "Ninguno",
@@ -357,7 +357,7 @@
     "updated_at": "2026-04-20T08:27:01.882261"
   },
   {
-    "_id": "chicles_trident_fruit_mix",
+    "_id": "TIENDA_chicles_trident_fruit_mix",
     "name": "CHICLES TRIDENT FRUIT MIX",
     "category": "Producto de confitería",
     "principio_activo": "Ninguno",
@@ -378,7 +378,7 @@
     "updated_at": "2026-04-20T08:27:04.792589"
   },
   {
-    "_id": "chicles_trident_menta",
+    "_id": "TIENDA_chicles_trident_menta",
     "name": "CHICLES TRIDENT MENTA",
     "category": "Producto de confitería",
     "principio_activo": "Ninguno",
@@ -399,7 +399,7 @@
     "updated_at": "2026-04-20T08:27:07.454785"
   },
   {
-    "_id": "chicles_trident_yerbabuena",
+    "_id": "TIENDA_chicles_trident_yerbabuena",
     "name": "CHICLES TRIDENT YERBABUENA",
     "category": "Chicles",
     "principio_activo": "No aplica",
@@ -420,7 +420,7 @@
     "updated_at": "2026-04-20T08:27:10.468848"
   },
   {
-    "_id": "chispitas_de_chocolates",
+    "_id": "TIENDA_chispitas_de_chocolates",
     "name": "CHISPITAS DE CHOCOLATES",
     "category": "Alimentos",
     "principio_activo": "No aplica",
@@ -441,7 +441,7 @@
     "updated_at": "2026-04-20T08:27:13.020002"
   },
   {
-    "_id": "chocolate_hersheys_blanco_peq",
+    "_id": "TIENDA_chocolate_hersheys_blanco_peq",
     "name": "CHOCOLATE HERSHEYS BLANCO PEQ",
     "category": "Alimentos y Bebidas",
     "principio_activo": "No aplica",
@@ -462,7 +462,7 @@
     "updated_at": "2026-04-20T08:27:15.664358"
   },
   {
-    "_id": "corta_uñas_corona_mediana_caja_x_12",
+    "_id": "TIENDA_corta_uñas_corona_mediana_caja_x_12",
     "name": "CORTA UÑAS CORONA MEDIANA CAJA X 12",
     "category": "Instrumentos de cuidado personal",
     "principio_activo": null,
@@ -483,7 +483,7 @@
     "updated_at": "2026-04-20T08:27:18.191056"
   },
   {
-    "_id": "crema_diabetex__tx_400_ml",
+    "_id": "TIENDA_crema_diabetex__tx_400_ml",
     "name": "CREMA DIABETEX  TX 400 ML",
     "category": "Crema dermatológica",
     "principio_activo": "No especificado",
@@ -504,7 +504,7 @@
     "updated_at": "2026-04-20T08:27:20.780291"
   },
   {
-    "_id": "crema_goicochea_arnica_y_manzanailla_400_ml",
+    "_id": "TIENDA_crema_goicochea_arnica_y_manzanailla_400_ml",
     "name": "CREMA GOICOCHEA ARNICA Y MANZANAILLA 400 ML",
     "category": "Crema antiinflamatoria y analgésica",
     "principio_activo": "Árnica y manzanilla",
@@ -525,7 +525,7 @@
     "updated_at": "2026-04-20T08:27:24.487304"
   },
   {
-    "_id": "crema_goicochea_doble_mentol",
+    "_id": "TIENDA_crema_goicochea_doble_mentol",
     "name": "CREMA GOICOCHEA DOBLE MENTOL",
     "category": "Analgésico tópico",
     "principio_activo": "Mentol",
@@ -546,7 +546,7 @@
     "updated_at": "2026-04-20T08:27:27.028298"
   },
   {
-    "_id": "crema_goicochea_ginko_biloba_400_ml",
+    "_id": "TIENDA_crema_goicochea_ginko_biloba_400_ml",
     "name": "CREMA GOICOCHEA GINKO BILOBA 400 ML",
     "category": "Cosmético / Cuidado de la piel",
     "principio_activo": "Ginkgo Biloba",
@@ -567,7 +567,7 @@
     "updated_at": "2026-04-20T08:27:29.721111"
   },
   {
-    "_id": "crema_goicochea_serum_piel_deshidratada_400_ml",
+    "_id": "TIENDA_crema_goicochea_serum_piel_deshidratada_400_ml",
     "name": "CREMA GOICOCHEA SERUM PIEL DESHIDRATADA 400 ML",
     "category": "Cuidado de la piel",
     "principio_activo": "No especificado",
@@ -588,7 +588,7 @@
     "updated_at": "2026-04-20T08:27:32.096529"
   },
   {
-    "_id": "crema_goicochea_serum_piel_seca_400_ml",
+    "_id": "TIENDA_crema_goicochea_serum_piel_seca_400_ml",
     "name": "CREMA GOICOCHEA SERUM PIEL SECA 400 ML",
     "category": "Cuidado de la piel",
     "principio_activo": "No especificado",
@@ -609,7 +609,7 @@
     "updated_at": "2026-04-20T08:27:34.839731"
   },
   {
-    "_id": "crema_lubriderm_15_lt",
+    "_id": "TIENDA_crema_lubriderm_15_lt",
     "name": "CREMA LUBRIDERM 1.5 LT",
     "category": "Cuidado de la piel",
     "principio_activo": "No especificado",
@@ -630,7 +630,7 @@
     "updated_at": "2026-04-20T08:27:37.895122"
   },
   {
-    "_id": "crema_lubriderm_400_ml_azul",
+    "_id": "TIENDA_crema_lubriderm_400_ml_azul",
     "name": "CREMA LUBRIDERM 400 ML AZUL",
     "category": "Cuidado de la piel",
     "principio_activo": "Glicerina",
@@ -651,7 +651,7 @@
     "updated_at": "2026-04-20T08:27:40.607683"
   },
   {
-    "_id": "crema_lubriderm_400_ml_celeste",
+    "_id": "TIENDA_crema_lubriderm_400_ml_celeste",
     "name": "CREMA LUBRIDERM 400 ML CELESTE",
     "category": "Hidratante corporal",
     "principio_activo": "Glicerina y otros emolientes",
@@ -672,7 +672,7 @@
     "updated_at": "2026-04-20T08:27:43.466822"
   },
   {
-    "_id": "crema_lubriderm_400_ml_dorada",
+    "_id": "TIENDA_crema_lubriderm_400_ml_dorada",
     "name": "CREMA LUBRIDERM 400 ML DORADA",
     "category": "Cuidado de la piel",
     "principio_activo": "No aplica",
@@ -693,7 +693,7 @@
     "updated_at": "2026-04-20T08:27:46.052112"
   },
   {
-    "_id": "crema_lubriderm_400_ml_morada",
+    "_id": "TIENDA_crema_lubriderm_400_ml_morada",
     "name": "CREMA LUBRIDERM 400 ML MORADA",
     "category": "Hidratante corporal",
     "principio_activo": "Glicerina",
@@ -714,7 +714,7 @@
     "updated_at": "2026-04-20T08:27:48.731359"
   },
   {
-    "_id": "crema_lubriderm_750_ml_dorada",
+    "_id": "TIENDA_crema_lubriderm_750_ml_dorada",
     "name": "CREMA LUBRIDERM 750 ML DORADA",
     "category": "Cuidado de la piel",
     "principio_activo": "No especificado",
@@ -735,7 +735,7 @@
     "updated_at": "2026-04-20T08:27:51.162255"
   },
   {
-    "_id": "crema_lubriderm_morada_lt",
+    "_id": "TIENDA_crema_lubriderm_morada_lt",
     "name": "CREMA LUBRIDERM MORADA LT",
     "category": "Hidratante corporal",
     "principio_activo": "Glicerina y otros emolientes",
@@ -756,7 +756,7 @@
     "updated_at": "2026-04-20T08:27:53.995319"
   },
   {
-    "_id": "crema_nivea_400_ml__milk",
+    "_id": "TIENDA_crema_nivea_400_ml__milk",
     "name": "CREMA NIVEA 400 ML  MILK",
     "category": "Cuidado de la piel",
     "principio_activo": "No aplica",
@@ -777,7 +777,7 @@
     "updated_at": "2026-04-20T08:27:57.003855"
   },
   {
-    "_id": "crema_nivea_400_ml_aloe_refrescante",
+    "_id": "TIENDA_crema_nivea_400_ml_aloe_refrescante",
     "name": "CREMA NIVEA 400 ML ALOE REFRESCANTE",
     "category": "Cuidado de la piel",
     "principio_activo": "Aloe vera",
@@ -798,7 +798,7 @@
     "updated_at": "2026-04-20T08:27:59.871658"
   },
   {
-    "_id": "crema_nivea_400_ml_express_hydration",
+    "_id": "TIENDA_crema_nivea_400_ml_express_hydration",
     "name": "CREMA NIVEA 400 ML EXPRESS HYDRATION",
     "category": "Cuidado de la piel",
     "principio_activo": "Glicerina",
@@ -819,7 +819,7 @@
     "updated_at": "2026-04-20T08:28:02.720878"
   },
   {
-    "_id": "crema_nivea_400_ml_regenaracion_intensiva",
+    "_id": "TIENDA_crema_nivea_400_ml_regenaracion_intensiva",
     "name": "CREMA NIVEA 400 ML REGENARACION INTENSIVA",
     "category": "Cuidado de la piel",
     "principio_activo": "No especificado",
@@ -840,7 +840,7 @@
     "updated_at": "2026-04-20T08:28:05.297908"
   },
   {
-    "_id": "crema_nivea_400_ml_soft_milk",
+    "_id": "TIENDA_crema_nivea_400_ml_soft_milk",
     "name": "CREMA NIVEA 400 ML SOFT MILK",
     "category": "Cuidado de la piel",
     "principio_activo": "No aplica",
@@ -861,7 +861,7 @@
     "updated_at": "2026-04-20T08:28:08.190669"
   },
   {
-    "_id": "crema_nivea_400_ml_tono_natural",
+    "_id": "TIENDA_crema_nivea_400_ml_tono_natural",
     "name": "CREMA NIVEA 400 ML TONO NATURAL",
     "category": "Cuidado de la piel",
     "principio_activo": "No aplica",
@@ -882,7 +882,7 @@
     "updated_at": "2026-04-20T08:28:12.621688"
   },
   {
-    "_id": "crema_nivea_latita_20_ml",
+    "_id": "TIENDA_crema_nivea_latita_20_ml",
     "name": "CREMA NIVEA LATITA 20 ML",
     "category": "Cuidado de la piel",
     "principio_activo": "No especificado",
@@ -903,7 +903,7 @@
     "updated_at": "2026-04-20T08:28:15.787482"
   },
   {
-    "_id": "crema_nivea_litro_azul",
+    "_id": "TIENDA_crema_nivea_litro_azul",
     "name": "CREMA NIVEA LITRO AZUL",
     "category": "Cuidado de la piel",
     "principio_activo": "No especificado",
@@ -924,7 +924,7 @@
     "updated_at": "2026-04-20T08:28:18.173212"
   },
   {
-    "_id": "crema_nivea_tarro_400_ml",
+    "_id": "TIENDA_crema_nivea_tarro_400_ml",
     "name": "CREMA NIVEA TARRO 400 ML",
     "category": "Cuidado de la piel",
     "principio_activo": "No aplica",
@@ -945,7 +945,7 @@
     "updated_at": "2026-04-20T08:28:21.255164"
   },
   {
-    "_id": "desodorante_degree_h_76_grs",
+    "_id": "TIENDA_desodorante_degree_h_76_grs",
     "name": "DESODORANTE DEGREE H 76 GRS",
     "category": "Desodorante",
     "principio_activo": "Clorhidrato de aluminio",
@@ -966,7 +966,7 @@
     "updated_at": "2026-04-20T08:28:23.809608"
   },
   {
-    "_id": "desodorante_degree_m_74_grs",
+    "_id": "TIENDA_desodorante_degree_m_74_grs",
     "name": "DESODORANTE DEGREE M 74 GRS",
     "category": "Desodorante",
     "principio_activo": "Aluminio zirconio tetrachlorohydrex gly",
@@ -987,7 +987,7 @@
     "updated_at": "2026-04-20T08:28:26.290835"
   },
   {
-    "_id": "desodorante_dove_barra_m_50_grs",
+    "_id": "TIENDA_desodorante_dove_barra_m_50_grs",
     "name": "DESODORANTE DOVE BARRA M 50 GRS",
     "category": "Desodorante",
     "principio_activo": "No especificado",
@@ -1008,7 +1008,7 @@
     "updated_at": "2026-04-20T08:28:29.278193"
   },
   {
-    "_id": "desodorante_dove_spray_169_ml_granada",
+    "_id": "TIENDA_desodorante_dove_spray_169_ml_granada",
     "name": "DESODORANTE DOVE SPRAY 169 ML GRANADA",
     "category": "Desodorante",
     "principio_activo": "No especificado",
@@ -1029,7 +1029,7 @@
     "updated_at": "2026-04-20T08:28:32.163872"
   },
   {
-    "_id": "desodorante_dove_spray_169_ml_original",
+    "_id": "TIENDA_desodorante_dove_spray_169_ml_original",
     "name": "DESODORANTE DOVE SPRAY 169 ML ORIGINAL",
     "category": "Desodorante",
     "principio_activo": "No especificado",
@@ -1050,7 +1050,7 @@
     "updated_at": "2026-04-20T08:28:37.029247"
   },
   {
-    "_id": "desodorante_nivea_rollon_beauty_touch",
+    "_id": "TIENDA_desodorante_nivea_rollon_beauty_touch",
     "name": "DESODORANTE NIVEA ROLL-ON BEAUTY TOUCH",
     "category": "Desodorante",
     "principio_activo": "Clorhidrato de aluminio",
@@ -1071,7 +1071,7 @@
     "updated_at": "2026-04-20T08:28:39.896786"
   },
   {
-    "_id": "desodorante_nivea_rollon_pearl__beauty",
+    "_id": "TIENDA_desodorante_nivea_rollon_pearl__beauty",
     "name": "DESODORANTE NIVEA ROLL-ON PEARL & BEAUTY",
     "category": "Desodorante",
     "principio_activo": "Clorhidrato de aluminio",
@@ -1092,7 +1092,7 @@
     "updated_at": "2026-04-20T08:28:42.536144"
   },
   {
-    "_id": "desodorante_old_spice_85_grs",
+    "_id": "TIENDA_desodorante_old_spice_85_grs",
     "name": "DESODORANTE OLD SPICE 85 GRS",
     "category": "Desodorante",
     "principio_activo": "No especificado",
@@ -1113,7 +1113,7 @@
     "updated_at": "2026-04-20T08:28:45.188461"
   },
   {
-    "_id": "desodorante_secret_73_grs_mujer",
+    "_id": "TIENDA_desodorante_secret_73_grs_mujer",
     "name": "DESODORANTE SECRET 73 GRS MUJER",
     "category": "Desodorante",
     "principio_activo": "No especificado",
@@ -1134,7 +1134,7 @@
     "updated_at": "2026-04-20T08:28:47.768141"
   },
   {
-    "_id": "dulces_jolly_rancher",
+    "_id": "TIENDA_dulces_jolly_rancher",
     "name": "DULCES JOLLY RANCHER",
     "category": "Confitería",
     "principio_activo": "Ninguno",
@@ -1155,7 +1155,7 @@
     "updated_at": "2026-04-20T08:28:50.638264"
   },
   {
-    "_id": "dulces_menta",
+    "_id": "TIENDA_dulces_menta",
     "name": "DULCES MENTA",
     "category": "Complemento alimenticio",
     "principio_activo": "Mentol",
@@ -1176,7 +1176,7 @@
     "updated_at": "2026-04-20T08:28:53.345458"
   },
   {
-    "_id": "gomitas__bolitas_azucar",
+    "_id": "TIENDA_gomitas__bolitas_azucar",
     "name": "GOMITAS  BOLITAS AZUCAR",
     "category": "Suplemento alimenticio",
     "principio_activo": "No especificado",
@@ -1197,7 +1197,7 @@
     "updated_at": "2026-04-20T08:28:56.051663"
   },
   {
-    "_id": "gomitas__huevitos",
+    "_id": "TIENDA_gomitas__huevitos",
     "name": "GOMITAS  HUEVITOS",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas y minerales",
@@ -1218,7 +1218,7 @@
     "updated_at": "2026-04-20T08:28:59.157128"
   },
   {
-    "_id": "gomitas__mangitos",
+    "_id": "TIENDA_gomitas__mangitos",
     "name": "GOMITAS  MANGITOS",
     "category": "Suplemento alimenticio",
     "principio_activo": "Vitaminas y minerales",
@@ -1239,7 +1239,7 @@
     "updated_at": "2026-04-20T08:29:03.309761"
   },
   {
-    "_id": "gomitas_culebritas",
+    "_id": "TIENDA_gomitas_culebritas",
     "name": "GOMITAS CULEBRITAS",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas y minerales",
@@ -1260,7 +1260,7 @@
     "updated_at": "2026-04-20T08:29:06.374815"
   },
   {
-    "_id": "gomitas_donitas",
+    "_id": "TIENDA_gomitas_donitas",
     "name": "GOMITAS DONITAS",
     "category": "Suplemento alimenticio",
     "principio_activo": "Vitaminas y minerales",
@@ -1281,7 +1281,7 @@
     "updated_at": "2026-04-20T08:29:09.043817"
   },
   {
-    "_id": "gomitas_moritas",
+    "_id": "TIENDA_gomitas_moritas",
     "name": "GOMITAS MORITAS",
     "category": "Suplemento alimenticio",
     "principio_activo": "No especificado",
@@ -1302,7 +1302,7 @@
     "updated_at": "2026-04-20T08:29:11.950386"
   },
   {
-    "_id": "gomitas_moritas_celeste",
+    "_id": "TIENDA_gomitas_moritas_celeste",
     "name": "GOMITAS MORITAS CELESTE",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas y minerales",
@@ -1323,7 +1323,7 @@
     "updated_at": "2026-04-20T08:29:15.670706"
   },
   {
-    "_id": "gomitas_ositos",
+    "_id": "TIENDA_gomitas_ositos",
     "name": "GOMITAS OSITOS",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas y minerales",
@@ -1344,7 +1344,7 @@
     "updated_at": "2026-04-20T08:29:19.057706"
   },
   {
-    "_id": "gomitas_tiburones",
+    "_id": "TIENDA_gomitas_tiburones",
     "name": "GOMITAS TIBURONES",
     "category": "Suplemento alimenticio",
     "principio_activo": "Vitaminas y minerales",
@@ -1365,7 +1365,7 @@
     "updated_at": "2026-04-20T08:29:21.651338"
   },
   {
-    "_id": "hilo_dental_colgate",
+    "_id": "TIENDA_hilo_dental_colgate",
     "name": "HILO DENTAL COLGATE",
     "category": "Higiene bucal",
     "principio_activo": "N/A",
@@ -1386,7 +1386,7 @@
     "updated_at": "2026-04-20T08:29:24.329930"
   },
   {
-    "_id": "hilo_dental_oral_b",
+    "_id": "TIENDA_hilo_dental_oral_b",
     "name": "HILO DENTAL ORAL B",
     "category": "Higiene bucal",
     "principio_activo": "N/A",
@@ -1407,7 +1407,7 @@
     "updated_at": "2026-04-20T08:29:27.015475"
   },
   {
-    "_id": "hisopos_x_100",
+    "_id": "TIENDA_hisopos_x_100",
     "name": "HISOPOS X 100",
     "category": "Material de laboratorio",
     "principio_activo": "No aplica",
@@ -1428,7 +1428,7 @@
     "updated_at": "2026-04-20T08:29:29.542349"
   },
   {
-    "_id": "jabon_dove_135_grs",
+    "_id": "TIENDA_jabon_dove_135_grs",
     "name": "JABON DOVE 135 GRS",
     "category": "Higiene personal",
     "principio_activo": "No aplica",
@@ -1449,7 +1449,7 @@
     "updated_at": "2026-04-20T08:29:32.406104"
   },
   {
-    "_id": "lasar_mimo_tubo_120_grs",
+    "_id": "TIENDA_lasar_mimo_tubo_120_grs",
     "name": "LASAR MIMO TUBO 120 GRS",
     "category": "Medicamento dermatológico",
     "principio_activo": "Miconazol",
@@ -1470,7 +1470,7 @@
     "updated_at": "2026-04-20T08:29:34.879855"
   },
   {
-    "_id": "lima_para_uñas",
+    "_id": "TIENDA_lima_para_uñas",
     "name": "LIMA PARA UÑAS",
     "category": "Cuidado personal",
     "principio_activo": "No aplica",
@@ -1491,7 +1491,7 @@
     "updated_at": "2026-04-20T08:29:37.254888"
   },
   {
-    "_id": "limoncho_120_gramos_caja_x_10",
+    "_id": "TIENDA_limoncho_120_gramos_caja_x_10",
     "name": "LIMONCHO 120 GRAMOS CAJA X 10",
     "category": "Suplemento alimenticio",
     "principio_activo": "Extracto de limoncho",
@@ -1512,7 +1512,7 @@
     "updated_at": "2026-04-20T08:29:40.238097"
   },
   {
-    "_id": "mamon_latex_unidad",
+    "_id": "TIENDA_mamon_latex_unidad",
     "name": "MAMON LATEX UNIDAD",
     "category": "Materiales de laboratorio",
     "principio_activo": "Látex natural",
@@ -1533,7 +1533,7 @@
     "updated_at": "2026-04-20T08:29:42.713370"
   },
   {
-    "_id": "mamon_silicon_unidad",
+    "_id": "TIENDA_mamon_silicon_unidad",
     "name": "MAMON SILICON UNIDAD",
     "category": "Dispositivo médico",
     "principio_activo": "Silicona",
@@ -1554,7 +1554,7 @@
     "updated_at": "2026-04-20T08:29:57.716894"
   },
   {
-    "_id": "nuez_de_nogal",
+    "_id": "TIENDA_nuez_de_nogal",
     "name": "NUEZ DE NOGAL",
     "category": "Suplemento natural",
     "principio_activo": "Juglans regia (Nuez de nogal)",
@@ -1575,7 +1575,7 @@
     "updated_at": "2026-04-20T08:30:00.714468"
   },
   {
-    "_id": "pacha_evenflo__y_baby_farlin_2_onz",
+    "_id": "TIENDA_pacha_evenflo__y_baby_farlin_2_onz",
     "name": "PACHA EVENFLO  Y BABY FARLIN 2 ONZ",
     "category": "Alimentación infantil",
     "principio_activo": "No aplica",
@@ -1596,7 +1596,7 @@
     "updated_at": "2026-04-20T08:30:14.839659"
   },
   {
-    "_id": "pacha_evenflo_8_onz",
+    "_id": "TIENDA_pacha_evenflo_8_onz",
     "name": "PACHA EVENFLO 8 ONZ",
     "category": "Suplemento nutricional",
     "principio_activo": "No especificado",
@@ -1617,7 +1617,7 @@
     "updated_at": "2026-04-20T08:30:17.622065"
   },
   {
-    "_id": "pacha_firts_essential_4_onz",
+    "_id": "TIENDA_pacha_firts_essential_4_onz",
     "name": "PACHA FIRTS ESSENTIAL 4 ONZ",
     "category": "Suplemento alimenticio",
     "principio_activo": "No especificado",
@@ -1638,7 +1638,7 @@
     "updated_at": "2026-04-20T08:30:20.428891"
   },
   {
-    "_id": "pacha_firts_essential_5_onz",
+    "_id": "TIENDA_pacha_firts_essential_5_onz",
     "name": "PACHA FIRTS ESSENTIAL 5 ONZ",
     "category": "Suplemento alimenticio",
     "principio_activo": "No especificado",
@@ -1659,7 +1659,7 @@
     "updated_at": "2026-04-20T08:30:23.113486"
   },
   {
-    "_id": "pacha_mum_love_3_onz",
+    "_id": "TIENDA_pacha_mum_love_3_onz",
     "name": "PACHA MUM LOVE 3 ONZ",
     "category": "Suplemento nutricional",
     "principio_activo": "No especificado",
@@ -1680,7 +1680,7 @@
     "updated_at": "2026-04-20T08:30:26.195491"
   },
   {
-    "_id": "papillon_bolsa_x_11",
+    "_id": "TIENDA_papillon_bolsa_x_11",
     "name": "PAPILLON BOLSA X 11",
     "category": "Producto farmacéutico",
     "principio_activo": "No especificado",
@@ -1701,7 +1701,7 @@
     "updated_at": "2026-04-20T08:30:28.998628"
   },
   {
-    "_id": "peine_fino",
+    "_id": "TIENDA_peine_fino",
     "name": "PEINE FINO",
     "category": "Accesorios para el cuidado personal",
     "principio_activo": "N/A",
@@ -1722,7 +1722,7 @@
     "updated_at": "2026-04-20T08:30:31.903563"
   },
   {
-    "_id": "picafresas_bolsa_x_100",
+    "_id": "TIENDA_picafresas_bolsa_x_100",
     "name": "PICAFRESAS BOLSA X 100",
     "category": "Antihistamínicos",
     "principio_activo": "Clorfeniramina",
@@ -1743,7 +1743,7 @@
     "updated_at": "2026-04-20T08:30:34.709419"
   },
   {
-    "_id": "protectores_kotex_x_20",
+    "_id": "TIENDA_protectores_kotex_x_20",
     "name": "PROTECTORES KOTEX X 20",
     "category": "Productos de higiene femenina",
     "principio_activo": "No aplica",
@@ -1764,7 +1764,7 @@
     "updated_at": "2026-04-20T08:30:37.588929"
   },
   {
-    "_id": "rellerindos_mix_bolsa_x_80",
+    "_id": "TIENDA_rellerindos_mix_bolsa_x_80",
     "name": "RELLERINDOS MIX BOLSA X 80",
     "category": "Suplemento dietético",
     "principio_activo": "Fibra dietética (mezcla de fibras)",
@@ -1785,7 +1785,7 @@
     "updated_at": "2026-04-20T08:30:40.418763"
   },
   {
-    "_id": "ring_pop",
+    "_id": "TIENDA_ring_pop",
     "name": "RING POP",
     "category": "Dulce / Caramelo comestible",
     "principio_activo": "No aplica",
@@ -1806,7 +1806,7 @@
     "updated_at": "2026-04-20T08:30:43.204519"
   },
   {
-    "_id": "shampoo_tio_nacho_415_ml_aclarante",
+    "_id": "TIENDA_shampoo_tio_nacho_415_ml_aclarante",
     "name": "SHAMPOO TIO NACHO 415 ML ACLARANTE",
     "category": "Cuidado personal",
     "principio_activo": "Extracto de hierbas naturales",
@@ -1827,7 +1827,7 @@
     "updated_at": "2026-04-20T08:30:45.767558"
   },
   {
-    "_id": "shampoo_tio_nacho_415_ml_anti_edad",
+    "_id": "TIENDA_shampoo_tio_nacho_415_ml_anti_edad",
     "name": "SHAMPOO TIO NACHO 415 ML ANTI EDAD",
     "category": "Cuidado capilar",
     "principio_activo": "Extracto de sábila y aceite de argán",
@@ -1848,7 +1848,7 @@
     "updated_at": "2026-04-20T08:30:48.659471"
   },
   {
-    "_id": "shampoo_tio_nacho_415_ml_engrosador",
+    "_id": "TIENDA_shampoo_tio_nacho_415_ml_engrosador",
     "name": "SHAMPOO TIO NACHO 415 ML ENGROSADOR",
     "category": "Cuidado capilar",
     "principio_activo": "Extracto de hierbas naturales",
@@ -1869,7 +1869,7 @@
     "updated_at": "2026-04-20T08:30:53.221907"
   },
   {
-    "_id": "shampoo_tio_nacho_415_ml_herbolaria",
+    "_id": "TIENDA_shampoo_tio_nacho_415_ml_herbolaria",
     "name": "SHAMPOO TIO NACHO 415 ML HERBOLARIA",
     "category": "Cuidado personal",
     "principio_activo": "Extractos naturales de hierbas",
@@ -1890,7 +1890,7 @@
     "updated_at": "2026-04-20T08:30:56.035569"
   },
   {
-    "_id": "shampoo_tio_nacho_aloe_415_ml",
+    "_id": "TIENDA_shampoo_tio_nacho_aloe_415_ml",
     "name": "SHAMPOO TIO NACHO ALOE 415 ML",
     "category": "Cuidado personal",
     "principio_activo": "Aloe vera",
@@ -1911,7 +1911,7 @@
     "updated_at": "2026-04-20T08:30:58.487601"
   },
   {
-    "_id": "shampoo_tio_nacho_coco_415_ml",
+    "_id": "TIENDA_shampoo_tio_nacho_coco_415_ml",
     "name": "SHAMPOO TIO NACHO COCO 415 ML",
     "category": "Cuidado capilar",
     "principio_activo": "Extracto de coco",
@@ -1932,7 +1932,7 @@
     "updated_at": "2026-04-20T08:31:01.477952"
   },
   {
-    "_id": "shampoo_tio_nacho_frutos_rojos_415_ml",
+    "_id": "TIENDA_shampoo_tio_nacho_frutos_rojos_415_ml",
     "name": "SHAMPOO TIO NACHO FRUTOS ROJOS 415 ML",
     "category": "Cuidado personal - Shampoo",
     "principio_activo": "Extracto de frutos rojos",
@@ -1953,7 +1953,7 @@
     "updated_at": "2026-04-20T08:31:04.188876"
   },
   {
-    "_id": "shampoo_tio_nacho_ginseng_415_ml",
+    "_id": "TIENDA_shampoo_tio_nacho_ginseng_415_ml",
     "name": "SHAMPOO TIO NACHO GINSENG 415 ML",
     "category": "Cuidado personal - Shampoo",
     "principio_activo": "Ginseng",
@@ -1974,7 +1974,7 @@
     "updated_at": "2026-04-20T08:31:11.765355"
   },
   {
-    "_id": "shampoo_tio_nacho_purif_cel_madres_415_ml",
+    "_id": "TIENDA_shampoo_tio_nacho_purif_cel_madres_415_ml",
     "name": "SHAMPOO TIO NACHO PURIF CEL MADRES 415 ML",
     "category": "Cuidado capilar",
     "principio_activo": "Extracto de hoja de aguacate y extracto de hoja de nogal",
@@ -1995,7 +1995,7 @@
     "updated_at": "2026-04-20T08:31:15.022518"
   },
   {
-    "_id": "splenda_bolsa_de_100",
+    "_id": "TIENDA_splenda_bolsa_de_100",
     "name": "SPLENDA BOLSA DE 100",
     "category": "Edulcorante",
     "principio_activo": "Sucralosa",
@@ -2016,7 +2016,7 @@
     "updated_at": "2026-04-20T08:31:18.404141"
   },
   {
-    "_id": "splenda_bolsa_de_50",
+    "_id": "TIENDA_splenda_bolsa_de_50",
     "name": "SPLENDA BOLSA DE 50",
     "category": "Edulcorante",
     "principio_activo": "Sucralosa",
@@ -2037,7 +2037,7 @@
     "updated_at": "2026-04-20T08:31:21.265838"
   },
   {
-    "_id": "stevia_bolsa_x_100",
+    "_id": "TIENDA_stevia_bolsa_x_100",
     "name": "STEVIA BOLSA X 100",
     "category": "Edulcorante",
     "principio_activo": "Esteviósidos",
@@ -2058,7 +2058,7 @@
     "updated_at": "2026-04-20T08:31:24.274740"
   },
   {
-    "_id": "stevia_bolsa_x_50",
+    "_id": "TIENDA_stevia_bolsa_x_50",
     "name": "STEVIA BOLSA X 50",
     "category": "Edulcorante",
     "principio_activo": "Stevia",
@@ -2079,7 +2079,7 @@
     "updated_at": "2026-04-20T08:31:26.849242"
   },
   {
-    "_id": "sweetener_bolsa_x_100",
+    "_id": "TIENDA_sweetener_bolsa_x_100",
     "name": "SWEETENER BOLSA X 100",
     "category": "Edulcorante",
     "principio_activo": "Sucralosa",
@@ -2100,7 +2100,7 @@
     "updated_at": "2026-04-20T08:31:29.642586"
   },
   {
-    "_id": "sweetener_bolsa_x_50",
+    "_id": "TIENDA_sweetener_bolsa_x_50",
     "name": "SWEETENER BOLSA X 50",
     "category": "Edulcorante",
     "principio_activo": "Sucralosa",
@@ -2121,7 +2121,7 @@
     "updated_at": "2026-04-20T08:31:32.474044"
   },
   {
-    "_id": "tintes",
+    "_id": "TIENDA_tintes",
     "name": "TINTES",
     "category": "Cosméticos y productos para el cuidado personal",
     "principio_activo": "Varía según el tipo de tinte (puede incluir parafenilendiamina, amoníaco, peróxido de hidrógeno, entre otros)",
@@ -2142,7 +2142,7 @@
     "updated_at": "2026-04-20T08:31:35.781111"
   },
   {
-    "_id": "toalla_extra_larga_noct_con_alas_x_8",
+    "_id": "TIENDA_toalla_extra_larga_noct_con_alas_x_8",
     "name": "TOALLA EXTRA LARGA NOCT CON ALAS X 8",
     "category": "Toallas sanitarias",
     "principio_activo": null,
@@ -2163,7 +2163,7 @@
     "updated_at": "2026-04-20T08:31:38.497698"
   },
   {
-    "_id": "toalla_humeda_family_choice",
+    "_id": "TIENDA_toalla_humeda_family_choice",
     "name": "TOALLA HUMEDA FAMILY CHOICE",
     "category": "Higiene personal",
     "principio_activo": "No aplica",
@@ -2184,7 +2184,7 @@
     "updated_at": "2026-04-20T08:31:41.144298"
   },
   {
-    "_id": "toalla_saba_buenas_noches_8",
+    "_id": "TIENDA_toalla_saba_buenas_noches_8",
     "name": "TOALLA SABA BUENAS NOCHES 8",
     "category": "Toallas higiénicas",
     "principio_activo": null,
@@ -2205,7 +2205,7 @@
     "updated_at": "2026-04-20T08:31:43.958756"
   },
   {
-    "_id": "toalla_saba_ui_dia_caja_x_6_paquete_x_12",
+    "_id": "TIENDA_toalla_saba_ui_dia_caja_x_6_paquete_x_12",
     "name": "TOALLA SABA UI DIA CAJA X 6 PAQUETE X 12",
     "category": "Higiene personal",
     "principio_activo": "No aplica",
@@ -2226,7 +2226,7 @@
     "updated_at": "2026-04-20T08:31:46.925483"
   },
   {
-    "_id": "toallas_facial_jaloma_x_100",
+    "_id": "TIENDA_toallas_facial_jaloma_x_100",
     "name": "TOALLAS FACIAL JALOMA X 100",
     "category": "Higiene personal",
     "principio_activo": "N/A",
@@ -2247,7 +2247,7 @@
     "updated_at": "2026-04-20T08:31:49.487984"
   },
   {
-    "_id": "toallas_facial_swisspers_x_100",
+    "_id": "TIENDA_toallas_facial_swisspers_x_100",
     "name": "TOALLAS FACIAL SWISSPERS X 100",
     "category": "Higiene personal",
     "principio_activo": "N/A",
@@ -2268,7 +2268,7 @@
     "updated_at": "2026-04-20T08:31:52.032348"
   },
   {
-    "_id": "vaselina_240_grs",
+    "_id": "TIENDA_vaselina_240_grs",
     "name": "VASELINA 240 GRS",
     "category": "Emoliente y protector cutáneo",
     "principio_activo": "Petrolato (Vaselina)",
@@ -2289,7 +2289,7 @@
     "updated_at": "2026-04-20T08:31:55.353227"
   },
   {
-    "_id": "vaselina_blanca_bebe_jaloma_60_grs",
+    "_id": "TIENDA_vaselina_blanca_bebe_jaloma_60_grs",
     "name": "VASELINA BLANCA BEBE JALOMA 60 GRS",
     "category": "Emoliente y protector cutáneo",
     "principio_activo": "Vaselina blanca",

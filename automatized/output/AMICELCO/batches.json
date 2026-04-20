@@ -1,7 +1,7 @@
 [
   {
-    "_id": "batch-acetaminofen_bayer_500_mg_cj_x_100_blist_x_10-2026-1",
-    "product_id": "acetaminofen_bayer_500_mg_cj_x_100_blist_x_10",
+    "_id": "AMICELCO_batch-acetaminofen_bayer_500_mg_cj_x_100_blist_x_10-2026-1",
+    "product_id": "AMICELCO_acetaminofen_bayer_500_mg_cj_x_100_blist_x_10",
     "lot_code": "LOT-4C416B4AC7",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -18,8 +18,8 @@
     }
   },
   {
-    "_id": "BODEGA-acetaminofen_bayer_500_mg_cj_x_100_blist_x_10-2026-1",
-    "product_id": "acetaminofen_bayer_500_mg_cj_x_100_blist_x_10",
+    "_id": "AMICELCO_BODEGA-acetaminofen_bayer_500_mg_cj_x_100_blist_x_10-2026-1",
+    "product_id": "AMICELCO_acetaminofen_bayer_500_mg_cj_x_100_blist_x_10",
     "lot_code": "LOT-118C88EF0F",
     "expiration_date": {
       "$date": "2027-09-01T00:00:00.000Z"
@@ -36,8 +36,8 @@
     }
   },
   {
-    "_id": "batch-afrin_adulto_spray_nasal_15_ml-2026-2",
-    "product_id": "afrin_adulto_spray_nasal_15_ml",
+    "_id": "AMICELCO_batch-afrin_adulto_spray_nasal_15_ml-2026-2",
+    "product_id": "AMICELCO_afrin_adulto_spray_nasal_15_ml",
     "lot_code": "LOT-3082991396",
     "expiration_date": {
       "$date": "2026-12-01T00:00:00.000Z"
@@ -54,8 +54,8 @@
     }
   },
   {
-    "_id": "batch-agua_esteril_100_ml_aculife-2026-3",
-    "product_id": "agua_esteril_100_ml_aculife",
+    "_id": "AMICELCO_batch-agua_esteril_100_ml_aculife-2026-3",
+    "product_id": "AMICELCO_agua_esteril_100_ml_aculife",
     "lot_code": "LOT-DBE52D2DC2",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -72,8 +72,8 @@
     }
   },
   {
-    "_id": "BODEGA-agua_esteril_100_ml_aculife-2026-3",
-    "product_id": "agua_esteril_100_ml_aculife",
+    "_id": "AMICELCO_BODEGA-agua_esteril_100_ml_aculife-2026-3",
+    "product_id": "AMICELCO_agua_esteril_100_ml_aculife",
     "lot_code": "LOT-0205AADE60",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -90,8 +90,8 @@
     }
   },
   {
-    "_id": "batch-alka_extreme_boost__caja_x_50-2026-4",
-    "product_id": "alka_extreme_boost__caja_x_50",
+    "_id": "AMICELCO_batch-alka_extreme_boost__caja_x_50-2026-4",
+    "product_id": "AMICELCO_alka_extreme_boost__caja_x_50",
     "lot_code": "LOT-18FE7FBD4E",
     "expiration_date": {
       "$date": "2027-12-01T00:00:00.000Z"
@@ -108,8 +108,8 @@
     }
   },
   {
-    "_id": "batch-clarityne_d_caja_x_10_tas-2026-5",
-    "product_id": "clarityne_d_caja_x_10_tas",
+    "_id": "AMICELCO_batch-clarityne_d_caja_x_10_tas-2026-5",
+    "product_id": "AMICELCO_clarityne_d_caja_x_10_tas",
     "lot_code": "LOT-6FBAC1435F",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -126,8 +126,8 @@
     }
   },
   {
-    "_id": "batch-curitas_hansaplast_transparente-2026-6",
-    "product_id": "curitas_hansaplast_transparente",
+    "_id": "AMICELCO_batch-curitas_hansaplast_transparente-2026-6",
+    "product_id": "AMICELCO_curitas_hansaplast_transparente",
     "lot_code": "LOT-8779AD8A7D",
     "expiration_date": null,
     "purchase_date": {
@@ -142,8 +142,8 @@
     }
   },
   {
-    "_id": "batch-jabon_azufre_100_grs-2026-7",
-    "product_id": "jabon_azufre_100_grs",
+    "_id": "AMICELCO_batch-jabon_azufre_100_grs-2026-7",
+    "product_id": "AMICELCO_jabon_azufre_100_grs",
     "lot_code": "LOT-6D3399C85A",
     "expiration_date": null,
     "purchase_date": {
@@ -158,8 +158,8 @@
     }
   },
   {
-    "_id": "BODEGA-jabon_azufre_100_grs-2026-7",
-    "product_id": "jabon_azufre_100_grs",
+    "_id": "AMICELCO_BODEGA-jabon_azufre_100_grs-2026-7",
+    "product_id": "AMICELCO_jabon_azufre_100_grs",
     "lot_code": "LOT-5F499325FA",
     "expiration_date": null,
     "purchase_date": {
@@ -174,8 +174,8 @@
     }
   },
   {
-    "_id": "batch-medidor_de_glucosa_premier_kit-2026-8",
-    "product_id": "medidor_de_glucosa_premier_kit",
+    "_id": "AMICELCO_batch-medidor_de_glucosa_premier_kit-2026-8",
+    "product_id": "AMICELCO_medidor_de_glucosa_premier_kit",
     "lot_code": "LOT-06747FA062",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -192,8 +192,8 @@
     }
   },
   {
-    "_id": "BODEGA-medidor_de_glucosa_premier_kit-2026-8",
-    "product_id": "medidor_de_glucosa_premier_kit",
+    "_id": "AMICELCO_BODEGA-medidor_de_glucosa_premier_kit-2026-8",
+    "product_id": "AMICELCO_medidor_de_glucosa_premier_kit",
     "lot_code": "LOT-0D96AB471E",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -210,8 +210,8 @@
     }
   },
   {
-    "_id": "batch-mydocalma_caja_x_30_blist_x_10_caps-2026-9",
-    "product_id": "mydocalma_caja_x_30_blist_x_10_caps",
+    "_id": "AMICELCO_batch-mydocalma_caja_x_30_blist_x_10_caps-2026-9",
+    "product_id": "AMICELCO_mydocalma_caja_x_30_blist_x_10_caps",
     "lot_code": "LOT-B61B26FD2A",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -228,8 +228,8 @@
     }
   },
   {
-    "_id": "batch-solucion_salina_09_100_ml_aculife-2026-10",
-    "product_id": "solucion_salina_09_100_ml_aculife",
+    "_id": "AMICELCO_batch-solucion_salina_09_100_ml_aculife-2026-10",
+    "product_id": "AMICELCO_solucion_salina_09_100_ml_aculife",
     "lot_code": "LOT-5326199EE8",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -246,8 +246,8 @@
     }
   },
   {
-    "_id": "BODEGA-solucion_salina_09_100_ml_aculife-2026-10",
-    "product_id": "solucion_salina_09_100_ml_aculife",
+    "_id": "AMICELCO_BODEGA-solucion_salina_09_100_ml_aculife-2026-10",
+    "product_id": "AMICELCO_solucion_salina_09_100_ml_aculife",
     "lot_code": "LOT-6F8121756D",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -264,8 +264,8 @@
     }
   },
   {
-    "_id": "batch-solucion_salina_09_1000_ml_aculife-2026-11",
-    "product_id": "solucion_salina_09_1000_ml_aculife",
+    "_id": "AMICELCO_batch-solucion_salina_09_1000_ml_aculife-2026-11",
+    "product_id": "AMICELCO_solucion_salina_09_1000_ml_aculife",
     "lot_code": "LOT-1C1BF33F36",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -282,8 +282,8 @@
     }
   },
   {
-    "_id": "BODEGA-solucion_salina_09_1000_ml_aculife-2026-11",
-    "product_id": "solucion_salina_09_1000_ml_aculife",
+    "_id": "AMICELCO_BODEGA-solucion_salina_09_1000_ml_aculife-2026-11",
+    "product_id": "AMICELCO_solucion_salina_09_1000_ml_aculife",
     "lot_code": "LOT-957CC4526F",
     "expiration_date": {
       "$date": "2028-03-01T00:00:00.000Z"
@@ -300,8 +300,8 @@
     }
   },
   {
-    "_id": "batch-solucion_salina_100_ml_bolsa-2026-12",
-    "product_id": "solucion_salina_100_ml_bolsa",
+    "_id": "AMICELCO_batch-solucion_salina_100_ml_bolsa-2026-12",
+    "product_id": "AMICELCO_solucion_salina_100_ml_bolsa",
     "lot_code": "LOT-6B9A9B375F",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -318,8 +318,8 @@
     }
   },
   {
-    "_id": "BODEGA-solucion_salina_100_ml_bolsa-2026-12",
-    "product_id": "solucion_salina_100_ml_bolsa",
+    "_id": "AMICELCO_BODEGA-solucion_salina_100_ml_bolsa-2026-12",
+    "product_id": "AMICELCO_solucion_salina_100_ml_bolsa",
     "lot_code": "LOT-D864F46652",
     "expiration_date": {
       "$date": "2028-05-01T00:00:00.000Z"
@@ -336,8 +336,8 @@
     }
   },
   {
-    "_id": "batch-tinte_gallo_gris_15_grs-2026-13",
-    "product_id": "tinte_gallo_gris_15_grs",
+    "_id": "AMICELCO_batch-tinte_gallo_gris_15_grs-2026-13",
+    "product_id": "AMICELCO_tinte_gallo_gris_15_grs",
     "lot_code": "LOT-07B96D8E4D",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -354,8 +354,8 @@
     }
   },
   {
-    "_id": "BODEGA-tinte_gallo_gris_15_grs-2026-13",
-    "product_id": "tinte_gallo_gris_15_grs",
+    "_id": "AMICELCO_BODEGA-tinte_gallo_gris_15_grs-2026-13",
+    "product_id": "AMICELCO_tinte_gallo_gris_15_grs",
     "lot_code": "LOT-41DCA039B5",
     "expiration_date": {
       "$date": "2029-07-01T00:00:00.000Z"
@@ -372,8 +372,8 @@
     }
   },
   {
-    "_id": "batch-tinte_gallo_negro_15_grs-2026-14",
-    "product_id": "tinte_gallo_negro_15_grs",
+    "_id": "AMICELCO_batch-tinte_gallo_negro_15_grs-2026-14",
+    "product_id": "AMICELCO_tinte_gallo_negro_15_grs",
     "lot_code": "LOT-5E4906E78A",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -390,8 +390,8 @@
     }
   },
   {
-    "_id": "BODEGA-tinte_gallo_negro_15_grs-2026-14",
-    "product_id": "tinte_gallo_negro_15_grs",
+    "_id": "AMICELCO_BODEGA-tinte_gallo_negro_15_grs-2026-14",
+    "product_id": "AMICELCO_tinte_gallo_negro_15_grs",
     "lot_code": "LOT-B07F8B8887",
     "expiration_date": {
       "$date": "2030-03-01T00:00:00.000Z"
@@ -408,8 +408,8 @@
     }
   },
   {
-    "_id": "batch-trojan_doble_accion_x_3_condones-2026-15",
-    "product_id": "trojan_doble_accion_x_3_condones",
+    "_id": "AMICELCO_batch-trojan_doble_accion_x_3_condones-2026-15",
+    "product_id": "AMICELCO_trojan_doble_accion_x_3_condones",
     "lot_code": "LOT-6CAC316A94",
     "expiration_date": {
       "$date": "2026-07-01T00:00:00.000Z"
@@ -426,8 +426,8 @@
     }
   },
   {
-    "_id": "batch-trojan_piel_desnuda_x_3_condones-2026-16",
-    "product_id": "trojan_piel_desnuda_x_3_condones",
+    "_id": "AMICELCO_batch-trojan_piel_desnuda_x_3_condones-2026-16",
+    "product_id": "AMICELCO_trojan_piel_desnuda_x_3_condones",
     "lot_code": "LOT-12AFD6E670",
     "expiration_date": {
       "$date": "2028-11-01T00:00:00.000Z"
@@ -444,8 +444,8 @@
     }
   },
   {
-    "_id": "batch-trojan_seguridad_x_3_condones-2026-17",
-    "product_id": "trojan_seguridad_x_3_condones",
+    "_id": "AMICELCO_batch-trojan_seguridad_x_3_condones-2026-17",
+    "product_id": "AMICELCO_trojan_seguridad_x_3_condones",
     "lot_code": "LOT-F5D6D2B0DF",
     "expiration_date": {
       "$date": "2027-01-01T00:00:00.000Z"
@@ -462,8 +462,8 @@
     }
   },
   {
-    "_id": "batch-xacto_prueba_de_embarazo-2026-18",
-    "product_id": "xacto_prueba_de_embarazo",
+    "_id": "AMICELCO_batch-xacto_prueba_de_embarazo-2026-18",
+    "product_id": "AMICELCO_xacto_prueba_de_embarazo",
     "lot_code": "LOT-756A75C06D",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"
@@ -480,8 +480,8 @@
     }
   },
   {
-    "_id": "BODEGA-xacto_prueba_de_embarazo-2026-18",
-    "product_id": "xacto_prueba_de_embarazo",
+    "_id": "AMICELCO_BODEGA-xacto_prueba_de_embarazo-2026-18",
+    "product_id": "AMICELCO_xacto_prueba_de_embarazo",
     "lot_code": "LOT-1CC3FAB156",
     "expiration_date": {
       "$date": "2027-02-01T00:00:00.000Z"

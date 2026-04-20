@@ -1,6 +1,6 @@
 [
   {
-    "_id": "aceite_baby_chic_115_ml",
+    "_id": "GENESIS_aceite_baby_chic_115_ml",
     "name": "ACEITE BABY CHIC 115 ML",
     "category": "Cuidado infantil",
     "principio_activo": "No especificado",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T07:07:52.907334"
   },
   {
-    "_id": "aceite_baby_chic_240_ml",
+    "_id": "GENESIS_aceite_baby_chic_240_ml",
     "name": "ACEITE BABY CHIC 240 ML",
     "category": "Cuidado infantil",
     "principio_activo": "Aceite mineral",
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T07:07:55.573176"
   },
   {
-    "_id": "acetaminofen__500_mg_blistr_x_10_caja_x_100",
+    "_id": "GENESIS_acetaminofen__500_mg_blistr_x_10_caja_x_100",
     "name": "ACETAMINOFEN  500 MG BLISTR X 10 CAJA X 100",
     "category": "Analgésico y antipirético",
     "principio_activo": "Acetaminofén",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T07:07:58.401047"
   },
   {
-    "_id": "amoxicilinaclavul_40057_100_ml_pharm_inter",
+    "_id": "GENESIS_amoxicilinaclavul_40057_100_ml_pharm_inter",
     "name": "AMOXICILINA+CLAVUL 400/57 100 ML PHARM INTER",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina y Ácido Clavulánico",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T07:08:02.374132"
   },
   {
-    "_id": "angiocat__18",
+    "_id": "GENESIS_angiocat__18",
     "name": "ANGIOCAT # 18",
     "category": "Catéteres y dispositivos médicos",
     "principio_activo": "No aplica",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T07:08:05.344261"
   },
   {
-    "_id": "angiocat__20",
+    "_id": "GENESIS_angiocat__20",
     "name": "ANGIOCAT # 20",
     "category": "Medicamento cardiovascular",
     "principio_activo": "Nifedipino",
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T07:08:08.309923"
   },
   {
-    "_id": "angiocat__22",
+    "_id": "GENESIS_angiocat__22",
     "name": "ANGIOCAT # 22",
     "category": "Medicamento cardiovascular",
     "principio_activo": "No especificado",
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T07:08:11.586963"
   },
   {
-    "_id": "angiocat__24",
+    "_id": "GENESIS_angiocat__24",
     "name": "ANGIOCAT # 24",
     "category": "Medicamento cardiovascular",
     "principio_activo": "Amlodipino",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T07:08:14.535061"
   },
   {
-    "_id": "arco_cort_40mg_kit",
+    "_id": "GENESIS_arco_cort_40mg_kit",
     "name": "ARCO CORT 40MG KIT",
     "category": "Corticosteroides",
     "principio_activo": "Prednisona",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T07:08:17.256347"
   },
   {
-    "_id": "arket_ketoprofeno_bolsa_con_7_parches",
+    "_id": "GENESIS_arket_ketoprofeno_bolsa_con_7_parches",
     "name": "ARKET KETOPROFENO BOLSA CON 7 PARCHES",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Ketoprofeno",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T07:08:19.834372"
   },
   {
-    "_id": "arnica_gel_120_ml",
+    "_id": "GENESIS_arnica_gel_120_ml",
     "name": "ARNICA GEL 120 ML",
     "category": "Analgésicos y antiinflamatorios tópicos",
     "principio_activo": "Árnica montana",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T07:08:22.646706"
   },
   {
-    "_id": "avamigran_blister_x_10",
+    "_id": "GENESIS_avamigran_blister_x_10",
     "name": "AVAMIGRAN BLISTER X 10",
     "category": "Analgésicos y Antimigrañosos",
     "principio_activo": "Acetaminofén y Cafeína",
@@ -252,7 +252,7 @@
     "updated_at": "2026-04-20T07:08:25.782958"
   },
   {
-    "_id": "azitromicina_500_mg_caja_x_3_tab",
+    "_id": "GENESIS_azitromicina_500_mg_caja_x_3_tab",
     "name": "AZITROMICINA 500 MG CAJA X 3 TAB",
     "category": "Antibiótico",
     "principio_activo": "Azitromicina",
@@ -273,7 +273,7 @@
     "updated_at": "2026-04-20T07:08:28.431591"
   },
   {
-    "_id": "bactid_spray_topico_30_ml",
+    "_id": "GENESIS_bactid_spray_topico_30_ml",
     "name": "BACTID SPRAY TOPICO 30 ML",
     "category": "Antiséptico tópico",
     "principio_activo": "Clorhexidina",
@@ -294,7 +294,7 @@
     "updated_at": "2026-04-20T07:08:31.826653"
   },
   {
-    "_id": "betablock_05_mg_betametasona_caja_x_30",
+    "_id": "GENESIS_betablock_05_mg_betametasona_caja_x_30",
     "name": "BETABLOCK 0.5 MG BETAMETASONA CAJA X 30",
     "category": "Corticosteroides",
     "principio_activo": "Betametasona",
@@ -315,7 +315,7 @@
     "updated_at": "2026-04-20T07:08:34.751976"
   },
   {
-    "_id": "bifonazol_gotas_topicas_15_ml",
+    "_id": "GENESIS_bifonazol_gotas_topicas_15_ml",
     "name": "BIFONAZOL GOTAS TOPICAS 15 ML",
     "category": "Antifúngico tópico",
     "principio_activo": "Bifonazol",
@@ -336,7 +336,7 @@
     "updated_at": "2026-04-20T07:08:43.462362"
   },
   {
-    "_id": "binotal_ampicilina_1000mg_blister_x_6",
+    "_id": "GENESIS_binotal_ampicilina_1000mg_blister_x_6",
     "name": "BINOTAL (AMPICILINA) 1000MG BLISTER X 6",
     "category": "Antibiótico",
     "principio_activo": "Ampicilina",
@@ -357,7 +357,7 @@
     "updated_at": "2026-04-20T07:08:46.325483"
   },
   {
-    "_id": "bromhexina_caplin_jarabe_120_ml",
+    "_id": "GENESIS_bromhexina_caplin_jarabe_120_ml",
     "name": "BROMHEXINA CAPLIN JARABE 120 ML",
     "category": "Expectorante",
     "principio_activo": "Bromhexina",
@@ -378,7 +378,7 @@
     "updated_at": "2026-04-20T07:08:48.895475"
   },
   {
-    "_id": "budesonida_spray_200_mcg_porfonsa_y_caplin",
+    "_id": "GENESIS_budesonida_spray_200_mcg_porfonsa_y_caplin",
     "name": "BUDESONIDA SPRAY 200 MCG PORFONSA Y CAPLIN",
     "category": "Corticosteroides inhalados",
     "principio_activo": "Budesonida",
@@ -399,7 +399,7 @@
     "updated_at": "2026-04-20T07:08:52.116993"
   },
   {
-    "_id": "ceftriaxona_1g_kit__caplin",
+    "_id": "GENESIS_ceftriaxona_1g_kit__caplin",
     "name": "CEFTRIAXONA 1G KIT  CAPLIN",
     "category": "Antibiótico",
     "principio_activo": "Ceftriaxona",
@@ -420,7 +420,7 @@
     "updated_at": "2026-04-20T07:08:55.672886"
   },
   {
-    "_id": "ceftriaxona_1g_kit_balaxi",
+    "_id": "GENESIS_ceftriaxona_1g_kit_balaxi",
     "name": "CEFTRIAXONA 1G KIT BALAXI",
     "category": "Antibiótico",
     "principio_activo": "Ceftriaxona",
@@ -441,7 +441,7 @@
     "updated_at": "2026-04-20T07:08:58.826807"
   },
   {
-    "_id": "chupon_con_miel_paquete_x_2_piezas_jaloma",
+    "_id": "GENESIS_chupon_con_miel_paquete_x_2_piezas_jaloma",
     "name": "CHUPON CON MIEL PAQUETE X 2 PIEZAS JALOMA",
     "category": "Producto para el alivio de la tos y la irritación de garganta",
     "principio_activo": "Miel",
@@ -462,7 +462,7 @@
     "updated_at": "2026-04-20T07:09:01.484030"
   },
   {
-    "_id": "claritromicina_500_mgs_blist_x_10_balaxi",
+    "_id": "GENESIS_claritromicina_500_mgs_blist_x_10_balaxi",
     "name": "CLARITROMICINA 500 MGS BLIST X 10 BALAXI",
     "category": "Antibiótico",
     "principio_activo": "Claritromicina",
@@ -483,7 +483,7 @@
     "updated_at": "2026-04-20T07:09:04.549948"
   },
   {
-    "_id": "conka_elixir_240_ml_gluconato_de_potasio",
+    "_id": "GENESIS_conka_elixir_240_ml_gluconato_de_potasio",
     "name": "CON-KA ELIXIR 240 ML GLUCONATO DE POTASIO",
     "category": "Suplemento mineral",
     "principio_activo": "Gluconato de potasio",
@@ -504,7 +504,7 @@
     "updated_at": "2026-04-20T07:09:08.186526"
   },
   {
-    "_id": "cyclonor_nordic_anticoncep_mensual_vijosa",
+    "_id": "GENESIS_cyclonor_nordic_anticoncep_mensual_vijosa",
     "name": "CYCLONOR NORDIC ANTICONCEP. MENSUAL VIJOSA",
     "category": "Anticonceptivos",
     "principio_activo": "Noretisterona y Etinilestradiol",
@@ -525,7 +525,7 @@
     "updated_at": "2026-04-20T07:09:11.034318"
   },
   {
-    "_id": "dearexin_400_mg_nifuroxazida_blis_x_4_caja_x_8_tab",
+    "_id": "GENESIS_dearexin_400_mg_nifuroxazida_blis_x_4_caja_x_8_tab",
     "name": "DEAREXIN 400 MG (NIFUROXAZIDA) BLIS X 4 CAJA X 8 TAB",
     "category": "Antibiótico",
     "principio_activo": "Nifuroxazida",
@@ -546,7 +546,7 @@
     "updated_at": "2026-04-20T07:09:14.006248"
   },
   {
-    "_id": "dearexin_suspensión_120_ml",
+    "_id": "GENESIS_dearexin_suspensión_120_ml",
     "name": "DEAREXIN SUSPENSIÓN 120 ML",
     "category": "Antibiótico",
     "principio_activo": "Claritromicina",
@@ -567,7 +567,7 @@
     "updated_at": "2026-04-20T07:09:17.470035"
   },
   {
-    "_id": "delrect_crema_rectal_phem_30_grs_caplin",
+    "_id": "GENESIS_delrect_crema_rectal_phem_30_grs_caplin",
     "name": "DELRECT (CREMA RECTAL P/HEM 30 GRS CAPLIN)",
     "category": "Crema rectal para hemorroides",
     "principio_activo": "No especificado",
@@ -588,7 +588,7 @@
     "updated_at": "2026-04-20T07:09:20.080551"
   },
   {
-    "_id": "dexavitanervo_kit_ampolla",
+    "_id": "GENESIS_dexavitanervo_kit_ampolla",
     "name": "DEXAVITANERVO KIT AMPOLLA",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas del complejo B (B1, B6, B12)",
@@ -609,7 +609,7 @@
     "updated_at": "2026-04-20T07:09:22.884775"
   },
   {
-    "_id": "enantyum_25_mg_solucion_oral_10_ml",
+    "_id": "GENESIS_enantyum_25_mg_solucion_oral_10_ml",
     "name": "ENANTYUM 25 MG SOLUCION ORAL 10 ML",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Dexketoprofeno trometamol",
@@ -630,7 +630,7 @@
     "updated_at": "2026-04-20T07:09:26.269405"
   },
   {
-    "_id": "enziflat_enzimas_blist_x_10_caja_x_120_tabs",
+    "_id": "GENESIS_enziflat_enzimas_blist_x_10_caja_x_120_tabs",
     "name": "ENZIFLAT (ENZIMAS) BLIST X 10 CAJA X 120 TABS",
     "category": "Digestivos",
     "principio_activo": "Enzimas digestivas",
@@ -651,7 +651,7 @@
     "updated_at": "2026-04-20T07:09:29.114957"
   },
   {
-    "_id": "erbitrax_t_terbinafina_250_mg_cja_x_28_blist_x_7",
+    "_id": "GENESIS_erbitrax_t_terbinafina_250_mg_cja_x_28_blist_x_7",
     "name": "ERBITRAX -T TERBINAFINA 250 MG CJA X 28 BLIST X 7",
     "category": "Antifúngico",
     "principio_activo": "Terbinafina",
@@ -672,7 +672,7 @@
     "updated_at": "2026-04-20T07:09:32.159327"
   },
   {
-    "_id": "erbitrax_t_terbinafina_ungüento",
+    "_id": "GENESIS_erbitrax_t_terbinafina_ungüento",
     "name": "ERBITRAX -T TERBINAFINA UNGÜENTO",
     "category": "Antifúngicos tópicos",
     "principio_activo": "Terbinafina",
@@ -693,7 +693,7 @@
     "updated_at": "2026-04-20T07:09:34.924637"
   },
   {
-    "_id": "expectorante_compuesto_lancasco_120_ml",
+    "_id": "GENESIS_expectorante_compuesto_lancasco_120_ml",
     "name": "EXPECTORANTE COMPUESTO LANCASCO 120 ML",
     "category": "Expectorante",
     "principio_activo": "Guaifenesina",
@@ -714,7 +714,7 @@
     "updated_at": "2026-04-20T07:09:37.405277"
   },
   {
-    "_id": "farlaborin_pharland",
+    "_id": "GENESIS_farlaborin_pharland",
     "name": "FARLABORIN PHARLAND",
     "category": "Desconocida",
     "principio_activo": "Desconocido",
@@ -735,7 +735,7 @@
     "updated_at": "2026-04-20T07:09:39.980385"
   },
   {
-    "_id": "gabapentina_400_mg_balaxi_caja_x100_blist_x_10",
+    "_id": "GENESIS_gabapentina_400_mg_balaxi_caja_x100_blist_x_10",
     "name": "GABAPENTINA 400 MG BALAXI CAJA X100 BLIST X 10",
     "category": "Antiepilépticos",
     "principio_activo": "Gabapentina",
@@ -756,7 +756,7 @@
     "updated_at": "2026-04-20T07:09:42.800188"
   },
   {
-    "_id": "gargadin_frambuesa_caja_x_56_pasti",
+    "_id": "GENESIS_gargadin_frambuesa_caja_x_56_pasti",
     "name": "GARGADIN FRAMBUESA CAJA X 56 PASTI",
     "category": "Antiséptico bucal",
     "principio_activo": "Clorhexidina",
@@ -777,7 +777,7 @@
     "updated_at": "2026-04-20T07:09:45.684062"
   },
   {
-    "_id": "gargadin_miel_limon_caja_x_56_pasti",
+    "_id": "GENESIS_gargadin_miel_limon_caja_x_56_pasti",
     "name": "GARGADIN MIEL LIMON CAJA X 56 PASTI",
     "category": "Antiséptico y analgésico bucal",
     "principio_activo": "Clorhexidina",
@@ -798,7 +798,7 @@
     "updated_at": "2026-04-20T07:09:48.598618"
   },
   {
-    "_id": "gargadin_sabor_naranja_blistser_x_8_pastillas",
+    "_id": "GENESIS_gargadin_sabor_naranja_blistser_x_8_pastillas",
     "name": "GARGADIN SABOR NARANJA BLISTSER X 8 PASTILLAS",
     "category": "Antiséptico bucal",
     "principio_activo": "Clorhexidina",
@@ -819,7 +819,7 @@
     "updated_at": "2026-04-20T07:09:51.938038"
   },
   {
-    "_id": "glicitos_c_ambroxolclembuterol_120_ml_selec",
+    "_id": "GENESIS_glicitos_c_ambroxolclembuterol_120_ml_selec",
     "name": "GLICITOS C (AMBROXOL+CLEMBUTEROL) 120 ML SELEC",
     "category": "Medicamento para el sistema respiratorio",
     "principio_activo": "Ambroxol, Clembuterol",
@@ -840,7 +840,7 @@
     "updated_at": "2026-04-20T07:09:55.146148"
   },
   {
-    "_id": "glicitos_s_ambroxolsalbutamol_120ml_selec",
+    "_id": "GENESIS_glicitos_s_ambroxolsalbutamol_120ml_selec",
     "name": "GLICITOS S (AMBROXOL+SALBUTAMOL) 120ML SELEC",
     "category": "Medicamento para el sistema respiratorio",
     "principio_activo": "Ambroxol y Salbutamol",
@@ -861,7 +861,7 @@
     "updated_at": "2026-04-20T07:09:58.447542"
   },
   {
-    "_id": "guantes_latex_grande_x_100",
+    "_id": "GENESIS_guantes_latex_grande_x_100",
     "name": "GUANTES LATEX GRANDE X 100",
     "category": "Material de protección personal",
     "principio_activo": "N/A",
@@ -882,7 +882,7 @@
     "updated_at": "2026-04-20T07:10:01.094367"
   },
   {
-    "_id": "guantes_latex_mediano_x_100",
+    "_id": "GENESIS_guantes_latex_mediano_x_100",
     "name": "GUANTES LATEX MEDIANO X 100",
     "category": "Material de protección personal",
     "principio_activo": "N/A",
@@ -903,7 +903,7 @@
     "updated_at": "2026-04-20T07:10:03.968151"
   },
   {
-    "_id": "guantes_latex_pequeño_x_100",
+    "_id": "GENESIS_guantes_latex_pequeño_x_100",
     "name": "GUANTES LATEX PEQUEÑO X 100",
     "category": "Material de protección",
     "principio_activo": "N/A",
@@ -924,7 +924,7 @@
     "updated_at": "2026-04-20T07:10:06.498693"
   },
   {
-    "_id": "ibuprofeno_600_mg_caja_x_100_blist_x_10_promegal",
+    "_id": "GENESIS_ibuprofeno_600_mg_caja_x_100_blist_x_10_promegal",
     "name": "IBUPROFENO 600 MG CAJA X 100 BLIST X 10 PROMEGAL",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Ibuprofeno",
@@ -945,7 +945,7 @@
     "updated_at": "2026-04-20T07:10:09.555166"
   },
   {
-    "_id": "jabon_para_bebe_johnson_antes_de_dormir_75_grs",
+    "_id": "GENESIS_jabon_para_bebe_johnson_antes_de_dormir_75_grs",
     "name": "JABON PARA BEBE JOHNSON ANTES DE DORMIR 75 GRS",
     "category": "Cuidado personal - Higiene infantil",
     "principio_activo": "No aplica",
@@ -966,7 +966,7 @@
     "updated_at": "2026-04-20T07:10:12.301230"
   },
   {
-    "_id": "koreofin_caplin",
+    "_id": "GENESIS_koreofin_caplin",
     "name": "KOREOFIN CAPLIN",
     "category": "Antiinflamatorio y Analgésico",
     "principio_activo": "Aceclofenaco",
@@ -987,7 +987,7 @@
     "updated_at": "2026-04-20T07:10:14.951946"
   },
   {
-    "_id": "lansoprazol_30_mgs_caja_x_100_blist_x_10_futura",
+    "_id": "GENESIS_lansoprazol_30_mgs_caja_x_100_blist_x_10_futura",
     "name": "LANSOPRAZOL 30 MGS CAJA X 100 BLIST X 10 FUTURA",
     "category": "Inhibidor de la bomba de protones",
     "principio_activo": "Lansoprazol",
@@ -1008,7 +1008,7 @@
     "updated_at": "2026-04-20T07:10:18.305251"
   },
   {
-    "_id": "levotiroxina_merck_blister_x_25_caja_x_100",
+    "_id": "GENESIS_levotiroxina_merck_blister_x_25_caja_x_100",
     "name": "LEVOTIROXINA MERCK BLISTER X 25 CAJA X 100",
     "category": "Hormonas y Modificadores del Sistema Endocrino",
     "principio_activo": "Levotiroxina",
@@ -1029,7 +1029,7 @@
     "updated_at": "2026-04-20T07:10:21.647117"
   },
   {
-    "_id": "lusia_fx_caja_x_28_tab",
+    "_id": "GENESIS_lusia_fx_caja_x_28_tab",
     "name": "LUSIA FX CAJA X 28 TAB",
     "category": "Medicamento",
     "principio_activo": "Fluoxetina",
@@ -1050,7 +1050,7 @@
     "updated_at": "2026-04-20T07:10:24.672526"
   },
   {
-    "_id": "mascarilla_quirurgica_celeste_caja_x_50",
+    "_id": "GENESIS_mascarilla_quirurgica_celeste_caja_x_50",
     "name": "MASCARILLA QUIRURGICA CELESTE CAJA X 50",
     "category": "Mascarillas quirúrgicas",
     "principio_activo": "No aplica",
@@ -1071,7 +1071,7 @@
     "updated_at": "2026-04-20T07:10:27.742364"
   },
   {
-    "_id": "mascarilla_quirurgica_negra_caja_x_50",
+    "_id": "GENESIS_mascarilla_quirurgica_negra_caja_x_50",
     "name": "MASCARILLA QUIRURGICA NEGRA CAJA X 50",
     "category": "Mascarillas quirúrgicas",
     "principio_activo": "N/A",
@@ -1092,7 +1092,7 @@
     "updated_at": "2026-04-20T07:10:30.309037"
   },
   {
-    "_id": "mascarilla_quirurgica_niño_caja_x_50",
+    "_id": "GENESIS_mascarilla_quirurgica_niño_caja_x_50",
     "name": "MASCARILLA QUIRURGICA NIÑO CAJA X 50",
     "category": "Mascarillas quirúrgicas",
     "principio_activo": "No aplica",
@@ -1113,7 +1113,7 @@
     "updated_at": "2026-04-20T07:10:33.016509"
   },
   {
-    "_id": "mebendamin_100_mg_susp_30_ml",
+    "_id": "GENESIS_mebendamin_100_mg_susp_30_ml",
     "name": "MEBENDAMIN 100 MG SUSP 30 ML",
     "category": "Antiparasitario",
     "principio_activo": "Mebendazol",
@@ -1134,7 +1134,7 @@
     "updated_at": "2026-04-20T07:10:35.556336"
   },
   {
-    "_id": "mebendamin_100_mg_tabs_sobre_x_6",
+    "_id": "GENESIS_mebendamin_100_mg_tabs_sobre_x_6",
     "name": "MEBENDAMIN 100 MG TABS SOBRE X 6",
     "category": "Antiparasitario",
     "principio_activo": "Mebendazol",
@@ -1155,7 +1155,7 @@
     "updated_at": "2026-04-20T07:10:38.348204"
   },
   {
-    "_id": "mesi_3__anticonceptivo_3_meses_piersan",
+    "_id": "GENESIS_mesi_3__anticonceptivo_3_meses_piersan",
     "name": "MESI 3 ( ANTICONCEPTIVO 3 MESES) PIERSAN",
     "category": "Anticonceptivos",
     "principio_activo": "Medroxiprogesterona",
@@ -1176,7 +1176,7 @@
     "updated_at": "2026-04-20T07:10:43.061571"
   },
   {
-    "_id": "metafe_spray_60_ml_vesa",
+    "_id": "GENESIS_metafe_spray_60_ml_vesa",
     "name": "METAFE SPRAY 60 ML VESA",
     "category": "Spray para el alivio del dolor muscular y articular",
     "principio_activo": "Metilsalicilato, alcanfor, mentol",
@@ -1197,7 +1197,7 @@
     "updated_at": "2026-04-20T07:10:46.309807"
   },
   {
-    "_id": "micropore_blanco_1_x_10_yds",
+    "_id": "GENESIS_micropore_blanco_1_x_10_yds",
     "name": "MICROPORE BLANCO 1 X 10 YDS",
     "category": "Material de curación",
     "principio_activo": "Ninguno",
@@ -1218,7 +1218,7 @@
     "updated_at": "2026-04-20T07:10:49.201039"
   },
   {
-    "_id": "micropore_blanco_12_pulgada",
+    "_id": "GENESIS_micropore_blanco_12_pulgada",
     "name": "MICROPORE BLANCO 1/2 PULGADA",
     "category": "Cinta adhesiva médica",
     "principio_activo": "Ninguno",
@@ -1239,7 +1239,7 @@
     "updated_at": "2026-04-20T07:10:51.960408"
   },
   {
-    "_id": "micropore_piel_1_pulgada",
+    "_id": "GENESIS_micropore_piel_1_pulgada",
     "name": "MICROPORE PIEL 1 PULGADA",
     "category": "Cinta adhesiva médica",
     "principio_activo": "Ninguno",
@@ -1260,7 +1260,7 @@
     "updated_at": "2026-04-20T07:10:54.761733"
   },
   {
-    "_id": "migradolosina_piersan_blist_x_10",
+    "_id": "GENESIS_migradolosina_piersan_blist_x_10",
     "name": "MIGRADOLOSINA PIERSAN BLIST X 10",
     "category": "Analgésico y antimigrañoso",
     "principio_activo": "Sumatriptán",
@@ -1281,7 +1281,7 @@
     "updated_at": "2026-04-20T07:10:58.136123"
   },
   {
-    "_id": "omega_kids__3_6_9_gomitas_fco_x_60",
+    "_id": "GENESIS_omega_kids__3_6_9_gomitas_fco_x_60",
     "name": "OMEGA KIDS  3 6 9 GOMITAS FCO X 60",
     "category": "Suplemento alimenticio",
     "principio_activo": "Ácidos grasos Omega 3, 6 y 9",
@@ -1302,7 +1302,7 @@
     "updated_at": "2026-04-20T07:11:01.388234"
   },
   {
-    "_id": "pamedan_dexpantenol_5_30_g",
+    "_id": "GENESIS_pamedan_dexpantenol_5_30_g",
     "name": "PAMEDAN DEXPANTENOL 5% 30 G",
     "category": "Dermatológico",
     "principio_activo": "Dexpantenol",
@@ -1323,7 +1323,7 @@
     "updated_at": "2026-04-20T07:11:04.454908"
   },
   {
-    "_id": "paracetamol_500_mgs_blist_x_10_caja_x_100",
+    "_id": "GENESIS_paracetamol_500_mgs_blist_x_10_caja_x_100",
     "name": "PARACETAMOL 500 MGS BLIST X 10 CAJA X 100",
     "category": "Analgésicos y antipiréticos",
     "principio_activo": "Paracetamol",
@@ -1344,7 +1344,7 @@
     "updated_at": "2026-04-20T07:11:07.727228"
   },
   {
-    "_id": "pregabalina_150_mg_balaxi_caja_x_100_blist_x_10",
+    "_id": "GENESIS_pregabalina_150_mg_balaxi_caja_x_100_blist_x_10",
     "name": "PREGABALINA 150 MG BALAXI CAJA X 100 BLIST X 10",
     "category": "Medicamento anticonvulsivante y analgésico",
     "principio_activo": "Pregabalina",
@@ -1365,7 +1365,7 @@
     "updated_at": "2026-04-20T07:11:12.814099"
   },
   {
-    "_id": "promegrip_jbe_120_ml_promegal",
+    "_id": "GENESIS_promegrip_jbe_120_ml_promegal",
     "name": "PROMEGRIP JBE 120 ML PROMEGAL",
     "category": "Jarabe",
     "principio_activo": "Paracetamol, Clorfeniramina, Fenilefrina",
@@ -1386,7 +1386,7 @@
     "updated_at": "2026-04-20T07:11:15.902846"
   },
   {
-    "_id": "protector_de_labios_vaseina_sabores",
+    "_id": "GENESIS_protector_de_labios_vaseina_sabores",
     "name": "PROTECTOR DE LABIOS VASEINA SABORES",
     "category": "Cuidado labial",
     "principio_activo": "Vaselina",
@@ -1407,7 +1407,7 @@
     "updated_at": "2026-04-20T07:11:18.580566"
   },
   {
-    "_id": "relaflex_kit_ampolla_vijosa",
+    "_id": "GENESIS_relaflex_kit_ampolla_vijosa",
     "name": "RELAFLEX KIT AMPOLLA VIJOSA",
     "category": "Kit de Ampollas",
     "principio_activo": "No especificado",
@@ -1428,7 +1428,7 @@
     "updated_at": "2026-04-20T07:11:21.903316"
   },
   {
-    "_id": "rofemed_ceftriaxona_1_gr_med_pharma",
+    "_id": "GENESIS_rofemed_ceftriaxona_1_gr_med_pharma",
     "name": "ROFEMED (CEFTRIAXONA) 1 GR MED PHARMA",
     "category": "Antibiótico",
     "principio_activo": "Ceftriaxona",
@@ -1449,7 +1449,7 @@
     "updated_at": "2026-04-20T07:11:25.434600"
   },
   {
-    "_id": "salbutamol_inhalador_caplin",
+    "_id": "GENESIS_salbutamol_inhalador_caplin",
     "name": "SALBUTAMOL INHALADOR CAPLIN",
     "category": "Broncodilatador",
     "principio_activo": "Salbutamol",
@@ -1470,7 +1470,7 @@
     "updated_at": "2026-04-20T07:11:28.281528"
   },
   {
-    "_id": "sarpiol_fco_30_ml",
+    "_id": "GENESIS_sarpiol_fco_30_ml",
     "name": "SARPIOL FCO 30 ML",
     "category": "Descongestionante nasal",
     "principio_activo": "Oximetazolina",
@@ -1491,7 +1491,7 @@
     "updated_at": "2026-04-20T07:11:31.047369"
   },
   {
-    "_id": "sello_de_heparina_esteril_operson",
+    "_id": "GENESIS_sello_de_heparina_esteril_operson",
     "name": "SELLO DE HEPARINA ESTERIL OPERSON",
     "category": "Anticoagulante",
     "principio_activo": "Heparina",
@@ -1512,7 +1512,7 @@
     "updated_at": "2026-04-20T07:11:33.860729"
   },
   {
-    "_id": "senosiain_adulto_supositorio_caja_x_20",
+    "_id": "GENESIS_senosiain_adulto_supositorio_caja_x_20",
     "name": "SENOSIAIN ADULTO SUPOSITORIO CAJA X 20",
     "category": "Supositorios",
     "principio_activo": "Senosain",
@@ -1533,7 +1533,7 @@
     "updated_at": "2026-04-20T07:11:37.306048"
   },
   {
-    "_id": "senosiain_niño_supositorio_caja_x_20",
+    "_id": "GENESIS_senosiain_niño_supositorio_caja_x_20",
     "name": "SENOSIAIN NIÑO SUPOSITORIO CAJA X 20",
     "category": "Supositorios pediátricos",
     "principio_activo": "Paracetamol",
@@ -1554,7 +1554,7 @@
     "updated_at": "2026-04-20T07:11:39.863307"
   },
   {
-    "_id": "simeticona_125_mg_gelcaps_caplin_cja_x_30_blist_x_10",
+    "_id": "GENESIS_simeticona_125_mg_gelcaps_caplin_cja_x_30_blist_x_10",
     "name": "SIMETICONA 125 MG GELCAPS CAPLIN CJA X 30 BLIST X 10",
     "category": "Antiflatulentos",
     "principio_activo": "Simeticona",
@@ -1575,7 +1575,7 @@
     "updated_at": "2026-04-20T07:11:43.520693"
   },
   {
-    "_id": "spasmourolong_blist_x_10tab",
+    "_id": "GENESIS_spasmourolong_blist_x_10tab",
     "name": "SPASMO-UROLONG BLIST X 10TAB",
     "category": "Antiespasmódico Urinario",
     "principio_activo": "Butilbromuro de escopolamina",
@@ -1596,7 +1596,7 @@
     "updated_at": "2026-04-20T07:11:47.589729"
   },
   {
-    "_id": "suero_oral_ancalmo_coco_x_54",
+    "_id": "GENESIS_suero_oral_ancalmo_coco_x_54",
     "name": "SUERO ORAL ANCALMO COCO X 54",
     "category": "Suero Oral",
     "principio_activo": "Sales de rehidratación oral",
@@ -1617,7 +1617,7 @@
     "updated_at": "2026-04-20T07:11:51.356112"
   },
   {
-    "_id": "suero_oral_ancalmo_fresa_x_54",
+    "_id": "GENESIS_suero_oral_ancalmo_fresa_x_54",
     "name": "SUERO ORAL ANCALMO FRESA X 54",
     "category": "Suero Oral",
     "principio_activo": "Sales de rehidratación oral",
@@ -1638,7 +1638,7 @@
     "updated_at": "2026-04-20T07:11:53.934764"
   },
   {
-    "_id": "suero_oral_ancalmo_frutas_x_54",
+    "_id": "GENESIS_suero_oral_ancalmo_frutas_x_54",
     "name": "SUERO ORAL ANCALMO FRUTAS X 54",
     "category": "Suero Oral",
     "principio_activo": "Sales de rehidratación oral",
@@ -1659,7 +1659,7 @@
     "updated_at": "2026-04-20T07:11:56.464017"
   },
   {
-    "_id": "suero_oral_ancalmo_naranja_x_54",
+    "_id": "GENESIS_suero_oral_ancalmo_naranja_x_54",
     "name": "SUERO ORAL ANCALMO NARANJA X 54",
     "category": "Suero Oral",
     "principio_activo": "Electrolitos y glucosa",
@@ -1680,7 +1680,7 @@
     "updated_at": "2026-04-20T07:11:59.353282"
   },
   {
-    "_id": "valsartan_80_mg_caja_x_30_tab_caplin",
+    "_id": "GENESIS_valsartan_80_mg_caja_x_30_tab_caplin",
     "name": "VALSARTAN 80 MG CAJA X 30 TAB CAPLIN",
     "category": "Antihipertensivo",
     "principio_activo": "Valsartán",
@@ -1701,7 +1701,7 @@
     "updated_at": "2026-04-20T07:12:02.197329"
   },
   {
-    "_id": "virogrip_3_doble_terapia_inyectado",
+    "_id": "GENESIS_virogrip_3_doble_terapia_inyectado",
     "name": "VIROGRIP 3 DOBLE TERAPIA INYECTADO",
     "category": "Vacuna",
     "principio_activo": "Antígenos inactivados de virus de la influenza",
@@ -1722,7 +1722,7 @@
     "updated_at": "2026-04-20T07:12:04.906304"
   },
   {
-    "_id": "zetawin_bebible_500_mg10_ml_bebible",
+    "_id": "GENESIS_zetawin_bebible_500_mg10_ml_bebible",
     "name": "ZETAWIN BEBIBLE 500 MG/10 ML BEBIBLE",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina",
@@ -1743,7 +1743,7 @@
     "updated_at": "2026-04-20T07:12:08.264120"
   },
   {
-    "_id": "zignet_plus_caja_x_10_tabs",
+    "_id": "GENESIS_zignet_plus_caja_x_10_tabs",
     "name": "ZIGNET PLUS CAJA X 10 TABS",
     "category": "Antibiótico",
     "principio_activo": "Cefuroxima y Ácido Clavulánico",
@@ -1764,7 +1764,7 @@
     "updated_at": "2026-04-20T07:12:11.615629"
   },
   {
-    "_id": "zinc_pharmazinc_jbe_120_ml_pharmedic",
+    "_id": "GENESIS_zinc_pharmazinc_jbe_120_ml_pharmedic",
     "name": "ZINC PHARMAZINC JBE 120 ML PHARMEDIC",
     "category": "Suplemento mineral",
     "principio_activo": "Zinc",
@@ -1785,7 +1785,7 @@
     "updated_at": "2026-04-20T07:12:14.347763"
   },
   {
-    "_id": "zorritone_caramelo_x_500",
+    "_id": "GENESIS_zorritone_caramelo_x_500",
     "name": "ZORRITONE CARAMELO X 500",
     "category": "Antitusivo",
     "principio_activo": "Dextrometorfano",

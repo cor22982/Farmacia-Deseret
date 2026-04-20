@@ -1,6 +1,6 @@
 [
   {
-    "_id": "abrexil_susp_120ml",
+    "_id": "ROSADEL_abrexil_susp_120ml",
     "name": "ABREXIL SUSP 120ML",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T06:19:07.250518"
   },
   {
-    "_id": "acetaminofen_gotas_100_mg_fco_30_ml_selec",
+    "_id": "ROSADEL_acetaminofen_gotas_100_mg_fco_30_ml_selec",
     "name": "ACETAMINOFEN GOTAS 100 MG FCO 30 ML SELEC",
     "category": "Analgésicos y antipiréticos",
     "principio_activo": "Acetaminofén",
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T06:19:10.436191"
   },
   {
-    "_id": "acetaminofen_jbe_120_ml_selec",
+    "_id": "ROSADEL_acetaminofen_jbe_120_ml_selec",
     "name": "ACETAMINOFEN JBE 120 ML SELEC",
     "category": "Analgésico y antipirético",
     "principio_activo": "Acetaminofén",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T06:19:13.895551"
   },
   {
-    "_id": "aciclovir_400_mg_blist_x_10_caja_x_50_selec",
+    "_id": "ROSADEL_aciclovir_400_mg_blist_x_10_caja_x_50_selec",
     "name": "ACICLOVIR 400 MG BLIST X 10 CAJA X 50 SELEC",
     "category": "Antiviral",
     "principio_activo": "Aciclovir",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T06:19:16.773525"
   },
   {
-    "_id": "aciclovir_5_crema_10_gms_selec",
+    "_id": "ROSADEL_aciclovir_5_crema_10_gms_selec",
     "name": "ACICLOVIR 5% CREMA 10 GMS SELEC",
     "category": "Antiviral tópico",
     "principio_activo": "Aciclovir",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T06:19:19.572826"
   },
   {
-    "_id": "acido_folico_5_mg_blister_x_20_caja_x_100_selec",
+    "_id": "ROSADEL_acido_folico_5_mg_blister_x_20_caja_x_100_selec",
     "name": "ACIDO FOLICO 5 MG BLISTER X 20 CAJA X 100 SELEC",
     "category": "Suplemento vitamínico",
     "principio_activo": "Ácido fólico",
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T06:19:23.371947"
   },
   {
-    "_id": "agua_oxigenada_3_sol_loralva_120_ml",
+    "_id": "ROSADEL_agua_oxigenada_3_sol_loralva_120_ml",
     "name": "AGUA OXIGENADA 3% SOL LORALVA 120 ML",
     "category": "Antiséptico",
     "principio_activo": "Peróxido de hidrógeno",
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T06:19:26.084443"
   },
   {
-    "_id": "albendazol_200mg5ml_susp_selecpharma",
+    "_id": "ROSADEL_albendazol_200mg5ml_susp_selecpharma",
     "name": "ALBENDAZOL 200MG/5ML SUSP SELECPHARMA",
     "category": "Antiparasitario",
     "principio_activo": "Albendazol",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T06:19:28.626424"
   },
   {
-    "_id": "alermine_cort_caja_x_10_tabs",
+    "_id": "ROSADEL_alermine_cort_caja_x_10_tabs",
     "name": "ALERMINE CORT CAJA X 10 TABS",
     "category": "Antialérgicos y Corticoides",
     "principio_activo": "Loratadina y Prednisolona",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T06:19:32.140607"
   },
   {
-    "_id": "alermine_cort_jbe_60_ml",
+    "_id": "ROSADEL_alermine_cort_jbe_60_ml",
     "name": "ALERMINE CORT JBE 60 ML",
     "category": "Jarabe antialérgico",
     "principio_activo": "Clorfeniramina y Betametasona",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T06:19:35.068341"
   },
   {
-    "_id": "amoxicilina_250_mg_120_ml_select",
+    "_id": "ROSADEL_amoxicilina_250_mg_120_ml_select",
     "name": "AMOXICILINA 250 MG/ 120 ML SELECT",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T06:19:38.218780"
   },
   {
-    "_id": "amoxicilina_gotas_100_mgs_15_ml_selec",
+    "_id": "ROSADEL_amoxicilina_gotas_100_mgs_15_ml_selec",
     "name": "AMOXICILINA GOTAS 100 MGS 15 ML SELEC",
     "category": "Antibióticos",
     "principio_activo": "Amoxicilina",
@@ -252,7 +252,7 @@
     "updated_at": "2026-04-20T06:19:41.846745"
   },
   {
-    "_id": "amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14",
+    "_id": "ROSADEL_amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14",
     "name": "AMOXIPLUS 625 MGS (AMOX+CLAV) BALAXI CAJA X 14",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina + Clavulanato de Potasio",
@@ -273,7 +273,7 @@
     "updated_at": "2026-04-20T06:19:44.831402"
   },
   {
-    "_id": "antigrip_sobre_x_4_tab_disp_x_100",
+    "_id": "ROSADEL_antigrip_sobre_x_4_tab_disp_x_100",
     "name": "ANTIGRIP SOBRE X 4 TAB DISP X 100",
     "category": "Antigripales",
     "principio_activo": "Paracetamol, Cafeína, Fenilefrina",
@@ -294,7 +294,7 @@
     "updated_at": "2026-04-20T06:19:48.117959"
   },
   {
-    "_id": "antigripito_sobre_x_4_tab_disp_x_100",
+    "_id": "ROSADEL_antigripito_sobre_x_4_tab_disp_x_100",
     "name": "ANTIGRIPITO SOBRE X 4 TAB DISP X 100",
     "category": "Antigripales",
     "principio_activo": "No especificado",
@@ -315,7 +315,7 @@
     "updated_at": "2026-04-20T06:19:51.175150"
   },
   {
-    "_id": "atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10",
+    "_id": "ROSADEL_atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10",
     "name": "ATORVASTATINA 40 MG SELEC (CARTOR) CJ X 20 BLIST X 10",
     "category": "Medicamento para el control del colesterol",
     "principio_activo": "Atorvastatina",
@@ -336,7 +336,7 @@
     "updated_at": "2026-04-20T06:19:53.990890"
   },
   {
-    "_id": "azitromicina_500_mgs_caja_x_5_select",
+    "_id": "ROSADEL_azitromicina_500_mgs_caja_x_5_select",
     "name": "AZITROMICINA 500 MGS CAJA X 5 SELECT",
     "category": "Antibióticos",
     "principio_activo": "Azitromicina",
@@ -357,7 +357,7 @@
     "updated_at": "2026-04-20T06:19:56.658039"
   },
   {
-    "_id": "baby_or_not_prueba_de_embarazo_dismev",
+    "_id": "ROSADEL_baby_or_not_prueba_de_embarazo_dismev",
     "name": "BABY OR NOT PRUEBA DE EMBARAZO DISMEV",
     "category": "Prueba de embarazo",
     "principio_activo": "Hormona gonadotropina coriónica humana (hCG)",
@@ -378,7 +378,7 @@
     "updated_at": "2026-04-20T06:20:00.797905"
   },
   {
-    "_id": "betametasona_05acido_salici_3_selec_tubo",
+    "_id": "ROSADEL_betametasona_05acido_salici_3_selec_tubo",
     "name": "BETAMETASONA .05%+ACIDO SALICI 3% SELEC TUBO",
     "category": "Corticosteroides tópicos y queratolíticos",
     "principio_activo": "Betametasona 0.05%, Ácido salicílico 3%",
@@ -399,7 +399,7 @@
     "updated_at": "2026-04-20T06:20:03.893717"
   },
   {
-    "_id": "bifonex__crema_1_15g_selec_tubo",
+    "_id": "ROSADEL_bifonex__crema_1_15g_selec_tubo",
     "name": "BIFONEX  CREMA 1% 15G SELEC TUBO",
     "category": "Crema dermatológica",
     "principio_activo": "Bifonazol 1%",
@@ -420,7 +420,7 @@
     "updated_at": "2026-04-20T06:20:06.787154"
   },
   {
-    "_id": "bisalex_laxante_blister_x_10",
+    "_id": "ROSADEL_bisalex_laxante_blister_x_10",
     "name": "BISALEX LAXANTE BLISTER X 10",
     "category": "Laxante",
     "principio_activo": "Bisacodilo",
@@ -441,7 +441,7 @@
     "updated_at": "2026-04-20T06:20:09.995959"
   },
   {
-    "_id": "bosman__caja_x_16_sobre_x_3_condones",
+    "_id": "ROSADEL_bosman__caja_x_16_sobre_x_3_condones",
     "name": "BOSMAN  CAJA X 16 SOBRE X 3 CONDONES",
     "category": "Anticonceptivos",
     "principio_activo": "No especificado",
@@ -462,7 +462,7 @@
     "updated_at": "2026-04-20T06:20:12.786315"
   },
   {
-    "_id": "bromhexina_120_ml_jbe_selec_exiflem",
+    "_id": "ROSADEL_bromhexina_120_ml_jbe_selec_exiflem",
     "name": "BROMHEXINA 120 ML JBE SELEC (EXIFLEM)",
     "category": "Expectorante",
     "principio_activo": "Bromhexina",
@@ -483,7 +483,7 @@
     "updated_at": "2026-04-20T06:20:15.603853"
   },
   {
-    "_id": "bromuro_de_otilonio_caja_x_30_blist_x_15",
+    "_id": "ROSADEL_bromuro_de_otilonio_caja_x_30_blist_x_15",
     "name": "BROMURO DE OTILONIO CAJA X 30 BLIST X 15",
     "category": "Antiespasmódico",
     "principio_activo": "Bromuro de otilonio",
@@ -504,7 +504,7 @@
     "updated_at": "2026-04-20T06:20:19.467818"
   },
   {
-    "_id": "broncomat_15_ml_solpara_raespirar",
+    "_id": "ROSADEL_broncomat_15_ml_solpara_raespirar",
     "name": "BRONCOMAT 15 ML SOL/PARA RAESPIRAR",
     "category": "Medicamento para el sistema respiratorio",
     "principio_activo": "Salbutamol",
@@ -525,7 +525,7 @@
     "updated_at": "2026-04-20T06:20:22.249146"
   },
   {
-    "_id": "broncurol_nf_blist_x_10_tabs",
+    "_id": "ROSADEL_broncurol_nf_blist_x_10_tabs",
     "name": "BRONCUROL NF BLIST X 10 TABS",
     "category": "Broncodilatador",
     "principio_activo": "Bromuro de Ipratropio",
@@ -546,7 +546,7 @@
     "updated_at": "2026-04-20T06:20:25.221442"
   },
   {
-    "_id": "cefadroxilo_250mg60ml_sus_selec",
+    "_id": "ROSADEL_cefadroxilo_250mg60ml_sus_selec",
     "name": "CEFADROXILO 250MG/60ML SUS SELEC",
     "category": "Antibiótico",
     "principio_activo": "Cefadroxilo",
@@ -567,7 +567,7 @@
     "updated_at": "2026-04-20T06:20:28.269950"
   },
   {
-    "_id": "cefadroxilo_500mg_blis_x_10_caja_50_tab_select",
+    "_id": "ROSADEL_cefadroxilo_500mg_blis_x_10_caja_50_tab_select",
     "name": "CEFADROXILO 500MG BLIS X 10 CAJA 50 TAB SELECT",
     "category": "Antibiótico",
     "principio_activo": "Cefadroxilo",
@@ -588,7 +588,7 @@
     "updated_at": "2026-04-20T06:20:31.118029"
   },
   {
-    "_id": "cefixima_400_mg_caja_x_5_caps_selec",
+    "_id": "ROSADEL_cefixima_400_mg_caja_x_5_caps_selec",
     "name": "CEFIXIMA 400 MG CAJA X 5 CAPS SELEC",
     "category": "Antibiótico",
     "principio_activo": "Cefixima",
@@ -609,7 +609,7 @@
     "updated_at": "2026-04-20T06:20:33.669529"
   },
   {
-    "_id": "ceftriaxona_1_gr_panal_caplin",
+    "_id": "ROSADEL_ceftriaxona_1_gr_panal_caplin",
     "name": "CEFTRIAXONA 1 GR PANAL CAPLIN",
     "category": "Antibiótico",
     "principio_activo": "Ceftriaxona",
@@ -630,7 +630,7 @@
     "updated_at": "2026-04-20T06:20:36.210230"
   },
   {
-    "_id": "ciprofibrato_100mg_blister_x_10_caja_x_30_selec",
+    "_id": "ROSADEL_ciprofibrato_100mg_blister_x_10_caja_x_30_selec",
     "name": "CIPROFIBRATO 100MG BLISTER X 10 CAJA X 30 SELEC",
     "category": "Hipolipemiante",
     "principio_activo": "Ciprofibrato",
@@ -651,7 +651,7 @@
     "updated_at": "2026-04-20T06:20:38.899671"
   },
   {
-    "_id": "ciprofloxacina_500_mgs_blist_x_10_caja_x_100",
+    "_id": "ROSADEL_ciprofloxacina_500_mgs_blist_x_10_caja_x_100",
     "name": "CIPROFLOXACINA 500 MGS BLIST X 10 CAJA X 100",
     "category": "Antibiótico",
     "principio_activo": "Ciprofloxacina",
@@ -672,7 +672,7 @@
     "updated_at": "2026-04-20T06:20:41.942831"
   },
   {
-    "_id": "ciruelax_75_mg_blister_x_10__garden",
+    "_id": "ROSADEL_ciruelax_75_mg_blister_x_10__garden",
     "name": "CIRUELAX 75 MG BLISTER X 10  GARDEN",
     "category": "Laxantes",
     "principio_activo": "Bisacodilo",
@@ -693,7 +693,7 @@
     "updated_at": "2026-04-20T06:20:46.792194"
   },
   {
-    "_id": "ciruelax_forte_caja_x_24_tab",
+    "_id": "ROSADEL_ciruelax_forte_caja_x_24_tab",
     "name": "CIRUELAX FORTE CAJA X 24 TAB",
     "category": "Laxantes",
     "principio_activo": "Sennósidos",
@@ -714,7 +714,7 @@
     "updated_at": "2026-04-20T06:20:50.288036"
   },
   {
-    "_id": "clindamicina_300_mg_blister_x_10_med_pharma",
+    "_id": "ROSADEL_clindamicina_300_mg_blister_x_10_med_pharma",
     "name": "CLINDAMICINA 300 MG BLISTER X 10 MED PHARMA",
     "category": "Antibiótico",
     "principio_activo": "Clindamicina",
@@ -735,7 +735,7 @@
     "updated_at": "2026-04-20T06:20:52.812646"
   },
   {
-    "_id": "cloradexanafa_gotas_selec",
+    "_id": "ROSADEL_cloradexanafa_gotas_selec",
     "name": "CLORA+DEXA+NAFA GOTAS SELEC",
     "category": "Medicamento combinado",
     "principio_activo": "Clorfeniramina, Dexametasona, Nafazolina",
@@ -756,7 +756,7 @@
     "updated_at": "2026-04-20T06:20:55.736864"
   },
   {
-    "_id": "cloranfdexametasona_colirio_15_ml_selec",
+    "_id": "ROSADEL_cloranfdexametasona_colirio_15_ml_selec",
     "name": "CLORANF+DEXAMETASONA COLIRIO 15 ML SELEC",
     "category": "Colirio",
     "principio_activo": "Cloranfenicol y Dexametasona",
@@ -777,7 +777,7 @@
     "updated_at": "2026-04-20T06:20:58.572731"
   },
   {
-    "_id": "clorfeniramina_10_mg_amp_selec",
+    "_id": "ROSADEL_clorfeniramina_10_mg_amp_selec",
     "name": "CLORFENIRAMINA 10 MG AMP SELEC",
     "category": "Antihistamínico",
     "principio_activo": "Clorfeniramina",
@@ -798,7 +798,7 @@
     "updated_at": "2026-04-20T06:21:01.438322"
   },
   {
-    "_id": "clorfeniramina_4_mg_blis_x_20_selec_caja_x_100",
+    "_id": "ROSADEL_clorfeniramina_4_mg_blis_x_20_selec_caja_x_100",
     "name": "CLORFENIRAMINA 4 MG BLIS X 20 SELEC CAJA X 100",
     "category": "Antihistamínico",
     "principio_activo": "Clorfeniramina",
@@ -819,7 +819,7 @@
     "updated_at": "2026-04-20T06:21:04.394687"
   },
   {
-    "_id": "clorfeniramina_maleato_2mg_jbe_select",
+    "_id": "ROSADEL_clorfeniramina_maleato_2mg_jbe_select",
     "name": "CLORFENIRAMINA MALEATO 2MG JBE. SELECT",
     "category": "Antihistamínico",
     "principio_activo": "Clorfeniramina maleato",
@@ -840,7 +840,7 @@
     "updated_at": "2026-04-20T06:21:07.148222"
   },
   {
-    "_id": "cloromilan_caja_x_102",
+    "_id": "ROSADEL_cloromilan_caja_x_102",
     "name": "CLOROMILAN CAJA X 102",
     "category": "Antibiótico",
     "principio_activo": "Cloranfenicol",
@@ -861,7 +861,7 @@
     "updated_at": "2026-04-20T06:21:10.010635"
   },
   {
-    "_id": "clotrimazol_1__crema_20_grs_selec",
+    "_id": "ROSADEL_clotrimazol_1__crema_20_grs_selec",
     "name": "CLOTRIMAZOL 1 % CREMA 20 GRS SELEC",
     "category": "Antimicótico tópico",
     "principio_activo": "Clotrimazol",
@@ -882,7 +882,7 @@
     "updated_at": "2026-04-20T06:21:14.125500"
   },
   {
-    "_id": "clotrimazol_1__gel_topico_tubo_20_grs_balaxi",
+    "_id": "ROSADEL_clotrimazol_1__gel_topico_tubo_20_grs_balaxi",
     "name": "CLOTRIMAZOL 1 % GEL TOPICO TUBO 20 GRS BALAXI",
     "category": "Antimicótico tópico",
     "principio_activo": "Clotrimazol",
@@ -903,7 +903,7 @@
     "updated_at": "2026-04-20T06:21:17.119494"
   },
   {
-    "_id": "clotrimazol_ov_vag_100_mg_caja_x_6_caplin",
+    "_id": "ROSADEL_clotrimazol_ov_vag_100_mg_caja_x_6_caplin",
     "name": "CLOTRIMAZOL OV VAG 100 MG CAJA X 6 CAPLIN",
     "category": "Antifúngicos",
     "principio_activo": "Clotrimazol",
@@ -924,7 +924,7 @@
     "updated_at": "2026-04-20T06:21:20.040321"
   },
   {
-    "_id": "clotriplex_crematubo_15_gms",
+    "_id": "ROSADEL_clotriplex_crematubo_15_gms",
     "name": "CLOTRIPLEX CREMATUBO 15 GMS",
     "category": "Antifúngico tópico",
     "principio_activo": "Clotrimazol",
@@ -945,7 +945,7 @@
     "updated_at": "2026-04-20T06:21:22.910320"
   },
   {
-    "_id": "colageno_caja_x_100_cap_gel_blister_x_10",
+    "_id": "ROSADEL_colageno_caja_x_100_cap_gel_blister_x_10",
     "name": "COLAGENO CAJA X 100 CAP GEL BLISTER X 10",
     "category": "Suplemento alimenticio",
     "principio_activo": "Colágeno",
@@ -966,7 +966,7 @@
     "updated_at": "2026-04-20T06:21:26.525244"
   },
   {
-    "_id": "colchicina_05_mg_blister_x_20_caja_x_100__selec",
+    "_id": "ROSADEL_colchicina_05_mg_blister_x_20_caja_x_100__selec",
     "name": "COLCHICINA 0.5 MG BLISTER X 20 CAJA X 100  SELEC",
     "category": "Antiinflamatorio",
     "principio_activo": "Colchicina",
@@ -987,7 +987,7 @@
     "updated_at": "2026-04-20T06:21:29.372285"
   },
   {
-    "_id": "colchicina_05mg_blister_x_10_caplin",
+    "_id": "ROSADEL_colchicina_05mg_blister_x_10_caplin",
     "name": "COLCHICINA 0.5MG BLISTER X 10 CAPLIN",
     "category": "Antiinflamatorio",
     "principio_activo": "Colchicina",
@@ -1008,7 +1008,7 @@
     "updated_at": "2026-04-20T06:21:32.313147"
   },
   {
-    "_id": "colector_de_heces_cpaleta_60ml",
+    "_id": "ROSADEL_colector_de_heces_cpaleta_60ml",
     "name": "COLECTOR DE HECES C/PALETA 60ML",
     "category": "Material de laboratorio / Equipos de recolección",
     "principio_activo": null,
@@ -1029,7 +1029,7 @@
     "updated_at": "2026-04-20T06:21:35.346100"
   },
   {
-    "_id": "colector_de_orina_120ml",
+    "_id": "ROSADEL_colector_de_orina_120ml",
     "name": "COLECTOR DE ORINA 120ML",
     "category": "Material de curación y dispositivos médicos",
     "principio_activo": "N/A",
@@ -1050,7 +1050,7 @@
     "updated_at": "2026-04-20T06:21:39.107996"
   },
   {
-    "_id": "colector_orina_pediatrico_bolsa_operson",
+    "_id": "ROSADEL_colector_orina_pediatrico_bolsa_operson",
     "name": "COLECTOR ORINA PEDIATRICO BOLSA OPERSON",
     "category": "Dispositivo médico",
     "principio_activo": null,
@@ -1071,7 +1071,7 @@
     "updated_at": "2026-04-20T06:21:41.864078"
   },
   {
-    "_id": "crospovidona_20__susp_60_ml_selec",
+    "_id": "ROSADEL_crospovidona_20__susp_60_ml_selec",
     "name": "CROSPOVIDONA 20%  SUSP 60 ML SELEC",
     "category": "Excipiente farmacéutico",
     "principio_activo": "Crosprovidona",
@@ -1092,7 +1092,7 @@
     "updated_at": "2026-04-20T06:21:44.773575"
   },
   {
-    "_id": "cyclofem_ampolla_panal_1_ml",
+    "_id": "ROSADEL_cyclofem_ampolla_panal_1_ml",
     "name": "CYCLOFEM AMPOLLA PANAL 1 ML",
     "category": "Anticonceptivos hormonales",
     "principio_activo": "Medroxiprogesterona",
@@ -1113,7 +1113,7 @@
     "updated_at": "2026-04-20T06:21:47.993635"
   },
   {
-    "_id": "denguina_caja_x_100_blist_x_10",
+    "_id": "ROSADEL_denguina_caja_x_100_blist_x_10",
     "name": "DENGUINA CAJA X 100 BLIST X 10",
     "category": "Antipirético y analgésico",
     "principio_activo": "Paracetamol",
@@ -1134,7 +1134,7 @@
     "updated_at": "2026-04-20T06:21:50.717604"
   },
   {
-    "_id": "dexaneomicina_1__oftalmica_selec",
+    "_id": "ROSADEL_dexaneomicina_1__oftalmica_selec",
     "name": "DEXA+NEOMICINA 1 % OFTALMICA SELEC",
     "category": "Antibiótico oftálmico",
     "principio_activo": "Dexametasona y Neomicina",
@@ -1155,7 +1155,7 @@
     "updated_at": "2026-04-20T06:21:53.716264"
   },
   {
-    "_id": "dexametasona_ampolla_8_mg_caplin",
+    "_id": "ROSADEL_dexametasona_ampolla_8_mg_caplin",
     "name": "DEXAMETASONA AMPOLLA 8 MG CAPLIN",
     "category": "Corticosteroides",
     "principio_activo": "Dexametasona",
@@ -1176,7 +1176,7 @@
     "updated_at": "2026-04-20T06:21:56.413338"
   },
   {
-    "_id": "dexanervisel_kit",
+    "_id": "ROSADEL_dexanervisel_kit",
     "name": "DEXANERVISEL KIT",
     "category": "Medicamento neurológico",
     "principio_activo": "Vitaminas del complejo B (B1, B6, B12)",
@@ -1197,7 +1197,7 @@
     "updated_at": "2026-04-20T06:21:59.449045"
   },
   {
-    "_id": "diclofenaco_1_gel_tubo_20_gr_select",
+    "_id": "ROSADEL_diclofenaco_1_gel_tubo_20_gr_select",
     "name": "DICLOFENACO 1% GEL TUBO 20 GR SELECT",
     "category": "Analgésico y antiinflamatorio tópico",
     "principio_activo": "Diclofenaco",
@@ -1218,7 +1218,7 @@
     "updated_at": "2026-04-20T06:22:02.297906"
   },
   {
-    "_id": "diclofenaco_1_gel_tubo_25_gr_balaxi",
+    "_id": "ROSADEL_diclofenaco_1_gel_tubo_25_gr_balaxi",
     "name": "DICLOFENACO 1% GEL TUBO 25 GR BALAXI",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Diclofenaco",
@@ -1239,7 +1239,7 @@
     "updated_at": "2026-04-20T06:22:05.559412"
   },
   {
-    "_id": "diclofenaco_acido_libre_9mg_fco_120_ml_sele",
+    "_id": "ROSADEL_diclofenaco_acido_libre_9mg_fco_120_ml_sele",
     "name": "DICLOFENACO ACIDO LIBRE 9MG FCO 120 ML SELE",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Diclofenaco ácido libre",
@@ -1260,7 +1260,7 @@
     "updated_at": "2026-04-20T06:22:09.067528"
   },
   {
-    "_id": "diclofenaco_ampolla_75_mgs",
+    "_id": "ROSADEL_diclofenaco_ampolla_75_mgs",
     "name": "DICLOFENACO AMPOLLA 75 MGS",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Diclofenaco",
@@ -1281,7 +1281,7 @@
     "updated_at": "2026-04-20T06:22:12.089823"
   },
   {
-    "_id": "diclofenaco_pot_50_mgs_blist_x_10_caja_x_100_rojo",
+    "_id": "ROSADEL_diclofenaco_pot_50_mgs_blist_x_10_caja_x_100_rojo",
     "name": "DICLOFENACO POT 50 MGS BLIST X 10 CAJA X 100 ROJO",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Diclofenaco potásico",
@@ -1302,7 +1302,7 @@
     "updated_at": "2026-04-20T06:22:15.591645"
   },
   {
-    "_id": "dolofor_500_mgs_dipirona_magnesica_blist_x_10",
+    "_id": "ROSADEL_dolofor_500_mgs_dipirona_magnesica_blist_x_10",
     "name": "DOLOFOR 500 MGS (DIPIRONA MAGNESICA) BLIST X 10",
     "category": "Analgésico y antipirético",
     "principio_activo": "Dipirona magnésica",
@@ -1323,7 +1323,7 @@
     "updated_at": "2026-04-20T06:22:18.496492"
   },
   {
-    "_id": "dolonervisel_blist_x_10_caja_x_100",
+    "_id": "ROSADEL_dolonervisel_blist_x_10_caja_x_100",
     "name": "DOLONERVISEL BLIST X 10 CAJA X 100",
     "category": "Analgésico y neuroprotector",
     "principio_activo": "Vitamina B1, Vitamina B6, Vitamina B12",
@@ -1344,7 +1344,7 @@
     "updated_at": "2026-04-20T06:22:21.622429"
   },
   {
-    "_id": "dropa_gel_ketoprofeno_25_50g",
+    "_id": "ROSADEL_dropa_gel_ketoprofeno_25_50g",
     "name": "DROPA GEL (KETOPROFENO 2.5%) 50G",
     "category": "Analgésicos y antiinflamatorios tópicos",
     "principio_activo": "Ketoprofeno 2.5%",
@@ -1365,7 +1365,7 @@
     "updated_at": "2026-04-20T06:22:25.182374"
   },
   {
-    "_id": "enalapril_10_mgs_blister_x_20__caja_x_100_selec",
+    "_id": "ROSADEL_enalapril_10_mgs_blister_x_20__caja_x_100_selec",
     "name": "ENALAPRIL 10 MGS BLISTER X 20  CAJA X 100 SELEC",
     "category": "Antihipertensivo",
     "principio_activo": "Enalapril",
@@ -1386,7 +1386,7 @@
     "updated_at": "2026-04-20T06:22:28.052330"
   },
   {
-    "_id": "enalapril_20_mg_blister_x_10_caja_x_100__caplin",
+    "_id": "ROSADEL_enalapril_20_mg_blister_x_10_caja_x_100__caplin",
     "name": "ENALAPRIL 20 MG BLISTER X 10 CAJA X 100  CAPLIN",
     "category": "Antihipertensivo",
     "principio_activo": "Enalapril",
@@ -1407,7 +1407,7 @@
     "updated_at": "2026-04-20T06:22:31.153597"
   },
   {
-    "_id": "enalapril_20mg_blist_x_20_select_caja_x_100",
+    "_id": "ROSADEL_enalapril_20mg_blist_x_20_select_caja_x_100",
     "name": "ENALAPRIL 20MG BLIST X 20 SELECT CAJA X 100",
     "category": "Antihipertensivo",
     "principio_activo": "Enalapril",
@@ -1428,7 +1428,7 @@
     "updated_at": "2026-04-20T06:22:33.823128"
   },
   {
-    "_id": "esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi",
+    "_id": "ROSADEL_esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi",
     "name": "ESOMEPRAZOL 40 MG BLIS X 10  CAJA X 30 BALAXI",
     "category": "Inhibidores de la bomba de protones",
     "principio_activo": "Esomeprazol",
@@ -1449,7 +1449,7 @@
     "updated_at": "2026-04-20T06:22:36.613867"
   },
   {
-    "_id": "ex_flu_antigripal_gotas_30ml_selec",
+    "_id": "ROSADEL_ex_flu_antigripal_gotas_30ml_selec",
     "name": "EX -FLU ANTIGRIPAL GOTAS 30ML SELEC",
     "category": "Antigripales",
     "principio_activo": "Paracetamol, Fenilefrina, Clorfeniramina",
@@ -1470,7 +1470,7 @@
     "updated_at": "2026-04-20T06:22:39.441278"
   },
   {
-    "_id": "exflu_ampolla_panal_selec",
+    "_id": "ROSADEL_exflu_ampolla_panal_selec",
     "name": "EXFLU AMPOLLA PANAL SELEC",
     "category": "Medicamento para el tratamiento de enfermedades respiratorias",
     "principio_activo": "Ambroxol",
@@ -1491,7 +1491,7 @@
     "updated_at": "2026-04-20T06:22:42.061876"
   },
   {
-    "_id": "exflu_antigripal_blister_x_10_caja_x_70",
+    "_id": "ROSADEL_exflu_antigripal_blister_x_10_caja_x_70",
     "name": "EXFLU ANTIGRIPAL BLISTER X 10 CAJA X 70",
     "category": "Antigripal",
     "principio_activo": "No especificado",
@@ -1512,7 +1512,7 @@
     "updated_at": "2026-04-20T06:22:44.660251"
   },
   {
-    "_id": "exflu_kit_ampolla_selec",
+    "_id": "ROSADEL_exflu_kit_ampolla_selec",
     "name": "EX-FLU KIT AMPOLLA SELEC",
     "category": "Antigripal",
     "principio_activo": "Paracetamol, Cafeína, Fenilefrina",
@@ -1533,7 +1533,7 @@
     "updated_at": "2026-04-20T06:22:47.730417"
   },
   {
-    "_id": "exflu_niños_sinus_120_ml",
+    "_id": "ROSADEL_exflu_niños_sinus_120_ml",
     "name": "EX-FLU NIÑOS SINUS 120 ML",
     "category": "Medicamento para el resfriado y la sinusitis",
     "principio_activo": "Paracetamol, Fenilefrina, Clorfeniramina",
@@ -1554,7 +1554,7 @@
     "updated_at": "2026-04-20T06:22:50.622245"
   },
   {
-    "_id": "famotidina_40_mg_caja_x_100_tab_caplin",
+    "_id": "ROSADEL_famotidina_40_mg_caja_x_100_tab_caplin",
     "name": "FAMOTIDINA 40 MG CAJA X 100 TAB CAPLIN",
     "category": "Antiácido / Antiulceroso",
     "principio_activo": "Famotidina",
@@ -1575,7 +1575,7 @@
     "updated_at": "2026-04-20T06:22:54.029995"
   },
   {
-    "_id": "ferrociton_b_caja_x_10_amp_bebibles",
+    "_id": "ROSADEL_ferrociton_b_caja_x_10_amp_bebibles",
     "name": "FERROCITON B CAJA X 10 AMP BEBIBLES",
     "category": "Suplemento de hierro",
     "principio_activo": "Hierro",
@@ -1596,7 +1596,7 @@
     "updated_at": "2026-04-20T06:22:56.513256"
   },
   {
-    "_id": "fluconazol_150_mgs_caja_x_2_caps_selec",
+    "_id": "ROSADEL_fluconazol_150_mgs_caja_x_2_caps_selec",
     "name": "FLUCONAZOL 150 MGS CAJA X 2 CAPS SELEC",
     "category": "Antifúngicos",
     "principio_activo": "Fluconazol",
@@ -1617,7 +1617,7 @@
     "updated_at": "2026-04-20T06:22:59.073330"
   },
   {
-    "_id": "fluconazol_200_mg_x_4_caps_hiperfarma",
+    "_id": "ROSADEL_fluconazol_200_mg_x_4_caps_hiperfarma",
     "name": "FLUCONAZOL 200 MG X 4 CAPS HIPERFARMA",
     "category": "Antifúngicos",
     "principio_activo": "Fluconazol",
@@ -1638,7 +1638,7 @@
     "updated_at": "2026-04-20T06:23:01.729341"
   },
   {
-    "_id": "fluconazol_200mg_select_x2_tab_caja",
+    "_id": "ROSADEL_fluconazol_200mg_select_x2_tab_caja",
     "name": "FLUCONAZOL 200MG SELECT X2 TAB CAJA",
     "category": "Antifúngicos",
     "principio_activo": "Fluconazol",
@@ -1659,7 +1659,7 @@
     "updated_at": "2026-04-20T06:23:05.620304"
   },
   {
-    "_id": "flufin_alergias_caja_x_50_blis_x_10_gel_blanda",
+    "_id": "ROSADEL_flufin_alergias_caja_x_50_blis_x_10_gel_blanda",
     "name": "FLUFIN ALERGIAS CAJA X 50 BLIS X 10 GEL BLANDA",
     "category": "Antihistamínicos",
     "principio_activo": "Fluticasona",
@@ -1680,7 +1680,7 @@
     "updated_at": "2026-04-20T06:23:08.122275"
   },
   {
-    "_id": "flufin_am_sobre_2_gel_caps_caplin_x_25_sobres",
+    "_id": "ROSADEL_flufin_am_sobre_2_gel_caps_caplin_x_25_sobres",
     "name": "FLUFIN AM SOBRE 2 GEL CAPS CAPLIN X 25 SOBRES",
     "category": "Antigripal",
     "principio_activo": "Paracetamol, Fenilefrina, Clorfeniramina",
@@ -1701,7 +1701,7 @@
     "updated_at": "2026-04-20T06:23:11.978371"
   },
   {
-    "_id": "flufin_pm_sobre_2_gel_caps_cap_cja_x_25_sobres",
+    "_id": "ROSADEL_flufin_pm_sobre_2_gel_caps_cap_cja_x_25_sobres",
     "name": "FLUFIN PM SOBRE 2 GEL CAPS CAP CJA X 25 SOBRES",
     "category": "Medicamento para el resfriado y la gripe",
     "principio_activo": "Paracetamol, Fenilefrina, Difenhidramina",
@@ -1722,7 +1722,7 @@
     "updated_at": "2026-04-20T06:23:15.340057"
   },
   {
-    "_id": "furosemida_20_mg_ampolla_2_ml_caplin",
+    "_id": "ROSADEL_furosemida_20_mg_ampolla_2_ml_caplin",
     "name": "FUROSEMIDA 20 MG AMPOLLA 2 ML CAPLIN",
     "category": "Diurético",
     "principio_activo": "Furosemida",
@@ -1743,7 +1743,7 @@
     "updated_at": "2026-04-20T06:23:18.922371"
   },
   {
-    "_id": "furosemida_40_mg_caja_x_100_blist_x_10_caplin",
+    "_id": "ROSADEL_furosemida_40_mg_caja_x_100_blist_x_10_caplin",
     "name": "FUROSEMIDA 40 MG CAJA X 100 BLIST X 10 CAPLIN",
     "category": "Diurético",
     "principio_activo": "Furosemida",
@@ -1764,7 +1764,7 @@
     "updated_at": "2026-04-20T06:23:21.789081"
   },
   {
-    "_id": "furosemida_40mg_blister_x_10_selec",
+    "_id": "ROSADEL_furosemida_40mg_blister_x_10_selec",
     "name": "FUROSEMIDA 40MG BLISTER X 10 SELEC",
     "category": "Diurético",
     "principio_activo": "Furosemida",
@@ -1785,7 +1785,7 @@
     "updated_at": "2026-04-20T06:23:24.843271"
   },
   {
-    "_id": "gentamicina_80_mg2ml_ampolla_caplin",
+    "_id": "ROSADEL_gentamicina_80_mg2ml_ampolla_caplin",
     "name": "GENTAMICINA 80 MG/2ML AMPOLLA CAPLIN",
     "category": "Antibiótico",
     "principio_activo": "Gentamicina",
@@ -1806,7 +1806,7 @@
     "updated_at": "2026-04-20T06:23:27.926454"
   },
   {
-    "_id": "glibenclamida_5_mg___blister_x_20_caja_x_100_selec",
+    "_id": "ROSADEL_glibenclamida_5_mg___blister_x_20_caja_x_100_selec",
     "name": "GLIBENCLAMIDA 5 MG   BLISTER X 20 CAJA X 100 SELEC",
     "category": "Antidiabético",
     "principio_activo": "Glibenclamida",
@@ -1827,7 +1827,7 @@
     "updated_at": "2026-04-20T06:23:30.705074"
   },
   {
-    "_id": "glimepirida_4_mg_blister_x_10_caja_x_100_caplin",
+    "_id": "ROSADEL_glimepirida_4_mg_blister_x_10_caja_x_100_caplin",
     "name": "GLIMEPIRIDA 4 MG BLISTER X 10 CAJA X 100 CAPLIN",
     "category": "Antidiabético",
     "principio_activo": "Glimepirida",
@@ -1848,7 +1848,7 @@
     "updated_at": "2026-04-20T06:23:33.416367"
   },
   {
-    "_id": "gotero_plastico",
+    "_id": "ROSADEL_gotero_plastico",
     "name": "GOTERO PLASTICO",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -1869,7 +1869,7 @@
     "updated_at": "2026-04-20T06:23:36.544408"
   },
   {
-    "_id": "hidrocortisona_025_selec",
+    "_id": "ROSADEL_hidrocortisona_025_selec",
     "name": "HIDROCORTISONA 0.25 SELEC",
     "category": "Corticosteroides tópicos",
     "principio_activo": "Hidrocortisona",
@@ -1890,7 +1890,7 @@
     "updated_at": "2026-04-20T06:23:40.038647"
   },
   {
-    "_id": "hidrocortizona_1_crema_30_grs_selec",
+    "_id": "ROSADEL_hidrocortizona_1_crema_30_grs_selec",
     "name": "HIDROCORTIZONA 1% CREMA 30 GRS SELEC",
     "category": "Corticosteroides tópicos",
     "principio_activo": "Hidrocortisona",
@@ -1911,7 +1911,7 @@
     "updated_at": "2026-04-20T06:23:44.619441"
   },
   {
-    "_id": "hierro_acido_folico_x_30_tab_selec",
+    "_id": "ROSADEL_hierro_acido_folico_x_30_tab_selec",
     "name": "HIERRO +ACIDO FOLICO X 30 TAB. SELEC",
     "category": "Suplemento vitamínico y mineral",
     "principio_activo": "Hierro y ácido fólico",
@@ -1932,7 +1932,7 @@
     "updated_at": "2026-04-20T06:23:48.048116"
   },
   {
-    "_id": "ibuprofen_100mg5ml_susp_selec",
+    "_id": "ROSADEL_ibuprofen_100mg5ml_susp_selec",
     "name": "IBUPROFEN 100MG/5ML SUSP SELEC",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Ibuprofeno",
@@ -1953,7 +1953,7 @@
     "updated_at": "2026-04-20T06:23:50.841964"
   },
   {
-    "_id": "ibuprofenometocarba_caja_x_30_blist_x_10",
+    "_id": "ROSADEL_ibuprofenometocarba_caja_x_30_blist_x_10",
     "name": "IBUPROFENO+METOCARBA CAJA X 30 BLIST X 10",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Ibuprofeno, Metocarbamol",
@@ -1974,7 +1974,7 @@
     "updated_at": "2026-04-20T06:23:53.900552"
   },
   {
-    "_id": "irbersahidro_30025_blist_x_10_caj_x_30_caplin",
+    "_id": "ROSADEL_irbersahidro_30025_blist_x_10_caj_x_30_caplin",
     "name": "IRBERSA+HIDRO 300/25 BLIST X 10 CAJ X 30 CAPLIN",
     "category": "Antihipertensivo",
     "principio_activo": "Irbesartán + Hidroclorotiazida",
@@ -1995,7 +1995,7 @@
     "updated_at": "2026-04-20T06:23:56.804131"
   },
   {
-    "_id": "irbersartan_150_mgs_caja_x_30_blist_x_10_selec",
+    "_id": "ROSADEL_irbersartan_150_mgs_caja_x_30_blist_x_10_selec",
     "name": "IRBERSARTAN 150 MGS CAJA X 30 BLIST X 10 SELEC",
     "category": "Antihipertensivo",
     "principio_activo": "Irbesartán",
@@ -2016,7 +2016,7 @@
     "updated_at": "2026-04-20T06:24:00.094494"
   },
   {
-    "_id": "irbersartan_300_mg_caja_x_30_blist_x_10__selec",
+    "_id": "ROSADEL_irbersartan_300_mg_caja_x_30_blist_x_10__selec",
     "name": "IRBERSARTAN 300 MG CAJA X 30 BLIST X 10  SELEC",
     "category": "Antihipertensivo",
     "principio_activo": "Irbesartán",
@@ -2037,7 +2037,7 @@
     "updated_at": "2026-04-20T06:24:03.029034"
   },
   {
-    "_id": "irbesartan_150125mg_hidroclo_x_30_tabs_caplin",
+    "_id": "ROSADEL_irbesartan_150125mg_hidroclo_x_30_tabs_caplin",
     "name": "IRBESARTAN 150/12.5MG HIDROCLO X 30 TABS CAPLIN",
     "category": "Antihipertensivo",
     "principio_activo": "Irbesartán e Hidroclorotiazida",
@@ -2058,7 +2058,7 @@
     "updated_at": "2026-04-20T06:24:06.466569"
   },
   {
-    "_id": "ketorolaco_60mg2ml_ampolla_bonket",
+    "_id": "ROSADEL_ketorolaco_60mg2ml_ampolla_bonket",
     "name": "KETOROLACO 60MG/2ML AMPOLLA BONKET",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Ketorolaco",
@@ -2079,7 +2079,7 @@
     "updated_at": "2026-04-20T06:24:09.582135"
   },
   {
-    "_id": "lactulosa_10_grs_susp_240_ml_caplin",
+    "_id": "ROSADEL_lactulosa_10_grs_susp_240_ml_caplin",
     "name": "LACTULOSA 10 GRS SUSP 240 ML CAPLIN",
     "category": "Laxantes",
     "principio_activo": "Lactulosa",
@@ -2100,7 +2100,7 @@
     "updated_at": "2026-04-20T06:24:12.575670"
   },
   {
-    "_id": "lagrimas_oculares_grs_15_ml_gotas_selec",
+    "_id": "ROSADEL_lagrimas_oculares_grs_15_ml_gotas_selec",
     "name": "LAGRIMAS OCULARES GRS 15 ML GOTAS SELEC",
     "category": "Lágrimas artificiales",
     "principio_activo": "Carboximetilcelulosa sódica",
@@ -2121,7 +2121,7 @@
     "updated_at": "2026-04-20T06:24:15.341714"
   },
   {
-    "_id": "levofloxacina_500_mg_blist_x_10_selec_umedica",
+    "_id": "ROSADEL_levofloxacina_500_mg_blist_x_10_selec_umedica",
     "name": "LEVOFLOXACINA 500 MG BLIST X 10 SELEC UMEDICA",
     "category": "Antibiótico",
     "principio_activo": "Levofloxacina",
@@ -2142,7 +2142,7 @@
     "updated_at": "2026-04-20T06:24:18.047104"
   },
   {
-    "_id": "lidocaina_1_35_ml_promegal",
+    "_id": "ROSADEL_lidocaina_1_35_ml_promegal",
     "name": "LIDOCAINA 1% 3,5 ML PROMEGAL",
     "category": "Anestésico local",
     "principio_activo": "Lidocaína",
@@ -2163,7 +2163,7 @@
     "updated_at": "2026-04-20T06:24:21.132798"
   },
   {
-    "_id": "lidocaina_2_caplin_3ml",
+    "_id": "ROSADEL_lidocaina_2_caplin_3ml",
     "name": "LIDOCAINA 2% CAPLIN 3ML",
     "category": "Anestésico local",
     "principio_activo": "Lidocaína",
@@ -2184,7 +2184,7 @@
     "updated_at": "2026-04-20T06:24:24.235373"
   },
   {
-    "_id": "loperamida_2mg_caja_x_100_blist_x_20_select",
+    "_id": "ROSADEL_loperamida_2mg_caja_x_100_blist_x_20_select",
     "name": "LOPERAMIDA 2MG CAJA X 100 BLIST X 20 SELECT",
     "category": "Antidiarreicos",
     "principio_activo": "Loperamida",
@@ -2205,7 +2205,7 @@
     "updated_at": "2026-04-20T06:24:27.379635"
   },
   {
-    "_id": "losartan_100_mgs_caja_x_100_blister_x_10_caplin",
+    "_id": "ROSADEL_losartan_100_mgs_caja_x_100_blister_x_10_caplin",
     "name": "LOSARTAN 100 MGS CAJA X 100 BLISTER X 10 CAPLIN",
     "category": "Antihipertensivo",
     "principio_activo": "Losartán",
@@ -2226,7 +2226,7 @@
     "updated_at": "2026-04-20T06:24:31.172783"
   },
   {
-    "_id": "losartan_50_mg_blis_x_10_caja_x_100_caplin",
+    "_id": "ROSADEL_losartan_50_mg_blis_x_10_caja_x_100_caplin",
     "name": "LOSARTAN 50 MG BLIS X 10 CAJA X 100 CAPLIN",
     "category": "Antihipertensivo",
     "principio_activo": "Losartán",
@@ -2247,7 +2247,7 @@
     "updated_at": "2026-04-20T06:24:34.291672"
   },
   {
-    "_id": "lubricante_vive_sashet_5_ml_fresa",
+    "_id": "ROSADEL_lubricante_vive_sashet_5_ml_fresa",
     "name": "LUBRICANTE VIVE SASHET 5 ML FRESA",
     "category": "Lubricante íntimo",
     "principio_activo": "No especificado",
@@ -2268,7 +2268,7 @@
     "updated_at": "2026-04-20T06:24:37.096329"
   },
   {
-    "_id": "lubricante_vive_sashet_5_ml_sin_sabor",
+    "_id": "ROSADEL_lubricante_vive_sashet_5_ml_sin_sabor",
     "name": "LUBRICANTE VIVE SASHET 5 ML SIN SABOR",
     "category": "Lubricante íntimo",
     "principio_activo": "No aplica",
@@ -2289,7 +2289,7 @@
     "updated_at": "2026-04-20T06:24:42.620516"
   },
   {
-    "_id": "mebendazol_100mg_susp_30_ml_selec",
+    "_id": "ROSADEL_mebendazol_100mg_susp_30_ml_selec",
     "name": "MEBENDAZOL 100MG SUSP 30 ML SELEC",
     "category": "Antiparasitario",
     "principio_activo": "Mebendazol",
@@ -2310,7 +2310,7 @@
     "updated_at": "2026-04-20T06:24:45.457289"
   },
   {
-    "_id": "mebendazol_100mgx_blist_x_6_tab",
+    "_id": "ROSADEL_mebendazol_100mgx_blist_x_6_tab",
     "name": "MEBENDAZOL 100MGX BLIST X 6 TAB",
     "category": "Antiparasitario",
     "principio_activo": "Mebendazol",
@@ -2331,7 +2331,7 @@
     "updated_at": "2026-04-20T06:24:48.451775"
   },
   {
-    "_id": "meloxicam_15_mg15_ml_amp_selec",
+    "_id": "ROSADEL_meloxicam_15_mg15_ml_amp_selec",
     "name": "MELOXICAM 15 MG/1.5 ML AMP SELEC",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Meloxicam",
@@ -2352,7 +2352,7 @@
     "updated_at": "2026-04-20T06:24:51.902404"
   },
   {
-    "_id": "meloxican_15mg_caja_x_30_tabs_blist_x_10_selec",
+    "_id": "ROSADEL_meloxican_15mg_caja_x_30_tabs_blist_x_10_selec",
     "name": "MELOXICAN 15MG CAJA X 30 TABS BLIST X 10 SELEC",
     "category": "Antiinflamatorio no esteroideo",
     "principio_activo": "Meloxicam",
@@ -2373,7 +2373,7 @@
     "updated_at": "2026-04-20T06:24:54.995224"
   },
   {
-    "_id": "merlix_dexketoprofeno__inyect_unipharm",
+    "_id": "ROSADEL_merlix_dexketoprofeno__inyect_unipharm",
     "name": "MERLIX (DEXKETOPROFENO ) INYECT UNIPHARM",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Dexketoprofeno",
@@ -2394,7 +2394,7 @@
     "updated_at": "2026-04-20T06:24:58.645510"
   },
   {
-    "_id": "metformina_500_mg__blist_x_10_caja_x_30_selec",
+    "_id": "ROSADEL_metformina_500_mg__blist_x_10_caja_x_30_selec",
     "name": "METFORMINA 500 MG  BLIST X 10 CAJA X 30 SELEC",
     "category": "Antidiabético",
     "principio_activo": "Metformina",
@@ -2415,7 +2415,7 @@
     "updated_at": "2026-04-20T06:25:02.025246"
   },
   {
-    "_id": "metocarbamol_amp_select",
+    "_id": "ROSADEL_metocarbamol_amp_select",
     "name": "METOCARBAMOL AMP SELECT",
     "category": "Relajante muscular",
     "principio_activo": "Metocarbamol",
@@ -2436,7 +2436,7 @@
     "updated_at": "2026-04-20T06:25:05.133322"
   },
   {
-    "_id": "metronidazol_125_mg_susp_120_ml_selec",
+    "_id": "ROSADEL_metronidazol_125_mg_susp_120_ml_selec",
     "name": "METRONIDAZOL 125 MG SUSP 120 ML SELEC",
     "category": "Antibiótico y antiparasitario",
     "principio_activo": "Metronidazol",
@@ -2457,7 +2457,7 @@
     "updated_at": "2026-04-20T06:25:08.427276"
   },
   {
-    "_id": "metronidazol_500_mg_blist_x_10_caja_x_100__caplin",
+    "_id": "ROSADEL_metronidazol_500_mg_blist_x_10_caja_x_100__caplin",
     "name": "METRONIDAZOL 500 MG BLIST X 10 CAJA X 100  CAPLIN",
     "category": "Antibiótico",
     "principio_activo": "Metronidazol",
@@ -2478,7 +2478,7 @@
     "updated_at": "2026-04-20T06:25:11.074961"
   },
   {
-    "_id": "metronidazol_500_mgs_x_10_ovulos_vag_caplin",
+    "_id": "ROSADEL_metronidazol_500_mgs_x_10_ovulos_vag_caplin",
     "name": "METRONIDAZOL 500 MGS X 10 OVULOS VAG CAPLIN",
     "category": "Antibiótico y Antiprotozoario",
     "principio_activo": "Metronidazol",
@@ -2499,7 +2499,7 @@
     "updated_at": "2026-04-20T06:25:14.269222"
   },
   {
-    "_id": "metronidazol_nist_caja_5_ov_caplin",
+    "_id": "ROSADEL_metronidazol_nist_caja_5_ov_caplin",
     "name": "METRONIDAZOL+ NIST CAJA 5 OV CAPLIN",
     "category": "Antibiótico y Antiprotozoario",
     "principio_activo": "Metronidazol y Nistatina",
@@ -2520,7 +2520,7 @@
     "updated_at": "2026-04-20T06:25:17.053243"
   },
   {
-    "_id": "miconazol_2_crema_15_grs_caplin",
+    "_id": "ROSADEL_miconazol_2_crema_15_grs_caplin",
     "name": "MICONAZOL 2% CREMA 15 GRS CAPLIN",
     "category": "Antifúngico tópico",
     "principio_activo": "Miconazol",
@@ -2541,7 +2541,7 @@
     "updated_at": "2026-04-20T06:25:19.650049"
   },
   {
-    "_id": "mucobroxol_120_ml",
+    "_id": "ROSADEL_mucobroxol_120_ml",
     "name": "MUCOBROXOL 120 ML",
     "category": "Expectorante",
     "principio_activo": "Bromhexina",
@@ -2562,7 +2562,7 @@
     "updated_at": "2026-04-20T06:25:24.824687"
   },
   {
-    "_id": "nervisel_10000_ampolla_selec_panal",
+    "_id": "ROSADEL_nervisel_10000_ampolla_selec_panal",
     "name": "NERVISEL 10,000 AMPOLLA SELEC PANAL",
     "category": "Suplemento vitamínico",
     "principio_activo": "Complejo B (Vitaminas B1, B6, B12)",
@@ -2583,7 +2583,7 @@
     "updated_at": "2026-04-20T06:25:30.467317"
   },
   {
-    "_id": "nervisel_25000__ampolla_panal_select",
+    "_id": "ROSADEL_nervisel_25000__ampolla_panal_select",
     "name": "NERVISEL 25,000  AMPOLLA PANAL SELECT",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas del complejo B",
@@ -2604,7 +2604,7 @@
     "updated_at": "2026-04-20T06:25:34.193941"
   },
   {
-    "_id": "nervisel_25000_kit_selec",
+    "_id": "ROSADEL_nervisel_25000_kit_selec",
     "name": "NERVISEL 25,000 KIT SELEC",
     "category": "Suplemento nutricional",
     "principio_activo": "Vitaminas del complejo B (B1, B6, B12)",
@@ -2625,7 +2625,7 @@
     "updated_at": "2026-04-20T06:25:37.534152"
   },
   {
-    "_id": "nervisel_tabs_blist_x_10_caja_x_30",
+    "_id": "ROSADEL_nervisel_tabs_blist_x_10_caja_x_30",
     "name": "NERVISEL TABS BLIST X 10 CAJA X 30",
     "category": "Medicamento para el sistema nervioso",
     "principio_activo": "No especificado",
@@ -2646,7 +2646,7 @@
     "updated_at": "2026-04-20T06:25:40.897039"
   },
   {
-    "_id": "olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap",
+    "_id": "ROSADEL_olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap",
     "name": "OLMERSARTAN MEDOXOMIL 40 MGS BLIST X 10 AJA X 30 CAP",
     "category": "Antihipertensivo",
     "principio_activo": "Olmesartán medoxomil",
@@ -2667,7 +2667,7 @@
     "updated_at": "2026-04-20T06:25:43.443412"
   },
   {
-    "_id": "piroxicam_20_mg_blist_x_10_caja_x_100",
+    "_id": "ROSADEL_piroxicam_20_mg_blist_x_10_caja_x_100",
     "name": "PIROXICAM 20 MG BLIST X 10 CAJA X 100",
     "category": "Antiinflamatorio no esteroideo",
     "principio_activo": "Piroxicam",
@@ -2688,7 +2688,7 @@
     "updated_at": "2026-04-20T06:25:46.202858"
   },
   {
-    "_id": "piroxicam_ampolla_40_mgs",
+    "_id": "ROSADEL_piroxicam_ampolla_40_mgs",
     "name": "PIROXICAM AMPOLLA 40 MGS",
     "category": "Antiinflamatorio no esteroideo (AINE)",
     "principio_activo": "Piroxicam",
@@ -2709,7 +2709,7 @@
     "updated_at": "2026-04-20T06:25:49.284827"
   },
   {
-    "_id": "prednisona_5mg_blist_x_20_caja_x_100__selec",
+    "_id": "ROSADEL_prednisona_5mg_blist_x_20_caja_x_100__selec",
     "name": "PREDNISONA 5MG BLIST X 20 CAJA X 100  SELEC",
     "category": "Corticosteroides",
     "principio_activo": "Prednisona",
@@ -2730,7 +2730,7 @@
     "updated_at": "2026-04-20T06:25:51.962150"
   },
   {
-    "_id": "propanolol_40_mg_caja_x_100_blist_x_10_caplin",
+    "_id": "ROSADEL_propanolol_40_mg_caja_x_100_blist_x_10_caplin",
     "name": "PROPANOLOL 40 MG CAJA X 100 BLIST X 10 CAPLIN",
     "category": "Betabloqueante",
     "principio_activo": "Propranolol",
@@ -2751,7 +2751,7 @@
     "updated_at": "2026-04-20T06:25:54.938219"
   },
   {
-    "_id": "propolderma_spray_bucal_30_ml",
+    "_id": "ROSADEL_propolderma_spray_bucal_30_ml",
     "name": "PROPOLDERMA SPRAY BUCAL 30 ML",
     "category": "Spray bucal",
     "principio_activo": "Propóleo",
@@ -2772,7 +2772,7 @@
     "updated_at": "2026-04-20T06:25:58.188966"
   },
   {
-    "_id": "recover_1_lt_cereza",
+    "_id": "ROSADEL_recover_1_lt_cereza",
     "name": "RECOVER 1 LT CEREZA",
     "category": "Bebida isotónica",
     "principio_activo": "Electrolitos (sodio, potasio, magnesio)",
@@ -2793,7 +2793,7 @@
     "updated_at": "2026-04-20T06:26:02.282571"
   },
   {
-    "_id": "recover_1_lt_coco",
+    "_id": "ROSADEL_recover_1_lt_coco",
     "name": "RECOVER 1 LT COCO",
     "category": "Bebida isotónica",
     "principio_activo": "Electrolitos (sodio, potasio, magnesio)",
@@ -2814,7 +2814,7 @@
     "updated_at": "2026-04-20T06:26:05.292838"
   },
   {
-    "_id": "recover_1_lt_manzana",
+    "_id": "ROSADEL_recover_1_lt_manzana",
     "name": "RECOVER 1 LT MANZANA",
     "category": "Bebida isotónica",
     "principio_activo": "Electrolitos (sodio, potasio, magnesio)",
@@ -2835,7 +2835,7 @@
     "updated_at": "2026-04-20T06:26:08.281153"
   },
   {
-    "_id": "recover_1_lt_melocoton",
+    "_id": "ROSADEL_recover_1_lt_melocoton",
     "name": "RECOVER 1 LT MELOCOTON",
     "category": "Bebida isotónica",
     "principio_activo": "Electrolitos y carbohidratos",
@@ -2856,7 +2856,7 @@
     "updated_at": "2026-04-20T06:26:11.967516"
   },
   {
-    "_id": "recover_1_lt_uva",
+    "_id": "ROSADEL_recover_1_lt_uva",
     "name": "RECOVER 1 LT UVA",
     "category": "Bebida hidratante",
     "principio_activo": "Electrolitos y carbohidratos",
@@ -2877,7 +2877,7 @@
     "updated_at": "2026-04-20T06:26:14.825496"
   },
   {
-    "_id": "recover_500_ml_uva",
+    "_id": "ROSADEL_recover_500_ml_uva",
     "name": "RECOVER 500 ML UVA",
     "category": "Bebida hidratante",
     "principio_activo": "Electrolitos y glucosa",
@@ -2898,7 +2898,7 @@
     "updated_at": "2026-04-20T06:26:17.791380"
   },
   {
-    "_id": "recover_500ml_cereza",
+    "_id": "ROSADEL_recover_500ml_cereza",
     "name": "RECOVER 500ML CEREZA",
     "category": "Bebida de rehidratación",
     "principio_activo": "Electrolitos y carbohidratos",
@@ -2919,7 +2919,7 @@
     "updated_at": "2026-04-20T06:26:21.188410"
   },
   {
-    "_id": "recover_500ml_coco",
+    "_id": "ROSADEL_recover_500ml_coco",
     "name": "RECOVER 500ML COCO",
     "category": "Bebida isotónica",
     "principio_activo": "Electrolitos y carbohidratos",
@@ -2940,7 +2940,7 @@
     "updated_at": "2026-04-20T06:26:24.012403"
   },
   {
-    "_id": "recover_500ml_manzana",
+    "_id": "ROSADEL_recover_500ml_manzana",
     "name": "RECOVER 500ML MANZANA",
     "category": "Bebida de rehidratación",
     "principio_activo": "Electrolitos y azúcares",
@@ -2961,7 +2961,7 @@
     "updated_at": "2026-04-20T06:26:26.943430"
   },
   {
-    "_id": "recover_500ml_melocoton",
+    "_id": "ROSADEL_recover_500ml_melocoton",
     "name": "RECOVER 500ML MELOCOTON",
     "category": "Bebida de recuperación",
     "principio_activo": "Electrolitos y carbohidratos",
@@ -2982,7 +2982,7 @@
     "updated_at": "2026-04-20T06:26:30.112555"
   },
   {
-    "_id": "recover_diabetico_litro_cereza",
+    "_id": "ROSADEL_recover_diabetico_litro_cereza",
     "name": "RECOVER DIABETICO LITRO CEREZA",
     "category": "Suplemento nutricional para diabéticos",
     "principio_activo": "No especificado (producto nutricional)",
@@ -3003,7 +3003,7 @@
     "updated_at": "2026-04-20T06:26:32.830480"
   },
   {
-    "_id": "recover_diabetico_litro_coco",
+    "_id": "ROSADEL_recover_diabetico_litro_coco",
     "name": "RECOVER DIABETICO LITRO COCO",
     "category": "Suplemento nutricional",
     "principio_activo": "No aplica",
@@ -3024,7 +3024,7 @@
     "updated_at": "2026-04-20T06:26:35.439322"
   },
   {
-    "_id": "recover_diabetico_litro_manzana",
+    "_id": "ROSADEL_recover_diabetico_litro_manzana",
     "name": "RECOVER DIABETICO LITRO MANZANA",
     "category": "Suplemento nutricional para diabéticos",
     "principio_activo": "N/A",
@@ -3045,7 +3045,7 @@
     "updated_at": "2026-04-20T06:26:38.223220"
   },
   {
-    "_id": "recover_diabetico_litro_piña",
+    "_id": "ROSADEL_recover_diabetico_litro_piña",
     "name": "RECOVER DIABETICO LITRO PIÑA",
     "category": "Bebida nutricional para diabéticos",
     "principio_activo": "N/A",
@@ -3066,7 +3066,7 @@
     "updated_at": "2026-04-20T06:26:41.174720"
   },
   {
-    "_id": "restaler_loratad__beta_caja_x_10_tab",
+    "_id": "ROSADEL_restaler_loratad__beta_caja_x_10_tab",
     "name": "RESTALER (LORATAD + BETA) CAJA X 10 TAB",
     "category": "Antihistamínico y descongestionante",
     "principio_activo": "Loratadina y Betametasona",
@@ -3087,7 +3087,7 @@
     "updated_at": "2026-04-20T06:26:44.414418"
   },
   {
-    "_id": "salbutamol_2mg_120_ml_selec",
+    "_id": "ROSADEL_salbutamol_2mg_120_ml_selec",
     "name": "SALBUTAMOL 2MG 120 ML SELEC",
     "category": "Broncodilatador",
     "principio_activo": "Salbutamol",
@@ -3108,7 +3108,7 @@
     "updated_at": "2026-04-20T06:26:47.529201"
   },
   {
-    "_id": "sextron_sildenafil_100_mg_x_1tab",
+    "_id": "ROSADEL_sextron_sildenafil_100_mg_x_1tab",
     "name": "SEXTRON (SILDENAFIL) 100 MG X 1TAB",
     "category": "Medicamento para disfunción eréctil",
     "principio_activo": "Sildenafil",
@@ -3129,7 +3129,7 @@
     "updated_at": "2026-04-20T06:26:50.910204"
   },
   {
-    "_id": "sildenalfin_100_mg_x4_tbs_umedica",
+    "_id": "ROSADEL_sildenalfin_100_mg_x4_tbs_umedica",
     "name": "SILDENALFIN 100 MG X4 TBS UMEDICA",
     "category": "Medicamento para disfunción eréctil",
     "principio_activo": "Sildenafil",
@@ -3150,7 +3150,7 @@
     "updated_at": "2026-04-20T06:26:54.147351"
   },
   {
-    "_id": "simeticona_100mgml_gts_fco_30ml_select",
+    "_id": "ROSADEL_simeticona_100mgml_gts_fco_30ml_select",
     "name": "SIMETICONA 100MG/ML GTS. FCO 30ML SELECT",
     "category": "Antiflatulentos",
     "principio_activo": "Simeticona",
@@ -3171,7 +3171,7 @@
     "updated_at": "2026-04-20T06:26:57.012731"
   },
   {
-    "_id": "simeticona_40mg_mast_blist_x_10_selec_caja_x_30",
+    "_id": "ROSADEL_simeticona_40mg_mast_blist_x_10_selec_caja_x_30",
     "name": "SIMETICONA 40MG MAST BLIST X 10 SELEC CAJA X 30",
     "category": "Antiflatulentos",
     "principio_activo": "Simeticona",
@@ -3192,7 +3192,7 @@
     "updated_at": "2026-04-20T06:26:59.839104"
   },
   {
-    "_id": "soluto_vital_15_ml",
+    "_id": "ROSADEL_soluto_vital_15_ml",
     "name": "SOLUTO VITAL 15 ML",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas y minerales",
@@ -3213,7 +3213,7 @@
     "updated_at": "2026-04-20T06:27:02.575017"
   },
   {
-    "_id": "suero_en_polvo_cereza__1lt_caplin_x_50",
+    "_id": "ROSADEL_suero_en_polvo_cereza__1lt_caplin_x_50",
     "name": "SUERO EN POLVO CEREZA  1LT CAPLIN X 50",
     "category": "Suplemento Hidratante",
     "principio_activo": "Sales de rehidratación oral",
@@ -3234,7 +3234,7 @@
     "updated_at": "2026-04-20T06:27:05.275826"
   },
   {
-    "_id": "sulfacetamida_10_15_ml_got_slect",
+    "_id": "ROSADEL_sulfacetamida_10_15_ml_got_slect",
     "name": "SULFACETAMIDA 10% 15 ML GOT SLECT",
     "category": "Antibiótico tópico",
     "principio_activo": "Sulfacetamida",
@@ -3255,7 +3255,7 @@
     "updated_at": "2026-04-20T06:27:08.040693"
   },
   {
-    "_id": "tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4",
+    "_id": "ROSADEL_tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4",
     "name": "TADALALFIL 20 MG X 4 TAB BALAXI DISP X 10 CAJITAS BLIST X 4",
     "category": "Medicamento para disfunción eréctil",
     "principio_activo": "Tadalafilo",
@@ -3276,7 +3276,7 @@
     "updated_at": "2026-04-20T06:27:11.226678"
   },
   {
-    "_id": "thiorelax_tiocolchicósico_8_mg_x_10_tabs",
+    "_id": "ROSADEL_thiorelax_tiocolchicósico_8_mg_x_10_tabs",
     "name": "THIORELAX (TIOCOLCHICÓSICO) 8 MG X 10 TABS",
     "category": "Antiinflamatorio y Antigotoso",
     "principio_activo": "Tiocolchicósido",
@@ -3297,7 +3297,7 @@
     "updated_at": "2026-04-20T06:27:16.185237"
   },
   {
-    "_id": "toallitas_de_alcohol_x_200",
+    "_id": "ROSADEL_toallitas_de_alcohol_x_200",
     "name": "TOALLITAS DE ALCOHOL X 200",
     "category": "Antisépticos y desinfectantes",
     "principio_activo": "Alcohol etílico",
@@ -3318,7 +3318,7 @@
     "updated_at": "2026-04-20T06:27:19.020565"
   },
   {
-    "_id": "tosiflem_jarabe_240_ml",
+    "_id": "ROSADEL_tosiflem_jarabe_240_ml",
     "name": "TOSIFLEM JARABE 240 ML",
     "category": "Jarabe para la tos",
     "principio_activo": "Levodropropizina",
@@ -3339,7 +3339,7 @@
     "updated_at": "2026-04-20T06:27:21.892438"
   },
   {
-    "_id": "tossadios_fco_con__100_caramelos",
+    "_id": "ROSADEL_tossadios_fco_con__100_caramelos",
     "name": "TOSSADIOS FCO CON  100 CARAMELOS",
     "category": "Antitusivos",
     "principio_activo": "No especificado",
@@ -3360,7 +3360,7 @@
     "updated_at": "2026-04-20T06:27:24.621654"
   },
   {
-    "_id": "tramadol_50_mg_caja_x_100_blist_x_10_getics",
+    "_id": "ROSADEL_tramadol_50_mg_caja_x_100_blist_x_10_getics",
     "name": "TRAMADOL 50 MG CAJA X 100 BLIST X 10 GETICS",
     "category": "Analgésico opioide",
     "principio_activo": "Tramadol",
@@ -3381,7 +3381,7 @@
     "updated_at": "2026-04-20T06:27:27.427236"
   },
   {
-    "_id": "tramadol_50mg_caja_x_100_blist_x_10_caplin",
+    "_id": "ROSADEL_tramadol_50mg_caja_x_100_blist_x_10_caplin",
     "name": "TRAMADOL 50MG CAJA X 100 BLIST X 10 CAPLIN",
     "category": "Analgésico opioide",
     "principio_activo": "Tramadol",
@@ -3402,7 +3402,7 @@
     "updated_at": "2026-04-20T06:27:30.419363"
   },
   {
-    "_id": "tramadol_ampolla__2ml_bandeja_x_10_amp",
+    "_id": "ROSADEL_tramadol_ampolla__2ml_bandeja_x_10_amp",
     "name": "TRAMADOL AMPOLLA  2ML BANDEJA X 10 AMP",
     "category": "Analgésicos opioides",
     "principio_activo": "Tramadol",
@@ -3423,7 +3423,7 @@
     "updated_at": "2026-04-20T06:27:33.177646"
   },
   {
-    "_id": "tresbiot_20_grs_caplin",
+    "_id": "ROSADEL_tresbiot_20_grs_caplin",
     "name": "TRESBIOT 20 GRS CAPLIN",
     "category": "Suplemento probiótico",
     "principio_activo": "Probióticos (mezcla de bacterias beneficiosas)",
@@ -3444,7 +3444,7 @@
     "updated_at": "2026-04-20T06:27:36.019094"
   },
   {
-    "_id": "trilox_180_ml",
+    "_id": "ROSADEL_trilox_180_ml",
     "name": "TRILOX 180 ML",
     "category": "Jarabe antitusivo",
     "principio_activo": "Dextrometorfano",
@@ -3465,7 +3465,7 @@
     "updated_at": "2026-04-20T06:27:39.860482"
   },
   {
-    "_id": "trilox_360_ml",
+    "_id": "ROSADEL_trilox_360_ml",
     "name": "TRILOX 360 ML",
     "category": "Jarabe",
     "principio_activo": "Dextrometorfano",
@@ -3486,7 +3486,7 @@
     "updated_at": "2026-04-20T06:27:43.765149"
   },
   {
-    "_id": "trimetoprim_120_ml_selec_sulfabac",
+    "_id": "ROSADEL_trimetoprim_120_ml_selec_sulfabac",
     "name": "TRIMETOPRIM 120 ML SELEC (SULFABAC)",
     "category": "Antibiótico",
     "principio_activo": "Trimetoprim",
@@ -3507,7 +3507,7 @@
     "updated_at": "2026-04-20T06:27:46.825125"
   },
   {
-    "_id": "uniactv__jabon_intimo_femenino_200_ml_caplin",
+    "_id": "ROSADEL_uniactv__jabon_intimo_femenino_200_ml_caplin",
     "name": "UNIACT-V  JABON INTIMO FEMENINO 200 ML CAPLIN",
     "category": "Higiene personal",
     "principio_activo": "No especificado",
@@ -3528,7 +3528,7 @@
     "updated_at": "2026-04-20T06:27:49.582583"
   },
   {
-    "_id": "unicil_la_24_mega_peni_bena_vial_unipharm",
+    "_id": "ROSADEL_unicil_la_24_mega_peni_bena_vial_unipharm",
     "name": "UNICIL L-A 2.4 MEGA (PENI BENA) VIAL UNIPHARM",
     "category": "Antibiótico",
     "principio_activo": "Penicilina benzatina",
@@ -3549,7 +3549,7 @@
     "updated_at": "2026-04-20T06:27:52.533150"
   },
   {
-    "_id": "valsartan_80_mg_caja_x_30_tab_caplin",
+    "_id": "ROSADEL_valsartan_80_mg_caja_x_30_tab_caplin",
     "name": "VALSARTAN 80 MG CAJA X 30 TAB CAPLIN",
     "category": "Antihipertensivo",
     "principio_activo": "Valsartán",
@@ -3570,7 +3570,7 @@
     "updated_at": "2026-04-20T06:27:55.092454"
   },
   {
-    "_id": "venda_elastica_2_x_5",
+    "_id": "ROSADEL_venda_elastica_2_x_5",
     "name": "VENDA ELASTICA 2\" X 5",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -3591,7 +3591,7 @@
     "updated_at": "2026-04-20T06:27:57.710418"
   },
   {
-    "_id": "venda_elastica_3_x_5",
+    "_id": "ROSADEL_venda_elastica_3_x_5",
     "name": "VENDA ELASTICA 3 X 5",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -3612,7 +3612,7 @@
     "updated_at": "2026-04-20T06:28:00.518625"
   },
   {
-    "_id": "venda_elastica_4_x_5",
+    "_id": "ROSADEL_venda_elastica_4_x_5",
     "name": "VENDA ELASTICA 4\" X 5",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -3633,7 +3633,7 @@
     "updated_at": "2026-04-20T06:28:03.343062"
   },
   {
-    "_id": "venda_elastica_6_x_5",
+    "_id": "ROSADEL_venda_elastica_6_x_5",
     "name": "VENDA ELASTICA 6 X 5",
     "category": "Material de curación",
     "principio_activo": "Ninguno",
@@ -3654,7 +3654,7 @@
     "updated_at": "2026-04-20T06:28:06.141719"
   },
   {
-    "_id": "venotropa_x_30caps_farmalin",
+    "_id": "ROSADEL_venotropa_x_30caps_farmalin",
     "name": "VENOTROPA X 30CAPS FARMALIN",
     "category": "Suplemento para la salud venosa",
     "principio_activo": "Extracto de castaño de indias",
@@ -3675,7 +3675,7 @@
     "updated_at": "2026-04-20T06:28:09.371611"
   },
   {
-    "_id": "viriman_plus_tadalafil_20_mg_selec_caja_x_1_tab",
+    "_id": "ROSADEL_viriman_plus_tadalafil_20_mg_selec_caja_x_1_tab",
     "name": "VIRIMAN PLUS (TADALAFIL 20 MG SELEC) CAJA X 1 TAB",
     "category": "Medicamento para disfunción eréctil",
     "principio_activo": "Tadalafilo 20 mg",
@@ -3696,7 +3696,7 @@
     "updated_at": "2026-04-20T06:28:12.309441"
   },
   {
-    "_id": "vitamina_e_1000_ui_blist_x_10_caja_x_60_gelc_kurantis",
+    "_id": "ROSADEL_vitamina_e_1000_ui_blist_x_10_caja_x_60_gelc_kurantis",
     "name": "VITAMINA E 1000 UI BLIST X 10 CAJA X 60 GELC KURANTIS",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitamina E",
@@ -3717,7 +3717,7 @@
     "updated_at": "2026-04-20T06:28:15.007474"
   },
   {
-    "_id": "vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis",
+    "_id": "ROSADEL_vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis",
     "name": "VITAMINA E 400 IU BLIS X 10 GEL CAPS CAJA X 60  KURANTIS",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitamina E",

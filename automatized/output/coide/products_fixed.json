@@ -1,6 +1,6 @@
 [
   {
-    "_id": "aceite_de_higado_x_100_siete_mares",
+    "_id": "COIDE_aceite_de_higado_x_100_siete_mares",
     "name": "ACEITE DE HIGADO X 100 SIETE MARES",
     "category": "Suplemento nutricional",
     "principio_activo": "Aceite de hígado de bacalao",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T06:51:47.501259"
   },
   {
-    "_id": "aguja_18g_x_112_rosada",
+    "_id": "COIDE_aguja_18g_x_112_rosada",
     "name": "AGUJA 18G X 1-1/2 ROSADA",
     "category": "Material de curación",
     "principio_activo": null,
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T06:51:50.733447"
   },
   {
-    "_id": "aguja_21g_x_1_x_12_verde",
+    "_id": "COIDE_aguja_21g_x_1_x_12_verde",
     "name": "AGUJA 21G X 1 X 1/2 VERDE",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T06:51:53.407058"
   },
   {
-    "_id": "aguja_23g_x_1___azul_nipro_ped",
+    "_id": "COIDE_aguja_23g_x_1___azul_nipro_ped",
     "name": "AGUJA 23G X 1\"   AZUL (NIPRO) PED",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T06:51:56.402730"
   },
   {
-    "_id": "aguja_23g_x_112_celeste_nipro",
+    "_id": "COIDE_aguja_23g_x_112_celeste_nipro",
     "name": "AGUJA 23G X 1-1/2\" CELESTE (NIPRO)",
     "category": "Material de inyección",
     "principio_activo": "",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T06:51:59.333055"
   },
   {
-    "_id": "aleve_extra_fuerte_x_36_tab",
+    "_id": "COIDE_aleve_extra_fuerte_x_36_tab",
     "name": "ALEVE EXTRA FUERTE X 36 TAB",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Naproxeno",
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T06:52:02.518787"
   },
   {
-    "_id": "algodón_2_grs_bolsa_x_25_vesa",
+    "_id": "COIDE_algodón_2_grs_bolsa_x_25_vesa",
     "name": "ALGODÓN 2 GRS BOLSA X 25 VESA",
     "category": "Material de curación",
     "principio_activo": "Algodón",
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T06:52:05.168658"
   },
   {
-    "_id": "alka_gastric_blist_x_6_disp_x_36_tab",
+    "_id": "COIDE_alka_gastric_blist_x_6_disp_x_36_tab",
     "name": "ALKA GASTRIC BLIST X 6 DISP. X 36 TAB",
     "category": "Antiácido",
     "principio_activo": "Almagato",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T06:52:08.422375"
   },
   {
-    "_id": "anestenca_tubo_x_5_ml",
+    "_id": "COIDE_anestenca_tubo_x_5_ml",
     "name": "ANESTENCA TUBO X 5 ML",
     "category": "Anestésico local",
     "principio_activo": "Lidocaína",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T06:52:11.624484"
   },
   {
-    "_id": "anestevil_gotas_5_ml_anestesico_local",
+    "_id": "COIDE_anestevil_gotas_5_ml_anestesico_local",
     "name": "ANESTEVIL GOTAS 5 ML (ANESTESICO LOCAL)",
     "category": "Anestésico local",
     "principio_activo": "Lidocaína",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T06:52:14.453773"
   },
   {
-    "_id": "anestil_5_ml_x_12_tubos",
+    "_id": "COIDE_anestil_5_ml_x_12_tubos",
     "name": "ANESTIL 5 ML X 12 TUBOS",
     "category": "Anestésico local",
     "principio_activo": "Lidocaína",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T06:52:17.214113"
   },
   {
-    "_id": "angiocat__16",
+    "_id": "COIDE_angiocat__16",
     "name": "ANGIOCAT # 16",
     "category": "Medicamento cardiovascular",
     "principio_activo": "No especificado",
@@ -252,7 +252,7 @@
     "updated_at": "2026-04-20T06:52:19.961603"
   },
   {
-    "_id": "apositos_para_cayos_hansaplast__x_6",
+    "_id": "COIDE_apositos_para_cayos_hansaplast__x_6",
     "name": "APOSITOS PARA CAYOS HANSAPLAST  X 6",
     "category": "Cuidado de la piel",
     "principio_activo": "No aplica",
@@ -273,7 +273,7 @@
     "updated_at": "2026-04-20T06:52:22.461798"
   },
   {
-    "_id": "aquamar_fco_50_ml_spray_nasal",
+    "_id": "COIDE_aquamar_fco_50_ml_spray_nasal",
     "name": "AQUAMAR FCO 50 ML SPRAY NASAL",
     "category": "Spray nasal",
     "principio_activo": "Agua de mar isotónica",
@@ -294,7 +294,7 @@
     "updated_at": "2026-04-20T06:52:25.520068"
   },
   {
-    "_id": "aspirador_nasal_gerber",
+    "_id": "COIDE_aspirador_nasal_gerber",
     "name": "ASPIRADOR NASAL GERBER",
     "category": "Dispositivo médico",
     "principio_activo": "N/A",
@@ -315,7 +315,7 @@
     "updated_at": "2026-04-20T06:52:28.007438"
   },
   {
-    "_id": "aspirina_adulto_blist_x_10_caja_x_100",
+    "_id": "COIDE_aspirina_adulto_blist_x_10_caja_x_100",
     "name": "ASPIRINA ADULTO BLIST X 10 CAJA X 100",
     "category": "Analgésicos y antipiréticos",
     "principio_activo": "Ácido acetilsalicílico",
@@ -336,7 +336,7 @@
     "updated_at": "2026-04-20T06:52:30.802961"
   },
   {
-    "_id": "aspirina_forte_caja_x_100_blist_x_10",
+    "_id": "COIDE_aspirina_forte_caja_x_100_blist_x_10",
     "name": "ASPIRINA FORTE CAJA X 100 BLIST X 10",
     "category": "Analgésicos y antipiréticos",
     "principio_activo": "Ácido acetilsalicílico",
@@ -357,7 +357,7 @@
     "updated_at": "2026-04-20T06:52:33.533036"
   },
   {
-    "_id": "aspirina_niños_blist_x_10_caja_x_100",
+    "_id": "COIDE_aspirina_niños_blist_x_10_caja_x_100",
     "name": "ASPIRINA NIÑOS BLIST X 10 CAJA X 100",
     "category": "Analgésicos y antipiréticos",
     "principio_activo": "Ácido acetilsalicílico",
@@ -378,7 +378,7 @@
     "updated_at": "2026-04-20T06:52:36.414538"
   },
   {
-    "_id": "ballena_azul_200_ml",
+    "_id": "COIDE_ballena_azul_200_ml",
     "name": "BALLENA AZUL 200 ml",
     "category": "Desconocida",
     "principio_activo": "No especificado",
@@ -399,7 +399,7 @@
     "updated_at": "2026-04-20T06:52:39.660598"
   },
   {
-    "_id": "balsamico_gms_12_grs",
+    "_id": "COIDE_balsamico_gms_12_grs",
     "name": "BALSAMICO GMS 12 GRS",
     "category": "Ungüento / Bálsamo",
     "principio_activo": "Mentol, alcanfor y otros ingredientes tópicos",
@@ -420,7 +420,7 @@
     "updated_at": "2026-04-20T06:52:42.402408"
   },
   {
-    "_id": "baykid_dolor_y_fiebre_caja_x_36_blist_x_12_tab",
+    "_id": "COIDE_baykid_dolor_y_fiebre_caja_x_36_blist_x_12_tab",
     "name": "BAYKID DOLOR Y FIEBRE CAJA X 36 BLIST X 12 TAB",
     "category": "Analgésico y antipirético",
     "principio_activo": "Paracetamol",
@@ -441,7 +441,7 @@
     "updated_at": "2026-04-20T06:52:44.915562"
   },
   {
-    "_id": "bep0anthene_pomada_30_grs",
+    "_id": "COIDE_bep0anthene_pomada_30_grs",
     "name": "BEP0ANTHENE POMADA 30 GRS",
     "category": "Pomada dermatológica",
     "principio_activo": "Dexpantenol",
@@ -462,7 +462,7 @@
     "updated_at": "2026-04-20T06:52:47.508982"
   },
   {
-    "_id": "bephanthene_crema_5_30g_quemaduras",
+    "_id": "COIDE_bephanthene_crema_5_30g_quemaduras",
     "name": "BEPHANTHENE CREMA 5% 30G QUEMADURAS",
     "category": "Cremas para quemaduras",
     "principio_activo": "Dexpantenol",
@@ -483,7 +483,7 @@
     "updated_at": "2026-04-20T06:52:51.064402"
   },
   {
-    "_id": "bicarbonato__x_25_sobres_de_10_grs_vesa",
+    "_id": "COIDE_bicarbonato__x_25_sobres_de_10_grs_vesa",
     "name": "BICARBONATO  X 25 SOBRES DE 10 GRS VESA",
     "category": "Antiácido",
     "principio_activo": "Bicarbonato de sodio",
@@ -504,7 +504,7 @@
     "updated_at": "2026-04-20T06:52:54.116658"
   },
   {
-    "_id": "bicarbonato_x_1_libra_disfavil",
+    "_id": "COIDE_bicarbonato_x_1_libra_disfavil",
     "name": "BICARBONATO X 1 LIBRA DISFAVIL",
     "category": "Antiácido",
     "principio_activo": "Bicarbonato de sodio",
@@ -525,7 +525,7 @@
     "updated_at": "2026-04-20T06:52:56.889849"
   },
   {
-    "_id": "bicarbonato_x_16_sobres_de_28_grs_disfavil",
+    "_id": "COIDE_bicarbonato_x_16_sobres_de_28_grs_disfavil",
     "name": "BICARBONATO X 16 SOBRES DE 28 GRS DISFAVIL",
     "category": "Antiácidos",
     "principio_activo": "Bicarbonato de sodio",
@@ -546,7 +546,7 @@
     "updated_at": "2026-04-20T06:52:59.795596"
   },
   {
-    "_id": "bolsa_de_algodón_160_bolitas_superior",
+    "_id": "COIDE_bolsa_de_algodón_160_bolitas_superior",
     "name": "BOLSA DE ALGODÓN 160 BOLITAS SUPERIOR",
     "category": "Material de curación",
     "principio_activo": "Ninguno",
@@ -567,7 +567,7 @@
     "updated_at": "2026-04-20T06:53:02.304604"
   },
   {
-    "_id": "calcio_vitaminado_ampolla",
+    "_id": "COIDE_calcio_vitaminado_ampolla",
     "name": "CALCIO VITAMINADO AMPOLLA",
     "category": "Suplemento mineral y vitamínico",
     "principio_activo": "Calcio y vitaminas",
@@ -588,7 +588,7 @@
     "updated_at": "2026-04-20T06:53:04.887684"
   },
   {
-    "_id": "callofin_pomada_12_grs",
+    "_id": "COIDE_callofin_pomada_12_grs",
     "name": "CALLOFIN POMADA 12 GRS",
     "category": "Pomada dermatológica",
     "principio_activo": "Ácido salicílico y otros queratolíticos",
@@ -609,7 +609,7 @@
     "updated_at": "2026-04-20T06:53:07.905635"
   },
   {
-    "_id": "calmante_sobre_bolsa_x_100",
+    "_id": "COIDE_calmante_sobre_bolsa_x_100",
     "name": "CALMANTE SOBRE BOLSA X 100",
     "category": "Calmantes y sedantes",
     "principio_activo": "No especificado",
@@ -630,7 +630,7 @@
     "updated_at": "2026-04-20T06:53:10.646284"
   },
   {
-    "_id": "canesten_100_mg_x_18_ovulos_vag",
+    "_id": "COIDE_canesten_100_mg_x_18_ovulos_vag",
     "name": "CANESTEN 100 MG X 18 OVULOS VAG",
     "category": "Antifúngicos",
     "principio_activo": "Clotrimazol",
@@ -651,7 +651,7 @@
     "updated_at": "2026-04-20T06:53:13.995611"
   },
   {
-    "_id": "canesten_triple_accion_15_grs",
+    "_id": "COIDE_canesten_triple_accion_15_grs",
     "name": "CANESTEN TRIPLE ACCION 15 GRS",
     "category": "Antifúngico tópico",
     "principio_activo": "Clotrimazol",
@@ -672,7 +672,7 @@
     "updated_at": "2026-04-20T06:53:17.922250"
   },
   {
-    "_id": "cardioaspirina_caja_x_48_tab",
+    "_id": "COIDE_cardioaspirina_caja_x_48_tab",
     "name": "CARDIOASPIRINA CAJA X 48 TAB",
     "category": "Antiplaquetarios",
     "principio_activo": "Ácido acetilsalicílico",
@@ -693,7 +693,7 @@
     "updated_at": "2026-04-20T06:53:20.558067"
   },
   {
-    "_id": "cirbral_25_mg_blist_x_20_caja_x_60",
+    "_id": "COIDE_cirbral_25_mg_blist_x_20_caja_x_60",
     "name": "CIRBRAL 25 MG BLIST X 20 CAJA X 60",
     "category": "Medicamento",
     "principio_activo": "Cinnarizina",
@@ -714,7 +714,7 @@
     "updated_at": "2026-04-20T06:53:23.276109"
   },
   {
-    "_id": "cirbral_forte_75_mg_blist_x_10_caja_x_30",
+    "_id": "COIDE_cirbral_forte_75_mg_blist_x_10_caja_x_30",
     "name": "CIRBRAL FORTE 75 MG BLIST X 10 CAJA X 30",
     "category": "Medicamento",
     "principio_activo": "Cirbral",
@@ -735,7 +735,7 @@
     "updated_at": "2026-04-20T06:53:26.091234"
   },
   {
-    "_id": "citrato_de_magnesia_bolsa_x_16_sobres",
+    "_id": "COIDE_citrato_de_magnesia_bolsa_x_16_sobres",
     "name": "CITRATO DE MAGNESIA BOLSA X 16 SOBRES",
     "category": "Laxantes",
     "principio_activo": "Citrato de magnesio",
@@ -756,7 +756,7 @@
     "updated_at": "2026-04-20T06:53:28.792601"
   },
   {
-    "_id": "cloprim_01mggotas_15_ml",
+    "_id": "COIDE_cloprim_01mggotas_15_ml",
     "name": "CLO-PRIM 0.1MG/GOTAS 15 ML",
     "category": "Antibiótico",
     "principio_activo": "Cloranfenicol",
@@ -777,7 +777,7 @@
     "updated_at": "2026-04-20T06:53:31.632639"
   },
   {
-    "_id": "cloprim_10mg_blist_x_10_caja_x_40_tabs",
+    "_id": "COIDE_cloprim_10mg_blist_x_10_caja_x_40_tabs",
     "name": "CLO-PRIM 10MG BLIST X 10 CAJA X 40 TABS",
     "category": "Antibiótico",
     "principio_activo": "Cloranfenicol",
@@ -798,7 +798,7 @@
     "updated_at": "2026-04-20T06:53:35.316124"
   },
   {
-    "_id": "cloprim_5mg5ml_jarabe_120_ml",
+    "_id": "COIDE_cloprim_5mg5ml_jarabe_120_ml",
     "name": "CLOPRIM 5MG/5ML JARABE 120 ML",
     "category": "Jarabe",
     "principio_activo": "Clopidogrel",
@@ -819,7 +819,7 @@
     "updated_at": "2026-04-20T06:53:37.946272"
   },
   {
-    "_id": "cloprim_caja_x_3_ampollas",
+    "_id": "COIDE_cloprim_caja_x_3_ampollas",
     "name": "CLOPRIM CAJA X 3 AMPOLLAS",
     "category": "Antibiótico",
     "principio_activo": "Clorhidrato de clorpromazina",
@@ -840,7 +840,7 @@
     "updated_at": "2026-04-20T06:53:40.779268"
   },
   {
-    "_id": "coderpina_jbe_60_ml",
+    "_id": "COIDE_coderpina_jbe_60_ml",
     "name": "CODERPINA JBE 60 ML",
     "category": "Jarabe antitusivo",
     "principio_activo": "Codeína",
@@ -861,7 +861,7 @@
     "updated_at": "2026-04-20T06:53:43.253986"
   },
   {
-    "_id": "coqueluche_fco_120_ml",
+    "_id": "COIDE_coqueluche_fco_120_ml",
     "name": "COQUELUCHE FCO 120 ML",
     "category": "Vacuna",
     "principio_activo": "Bordetella pertussis (vacuna contra la tos ferina)",
@@ -882,7 +882,7 @@
     "updated_at": "2026-04-20T06:53:46.415713"
   },
   {
-    "_id": "curita_redonda__cureband_caja_x_100",
+    "_id": "COIDE_curita_redonda__cureband_caja_x_100",
     "name": "CURITA REDONDA  CUREBAND CAJA X 100",
     "category": "Material de curación",
     "principio_activo": "Ninguno",
@@ -903,7 +903,7 @@
     "updated_at": "2026-04-20T06:53:49.068557"
   },
   {
-    "_id": "dapaz_amitrip__clordia__caja_x_30_blist_x_10",
+    "_id": "COIDE_dapaz_amitrip__clordia__caja_x_30_blist_x_10",
     "name": "DAPAZ (AMITRIP + CLORDIA)  CAJA X 30 BLIST X 10",
     "category": "Antidepresivo",
     "principio_activo": "Amitriptilina y Clordiazepóxido",
@@ -924,7 +924,7 @@
     "updated_at": "2026-04-20T06:53:51.930986"
   },
   {
-    "_id": "diyodo_650_caja_x_100_blist_x_10_tab",
+    "_id": "COIDE_diyodo_650_caja_x_100_blist_x_10_tab",
     "name": "DIYODO 650 CAJA X 100 BLIST X 10 TAB",
     "category": "Analgésico y antipirético",
     "principio_activo": "Paracetamol",
@@ -945,7 +945,7 @@
     "updated_at": "2026-04-20T06:53:54.667727"
   },
   {
-    "_id": "dolovitanervo_kit_ampolla",
+    "_id": "COIDE_dolovitanervo_kit_ampolla",
     "name": "DOLOVITANERVO KIT AMPOLLA",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas B1, B6 y B12",
@@ -966,7 +966,7 @@
     "updated_at": "2026-04-20T06:53:58.015464"
   },
   {
-    "_id": "dorival_gel_200mg_caja_x_36_gelcaps",
+    "_id": "COIDE_dorival_gel_200mg_caja_x_36_gelcaps",
     "name": "DORIVAL GEL 200MG CAJA X 36 GELCAPS",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Diclofenaco sódico",
@@ -987,7 +987,7 @@
     "updated_at": "2026-04-20T06:54:00.622400"
   },
   {
-    "_id": "enteroguanil_adulto_dis_x_200_blist_x_4_tabs",
+    "_id": "COIDE_enteroguanil_adulto_dis_x_200_blist_x_4_tabs",
     "name": "ENTEROGUANIL ADULTO DIS X 200 BLIST X 4 TABS",
     "category": "Antidiarreico",
     "principio_activo": "Guanilato cíclico",
@@ -1008,7 +1008,7 @@
     "updated_at": "2026-04-20T06:54:03.666475"
   },
   {
-    "_id": "escabin_jabon_de_azufre_80_grs_sante",
+    "_id": "COIDE_escabin_jabon_de_azufre_80_grs_sante",
     "name": "ESCABIN JABON DE AZUFRE 80 GRS SANTE",
     "category": "Jabón dermatológico",
     "principio_activo": "Azufre",
@@ -1029,7 +1029,7 @@
     "updated_at": "2026-04-20T06:54:06.579510"
   },
   {
-    "_id": "ferridoce_caja_x_30tab_blist_x_10",
+    "_id": "COIDE_ferridoce_caja_x_30tab_blist_x_10",
     "name": "FERRIDOCE CAJA X 30TAB BLIST X 10",
     "category": "Suplemento de hierro",
     "principio_activo": "Hierro",
@@ -1050,7 +1050,7 @@
     "updated_at": "2026-04-20T06:54:09.246346"
   },
   {
-    "_id": "gasa_enfermerita__12_x_1_yd",
+    "_id": "COIDE_gasa_enfermerita__12_x_1_yd",
     "name": "GASA ENFERMERITA  1/2 X 1 YD.",
     "category": "Material de curación",
     "principio_activo": "Ninguno",
@@ -1071,7 +1071,7 @@
     "updated_at": "2026-04-20T06:54:11.673851"
   },
   {
-    "_id": "gasa_enfermerita_3_x_1",
+    "_id": "COIDE_gasa_enfermerita_3_x_1",
     "name": "GASA ENFERMERITA 3 X 1",
     "category": "Material de curación",
     "principio_activo": "No aplica",
@@ -1092,7 +1092,7 @@
     "updated_at": "2026-04-20T06:54:14.548904"
   },
   {
-    "_id": "gasa_superior__2_x_10_yd",
+    "_id": "COIDE_gasa_superior__2_x_10_yd",
     "name": "GASA SUPERIOR  2 X 10 YD",
     "category": "Material de curación",
     "principio_activo": "No aplica",
@@ -1113,7 +1113,7 @@
     "updated_at": "2026-04-20T06:54:17.147917"
   },
   {
-    "_id": "gasa_superior__3_x_10_yd",
+    "_id": "COIDE_gasa_superior__3_x_10_yd",
     "name": "GASA SUPERIOR  3 X 10 YD",
     "category": "Material de curación",
     "principio_activo": "No aplica",
@@ -1134,7 +1134,7 @@
     "updated_at": "2026-04-20T06:54:19.794524"
   },
   {
-    "_id": "gasa_superior__4_x_10",
+    "_id": "COIDE_gasa_superior__4_x_10",
     "name": "GASA SUPERIOR  4 X 10",
     "category": "Material de curación",
     "principio_activo": "No aplica",
@@ -1155,7 +1155,7 @@
     "updated_at": "2026-04-20T06:54:22.877789"
   },
   {
-    "_id": "gasa_superior_6_x_10_yds",
+    "_id": "COIDE_gasa_superior_6_x_10_yds",
     "name": "GASA SUPERIOR 6 X 10 YDS",
     "category": "Material de curación",
     "principio_activo": "Ninguno",
@@ -1176,7 +1176,7 @@
     "updated_at": "2026-04-20T06:54:25.651459"
   },
   {
-    "_id": "gingivex_pinceladas_fco_27_ml",
+    "_id": "COIDE_gingivex_pinceladas_fco_27_ml",
     "name": "GINGIVEX PINCELADAS FCO. 27 ML",
     "category": "Cuidado bucal",
     "principio_activo": "Clorhexidina",
@@ -1197,7 +1197,7 @@
     "updated_at": "2026-04-20T06:54:28.833572"
   },
   {
-    "_id": "jabòn_hipoalergènico__100g_neutro",
+    "_id": "COIDE_jabòn_hipoalergènico__100g_neutro",
     "name": "JABÒN HIPOALERGÈNICO  100G (NEUTRO)",
     "category": "Higiene personal",
     "principio_activo": "No especificado",
@@ -1218,7 +1218,7 @@
     "updated_at": "2026-04-20T06:54:31.384503"
   },
   {
-    "_id": "jeringa_5_cc_23_x_1_12",
+    "_id": "COIDE_jeringa_5_cc_23_x_1_12",
     "name": "JERINGA 5 CC 23 X 1 1/2",
     "category": "Material de curación",
     "principio_activo": "N/A",
@@ -1239,7 +1239,7 @@
     "updated_at": "2026-04-20T06:54:34.001545"
   },
   {
-    "_id": "kura_kura_lata_13_grs",
+    "_id": "COIDE_kura_kura_lata_13_grs",
     "name": "KURA KURA LATA 13 GRS",
     "category": "Suplemento alimenticio",
     "principio_activo": "No especificado",
@@ -1260,7 +1260,7 @@
     "updated_at": "2026-04-20T06:54:37.104775"
   },
   {
-    "_id": "lassar_crema_lafco_120_grs",
+    "_id": "COIDE_lassar_crema_lafco_120_grs",
     "name": "LASSAR CREMA LAFCO 120 GRS",
     "category": "Crema dermatológica",
     "principio_activo": "Ácido fusídico",
@@ -1281,7 +1281,7 @@
     "updated_at": "2026-04-20T06:54:40.304730"
   },
   {
-    "_id": "levadura_sante_frasco_x100tab",
+    "_id": "COIDE_levadura_sante_frasco_x100tab",
     "name": "LEVADURA SANTE FRASCO X100TAB",
     "category": "Suplemento alimenticio",
     "principio_activo": "Levadura",
@@ -1302,7 +1302,7 @@
     "updated_at": "2026-04-20T06:54:42.859725"
   },
   {
-    "_id": "magnesia_de_salud_therfam_dispen_x_72_sob",
+    "_id": "COIDE_magnesia_de_salud_therfam_dispen_x_72_sob",
     "name": "MAGNESIA DE SALUD THERFAM DISPEN X 72 SOB",
     "category": "Suplemento mineral",
     "principio_activo": "Magnesio",
@@ -1323,7 +1323,7 @@
     "updated_at": "2026-04-20T06:54:45.462098"
   },
   {
-    "_id": "mana_sobre_laxante_1_onz",
+    "_id": "COIDE_mana_sobre_laxante_1_onz",
     "name": "MANA SOBRE (LAXANTE) 1 ONZ",
     "category": "Laxante",
     "principio_activo": "Senósidos",
@@ -1344,7 +1344,7 @@
     "updated_at": "2026-04-20T06:54:48.207669"
   },
   {
-    "_id": "manteca_de_cacao",
+    "_id": "COIDE_manteca_de_cacao",
     "name": "MANTECA DE CACAO",
     "category": "Cosmético / Ingrediente natural",
     "principio_activo": "Manteca de cacao",
@@ -1365,7 +1365,7 @@
     "updated_at": "2026-04-20T06:54:50.902718"
   },
   {
-    "_id": "mentol_davis_grande_12_grs",
+    "_id": "COIDE_mentol_davis_grande_12_grs",
     "name": "MENTOL DAVIS GRANDE 12 GRS",
     "category": "Analgésicos y antipiréticos",
     "principio_activo": "Mentol",
@@ -1386,7 +1386,7 @@
     "updated_at": "2026-04-20T06:54:53.672785"
   },
   {
-    "_id": "meprogesico_ii__blister_x_10",
+    "_id": "COIDE_meprogesico_ii__blister_x_10",
     "name": "MEPROGESICO II  BLISTER X 10",
     "category": "Anticonceptivos hormonales",
     "principio_activo": "Levonorgestrel",
@@ -1407,7 +1407,7 @@
     "updated_at": "2026-04-20T06:54:56.202656"
   },
   {
-    "_id": "micropore_cureband_blanco__2_x_10_yd",
+    "_id": "COIDE_micropore_cureband_blanco__2_x_10_yd",
     "name": "MICROPORE CUREBAND BLANCO  2 X 10 YD",
     "category": "Material de curación",
     "principio_activo": "No aplica",
@@ -1428,7 +1428,7 @@
     "updated_at": "2026-04-20T06:54:58.827283"
   },
   {
-    "_id": "micropore_cureband_piel_2_x_10_yd",
+    "_id": "COIDE_micropore_cureband_piel_2_x_10_yd",
     "name": "MICROPORE CUREBAND PIEL 2 X 10 YD",
     "category": "Cinta adhesiva médica",
     "principio_activo": "Ninguno",
@@ -1449,7 +1449,7 @@
     "updated_at": "2026-04-20T06:55:01.496795"
   },
   {
-    "_id": "micropore_piel_12_cureband",
+    "_id": "COIDE_micropore_piel_12_cureband",
     "name": "MICROPORE PIEL 1/2 CUREBAND",
     "category": "Material de curación",
     "principio_activo": "Ninguno",
@@ -1470,7 +1470,7 @@
     "updated_at": "2026-04-20T06:55:04.265306"
   },
   {
-    "_id": "nauseol_1_ml_x_1_ampolla",
+    "_id": "COIDE_nauseol_1_ml_x_1_ampolla",
     "name": "NAUSEOL 1 ML X 1 AMPOLLA",
     "category": "Antiemético",
     "principio_activo": "Metoclopramida",
@@ -1491,7 +1491,7 @@
     "updated_at": "2026-04-20T06:55:09.185039"
   },
   {
-    "_id": "nauseol_infantil_supositorios_x_6_bonin",
+    "_id": "COIDE_nauseol_infantil_supositorios_x_6_bonin",
     "name": "NAUSEOL INFANTIL SUPOSITORIOS X 6 BONIN",
     "category": "Antiemético",
     "principio_activo": "Dimenhidrinato",
@@ -1512,7 +1512,7 @@
     "updated_at": "2026-04-20T06:55:12.304307"
   },
   {
-    "_id": "nauseol_susp_jbe_fco_60_ml",
+    "_id": "COIDE_nauseol_susp_jbe_fco_60_ml",
     "name": "NAUSEOL SUSP JBE FCO 60 ML",
     "category": "Antiemético",
     "principio_activo": "Dimenhidrinato",
@@ -1533,7 +1533,7 @@
     "updated_at": "2026-04-20T06:55:14.808293"
   },
   {
-    "_id": "neomelubrina_caja_x_5_supositorios",
+    "_id": "COIDE_neomelubrina_caja_x_5_supositorios",
     "name": "NEOMELUBRINA CAJA X 5 SUPOSITORIOS",
     "category": "Analgésicos y Antipiréticos",
     "principio_activo": "Dipirona (Metamizol sódico)",
@@ -1554,7 +1554,7 @@
     "updated_at": "2026-04-20T06:55:17.707114"
   },
   {
-    "_id": "neomelubrina_jbe_100_ml",
+    "_id": "COIDE_neomelubrina_jbe_100_ml",
     "name": "NEOMELUBRINA JBE 100 ML",
     "category": "Jarabe",
     "principio_activo": "Paracetamol",
@@ -1575,7 +1575,7 @@
     "updated_at": "2026-04-20T06:55:20.288094"
   },
   {
-    "_id": "nervaden_caja_x_30_blist_x_10_caps",
+    "_id": "COIDE_nervaden_caja_x_30_blist_x_10_caps",
     "name": "NERVADEN CAJA X 30 BLIST X 10 CAPS",
     "category": "Suplemento nutricional",
     "principio_activo": "Vitaminas del complejo B",
@@ -1596,7 +1596,7 @@
     "updated_at": "2026-04-20T06:55:23.053790"
   },
   {
-    "_id": "nervifen_blist_x_10_caja_x_30_pheniel",
+    "_id": "COIDE_nervifen_blist_x_10_caja_x_30_pheniel",
     "name": "NERVIFEN BLIST X 10 CAJA X 30 PHENIEL",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Fenilefrina",
@@ -1617,7 +1617,7 @@
     "updated_at": "2026-04-20T06:55:26.461060"
   },
   {
-    "_id": "neumonil_forte_disp_x_100_blist_x_2_tab",
+    "_id": "COIDE_neumonil_forte_disp_x_100_blist_x_2_tab",
     "name": "NEUMONIL FORTE DISP X 100 BLIST X 2 TAB",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina y Ácido Clavulánico",
@@ -1638,7 +1638,7 @@
     "updated_at": "2026-04-20T06:55:29.553719"
   },
   {
-    "_id": "neumonil_g_x_60_tabs",
+    "_id": "COIDE_neumonil_g_x_60_tabs",
     "name": "NEUMONIL G X 60 TABS",
     "category": "Antibiótico",
     "principio_activo": "Claritromicina",
@@ -1659,7 +1659,7 @@
     "updated_at": "2026-04-20T06:55:32.503017"
   },
   {
-    "_id": "nomagest_caja_x_1_ampolla_1_ml",
+    "_id": "COIDE_nomagest_caja_x_1_ampolla_1_ml",
     "name": "NOMAGEST CAJA X 1 AMPOLLA 1 ML",
     "category": "Hormonas y moduladores del sistema hormonal",
     "principio_activo": "Noretisterona",
@@ -1680,7 +1680,7 @@
     "updated_at": "2026-04-20T06:55:35.585972"
   },
   {
-    "_id": "oidol_gotas_15_ml",
+    "_id": "COIDE_oidol_gotas_15_ml",
     "name": "OIDOL GOTAS 15 ML",
     "category": "Antiséptico y desinfectante",
     "principio_activo": "Povidona yodada",
@@ -1701,7 +1701,7 @@
     "updated_at": "2026-04-20T06:55:38.829899"
   },
   {
-    "_id": "ojo_de_aguila_gotas",
+    "_id": "COIDE_ojo_de_aguila_gotas",
     "name": "OJO DE AGUILA GOTAS",
     "category": "Oftálmico",
     "principio_activo": "Tetryzolina",
@@ -1722,7 +1722,7 @@
     "updated_at": "2026-04-20T06:55:41.909099"
   },
   {
-    "_id": "orfengesic_orfeparac_blist_x_10_caja_x_20",
+    "_id": "COIDE_orfengesic_orfeparac_blist_x_10_caja_x_20",
     "name": "ORFENGESIC (ORFE/PARAC) BLIST X 10 CAJA X 20",
     "category": "Analgésico y antipirético",
     "principio_activo": "Orfenadrina y Paracetamol",
@@ -1743,7 +1743,7 @@
     "updated_at": "2026-04-20T06:55:44.715113"
   },
   {
-    "_id": "otik_gotas",
+    "_id": "COIDE_otik_gotas",
     "name": "OTIK GOTAS",
     "category": "Antiinflamatorio y analgésico para oídos",
     "principio_activo": "Flurbiprofeno",
@@ -1764,7 +1764,7 @@
     "updated_at": "2026-04-20T06:55:48.098270"
   },
   {
-    "_id": "panadol_niños_disp_x_100_tab_mastic",
+    "_id": "COIDE_panadol_niños_disp_x_100_tab_mastic",
     "name": "PANADOL NIÑOS DISP X 100 TAB MASTIC",
     "category": "Analgésicos y antipiréticos",
     "principio_activo": "Paracetamol",
@@ -1785,7 +1785,7 @@
     "updated_at": "2026-04-20T06:55:50.779203"
   },
   {
-    "_id": "parche_leon",
+    "_id": "COIDE_parche_leon",
     "name": "PARCHE LEON",
     "category": "Analgésico tópico",
     "principio_activo": "Mentol y salicilato de metilo",
@@ -1806,7 +1806,7 @@
     "updated_at": "2026-04-20T06:55:53.555420"
   },
   {
-    "_id": "pezonera_de_vidrio_edigar",
+    "_id": "COIDE_pezonera_de_vidrio_edigar",
     "name": "PEZONERA DE VIDRIO EDIGAR",
     "category": "Accesorios para lactancia",
     "principio_activo": null,
@@ -1827,7 +1827,7 @@
     "updated_at": "2026-04-20T06:55:56.122119"
   },
   {
-    "_id": "pomada_gms_12_grs",
+    "_id": "COIDE_pomada_gms_12_grs",
     "name": "POMADA GMS 12 GRS",
     "category": "Pomada dermatológica",
     "principio_activo": "Glucantime (antimoniato de meglumina)",
@@ -1848,7 +1848,7 @@
     "updated_at": "2026-04-20T06:56:00.138465"
   },
   {
-    "_id": "pomada_gms_tarro_50_grs",
+    "_id": "COIDE_pomada_gms_tarro_50_grs",
     "name": "POMADA GMS TARRO 50 GRS",
     "category": "Pomada dermatológica",
     "principio_activo": "GMS (Gliceril Monostearato)",
@@ -1869,7 +1869,7 @@
     "updated_at": "2026-04-20T06:56:02.876634"
   },
   {
-    "_id": "reumetan_crema_30_grs_tubo",
+    "_id": "COIDE_reumetan_crema_30_grs_tubo",
     "name": "REUMETAN CREMA 30 GRS. TUBO",
     "category": "Antiinflamatorio tópico",
     "principio_activo": "Metilprednisolona aceponato",
@@ -1890,7 +1890,7 @@
     "updated_at": "2026-04-20T06:56:05.637681"
   },
   {
-    "_id": "reumetan_s_25_mg_blist_x_10_caja_x_100",
+    "_id": "COIDE_reumetan_s_25_mg_blist_x_10_caja_x_100",
     "name": "REUMETAN S 25 MG BLIST X 10 CAJA X 100",
     "category": "Antiinflamatorio",
     "principio_activo": "Metotrexato",
@@ -1911,7 +1911,7 @@
     "updated_at": "2026-04-20T06:56:08.464148"
   },
   {
-    "_id": "santemicina_75_grs_sobre_caja_x_50",
+    "_id": "COIDE_santemicina_75_grs_sobre_caja_x_50",
     "name": "SANTEMICINA 7.5 GRS SOBRE CAJA X 50",
     "category": "Antibiótico",
     "principio_activo": "Oxitetraciclina",
@@ -1932,7 +1932,7 @@
     "updated_at": "2026-04-20T06:56:11.188441"
   },
   {
-    "_id": "scudo_natural_caja_x_3",
+    "_id": "COIDE_scudo_natural_caja_x_3",
     "name": "SCUDO NATURAL CAJA X 3",
     "category": "Suplemento natural",
     "principio_activo": "No especificado",
@@ -1953,7 +1953,7 @@
     "updated_at": "2026-04-20T06:56:13.711455"
   },
   {
-    "_id": "scudo_oro_retardante_caja_x_3",
+    "_id": "COIDE_scudo_oro_retardante_caja_x_3",
     "name": "SCUDO ORO RETARDANTE CAJA X 3",
     "category": "Retardantes de eyaculación",
     "principio_activo": "Benzocaína",
@@ -1974,7 +1974,7 @@
     "updated_at": "2026-04-20T06:56:16.323149"
   },
   {
-    "_id": "sinsueño_blist_x_10",
+    "_id": "COIDE_sinsueño_blist_x_10",
     "name": "SINSUEÑO BLIST X 10",
     "category": "Medicamento para el insomnio",
     "principio_activo": "Melatonina",
@@ -1995,7 +1995,7 @@
     "updated_at": "2026-04-20T06:56:19.157170"
   },
   {
-    "_id": "solutina_gotas_oftalmicas",
+    "_id": "COIDE_solutina_gotas_oftalmicas",
     "name": "SOLUTINA GOTAS OFTALMICAS",
     "category": "Medicamento oftálmico",
     "principio_activo": "Tobramicina",
@@ -2016,7 +2016,7 @@
     "updated_at": "2026-04-20T06:56:21.788178"
   },
   {
-    "_id": "sucrassyl_caja_x_30_pahil",
+    "_id": "COIDE_sucrassyl_caja_x_30_pahil",
     "name": "SUCRASSYL CAJA X 30 PAHIL",
     "category": "Antiácido",
     "principio_activo": "Sucralfato",
@@ -2037,7 +2037,7 @@
     "updated_at": "2026-04-20T06:56:24.823541"
   },
   {
-    "_id": "suero_mixto_5_fco_500_ml",
+    "_id": "COIDE_suero_mixto_5_fco_500_ml",
     "name": "SUERO MIXTO 5% FCO 500 ML",
     "category": "Soluciones parenterales",
     "principio_activo": "Cloruro de sodio, glucosa y otros electrolitos",
@@ -2058,7 +2058,7 @@
     "updated_at": "2026-04-20T06:56:27.727502"
   },
   {
-    "_id": "tabcin_ad_fm_ef_dispen_x_72_sobresceleste",
+    "_id": "COIDE_tabcin_ad_fm_ef_dispen_x_72_sobresceleste",
     "name": "TABCIN AD FM EF DISPEN X 72 SOBRES(CELESTE)",
     "category": "Antitabáquico",
     "principio_activo": "Bupropión",
@@ -2079,7 +2079,7 @@
     "updated_at": "2026-04-20T06:56:30.580066"
   },
   {
-    "_id": "tabcin_extra_fuerte_x_60_eferv_rojo",
+    "_id": "COIDE_tabcin_extra_fuerte_x_60_eferv_rojo",
     "name": "TABCIN EXTRA FUERTE X 60 EFERV (ROJO)",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Paracetamol, Cafeína, Ácido Acetilsalicílico",
@@ -2100,7 +2100,7 @@
     "updated_at": "2026-04-20T06:56:33.542030"
   },
   {
-    "_id": "tabcin_gripe_y_tos_x_60_tabs_eferv_morado",
+    "_id": "COIDE_tabcin_gripe_y_tos_x_60_tabs_eferv_morado",
     "name": "TABCIN GRIPE Y TOS X 60 TABS EFERV (MORADO)",
     "category": "Antigripal y Antitusivo",
     "principio_activo": "Paracetamol, Clorfeniramina, Dextrometorfano",
@@ -2121,7 +2121,7 @@
     "updated_at": "2026-04-20T06:56:36.789148"
   },
   {
-    "_id": "tabcin_niños_disp_x_48_blist_x_12_mastic",
+    "_id": "COIDE_tabcin_niños_disp_x_48_blist_x_12_mastic",
     "name": "TABCIN NIÑOS DISP X 48 BLIST X 12 MASTIC",
     "category": "Antitusivo",
     "principio_activo": "Dextrometorfano",
@@ -2142,7 +2142,7 @@
     "updated_at": "2026-04-20T06:56:39.508265"
   },
   {
-    "_id": "tabcin_niños_x_60_eferv",
+    "_id": "COIDE_tabcin_niños_x_60_eferv",
     "name": "TABCIN NIÑOS X 60 EFERV",
     "category": "Antitusivos y expectorantes",
     "principio_activo": "Dextrometorfano y Guaifenesina",
@@ -2163,7 +2163,7 @@
     "updated_at": "2026-04-20T06:56:43.423696"
   },
   {
-    "_id": "talco_dermog11_300_grs",
+    "_id": "COIDE_talco_dermog11_300_grs",
     "name": "TALCO DERMO-G11 300 GRS",
     "category": "Talco dermatológico",
     "principio_activo": "Talco",
@@ -2184,7 +2184,7 @@
     "updated_at": "2026-04-20T06:56:45.986460"
   },
   {
-    "_id": "talco_sudorin_110_grs",
+    "_id": "COIDE_talco_sudorin_110_grs",
     "name": "TALCO SUDORIN 110 GRS",
     "category": "Antitranspirante / Talco",
     "principio_activo": "Clorhidrato de aluminio",
@@ -2205,7 +2205,7 @@
     "updated_at": "2026-04-20T06:56:48.932618"
   },
   {
-    "_id": "termometro_de_cinta_meditem_front",
+    "_id": "COIDE_termometro_de_cinta_meditem_front",
     "name": "TERMOMETRO DE CINTA MEDITEM FRONT",
     "category": "Instrumentos de medición",
     "principio_activo": "N/A",
@@ -2226,7 +2226,7 @@
     "updated_at": "2026-04-20T06:56:51.579802"
   },
   {
-    "_id": "tiamina_100_mg_fco_x_10__ml_piersan",
+    "_id": "COIDE_tiamina_100_mg_fco_x_10__ml_piersan",
     "name": "TIAMINA 100 MG FCO X 10  ML PIERSAN",
     "category": "Vitaminas y suplementos",
     "principio_activo": "Tiamina",
@@ -2247,7 +2247,7 @@
     "updated_at": "2026-04-20T06:56:54.317054"
   },
   {
-    "_id": "tintura_de_yodo_negro_1_onz",
+    "_id": "COIDE_tintura_de_yodo_negro_1_onz",
     "name": "TINTURA DE YODO NEGRO 1 ONZ",
     "category": "Antiséptico",
     "principio_activo": "Yodo",
@@ -2268,7 +2268,7 @@
     "updated_at": "2026-04-20T06:56:56.840955"
   },
   {
-    "_id": "tira_leche_dan_plastico",
+    "_id": "COIDE_tira_leche_dan_plastico",
     "name": "TIRA LECHE DAN PLASTICO",
     "category": "Accesorios para lactancia",
     "principio_activo": null,
@@ -2289,7 +2289,7 @@
     "updated_at": "2026-04-20T06:56:59.855621"
   },
   {
-    "_id": "venditas_curebands_kids_niña_caja_x_20",
+    "_id": "COIDE_venditas_curebands_kids_niña_caja_x_20",
     "name": "VENDITAS CUREBANDS KIDS NIÑA CAJA X 20",
     "category": "Curitas y apósitos",
     "principio_activo": "No aplica",
@@ -2310,7 +2310,7 @@
     "updated_at": "2026-04-20T06:57:02.564548"
   },
   {
-    "_id": "vick_inhalador",
+    "_id": "COIDE_vick_inhalador",
     "name": "VICK INHALADOR",
     "category": "Descongestionante nasal",
     "principio_activo": "Mentol",
@@ -2331,7 +2331,7 @@
     "updated_at": "2026-04-20T06:57:05.323444"
   },
   {
-    "_id": "vick_tarro_100_grs",
+    "_id": "COIDE_vick_tarro_100_grs",
     "name": "VICK TARRO 100 GRS",
     "category": "Ungüento",
     "principio_activo": "Mentol, alcanfor, eucaliptol",
@@ -2352,7 +2352,7 @@
     "updated_at": "2026-04-20T06:57:09.111667"
   },
   {
-    "_id": "vick_tarro_50_grs",
+    "_id": "COIDE_vick_tarro_50_grs",
     "name": "VICK TARRO 50 GRS",
     "category": "Ungüento para el alivio de congestión y dolores musculares",
     "principio_activo": "Mentol, alcanfor, aceite de eucalipto",
@@ -2373,7 +2373,7 @@
     "updated_at": "2026-04-20T06:57:12.322882"
   },
   {
-    "_id": "viro_grip_gripe_y_tos_jbe_120_ml",
+    "_id": "COIDE_viro_grip_gripe_y_tos_jbe_120_ml",
     "name": "VIRO GRIP GRIPE Y TOS JBE 120 ML",
     "category": "Antigripal y antitusivo",
     "principio_activo": "Paracetamol, Dextrometorfano, Clorfeniramina",
@@ -2394,7 +2394,7 @@
     "updated_at": "2026-04-20T06:57:15.208611"
   },
   {
-    "_id": "vitamina_c_zinc_mk_caja_x_100_blist_x_10",
+    "_id": "COIDE_vitamina_c_zinc_mk_caja_x_100_blist_x_10",
     "name": "VITAMINA C +ZINC MK CAJA X 100 BLIST X 10",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitamina C, Zinc",
@@ -2415,7 +2415,7 @@
     "updated_at": "2026-04-20T06:57:17.989135"
   },
   {
-    "_id": "vitanervo_25000_kit_amp_piersan",
+    "_id": "COIDE_vitanervo_25000_kit_amp_piersan",
     "name": "VITANERVO 25,000 KIT AMP PIERSAN",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas del complejo B",
@@ -2436,7 +2436,7 @@
     "updated_at": "2026-04-20T06:57:21.024040"
   },
   {
-    "_id": "vitapyrena_disp_x50",
+    "_id": "COIDE_vitapyrena_disp_x50",
     "name": "VITAPYRENA DISP X50",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas y minerales",
@@ -2457,7 +2457,7 @@
     "updated_at": "2026-04-20T06:57:23.609572"
   },
   {
-    "_id": "xiconeural_caja_x_30_inductor_del_sueño",
+    "_id": "COIDE_xiconeural_caja_x_30_inductor_del_sueño",
     "name": "XICONEURAL CAJA X 30 INDUCTOR DEL SUEÑO",
     "category": "Inductor del sueño",
     "principio_activo": "No especificado",
@@ -2478,7 +2478,7 @@
     "updated_at": "2026-04-20T06:57:28.947886"
   },
   {
-    "_id": "xirmen_4_mg_2_ml_x_1_amp_inyect",
+    "_id": "COIDE_xirmen_4_mg_2_ml_x_1_amp_inyect",
     "name": "XIRMEN 4 MG /2 ML X 1 AMP INYECT",
     "category": "Medicamento inyectable",
     "principio_activo": "XIRMEN",

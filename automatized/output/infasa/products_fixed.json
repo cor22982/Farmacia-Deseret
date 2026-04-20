@@ -1,6 +1,6 @@
 [
   {
-    "_id": "amoxicilina_500_mg_blister_x_10_caja_x50",
+    "_id": "INFASA_amoxicilina_500_mg_blister_x_10_caja_x50",
     "name": "AMOXICILINA 500 MG BLISTER X 10 CAJA X50",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T08:00:40.137146"
   },
   {
-    "_id": "arginina_forte_10_amp_bebibles",
+    "_id": "INFASA_arginina_forte_10_amp_bebibles",
     "name": "ARGININA FORTE 10 AMP BEBIBLES",
     "category": "Suplemento alimenticio",
     "principio_activo": "Arginina",
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T08:00:43.745939"
   },
   {
-    "_id": "atorvastatina_20_mg_caja_x_30_tab__blist_x_5",
+    "_id": "INFASA_atorvastatina_20_mg_caja_x_30_tab__blist_x_5",
     "name": "ATORVASTATINA 20 MG CAJA X 30 TAB  BLIST X 5",
     "category": "Medicamento para el control del colesterol",
     "principio_activo": "Atorvastatina",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T08:00:50.153869"
   },
   {
-    "_id": "atorvastatina_40_mg_caja_x_30_tab__blist_x_5",
+    "_id": "INFASA_atorvastatina_40_mg_caja_x_30_tab__blist_x_5",
     "name": "ATORVASTATINA 40 MG CAJA X 30 TAB  BLIST X 5",
     "category": "Medicamento para el control del colesterol",
     "principio_activo": "Atorvastatina",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T08:00:53.177169"
   },
   {
-    "_id": "azitromicina_500_mg_b_x_5_caja_x_30",
+    "_id": "INFASA_azitromicina_500_mg_b_x_5_caja_x_30",
     "name": "AZITROMICINA 500 MG B X 5 CAJA X 30",
     "category": "Antibiótico",
     "principio_activo": "Azitromicina",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T08:00:56.599651"
   },
   {
-    "_id": "azitromicina_polvo_susp_200_mg5ml_15ml",
+    "_id": "INFASA_azitromicina_polvo_susp_200_mg5ml_15ml",
     "name": "AZITROMICINA POLVO SUSP 200 MG/5ML 15ML",
     "category": "Antibiótico",
     "principio_activo": "Azitromicina",
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T08:00:59.540543"
   },
   {
-    "_id": "cefradoxilo_500_mg_cap_caja_x_30_blis_x_10",
+    "_id": "INFASA_cefradoxilo_500_mg_cap_caja_x_30_blis_x_10",
     "name": "CEFRADOXILO 500 MG CAP CAJA X 30 BLIS X 10",
     "category": "Antibiótico",
     "principio_activo": "Cefadroxilo",
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T08:01:03.072137"
   },
   {
-    "_id": "ciprofloxacina_500_mg_caja_x_60_bl_x_10",
+    "_id": "INFASA_ciprofloxacina_500_mg_caja_x_60_bl_x_10",
     "name": "CIPROFLOXACINA 500 MG CAJA X 60 BL X 10",
     "category": "Antibiótico",
     "principio_activo": "Ciprofloxacina",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T08:01:05.992381"
   },
   {
-    "_id": "dextrium_plus_75mg25mg_caja_x_10_dextram",
+    "_id": "INFASA_dextrium_plus_75mg25mg_caja_x_10_dextram",
     "name": "DEXTRIUM PLUS 75MG/25MG CAJA X 10 (DEX/TRAM)",
     "category": "Analgésico combinado",
     "principio_activo": "Dextropropoxifeno y Tramadol",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T08:01:08.976102"
   },
   {
-    "_id": "diclofenaco_gotas_de_15_ml",
+    "_id": "INFASA_diclofenaco_gotas_de_15_ml",
     "name": "DICLOFENACO GOTAS DE 15 ML",
     "category": "Analgésicos y antiinflamatorios",
     "principio_activo": "Diclofenaco",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T08:01:11.863150"
   },
   {
-    "_id": "dolo_glucoflex_caja_x_15_sobres",
+    "_id": "INFASA_dolo_glucoflex_caja_x_15_sobres",
     "name": "DOLO GLUCOFLEX CAJA X 15 SOBRES",
     "category": "Suplemento alimenticio",
     "principio_activo": "Glucosamina, Condroitina",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T08:01:14.809544"
   },
   {
-    "_id": "donadax_caja_x_10_tabs",
+    "_id": "INFASA_donadax_caja_x_10_tabs",
     "name": "DONADAX CAJA X 10 TABS",
     "category": "Antiinflamatorio y analgésico",
     "principio_activo": "Nimesulida",
@@ -252,7 +252,7 @@
     "updated_at": "2026-04-20T08:01:18.042216"
   },
   {
-    "_id": "esogastric_10_mg_caja_x__15_sobres",
+    "_id": "INFASA_esogastric_10_mg_caja_x__15_sobres",
     "name": "ESOGASTRIC 10 MG CAJA X  15 SOBRES",
     "category": "Inhibidores de la bomba de protones",
     "principio_activo": "Esomeprazol",
@@ -273,7 +273,7 @@
     "updated_at": "2026-04-20T08:01:21.392690"
   },
   {
-    "_id": "famoxide_40_mg_caja_de_10_comprimidos",
+    "_id": "INFASA_famoxide_40_mg_caja_de_10_comprimidos",
     "name": "FAMOXIDE 40 MG CAJA DE 10 COMPRIMIDOS",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina",
@@ -294,7 +294,7 @@
     "updated_at": "2026-04-20T08:01:25.098360"
   },
   {
-    "_id": "fenitoina_sod_100mg_caja_x__100_caps_blist_x_10",
+    "_id": "INFASA_fenitoina_sod_100mg_caja_x__100_caps_blist_x_10",
     "name": "FENITOINA SOD 100MG CAJA X  100 CAPS BLIST X 10",
     "category": "Antiepiléptico",
     "principio_activo": "Fenitoína sódica",
@@ -315,7 +315,7 @@
     "updated_at": "2026-04-20T08:01:27.698913"
   },
   {
-    "_id": "ferkel_f800_caja_x_30_caps_blist_x_5",
+    "_id": "INFASA_ferkel_f800_caja_x_30_caps_blist_x_5",
     "name": "FERKEL F-800 CAJA X 30 CAPS BLIST X 5",
     "category": "Suplemento vitamínico",
     "principio_activo": "Ferrochel (Hierro bisglicinato)",
@@ -336,7 +336,7 @@
     "updated_at": "2026-04-20T08:01:31.932349"
   },
   {
-    "_id": "irs_gotas_de_20_ml",
+    "_id": "INFASA_irs_gotas_de_20_ml",
     "name": "IRS GOTAS DE 20 ML",
     "category": "Antiséptico y desinfectante",
     "principio_activo": "Yodopovidona",
@@ -357,7 +357,7 @@
     "updated_at": "2026-04-20T08:01:35.267607"
   },
   {
-    "_id": "irs_jarabe_de_120_ml",
+    "_id": "INFASA_irs_jarabe_de_120_ml",
     "name": "IRS JARABE DE 120 ML",
     "category": "Jarabe",
     "principio_activo": "No especificado",
@@ -378,7 +378,7 @@
     "updated_at": "2026-04-20T08:01:38.354036"
   },
   {
-    "_id": "irs_tabelta_blist_x_10_caja_x_20",
+    "_id": "INFASA_irs_tabelta_blist_x_10_caja_x_20",
     "name": "IRS TABELTA BLIST X 10 CAJA X 20",
     "category": "Medicamento",
     "principio_activo": "IRS",
@@ -399,7 +399,7 @@
     "updated_at": "2026-04-20T08:01:41.823208"
   },
   {
-    "_id": "lansoprazol_30_mg_blist_x_10_caja_x_50___infasa",
+    "_id": "INFASA_lansoprazol_30_mg_blist_x_10_caja_x_50___infasa",
     "name": "LANSOPRAZOL 30 MG BLIST X 10 CAJA X 50   INFASA",
     "category": "Inhibidor de la bomba de protones",
     "principio_activo": "Lansoprazol",
@@ -420,7 +420,7 @@
     "updated_at": "2026-04-20T08:01:45.705348"
   },
   {
-    "_id": "loratadina_10_mg_blist_x_10_caja_x_100",
+    "_id": "INFASA_loratadina_10_mg_blist_x_10_caja_x_100",
     "name": "LORATADINA 10 MG BLIST X 10 CAJA X 100",
     "category": "Antihistamínico",
     "principio_activo": "Loratadina",
@@ -441,7 +441,7 @@
     "updated_at": "2026-04-20T08:01:49.066715"
   },
   {
-    "_id": "metfoglib_5005mg_blist_x_10_caja_x_100_infasa",
+    "_id": "INFASA_metfoglib_5005mg_blist_x_10_caja_x_100_infasa",
     "name": "METFO+GLIB 500/5MG BLIST X 10 CAJA X 100 INFASA",
     "category": "Antidiabético",
     "principio_activo": "Metformina + Glibenclamida",
@@ -462,7 +462,7 @@
     "updated_at": "2026-04-20T08:01:52.404279"
   },
   {
-    "_id": "metfoglib_8505mg_blist_x_10_caja_x_100_infasa",
+    "_id": "INFASA_metfoglib_8505mg_blist_x_10_caja_x_100_infasa",
     "name": "METFO+GLIB 850/5MG BLIST X 10 CAJA X 100 INFASA",
     "category": "Antidiabético",
     "principio_activo": "Metformina + Glibenclamida",
@@ -483,7 +483,7 @@
     "updated_at": "2026-04-20T08:01:55.531588"
   },
   {
-    "_id": "metformina_1g_blist_x10_tab_caja_x_100_infasa",
+    "_id": "INFASA_metformina_1g_blist_x10_tab_caja_x_100_infasa",
     "name": "METFORMINA 1G BLIST X10 TAB CAJA X 100 INFASA",
     "category": "Antidiabético",
     "principio_activo": "Metformina",
@@ -504,7 +504,7 @@
     "updated_at": "2026-04-20T08:01:58.780903"
   },
   {
-    "_id": "metocarban_ac_500_mg_blist_x_10_caja_x_30_tab",
+    "_id": "INFASA_metocarban_ac_500_mg_blist_x_10_caja_x_30_tab",
     "name": "METOCARBAN AC 500 MG BLIST X 10 CAJA X 30 TAB",
     "category": "Antibiótico",
     "principio_activo": "Metocarbamol",
@@ -525,7 +525,7 @@
     "updated_at": "2026-04-20T08:02:01.667113"
   },
   {
-    "_id": "neurofortan_blister_x_5_caja_x_60",
+    "_id": "INFASA_neurofortan_blister_x_5_caja_x_60",
     "name": "NEUROFORTAN BLISTER X 5 CAJA X 60",
     "category": "Suplemento neurológico",
     "principio_activo": "Vitaminas del complejo B",
@@ -546,7 +546,7 @@
     "updated_at": "2026-04-20T08:02:05.094766"
   },
   {
-    "_id": "nutrison_jbe_niños_240_ml",
+    "_id": "INFASA_nutrison_jbe_niños_240_ml",
     "name": "NUTRISON JBE NIÑOS 240 ML",
     "category": "Nutrición enteral",
     "principio_activo": "Nutrientes variados (proteínas, carbohidratos, grasas, vitaminas y minerales)",
@@ -567,7 +567,7 @@
     "updated_at": "2026-04-20T08:02:08.403387"
   },
   {
-    "_id": "osmopeg_polvo_caja_x_15_sobres",
+    "_id": "INFASA_osmopeg_polvo_caja_x_15_sobres",
     "name": "OSMOPEG POLVO CAJA X 15 SOBRES",
     "category": "Laxantes osmóticos",
     "principio_activo": "Polietilenglicol",
@@ -588,7 +588,7 @@
     "updated_at": "2026-04-20T08:02:11.436219"
   },
   {
-    "_id": "pasinerva_caja_x_30_caps_blister_x_5",
+    "_id": "INFASA_pasinerva_caja_x_30_caps_blister_x_5",
     "name": "PASINERVA CAJA X 30 CAPS BLISTER X 5",
     "category": "Suplemento nutricional",
     "principio_activo": "Vitaminas del complejo B",
@@ -609,7 +609,7 @@
     "updated_at": "2026-04-20T08:02:14.381591"
   },
   {
-    "_id": "paverin_compuesto_caja_x_20_tab_blist_x_5",
+    "_id": "INFASA_paverin_compuesto_caja_x_20_tab_blist_x_5",
     "name": "PAVERIN COMPUESTO CAJA X 20 TAB BLIST X 5",
     "category": "Antiespasmódico",
     "principio_activo": "Clorhidrato de papaverina y cafeína",
@@ -630,7 +630,7 @@
     "updated_at": "2026-04-20T08:02:17.894501"
   },
   {
-    "_id": "pirex_100_mgs_dispensador_x_12_caja_x_2_tab",
+    "_id": "INFASA_pirex_100_mgs_dispensador_x_12_caja_x_2_tab",
     "name": "PIREX 100 MGS DISPENSADOR X 12 CAJA X 2 TAB",
     "category": "Antipirético y analgésico",
     "principio_activo": "Paracetamol",
@@ -651,7 +651,7 @@
     "updated_at": "2026-04-20T08:02:20.930598"
   },
   {
-    "_id": "vintax_6_mgs_caja_x_2_tab",
+    "_id": "INFASA_vintax_6_mgs_caja_x_2_tab",
     "name": "VINTAX 6 MGS CAJA X 2 TAB",
     "category": "Antidepresivo",
     "principio_activo": "Venlafaxina",
@@ -672,7 +672,7 @@
     "updated_at": "2026-04-20T08:02:23.885029"
   },
   {
-    "_id": "vitaminas_prenatales_x_100_blist_x_10",
+    "_id": "INFASA_vitaminas_prenatales_x_100_blist_x_10",
     "name": "VITAMINAS PRENATALES X 100 BLIST X 10",
     "category": "Suplementos vitamínicos",
     "principio_activo": "Vitaminas prenatales",
@@ -693,7 +693,7 @@
     "updated_at": "2026-04-20T08:02:27.014083"
   },
   {
-    "_id": "zinc_20_mg_kipp_b_x_10_tab_caja_x_30",
+    "_id": "INFASA_zinc_20_mg_kipp_b_x_10_tab_caja_x_30",
     "name": "ZINC 20 MG KIPP B X 10 TAB CAJA X 30",
     "category": "Suplemento mineral",
     "principio_activo": "Zinc",

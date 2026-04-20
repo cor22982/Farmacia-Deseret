@@ -1,6 +1,6 @@
 [
   {
-    "_id": "aceite_de_oliva_predilecto_120_ml",
+    "_id": "ESTUARDO_aceite_de_oliva_predilecto_120_ml",
     "name": "ACEITE DE OLIVA PREDILECTO 120 ML",
     "category": "Aceite comestible",
     "principio_activo": "Aceite de oliva",
@@ -21,7 +21,7 @@
     "updated_at": "2026-04-20T07:46:22.999569"
   },
   {
-    "_id": "acrylarm_02__tubo_10_grs",
+    "_id": "ESTUARDO_acrylarm_02__tubo_10_grs",
     "name": "ACRYLARM 0.2 % TUBO 10 GRS",
     "category": "Medicamento dermatológico",
     "principio_activo": "Acrilamida 0.2%",
@@ -42,7 +42,7 @@
     "updated_at": "2026-04-20T07:46:26.439227"
   },
   {
-    "_id": "agua_oxigenada_500_ml_la_enfermerita",
+    "_id": "ESTUARDO_agua_oxigenada_500_ml_la_enfermerita",
     "name": "AGUA OXIGENADA 500 ML LA ENFERMERITA",
     "category": "Antiséptico",
     "principio_activo": "Peróxido de hidrógeno",
@@ -63,7 +63,7 @@
     "updated_at": "2026-04-20T07:46:29.521940"
   },
   {
-    "_id": "aguaje_flor_caja_x_90_tab",
+    "_id": "ESTUARDO_aguaje_flor_caja_x_90_tab",
     "name": "AGUAJE FLOR CAJA X 90 TAB",
     "category": "Suplemento natural",
     "principio_activo": "Aguaje (Mauritia flexuosa)",
@@ -84,7 +84,7 @@
     "updated_at": "2026-04-20T07:46:32.356142"
   },
   {
-    "_id": "aguaje_peruano_fco_x_60_tab",
+    "_id": "ESTUARDO_aguaje_peruano_fco_x_60_tab",
     "name": "AGUAJE PERUANO FCO X 60 TAB",
     "category": "Suplemento natural",
     "principio_activo": "Aguaje (Mauritia flexuosa)",
@@ -105,7 +105,7 @@
     "updated_at": "2026-04-20T07:46:35.919282"
   },
   {
-    "_id": "aguapura_500_ml_members",
+    "_id": "ESTUARDO_aguapura_500_ml_members",
     "name": "AGUAPURA 500 ML MEMBERS",
     "category": "Agua purificada",
     "principio_activo": "Agua purificada",
@@ -126,7 +126,7 @@
     "updated_at": "2026-04-20T07:46:38.994779"
   },
   {
-    "_id": "algodón_zuum_25_grs",
+    "_id": "ESTUARDO_algodón_zuum_25_grs",
     "name": "ALGODÓN ZUUM 25 GRS",
     "category": "Material de curación",
     "principio_activo": "Algodón",
@@ -147,7 +147,7 @@
     "updated_at": "2026-04-20T07:46:42.465320"
   },
   {
-    "_id": "algodón_zuum_50_grs",
+    "_id": "ESTUARDO_algodón_zuum_50_grs",
     "name": "ALGODÓN ZUUM 50 GRS",
     "category": "Material de curación",
     "principio_activo": "Algodón",
@@ -168,7 +168,7 @@
     "updated_at": "2026-04-20T07:46:45.331689"
   },
   {
-    "_id": "ambroxol_15_mg_5_ml_jbe_120_ml_caplin",
+    "_id": "ESTUARDO_ambroxol_15_mg_5_ml_jbe_120_ml_caplin",
     "name": "AMBROXOL 15 MG 5 ML JBE 120 ML CAPLIN",
     "category": "Expectorante",
     "principio_activo": "Ambroxol",
@@ -189,7 +189,7 @@
     "updated_at": "2026-04-20T07:46:48.067477"
   },
   {
-    "_id": "budena_05_mg_ampolla_caja_x_5",
+    "_id": "ESTUARDO_budena_05_mg_ampolla_caja_x_5",
     "name": "BUDENA 0,5 MG AMPOLLA CAJA X 5",
     "category": "Corticosteroides",
     "principio_activo": "Budesonida",
@@ -210,7 +210,7 @@
     "updated_at": "2026-04-20T07:46:51.382684"
   },
   {
-    "_id": "cafiaspirina_caja_x_100_blist_x_10_tab",
+    "_id": "ESTUARDO_cafiaspirina_caja_x_100_blist_x_10_tab",
     "name": "CAFIASPIRINA CAJA X 100 BLIST X 10 TAB",
     "category": "Analgésico y antipirético",
     "principio_activo": "Ácido acetilsalicílico",
@@ -231,7 +231,7 @@
     "updated_at": "2026-04-20T07:46:54.450204"
   },
   {
-    "_id": "cetamin_cc_blister_x_10_laprin",
+    "_id": "ESTUARDO_cetamin_cc_blister_x_10_laprin",
     "name": "CETAMIN CC BLISTER X 10 LAPRIN",
     "category": "Analgésico y antipirético",
     "principio_activo": "Paracetamol y Cafeína",
@@ -252,7 +252,7 @@
     "updated_at": "2026-04-20T07:46:57.442350"
   },
   {
-    "_id": "cicatricure_gel_30_g",
+    "_id": "ESTUARDO_cicatricure_gel_30_g",
     "name": "CICATRICURE GEL 30 G",
     "category": "Gel para cicatrices",
     "principio_activo": "Extractos naturales y siliconas",
@@ -273,7 +273,7 @@
     "updated_at": "2026-04-20T07:47:01.836872"
   },
   {
-    "_id": "citrato_de_magnesio_fco_de_60_capsulas",
+    "_id": "ESTUARDO_citrato_de_magnesio_fco_de_60_capsulas",
     "name": "CITRATO DE MAGNESIO FCO DE 60 CAPSULAS",
     "category": "Suplemento mineral",
     "principio_activo": "Citrato de magnesio",
@@ -294,7 +294,7 @@
     "updated_at": "2026-04-20T07:47:05.235442"
   },
   {
-    "_id": "clevium_dexketoprofeno_25_mg_x_10_tab",
+    "_id": "ESTUARDO_clevium_dexketoprofeno_25_mg_x_10_tab",
     "name": "CLEVIUM DEXKETOPROFENO 25 MG X 10 TAB",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Dexketoprofeno",
@@ -315,7 +315,7 @@
     "updated_at": "2026-04-20T07:47:08.075914"
   },
   {
-    "_id": "cofal_forte_tarro_60_grs_rojo",
+    "_id": "ESTUARDO_cofal_forte_tarro_60_grs_rojo",
     "name": "COFAL FORTE TARRO 60 GRS ROJO",
     "category": "Jarabe para la tos",
     "principio_activo": "Dextrometorfano, Guaifenesina",
@@ -336,7 +336,7 @@
     "updated_at": "2026-04-20T07:47:11.231336"
   },
   {
-    "_id": "colageno_hidrolizado__celulas_madre_fco_x_100_tab",
+    "_id": "ESTUARDO_colageno_hidrolizado__celulas_madre_fco_x_100_tab",
     "name": "COLAGENO HIDROLIZADO + CELULAS MADRE FCO X 100 TAB",
     "category": "Suplemento alimenticio",
     "principio_activo": "Colágeno hidrolizado, células madre",
@@ -357,7 +357,7 @@
     "updated_at": "2026-04-20T07:47:14.041237"
   },
   {
-    "_id": "compresa_duo_pack_friocaliente_caja_x_2",
+    "_id": "ESTUARDO_compresa_duo_pack_friocaliente_caja_x_2",
     "name": "COMPRESA DUO PACK FRIO/CALIENTE CAJA X 2",
     "category": "Compresas terapéuticas",
     "principio_activo": "No aplica",
@@ -378,7 +378,7 @@
     "updated_at": "2026-04-20T07:47:16.715552"
   },
   {
-    "_id": "cronocef_vitam_c_1_gr_caja_x_100_blist_x_10_ps_pha",
+    "_id": "ESTUARDO_cronocef_vitam_c_1_gr_caja_x_100_blist_x_10_ps_pha",
     "name": "CRONOCEF (VITAM C 1 GR) CAJA X 100 BLIST X 10 PS PHA",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitamina C",
@@ -399,7 +399,7 @@
     "updated_at": "2026-04-20T07:47:19.399324"
   },
   {
-    "_id": "dezzzcansar_50_mg_bister_x_10_caja_100",
+    "_id": "ESTUARDO_dezzzcansar_50_mg_bister_x_10_caja_100",
     "name": "DEZZZCANSAR 50 MG BISTER X 10 CAJA 100",
     "category": "Medicamento",
     "principio_activo": "DEZZZCANSAR",
@@ -420,7 +420,7 @@
     "updated_at": "2026-04-20T07:47:22.517413"
   },
   {
-    "_id": "dolgenal_10_mg",
+    "_id": "ESTUARDO_dolgenal_10_mg",
     "name": "DOLGENAL 10 MG",
     "category": "Analgésico y antipirético",
     "principio_activo": "Paracetamol",
@@ -441,7 +441,7 @@
     "updated_at": "2026-04-20T07:47:25.774556"
   },
   {
-    "_id": "dolgenal_20_mg",
+    "_id": "ESTUARDO_dolgenal_20_mg",
     "name": "DOLGENAL 20 MG",
     "category": "Analgésico y antipirético",
     "principio_activo": "Paracetamol",
@@ -462,7 +462,7 @@
     "updated_at": "2026-04-20T07:47:29.014986"
   },
   {
-    "_id": "dolo_tetravit_blist_x_10",
+    "_id": "ESTUARDO_dolo_tetravit_blist_x_10",
     "name": "DOLO TETRAVIT BLIST X 10",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Paracetamol, Cafeína, Ácido Acetilsalicílico, Vitamina C",
@@ -483,7 +483,7 @@
     "updated_at": "2026-04-20T07:47:32.380698"
   },
   {
-    "_id": "dolodirol_aceta_trama_cj_x_100_blist_x_5",
+    "_id": "ESTUARDO_dolodirol_aceta_trama_cj_x_100_blist_x_5",
     "name": "DOLODIROL (ACETA+ TRAMA) CJ X 100 BLIST X 5",
     "category": "Analgésico y Antiinflamatorio",
     "principio_activo": "Acetaminofén y Tramadol",
@@ -504,7 +504,7 @@
     "updated_at": "2026-04-20T07:47:35.729083"
   },
   {
-    "_id": "donoflat_plus_blist_x_10_caja_x_120",
+    "_id": "ESTUARDO_donoflat_plus_blist_x_10_caja_x_120",
     "name": "DONOFLAT PLUS BLIST X 10 CAJA X 120",
     "category": "Analgésico y antiinflamatorio",
     "principio_activo": "Diclofenaco sódico y Paracetamol",
@@ -525,7 +525,7 @@
     "updated_at": "2026-04-20T07:47:39.098680"
   },
   {
-    "_id": "dorixina_relax_blist_x_10_tabs",
+    "_id": "ESTUARDO_dorixina_relax_blist_x_10_tabs",
     "name": "DORIXINA RELAX BLIST X 10 TABS",
     "category": "Relajante muscular",
     "principio_activo": "Clorzoxazona",
@@ -546,7 +546,7 @@
     "updated_at": "2026-04-20T07:47:41.937909"
   },
   {
-    "_id": "enterogermina_4_billones_caja__x_10",
+    "_id": "ESTUARDO_enterogermina_4_billones_caja__x_10",
     "name": "ENTEROGERMINA 4 BILLONES CAJA  X 10",
     "category": "Probiótico",
     "principio_activo": "Bacillus clausii",
@@ -567,7 +567,7 @@
     "updated_at": "2026-04-20T07:47:45.029041"
   },
   {
-    "_id": "fenofibrato_250_mgs_blist_x_10_caps",
+    "_id": "ESTUARDO_fenofibrato_250_mgs_blist_x_10_caps",
     "name": "FENOFIBRATO 250 MGS BLIST X 10 CAPS",
     "category": "Lipidérmicos",
     "principio_activo": "Fenofibrato",
@@ -588,7 +588,7 @@
     "updated_at": "2026-04-20T07:47:47.598567"
   },
   {
-    "_id": "fibra_psllyum_plantago_400_g",
+    "_id": "ESTUARDO_fibra_psllyum_plantago_400_g",
     "name": "FIBRA PSLLYUM PLANTAGO 400 G",
     "category": "Suplemento dietético",
     "principio_activo": "Fibra de Psyllium (Plantago ovata)",
@@ -609,7 +609,7 @@
     "updated_at": "2026-04-20T07:47:50.342106"
   },
   {
-    "_id": "glucerna_400_mg_vainilla",
+    "_id": "ESTUARDO_glucerna_400_mg_vainilla",
     "name": "GLUCERNA 400 MG VAINILLA",
     "category": "Suplemento nutricional para diabéticos",
     "principio_activo": "Nutrientes específicos para el control glucémico",
@@ -630,7 +630,7 @@
     "updated_at": "2026-04-20T07:47:53.532183"
   },
   {
-    "_id": "glucosa_lanceta_caja_x_100",
+    "_id": "ESTUARDO_glucosa_lanceta_caja_x_100",
     "name": "GLUCOSA LANCETA CAJA X 100",
     "category": "Material de diagnóstico",
     "principio_activo": "No aplica",
@@ -651,7 +651,7 @@
     "updated_at": "2026-04-20T07:47:56.848124"
   },
   {
-    "_id": "glucosa_tira_caja_x_50",
+    "_id": "ESTUARDO_glucosa_tira_caja_x_50",
     "name": "GLUCOSA TIRA CAJA X 50",
     "category": "Suplemento energético",
     "principio_activo": "Glucosa",
@@ -672,7 +672,7 @@
     "updated_at": "2026-04-20T07:47:59.564717"
   },
   {
-    "_id": "glucosa_toallita",
+    "_id": "ESTUARDO_glucosa_toallita",
     "name": "GLUCOSA TOALLITA",
     "category": "Suplemento energético",
     "principio_activo": "Glucosa",
@@ -693,7 +693,7 @@
     "updated_at": "2026-04-20T07:48:03.883274"
   },
   {
-    "_id": "gripetin_dia_caja_x_120_carterita_x_4_gel_caps",
+    "_id": "ESTUARDO_gripetin_dia_caja_x_120_carterita_x_4_gel_caps",
     "name": "GRIPETIN DIA CAJA X 120 CARTERITA X 4 GEL CAPS",
     "category": "Medicamento para el resfriado y la gripe",
     "principio_activo": "Paracetamol, Cafeína, Clorfeniramina",
@@ -714,7 +714,7 @@
     "updated_at": "2026-04-20T07:48:07.745570"
   },
   {
-    "_id": "gripetin_noche_caja_x_6_carterita_x_4_gel_caps",
+    "_id": "ESTUARDO_gripetin_noche_caja_x_6_carterita_x_4_gel_caps",
     "name": "GRIPETIN NOCHE CAJA X 6 CARTERITA X 4 GEL CAPS",
     "category": "Medicamento para el resfriado y la gripe",
     "principio_activo": "Paracetamol, Dextrometorfano, Clorfeniramina",
@@ -735,7 +735,7 @@
     "updated_at": "2026-04-20T07:48:12.010113"
   },
   {
-    "_id": "hidravida_coco",
+    "_id": "ESTUARDO_hidravida_coco",
     "name": "HIDRAVIDA COCO",
     "category": "Suplemento hidratante",
     "principio_activo": "Agua de coco",
@@ -756,7 +756,7 @@
     "updated_at": "2026-04-20T07:48:15.167272"
   },
   {
-    "_id": "hidravida_fresa",
+    "_id": "ESTUARDO_hidravida_fresa",
     "name": "HIDRAVIDA FRESA",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas y minerales",
@@ -777,7 +777,7 @@
     "updated_at": "2026-04-20T07:48:17.866299"
   },
   {
-    "_id": "hidravida_fresa_kiwi",
+    "_id": "ESTUARDO_hidravida_fresa_kiwi",
     "name": "HIDRAVIDA FRESA KIWI",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas y minerales",
@@ -798,7 +798,7 @@
     "updated_at": "2026-04-20T07:48:21.046000"
   },
   {
-    "_id": "hidravida_jamaica",
+    "_id": "ESTUARDO_hidravida_jamaica",
     "name": "HIDRAVIDA JAMAICA",
     "category": "Suplemento alimenticio",
     "principio_activo": "Extracto de Jamaica (Hibiscus sabdariffa)",
@@ -819,7 +819,7 @@
     "updated_at": "2026-04-20T07:48:24.626840"
   },
   {
-    "_id": "hidravida_maracuya",
+    "_id": "ESTUARDO_hidravida_maracuya",
     "name": "HIDRAVIDA MARACUYA",
     "category": "Suplemento alimenticio",
     "principio_activo": "Maracuyá",
@@ -840,7 +840,7 @@
     "updated_at": "2026-04-20T07:48:27.763906"
   },
   {
-    "_id": "hidravida_mora_azul",
+    "_id": "ESTUARDO_hidravida_mora_azul",
     "name": "HIDRAVIDA MORA -AZUL",
     "category": "Suplemento alimenticio",
     "principio_activo": "Extracto de mora azul",
@@ -861,7 +861,7 @@
     "updated_at": "2026-04-20T07:48:30.486608"
   },
   {
-    "_id": "hidravida_naranjamandarina",
+    "_id": "ESTUARDO_hidravida_naranjamandarina",
     "name": "HIDRAVIDA NARANJA-MANDARINA",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitaminas y minerales",
@@ -882,7 +882,7 @@
     "updated_at": "2026-04-20T07:48:33.477725"
   },
   {
-    "_id": "hidravida_uva",
+    "_id": "ESTUARDO_hidravida_uva",
     "name": "HIDRAVIDA UVA",
     "category": "Suplemento alimenticio",
     "principio_activo": "Extracto de uva",
@@ -903,7 +903,7 @@
     "updated_at": "2026-04-20T07:48:36.546194"
   },
   {
-    "_id": "insulina_insulex_10_ml",
+    "_id": "ESTUARDO_insulina_insulex_10_ml",
     "name": "INSULINA INSULEX 10 ML",
     "category": "Antidiabéticos",
     "principio_activo": "Insulina",
@@ -924,7 +924,7 @@
     "updated_at": "2026-04-20T07:48:39.378878"
   },
   {
-    "_id": "insulina_lantus_x_10_ml",
+    "_id": "ESTUARDO_insulina_lantus_x_10_ml",
     "name": "INSULINA LANTUS X 10 ML",
     "category": "Antidiabéticos",
     "principio_activo": "Insulina glargina",
@@ -945,7 +945,7 @@
     "updated_at": "2026-04-20T07:48:44.379990"
   },
   {
-    "_id": "insulina_semgle_10_ml",
+    "_id": "ESTUARDO_insulina_semgle_10_ml",
     "name": "INSULINA SEMGLE 10 ML",
     "category": "Antidiabéticos",
     "principio_activo": "Insulina",
@@ -966,7 +966,7 @@
     "updated_at": "2026-04-20T07:48:53.090283"
   },
   {
-    "_id": "jeringa_insulina_1_cc_30x_12_caja_x_100",
+    "_id": "ESTUARDO_jeringa_insulina_1_cc_30x_12_caja_x_100",
     "name": "JERINGA INSULINA 1 CC 30X 1/2 CAJA X 100",
     "category": "Material de inyección",
     "principio_activo": "N/A",
@@ -987,7 +987,7 @@
     "updated_at": "2026-04-20T07:48:56.337069"
   },
   {
-    "_id": "kisat_caja_x_30_tabs_blist_x_15",
+    "_id": "ESTUARDO_kisat_caja_x_30_tabs_blist_x_15",
     "name": "KISAT CAJA X 30 TABS BLIST X 15",
     "category": "Medicamento",
     "principio_activo": "Calcio",
@@ -1008,7 +1008,7 @@
     "updated_at": "2026-04-20T07:48:58.977019"
   },
   {
-    "_id": "kolit_blister_x_5_tab",
+    "_id": "ESTUARDO_kolit_blister_x_5_tab",
     "name": "KOLIT BLISTER X 5 TAB",
     "category": "Antidiarreico",
     "principio_activo": "Loperamida",
@@ -1029,7 +1029,7 @@
     "updated_at": "2026-04-20T07:49:02.802445"
   },
   {
-    "_id": "lagri_fresh_ungüento_10_grs",
+    "_id": "ESTUARDO_lagri_fresh_ungüento_10_grs",
     "name": "LAGRI FRESH UNGÜENTO 10 GRS",
     "category": "Ungüento",
     "principio_activo": "No especificado",
@@ -1050,7 +1050,7 @@
     "updated_at": "2026-04-20T07:49:05.937039"
   },
   {
-    "_id": "levonorgestreletinilestradiol_caja_x_21microgynon",
+    "_id": "ESTUARDO_levonorgestreletinilestradiol_caja_x_21microgynon",
     "name": "LEVONORGESTREL+ETINILESTRADIOL CAJA X 21(MICROGYNON)",
     "category": "Anticonceptivos hormonales combinados",
     "principio_activo": "Levonorgestrel y Etinilestradiol",
@@ -1071,7 +1071,7 @@
     "updated_at": "2026-04-20T07:49:09.085136"
   },
   {
-    "_id": "levotiroxina_100mup_caja_x_100_blist_x_20_el_ahoro",
+    "_id": "ESTUARDO_levotiroxina_100mup_caja_x_100_blist_x_20_el_ahoro",
     "name": "LEVOTIROXINA 100MUP CAJA X 100 BLIST X 20 EL AHORO",
     "category": "Hormonas y Modificadores del Sistema Endocrino",
     "principio_activo": "Levotiroxina",
@@ -1092,7 +1092,7 @@
     "updated_at": "2026-04-20T07:49:12.032978"
   },
   {
-    "_id": "listerine_250_ml",
+    "_id": "ESTUARDO_listerine_250_ml",
     "name": "LISTERINE 250 ML",
     "category": "Enjuague bucal",
     "principio_activo": "Aceite de eucalipto, timol, mentol y salicilato de metilo",
@@ -1113,7 +1113,7 @@
     "updated_at": "2026-04-20T07:49:15.614454"
   },
   {
-    "_id": "listerine_500_ml_menta_profunda",
+    "_id": "ESTUARDO_listerine_500_ml_menta_profunda",
     "name": "LISTERINE 500 ML MENTA PROFUNDA",
     "category": "Enjuague bucal",
     "principio_activo": "Aceite de menta, eucaliptol, timol, salicilato de metilo",
@@ -1134,7 +1134,7 @@
     "updated_at": "2026-04-20T07:49:18.571746"
   },
   {
-    "_id": "listerine_500_ml_menta_suave",
+    "_id": "ESTUARDO_listerine_500_ml_menta_suave",
     "name": "LISTERINE 500 ML MENTA SUAVE",
     "category": "Enjuague bucal",
     "principio_activo": "Aceite de menta y otros agentes antimicrobianos",
@@ -1155,7 +1155,7 @@
     "updated_at": "2026-04-20T07:49:21.534609"
   },
   {
-    "_id": "listerine_500_ml_zero_menta",
+    "_id": "ESTUARDO_listerine_500_ml_zero_menta",
     "name": "LISTERINE 500 ML ZERO MENTA",
     "category": "Enjuague bucal",
     "principio_activo": "Aceite de menta y otros agentes antimicrobianos",
@@ -1176,7 +1176,7 @@
     "updated_at": "2026-04-20T07:49:25.696635"
   },
   {
-    "_id": "mascarillas_kn95_caja_x_20",
+    "_id": "ESTUARDO_mascarillas_kn95_caja_x_20",
     "name": "MASCARILLAS KN95 CAJA X 20",
     "category": "Equipos de protección personal",
     "principio_activo": "No aplica",
@@ -1197,7 +1197,7 @@
     "updated_at": "2026-04-20T07:49:28.528000"
   },
   {
-    "_id": "medox_susp_240_ml",
+    "_id": "ESTUARDO_medox_susp_240_ml",
     "name": "MEDOX SUSP 240 ML",
     "category": "Antibiótico",
     "principio_activo": "Amoxicilina",
@@ -1218,7 +1218,7 @@
     "updated_at": "2026-04-20T07:49:31.379173"
   },
   {
-    "_id": "membrana_bio_film_unidad_10_x_10",
+    "_id": "ESTUARDO_membrana_bio_film_unidad_10_x_10",
     "name": "MEMBRANA BIO FILM UNIDAD 10 X 10",
     "category": "Material de curación",
     "principio_activo": "No aplica",
@@ -1239,7 +1239,7 @@
     "updated_at": "2026-04-20T07:49:34.525797"
   },
   {
-    "_id": "methycobal_500_mg_blist_x_10_tab",
+    "_id": "ESTUARDO_methycobal_500_mg_blist_x_10_tab",
     "name": "METHYCOBAL 500 MG BLIST X 10 TAB",
     "category": "Suplemento vitamínico",
     "principio_activo": "Metilcobalamina",
@@ -1260,7 +1260,7 @@
     "updated_at": "2026-04-20T07:49:38.390917"
   },
   {
-    "_id": "micropore_nexcare_blanco_1_x_10",
+    "_id": "ESTUARDO_micropore_nexcare_blanco_1_x_10",
     "name": "MICROPORE NEXCARE BLANCO 1 X 10",
     "category": "Cuidado de heridas",
     "principio_activo": "No aplica",
@@ -1281,7 +1281,7 @@
     "updated_at": "2026-04-20T07:49:40.979555"
   },
   {
-    "_id": "micropore_nexcare_blanco_12_x_10_yd",
+    "_id": "ESTUARDO_micropore_nexcare_blanco_12_x_10_yd",
     "name": "MICROPORE NEXCARE BLANCO 1/2 X 10 YD",
     "category": "Cinta adhesiva médica",
     "principio_activo": "Ninguno",
@@ -1302,7 +1302,7 @@
     "updated_at": "2026-04-20T07:49:44.067009"
   },
   {
-    "_id": "micropore_nexcare_piel_1_x_10_yds",
+    "_id": "ESTUARDO_micropore_nexcare_piel_1_x_10_yds",
     "name": "MICROPORE NEXCARE PIEL 1 X 10 YDS",
     "category": "Cinta adhesiva médica",
     "principio_activo": "Ninguno",
@@ -1323,7 +1323,7 @@
     "updated_at": "2026-04-20T07:49:46.762325"
   },
   {
-    "_id": "micropore_nexcare_piel_12_x_10_yd",
+    "_id": "ESTUARDO_micropore_nexcare_piel_12_x_10_yd",
     "name": "MICROPORE NEXCARE PIEL 1/2 X 10 YD",
     "category": "Cuidado de heridas",
     "principio_activo": "No aplica",
@@ -1344,7 +1344,7 @@
     "updated_at": "2026-04-20T07:49:49.375130"
   },
   {
-    "_id": "microporelpiel_duo",
+    "_id": "ESTUARDO_microporelpiel_duo",
     "name": "MICROPORELPIEL DUO",
     "category": "Dermatológico",
     "principio_activo": "Ácido glicólico y ácido salicílico",
@@ -1365,7 +1365,7 @@
     "updated_at": "2026-04-20T07:49:52.194965"
   },
   {
-    "_id": "muñequera",
+    "_id": "ESTUARDO_muñequera",
     "name": "MUÑEQUERA",
     "category": "Soporte ortopédico",
     "principio_activo": "N/A",
@@ -1386,7 +1386,7 @@
     "updated_at": "2026-04-20T07:49:55.005073"
   },
   {
-    "_id": "neurogenequimic_pregabalina_150_mg_cja_x_30_caps",
+    "_id": "ESTUARDO_neurogenequimic_pregabalina_150_mg_cja_x_30_caps",
     "name": "NEUROGENEQUIMIC (PREGABALINA 150 MG) CJA X 30 CAPS",
     "category": "Neurológico",
     "principio_activo": "Pregabalina",
@@ -1407,7 +1407,7 @@
     "updated_at": "2026-04-20T07:49:57.508476"
   },
   {
-    "_id": "pastilla_abdomen_smothing_advanced_x_30",
+    "_id": "ESTUARDO_pastilla_abdomen_smothing_advanced_x_30",
     "name": "PASTILLA ABDOMEN SMOTHING ADVANCED X 30",
     "category": "Suplemento para control de peso",
     "principio_activo": "No especificado",
@@ -1428,7 +1428,7 @@
     "updated_at": "2026-04-20T07:50:00.160604"
   },
   {
-    "_id": "pastilla_acai_berry_advanced_x_30",
+    "_id": "ESTUARDO_pastilla_acai_berry_advanced_x_30",
     "name": "PASTILLA ACAI BERRY ADVANCED X 30",
     "category": "Suplemento dietético",
     "principio_activo": "Acai Berry",
@@ -1449,7 +1449,7 @@
     "updated_at": "2026-04-20T07:50:06.613283"
   },
   {
-    "_id": "pastilla_beatiful_slim_body_advance_x_30",
+    "_id": "ESTUARDO_pastilla_beatiful_slim_body_advance_x_30",
     "name": "PASTILLA BEATIFUL SLIM BODY ADVANCE X 30",
     "category": "Suplemento para control de peso",
     "principio_activo": "No especificado",
@@ -1470,7 +1470,7 @@
     "updated_at": "2026-04-20T07:50:09.291812"
   },
   {
-    "_id": "pastilla_botanical_sliming_advanced_x_30",
+    "_id": "ESTUARDO_pastilla_botanical_sliming_advanced_x_30",
     "name": "PASTILLA BOTANICAL SLIMING ADVANCED X 30",
     "category": "Suplemento dietético",
     "principio_activo": "Extractos botánicos para control de peso",
@@ -1491,7 +1491,7 @@
     "updated_at": "2026-04-20T07:50:11.976217"
   },
   {
-    "_id": "pastilla_burn_7_advanced__x_30",
+    "_id": "ESTUARDO_pastilla_burn_7_advanced__x_30",
     "name": "PASTILLA BURN 7 ADVANCED  X 30",
     "category": "Suplemento dietético",
     "principio_activo": "No especificado",
@@ -1512,7 +1512,7 @@
     "updated_at": "2026-04-20T07:50:14.782830"
   },
   {
-    "_id": "pastilla_fruta_planta_x_30",
+    "_id": "ESTUARDO_pastilla_fruta_planta_x_30",
     "name": "PASTILLA FRUTA PLANTA X 30",
     "category": "Suplemento alimenticio",
     "principio_activo": "Extracto de frutas y plantas",
@@ -1533,7 +1533,7 @@
     "updated_at": "2026-04-20T07:50:17.509465"
   },
   {
-    "_id": "pastilla_lipo_pro_advanced_x_30",
+    "_id": "ESTUARDO_pastilla_lipo_pro_advanced_x_30",
     "name": "PASTILLA LIPO PRO ADVANCED X 30",
     "category": "Suplemento dietético",
     "principio_activo": "No especificado",
@@ -1554,7 +1554,7 @@
     "updated_at": "2026-04-20T07:50:20.771340"
   },
   {
-    "_id": "pastilla_rapidly_slimming_advanced_x_30",
+    "_id": "ESTUARDO_pastilla_rapidly_slimming_advanced_x_30",
     "name": "PASTILLA RAPIDLY SLIMMING ADVANCED X 30",
     "category": "Suplemento para control de peso",
     "principio_activo": "No especificado",
@@ -1575,7 +1575,7 @@
     "updated_at": "2026-04-20T07:50:23.481992"
   },
   {
-    "_id": "pastilla_tomato_advanced_x_30",
+    "_id": "ESTUARDO_pastilla_tomato_advanced_x_30",
     "name": "PASTILLA TOMATO ADVANCED X 30",
     "category": "Suplemento alimenticio",
     "principio_activo": "Licopeno",
@@ -1596,7 +1596,7 @@
     "updated_at": "2026-04-20T07:50:26.541617"
   },
   {
-    "_id": "pedialyte_cereza_500_ml",
+    "_id": "ESTUARDO_pedialyte_cereza_500_ml",
     "name": "PEDIALYTE CEREZA 500 ML",
     "category": "Solución de rehidratación oral",
     "principio_activo": "Electrolitos y glucosa",
@@ -1617,7 +1617,7 @@
     "updated_at": "2026-04-20T07:50:29.996208"
   },
   {
-    "_id": "pedialyte_coco_500_ml_30",
+    "_id": "ESTUARDO_pedialyte_coco_500_ml_30",
     "name": "PEDIALYTE COCO 500 ML 30",
     "category": "Solución de rehidratación oral",
     "principio_activo": "Electrolitos y glucosa",
@@ -1638,7 +1638,7 @@
     "updated_at": "2026-04-20T07:50:32.981680"
   },
   {
-    "_id": "pedialyte_fresa_500_ml__60",
+    "_id": "ESTUARDO_pedialyte_fresa_500_ml__60",
     "name": "PEDIALYTE FRESA 500 ML  60",
     "category": "Solución de rehidratación oral",
     "principio_activo": "Electrolitos y glucosa",
@@ -1659,7 +1659,7 @@
     "updated_at": "2026-04-20T07:50:36.198638"
   },
   {
-    "_id": "pedialyte_manzana_500_ml_60",
+    "_id": "ESTUARDO_pedialyte_manzana_500_ml_60",
     "name": "PEDIALYTE MANZANA 500 ML 60",
     "category": "Solución de rehidratación oral",
     "principio_activo": "Electrolitos y glucosa",
@@ -1680,7 +1680,7 @@
     "updated_at": "2026-04-20T07:50:39.574199"
   },
   {
-    "_id": "pedialyte_uva_500_ml__60",
+    "_id": "ESTUARDO_pedialyte_uva_500_ml__60",
     "name": "PEDIALYTE UVA 500 ML  60",
     "category": "Solución de rehidratación oral",
     "principio_activo": "Electrolitos y glucosa",
@@ -1701,7 +1701,7 @@
     "updated_at": "2026-04-20T07:50:43.093404"
   },
   {
-    "_id": "penicilina_pomada",
+    "_id": "ESTUARDO_penicilina_pomada",
     "name": "PENICILINA POMADA",
     "category": "Antibiótico tópico",
     "principio_activo": "Penicilina",
@@ -1722,7 +1722,7 @@
     "updated_at": "2026-04-20T07:50:46.028891"
   },
   {
-    "_id": "piojin_burbujas_carton_x_12_burbujas",
+    "_id": "ESTUARDO_piojin_burbujas_carton_x_12_burbujas",
     "name": "PIOJIN BURBUJAS CARTON X 12 BURBUJAS",
     "category": "Antiparasitarios",
     "principio_activo": "Permetrina",
@@ -1743,7 +1743,7 @@
     "updated_at": "2026-04-20T07:50:48.661475"
   },
   {
-    "_id": "plavix_clopidogrel_75_mg",
+    "_id": "ESTUARDO_plavix_clopidogrel_75_mg",
     "name": "PLAVIX CLOPIDOGREL 75 MG",
     "category": "Antiplaquetario",
     "principio_activo": "Clopidogrel",
@@ -1764,7 +1764,7 @@
     "updated_at": "2026-04-20T07:50:51.468934"
   },
   {
-    "_id": "principal_forte_blist_x_5_caja_x_60",
+    "_id": "ESTUARDO_principal_forte_blist_x_5_caja_x_60",
     "name": "PRINCIPAL FORTE BLIST X 5 CAJA X 60",
     "category": "Medicamento",
     "principio_activo": "No especificado",
@@ -1785,7 +1785,7 @@
     "updated_at": "2026-04-20T07:50:54.243355"
   },
   {
-    "_id": "progestin_depot_250_kit",
+    "_id": "ESTUARDO_progestin_depot_250_kit",
     "name": "PROGESTIN DEPOT 250 KIT",
     "category": "Anticonceptivos hormonales",
     "principio_activo": "Medroxiprogesterona",
@@ -1806,7 +1806,7 @@
     "updated_at": "2026-04-20T07:50:57.282348"
   },
   {
-    "_id": "propanolol_40_mg_blister_x_20_tabs_caja_x_100_infasa",
+    "_id": "ESTUARDO_propanolol_40_mg_blister_x_20_tabs_caja_x_100_infasa",
     "name": "PROPANOLOL 40 MG BLISTER X 20 TABS CAJA X 100 INFASA",
     "category": "Betabloqueante",
     "principio_activo": "Propranolol",
@@ -1827,7 +1827,7 @@
     "updated_at": "2026-04-20T07:51:00.040314"
   },
   {
-    "_id": "prueba_de_oxigeno",
+    "_id": "ESTUARDO_prueba_de_oxigeno",
     "name": "PRUEBA DE OXIGENO",
     "category": "Pruebas diagnósticas",
     "principio_activo": "N/A",
@@ -1848,7 +1848,7 @@
     "updated_at": "2026-04-20T07:51:02.947217"
   },
   {
-    "_id": "ramipril_5_mgs_blister_x_10",
+    "_id": "ESTUARDO_ramipril_5_mgs_blister_x_10",
     "name": "RAMIPRIL 5 MGS BLISTER X 10",
     "category": "Antihipertensivo",
     "principio_activo": "Ramipril",
@@ -1869,7 +1869,7 @@
     "updated_at": "2026-04-20T07:51:05.663044"
   },
   {
-    "_id": "rodillera",
+    "_id": "ESTUARDO_rodillera",
     "name": "RODILLERA",
     "category": "Soporte ortopédico",
     "principio_activo": "N/A",
@@ -1890,7 +1890,7 @@
     "updated_at": "2026-04-20T07:51:08.557123"
   },
   {
-    "_id": "rosuvastatina_20_mg_blist_x_10_suvaatin",
+    "_id": "ESTUARDO_rosuvastatina_20_mg_blist_x_10_suvaatin",
     "name": "ROSUVASTATINA 20 MG BLIST X 10 SUVAATIN)",
     "category": "Hipolipemiante",
     "principio_activo": "Rosuvastatina",
@@ -1911,7 +1911,7 @@
     "updated_at": "2026-04-20T07:51:11.187351"
   },
   {
-    "_id": "silvermed_crema_1_sulfadiazina_de_plata_30_grs",
+    "_id": "ESTUARDO_silvermed_crema_1_sulfadiazina_de_plata_30_grs",
     "name": "SILVERMED CREMA 1% (SULFADIAZINA DE PLATA) 30 GRS",
     "category": "Antiséptico tópico",
     "principio_activo": "Sulfadiazina de plata",
@@ -1932,7 +1932,7 @@
     "updated_at": "2026-04-20T07:51:13.982499"
   },
   {
-    "_id": "suerox_fresa_menta_630_ml",
+    "_id": "ESTUARDO_suerox_fresa_menta_630_ml",
     "name": "SUEROX FRESA MENTA 630 ML",
     "category": "Suplemento Hidratante",
     "principio_activo": "Electrolitos (Sodio, Potasio, Cloro)",
@@ -1953,7 +1953,7 @@
     "updated_at": "2026-04-20T07:51:16.912938"
   },
   {
-    "_id": "suerox_fresakigui_diabetico_630_ml",
+    "_id": "ESTUARDO_suerox_fresakigui_diabetico_630_ml",
     "name": "SUEROX FRESA/KIGUI DIABETICO 630 ML",
     "category": "Suplemento nutricional para diabéticos",
     "principio_activo": "No especificado",
@@ -1974,7 +1974,7 @@
     "updated_at": "2026-04-20T07:51:20.046271"
   },
   {
-    "_id": "suerox_frutos_rojos_630_ml",
+    "_id": "ESTUARDO_suerox_frutos_rojos_630_ml",
     "name": "SUEROX FRUTOS ROJOS 630 ML",
     "category": "Suplemento Hidratante",
     "principio_activo": "Sales de rehidratación oral",
@@ -1995,7 +1995,7 @@
     "updated_at": "2026-04-20T07:51:22.891282"
   },
   {
-    "_id": "suerox_lima_limon_630_ml",
+    "_id": "ESTUARDO_suerox_lima_limon_630_ml",
     "name": "SUEROX LIMA LIMON 630 ML",
     "category": "Suplemento electrolítico",
     "principio_activo": "Sueroterapia oral (mezcla de electrolitos y glucosa)",
@@ -2016,7 +2016,7 @@
     "updated_at": "2026-04-20T07:51:26.081200"
   },
   {
-    "_id": "suerox_manzana_630_ml",
+    "_id": "ESTUARDO_suerox_manzana_630_ml",
     "name": "SUEROX MANZANA 630 ML",
     "category": "Suero oral",
     "principio_activo": "Electrolitos y glucosa",
@@ -2037,7 +2037,7 @@
     "updated_at": "2026-04-20T07:51:28.626090"
   },
   {
-    "_id": "suerox_mora_azul_hierbabuena_630_ml",
+    "_id": "ESTUARDO_suerox_mora_azul_hierbabuena_630_ml",
     "name": "SUEROX MORA AZUL/ HIERBABUENA 630 ML",
     "category": "Suero oral",
     "principio_activo": "Sales de rehidratación oral",
@@ -2058,7 +2058,7 @@
     "updated_at": "2026-04-20T07:51:31.555241"
   },
   {
-    "_id": "suerox_uva_630_ml",
+    "_id": "ESTUARDO_suerox_uva_630_ml",
     "name": "SUEROX UVA 630 ML",
     "category": "Suplemento hidratante",
     "principio_activo": "Solución electrolítica",
@@ -2079,7 +2079,7 @@
     "updated_at": "2026-04-20T07:51:34.412343"
   },
   {
-    "_id": "tiazil_hidroamilorida_505_blist_x_10_infasa",
+    "_id": "ESTUARDO_tiazil_hidroamilorida_505_blist_x_10_infasa",
     "name": "TIAZIL HIDRO/AMILORIDA 50/5 BLIST X 10 INFASA",
     "category": "Diurético",
     "principio_activo": "Hidroclorotiazida / Amilorida",
@@ -2100,7 +2100,7 @@
     "updated_at": "2026-04-20T07:51:38.328144"
   },
   {
-    "_id": "tobillera",
+    "_id": "ESTUARDO_tobillera",
     "name": "TOBILLERA",
     "category": "Soporte ortopédico",
     "principio_activo": "N/A",
@@ -2121,7 +2121,7 @@
     "updated_at": "2026-04-20T07:51:41.127921"
   },
   {
-    "_id": "toma_de_presion",
+    "_id": "ESTUARDO_toma_de_presion",
     "name": "TOMA DE PRESION",
     "category": "Dispositivo médico",
     "principio_activo": "N/A",
@@ -2142,7 +2142,7 @@
     "updated_at": "2026-04-20T07:51:43.594187"
   },
   {
-    "_id": "triaxobil_s_15_fco_im_iv",
+    "_id": "ESTUARDO_triaxobil_s_15_fco_im_iv",
     "name": "TRIAXOBIL S 1.5 FCO I.M /I.V.",
     "category": "Antibiótico",
     "principio_activo": "Ceftriaxona",
@@ -2163,7 +2163,7 @@
     "updated_at": "2026-04-20T07:51:46.668117"
   },
   {
-    "_id": "tropium_750_bromuro_de_ipatropium_750_mcgml",
+    "_id": "ESTUARDO_tropium_750_bromuro_de_ipatropium_750_mcgml",
     "name": "TROPIUM -750 BROMURO DE IPATROPIUM 750 MCG/ML",
     "category": "Broncodilatador",
     "principio_activo": "Bromuro de Ipratropium",
@@ -2184,7 +2184,7 @@
     "updated_at": "2026-04-20T07:51:50.046072"
   },
   {
-    "_id": "venda_yeso_blanca_4x3y",
+    "_id": "ESTUARDO_venda_yeso_blanca_4x3y",
     "name": "VENDA YESO BLANCA 4X3Y",
     "category": "Material de curación",
     "principio_activo": "No aplica",
@@ -2205,7 +2205,7 @@
     "updated_at": "2026-04-20T07:51:53.102923"
   },
   {
-    "_id": "venda_yeso_blanca_6x3y",
+    "_id": "ESTUARDO_venda_yeso_blanca_6x3y",
     "name": "VENDA YESO BLANCA 6X3Y",
     "category": "Material de curación",
     "principio_activo": "No aplica",
@@ -2226,7 +2226,7 @@
     "updated_at": "2026-04-20T07:51:56.245132"
   },
   {
-    "_id": "vitamina_k_10_mg_b_x_4_tab",
+    "_id": "ESTUARDO_vitamina_k_10_mg_b_x_4_tab",
     "name": "VITAMINA K 10 MG B X 4 TAB",
     "category": "Suplemento vitamínico",
     "principio_activo": "Vitamina K",
@@ -2247,7 +2247,7 @@
     "updated_at": "2026-04-20T07:51:59.182513"
   },
   {
-    "_id": "yes_not_prueba_de_emb_cassett",
+    "_id": "ESTUARDO_yes_not_prueba_de_emb_cassett",
     "name": "YES NOT (PRUEBA DE EMB) CASSETT",
     "category": "Prueba diagnóstica",
     "principio_activo": "No aplica",
