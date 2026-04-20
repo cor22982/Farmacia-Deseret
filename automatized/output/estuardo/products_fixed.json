@@ -1,0 +1,2270 @@
+[
+  {
+    "_id": "aceite_de_oliva_predilecto_120_ml",
+    "name": "ACEITE DE OLIVA PREDILECTO 120 ML",
+    "category": "Aceite comestible",
+    "principio_activo": "Aceite de oliva",
+    "descripcion": "Aceite de oliva virgen extra en presentación de 120 ml, utilizado principalmente para consumo alimenticio y como complemento en la dieta.",
+    "image_url": "/uploads/products/aceite_de_oliva_predilecto_120_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.51,
+        "price": 8.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-C4357E3DF3E8"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:22.999569",
+    "updated_at": "2026-04-20T07:46:22.999569"
+  },
+  {
+    "_id": "acrylarm_02__tubo_10_grs",
+    "name": "ACRYLARM 0.2 % TUBO 10 GRS",
+    "category": "Medicamento dermatológico",
+    "principio_activo": "Acrilamida 0.2%",
+    "descripcion": "ACRYLARM 0.2 % TUBO 10 GRS es un medicamento en forma de crema o gel que contiene acrilamida al 0.2%, utilizado principalmente para el tratamiento de afecciones dermatológicas específicas.",
+    "image_url": "/uploads/products/acrylarm_02__tubo_10_grs.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 32.0,
+        "profit_percent": 0.69,
+        "sku": "SKU-5EC7F3FED295"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:26.439227",
+    "updated_at": "2026-04-20T07:46:26.439227"
+  },
+  {
+    "_id": "agua_oxigenada_500_ml_la_enfermerita",
+    "name": "AGUA OXIGENADA 500 ML LA ENFERMERITA",
+    "category": "Antiséptico",
+    "principio_activo": "Peróxido de hidrógeno",
+    "descripcion": "Solución acuosa de peróxido de hidrógeno al 3%, utilizada para desinfectar heridas y como agente antiséptico tópico.",
+    "image_url": "/uploads/products/agua_oxigenada_500_ml_la_enfermerita.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.85,
+        "price": 11.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-E04845098D4B"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:29.521940",
+    "updated_at": "2026-04-20T07:46:29.521940"
+  },
+  {
+    "_id": "aguaje_flor_caja_x_90_tab",
+    "name": "AGUAJE FLOR CAJA X 90 TAB",
+    "category": "Suplemento natural",
+    "principio_activo": "Aguaje (Mauritia flexuosa)",
+    "descripcion": "Producto a base de aguaje, utilizado como suplemento natural en forma de tabletas, presentado en caja con 90 unidades.",
+    "image_url": "/uploads/products/aguaje_flor_caja_x_90_tab.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 70.0,
+        "price": 115.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-94FBD2286C2E"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:32.356142",
+    "updated_at": "2026-04-20T07:46:32.356142"
+  },
+  {
+    "_id": "aguaje_peruano_fco_x_60_tab",
+    "name": "AGUAJE PERUANO FCO X 60 TAB",
+    "category": "Suplemento natural",
+    "principio_activo": "Aguaje (Mauritia flexuosa)",
+    "descripcion": "Producto a base de extracto de aguaje, una fruta amazónica rica en antioxidantes, vitaminas y minerales, utilizada para mejorar la salud general y el bienestar.",
+    "image_url": "/uploads/products/aguaje_peruano_fco_x_60_tab.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.0,
+        "price": 90.0,
+        "profit_percent": 0.56,
+        "sku": "SKU-8ED8983EBB99"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:35.919282",
+    "updated_at": "2026-04-20T07:46:35.919282"
+  },
+  {
+    "_id": "aguapura_500_ml_members",
+    "name": "AGUAPURA 500 ML MEMBERS",
+    "category": "Agua purificada",
+    "principio_activo": "Agua purificada",
+    "descripcion": "Agua purificada en envase de 500 ml, destinada para uso general y consumo.",
+    "image_url": "/uploads/products/aguapura_500_ml_members.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.0,
+        "price": 3.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-C2DECD522E40"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:38.994779",
+    "updated_at": "2026-04-20T07:46:38.994779"
+  },
+  {
+    "_id": "algodón_zuum_25_grs",
+    "name": "ALGODÓN ZUUM 25 GRS",
+    "category": "Material de curación",
+    "principio_activo": "Algodón",
+    "descripcion": "Algodón estéril de 25 gramos utilizado para la limpieza y cuidado de heridas, absorción de líquidos y aplicación de medicamentos tópicos.",
+    "image_url": "/uploads/products/algodón_zuum_25_grs.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 8.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-7DE5866B29F1"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:42.465320",
+    "updated_at": "2026-04-20T07:46:42.465320"
+  },
+  {
+    "_id": "algodón_zuum_50_grs",
+    "name": "ALGODÓN ZUUM 50 GRS",
+    "category": "Material de curación",
+    "principio_activo": "Algodón",
+    "descripcion": "Algodón estéril de 50 gramos utilizado para la limpieza y cuidado de heridas, absorción de líquidos y aplicación de medicamentos.",
+    "image_url": "/uploads/products/algodón_zuum_50_grs.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.2,
+        "price": 12.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-508A8785D6E9"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:45.331689",
+    "updated_at": "2026-04-20T07:46:45.331689"
+  },
+  {
+    "_id": "ambroxol_15_mg_5_ml_jbe_120_ml_caplin",
+    "name": "AMBROXOL 15 MG 5 ML JBE 120 ML CAPLIN",
+    "category": "Expectorante",
+    "principio_activo": "Ambroxol",
+    "descripcion": "Jarabe de 120 ml que contiene Ambroxol 15 mg por cada 5 ml, utilizado para facilitar la expectoración en enfermedades respiratorias con mucosidad.",
+    "image_url": "/uploads/products/ambroxol_15_mg_5_ml_jbe_120_ml_caplin.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.3,
+        "price": 16.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-C8CD56989EC1"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:48.067477",
+    "updated_at": "2026-04-20T07:46:48.067477"
+  },
+  {
+    "_id": "budena_05_mg_ampolla_caja_x_5",
+    "name": "BUDENA 0,5 MG AMPOLLA CAJA X 5",
+    "category": "Corticosteroides",
+    "principio_activo": "Budesonida",
+    "descripcion": "BUDENA 0,5 MG AMPOLLA CAJA X 5 es un medicamento que contiene budesonida, un corticosteroide utilizado para reducir la inflamación en enfermedades respiratorias como el asma y la EPOC. Se presenta en ampollas para administración inhalatoria o nebulización.",
+    "image_url": "/uploads/products/budena_05_mg_ampolla_caja_x_5.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.0,
+        "price": 38.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-BF0E55AF3692"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:51.382684",
+    "updated_at": "2026-04-20T07:46:51.382684"
+  },
+  {
+    "_id": "cafiaspirina_caja_x_100_blist_x_10_tab",
+    "name": "CAFIASPIRINA CAJA X 100 BLIST X 10 TAB",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Ácido acetilsalicílico",
+    "descripcion": "CAFIASPIRINA es un medicamento utilizado para aliviar el dolor leve a moderado, reducir la fiebre y como antiinflamatorio. Contiene ácido acetilsalicílico y se presenta en caja con 100 tabletas divididas en 10 blísteres.",
+    "image_url": "/uploads/products/cafiaspirina_caja_x_100_blist_x_10_tab.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.51,
+        "price": 1.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-6DBB4E6CBE89"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:54.450204",
+    "updated_at": "2026-04-20T07:46:54.450204"
+  },
+  {
+    "_id": "cetamin_cc_blister_x_10_laprin",
+    "name": "CETAMIN CC BLISTER X 10 LAPRIN",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Paracetamol y Cafeína",
+    "descripcion": "CETAMIN CC es un medicamento utilizado para aliviar el dolor leve a moderado y reducir la fiebre. Contiene paracetamol, que actúa como analgésico y antipirético, y cafeína, que potencia el efecto analgésico.",
+    "image_url": "/uploads/products/cetamin_cc_blister_x_10_laprin.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.42,
+        "price": 7.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-6ABC032C545A"
+      }
+    ],
+    "created_at": "2026-04-20T07:46:57.442350",
+    "updated_at": "2026-04-20T07:46:57.442350"
+  },
+  {
+    "_id": "cicatricure_gel_30_g",
+    "name": "CICATRICURE GEL 30 G",
+    "category": "Gel para cicatrices",
+    "principio_activo": "Extractos naturales y siliconas",
+    "descripcion": "CICATRICURE GEL es un gel tópico diseñado para mejorar la apariencia de cicatrices, ayudando a suavizarlas, reducir su enrojecimiento y promover una mejor regeneración de la piel.",
+    "image_url": "/uploads/products/cicatricure_gel_30_g.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 60.0,
+        "price": 98.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-2494513F5A83"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:01.836872",
+    "updated_at": "2026-04-20T07:47:01.836872"
+  },
+  {
+    "_id": "citrato_de_magnesio_fco_de_60_capsulas",
+    "name": "CITRATO DE MAGNESIO FCO DE 60 CAPSULAS",
+    "category": "Suplemento mineral",
+    "principio_activo": "Citrato de magnesio",
+    "descripcion": "Suplemento dietético en cápsulas que aporta magnesio en forma de citrato, utilizado para prevenir o tratar deficiencias de magnesio en el organismo.",
+    "image_url": "/uploads/products/citrato_de_magnesio_fco_de_60_capsulas.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 45.0,
+        "price": 75.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-B05B09B9DEDF"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:05.235442",
+    "updated_at": "2026-04-20T07:47:05.235442"
+  },
+  {
+    "_id": "clevium_dexketoprofeno_25_mg_x_10_tab",
+    "name": "CLEVIUM DEXKETOPROFENO 25 MG X 10 TAB",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Dexketoprofeno",
+    "descripcion": "Medicamento utilizado para el alivio del dolor leve a moderado y para reducir la inflamación. Cada tableta contiene 25 mg de dexketoprofeno.",
+    "image_url": "/uploads/products/clevium_dexketoprofeno_25_mg_x_10_tab.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.0,
+        "price": 5.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-4EEDF1B00DFC"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:08.075914",
+    "updated_at": "2026-04-20T07:47:08.075914"
+  },
+  {
+    "_id": "cofal_forte_tarro_60_grs_rojo",
+    "name": "COFAL FORTE TARRO 60 GRS ROJO",
+    "category": "Jarabe para la tos",
+    "principio_activo": "Dextrometorfano, Guaifenesina",
+    "descripcion": "COFAL FORTE es un jarabe utilizado para aliviar la tos y facilitar la expectoración. Contiene dextrometorfano, un supresor de la tos, y guaifenesina, un expectorante que ayuda a eliminar las secreciones bronquiales.",
+    "image_url": "/uploads/products/cofal_forte_tarro_60_grs_rojo.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 32.0,
+        "price": 56.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-11C3D3FC9F36"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:11.231336",
+    "updated_at": "2026-04-20T07:47:11.231336"
+  },
+  {
+    "_id": "colageno_hidrolizado__celulas_madre_fco_x_100_tab",
+    "name": "COLAGENO HIDROLIZADO + CELULAS MADRE FCO X 100 TAB",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Colágeno hidrolizado, células madre",
+    "descripcion": "Suplemento en tabletas que combina colágeno hidrolizado para mejorar la salud de la piel, articulaciones y tejidos conectivos, junto con células madre para potencial apoyo en la regeneración celular.",
+    "image_url": "/uploads/products/colageno_hidrolizado__celulas_madre_fco_x_100_tab.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.0,
+        "price": 60.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-BB9BC15648CB"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:14.041237",
+    "updated_at": "2026-04-20T07:47:14.041237"
+  },
+  {
+    "_id": "compresa_duo_pack_friocaliente_caja_x_2",
+    "name": "COMPRESA DUO PACK FRIO/CALIENTE CAJA X 2",
+    "category": "Compresas terapéuticas",
+    "principio_activo": "No aplica",
+    "descripcion": "Compresa reutilizable que puede utilizarse en frío o calor para aliviar dolores musculares, inflamaciones y contracturas. Presentada en caja con 2 unidades.",
+    "image_url": "/uploads/products/compresa_duo_pack_friocaliente_caja_x_2.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 33.33,
+        "price": 60.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-79F5683A68D4"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:16.715552",
+    "updated_at": "2026-04-20T07:47:16.715552"
+  },
+  {
+    "_id": "cronocef_vitam_c_1_gr_caja_x_100_blist_x_10_ps_pha",
+    "name": "CRONOCEF (VITAM C 1 GR) CAJA X 100 BLIST X 10 PS PHA",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina C",
+    "descripcion": "Suplemento de vitamina C en presentación de 1 gramo, en caja con 100 blísteres de 10 pastillas cada uno, utilizado para prevenir o tratar deficiencias de vitamina C.",
+    "image_url": "/uploads/products/cronocef_vitam_c_1_gr_caja_x_100_blist_x_10_ps_pha.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.8,
+        "price": 17.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-F692D5D1DC89"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:19.399324",
+    "updated_at": "2026-04-20T07:47:19.399324"
+  },
+  {
+    "_id": "dezzzcansar_50_mg_bister_x_10_caja_100",
+    "name": "DEZZZCANSAR 50 MG BISTER X 10 CAJA 100",
+    "category": "Medicamento",
+    "principio_activo": "DEZZZCANSAR",
+    "descripcion": "Producto farmacéutico en presentación de tabletas de 50 mg, empaque en blíster de 10 unidades, caja con 100 tabletas.",
+    "image_url": "/uploads/products/dezzzcansar_50_mg_bister_x_10_caja_100.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.8,
+        "price": 3.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-405EB10029D8"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:22.517413",
+    "updated_at": "2026-04-20T07:47:22.517413"
+  },
+  {
+    "_id": "dolgenal_10_mg",
+    "name": "DOLGENAL 10 MG",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Paracetamol",
+    "descripcion": "DOLGENAL 10 MG es un medicamento utilizado para aliviar el dolor leve a moderado y reducir la fiebre. Contiene paracetamol como principio activo, que actúa inhibiendo la síntesis de prostaglandinas en el sistema nervioso central.",
+    "image_url": "/uploads/products/dolgenal_10_mg.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.0,
+        "price": 15.0,
+        "profit_percent": 0.53,
+        "sku": "SKU-822DA6CEF588"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:25.774556",
+    "updated_at": "2026-04-20T07:47:25.774556"
+  },
+  {
+    "_id": "dolgenal_20_mg",
+    "name": "DOLGENAL 20 MG",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Paracetamol",
+    "descripcion": "DOLGENAL 20 MG es un medicamento utilizado para aliviar el dolor leve a moderado y reducir la fiebre. Contiene paracetamol como principio activo, que actúa inhibiendo la síntesis de prostaglandinas en el sistema nervioso central.",
+    "image_url": "/uploads/products/dolgenal_20_mg.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.0,
+        "price": 10.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-E9A91C445C03"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:29.014986",
+    "updated_at": "2026-04-20T07:47:29.014986"
+  },
+  {
+    "_id": "dolo_tetravit_blist_x_10",
+    "name": "DOLO TETRAVIT BLIST X 10",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Paracetamol, Cafeína, Ácido Acetilsalicílico, Vitamina C",
+    "descripcion": "DOLO TETRAVIT BLIST X 10 es un medicamento utilizado para aliviar el dolor leve a moderado y reducir la fiebre. Contiene una combinación de paracetamol, cafeína, ácido acetilsalicílico y vitamina C, que actúan conjuntamente para mejorar el efecto analgésico y antiinflamatorio, además de aportar un efecto estimulante y fortalecer el sistema inmunológico.",
+    "image_url": "/uploads/products/dolo_tetravit_blist_x_10.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.7,
+        "price": 4.3,
+        "profit_percent": 0.37,
+        "sku": "SKU-AEA156721828"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:32.380698",
+    "updated_at": "2026-04-20T07:47:32.380698"
+  },
+  {
+    "_id": "dolodirol_aceta_trama_cj_x_100_blist_x_5",
+    "name": "DOLODIROL (ACETA+ TRAMA) CJ X 100 BLIST X 5",
+    "category": "Analgésico y Antiinflamatorio",
+    "principio_activo": "Acetaminofén y Tramadol",
+    "descripcion": "DOLODIROL es un medicamento que combina acetaminofén y tramadol, utilizado para el alivio del dolor moderado a severo. Se presenta en caja con 100 blísteres de 5 tabletas cada uno.",
+    "image_url": "/uploads/products/dolodirol_aceta_trama_cj_x_100_blist_x_5.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.4,
+        "price": 7.0,
+        "profit_percent": 0.51,
+        "sku": "SKU-280CFF188589"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:35.729083",
+    "updated_at": "2026-04-20T07:47:35.729083"
+  },
+  {
+    "_id": "donoflat_plus_blist_x_10_caja_x_120",
+    "name": "DONOFLAT PLUS BLIST X 10 CAJA X 120",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Diclofenaco sódico y Paracetamol",
+    "descripcion": "DONOFLAT PLUS es un medicamento utilizado para aliviar el dolor y reducir la inflamación. Contiene diclofenaco sódico, un antiinflamatorio no esteroideo, y paracetamol, un analgésico y antipirético. Se presenta en blíster de 10 tabletas, con caja de 120 unidades.",
+    "image_url": "/uploads/products/donoflat_plus_blist_x_10_caja_x_120.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.46,
+        "price": 5.5,
+        "profit_percent": 0.37,
+        "sku": "SKU-24317BED5B27"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:39.098680",
+    "updated_at": "2026-04-20T07:47:39.098680"
+  },
+  {
+    "_id": "dorixina_relax_blist_x_10_tabs",
+    "name": "DORIXINA RELAX BLIST X 10 TABS",
+    "category": "Relajante muscular",
+    "principio_activo": "Clorzoxazona",
+    "descripcion": "DORIXINA RELAX es un medicamento utilizado para aliviar el dolor y la tensión muscular, facilitando la relajación de los músculos esqueléticos.",
+    "image_url": "/uploads/products/dorixina_relax_blist_x_10_tabs.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.9,
+        "price": 12.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-146C484E7931"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:41.937909",
+    "updated_at": "2026-04-20T07:47:41.937909"
+  },
+  {
+    "_id": "enterogermina_4_billones_caja__x_10",
+    "name": "ENTEROGERMINA 4 BILLONES CAJA  X 10",
+    "category": "Probiótico",
+    "principio_activo": "Bacillus clausii",
+    "descripcion": "Enterogermina es un probiótico que contiene esporas de Bacillus clausii, utilizado para restaurar la flora intestinal y tratar trastornos gastrointestinales como diarrea y disbiosis.",
+    "image_url": "/uploads/products/enterogermina_4_billones_caja__x_10.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.43,
+        "price": 30.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-C94252383956"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:45.029041",
+    "updated_at": "2026-04-20T07:47:45.029041"
+  },
+  {
+    "_id": "fenofibrato_250_mgs_blist_x_10_caps",
+    "name": "FENOFIBRATO 250 MGS BLIST X 10 CAPS",
+    "category": "Lipidérmicos",
+    "principio_activo": "Fenofibrato",
+    "descripcion": "Fenofibrato 250 mg en cápsulas, utilizado para reducir los niveles de colesterol y triglicéridos en la sangre.",
+    "image_url": "/uploads/products/fenofibrato_250_mgs_blist_x_10_caps.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 30.0,
+        "profit_percent": 0.67,
+        "sku": "SKU-D3C4448D4B12"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:47.598567",
+    "updated_at": "2026-04-20T07:47:47.598567"
+  },
+  {
+    "_id": "fibra_psllyum_plantago_400_g",
+    "name": "FIBRA PSLLYUM PLANTAGO 400 G",
+    "category": "Suplemento dietético",
+    "principio_activo": "Fibra de Psyllium (Plantago ovata)",
+    "descripcion": "Fibra dietética natural obtenida de las semillas de Plantago ovata, utilizada para mejorar el tránsito intestinal y promover la salud digestiva.",
+    "image_url": "/uploads/products/fibra_psllyum_plantago_400_g.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.0,
+        "price": 35.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-9942CC2473A8"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:50.342106",
+    "updated_at": "2026-04-20T07:47:50.342106"
+  },
+  {
+    "_id": "glucerna_400_mg_vainilla",
+    "name": "GLUCERNA 400 MG VAINILLA",
+    "category": "Suplemento nutricional para diabéticos",
+    "principio_activo": "Nutrientes específicos para el control glucémico",
+    "descripcion": "GLUCERNA 400 MG VAINILLA es un suplemento nutricional diseñado para personas con diabetes, que ayuda a controlar los niveles de glucosa en sangre, proporcionando una mezcla equilibrada de carbohidratos, proteínas, grasas, vitaminas y minerales, con sabor a vainilla.",
+    "image_url": "/uploads/products/glucerna_400_mg_vainilla.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 100.0,
+        "price": 180.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-6E940E751A95"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:53.532183",
+    "updated_at": "2026-04-20T07:47:53.532183"
+  },
+  {
+    "_id": "glucosa_lanceta_caja_x_100",
+    "name": "GLUCOSA LANCETA CAJA X 100",
+    "category": "Material de diagnóstico",
+    "principio_activo": "No aplica",
+    "descripcion": "Lancetas para punción capilar utilizadas en la medición de glucosa en sangre, presentadas en caja con 100 unidades.",
+    "image_url": "/uploads/products/glucosa_lanceta_caja_x_100.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.35,
+        "price": 1.0,
+        "profit_percent": 0.65,
+        "sku": "SKU-7AA6BCDB256C"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:56.848124",
+    "updated_at": "2026-04-20T07:47:56.848124"
+  },
+  {
+    "_id": "glucosa_tira_caja_x_50",
+    "name": "GLUCOSA TIRA CAJA X 50",
+    "category": "Suplemento energético",
+    "principio_activo": "Glucosa",
+    "descripcion": "Tira reactiva para la medición de glucosa en sangre, presentada en caja con 50 unidades.",
+    "image_url": "/uploads/products/glucosa_tira_caja_x_50.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.83,
+        "price": 5.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-AD370FAC19B6"
+      }
+    ],
+    "created_at": "2026-04-20T07:47:59.564717",
+    "updated_at": "2026-04-20T07:47:59.564717"
+  },
+  {
+    "_id": "glucosa_toallita",
+    "name": "GLUCOSA TOALLITA",
+    "category": "Suplemento energético",
+    "principio_activo": "Glucosa",
+    "descripcion": "Toallita impregnada con glucosa utilizada para proporcionar una fuente rápida de energía, especialmente en casos de hipoglucemia o fatiga.",
+    "image_url": "/uploads/products/glucosa_toallita.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.08,
+        "price": 0.25,
+        "profit_percent": 0.68,
+        "sku": "SKU-2E1001B70B04"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:03.883274",
+    "updated_at": "2026-04-20T07:48:03.883274"
+  },
+  {
+    "_id": "gripetin_dia_caja_x_120_carterita_x_4_gel_caps",
+    "name": "GRIPETIN DIA CAJA X 120 CARTERITA X 4 GEL CAPS",
+    "category": "Medicamento para el resfriado y la gripe",
+    "principio_activo": "Paracetamol, Cafeína, Clorfeniramina",
+    "descripcion": "GRIPETIN DIA es un medicamento indicado para el alivio de los síntomas del resfriado y la gripe, como fiebre, dolor de cabeza, congestión nasal y malestar general. Se presenta en gel caps, con una caja que contiene 120 cartitas de 4 gel caps cada una.",
+    "image_url": "/uploads/products/gripetin_dia_caja_x_120_carterita_x_4_gel_caps.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.99,
+        "price": 5.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-D399C1B09FEA"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:07.745570",
+    "updated_at": "2026-04-20T07:48:07.745570"
+  },
+  {
+    "_id": "gripetin_noche_caja_x_6_carterita_x_4_gel_caps",
+    "name": "GRIPETIN NOCHE CAJA X 6 CARTERITA X 4 GEL CAPS",
+    "category": "Medicamento para el resfriado y la gripe",
+    "principio_activo": "Paracetamol, Dextrometorfano, Clorfeniramina",
+    "descripcion": "GRIPETIN NOCHE es un medicamento indicado para el alivio de los síntomas del resfriado y la gripe durante la noche, como fiebre, dolor, congestión nasal y tos. Se presenta en caja con 6 carteritas, cada una con 4 gel caps.",
+    "image_url": "/uploads/products/gripetin_noche_caja_x_6_carterita_x_4_gel_caps.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.99,
+        "price": 5.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-077B02790788"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:12.010113",
+    "updated_at": "2026-04-20T07:48:12.010113"
+  },
+  {
+    "_id": "hidravida_coco",
+    "name": "HIDRAVIDA COCO",
+    "category": "Suplemento hidratante",
+    "principio_activo": "Agua de coco",
+    "descripcion": "HIDRAVIDA COCO es un suplemento hidratante natural a base de agua de coco, diseñado para reponer electrolitos y mantener la hidratación corporal.",
+    "image_url": "/uploads/products/hidravida_coco.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.32,
+        "price": 19.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-2B0A33E6444C"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:15.167272",
+    "updated_at": "2026-04-20T07:48:15.167272"
+  },
+  {
+    "_id": "hidravida_fresa",
+    "name": "HIDRAVIDA FRESA",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "HIDRAVIDA FRESA es un suplemento vitamínico con sabor a fresa diseñado para ayudar a mantener el equilibrio de líquidos y electrolitos en el cuerpo, proporcionando vitaminas y minerales esenciales para el bienestar general.",
+    "image_url": "/uploads/products/hidravida_fresa.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.25,
+        "price": 19.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-A07B38B1B68D"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:17.866299",
+    "updated_at": "2026-04-20T07:48:17.866299"
+  },
+  {
+    "_id": "hidravida_fresa_kiwi",
+    "name": "HIDRAVIDA FRESA KIWI",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "HIDRAVIDA FRESA KIWI es un suplemento vitamínico diseñado para ayudar a mantener el equilibrio de líquidos y aportar vitaminas esenciales, con sabor a fresa y kiwi.",
+    "image_url": "/uploads/products/hidravida_fresa_kiwi.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.0,
+        "price": 19.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-569ECB987881"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:21.046000",
+    "updated_at": "2026-04-20T07:48:21.046000"
+  },
+  {
+    "_id": "hidravida_jamaica",
+    "name": "HIDRAVIDA JAMAICA",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Extracto de Jamaica (Hibiscus sabdariffa)",
+    "descripcion": "HIDRAVIDA JAMAICA es un suplemento natural elaborado a base de extracto de flor de Jamaica, conocido por sus propiedades antioxidantes y diuréticas, utilizado para favorecer la hidratación y el bienestar general.",
+    "image_url": "/uploads/products/hidravida_jamaica.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.58,
+        "price": 19.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-14274A449A48"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:24.626840",
+    "updated_at": "2026-04-20T07:48:24.626840"
+  },
+  {
+    "_id": "hidravida_maracuya",
+    "name": "HIDRAVIDA MARACUYA",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Maracuyá",
+    "descripcion": "HIDRAVIDA MARACUYA es un suplemento alimenticio a base de extracto de maracuyá, utilizado para mejorar la hidratación y aportar antioxidantes naturales.",
+    "image_url": "/uploads/products/hidravida_maracuya.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.58,
+        "price": 19.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-33CE35847A4C"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:27.763906",
+    "updated_at": "2026-04-20T07:48:27.763906"
+  },
+  {
+    "_id": "hidravida_mora_azul",
+    "name": "HIDRAVIDA MORA -AZUL",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Extracto de mora azul",
+    "descripcion": "HIDRAVIDA MORA -AZUL es un suplemento alimenticio elaborado a base de extracto de mora azul, conocido por sus propiedades antioxidantes y su aporte de vitaminas y minerales que contribuyen a la salud general y al fortalecimiento del sistema inmunológico.",
+    "image_url": "/uploads/products/hidravida_mora_azul.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.44,
+        "price": 19.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-AE111B2D6DA9"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:30.486608",
+    "updated_at": "2026-04-20T07:48:30.486608"
+  },
+  {
+    "_id": "hidravida_naranjamandarina",
+    "name": "HIDRAVIDA NARANJA-MANDARINA",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "HIDRAVIDA NARANJA-MANDARINA es un suplemento vitamínico que aporta vitaminas y minerales esenciales para mantener el equilibrio nutricional y apoyar el sistema inmunológico, con sabor a naranja y mandarina.",
+    "image_url": "/uploads/products/hidravida_naranjamandarina.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.58,
+        "price": 19.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-27216E4DBFA7"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:33.477725",
+    "updated_at": "2026-04-20T07:48:33.477725"
+  },
+  {
+    "_id": "hidravida_uva",
+    "name": "HIDRAVIDA UVA",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Extracto de uva",
+    "descripcion": "HIDRAVIDA UVA es un suplemento alimenticio a base de extracto de uva, utilizado para mejorar la hidratación y aportar antioxidantes naturales que ayudan a proteger las células del daño oxidativo.",
+    "image_url": "/uploads/products/hidravida_uva.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.36,
+        "price": 19.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-32CFE160C36B"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:36.546194",
+    "updated_at": "2026-04-20T07:48:36.546194"
+  },
+  {
+    "_id": "insulina_insulex_10_ml",
+    "name": "INSULINA INSULEX 10 ML",
+    "category": "Antidiabéticos",
+    "principio_activo": "Insulina",
+    "descripcion": "INSULINA INSULEX 10 ML es un medicamento utilizado para el tratamiento de la diabetes mellitus, ayudando a controlar los niveles de glucosa en sangre mediante la administración de insulina.",
+    "image_url": "/uploads/products/insulina_insulex_10_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.0,
+        "price": 90.0,
+        "profit_percent": 0.61,
+        "sku": "SKU-A96FC4CB4986"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:39.378878",
+    "updated_at": "2026-04-20T07:48:39.378878"
+  },
+  {
+    "_id": "insulina_lantus_x_10_ml",
+    "name": "INSULINA LANTUS X 10 ML",
+    "category": "Antidiabéticos",
+    "principio_activo": "Insulina glargina",
+    "descripcion": "Insulina de acción prolongada utilizada para el control de la glucemia en pacientes con diabetes mellitus.",
+    "image_url": "/uploads/products/insulina_lantus_x_10_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 75.0,
+        "price": 150.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-A8357AD2011B"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:44.379990",
+    "updated_at": "2026-04-20T07:48:44.379990"
+  },
+  {
+    "_id": "insulina_semgle_10_ml",
+    "name": "INSULINA SEMGLE 10 ML",
+    "category": "Antidiabéticos",
+    "principio_activo": "Insulina",
+    "descripcion": "Insulina Semgle es un medicamento utilizado para el control de la glucosa en sangre en pacientes con diabetes mellitus. Se administra por vía subcutánea para ayudar a regular los niveles de azúcar en sangre.",
+    "image_url": "/uploads/products/insulina_semgle_10_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.0,
+        "price": 90.0,
+        "profit_percent": 0.56,
+        "sku": "SKU-6C3376794F89"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:53.090283",
+    "updated_at": "2026-04-20T07:48:53.090283"
+  },
+  {
+    "_id": "jeringa_insulina_1_cc_30x_12_caja_x_100",
+    "name": "JERINGA INSULINA 1 CC 30X 1/2 CAJA X 100",
+    "category": "Material de inyección",
+    "principio_activo": "N/A",
+    "descripcion": "Jeringa para insulina de 1 cc con aguja 30G de 1/2 pulgada, caja con 100 unidades.",
+    "image_url": "/uploads/products/jeringa_insulina_1_cc_30x_12_caja_x_100.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.3,
+        "price": 1.0,
+        "profit_percent": 0.7,
+        "sku": "SKU-B593CC1C2F26"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:56.337069",
+    "updated_at": "2026-04-20T07:48:56.337069"
+  },
+  {
+    "_id": "kisat_caja_x_30_tabs_blist_x_15",
+    "name": "KISAT CAJA X 30 TABS BLIST X 15",
+    "category": "Medicamento",
+    "principio_activo": "Calcio",
+    "descripcion": "KISAT es un suplemento de calcio presentado en caja con 30 tabletas, en blíster de 15 unidades cada uno, utilizado para prevenir y tratar deficiencias de calcio en el organismo.",
+    "image_url": "/uploads/products/kisat_caja_x_30_tabs_blist_x_15.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.15,
+        "price": 3.5,
+        "profit_percent": 0.39,
+        "sku": "SKU-6FE2CDCB2507"
+      }
+    ],
+    "created_at": "2026-04-20T07:48:58.977019",
+    "updated_at": "2026-04-20T07:48:58.977019"
+  },
+  {
+    "_id": "kolit_blister_x_5_tab",
+    "name": "KOLIT BLISTER X 5 TAB",
+    "category": "Antidiarreico",
+    "principio_activo": "Loperamida",
+    "descripcion": "KOLIT BLISTER X 5 TAB es un medicamento utilizado para el tratamiento sintomático de la diarrea aguda y crónica, ayudando a reducir la frecuencia de las deposiciones y mejorar la consistencia de las heces.",
+    "image_url": "/uploads/products/kolit_blister_x_5_tab.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.8,
+        "price": 3.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-2F9AF75E05D0"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:02.802445",
+    "updated_at": "2026-04-20T07:49:02.802445"
+  },
+  {
+    "_id": "lagri_fresh_ungüento_10_grs",
+    "name": "LAGRI FRESH UNGÜENTO 10 GRS",
+    "category": "Ungüento",
+    "principio_activo": "No especificado",
+    "descripcion": "LAGRI FRESH UNGÜENTO 10 GRS es un producto farmacéutico en forma de ungüento, generalmente utilizado para el alivio tópico de molestias en la piel. La composición específica y el principio activo no están detallados en el nombre del producto.",
+    "image_url": "/uploads/products/lagri_fresh_ungüento_10_grs.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 32.0,
+        "profit_percent": 0.69,
+        "sku": "SKU-A355B8948188"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:05.937039",
+    "updated_at": "2026-04-20T07:49:05.937039"
+  },
+  {
+    "_id": "levonorgestreletinilestradiol_caja_x_21microgynon",
+    "name": "LEVONORGESTREL+ETINILESTRADIOL CAJA X 21(MICROGYNON)",
+    "category": "Anticonceptivos hormonales combinados",
+    "principio_activo": "Levonorgestrel y Etinilestradiol",
+    "descripcion": "Microgynon es un anticonceptivo oral combinado que contiene levonorgestrel y etinilestradiol, utilizado para prevenir el embarazo mediante la inhibición de la ovulación y otros mecanismos hormonales.",
+    "image_url": "/uploads/products/levonorgestreletinilestradiol_caja_x_21microgynon.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.41,
+        "price": 60.0,
+        "profit_percent": 0.69,
+        "sku": "SKU-30CDCC586744"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:09.085136",
+    "updated_at": "2026-04-20T07:49:09.085136"
+  },
+  {
+    "_id": "levotiroxina_100mup_caja_x_100_blist_x_20_el_ahoro",
+    "name": "LEVOTIROXINA 100MUP CAJA X 100 BLIST X 20 EL AHORO",
+    "category": "Hormonas y Modificadores del Sistema Endocrino",
+    "principio_activo": "Levotiroxina",
+    "descripcion": "Caja con 100 tabletas en blíster de 20 unidades, cada tableta contiene 100 microgramos de levotiroxina, utilizada para el tratamiento del hipotiroidismo.",
+    "image_url": "/uploads/products/levotiroxina_100mup_caja_x_100_blist_x_20_el_ahoro.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.51,
+        "price": 20.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-B8892524EDD2"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:12.032978",
+    "updated_at": "2026-04-20T07:49:12.032978"
+  },
+  {
+    "_id": "listerine_250_ml",
+    "name": "LISTERINE 250 ML",
+    "category": "Enjuague bucal",
+    "principio_activo": "Aceite de eucalipto, timol, mentol y salicilato de metilo",
+    "descripcion": "LISTERINE 250 ML es un enjuague bucal antiséptico que ayuda a eliminar bacterias, reducir la placa dental y mantener el aliento fresco.",
+    "image_url": "/uploads/products/listerine_250_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 23.0,
+        "price": 37.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-FDDC3805A014"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:15.614454",
+    "updated_at": "2026-04-20T07:49:15.614454"
+  },
+  {
+    "_id": "listerine_500_ml_menta_profunda",
+    "name": "LISTERINE 500 ML MENTA PROFUNDA",
+    "category": "Enjuague bucal",
+    "principio_activo": "Aceite de menta, eucaliptol, timol, salicilato de metilo",
+    "descripcion": "LISTERINE 500 ML MENTA PROFUNDA es un enjuague bucal antiséptico que ayuda a eliminar bacterias, refrescar el aliento y mantener una higiene bucal profunda.",
+    "image_url": "/uploads/products/listerine_500_ml_menta_profunda.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 38.0,
+        "price": 65.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-514F1A1BA127"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:18.571746",
+    "updated_at": "2026-04-20T07:49:18.571746"
+  },
+  {
+    "_id": "listerine_500_ml_menta_suave",
+    "name": "LISTERINE 500 ML MENTA SUAVE",
+    "category": "Enjuague bucal",
+    "principio_activo": "Aceite de menta y otros agentes antimicrobianos",
+    "descripcion": "LISTERINE 500 ML MENTA SUAVE es un enjuague bucal diseñado para eliminar bacterias, refrescar el aliento y mantener una higiene bucal óptima con un sabor suave a menta.",
+    "image_url": "/uploads/products/listerine_500_ml_menta_suave.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 34.0,
+        "price": 57.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-4FE148FA0E2D"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:21.534609",
+    "updated_at": "2026-04-20T07:49:21.534609"
+  },
+  {
+    "_id": "listerine_500_ml_zero_menta",
+    "name": "LISTERINE 500 ML ZERO MENTA",
+    "category": "Enjuague bucal",
+    "principio_activo": "Aceite de menta y otros agentes antimicrobianos",
+    "descripcion": "LISTERINE 500 ML ZERO MENTA es un enjuague bucal sin alcohol con sabor a menta, diseñado para eliminar bacterias, refrescar el aliento y ayudar a mantener una buena higiene bucal.",
+    "image_url": "/uploads/products/listerine_500_ml_zero_menta.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 33.0,
+        "price": 57.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-6F3793874E72"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:25.696635",
+    "updated_at": "2026-04-20T07:49:25.696635"
+  },
+  {
+    "_id": "mascarillas_kn95_caja_x_20",
+    "name": "MASCARILLAS KN95 CAJA X 20",
+    "category": "Equipos de protección personal",
+    "principio_activo": "No aplica",
+    "descripcion": "Mascarillas KN95 en caja de 20 unidades, diseñadas para filtrar partículas y proteger contra agentes contaminantes en el aire.",
+    "image_url": "/uploads/products/mascarillas_kn95_caja_x_20.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.5,
+        "price": 1.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-F13ABC37BF45"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:28.528000",
+    "updated_at": "2026-04-20T07:49:28.528000"
+  },
+  {
+    "_id": "medox_susp_240_ml",
+    "name": "MEDOX SUSP 240 ML",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina",
+    "descripcion": "MEDOX SUSP 240 ML es una suspensión oral que contiene amoxicilina, un antibiótico del grupo de las penicilinas utilizado para tratar infecciones bacterianas en diferentes partes del cuerpo.",
+    "image_url": "/uploads/products/medox_susp_240_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 41.3,
+        "price": 74.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-92AF79ACE7E7"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:31.379173",
+    "updated_at": "2026-04-20T07:49:31.379173"
+  },
+  {
+    "_id": "membrana_bio_film_unidad_10_x_10",
+    "name": "MEMBRANA BIO FILM UNIDAD 10 X 10",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Membrana biofilm de 10 x 10 cm utilizada para cubrir y proteger heridas, favoreciendo un ambiente húmedo que facilita la cicatrización.",
+    "image_url": "/uploads/products/membrana_bio_film_unidad_10_x_10.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 115.0,
+        "price": 168.0,
+        "profit_percent": 0.32,
+        "sku": "SKU-26A68B9998EA"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:34.525797",
+    "updated_at": "2026-04-20T07:49:34.525797"
+  },
+  {
+    "_id": "methycobal_500_mg_blist_x_10_tab",
+    "name": "METHYCOBAL 500 MG BLIST X 10 TAB",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Metilcobalamina",
+    "descripcion": "METHYCOBAL 500 MG es un suplemento de metilcobalamina, una forma activa de vitamina B12, utilizado para tratar deficiencias de vitamina B12 y neuropatías.",
+    "image_url": "/uploads/products/methycobal_500_mg_blist_x_10_tab.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.8,
+        "price": 7.0,
+        "profit_percent": 0.31,
+        "sku": "SKU-DAD8F5D86F8C"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:38.390917",
+    "updated_at": "2026-04-20T07:49:38.390917"
+  },
+  {
+    "_id": "micropore_nexcare_blanco_1_x_10",
+    "name": "MICROPORE NEXCARE BLANCO 1 X 10",
+    "category": "Cuidado de heridas",
+    "principio_activo": "No aplica",
+    "descripcion": "Cinta adhesiva microporosa blanca utilizada para fijar apósitos y vendajes, permitiendo la transpiración de la piel.",
+    "image_url": "/uploads/products/micropore_nexcare_blanco_1_x_10.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.6,
+        "price": 17.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-0CD5957DC972"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:40.979555",
+    "updated_at": "2026-04-20T07:49:40.979555"
+  },
+  {
+    "_id": "micropore_nexcare_blanco_12_x_10_yd",
+    "name": "MICROPORE NEXCARE BLANCO 1/2 X 10 YD",
+    "category": "Cinta adhesiva médica",
+    "principio_activo": "Ninguno",
+    "descripcion": "Cinta adhesiva microporosa blanca, transpirable y suave, ideal para fijar apósitos y vendajes sin irritar la piel. Medida: 1/2 pulgada por 10 yardas.",
+    "image_url": "/uploads/products/micropore_nexcare_blanco_12_x_10_yd.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.2,
+        "price": 15.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-DAE8C16FF1AC"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:44.067009",
+    "updated_at": "2026-04-20T07:49:44.067009"
+  },
+  {
+    "_id": "micropore_nexcare_piel_1_x_10_yds",
+    "name": "MICROPORE NEXCARE PIEL 1 X 10 YDS",
+    "category": "Cinta adhesiva médica",
+    "principio_activo": "Ninguno",
+    "descripcion": "Cinta adhesiva microporosa para uso en piel, ideal para fijar apósitos y vendajes, transpirable y suave para la piel.",
+    "image_url": "/uploads/products/micropore_nexcare_piel_1_x_10_yds.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.1,
+        "price": 17.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-35B15F01BC39"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:46.762325",
+    "updated_at": "2026-04-20T07:49:46.762325"
+  },
+  {
+    "_id": "micropore_nexcare_piel_12_x_10_yd",
+    "name": "MICROPORE NEXCARE PIEL 1/2 X 10 YD",
+    "category": "Cuidado de heridas",
+    "principio_activo": "No aplica",
+    "descripcion": "Cinta adhesiva microporosa para uso en piel, ideal para fijar apósitos y vendajes, transpirable y suave para la piel.",
+    "image_url": "/uploads/products/micropore_nexcare_piel_12_x_10_yd.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.8,
+        "price": 15.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-0DED0BCB2EC8"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:49.375130",
+    "updated_at": "2026-04-20T07:49:49.375130"
+  },
+  {
+    "_id": "microporelpiel_duo",
+    "name": "MICROPORELPIEL DUO",
+    "category": "Dermatológico",
+    "principio_activo": "Ácido glicólico y ácido salicílico",
+    "descripcion": "MICROPORELPIEL DUO es un tratamiento dermatológico que combina ácidos exfoliantes para mejorar la textura de la piel, reducir imperfecciones y promover la renovación celular.",
+    "image_url": "/uploads/products/microporelpiel_duo.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.5,
+        "price": 20.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-CE6945695FFC"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:52.194965",
+    "updated_at": "2026-04-20T07:49:52.194965"
+  },
+  {
+    "_id": "muñequera",
+    "name": "MUÑEQUERA",
+    "category": "Soporte ortopédico",
+    "principio_activo": "N/A",
+    "descripcion": "Dispositivo de soporte utilizado para estabilizar y proteger la muñeca, ayudando a reducir el dolor y prevenir lesiones durante actividades físicas o en procesos de recuperación.",
+    "image_url": "/uploads/products/muñequera.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.34,
+        "price": 10.0,
+        "profit_percent": 0.57,
+        "sku": "SKU-DD91AE4CBB80"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:55.005073",
+    "updated_at": "2026-04-20T07:49:55.005073"
+  },
+  {
+    "_id": "neurogenequimic_pregabalina_150_mg_cja_x_30_caps",
+    "name": "NEUROGENEQUIMIC (PREGABALINA 150 MG) CJA X 30 CAPS",
+    "category": "Neurológico",
+    "principio_activo": "Pregabalina",
+    "descripcion": "Medicamento utilizado para el tratamiento del dolor neuropático, epilepsia y trastornos de ansiedad generalizada.",
+    "image_url": "/uploads/products/neurogenequimic_pregabalina_150_mg_cja_x_30_caps.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.46,
+        "price": 4.5,
+        "profit_percent": 0.45,
+        "sku": "SKU-6B833C5CD2B5"
+      }
+    ],
+    "created_at": "2026-04-20T07:49:57.508476",
+    "updated_at": "2026-04-20T07:49:57.508476"
+  },
+  {
+    "_id": "pastilla_abdomen_smothing_advanced_x_30",
+    "name": "PASTILLA ABDOMEN SMOTHING ADVANCED X 30",
+    "category": "Suplemento para control de peso",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto en pastillas diseñado para ayudar a reducir la grasa abdominal y mejorar la apariencia del abdomen.",
+    "image_url": "/uploads/products/pastilla_abdomen_smothing_advanced_x_30.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 63.8,
+        "price": 110.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-64D83EF7E1B3"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:00.160604",
+    "updated_at": "2026-04-20T07:50:00.160604"
+  },
+  {
+    "_id": "pastilla_acai_berry_advanced_x_30",
+    "name": "PASTILLA ACAI BERRY ADVANCED X 30",
+    "category": "Suplemento dietético",
+    "principio_activo": "Acai Berry",
+    "descripcion": "Suplemento a base de Acai Berry, conocido por sus propiedades antioxidantes y apoyo al metabolismo, presentado en envase de 30 pastillas.",
+    "image_url": "/uploads/products/pastilla_acai_berry_advanced_x_30.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 63.8,
+        "price": 110.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-B528A1E1C2A2"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:06.613283",
+    "updated_at": "2026-04-20T07:50:06.613283"
+  },
+  {
+    "_id": "pastilla_beatiful_slim_body_advance_x_30",
+    "name": "PASTILLA BEATIFUL SLIM BODY ADVANCE X 30",
+    "category": "Suplemento para control de peso",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto en pastillas diseñado para apoyar la pérdida de peso y mejorar la figura corporal.",
+    "image_url": "/uploads/products/pastilla_beatiful_slim_body_advance_x_30.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 63.8,
+        "price": 110.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-3C212CFE37B1"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:09.291812",
+    "updated_at": "2026-04-20T07:50:09.291812"
+  },
+  {
+    "_id": "pastilla_botanical_sliming_advanced_x_30",
+    "name": "PASTILLA BOTANICAL SLIMING ADVANCED X 30",
+    "category": "Suplemento dietético",
+    "principio_activo": "Extractos botánicos para control de peso",
+    "descripcion": "Producto en pastillas que combina ingredientes naturales para apoyar la pérdida de peso y el control del apetito.",
+    "image_url": "/uploads/products/pastilla_botanical_sliming_advanced_x_30.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 63.8,
+        "price": 110.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-D36A75F4C6AA"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:11.976217",
+    "updated_at": "2026-04-20T07:50:11.976217"
+  },
+  {
+    "_id": "pastilla_burn_7_advanced__x_30",
+    "name": "PASTILLA BURN 7 ADVANCED  X 30",
+    "category": "Suplemento dietético",
+    "principio_activo": "No especificado",
+    "descripcion": "PASTILLA BURN 7 ADVANCED X 30 es un suplemento dietético diseñado para apoyar la pérdida de peso y el metabolismo, generalmente formulado con ingredientes que ayudan a quemar grasa y aumentar la energía.",
+    "image_url": "/uploads/products/pastilla_burn_7_advanced__x_30.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 63.8,
+        "price": 110.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-3AE638432A53"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:14.782830",
+    "updated_at": "2026-04-20T07:50:14.782830"
+  },
+  {
+    "_id": "pastilla_fruta_planta_x_30",
+    "name": "PASTILLA FRUTA PLANTA X 30",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Extracto de frutas y plantas",
+    "descripcion": "Producto en forma de pastillas que contiene extractos naturales de frutas y plantas, diseñado para complementar la dieta y promover el bienestar general.",
+    "image_url": "/uploads/products/pastilla_fruta_planta_x_30.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 63.8,
+        "price": 110.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-5B1A767F139D"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:17.509465",
+    "updated_at": "2026-04-20T07:50:17.509465"
+  },
+  {
+    "_id": "pastilla_lipo_pro_advanced_x_30",
+    "name": "PASTILLA LIPO PRO ADVANCED X 30",
+    "category": "Suplemento dietético",
+    "principio_activo": "No especificado",
+    "descripcion": "PASTILLA LIPO PRO ADVANCED X 30 es un suplemento dietético diseñado para apoyar la pérdida de peso y el metabolismo, generalmente formulado con ingredientes que ayudan a quemar grasa y controlar el apetito.",
+    "image_url": "/uploads/products/pastilla_lipo_pro_advanced_x_30.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 63.8,
+        "price": 110.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-3706E7EC5EFF"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:20.771340",
+    "updated_at": "2026-04-20T07:50:20.771340"
+  },
+  {
+    "_id": "pastilla_rapidly_slimming_advanced_x_30",
+    "name": "PASTILLA RAPIDLY SLIMMING ADVANCED X 30",
+    "category": "Suplemento para control de peso",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto en forma de pastillas diseñado para apoyar la pérdida de peso de manera rápida y avanzada. Contiene ingredientes que pueden ayudar a acelerar el metabolismo y reducir el apetito.",
+    "image_url": "/uploads/products/pastilla_rapidly_slimming_advanced_x_30.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 63.8,
+        "price": 110.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-0C2CF785D241"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:23.481992",
+    "updated_at": "2026-04-20T07:50:23.481992"
+  },
+  {
+    "_id": "pastilla_tomato_advanced_x_30",
+    "name": "PASTILLA TOMATO ADVANCED X 30",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Licopeno",
+    "descripcion": "Suplemento a base de extracto de tomate, rico en licopeno, antioxidante que ayuda a proteger las células del daño oxidativo y promueve la salud cardiovascular.",
+    "image_url": "/uploads/products/pastilla_tomato_advanced_x_30.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 63.8,
+        "price": 110.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-960D58C51DE7"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:26.541617",
+    "updated_at": "2026-04-20T07:50:26.541617"
+  },
+  {
+    "_id": "pedialyte_cereza_500_ml",
+    "name": "PEDIALYTE CEREZA 500 ML",
+    "category": "Solución de rehidratación oral",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "PEDIALYTE CEREZA 500 ML es una solución de rehidratación oral diseñada para prevenir y tratar la deshidratación causada por diarrea, vómitos o ejercicio intenso. Contiene electrolitos esenciales y glucosa para ayudar a reponer líquidos y minerales perdidos, con sabor a cereza para mejorar la palatabilidad.",
+    "image_url": "/uploads/products/pedialyte_cereza_500_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.04,
+        "price": 23.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-2E12C527894E"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:29.996208",
+    "updated_at": "2026-04-20T07:50:29.996208"
+  },
+  {
+    "_id": "pedialyte_coco_500_ml_30",
+    "name": "PEDIALYTE COCO 500 ML 30",
+    "category": "Solución de rehidratación oral",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "PEDIALYTE COCO es una solución de rehidratación oral que contiene electrolitos y glucosa para prevenir y tratar la deshidratación causada por diarrea, vómitos o ejercicio intenso. Presentado en envase de 500 ml con sabor a coco.",
+    "image_url": "/uploads/products/pedialyte_coco_500_ml_30.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.04,
+        "price": 23.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-87516AE63CD8"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:32.981680",
+    "updated_at": "2026-04-20T07:50:32.981680"
+  },
+  {
+    "_id": "pedialyte_fresa_500_ml__60",
+    "name": "PEDIALYTE FRESA 500 ML  60",
+    "category": "Solución de rehidratación oral",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "PEDIALYTE FRESA es una solución de rehidratación oral sabor fresa, diseñada para prevenir y tratar la deshidratación causada por diarrea, vómitos o ejercicio intenso. Contiene una mezcla equilibrada de electrolitos y glucosa para ayudar a reponer líquidos y minerales esenciales en el cuerpo.",
+    "image_url": "/uploads/products/pedialyte_fresa_500_ml__60.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.04,
+        "price": 23.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-89AD6804D733"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:36.198638",
+    "updated_at": "2026-04-20T07:50:36.198638"
+  },
+  {
+    "_id": "pedialyte_manzana_500_ml_60",
+    "name": "PEDIALYTE MANZANA 500 ML 60",
+    "category": "Solución de rehidratación oral",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "PEDIALYTE MANZANA 500 ML 60 es una solución de rehidratación oral con sabor a manzana, diseñada para prevenir y tratar la deshidratación causada por diarrea, vómitos o ejercicio intenso, proporcionando electrolitos y glucosa para reponer líquidos y minerales esenciales.",
+    "image_url": "/uploads/products/pedialyte_manzana_500_ml_60.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.04,
+        "price": 23.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-23DD38D96569"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:39.574199",
+    "updated_at": "2026-04-20T07:50:39.574199"
+  },
+  {
+    "_id": "pedialyte_uva_500_ml__60",
+    "name": "PEDIALYTE UVA 500 ML  60",
+    "category": "Solución de rehidratación oral",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "PEDIALYTE UVA es una solución de rehidratación oral diseñada para prevenir y tratar la deshidratación causada por diarrea, vómitos o ejercicio intenso. Contiene electrolitos esenciales y glucosa para ayudar a reponer líquidos y minerales perdidos.",
+    "image_url": "/uploads/products/pedialyte_uva_500_ml__60.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.04,
+        "price": 23.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-67B71FFC8B3A"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:43.093404",
+    "updated_at": "2026-04-20T07:50:43.093404"
+  },
+  {
+    "_id": "penicilina_pomada",
+    "name": "PENICILINA POMADA",
+    "category": "Antibiótico tópico",
+    "principio_activo": "Penicilina",
+    "descripcion": "Pomada utilizada para tratar infecciones bacterianas en la piel, especialmente aquellas causadas por bacterias sensibles a la penicilina.",
+    "image_url": "/uploads/products/penicilina_pomada.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.0,
+        "price": 12.0,
+        "profit_percent": 0.58,
+        "sku": "SKU-45A835E1EB72"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:46.028891",
+    "updated_at": "2026-04-20T07:50:46.028891"
+  },
+  {
+    "_id": "piojin_burbujas_carton_x_12_burbujas",
+    "name": "PIOJIN BURBUJAS CARTON X 12 BURBUJAS",
+    "category": "Antiparasitarios",
+    "principio_activo": "Permetrina",
+    "descripcion": "Producto farmacéutico en presentación de cartón con 12 burbujas, utilizado para el tratamiento de infestaciones por piojos.",
+    "image_url": "/uploads/products/piojin_burbujas_carton_x_12_burbujas.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.67,
+        "price": 5.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-32AE9F70766D"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:48.661475",
+    "updated_at": "2026-04-20T07:50:48.661475"
+  },
+  {
+    "_id": "plavix_clopidogrel_75_mg",
+    "name": "PLAVIX CLOPIDOGREL 75 MG",
+    "category": "Antiplaquetario",
+    "principio_activo": "Clopidogrel",
+    "descripcion": "PLAVIX CLOPIDOGREL 75 MG es un medicamento antiplaquetario utilizado para prevenir eventos cardiovasculares como infartos y accidentes cerebrovasculares, al inhibir la agregación plaquetaria.",
+    "image_url": "/uploads/products/plavix_clopidogrel_75_mg.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.94,
+        "price": 24.0,
+        "profit_percent": 0.59,
+        "sku": "SKU-47A3CC5B8A5E"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:51.468934",
+    "updated_at": "2026-04-20T07:50:51.468934"
+  },
+  {
+    "_id": "principal_forte_blist_x_5_caja_x_60",
+    "name": "PRINCIPAL FORTE BLIST X 5 CAJA X 60",
+    "category": "Medicamento",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico en presentación de caja con 5 blísters, cada uno con 60 unidades.",
+    "image_url": "/uploads/products/principal_forte_blist_x_5_caja_x_60.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.63,
+        "price": 21.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-950CB61A9FAF"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:54.243355",
+    "updated_at": "2026-04-20T07:50:54.243355"
+  },
+  {
+    "_id": "progestin_depot_250_kit",
+    "name": "PROGESTIN DEPOT 250 KIT",
+    "category": "Anticonceptivos hormonales",
+    "principio_activo": "Medroxiprogesterona",
+    "descripcion": "PROGESTIN DEPOT 250 KIT es un anticonceptivo hormonal inyectable de acción prolongada que contiene medroxiprogesterona, utilizado para la prevención del embarazo mediante la liberación sostenida de la hormona.",
+    "image_url": "/uploads/products/progestin_depot_250_kit.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 39.0,
+        "price": 61.0,
+        "profit_percent": 0.36,
+        "sku": "SKU-2C7E7E7A96B1"
+      }
+    ],
+    "created_at": "2026-04-20T07:50:57.281348",
+    "updated_at": "2026-04-20T07:50:57.282348"
+  },
+  {
+    "_id": "propanolol_40_mg_blister_x_20_tabs_caja_x_100_infasa",
+    "name": "PROPANOLOL 40 MG BLISTER X 20 TABS CAJA X 100 INFASA",
+    "category": "Betabloqueante",
+    "principio_activo": "Propranolol",
+    "descripcion": "Medicamento utilizado para tratar hipertensión, angina de pecho, arritmias y otras condiciones cardiovasculares. Cada tableta contiene 40 mg de propranolol.",
+    "image_url": "/uploads/products/propanolol_40_mg_blister_x_20_tabs_caja_x_100_infasa.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.05,
+        "price": 9.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-13BC6C1E210C"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:00.040314",
+    "updated_at": "2026-04-20T07:51:00.040314"
+  },
+  {
+    "_id": "prueba_de_oxigeno",
+    "name": "PRUEBA DE OXIGENO",
+    "category": "Pruebas diagnósticas",
+    "principio_activo": "N/A",
+    "descripcion": "Prueba utilizada para medir la concentración de oxígeno en la sangre o en otros tejidos, ayudando a evaluar la función respiratoria y la oxigenación del paciente.",
+    "image_url": "/uploads/products/prueba_de_oxigeno.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-A13D8A408A79"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:02.947217",
+    "updated_at": "2026-04-20T07:51:02.947217"
+  },
+  {
+    "_id": "ramipril_5_mgs_blister_x_10",
+    "name": "RAMIPRIL 5 MGS BLISTER X 10",
+    "category": "Antihipertensivo",
+    "principio_activo": "Ramipril",
+    "descripcion": "Ramipril 5 mg en presentación de blister con 10 tabletas, utilizado para el tratamiento de la hipertensión arterial y la insuficiencia cardíaca.",
+    "image_url": "/uploads/products/ramipril_5_mgs_blister_x_10.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 35.0,
+        "profit_percent": 0.71,
+        "sku": "SKU-624C751FE3A1"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:05.663044",
+    "updated_at": "2026-04-20T07:51:05.663044"
+  },
+  {
+    "_id": "rodillera",
+    "name": "RODILLERA",
+    "category": "Soporte ortopédico",
+    "principio_activo": "N/A",
+    "descripcion": "Dispositivo diseñado para brindar soporte y protección a la articulación de la rodilla, ayudando a prevenir lesiones o facilitar la recuperación de las mismas.",
+    "image_url": "/uploads/products/rodillera.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.0,
+        "price": 15.0,
+        "profit_percent": 0.53,
+        "sku": "SKU-BBCE2700A03C"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:08.557123",
+    "updated_at": "2026-04-20T07:51:08.557123"
+  },
+  {
+    "_id": "rosuvastatina_20_mg_blist_x_10_suvaatin",
+    "name": "ROSUVASTATINA 20 MG BLIST X 10 SUVAATIN)",
+    "category": "Hipolipemiante",
+    "principio_activo": "Rosuvastatina",
+    "descripcion": "Rosuvastatina 20 mg en presentación de blíster con 10 unidades, utilizada para reducir los niveles de colesterol y prevenir enfermedades cardiovasculares.",
+    "image_url": "/uploads/products/rosuvastatina_20_mg_blist_x_10_suvaatin.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.0,
+        "price": 30.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-FA656E3F3473"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:11.187351",
+    "updated_at": "2026-04-20T07:51:11.187351"
+  },
+  {
+    "_id": "silvermed_crema_1_sulfadiazina_de_plata_30_grs",
+    "name": "SILVERMED CREMA 1% (SULFADIAZINA DE PLATA) 30 GRS",
+    "category": "Antiséptico tópico",
+    "principio_activo": "Sulfadiazina de plata",
+    "descripcion": "Crema al 1% de sulfadiazina de plata utilizada para prevenir y tratar infecciones en quemaduras y heridas.",
+    "image_url": "/uploads/products/silvermed_crema_1_sulfadiazina_de_plata_30_grs.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 31.0,
+        "price": 55.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-84B3CD454701"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:13.982499",
+    "updated_at": "2026-04-20T07:51:13.982499"
+  },
+  {
+    "_id": "suerox_fresa_menta_630_ml",
+    "name": "SUEROX FRESA MENTA 630 ML",
+    "category": "Suplemento Hidratante",
+    "principio_activo": "Electrolitos (Sodio, Potasio, Cloro)",
+    "descripcion": "Solución oral para rehidratación con sabor a fresa y menta, indicada para prevenir y tratar la deshidratación causada por diarrea, vómitos o ejercicio intenso.",
+    "image_url": "/uploads/products/suerox_fresa_menta_630_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.41,
+        "price": 20.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-ED5676E18CBE"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:16.912938",
+    "updated_at": "2026-04-20T07:51:16.912938"
+  },
+  {
+    "_id": "suerox_fresakigui_diabetico_630_ml",
+    "name": "SUEROX FRESA/KIGUI DIABETICO 630 ML",
+    "category": "Suplemento nutricional para diabéticos",
+    "principio_activo": "No especificado",
+    "descripcion": "Suerox Fresa/Kigui Diabético es un suplemento nutricional diseñado para personas con diabetes, presentado en una botella de 630 ml con sabor a fresa y kigui, que ayuda a mantener un aporte adecuado de nutrientes sin afectar los niveles de glucosa.",
+    "image_url": "/uploads/products/suerox_fresakigui_diabetico_630_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.5,
+        "price": 20.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-0272987CAFF2"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:20.046271",
+    "updated_at": "2026-04-20T07:51:20.046271"
+  },
+  {
+    "_id": "suerox_frutos_rojos_630_ml",
+    "name": "SUEROX FRUTOS ROJOS 630 ML",
+    "category": "Suplemento Hidratante",
+    "principio_activo": "Sales de rehidratación oral",
+    "descripcion": "Suero oral sabor frutos rojos para rehidratación y reposición de electrolitos en casos de deshidratación.",
+    "image_url": "/uploads/products/suerox_frutos_rojos_630_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.5,
+        "price": 20.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-CC9D94A5356D"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:22.891282",
+    "updated_at": "2026-04-20T07:51:22.891282"
+  },
+  {
+    "_id": "suerox_lima_limon_630_ml",
+    "name": "SUEROX LIMA LIMON 630 ML",
+    "category": "Suplemento electrolítico",
+    "principio_activo": "Sueroterapia oral (mezcla de electrolitos y glucosa)",
+    "descripcion": "SUEROX LIMA LIMON 630 ML es una solución oral utilizada para la rehidratación y reposición de electrolitos en casos de deshidratación causada por diarrea, vómitos o ejercicio intenso. Contiene una mezcla de sales y glucosa con sabor a lima limón para facilitar su ingesta.",
+    "image_url": "/uploads/products/suerox_lima_limon_630_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.41,
+        "price": 20.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-9B1A10EB8B4F"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:26.081200",
+    "updated_at": "2026-04-20T07:51:26.081200"
+  },
+  {
+    "_id": "suerox_manzana_630_ml",
+    "name": "SUEROX MANZANA 630 ML",
+    "category": "Suero oral",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "Solución oral para rehidratación y reposición de electrolitos, sabor manzana, presentación de 630 ml.",
+    "image_url": "/uploads/products/suerox_manzana_630_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.7,
+        "price": 20.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-A659722B5A9B"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:28.626090",
+    "updated_at": "2026-04-20T07:51:28.626090"
+  },
+  {
+    "_id": "suerox_mora_azul_hierbabuena_630_ml",
+    "name": "SUEROX MORA AZUL/ HIERBABUENA 630 ML",
+    "category": "Suero oral",
+    "principio_activo": "Sales de rehidratación oral",
+    "descripcion": "Solución oral para rehidratación, sabor mora azul y hierbabuena, utilizada para prevenir y tratar la deshidratación causada por diarrea o vómitos.",
+    "image_url": "/uploads/products/suerox_mora_azul_hierbabuena_630_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.7,
+        "price": 20.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-9F3A4261CCE9"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:31.555241",
+    "updated_at": "2026-04-20T07:51:31.555241"
+  },
+  {
+    "_id": "suerox_uva_630_ml",
+    "name": "SUEROX UVA 630 ML",
+    "category": "Suplemento hidratante",
+    "principio_activo": "Solución electrolítica",
+    "descripcion": "Suero oral sabor uva para rehidratación y reposición de electrolitos en casos de deshidratación.",
+    "image_url": "/uploads/products/suerox_uva_630_ml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.5,
+        "price": 20.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-A3F95BA828DA"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:34.412343",
+    "updated_at": "2026-04-20T07:51:34.412343"
+  },
+  {
+    "_id": "tiazil_hidroamilorida_505_blist_x_10_infasa",
+    "name": "TIAZIL HIDRO/AMILORIDA 50/5 BLIST X 10 INFASA",
+    "category": "Diurético",
+    "principio_activo": "Hidroclorotiazida / Amilorida",
+    "descripcion": "Combinación de diuréticos utilizada para el tratamiento de la hipertensión arterial y edema, que actúa aumentando la eliminación de agua y sodio por los riñones.",
+    "image_url": "/uploads/products/tiazil_hidroamilorida_505_blist_x_10_infasa.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.0,
+        "price": 18.0,
+        "profit_percent": 0.78,
+        "sku": "SKU-ADE8429E8582"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:38.328144",
+    "updated_at": "2026-04-20T07:51:38.328144"
+  },
+  {
+    "_id": "tobillera",
+    "name": "TOBILLERA",
+    "category": "Soporte ortopédico",
+    "principio_activo": "N/A",
+    "descripcion": "Dispositivo ortopédico diseñado para brindar soporte y estabilidad al tobillo, ayudando a prevenir lesiones o facilitar la recuperación de esguinces y otras afecciones.",
+    "image_url": "/uploads/products/tobillera.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.0,
+        "price": 12.0,
+        "profit_percent": 0.67,
+        "sku": "SKU-10EF1F3CEF4F"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:41.127921",
+    "updated_at": "2026-04-20T07:51:41.127921"
+  },
+  {
+    "_id": "toma_de_presion",
+    "name": "TOMA DE PRESION",
+    "category": "Dispositivo médico",
+    "principio_activo": "N/A",
+    "descripcion": "Dispositivo utilizado para medir la presión arterial, ayudando a monitorear la salud cardiovascular.",
+    "image_url": "/uploads/products/toma_de_presion.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.5,
+        "price": 3.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-D415A32F1AD9"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:43.594187",
+    "updated_at": "2026-04-20T07:51:43.594187"
+  },
+  {
+    "_id": "triaxobil_s_15_fco_im_iv",
+    "name": "TRIAXOBIL S 1.5 FCO I.M /I.V.",
+    "category": "Antibiótico",
+    "principio_activo": "Ceftriaxona",
+    "descripcion": "TRIAXOBIL S 1.5 FCO I.M /I.V. es un antibiótico de la clase de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas graves mediante administración intramuscular o intravenosa.",
+    "image_url": "/uploads/products/triaxobil_s_15_fco_im_iv.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 36.25,
+        "price": 75.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-5D031E833466"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:46.668117",
+    "updated_at": "2026-04-20T07:51:46.668117"
+  },
+  {
+    "_id": "tropium_750_bromuro_de_ipatropium_750_mcgml",
+    "name": "TROPIUM -750 BROMURO DE IPATROPIUM 750 MCG/ML",
+    "category": "Broncodilatador",
+    "principio_activo": "Bromuro de Ipratropium",
+    "descripcion": "TROPIUM -750 es un medicamento que contiene bromuro de ipratropium a una concentración de 750 mcg/ml, utilizado principalmente como broncodilatador para el tratamiento de enfermedades respiratorias obstructivas como el asma y la enfermedad pulmonar obstructiva crónica (EPOC).",
+    "image_url": "/uploads/products/tropium_750_bromuro_de_ipatropium_750_mcgml.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 80.0,
+        "price": 130.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-AB719F933016"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:50.046072",
+    "updated_at": "2026-04-20T07:51:50.046072"
+  },
+  {
+    "_id": "venda_yeso_blanca_4x3y",
+    "name": "VENDA YESO BLANCA 4X3Y",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Venda de yeso blanca de tamaño 4x3 yardas, utilizada para inmovilización y soporte en fracturas y lesiones óseas.",
+    "image_url": "/uploads/products/venda_yeso_blanca_4x3y.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.68,
+        "price": 17.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-0FE485822732"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:53.102923",
+    "updated_at": "2026-04-20T07:51:53.102923"
+  },
+  {
+    "_id": "venda_yeso_blanca_6x3y",
+    "name": "VENDA YESO BLANCA 6X3Y",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Venda de yeso blanca de 6 cm de ancho por 3 yardas de largo, utilizada para inmovilización y soporte en fracturas y lesiones ortopédicas.",
+    "image_url": "/uploads/products/venda_yeso_blanca_6x3y.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.12,
+        "price": 19.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-5F7948017F1D"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:56.245132",
+    "updated_at": "2026-04-20T07:51:56.245132"
+  },
+  {
+    "_id": "vitamina_k_10_mg_b_x_4_tab",
+    "name": "VITAMINA K 10 MG B X 4 TAB",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina K",
+    "descripcion": "Vitamina K 10 mg en tabletas, presentación de 4 tabletas por caja, utilizada para prevenir y tratar deficiencias de vitamina K, esencial para la coagulación sanguínea.",
+    "image_url": "/uploads/products/vitamina_k_10_mg_b_x_4_tab.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.5,
+        "price": 6.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-023B86929D59"
+      }
+    ],
+    "created_at": "2026-04-20T07:51:59.182513",
+    "updated_at": "2026-04-20T07:51:59.182513"
+  },
+  {
+    "_id": "yes_not_prueba_de_emb_cassett",
+    "name": "YES NOT (PRUEBA DE EMB) CASSETT",
+    "category": "Prueba diagnóstica",
+    "principio_activo": "No aplica",
+    "descripcion": "YES NOT (PRUEBA DE EMB) CASSETT es un dispositivo de prueba rápida utilizado para la detección de embarazo mediante la identificación de la hormona hCG en orina.",
+    "image_url": "/uploads/products/yes_not_prueba_de_emb_cassett.jpg",
+    "supplier": "ESTUARDO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.75,
+        "price": 12.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-3B062979C248"
+      }
+    ],
+    "created_at": "2026-04-20T07:52:02.073842",
+    "updated_at": "2026-04-20T07:52:02.073842"
+  }
+]

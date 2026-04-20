@@ -1,0 +1,638 @@
+[
+  {
+    "_id": "batch-algodón_2_grs_bolsa_x_25_vesa-2026-1",
+    "product_id": "algodón_2_grs_bolsa_x_25_vesa",
+    "lot_code": "LOT-4DB2F3743A",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 0.36,
+    "location": "MOSTRADOR ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-anara_solucion_gotas_20ml-2026-2",
+    "product_id": "anara_solucion_gotas_20ml",
+    "lot_code": "LOT-2ECE338232",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 54.85,
+    "location": "ESTANTERIA 3 ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-broncodil_gotas_de_30_ml-2026-3",
+    "product_id": "broncodil_gotas_de_30_ml",
+    "lot_code": "LOT-B81A884EC9",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 43.46,
+    "location": "ESTANTERIA 3 ENTREPAÑO 2",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-broncodil_jbe_120ml-2026-4",
+    "product_id": "broncodil_jbe_120ml",
+    "lot_code": "LOT-3308C2C8B0",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 59.14,
+    "location": "ESTANTERIA 3 ENTREPAÑO 2",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-broncodil_jbe_120ml-2026-4",
+    "product_id": "broncodil_jbe_120ml",
+    "lot_code": "LOT-37EE52BA5A",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 59.14,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-chocolates_pequeños-2026-5",
+    "product_id": "chocolates_pequeños",
+    "lot_code": "LOT-97A036DBB9",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 179,
+    "cost_per_unit": 0.91,
+    "location": "MOSTRADOR ENTREPAÑO 1",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-chocolates_pequeños-2026-5",
+    "product_id": "chocolates_pequeños",
+    "lot_code": "LOT-797E486316",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 0.91,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-desodorante_gillet_gel_107_grs-2026-6",
+    "product_id": "desodorante_gillet_gel_107_grs",
+    "lot_code": "LOT-E2EDE07FA8",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 35.0,
+    "location": "VITRINA ENTREPAÑO 1",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-desodorante_gillet_gel_107_grs-2026-6",
+    "product_id": "desodorante_gillet_gel_107_grs",
+    "lot_code": "LOT-C72C19E11C",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 35.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolo_kalorub_linim_spray_425_ml-2026-7",
+    "product_id": "dolo_kalorub_linim_spray_425_ml",
+    "lot_code": "LOT-01B16E890F",
+    "expiration_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 32.31,
+    "location": "MOSTRADOR ENTREPAÑO 1",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-dolo_kalorub_linim_spray_425_ml-2026-7",
+    "product_id": "dolo_kalorub_linim_spray_425_ml",
+    "lot_code": "LOT-2E381431DA",
+    "expiration_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 32.31,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-ferridoce_jbe_240ml-2026-8",
+    "product_id": "ferridoce_jbe_240ml",
+    "lot_code": "LOT-8C1975B8DD",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 40.8,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-ferridoce_jbe_240ml-2026-8",
+    "product_id": "ferridoce_jbe_240ml",
+    "lot_code": "LOT-8C211DAEE1",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 40.8,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-hipopress_gotas_20_ml-2026-9",
+    "product_id": "hipopress_gotas_20_ml",
+    "lot_code": "LOT-35EC58368D",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 50.71,
+    "location": "ESTANTERIA 3 ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-hipopress_gotas_20_ml-2026-9",
+    "product_id": "hipopress_gotas_20_ml",
+    "lot_code": "LOT-449FE30F12",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 50.71,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-leche_de_magnesia_philips_120_ml-2026-10",
+    "product_id": "leche_de_magnesia_philips_120_ml",
+    "lot_code": "LOT-D01FA66E2C",
+    "expiration_date": {
+      "$date": "2026-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 31.0,
+    "location": "ESTANTERIA 3 ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-leche_de_magnesia_philips_120_ml-2026-10",
+    "product_id": "leche_de_magnesia_philips_120_ml",
+    "lot_code": "LOT-B86E15CB92",
+    "expiration_date": {
+      "$date": "2026-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 31.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-levusol_500_ml_cereza-2026-11",
+    "product_id": "levusol_500_ml_cereza",
+    "lot_code": "LOT-BD36A07023",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 16.5,
+    "location": "VITRINA ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-levusol_500_ml_cereza-2026-11",
+    "product_id": "levusol_500_ml_cereza",
+    "lot_code": "LOT-B05AAE2885",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 16.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-levusol_500_ml_coco-2026-12",
+    "product_id": "levusol_500_ml_coco",
+    "lot_code": "LOT-3464F340A2",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 16.5,
+    "location": "VITRINA ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-levusol_500_ml_manzana-2026-13",
+    "product_id": "levusol_500_ml_manzana",
+    "lot_code": "LOT-3C566A41CE",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 16.5,
+    "location": "VITRINA ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-levusol_500_ml_manzana-2026-13",
+    "product_id": "levusol_500_ml_manzana",
+    "lot_code": "LOT-2731D6079E",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 16.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-levusol_500_ml_piña-2026-14",
+    "product_id": "levusol_500_ml_piña",
+    "lot_code": "LOT-67BEE9623F",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 16.5,
+    "location": "VITRINA ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-levusol_500_ml_piña-2026-14",
+    "product_id": "levusol_500_ml_piña",
+    "lot_code": "LOT-1C3A078CBD",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 16.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-milorix_crema_hemorroidal_20mg-2026-15",
+    "product_id": "milorix_crema_hemorroidal_20mg",
+    "lot_code": "LOT-5869C74D8B",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 72.58,
+    "location": "GAVETERO 3 GAVETA 13",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-mommex_spray_nasal_18g18ml_140_dosis-2026-16",
+    "product_id": "mommex_spray_nasal_18g18ml_140_dosis",
+    "lot_code": "LOT-BFAF1CA6E9",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-06-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 217.64,
+    "location": "VITRINA ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-qg5_plus_bebible_caja_x_24_sachets_de_10_ml-2026-17",
+    "product_id": "qg5_plus_bebible_caja_x_24_sachets_de_10_ml",
+    "lot_code": "LOT-104067C4DB",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 15,
+    "cost_per_unit": 6.55,
+    "location": "GAVETERO 1",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-qg5_plus_bebible_caja_x_24_sachets_de_10_ml-2026-17",
+    "product_id": "qg5_plus_bebible_caja_x_24_sachets_de_10_ml",
+    "lot_code": "LOT-FA25DCA9DE",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 6.55,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-ssn_gotas-2026-18",
+    "product_id": "ssn_gotas",
+    "lot_code": "LOT-B05713FBF2",
+    "expiration_date": {
+      "$date": "2026-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 27.0,
+    "location": "VITRINA ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-ssn_spray_nasal_50_ml-2026-19",
+    "product_id": "ssn_spray_nasal_50_ml",
+    "lot_code": "LOT-624F2E9B41",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 52.2,
+    "location": "VITRINA ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-ssn_spray_nasal_50_ml-2026-19",
+    "product_id": "ssn_spray_nasal_50_ml",
+    "lot_code": "LOT-B069209831",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 52.2,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-sukrol_vigor_mujer_x_30_tabs-2026-20",
+    "product_id": "sukrol_vigor_mujer_x_30_tabs",
+    "lot_code": "LOT-BF2E16229D",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 50.4,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-toalla_humeda_pom_pom_x_80-2026-21",
+    "product_id": "toalla_humeda_pom_pom_x_80",
+    "lot_code": "LOT-3CB4E199EB",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 7.67,
+    "location": "MOSTRADOR ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-toalla_humeda_pom_pom_x_80-2026-21",
+    "product_id": "toalla_humeda_pom_pom_x_80",
+    "lot_code": "LOT-05304FFB84",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 9,
+    "cost_per_unit": 7.67,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "batch-vitaflenaco_25_mg_caja_x_30_blister_x_15-2026-22",
+    "product_id": "vitaflenaco_25_mg_caja_x_30_blister_x_15",
+    "lot_code": "LOT-EC4D4606FA",
+    "expiration_date": {
+      "$date": "2026-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 121,
+    "cost_per_unit": 1.09,
+    "location": "GAVETERO 2 GAVETA 4",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-vitaflenaco_25_mg_caja_x_30_blister_x_15-2026-22",
+    "product_id": "vitaflenaco_25_mg_caja_x_30_blister_x_15",
+    "lot_code": "LOT-4172CDB9B4",
+    "expiration_date": {
+      "$date": "2026-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 1.09,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:08:26",
+    "updated_at": {
+      "$date": "2026-04-20T08:08:26.000Z"
+    }
+  }
+]

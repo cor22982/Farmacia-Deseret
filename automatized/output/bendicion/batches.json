@@ -1,0 +1,5284 @@
+[
+  {
+    "_id": "batch-acetaminofen_mk_blist_x_10_caja_x_100-2026-1",
+    "product_id": "acetaminofen_mk_blist_x_10_caja_x_100",
+    "lot_code": "LOT-C325705413",
+    "expiration_date": {
+      "$date": "2028-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 16,
+    "cost_per_unit": 4.5,
+    "location": "GAVETERO 1 GAVETA 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-acetaminofen_mk_blist_x_10_caja_x_100-2026-1",
+    "product_id": "acetaminofen_mk_blist_x_10_caja_x_100",
+    "lot_code": "LOT-8E14DAF517",
+    "expiration_date": {
+      "$date": "2028-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 4.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-acetaminofen_mk_gotas_fco_30_ml-2026-2",
+    "product_id": "acetaminofen_mk_gotas_fco_30_ml",
+    "lot_code": "LOT-23B7853780",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 18.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-acetaminofen_mk_gotas_fco_30_ml-2026-2",
+    "product_id": "acetaminofen_mk_gotas_fco_30_ml",
+    "lot_code": "LOT-8AD2D60CF8",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "stock_units": 8,
+    "cost_per_unit": 18.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-acetaminofen_mk_jbe_niños_120_mg_x_60_ml-2026-3",
+    "product_id": "acetaminofen_mk_jbe_niños_120_mg_x_60_ml",
+    "lot_code": "LOT-60A7B001E9",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 18.3,
+    "location": "ESTANTERIA 2 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-alcohol_120_ml_vesa_55_-2026-4",
+    "product_id": "alcohol_120_ml_vesa_55_",
+    "lot_code": "LOT-C260DB1B86",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 19,
+    "cost_per_unit": 1.53,
+    "location": "ESTANTERIA 2 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-alcohol_120_ml_vesa_55_-2026-4",
+    "product_id": "alcohol_120_ml_vesa_55_",
+    "lot_code": "LOT-438A6FCF5F",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 62,
+    "cost_per_unit": 1.53,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-algodón_rollo_libra-2026-5",
+    "product_id": "algodón_rollo_libra",
+    "lot_code": "LOT-7827DE3DF6",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-05-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 23.0,
+    "location": "VITRINA ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-algodón_rollo_libra-2026-5",
+    "product_id": "algodón_rollo_libra",
+    "lot_code": "LOT-248F9D7394",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-05-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 23.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-alka__ad_caja_x_72-2026-6",
+    "product_id": "alka__ad_caja_x_72",
+    "lot_code": "LOT-63A9921467",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 46,
+    "cost_per_unit": 0.56,
+    "location": "GAVETERO 2 GAVETA 24",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-alka__ad_caja_x_72-2026-6",
+    "product_id": "alka__ad_caja_x_72",
+    "lot_code": "LOT-8558EC4267",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 0.56,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-alka_seltzer_disp_x_60-2026-7",
+    "product_id": "alka_seltzer_disp_x_60",
+    "lot_code": "LOT-657302C777",
+    "expiration_date": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 31,
+    "cost_per_unit": 0.92,
+    "location": "GAVETERO 2 GVETA 16",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-alka_seltzer_disp_x_60-2026-7",
+    "product_id": "alka_seltzer_disp_x_60",
+    "lot_code": "LOT-F13E11F0BF",
+    "expiration_date": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 0.92,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-anadent_caja__x_100_blist_x_4-2026-8",
+    "product_id": "anadent_caja__x_100_blist_x_4",
+    "lot_code": "LOT-FA2F9B4840",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-10-01T00:00:00.000Z"
+    },
+    "stock_units": 66,
+    "cost_per_unit": 1.3,
+    "location": "COLGANTE 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-antigrip_am_gelcaps__caja_x_24-2026-9",
+    "product_id": "antigrip_am_gelcaps__caja_x_24",
+    "lot_code": "LOT-D15881C51A",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 2.92,
+    "location": "SIN UBICACION",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-antigrip_pm_gelcaps__caja_x_24-2026-10",
+    "product_id": "antigrip_pm_gelcaps__caja_x_24",
+    "lot_code": "LOT-DACF995916",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 2.92,
+    "location": "SIN UBICACION",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-artri_ajo_king__x_100_tab-2026-11",
+    "product_id": "artri_ajo_king__x_100_tab",
+    "lot_code": "LOT-8CA4F5B9D5",
+    "expiration_date": {
+      "$date": "2028-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 50.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-artri_ajo_king__x_100_tab-2026-11",
+    "product_id": "artri_ajo_king__x_100_tab",
+    "lot_code": "LOT-2773DB582F",
+    "expiration_date": {
+      "$date": "2028-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 50.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-artri_king_caja_x_100_tabs-2026-12",
+    "product_id": "artri_king_caja_x_100_tabs",
+    "lot_code": "LOT-BCE1B70BE2",
+    "expiration_date": {
+      "$date": "2028-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 50.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-artri_king_caja_x_100_tabs-2026-12",
+    "product_id": "artri_king_caja_x_100_tabs",
+    "lot_code": "LOT-24FAAFFD3C",
+    "expiration_date": {
+      "$date": "2028-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 50.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-artribion_bebible_caja_x_10_fcos-2026-13",
+    "product_id": "artribion_bebible_caja_x_10_fcos",
+    "lot_code": "LOT-0F0606C910",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 20.0,
+    "location": "VITRINA ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-artribion_forte_fco_x_100_tabs-2026-14",
+    "product_id": "artribion_forte_fco_x_100_tabs",
+    "lot_code": "LOT-A6B0A8D923",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 20.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-artribion_forte_fco_x_100_tabs-2026-14",
+    "product_id": "artribion_forte_fco_x_100_tabs",
+    "lot_code": "LOT-15E0365192",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 20.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-artribion_vitaminado_blist_x_4_caja_x_20_sobres-2026-15",
+    "product_id": "artribion_vitaminado_blist_x_4_caja_x_20_sobres",
+    "lot_code": "LOT-CCBAE745E1",
+    "expiration_date": {
+      "$date": "2028-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 21,
+    "cost_per_unit": 3.25,
+    "location": "GAVETERO 2 GAVETA 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-ashwagandha_fco_x_100_vesa-2026-16",
+    "product_id": "ashwagandha_fco_x_100_vesa",
+    "lot_code": "LOT-73C73FEDD0",
+    "expiration_date": {
+      "$date": "2028-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 38.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-ashwagandha_fco_x_100_vesa-2026-16",
+    "product_id": "ashwagandha_fco_x_100_vesa",
+    "lot_code": "LOT-8B1A085E78",
+    "expiration_date": {
+      "$date": "2028-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 38.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-axtar_ceftriaxona_1g-2026-17",
+    "product_id": "axtar_ceftriaxona_1g",
+    "lot_code": "LOT-A895BF5973",
+    "expiration_date": {
+      "$date": "2026-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 30.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-azucar_leche_454_g-2026-18",
+    "product_id": "azucar_leche_454_g",
+    "lot_code": "LOT-A1194CAC06",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 2.7,
+    "location": "GAVETITA 6 GAVETA 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-azucar_leche_454_g-2026-18",
+    "product_id": "azucar_leche_454_g",
+    "lot_code": "LOT-E919355C24",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 2.7,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-bacaolina_jarabe_380_ml-2026-19",
+    "product_id": "bacaolina_jarabe_380_ml",
+    "lot_code": "LOT-BA2E876EB0",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 15.0,
+    "location": "MOSTRADOR ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-bebetina__blist_x_10_caja_x_100_tab-2026-20",
+    "product_id": "bebetina__blist_x_10_caja_x_100_tab",
+    "lot_code": "LOT-A4D44ED13A",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 124,
+    "cost_per_unit": 0.55,
+    "location": "GVETITA 8 GAVETA 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-beta_2_pan_kit_ampolla-2026-21",
+    "product_id": "beta_2_pan_kit_ampolla",
+    "lot_code": "LOT-58F9D39105",
+    "expiration_date": {
+      "$date": "2029-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 37.3,
+    "location": "ESTANTERIA 1 ENTEPAÑO 7",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-beta_2_pan_kit_ampolla-2026-21",
+    "product_id": "beta_2_pan_kit_ampolla",
+    "lot_code": "LOT-40DEBA7ACB",
+    "expiration_date": {
+      "$date": "2029-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-01-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 37.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-bismuto_x_100_u-2026-22",
+    "product_id": "bismuto_x_100_u",
+    "lot_code": "LOT-75C95182F6",
+    "expiration_date": {
+      "$date": "2029-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 104,
+    "cost_per_unit": 0.19,
+    "location": "GAVETERO 2 GAVETA 16",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-bismuto_x_100_u-2026-22",
+    "product_id": "bismuto_x_100_u",
+    "lot_code": "LOT-FD0C1BCDED",
+    "expiration_date": {
+      "$date": "2029-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 0.19,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-broncurol_jbe_120_ml-2026-23",
+    "product_id": "broncurol_jbe_120_ml",
+    "lot_code": "LOT-6A029F0B9C",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 15.3,
+    "location": "ESTANTERIA 3 ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-buscapina_compuesta_blister_x_12_caja_x_24-2026-24",
+    "product_id": "buscapina_compuesta_blister_x_12_caja_x_24",
+    "lot_code": "LOT-050D24959D",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 30,
+    "cost_per_unit": 0.43,
+    "location": "GAVETERO 1 GAVETA 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-buscapina_compuesta_blister_x_12_caja_x_24-2026-24",
+    "product_id": "buscapina_compuesta_blister_x_12_caja_x_24",
+    "lot_code": "LOT-898DFD32A3",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 0.43,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-butazolidina_blis_x_10_caja_x_100_sandoz-2026-25",
+    "product_id": "butazolidina_blis_x_10_caja_x_100_sandoz",
+    "lot_code": "LOT-AFC04AC05D",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 2.5,
+    "location": "GAVETERO 1 GAVETA 7",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-calcio__magnesio_vesa_fco_x_100_gelcaps-2026-26",
+    "product_id": "calcio__magnesio_vesa_fco_x_100_gelcaps",
+    "lot_code": "LOT-541836087E",
+    "expiration_date": {
+      "$date": "2028-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 40.3,
+    "location": "ESTANTAERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-callosol_liquido_callos_verrugas_y_mezquiinos-2026-27",
+    "product_id": "callosol_liquido_callos_verrugas_y_mezquiinos",
+    "lot_code": "LOT-2A5E6C2DA0",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 8.0,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-callosol_liquido_callos_verrugas_y_mezquiinos-2026-27",
+    "product_id": "callosol_liquido_callos_verrugas_y_mezquiinos",
+    "lot_code": "LOT-1794569A1E",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 8.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-canesten_extra-2026-28",
+    "product_id": "canesten_extra",
+    "lot_code": "LOT-359337A7E9",
+    "expiration_date": {
+      "$date": "2029-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 15.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-cardioaspirina_81_mg_x_30_tab_fco-2026-29",
+    "product_id": "cardioaspirina_81_mg_x_30_tab_fco",
+    "lot_code": "LOT-A869D82B00",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 35.3,
+    "location": "GAVETERO 3 GAVETA 13",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-cardioaspirina_81_mg_x_30_tab_fco-2026-29",
+    "product_id": "cardioaspirina_81_mg_x_30_tab_fco",
+    "lot_code": "LOT-6FF1A1A356",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 35.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-ceftriaxona_1grlidoc_kit_promegal-2026-30",
+    "product_id": "ceftriaxona_1grlidoc_kit_promegal",
+    "lot_code": "LOT-590D1EB281",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 11.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-ceftriaxona_1grlidoc_kit_promegal-2026-30",
+    "product_id": "ceftriaxona_1grlidoc_kit_promegal",
+    "lot_code": "LOT-7110CBFF52",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 11.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-centrum_hombre_caja_x_60-2026-31",
+    "product_id": "centrum_hombre_caja_x_60",
+    "lot_code": "LOT-D372BC21D9",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 30.3,
+    "location": "ESTANTERIA 4 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-centrum_kids-2026-32",
+    "product_id": "centrum_kids",
+    "lot_code": "LOT-9A67328D6A",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 30.3,
+    "location": "ESTANTERIA 4 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-centrum_kids-2026-32",
+    "product_id": "centrum_kids",
+    "lot_code": "LOT-307DFED3DE",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 30.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-centrum_mujer__caja_x_60-2026-33",
+    "product_id": "centrum_mujer__caja_x_60",
+    "lot_code": "LOT-9FB60F3A75",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 30.3,
+    "location": "ESTANTERIA 4 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-centrum_mujer__caja_x_60-2026-33",
+    "product_id": "centrum_mujer__caja_x_60",
+    "lot_code": "LOT-E123B7184A",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 30.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-centrum_silver_caja_x_60_caps-2026-34",
+    "product_id": "centrum_silver_caja_x_60_caps",
+    "lot_code": "LOT-858C080D64",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 30.3,
+    "location": "ESTANTERIA 4 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-centrum_silver_caja_x_60_caps-2026-34",
+    "product_id": "centrum_silver_caja_x_60_caps",
+    "lot_code": "LOT-583FB0EECC",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 30.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-cerebral_b12_caja_x10_amp_bebibles-2026-35",
+    "product_id": "cerebral_b12_caja_x10_amp_bebibles",
+    "lot_code": "LOT-CAEE676C1C",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 20.0,
+    "location": "SIN UBICACION",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-citrato_de_potasio_y_magnesio_caja_x_60_caps-2026-36",
+    "product_id": "citrato_de_potasio_y_magnesio_caja_x_60_caps",
+    "lot_code": "LOT-0D27941323",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 65.0,
+    "location": "ESTANTAERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-citrato_de_potasio_y_magnesio_caja_x_60_caps-2026-36",
+    "product_id": "citrato_de_potasio_y_magnesio_caja_x_60_caps",
+    "lot_code": "LOT-43F8114185",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 65.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-cobalex_10_ml__vial_vijosa_cianocobalamina-2026-37",
+    "product_id": "cobalex_10_ml__vial_vijosa_cianocobalamina",
+    "lot_code": "LOT-CF5EEA66D4",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 8.66,
+    "location": "GAVETITA 3 GAVETA 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-cobalex_10_ml__vial_vijosa_cianocobalamina-2026-37",
+    "product_id": "cobalex_10_ml__vial_vijosa_cianocobalamina",
+    "lot_code": "LOT-629FBFDC52",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 8.66,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-coderpina_10_mg_blist_x_10_tab_frysia_caja_x_20-2026-38",
+    "product_id": "coderpina_10_mg_blist_x_10_tab_frysia_caja_x_20",
+    "lot_code": "LOT-40308F0A4A",
+    "expiration_date": {
+      "$date": "2028-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 8,
+    "cost_per_unit": 1.75,
+    "location": "GAVETERO 3 GAVETA 9",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-coderpina_10_mg_blist_x_10_tab_frysia_caja_x_20-2026-38",
+    "product_id": "coderpina_10_mg_blist_x_10_tab_frysia_caja_x_20",
+    "lot_code": "LOT-F06ED36A4A",
+    "expiration_date": {
+      "$date": "2028-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 1.75,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-colagenoacido_hialuronico_vesa_fco_x_100_gelcaps-2026-39",
+    "product_id": "colagenoacido_hialuronico_vesa_fco_x_100_gelcaps",
+    "lot_code": "LOT-CD936CC5A7",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 37.0,
+    "location": "ESTANTERAI 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-colagenoacido_hialuronico_vesa_fco_x_100_gelcaps-2026-39",
+    "product_id": "colagenoacido_hialuronico_vesa_fco_x_100_gelcaps",
+    "lot_code": "LOT-030465B4A6",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 37.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-colector_de_heces_grande-2026-40",
+    "product_id": "colector_de_heces_grande",
+    "lot_code": "LOT-9DD3E6B047",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 20,
+    "cost_per_unit": 2.0,
+    "location": "ESTANTERIA 4 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-colitran_blist_x_10_caja_x_100-2026-41",
+    "product_id": "colitran_blist_x_10_caja_x_100",
+    "lot_code": "LOT-B4C14BF22A",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 21,
+    "cost_per_unit": 1.95,
+    "location": "GAVETERO 1 GAVETA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-colitran_blist_x_10_caja_x_100-2026-41",
+    "product_id": "colitran_blist_x_10_caja_x_100",
+    "lot_code": "LOT-50D0548192",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 1.95,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-compleben_inyectado_caja_x_7-2026-42",
+    "product_id": "compleben_inyectado_caja_x_7",
+    "lot_code": "LOT-562A27D904",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 20.3,
+    "location": "ESTANTERIA 4 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-compleben_inyectado_caja_x_7-2026-42",
+    "product_id": "compleben_inyectado_caja_x_7",
+    "lot_code": "LOT-ED757C0944",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 20.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-complejo_b__vial_10_ml_bonin-2026-43",
+    "product_id": "complejo_b__vial_10_ml_bonin",
+    "lot_code": "LOT-1B35DD9464",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 5.3,
+    "location": "GAVETITA 3 GAVETA 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-complejo_b__vial_10_ml_bonin-2026-43",
+    "product_id": "complejo_b__vial_10_ml_bonin",
+    "lot_code": "LOT-B87ECA74D1",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 5.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-conmel_dipirona_caja_x_100_blister_x_4-2026-44",
+    "product_id": "conmel_dipirona_caja_x_100_blister_x_4",
+    "lot_code": "LOT-5860A9A685",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-09-01T00:00:00.000Z"
+    },
+    "stock_units": 67,
+    "cost_per_unit": 0.6,
+    "location": "SIN UBICACION",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-cranberry_x_100_vesa-2026-45",
+    "product_id": "cranberry_x_100_vesa",
+    "lot_code": "LOT-27CC56D220",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 35.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-cromatonbic_ferro_caja_x_10_amp_bebibles-2026-46",
+    "product_id": "cromatonbic_ferro_caja_x_10_amp_bebibles",
+    "lot_code": "LOT-88695FEC5D",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 85.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-cuajo_caja_x_100_blister_x_10-2026-47",
+    "product_id": "cuajo_caja_x_100_blister_x_10",
+    "lot_code": "LOT-465E9C909D",
+    "expiration_date": {
+      "$date": "2027-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 41,
+    "cost_per_unit": 1.03,
+    "location": "GAVAETERO 2 GAVETA 16",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-curitas_caja_x_100__10-2026-48",
+    "product_id": "curitas_caja_x_100__10",
+    "lot_code": "LOT-B3C93A3A58",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "stock_units": 15,
+    "cost_per_unit": 0.1,
+    "location": "MOSTRADOR ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-curitas_caja_x_100_curefast-2026-49",
+    "product_id": "curitas_caja_x_100_curefast",
+    "lot_code": "LOT-DE464A1CA3",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 10.0,
+    "location": "MOSTRADOR ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-curitas_caja_x_100_curefast-2026-49",
+    "product_id": "curitas_caja_x_100_curefast",
+    "lot_code": "LOT-6EAF9A97AC",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 10.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-cytottec_caja_x_28_tab_blist_x_14_tab_sublingual-2026-50",
+    "product_id": "cytottec_caja_x_28_tab_blist_x_14_tab_sublingual",
+    "lot_code": "LOT-53098197B9",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 0.0,
+    "location": "GAVETERO 3 GAVETA 15",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dayamineral_fco_240_ml-2026-51",
+    "product_id": "dayamineral_fco_240_ml",
+    "lot_code": "LOT-967EB82452",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 15.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-dayamineral_fco_240_ml-2026-51",
+    "product_id": "dayamineral_fco_240_ml",
+    "lot_code": "LOT-197A9B1D7B",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 15.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-deka_c_adulto_caja_x_3_ampollas-2026-52",
+    "product_id": "deka_c_adulto_caja_x_3_ampollas",
+    "lot_code": "LOT-93B587DDFC",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 15.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-deka_c_adulto_caja_x_3_ampollas-2026-52",
+    "product_id": "deka_c_adulto_caja_x_3_ampollas",
+    "lot_code": "LOT-31AEAEFC25",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 15.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-deka_c_infantil__caja_x3_ampollas-2026-53",
+    "product_id": "deka_c_infantil__caja_x3_ampollas",
+    "lot_code": "LOT-B8E68A0344",
+    "expiration_date": {
+      "$date": "2028-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 15.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-deka_c_infantil__caja_x3_ampollas-2026-53",
+    "product_id": "deka_c_infantil__caja_x3_ampollas",
+    "lot_code": "LOT-CDDB7C15D1",
+    "expiration_date": {
+      "$date": "2028-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 15.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-deka_c_jbe__adulto_240_ml-2026-54",
+    "product_id": "deka_c_jbe__adulto_240_ml",
+    "lot_code": "LOT-9EC17F810B",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 8.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-deka_c_jbe__adulto_240_ml-2026-54",
+    "product_id": "deka_c_jbe__adulto_240_ml",
+    "lot_code": "LOT-843AE10A5F",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 8.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-deka_c_jbe_niño__240_ml-2026-55",
+    "product_id": "deka_c_jbe_niño__240_ml",
+    "lot_code": "LOT-09782F74F8",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 10.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-denguinita_niños_caja_x_100_blist_x_10-2026-56",
+    "product_id": "denguinita_niños_caja_x_100_blist_x_10",
+    "lot_code": "LOT-BF75ADE0D4",
+    "expiration_date": {
+      "$date": "2026-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-07-01T00:00:00.000Z"
+    },
+    "stock_units": 112,
+    "cost_per_unit": 0.55,
+    "location": "GAVETITA 8 GAVETA 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dexketoprofenoneurotropa_kit-2026-57",
+    "product_id": "dexketoprofenoneurotropa_kit",
+    "lot_code": "LOT-4E29B77C99",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 9.3,
+    "location": "ESTANTERIA 2 ENTREPAÑO 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-dexketoprofenoneurotropa_kit-2026-57",
+    "product_id": "dexketoprofenoneurotropa_kit",
+    "lot_code": "LOT-BF42F97FE1",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 13,
+    "cost_per_unit": 9.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dibetes_fco_x_100_tabs-2026-58",
+    "product_id": "dibetes_fco_x_100_tabs",
+    "lot_code": "LOT-70C0B19A57",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 20.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-dibetes_fco_x_100_tabs-2026-58",
+    "product_id": "dibetes_fco_x_100_tabs",
+    "lot_code": "LOT-7A1D7273C1",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 20.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dicloneuro_shekinah_blis_x_10_gel_caps_caja_x_100-2026-59",
+    "product_id": "dicloneuro_shekinah_blis_x_10_gel_caps_caja_x_100",
+    "lot_code": "LOT-E9C50130D9",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 14,
+    "cost_per_unit": 5.8,
+    "location": "GAVETERO 2 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolo_neurobion__caja_x_120_blist_x_5-2026-60",
+    "product_id": "dolo_neurobion__caja_x_120_blist_x_5",
+    "lot_code": "LOT-821D77060A",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 58,
+    "cost_per_unit": 2.21,
+    "location": "GAVETERO 2 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-dolo_neurobion__caja_x_120_blist_x_5-2026-60",
+    "product_id": "dolo_neurobion__caja_x_120_blist_x_5",
+    "lot_code": "LOT-5A08947D5F",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 2.21,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolo_neurobion_forte_dc-2026-61",
+    "product_id": "dolo_neurobion_forte_dc",
+    "lot_code": "LOT-33EE0FD9FC",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 45.3,
+    "location": "ESTANTERIA 2 ENTREPAÑO 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-dolo_neurobion_forte_dc-2026-61",
+    "product_id": "dolo_neurobion_forte_dc",
+    "lot_code": "LOT-A659B091D7",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 45.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolo_neurobion_xr_blis_x_5_tab_caja_x_60-2026-62",
+    "product_id": "dolo_neurobion_xr_blis_x_5_tab_caja_x_60",
+    "lot_code": "LOT-8C7ED56F77",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 100,
+    "cost_per_unit": 2.5,
+    "location": "GAVETERO 2 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-dolo_neurobion_xr_blis_x_5_tab_caja_x_60-2026-62",
+    "product_id": "dolo_neurobion_xr_blis_x_5_tab_caja_x_60",
+    "lot_code": "LOT-3CDFC1337D",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 2.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolo_tetravit_kit-2026-63",
+    "product_id": "dolo_tetravit_kit",
+    "lot_code": "LOT-992085C435",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 9.3,
+    "location": "ESTANTERIA 2 ENTREPAÑO 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-dolo_tetravit_kit-2026-63",
+    "product_id": "dolo_tetravit_kit",
+    "lot_code": "LOT-8FA93B34F5",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 9.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolofin_disp_x_100-2026-64",
+    "product_id": "dolofin_disp_x_100",
+    "lot_code": "LOT-330EB928E9",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 58,
+    "cost_per_unit": 0.65,
+    "location": "GAVETERO 1 GAVETA 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-doloneurotropas_hiper_kit-2026-65",
+    "product_id": "doloneurotropas_hiper_kit",
+    "lot_code": "LOT-9734B5AC7F",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 9.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-doloneurotropas_hiper_kit-2026-65",
+    "product_id": "doloneurotropas_hiper_kit",
+    "lot_code": "LOT-0203910E34",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 9.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dolovitanervo_piersan__blist_x_10__caja_x__150-2026-66",
+    "product_id": "dolovitanervo_piersan__blist_x_10__caja_x__150",
+    "lot_code": "LOT-A54FF3E454",
+    "expiration_date": {
+      "$date": "2026-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 72,
+    "cost_per_unit": 0.6,
+    "location": "GAVETERO 2 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dominal_caja_x_100_sobres-2026-67",
+    "product_id": "dominal_caja_x_100_sobres",
+    "lot_code": "LOT-5BBD718916",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-07-01T00:00:00.000Z"
+    },
+    "stock_units": 48,
+    "cost_per_unit": 0.55,
+    "location": "GAVETERO 1 GAVETA 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dorival_caja_x_60_grageas_blist_x_12_tab-2026-68",
+    "product_id": "dorival_caja_x_60_grageas_blist_x_12_tab",
+    "lot_code": "LOT-F5C2E6A106",
+    "expiration_date": {
+      "$date": "2028-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 84,
+    "cost_per_unit": 0.66,
+    "location": "GAVAETERO 2 GAVETA 16",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-dulsitos_jbe_120_ml-2026-69",
+    "product_id": "dulsitos_jbe_120_ml",
+    "lot_code": "LOT-AAF6E7204E",
+    "expiration_date": {
+      "$date": "2029-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 16.3,
+    "location": "ESTANTERIA 3 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-enantyum_25_mg_caja_x_10_tabletas-2026-70",
+    "product_id": "enantyum_25_mg_caja_x_10_tabletas",
+    "lot_code": "LOT-4475723CFD",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 21,
+    "cost_per_unit": 7.5,
+    "location": "GAVETERO 1 GAVETA 8",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-enantyum_25_mg_caja_x_10_tabletas-2026-70",
+    "product_id": "enantyum_25_mg_caja_x_10_tabletas",
+    "lot_code": "LOT-2C9E4E529B",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 7.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-enterogermina_amp_2_billones_beb_5_ml_cj_x_20-2026-71",
+    "product_id": "enterogermina_amp_2_billones_beb_5_ml_cj_x_20",
+    "lot_code": "LOT-325F1FA776",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 28,
+    "cost_per_unit": 8.5,
+    "location": "GAVETITA 4 GAVETA 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-espasmofin_nf_colicos_caja_x_110_sobres-2026-72",
+    "product_id": "espasmofin_nf_colicos_caja_x_110_sobres",
+    "lot_code": "LOT-5C4F7641E4",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "stock_units": 19,
+    "cost_per_unit": 1.18,
+    "location": "GAVETERO 1 GAVETA 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-fenogreco_frasco-2026-73",
+    "product_id": "fenogreco_frasco",
+    "lot_code": "LOT-ECFA9BEC0D",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 25.0,
+    "location": "ESTANATERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-fenogreco_frasco-2026-73",
+    "product_id": "fenogreco_frasco",
+    "lot_code": "LOT-C89F24944B",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 25.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-fibra_gummy_3mg_vesa_fco_x_40_gomitas-2026-74",
+    "product_id": "fibra_gummy_3mg_vesa_fco_x_40_gomitas",
+    "lot_code": "LOT-8C1D1B1F88",
+    "expiration_date": {
+      "$date": "2028-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 35.3,
+    "location": "ESTANTAERIA 1 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-flamydol_ampolla-2026-75",
+    "product_id": "flamydol_ampolla",
+    "lot_code": "LOT-D4F03FDE08",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 3.0,
+    "location": "GAVETITA 1 GAVETA 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-flamydol_retard_caja_x_48_blist_x_4-2026-76",
+    "product_id": "flamydol_retard_caja_x_48_blist_x_4",
+    "lot_code": "LOT-30C1FACF88",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 26,
+    "cost_per_unit": 3.12,
+    "location": "GAVETERO 1 GAVETA 9",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-flamydol_retard_caja_x_48_blist_x_4-2026-76",
+    "product_id": "flamydol_retard_caja_x_48_blist_x_4",
+    "lot_code": "LOT-04C353BD3B",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 3.12,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-fludisin_ambroxol_jbe_100_ml_legsa-2026-77",
+    "product_id": "fludisin_ambroxol_jbe_100_ml_legsa",
+    "lot_code": "LOT-1DF09FFB79",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-06-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 20.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-fludisin_ambroxol_jbe_100_ml_legsa-2026-77",
+    "product_id": "fludisin_ambroxol_jbe_100_ml_legsa",
+    "lot_code": "LOT-2D78DF8485",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-06-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 20.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-gasa_por_unidad_bolsa_x_100-2026-78",
+    "product_id": "gasa_por_unidad_bolsa_x_100",
+    "lot_code": "LOT-7FA322C19D",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 71,
+    "cost_per_unit": 0.3,
+    "location": "GAVETITA 7 GAVAETA 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-gasa_por_unidad_bolsa_x_100-2026-78",
+    "product_id": "gasa_por_unidad_bolsa_x_100",
+    "lot_code": "LOT-1DF18EA8E6",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 0.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-genogastril__caja_x_2_fcos__60_caps-2026-79",
+    "product_id": "genogastril__caja_x_2_fcos__60_caps",
+    "lot_code": "LOT-EA9B9B5DB9",
+    "expiration_date": {
+      "$date": "2031-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 50.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-genogastril__caja_x_2_fcos__60_caps-2026-79",
+    "product_id": "genogastril__caja_x_2_fcos__60_caps",
+    "lot_code": "LOT-918440CB14",
+    "expiration_date": {
+      "$date": "2031-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 50.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-glicitos_l_ambroxolloratadina120_ml_selec-2026-80",
+    "product_id": "glicitos_l_ambroxolloratadina120_ml_selec",
+    "lot_code": "LOT-D664692656",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 22.3,
+    "location": "ESTANTERIA 3 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-glicitos_l_ambroxolloratadina120_ml_selec-2026-80",
+    "product_id": "glicitos_l_ambroxolloratadina120_ml_selec",
+    "lot_code": "LOT-FBEB208C48",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 22.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-graneodin_frambuesa_caja_x_24_blister_x_12-2026-81",
+    "product_id": "graneodin_frambuesa_caja_x_24_blister_x_12",
+    "lot_code": "LOT-3E4A6694FC",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 2.08,
+    "location": "GAVETERO 3 GAVETA 8",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-graneodin_miel_limon_caja_x_24_pastillas-2026-82",
+    "product_id": "graneodin_miel_limon_caja_x_24_pastillas",
+    "lot_code": "LOT-DB0B17B52F",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 2.08,
+    "location": "GAVETERO 3 GAVETA 8",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-guayacolatoeucalipto_fco_x_100_vesa-2026-83",
+    "product_id": "guayacolatoeucalipto_fco_x_100_vesa",
+    "lot_code": "LOT-FBB89133C3",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 40.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-guayacolatoeucalipto_fco_x_100_vesa-2026-83",
+    "product_id": "guayacolatoeucalipto_fco_x_100_vesa",
+    "lot_code": "LOT-FC92611EE5",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 40.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-hemobex_10_ml_higado_crudo__complejo_b-2026-84",
+    "product_id": "hemobex_10_ml_higado_crudo__complejo_b",
+    "lot_code": "LOT-D17B9E8A8D",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 9,
+    "cost_per_unit": 5.3,
+    "location": "GAVETITA 3 GAVETA 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-higavyt_5_10_ml_extrtacto_de_higado-2026-85",
+    "product_id": "higavyt_5_10_ml_extrtacto_de_higado",
+    "lot_code": "LOT-B8CDC084FA",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 5.3,
+    "location": "GAVETITA 3 GAVETA 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-ibuprofeno_forte_800_mgs_caja_x_100_blist_x_10-2026-86",
+    "product_id": "ibuprofeno_forte_800_mgs_caja_x_100_blist_x_10",
+    "lot_code": "LOT-B962842998",
+    "expiration_date": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 0.8,
+    "location": "GAVETERO 2 GAVETA 9",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-kura_kura_latita_plastica-2026-87",
+    "product_id": "kura_kura_latita_plastica",
+    "lot_code": "LOT-78423167BD",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 3.0,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-leche_de_magnesia_philips_60_ml-2026-88",
+    "product_id": "leche_de_magnesia_philips_60_ml",
+    "lot_code": "LOT-F8FEBE222B",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 12.3,
+    "location": "ESTANTERIA 3 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-levofloxacina_750mg_balaxi_caja_x_100_blist_x_10-2026-89",
+    "product_id": "levofloxacina_750mg_balaxi_caja_x_100_blist_x_10",
+    "lot_code": "LOT-C090730F29",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 12.0,
+    "location": "GAVETERA 1 GAVETA 14",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-levofloxacina_750mg_balaxi_caja_x_100_blist_x_10-2026-89",
+    "product_id": "levofloxacina_750mg_balaxi_caja_x_100_blist_x_10",
+    "lot_code": "LOT-05D228E254",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 12.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-levonorgestrel_dispensador_x_11_tab-2026-90",
+    "product_id": "levonorgestrel_dispensador_x_11_tab",
+    "lot_code": "LOT-98F668D01B",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 20.0,
+    "location": "GAVETERO3 GAVETA 15",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-limpia_colon_fco_x_100_tabs-2026-91",
+    "product_id": "limpia_colon_fco_x_100_tabs",
+    "lot_code": "LOT-9DCAA1590F",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 20.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-limpia_colon_fco_x_100_tabs-2026-91",
+    "product_id": "limpia_colon_fco_x_100_tabs",
+    "lot_code": "LOT-C496F73CDE",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 20.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-lombriniños_caja_x_40_sobres-2026-92",
+    "product_id": "lombriniños_caja_x_40_sobres",
+    "lot_code": "LOT-A11A80A9CA",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-02-01T00:00:00.000Z"
+    },
+    "stock_units": 43,
+    "cost_per_unit": 1.0,
+    "location": "ESTANTERIA 4 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-mariguanol_bote-2026-93",
+    "product_id": "mariguanol_bote",
+    "lot_code": "LOT-6C09A31699",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 7.0,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-mariguanol_bote-2026-93",
+    "product_id": "mariguanol_bote",
+    "lot_code": "LOT-343023C439",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 7.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-melatonina_5mgs_fco_x_100_bolsa_x_10_vesa-2026-94",
+    "product_id": "melatonina_5mgs_fco_x_100_bolsa_x_10_vesa",
+    "lot_code": "LOT-C86877AE46",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 3.8,
+    "location": "GAVETERO 2 GAVETA 26",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-melatonina_5mgs_fco_x_100_bolsa_x_10_vesa-2026-94",
+    "product_id": "melatonina_5mgs_fco_x_100_bolsa_x_10_vesa",
+    "lot_code": "LOT-D013C49D66",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 3.8,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-mentol_davis_muestra-2026-95",
+    "product_id": "mentol_davis_muestra",
+    "lot_code": "LOT-62B69B7141",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 1.66,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-mentol_davis_muestra-2026-95",
+    "product_id": "mentol_davis_muestra",
+    "lot_code": "LOT-A523876A14",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 12,
+    "cost_per_unit": 1.66,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-migradorixina_blist_x_10_caja_x_200-2026-96",
+    "product_id": "migradorixina_blist_x_10_caja_x_200",
+    "lot_code": "LOT-9E0CB970A5",
+    "expiration_date": {
+      "$date": "2029-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 343,
+    "cost_per_unit": 0.55,
+    "location": "GAVETERO 2 GAVETA 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-nauseol_blister_x_10_tab_bonin_caja_x_500-2026-97",
+    "product_id": "nauseol_blister_x_10_tab_bonin_caja_x_500",
+    "lot_code": "LOT-9C2A4423F2",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 46,
+    "cost_per_unit": 0.2,
+    "location": "GAVETERO 1 GAVETA 25",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-nauseol_blister_x_10_tab_bonin_caja_x_500-2026-97",
+    "product_id": "nauseol_blister_x_10_tab_bonin_caja_x_500",
+    "lot_code": "LOT-A881CDE053",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 25,
+    "cost_per_unit": 0.2,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-neobol_crema_30_grs-2026-98",
+    "product_id": "neobol_crema_30_grs",
+    "lot_code": "LOT-19393D5DE8",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 40.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-neobol_crema_30_grs-2026-98",
+    "product_id": "neobol_crema_30_grs",
+    "lot_code": "LOT-02CF9B0F78",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 40.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-neobol_spray_30_ml-2026-99",
+    "product_id": "neobol_spray_30_ml",
+    "lot_code": "LOT-CB23A14263",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 50.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-neomelubrina_ampolla_2_ml-2026-100",
+    "product_id": "neomelubrina_ampolla_2_ml",
+    "lot_code": "LOT-CAD3382AC6",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 8,
+    "cost_per_unit": 2.5,
+    "location": "GAVETITA 1 GAVETA 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-neomelubrina_ampolla_2_ml-2026-100",
+    "product_id": "neomelubrina_ampolla_2_ml",
+    "lot_code": "LOT-77367FCCE0",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 2.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-neomelubrina_caja_x_100_blist_x_4-2026-101",
+    "product_id": "neomelubrina_caja_x_100_blist_x_4",
+    "lot_code": "LOT-339C546456",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 83,
+    "cost_per_unit": 0.25,
+    "location": "GAVETERO 2 GAVETA 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-neomelubrina_caja_x_100_blist_x_4-2026-101",
+    "product_id": "neomelubrina_caja_x_100_blist_x_4",
+    "lot_code": "LOT-C58283097F",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 0.25,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-nervessa_pastillas_disp__50-2026-102",
+    "product_id": "nervessa_pastillas_disp__50",
+    "lot_code": "LOT-7DA3205795",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "stock_units": 30,
+    "cost_per_unit": 2.1,
+    "location": "GAVETERO 2 GAVETA 26",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-nervotiamin_d_sobre_x_4_tab_caja_x_100__ancalmo-2026-103",
+    "product_id": "nervotiamin_d_sobre_x_4_tab_caja_x_100__ancalmo",
+    "lot_code": "LOT-458F7904FD",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "stock_units": 15,
+    "cost_per_unit": 0.95,
+    "location": "GAVETERO 2 GAVETA 26",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-nervotiamin_d_sobre_x_4_tab_caja_x_100__ancalmo-2026-103",
+    "product_id": "nervotiamin_d_sobre_x_4_tab_caja_x_100__ancalmo",
+    "lot_code": "LOT-DB2162C051",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 0.95,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-neumonil_ampolla_1_ml-2026-104",
+    "product_id": "neumonil_ampolla_1_ml",
+    "lot_code": "LOT-AB54D1F010",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 5.0,
+    "location": "GAVETERO 3 GAVETA 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-neumonil_ampolla_1_ml-2026-104",
+    "product_id": "neumonil_ampolla_1_ml",
+    "lot_code": "LOT-0CCB216EB1",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 14,
+    "cost_per_unit": 5.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-neurobion__caja_x_120_tab_blist_x_10-2026-105",
+    "product_id": "neurobion__caja_x_120_tab_blist_x_10",
+    "lot_code": "LOT-3AD5BE9EC2",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 142,
+    "cost_per_unit": 1.25,
+    "location": "GAVETERO 2 GAVETA 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-neurobion_25000_1_dosis_camara-2026-106",
+    "product_id": "neurobion_25000_1_dosis_camara",
+    "lot_code": "LOT-6B912802F1",
+    "expiration_date": {
+      "$date": "2029-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 45.3,
+    "location": "ESTANTERIA 2 ENTREPAÑO 7",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-neurobion_25000_1_dosis_camara-2026-106",
+    "product_id": "neurobion_25000_1_dosis_camara",
+    "lot_code": "LOT-8AC59B779F",
+    "expiration_date": {
+      "$date": "2029-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 45.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-neurobion_25000_kit_inyectado__1_amp-2026-107",
+    "product_id": "neurobion_25000_kit_inyectado__1_amp",
+    "lot_code": "LOT-53C0124173",
+    "expiration_date": {
+      "$date": "2030-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 9.3,
+    "location": "ESTANTERIA 2 ENTREPAÑO 7",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-neurobion_25000_kit_inyectado__1_amp-2026-107",
+    "product_id": "neurobion_25000_kit_inyectado__1_amp",
+    "lot_code": "LOT-6B6A1B363C",
+    "expiration_date": {
+      "$date": "2030-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 9.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-neurotropas_forte_hiper_kit-2026-108",
+    "product_id": "neurotropas_forte_hiper_kit",
+    "lot_code": "LOT-477B6E79A1",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 9.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 7",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-neurotropas_forte_hiper_kit-2026-108",
+    "product_id": "neurotropas_forte_hiper_kit",
+    "lot_code": "LOT-B7F99136BD",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 9.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-next_blist_x_10_caja_x_20-2026-109",
+    "product_id": "next_blist_x_10_caja_x_20",
+    "lot_code": "LOT-DB225FF89A",
+    "expiration_date": {
+      "$date": "2029-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 34,
+    "cost_per_unit": 1.25,
+    "location": "GAVETERO 3 GAVETA 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-next_blist_x_10_caja_x_20-2026-109",
+    "product_id": "next_blist_x_10_caja_x_20",
+    "lot_code": "LOT-3C148FE791",
+    "expiration_date": {
+      "$date": "2029-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 1.25,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-nikson_caja_x_90_blist_x_10-2026-110",
+    "product_id": "nikson_caja_x_90_blist_x_10",
+    "lot_code": "LOT-BEE2D615D9",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 87,
+    "cost_per_unit": 1.39,
+    "location": "GAVETERO 3 GAVETA 13",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-nikson_caja_x_90_blist_x_10-2026-110",
+    "product_id": "nikson_caja_x_90_blist_x_10",
+    "lot_code": "LOT-7E8A1FE9E3",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 1.39,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-omega_3_1000_mg_caja_x_30_blist_x_10_foralsalud-2026-111",
+    "product_id": "omega_3_1000_mg_caja_x_30_blist_x_10_foralsalud",
+    "lot_code": "LOT-34FAF66E3D",
+    "expiration_date": {
+      "$date": "2028-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 8,
+    "cost_per_unit": 10.0,
+    "location": "GAVETERO 1 GAVETA 32",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-omega_3_1000_mg_caja_x_30_blist_x_10_foralsalud-2026-111",
+    "product_id": "omega_3_1000_mg_caja_x_30_blist_x_10_foralsalud",
+    "lot_code": "LOT-80ED374710",
+    "expiration_date": {
+      "$date": "2028-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 10.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-omega_3_6_9_1200_mg_vesa_fco_x_100_gelcaps-2026-112",
+    "product_id": "omega_3_6_9_1200_mg_vesa_fco_x_100_gelcaps",
+    "lot_code": "LOT-213F5E1B38",
+    "expiration_date": {
+      "$date": "2028-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 40.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-omega_3_6_9_1200_mg_vesa_fco_x_100_gelcaps-2026-112",
+    "product_id": "omega_3_6_9_1200_mg_vesa_fco_x_100_gelcaps",
+    "lot_code": "LOT-E8D0C87133",
+    "expiration_date": {
+      "$date": "2028-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 40.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-ovaricion_caja_x_30_tab-2026-113",
+    "product_id": "ovaricion_caja_x_30_tab",
+    "lot_code": "LOT-F1F8AF02B3",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 20.0,
+    "location": "ESTANTERIA 3 ENTREPAÑO 7",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-ovaricion_caja_x_30_tab-2026-113",
+    "product_id": "ovaricion_caja_x_30_tab",
+    "lot_code": "LOT-A0AD534FAB",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 20.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-ovaricion_jarabe_240_ml-2026-114",
+    "product_id": "ovaricion_jarabe_240_ml",
+    "lot_code": "LOT-F7CF66E0CC",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 12.0,
+    "location": "ESTANTERIA 3 ENTREPAÑO 7",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-panadol_extrafuerte_x_50_sobre-2026-115",
+    "product_id": "panadol_extrafuerte_x_50_sobre",
+    "lot_code": "LOT-64C5362E3C",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 69,
+    "cost_per_unit": 0.9,
+    "location": "GAVETERO 2 GAVETA 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-panadol_multisintomas_x_24_sobres-2026-116",
+    "product_id": "panadol_multisintomas_x_24_sobres",
+    "lot_code": "LOT-70F017C836",
+    "expiration_date": {
+      "$date": "2029-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 27,
+    "cost_per_unit": 1.53,
+    "location": "GAVETERO 3 GAVETA 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-panadol_multisintomas_x_24_sobres-2026-116",
+    "product_id": "panadol_multisintomas_x_24_sobres",
+    "lot_code": "LOT-76F3ACA703",
+    "expiration_date": {
+      "$date": "2029-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 1.53,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-panadol_sinus_x_26_sobres-2026-117",
+    "product_id": "panadol_sinus_x_26_sobres",
+    "lot_code": "LOT-71E1F5E620",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 25,
+    "cost_per_unit": 1.53,
+    "location": "GAVETERO 3 GAVETA 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-panadol_sinus_x_26_sobres-2026-117",
+    "product_id": "panadol_sinus_x_26_sobres",
+    "lot_code": "LOT-0671E7287B",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 1.53,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-panadol_ultra_x_52_sobres-2026-118",
+    "product_id": "panadol_ultra_x_52_sobres",
+    "lot_code": "LOT-1AB66B7D99",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 49,
+    "cost_per_unit": 1.41,
+    "location": "GAVETERO 2 GAVETA 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-panadol_ultra_x_52_sobres-2026-118",
+    "product_id": "panadol_ultra_x_52_sobres",
+    "lot_code": "LOT-73002126F7",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 1.41,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-paracetamol_750_mg__ecomed_caja_x_60_tab__blist_x5-2026-119",
+    "product_id": "paracetamol_750_mg__ecomed_caja_x_60_tab__blist_x5",
+    "lot_code": "LOT-2E4114E8E4",
+    "expiration_date": {
+      "$date": "2028-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 21,
+    "cost_per_unit": 4.58,
+    "location": "GAVETERO 1 GAVETA 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-pasiflora_comp_caja_x_30_blister_x_10-2026-120",
+    "product_id": "pasiflora_comp_caja_x_30_blister_x_10",
+    "lot_code": "LOT-3220C7F3C7",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 21,
+    "cost_per_unit": 1.66,
+    "location": "GAVETERO 2 GAVETA 27",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-pepto_bismol_118_ml_4_onz-2026-121",
+    "product_id": "pepto_bismol_118_ml_4_onz",
+    "lot_code": "LOT-ADDCC218FC",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 25.0,
+    "location": "ESTANTERIA 3 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-pepto_bismol_118_ml_4_onz-2026-121",
+    "product_id": "pepto_bismol_118_ml_4_onz",
+    "lot_code": "LOT-CF5ACF76DD",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 25.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-peptobismol_tira__x_24_tab-2026-122",
+    "product_id": "peptobismol_tira__x_24_tab",
+    "lot_code": "LOT-C6ABEB83F6",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 33,
+    "cost_per_unit": 1.0,
+    "location": "GAVETERO 2 GAVETA 17",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-peptobismol_tira__x_24_tab-2026-122",
+    "product_id": "peptobismol_tira__x_24_tab",
+    "lot_code": "LOT-0FCBF912C4",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 1.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-plan_b_carterita_x_2_dispensador_x_12__1-2026-123",
+    "product_id": "plan_b_carterita_x_2_dispensador_x_12__1",
+    "lot_code": "LOT-FCB4349AB1",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 15.83,
+    "location": "GAVETERO 3 GAVETA 15",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-plan_b_carterita_x_2_dispensador_x_12__1-2026-123",
+    "product_id": "plan_b_carterita_x_2_dispensador_x_12__1",
+    "lot_code": "LOT-5FCF99712A",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 12,
+    "cost_per_unit": 15.83,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-pomada_de_la_campana_19_grs-2026-124",
+    "product_id": "pomada_de_la_campana_19_grs",
+    "lot_code": "LOT-13F62A1B29",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 6.25,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-pomada_de_la_campana_19_grs-2026-124",
+    "product_id": "pomada_de_la_campana_19_grs",
+    "lot_code": "LOT-3B845CC944",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 32,
+    "cost_per_unit": 6.25,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-pomada_de_la_campana_35_grs-2026-125",
+    "product_id": "pomada_de_la_campana_35_grs",
+    "lot_code": "LOT-C83B1F22DE",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 10.5,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-pomada_de_la_campana_35_grs-2026-125",
+    "product_id": "pomada_de_la_campana_35_grs",
+    "lot_code": "LOT-9F38FF1B98",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 26,
+    "cost_per_unit": 10.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-prometest_prueba_de_embarazo-2026-126",
+    "product_id": "prometest_prueba_de_embarazo",
+    "lot_code": "LOT-4D8BF71882",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 6.0,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-prometest_prueba_de_embarazo-2026-126",
+    "product_id": "prometest_prueba_de_embarazo",
+    "lot_code": "LOT-4984A17974",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 6.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-prostalex_caja_x40-2026-127",
+    "product_id": "prostalex_caja_x40",
+    "lot_code": "LOT-63C47B2263",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 85.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-prostalex_caja_x40-2026-127",
+    "product_id": "prostalex_caja_x40",
+    "lot_code": "LOT-501222BA35",
+    "expiration_date": {
+      "$date": "2026-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 85.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-pulmo_grip_kit_balsamico-2026-128",
+    "product_id": "pulmo_grip_kit_balsamico",
+    "lot_code": "LOT-927664C885",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 9.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-qg5_duo_caja_x_2_fcos-2026-129",
+    "product_id": "qg5_duo_caja_x_2_fcos",
+    "lot_code": "LOT-AEF7422FF0",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 12.5,
+    "location": "ESTANTERIA 2 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-qg5_duo_caja_x_2_fcos-2026-129",
+    "product_id": "qg5_duo_caja_x_2_fcos",
+    "lot_code": "LOT-A86841494F",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 12.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-rabano_yodado_240_ml_dragon-2026-130",
+    "product_id": "rabano_yodado_240_ml_dragon",
+    "lot_code": "LOT-3D782541DC",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 10.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-rabano_yodado_240_ml_dragon-2026-130",
+    "product_id": "rabano_yodado_240_ml_dragon",
+    "lot_code": "LOT-125119D372",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 10.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sal_andrews_disp_x_50_sobres-2026-131",
+    "product_id": "sal_andrews_disp_x_50_sobres",
+    "lot_code": "LOT-81E8DBCA75",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 38,
+    "cost_per_unit": 1.14,
+    "location": "GAVETERO 2 GAVETA 17",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-sal_andrews_disp_x_50_sobres-2026-131",
+    "product_id": "sal_andrews_disp_x_50_sobres",
+    "lot_code": "LOT-C30936D5B6",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 1.14,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sal_de_uvas_picot_caja_x_50-2026-132",
+    "product_id": "sal_de_uvas_picot_caja_x_50",
+    "lot_code": "LOT-18FB30F06F",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 15,
+    "cost_per_unit": 0.96,
+    "location": "GAVETERO 2 GAVETA 17",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-salbutamol_promegal-2026-133",
+    "product_id": "salbutamol_promegal",
+    "lot_code": "LOT-1A866ECDE6",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 15.75,
+    "location": "ESTANTERIA 3 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-salbutamol_promegal-2026-133",
+    "product_id": "salbutamol_promegal",
+    "lot_code": "LOT-11381F03D2",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 15.75,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-saluprim_tab_caja_x_50_blist_x_5_trimetroprim-2026-134",
+    "product_id": "saluprim_tab_caja_x_50_blist_x_5_trimetroprim",
+    "lot_code": "LOT-869EB4FDE4",
+    "expiration_date": {
+      "$date": "2026-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-08-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 4.5,
+    "location": "GAVETERO 1 GAVETA 11",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sana_sana_pomada_latita_de_plastico-2026-135",
+    "product_id": "sana_sana_pomada_latita_de_plastico",
+    "lot_code": "LOT-9D617B4E71",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 3.0,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-sana_sana_pomada_latita_de_plastico-2026-135",
+    "product_id": "sana_sana_pomada_latita_de_plastico",
+    "lot_code": "LOT-7BF3F92298",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 8,
+    "cost_per_unit": 3.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sanirenal_caja_x_100_blist_x_10-2026-136",
+    "product_id": "sanirenal_caja_x_100_blist_x_10",
+    "lot_code": "LOT-496D2B60AE",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 144,
+    "cost_per_unit": 0.6,
+    "location": "GAVETERO 1 GAVETA 15",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sertal_compuesto_blis_x_10_caja_x_200-2026-137",
+    "product_id": "sertal_compuesto_blis_x_10_caja_x_200",
+    "lot_code": "LOT-8A9E9E162C",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 244,
+    "cost_per_unit": 1.9,
+    "location": "GAVETERO 1 GAVETA 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sertal_compuesto_x_3_dosis-2026-138",
+    "product_id": "sertal_compuesto_x_3_dosis",
+    "lot_code": "LOT-1999BF6D7D",
+    "expiration_date": {
+      "$date": "2027-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 10.0,
+    "location": "MOSTRADOR ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-shampoo_medicasp_130ml-2026-139",
+    "product_id": "shampoo_medicasp_130ml",
+    "lot_code": "LOT-C40B161CC7",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 0.0,
+    "location": "VITRINA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sixtynine_silden_x_100_mgs_caja_x_30_sob_y_cart_x_4-2026-140",
+    "product_id": "sixtynine_silden_x_100_mgs_caja_x_30_sob_y_cart_x_4",
+    "lot_code": "LOT-54CC900B3A",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 0.0,
+    "location": "GAVETERO 2 GAVETA 31",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-spasmo_cibalgina_blist_x_10_tab_caja_x_100-2026-141",
+    "product_id": "spasmo_cibalgina_blist_x_10_tab_caja_x_100",
+    "lot_code": "LOT-DE8721BFC1",
+    "expiration_date": {
+      "$date": "2029-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 116,
+    "cost_per_unit": 0.9,
+    "location": "GAVETERO 1 GAVETA 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-spasmo_cibalgina_blist_x_10_tab_caja_x_100-2026-141",
+    "product_id": "spasmo_cibalgina_blist_x_10_tab_caja_x_100",
+    "lot_code": "LOT-2FA11E042B",
+    "expiration_date": {
+      "$date": "2029-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 0.9,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sucradel_caja_x_30_sobres-2026-142",
+    "product_id": "sucradel_caja_x_30_sobres",
+    "lot_code": "LOT-4479285C72",
+    "expiration_date": {
+      "$date": "2029-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 15,
+    "cost_per_unit": 2.5,
+    "location": "GAVETERO 1 GAVETA 16",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-sucradel_caja_x_30_sobres-2026-142",
+    "product_id": "sucradel_caja_x_30_sobres",
+    "lot_code": "LOT-D9C518793E",
+    "expiration_date": {
+      "$date": "2029-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 2.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sudagrip_kit_ampolla-2026-143",
+    "product_id": "sudagrip_kit_ampolla",
+    "lot_code": "LOT-16B9675D68",
+    "expiration_date": {
+      "$date": "2028-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 10.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sukrol_bebible_caja_x_10_vial-2026-144",
+    "product_id": "sukrol_bebible_caja_x_10_vial",
+    "lot_code": "LOT-49B4FEA157",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 23,
+    "cost_per_unit": 2.5,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sukrol_niño_jarabe_240_ml-2026-145",
+    "product_id": "sukrol_niño_jarabe_240_ml",
+    "lot_code": "LOT-642658BE38",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 15.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-sukrol_tabletas_caja_x_100-2026-146",
+    "product_id": "sukrol_tabletas_caja_x_100",
+    "lot_code": "LOT-F0B5030E40",
+    "expiration_date": {
+      "$date": "2028-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 52.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-sukrol_tabletas_caja_x_100-2026-146",
+    "product_id": "sukrol_tabletas_caja_x_100",
+    "lot_code": "LOT-DC779182A6",
+    "expiration_date": {
+      "$date": "2028-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 52.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-tabcin_gripe_y_tos_liquid_gel_x_30-2026-147",
+    "product_id": "tabcin_gripe_y_tos_liquid_gel_x_30",
+    "lot_code": "LOT-B8F20FA621",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 30,
+    "cost_per_unit": 3.08,
+    "location": "GAVETERO 3 GAVETA 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-tabcin_gripe_y_tos_liquid_gel_x_30-2026-147",
+    "product_id": "tabcin_gripe_y_tos_liquid_gel_x_30",
+    "lot_code": "LOT-E735FDB10A",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 3.08,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-tabcin_liquid_gel_dia_x_30-2026-148",
+    "product_id": "tabcin_liquid_gel_dia_x_30",
+    "lot_code": "LOT-0817DE78C7",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 22,
+    "cost_per_unit": 3.16,
+    "location": "GAVETERO 3 GAVETA 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-tabcin_liquid_gel_dia_x_30-2026-148",
+    "product_id": "tabcin_liquid_gel_dia_x_30",
+    "lot_code": "LOT-D6E7350B50",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 3.16,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-tabcin_liquid_gel_noche_x_30-2026-149",
+    "product_id": "tabcin_liquid_gel_noche_x_30",
+    "lot_code": "LOT-E1223AED5C",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 3.14,
+    "location": "GAVETERO 3 GAVETA 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-tabcin_liquid_gel_noche_x_30-2026-149",
+    "product_id": "tabcin_liquid_gel_noche_x_30",
+    "lot_code": "LOT-253EADD09F",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 3.14,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_alcachofa_gnv_x_30_sobres-2026-150",
+    "product_id": "te_alcachofa_gnv_x_30_sobres",
+    "lot_code": "LOT-3F63546188",
+    "expiration_date": {
+      "$date": "2031-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 35.3,
+    "location": "ESTANTERIA 2 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-te_alcachofa_gnv_x_30_sobres-2026-150",
+    "product_id": "te_alcachofa_gnv_x_30_sobres",
+    "lot_code": "LOT-BBE0989B59",
+    "expiration_date": {
+      "$date": "2031-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 35.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_antigripal_caja_x_20_sobres-2026-151",
+    "product_id": "te_antigripal_caja_x_20_sobres",
+    "lot_code": "LOT-1111F582E7",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2023-10-01T00:00:00.000Z"
+    },
+    "stock_units": 16,
+    "cost_per_unit": 0.5,
+    "location": "ESTANTERIA 2 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-te_antigripal_caja_x_20_sobres-2026-151",
+    "product_id": "te_antigripal_caja_x_20_sobres",
+    "lot_code": "LOT-832B4B1C29",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2023-10-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 0.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_chupa_grasa_caja_x_30-2026-152",
+    "product_id": "te_chupa_grasa_caja_x_30",
+    "lot_code": "LOT-E4A0B0998A",
+    "expiration_date": {
+      "$date": "2030-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 35.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_chupa_panza_caja_x_30-2026-153",
+    "product_id": "te_chupa_panza_caja_x_30",
+    "lot_code": "LOT-03BBB98547",
+    "expiration_date": {
+      "$date": "2031-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 35.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_diabetes_caja_x_20_sob_vida-2026-154",
+    "product_id": "te_diabetes_caja_x_20_sob_vida",
+    "lot_code": "LOT-75B5D13FD0",
+    "expiration_date": {
+      "$date": "2026-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 38,
+    "cost_per_unit": 1.0,
+    "location": "GAVETERO 3 GAVETA 31",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_digestivo_caja_x_20_sobres-2026-155",
+    "product_id": "te_digestivo_caja_x_20_sobres",
+    "lot_code": "LOT-09B6F49C35",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 0.7,
+    "location": "GAVETERO 3 GAVETA 31",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_ginko_biloba_caja_x_20_sobres-2026-156",
+    "product_id": "te_ginko_biloba_caja_x_20_sobres",
+    "lot_code": "LOT-605B883A33",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-07-01T00:00:00.000Z"
+    },
+    "stock_units": 11,
+    "cost_per_unit": 0.75,
+    "location": "GAVETERO  GAVETA 32",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-te_ginko_biloba_caja_x_20_sobres-2026-156",
+    "product_id": "te_ginko_biloba_caja_x_20_sobres",
+    "lot_code": "LOT-3C14BD08D7",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-07-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 0.75,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_limon__jengibre_caja_x_20_sobres-2026-157",
+    "product_id": "te_limon__jengibre_caja_x_20_sobres",
+    "lot_code": "LOT-965DEF8F84",
+    "expiration_date": {
+      "$date": "2026-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-07-01T00:00:00.000Z"
+    },
+    "stock_units": 16,
+    "cost_per_unit": 0.75,
+    "location": "GAVETERO 3 GAVETA 32",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_manzanilla__tilo__caja_x_20_sobres-2026-158",
+    "product_id": "te_manzanilla__tilo__caja_x_20_sobres",
+    "lot_code": "LOT-0A4F48A593",
+    "expiration_date": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 12,
+    "cost_per_unit": 0.75,
+    "location": "GAVETERO 3 GAVETA 32",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-te_manzanilla__tilo__caja_x_20_sobres-2026-158",
+    "product_id": "te_manzanilla__tilo__caja_x_20_sobres",
+    "lot_code": "LOT-349659DCA7",
+    "expiration_date": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 0.75,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_manzanilla_caja_x_20_sobres-2026-159",
+    "product_id": "te_manzanilla_caja_x_20_sobres",
+    "lot_code": "LOT-33FC9772C4",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 22,
+    "cost_per_unit": 0.5,
+    "location": "GAVETERO 3 GAVETA 30",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_nervios_caja_x_20_sob_vida-2026-160",
+    "product_id": "te_nervios_caja_x_20_sob_vida",
+    "lot_code": "LOT-BC24362ED7",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 24,
+    "cost_per_unit": 0.6,
+    "location": "GAVETERO 3 GAVETA 31",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-te_nervios_caja_x_20_sob_vida-2026-160",
+    "product_id": "te_nervios_caja_x_20_sob_vida",
+    "lot_code": "LOT-32ED7A8171",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 0.6,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_noche_caja_x_20_sobres-2026-161",
+    "product_id": "te_noche_caja_x_20_sobres",
+    "lot_code": "LOT-42E7BD3605",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 0.5,
+    "location": "GAVETERO 3 GAVETA 30",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_pericon_caja_x_20_sobres-2026-162",
+    "product_id": "te_pericon_caja_x_20_sobres",
+    "lot_code": "LOT-4CC3B2671C",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 0.6,
+    "location": "GAVETERO 3 GAVETA 30",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_piñalin_caja_x_30_sobres-2026-163",
+    "product_id": "te_piñalin_caja_x_30_sobres",
+    "lot_code": "LOT-7A81531BD7",
+    "expiration_date": {
+      "$date": "2030-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 35.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-te_piñalin_caja_x_30_sobres-2026-163",
+    "product_id": "te_piñalin_caja_x_30_sobres",
+    "lot_code": "LOT-4F4CE24D24",
+    "expiration_date": {
+      "$date": "2030-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 35.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_presion_caja_x_20_sob_vida-2026-164",
+    "product_id": "te_presion_caja_x_20_sob_vida",
+    "lot_code": "LOT-0128682123",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 54,
+    "cost_per_unit": 0.6,
+    "location": "GAVETERO 3 GAVETA 31",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-te_presion_caja_x_20_sob_vida-2026-164",
+    "product_id": "te_presion_caja_x_20_sob_vida",
+    "lot_code": "LOT-85905FB27B",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 0.6,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_renal_caja_x_20_sobres-2026-165",
+    "product_id": "te_renal_caja_x_20_sobres",
+    "lot_code": "LOT-0A564FF9EB",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 0.6,
+    "location": "GAVETERO 3 GAVETA 32",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_tilo_caja_x_20_sobres-2026-166",
+    "product_id": "te_tilo_caja_x_20_sobres",
+    "lot_code": "LOT-A8FC3FA9BD",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 0.5,
+    "location": "GAVETERO 3 GAVETA 30",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-te_verde_piña_caja_x_20_sobres-2026-167",
+    "product_id": "te_verde_piña_caja_x_20_sobres",
+    "lot_code": "LOT-B8CF4DB052",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 0.6,
+    "location": "GAVETERO 3 GAVETA 32",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-terramicina_ungüento_5_grs-2026-168",
+    "product_id": "terramicina_ungüento_5_grs",
+    "lot_code": "LOT-61BF2319B5",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 15.0,
+    "location": "ESTANTERIA 3 ENTREPAÑO 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-tiamina_300_ancalmo_caja_x_100-2026-169",
+    "product_id": "tiamina_300_ancalmo_caja_x_100",
+    "lot_code": "LOT-17388D20ED",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 74,
+    "cost_per_unit": 0.4,
+    "location": "ESTANTERIA 4 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-tramadol_capsula__caja_x_100_blist_x_10_milan-2026-170",
+    "product_id": "tramadol_capsula__caja_x_100_blist_x_10_milan",
+    "lot_code": "LOT-F0F41CA270",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 5.5,
+    "location": "GAVETERO 2 GAVETA 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-triple_forte_dx_caja_x_3_inyec-2026-171",
+    "product_id": "triple_forte_dx_caja_x_3_inyec",
+    "lot_code": "LOT-3B4624694A",
+    "expiration_date": {
+      "$date": "2028-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 15.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 6",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-tusilexil_fco_x_120_ml-2026-172",
+    "product_id": "tusilexil_fco_x_120_ml",
+    "lot_code": "LOT-3D29A37D64",
+    "expiration_date": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 25.3,
+    "location": "ESTANTERIA 3 ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-tusilexil_fco_x_120_ml-2026-172",
+    "product_id": "tusilexil_fco_x_120_ml",
+    "lot_code": "LOT-4641EB2055",
+    "expiration_date": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 25.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-unesia_20_grs-2026-173",
+    "product_id": "unesia_20_grs",
+    "lot_code": "LOT-AEA230787A",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 30.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO  5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-unipulmin_antgripal_inyectable-2026-174",
+    "product_id": "unipulmin_antgripal_inyectable",
+    "lot_code": "LOT-CF55AA907E",
+    "expiration_date": {
+      "$date": "2028-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 9.3,
+    "location": "ESTANTERIA 2 ENTREPAÑO 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-unipulmin_antgripal_inyectable-2026-174",
+    "product_id": "unipulmin_antgripal_inyectable",
+    "lot_code": "LOT-97C3F8CC51",
+    "expiration_date": {
+      "$date": "2028-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 9.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-unipulmin_gripe_y_tos_inyectable-2026-175",
+    "product_id": "unipulmin_gripe_y_tos_inyectable",
+    "lot_code": "LOT-58846EA55E",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 9.3,
+    "location": "ESTANTERIA 2 ENTREPAÑO5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-unipulmin_gripe_y_tos_inyectable-2026-175",
+    "product_id": "unipulmin_gripe_y_tos_inyectable",
+    "lot_code": "LOT-A00460A04A",
+    "expiration_date": {
+      "$date": "2030-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 9.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-urofin_dispens_x_100-2026-176",
+    "product_id": "urofin_dispens_x_100",
+    "lot_code": "LOT-E3E0EB02CF",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 93,
+    "cost_per_unit": 1.85,
+    "location": "GAVETERO 1 GAVETA 15",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-varifin__fco_100_tabs-2026-177",
+    "product_id": "varifin__fco_100_tabs",
+    "lot_code": "LOT-B28518B036",
+    "expiration_date": {
+      "$date": "2030-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 20.3,
+    "location": "ESTANTERIA  ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-vick_vaporub_12g__caja_x_12_latitas-2026-178",
+    "product_id": "vick_vaporub_12g__caja_x_12_latitas",
+    "lot_code": "LOT-4E28ED32A9",
+    "expiration_date": {
+      "$date": "2026-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 13,
+    "cost_per_unit": 6.25,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-vick_vaporub_12g__caja_x_12_latitas-2026-178",
+    "product_id": "vick_vaporub_12g__caja_x_12_latitas",
+    "lot_code": "LOT-16E1E92F02",
+    "expiration_date": {
+      "$date": "2026-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 6.25,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-vital_fuerte_10_amp_beb_10_ml-2026-179",
+    "product_id": "vital_fuerte_10_amp_beb_10_ml",
+    "lot_code": "LOT-43F9D34FDA",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 11,
+    "cost_per_unit": 2.5,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-vital_fuerte_10_amp_beb_10_ml-2026-179",
+    "product_id": "vital_fuerte_10_amp_beb_10_ml",
+    "lot_code": "LOT-8B9C955353",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 2.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-vitalfuerte_x_100_tab-2026-180",
+    "product_id": "vitalfuerte_x_100_tab",
+    "lot_code": "LOT-A3B1A83BF0",
+    "expiration_date": {
+      "$date": "2029-11-01T00:00:00.000Z"
+    },
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 20.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-vitamina_e_1000_x_1_unidad_vesa-2026-181",
+    "product_id": "vitamina_e_1000_x_1_unidad_vesa",
+    "lot_code": "LOT-B9731794A8",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 46,
+    "cost_per_unit": 0.38,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-vitamina_e_1000_x_100_vesa-2026-182",
+    "product_id": "vitamina_e_1000_x_100_vesa",
+    "lot_code": "LOT-1F6046A9BB",
+    "expiration_date": {
+      "$date": "2028-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 38.0,
+    "location": "GAVETERO 1",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-vive_amor_16_cajas_x_3_und-2026-183",
+    "product_id": "vive_amor_16_cajas_x_3_und",
+    "lot_code": "LOT-B300420DD3",
+    "expiration_date": {
+      "$date": "2028-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2003-05-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 4.7,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-vive_amor_16_cajas_x_3_und-2026-183",
+    "product_id": "vive_amor_16_cajas_x_3_und",
+    "lot_code": "LOT-736B40B3E7",
+    "expiration_date": {
+      "$date": "2028-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2003-05-01T00:00:00.000Z"
+    },
+    "stock_units": 23,
+    "cost_per_unit": 4.7,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-vive_coor_sab_uvnar_frechoman_men-2026-184",
+    "product_id": "vive_coor_sab_uvnar_frechoman_men",
+    "lot_code": "LOT-8F0F660C57",
+    "expiration_date": {
+      "$date": "2029-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 13,
+    "cost_per_unit": 7.81,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-vive_original_16_cajas_x_3_und-2026-185",
+    "product_id": "vive_original_16_cajas_x_3_und",
+    "lot_code": "LOT-CD5C8D4C43",
+    "expiration_date": {
+      "$date": "2029-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 4.87,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-vive_original_16_cajas_x_3_und-2026-185",
+    "product_id": "vive_original_16_cajas_x_3_und",
+    "lot_code": "LOT-EC2269F430",
+    "expiration_date": {
+      "$date": "2029-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    },
+    "stock_units": 12,
+    "cost_per_unit": 4.87,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-winasorb_gotas_15_ml-2026-186",
+    "product_id": "winasorb_gotas_15_ml",
+    "lot_code": "LOT-2592B2EC06",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 15.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-winasorb_gotas_15_ml-2026-186",
+    "product_id": "winasorb_gotas_15_ml",
+    "lot_code": "LOT-26F8DEC591",
+    "expiration_date": {
+      "$date": "2028-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 15.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-winasorb_jbe_60_ml-2026-187",
+    "product_id": "winasorb_jbe_60_ml",
+    "lot_code": "LOT-55D6004F3E",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 16.0,
+    "location": "ESTANTERIA 2 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-yodoclorina_disp_x_100_caps-2026-188",
+    "product_id": "yodoclorina_disp_x_100_caps",
+    "lot_code": "LOT-0B74D601D1",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 59,
+    "cost_per_unit": 0.4,
+    "location": "GAVETERO 2 GAVETA 24",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-zarzaparrilla_fco_240_ml_higsa-2026-189",
+    "product_id": "zarzaparrilla_fco_240_ml_higsa",
+    "lot_code": "LOT-152F20FC17",
+    "expiration_date": {
+      "$date": "2026-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 10.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-zincvitamina_c_fco_x_100_vesa-2026-190",
+    "product_id": "zincvitamina_c_fco_x_100_vesa",
+    "lot_code": "LOT-36BF45768B",
+    "expiration_date": {
+      "$date": "2028-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 40.3,
+    "location": "ESTANTERIA 1 ENTREPAÑO 4",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-zincvitamina_c_fco_x_100_vesa-2026-190",
+    "product_id": "zincvitamina_c_fco_x_100_vesa",
+    "lot_code": "LOT-493561B652",
+    "expiration_date": {
+      "$date": "2028-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 40.3,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-zorritone_caramelo_barra_caja_x_16_cereza-2026-191",
+    "product_id": "zorritone_caramelo_barra_caja_x_16_cereza",
+    "lot_code": "LOT-D252A0EC8A",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 9,
+    "cost_per_unit": 2.5,
+    "location": "GAVETITA 5 GAVETA 3",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-zorritone_caramelo_barra_caja_x_16_cereza-2026-191",
+    "product_id": "zorritone_caramelo_barra_caja_x_16_cereza",
+    "lot_code": "LOT-87C4F908B7",
+    "expiration_date": {
+      "$date": "2028-04-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 2.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-zorritone_caramelo_barra_caja_x_16_miel_limon-2026-192",
+    "product_id": "zorritone_caramelo_barra_caja_x_16_miel_limon",
+    "lot_code": "LOT-C836D72590",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 2.65,
+    "location": "GAVETITA 5 GAVETA 2",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-zorritone_caramelo_barra_caja_x_16_miel_limon-2026-192",
+    "product_id": "zorritone_caramelo_barra_caja_x_16_miel_limon",
+    "lot_code": "LOT-D99CD743B4",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 2.65,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  },
+  {
+    "_id": "batch-zorritone_caramelo_barra_caja_x_16_tradicional-2026-193",
+    "product_id": "zorritone_caramelo_barra_caja_x_16_tradicional",
+    "lot_code": "LOT-35F213E23D",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 2.19,
+    "location": "GAVETITA 5 GAVETA 5",
+    "created_at": "2026-04-20T06:13:06",
+    "updated_at": {
+      "$date": "2026-04-20T06:13:06.000Z"
+    }
+  }
+]

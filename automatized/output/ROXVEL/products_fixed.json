@@ -1,0 +1,422 @@
+[
+  {
+    "_id": "esparadrapo_12",
+    "name": "ESPARADRAPO 1/2",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Esparadrapo adhesivo utilizado para fijar apósitos, vendajes y otros dispositivos médicos sobre la piel.",
+    "image_url": "/uploads/products/esparadrapo_12.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.0,
+        "price": 15.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-C8089F92BA91"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:03.945238",
+    "updated_at": "2026-04-20T08:36:03.946194"
+  },
+  {
+    "_id": "esparadrapo_de_1",
+    "name": "ESPARADRAPO DE 1",
+    "category": "Material de curación",
+    "principio_activo": "Ninguno",
+    "descripcion": "Esparadrapo adhesivo utilizado para fijar apósitos, vendajes y otros dispositivos médicos sobre la piel.",
+    "image_url": "/uploads/products/esparadrapo_de_1.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.0,
+        "price": 25.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-97C7444BCBF3"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:08.201637",
+    "updated_at": "2026-04-20T08:36:08.201637"
+  },
+  {
+    "_id": "hoja_de_bisturi_no_21",
+    "name": "HOJA DE BISTURI No 21",
+    "category": "Instrumental quirúrgico",
+    "principio_activo": "N/A",
+    "descripcion": "Hoja de bisturí número 21, utilizada para realizar incisiones en procedimientos quirúrgicos. Compatible con mangos de bisturí estándar.",
+    "image_url": "/uploads/products/hoja_de_bisturi_no_21.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.85,
+        "price": 4.0,
+        "profit_percent": 0.79,
+        "sku": "SKU-BBFC186372C0"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:10.984592",
+    "updated_at": "2026-04-20T08:36:10.984592"
+  },
+  {
+    "_id": "hoja_de_bisturi_no_22",
+    "name": "HOJA DE BISTURI No 22",
+    "category": "Instrumental quirúrgico",
+    "principio_activo": "N/A",
+    "descripcion": "Hoja de bisturí número 22, utilizada para realizar cortes precisos en procedimientos quirúrgicos. Compatible con mangos de bisturí estándar.",
+    "image_url": "/uploads/products/hoja_de_bisturi_no_22.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.85,
+        "price": 4.0,
+        "profit_percent": 0.79,
+        "sku": "SKU-BD542D3FAAC1"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:13.486133",
+    "updated_at": "2026-04-20T08:36:13.486133"
+  },
+  {
+    "_id": "hoja_de_bisturi_no_24",
+    "name": "HOJA DE BISTURI No 24",
+    "category": "Instrumental quirúrgico",
+    "principio_activo": "N/A",
+    "descripcion": "Hoja de bisturí número 24, utilizada para realizar cortes precisos en procedimientos quirúrgicos. Compatible con mangos de bisturí estándar.",
+    "image_url": "/uploads/products/hoja_de_bisturi_no_24.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.85,
+        "price": 4.0,
+        "profit_percent": 0.79,
+        "sku": "SKU-A1B90F408369"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:16.250009",
+    "updated_at": "2026-04-20T08:36:16.250009"
+  },
+  {
+    "_id": "jeringa_de_20_cc",
+    "name": "JERINGA DE 20 CC",
+    "category": "Material de curación",
+    "principio_activo": null,
+    "descripcion": "Jeringa de 20 cc utilizada para la administración o extracción de líquidos en procedimientos médicos.",
+    "image_url": "/uploads/products/jeringa_de_20_cc.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.95,
+        "price": 4.0,
+        "profit_percent": 0.51,
+        "sku": "SKU-0F6E4A0D4923"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:18.871698",
+    "updated_at": "2026-04-20T08:36:18.871698"
+  },
+  {
+    "_id": "jeringa_de_50_cc",
+    "name": "JERINGA DE 50 CC",
+    "category": "Material de laboratorio",
+    "principio_activo": null,
+    "descripcion": "Jeringa de 50 cc utilizada para la administración o extracción de líquidos en procedimientos médicos y de laboratorio.",
+    "image_url": "/uploads/products/jeringa_de_50_cc.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.65,
+        "price": 7.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-B2E8DE82F262"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:21.492342",
+    "updated_at": "2026-04-20T08:36:21.492342"
+  },
+  {
+    "_id": "ketoc_ketoconazol_ovulos__x_3_u",
+    "name": "KETOC (KETOCONAZOL OVULOS ) X 3 U",
+    "category": "Antifúngicos",
+    "principio_activo": "Ketoconazol",
+    "descripcion": "Ovulos vaginales que contienen ketoconazol, utilizados para el tratamiento de infecciones fúngicas vaginales.",
+    "image_url": "/uploads/products/ketoc_ketoconazol_ovulos__x_3_u.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 37.95,
+        "price": 65.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-715A556BDB3B"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:24.131065",
+    "updated_at": "2026-04-20T08:36:24.131065"
+  },
+  {
+    "_id": "ligadura_para_torniquete",
+    "name": "LIGADURA PARA TORNIQUETE",
+    "category": "Material de curación",
+    "principio_activo": "N/A",
+    "descripcion": "Dispositivo utilizado para comprimir temporalmente los vasos sanguíneos y detener el flujo sanguíneo durante procedimientos médicos o de emergencia.",
+    "image_url": "/uploads/products/ligadura_para_torniquete.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.95,
+        "price": 9.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-1D748ACE7C2E"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:26.588120",
+    "updated_at": "2026-04-20T08:36:26.588120"
+  },
+  {
+    "_id": "methycobal_kit_inyec",
+    "name": "METHYCOBAL KIT INYEC",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Cobalamina (Vitamina B12)",
+    "descripcion": "METHYCOBAL KIT INYEC es un medicamento que contiene cobalamina, utilizado para tratar deficiencias de vitamina B12 y condiciones relacionadas con neuropatías y anemia megaloblástica.",
+    "image_url": "/uploads/products/methycobal_kit_inyec.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.5,
+        "price": 25.0,
+        "profit_percent": 0.7,
+        "sku": "SKU-5F529E61A40C"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:29.979046",
+    "updated_at": "2026-04-20T08:36:29.979046"
+  },
+  {
+    "_id": "perilla_de_hule_saca_mocos_no_1",
+    "name": "PERILLA DE HULE (SACA MOCOS) No 1",
+    "category": "Instrumental médico",
+    "principio_activo": "Ninguno",
+    "descripcion": "Dispositivo de hule utilizado para succionar mucosidades nasales en bebés y niños pequeños, facilitando la limpieza de las vías respiratorias.",
+    "image_url": "/uploads/products/perilla_de_hule_saca_mocos_no_1.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.1,
+        "price": 16.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-44ACA066485D"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:33.549376",
+    "updated_at": "2026-04-20T08:36:33.549376"
+  },
+  {
+    "_id": "redecilla_negra",
+    "name": "REDECILLA NEGRA",
+    "category": "Accesorios para el cuidado del cabello",
+    "principio_activo": "N/A",
+    "descripcion": "Redecilla negra utilizada para sujetar y proteger el cabello, comúnmente empleada en entornos hospitalarios o de higiene para mantener el cabello recogido y evitar contaminación.",
+    "image_url": "/uploads/products/redecilla_negra.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.35,
+        "price": 2.5,
+        "profit_percent": 0.46,
+        "sku": "SKU-D47AC5D952A8"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:36.465721",
+    "updated_at": "2026-04-20T08:36:36.465721"
+  },
+  {
+    "_id": "rocefort_ceftriaxona_1_gramo",
+    "name": "ROCEFORT (CEFTRIAXONA) 1 GRAMO",
+    "category": "Antibiótico",
+    "principio_activo": "Ceftriaxona",
+    "descripcion": "ROCEFORT es un antibiótico de la clase de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas graves. La ceftriaxona actúa inhibiendo la síntesis de la pared celular bacteriana, lo que conduce a la muerte de las bacterias. Se administra generalmente por vía intramuscular o intravenosa.",
+    "image_url": "/uploads/products/rocefort_ceftriaxona_1_gramo.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.81,
+        "price": 45.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-702F3A41AE04"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:39.651800",
+    "updated_at": "2026-04-20T08:36:39.651800"
+  },
+  {
+    "_id": "sertal_gotas_20_ml",
+    "name": "SERTAL GOTAS 20 ML",
+    "category": "Medicamento para el sistema nervioso central",
+    "principio_activo": "Sertralina",
+    "descripcion": "SERTAL GOTAS 20 ML es un medicamento que contiene sertralina, un antidepresivo inhibidor selectivo de la recaptación de serotonina (ISRS) utilizado para tratar trastornos depresivos, trastornos de ansiedad y otros trastornos relacionados.",
+    "image_url": "/uploads/products/sertal_gotas_20_ml.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.0,
+        "price": 50.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-735E9BC9A941"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:42.821610",
+    "updated_at": "2026-04-20T08:36:42.821610"
+  },
+  {
+    "_id": "suero_hidravida_oral__coco_x_30",
+    "name": "SUERO HIDRAVIDA ORAL  COCO X 30",
+    "category": "Suplemento Hidratante Oral",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "Solución oral para rehidratación que ayuda a reponer líquidos y electrolitos perdidos, con sabor a coco.",
+    "image_url": "/uploads/products/suero_hidravida_oral__coco_x_30.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.33,
+        "price": 2.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-7BF9ED1006D5"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:45.795288",
+    "updated_at": "2026-04-20T08:36:45.795288"
+  },
+  {
+    "_id": "suero_hidravida_oral__fresa_x_30",
+    "name": "SUERO HIDRAVIDA ORAL  FRESA X 30",
+    "category": "Suplemento Hidratante Oral",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "Solución oral para rehidratación, sabor fresa, presentación de 30 unidades.",
+    "image_url": "/uploads/products/suero_hidravida_oral__fresa_x_30.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.2,
+        "price": 2.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-E3F52C17A4C7"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:49.448368",
+    "updated_at": "2026-04-20T08:36:49.448368"
+  },
+  {
+    "_id": "suero_hidravida_oral__naranja_x_30",
+    "name": "SUERO HIDRAVIDA ORAL  NARANJA X 30",
+    "category": "Suplemento Hidratante Oral",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "Solución oral para rehidratación que contiene electrolitos y glucosa, sabor naranja, indicada para prevenir y tratar la deshidratación causada por diarrea o vómitos.",
+    "image_url": "/uploads/products/suero_hidravida_oral__naranja_x_30.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.2,
+        "price": 2.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-6EB374610440"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:55.643357",
+    "updated_at": "2026-04-20T08:36:55.643357"
+  },
+  {
+    "_id": "sutura_nylon_negra_no_30",
+    "name": "SUTURA NYLON NEGRA No 3-0",
+    "category": "Material de sutura",
+    "principio_activo": "Nylon",
+    "descripcion": "Sutura de nylon negra No 3-0, utilizada para cierre de heridas y tejidos en procedimientos quirúrgicos. Es un material sintético no absorbible, conocido por su alta resistencia y mínima reacción tisular.",
+    "image_url": "/uploads/products/sutura_nylon_negra_no_30.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.5,
+        "price": 30.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-77D080C72C1E"
+      }
+    ],
+    "created_at": "2026-04-20T08:36:58.577389",
+    "updated_at": "2026-04-20T08:36:58.577389"
+  },
+  {
+    "_id": "sutura_nylon_negro_no_20",
+    "name": "SUTURA NYLON NEGRO No 2-0",
+    "category": "Material de sutura",
+    "principio_activo": "Nylon",
+    "descripcion": "Sutura de nylon negro calibre 2-0, utilizada para cierre de heridas y tejidos en procedimientos quirúrgicos.",
+    "image_url": "/uploads/products/sutura_nylon_negro_no_20.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.5,
+        "price": 30.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-C479AD2C2CBA"
+      }
+    ],
+    "created_at": "2026-04-20T08:37:01.087425",
+    "updated_at": "2026-04-20T08:37:01.087425"
+  },
+  {
+    "_id": "sutura_seda_negra_no_30",
+    "name": "SUTURA SEDA NEGRA No 3-0",
+    "category": "Material de sutura",
+    "principio_activo": "Seda negra",
+    "descripcion": "Sutura de seda negra No 3-0 utilizada para cierre de heridas y procedimientos quirúrgicos, conocida por su resistencia y manejo fácil.",
+    "image_url": "/uploads/products/sutura_seda_negra_no_30.jpg",
+    "supplier": "ROXVEL Y RABI",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.5,
+        "price": 30.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-793D06ABCFEA"
+      }
+    ],
+    "created_at": "2026-04-20T08:37:04.117409",
+    "updated_at": "2026-04-20T08:37:04.117409"
+  }
+]

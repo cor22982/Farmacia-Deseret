@@ -1,0 +1,1370 @@
+[
+  {
+    "_id": "batch-aceite_de_ajenjo_30_ml_1_onz-2026-1",
+    "product_id": "aceite_de_ajenjo_30_ml_1_onz",
+    "lot_code": "LOT-8844E07FA5",
+    "expiration_date": {
+      "$date": "2026-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 4.75,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-aceite_de_almendras_30_ml-2026-2",
+    "product_id": "aceite_de_almendras_30_ml",
+    "lot_code": "LOT-40BE5788D8",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 5.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-aceite_de_almendras_30_ml-2026-2",
+    "product_id": "aceite_de_almendras_30_ml",
+    "lot_code": "LOT-89B4CE35ED",
+    "expiration_date": {
+      "$date": "2027-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 5.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-aceite_de_nervino_30_ml-2026-3",
+    "product_id": "aceite_de_nervino_30_ml",
+    "lot_code": "LOT-C6A5F14F49",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 5.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-aceite_de_nervino_30_ml-2026-3",
+    "product_id": "aceite_de_nervino_30_ml",
+    "lot_code": "LOT-A37A7D68A9",
+    "expiration_date": {
+      "$date": "2027-11-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 5.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-aceite_mineral_30_ml-2026-4",
+    "product_id": "aceite_mineral_30_ml",
+    "lot_code": "LOT-0678988D7A",
+    "expiration_date": {
+      "$date": "2028-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 4.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-aceite_mineral_60_ml-2026-5",
+    "product_id": "aceite_mineral_60_ml",
+    "lot_code": "LOT-C605F811D6",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 5.75,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-aceite_mineral_60_ml-2026-5",
+    "product_id": "aceite_mineral_60_ml",
+    "lot_code": "LOT-FFB4F1634E",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 5.75,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-aceite_rosasdo_de_mosca-2026-6",
+    "product_id": "aceite_rosasdo_de_mosca",
+    "lot_code": "LOT-D3390243E4",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 5.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-aceite_rosasdo_de_mosca-2026-6",
+    "product_id": "aceite_rosasdo_de_mosca",
+    "lot_code": "LOT-E164C8C278",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 5.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-acetona_120_ml_pura-2026-7",
+    "product_id": "acetona_120_ml_pura",
+    "lot_code": "LOT-ACB219AD37",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 7.5,
+    "location": "SIN UBICACION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-acetona_60_ml_pura-2026-8",
+    "product_id": "acetona_60_ml_pura",
+    "lot_code": "LOT-036EFF1EB6",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 5.5,
+    "location": "SIN UBICACION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-achicoria_jbe_30_ml-2026-9",
+    "product_id": "achicoria_jbe_30_ml",
+    "lot_code": "LOT-4A95A1BA93",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 4.5,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-achicoria_jbe_30_ml-2026-9",
+    "product_id": "achicoria_jbe_30_ml",
+    "lot_code": "LOT-F25946DEE5",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 4.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-agua_de_rosas-2026-10",
+    "product_id": "agua_de_rosas",
+    "lot_code": "LOT-9F73AF8C64",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 3.5,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-agua_de_rosas-2026-10",
+    "product_id": "agua_de_rosas",
+    "lot_code": "LOT-57809371D0",
+    "expiration_date": {
+      "$date": "2027-05-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 3.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_amarilla-2026-11",
+    "product_id": "añilina_amarilla",
+    "lot_code": "LOT-4907C26082",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-02-01T00:00:00.000Z"
+    },
+    "stock_units": 24,
+    "cost_per_unit": 0.79,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_anaranjada-2026-12",
+    "product_id": "añilina_anaranjada",
+    "lot_code": "LOT-B986E7F77A",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 0.79,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_azul-2026-13",
+    "product_id": "añilina_azul",
+    "lot_code": "LOT-F35DB4C6D5",
+    "expiration_date": {
+      "$date": "2028-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 22,
+    "cost_per_unit": 0.86,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_café-2026-14",
+    "product_id": "añilina_café",
+    "lot_code": "LOT-995FE557D9",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 0.79,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_celeste-2026-15",
+    "product_id": "añilina_celeste",
+    "lot_code": "LOT-27104522A1",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-02-01T00:00:00.000Z"
+    },
+    "stock_units": 18,
+    "cost_per_unit": 0.79,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_corinta-2026-16",
+    "product_id": "añilina_corinta",
+    "lot_code": "LOT-05F70E1D99",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-02-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 0.79,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_negra-2026-17",
+    "product_id": "añilina_negra",
+    "lot_code": "LOT-F299F78B78",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 0.79,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_roja-2026-18",
+    "product_id": "añilina_roja",
+    "lot_code": "LOT-337FD8FD25",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-02-01T00:00:00.000Z"
+    },
+    "stock_units": 15,
+    "cost_per_unit": 0.79,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_rosada-2026-19",
+    "product_id": "añilina_rosada",
+    "lot_code": "LOT-ABC7317589",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-02-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 0.79,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_turquesa-2026-20",
+    "product_id": "añilina_turquesa",
+    "lot_code": "LOT-657208FB06",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 0.79,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-añilina_verde-2026-21",
+    "product_id": "añilina_verde",
+    "lot_code": "LOT-5FCA2BAFBC",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2024-02-01T00:00:00.000Z"
+    },
+    "stock_units": 7,
+    "cost_per_unit": 0.79,
+    "location": "ESTANTERIA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-azucar_de_aniz_1_onza-2026-22",
+    "product_id": "azucar_de_aniz_1_onza",
+    "lot_code": "LOT-81B5A17A18",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 2.25,
+    "location": "GAVETITA 6 GAVETA 6",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-azucar_de_leche_1_onz-2026-23",
+    "product_id": "azucar_de_leche_1_onz",
+    "lot_code": "LOT-3598FD3FA1",
+    "expiration_date": {
+      "$date": "2027-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 4,
+    "cost_per_unit": 4.75,
+    "location": "GAVETITA 6 GAVETA 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-bicarbonato_de_sodio_libra-2026-24",
+    "product_id": "bicarbonato_de_sodio_libra",
+    "lot_code": "LOT-4F68C8704E",
+    "expiration_date": {
+      "$date": "2027-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 8.4,
+    "location": "MOSTRADOR ENTREPAÑO 3",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-bicarbonato_de_sodio_libra-2026-24",
+    "product_id": "bicarbonato_de_sodio_libra",
+    "lot_code": "LOT-3B33AC15DF",
+    "expiration_date": {
+      "$date": "2027-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    },
+    "stock_units": 20,
+    "cost_per_unit": 8.4,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-borax_1_onz-2026-25",
+    "product_id": "borax_1_onz",
+    "lot_code": "LOT-4F46E7918C",
+    "expiration_date": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-12-01T00:00:00.000Z"
+    },
+    "stock_units": 0,
+    "cost_per_unit": 2.25,
+    "location": "GAVETITA 6 GAVETA 5",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_amarillo_carton_x_24-2026-26",
+    "product_id": "color_vegetal_amarillo_carton_x_24",
+    "lot_code": "LOT-125FF2584C",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-09-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 0.72,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_anaranjado-2026-27",
+    "product_id": "color_vegetal_anaranjado",
+    "lot_code": "LOT-D35CEA8352",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2023-10-01T00:00:00.000Z"
+    },
+    "stock_units": 18,
+    "cost_per_unit": 0.72,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_azul-2026-28",
+    "product_id": "color_vegetal_azul",
+    "lot_code": "LOT-6B07366E93",
+    "expiration_date": {
+      "$date": "2026-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-09-01T00:00:00.000Z"
+    },
+    "stock_units": 16,
+    "cost_per_unit": 0.72,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_celeste-2026-29",
+    "product_id": "color_vegetal_celeste",
+    "lot_code": "LOT-29FC4B078A",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2023-10-01T00:00:00.000Z"
+    },
+    "stock_units": 11,
+    "cost_per_unit": 0.72,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_corinto-2026-30",
+    "product_id": "color_vegetal_corinto",
+    "lot_code": "LOT-8F53D15D6F",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2023-10-01T00:00:00.000Z"
+    },
+    "stock_units": 19,
+    "cost_per_unit": 0.72,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_morado-2026-31",
+    "product_id": "color_vegetal_morado",
+    "lot_code": "LOT-E69BC22829",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2023-10-01T00:00:00.000Z"
+    },
+    "stock_units": 13,
+    "cost_per_unit": 0.72,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_negro-2026-32",
+    "product_id": "color_vegetal_negro",
+    "lot_code": "LOT-FE43C6E2B3",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2023-10-01T00:00:00.000Z"
+    },
+    "stock_units": 14,
+    "cost_per_unit": 0.72,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_rojo-2026-33",
+    "product_id": "color_vegetal_rojo",
+    "lot_code": "LOT-CA47A3578C",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "stock_units": 10,
+    "cost_per_unit": 0.78,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_rosado-2026-34",
+    "product_id": "color_vegetal_rosado",
+    "lot_code": "LOT-D30D6AAB8E",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2023-10-01T00:00:00.000Z"
+    },
+    "stock_units": 13,
+    "cost_per_unit": 0.72,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_turquesa-2026-35",
+    "product_id": "color_vegetal_turquesa",
+    "lot_code": "LOT-824A4B4592",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2023-10-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 0.72,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-color_vegetal_verde-2026-36",
+    "product_id": "color_vegetal_verde",
+    "lot_code": "LOT-675ADB2464",
+    "expiration_date": {
+      "$date": "2026-06-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-09-01T00:00:00.000Z"
+    },
+    "stock_units": 13,
+    "cost_per_unit": 0.72,
+    "location": "ESTANTERIA BODEGA BENDICION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-creolina_comercial_120_ml-2026-37",
+    "product_id": "creolina_comercial_120_ml",
+    "lot_code": "LOT-4B580AB368",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 6.5,
+    "location": "VITRINA ENTREPAÑO 6",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-creolina_comercial_120_ml-2026-37",
+    "product_id": "creolina_comercial_120_ml",
+    "lot_code": "LOT-60CECD6EFA",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 6.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-creolina_comercial_240_ml-2026-38",
+    "product_id": "creolina_comercial_240_ml",
+    "lot_code": "LOT-62C2B0B0D7",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-09-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 9.0,
+    "location": "VITRINA ENTREPAÑO 6",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-creolina_comercial_500_ml-2026-39",
+    "product_id": "creolina_comercial_500_ml",
+    "lot_code": "LOT-63C046D042",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 14.5,
+    "location": "VITRINA ENTREPAÑO 6",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-creolina_comercial_500_ml-2026-39",
+    "product_id": "creolina_comercial_500_ml",
+    "lot_code": "LOT-820E667E8D",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 14.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-creolina_comercial_litro-2026-40",
+    "product_id": "creolina_comercial_litro",
+    "lot_code": "LOT-9441E5321B",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 27.0,
+    "location": "VITRINA ENTREPAÑO 6",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-creolina_comercial_litro-2026-40",
+    "product_id": "creolina_comercial_litro",
+    "lot_code": "LOT-43E0523A67",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2025-04-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 27.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-envases_de_plastico_120ml-2026-41",
+    "product_id": "envases_de_plastico_120ml",
+    "lot_code": "LOT-77B89F2732",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 1.25,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-envases_de_plastico_120ml-2026-41",
+    "product_id": "envases_de_plastico_120ml",
+    "lot_code": "LOT-60130A2242",
+    "expiration_date": null,
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 26,
+    "cost_per_unit": 1.25,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-glicerina_38_ml-2026-42",
+    "product_id": "glicerina_38_ml",
+    "lot_code": "LOT-B43B739E2A",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 7.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-glicerina_38_ml-2026-42",
+    "product_id": "glicerina_38_ml",
+    "lot_code": "LOT-E9F8897257",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 7.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-mercurio_cromo_2_spray_120_ml-2026-43",
+    "product_id": "mercurio_cromo_2_spray_120_ml",
+    "lot_code": "LOT-10A81D3DA9",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 16.75,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-mercurio_cromo_2_spray_120_ml-2026-43",
+    "product_id": "mercurio_cromo_2_spray_120_ml",
+    "lot_code": "LOT-48B9CD9EC3",
+    "expiration_date": {
+      "$date": "2027-10-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 16.75,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-mercurio_cromo_30_ml-2026-44",
+    "product_id": "mercurio_cromo_30_ml",
+    "lot_code": "LOT-DF64AA2134",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 7.5,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-mercurio_cromo_30_ml-2026-44",
+    "product_id": "mercurio_cromo_30_ml",
+    "lot_code": "LOT-7E815EB6F6",
+    "expiration_date": {
+      "$date": "2027-01-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 7.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-miel_rosada_30_ml-2026-45",
+    "product_id": "miel_rosada_30_ml",
+    "lot_code": "LOT-71C27871B9",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 5.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-miel_rosada_30_ml-2026-45",
+    "product_id": "miel_rosada_30_ml",
+    "lot_code": "LOT-A62140265E",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 5.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-neftalina__bolsa_x_5_unidades-2026-46",
+    "product_id": "neftalina__bolsa_x_5_unidades",
+    "lot_code": "LOT-2036AB6D1A",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2024-09-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 1.0,
+    "location": "SIN UBICACION",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-pomada_de_sulfatiazol_1_onza-2026-47",
+    "product_id": "pomada_de_sulfatiazol_1_onza",
+    "lot_code": "LOT-65FD51D819",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 4.13,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-pomada_de_sulfatiazol_1_onza-2026-47",
+    "product_id": "pomada_de_sulfatiazol_1_onza",
+    "lot_code": "LOT-F4729F5532",
+    "expiration_date": {
+      "$date": "2027-07-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "stock_units": 6,
+    "cost_per_unit": 4.13,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-ruibarbo_tintura_30_ml-2026-48",
+    "product_id": "ruibarbo_tintura_30_ml",
+    "lot_code": "LOT-11BD743BD4",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 5.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-siete_espiritus_30_ml-2026-49",
+    "product_id": "siete_espiritus_30_ml",
+    "lot_code": "LOT-64EC2B442B",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 4.5,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-siete_espiritus_30_ml-2026-49",
+    "product_id": "siete_espiritus_30_ml",
+    "lot_code": "LOT-E5581362DE",
+    "expiration_date": {
+      "$date": "2027-09-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 4.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-soda_caustica_en_escamas_libra-2026-50",
+    "product_id": "soda_caustica_en_escamas_libra",
+    "lot_code": "LOT-2B5DB763FE",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 11.5,
+    "location": "MOSTRADOR ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-soda_caustica_en_escamas_libra-2026-50",
+    "product_id": "soda_caustica_en_escamas_libra",
+    "lot_code": "LOT-667032B5C5",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-10-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 11.5,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-solucion_de_ibitane_al_5_fco__120_ml-2026-51",
+    "product_id": "solucion_de_ibitane_al_5_fco__120_ml",
+    "lot_code": "LOT-27B0F01F0E",
+    "expiration_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 6.25,
+    "location": "VITRINA ENTREPAÑO 4",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-solucion_de_ibitane_al_5_fco__120_ml-2026-51",
+    "product_id": "solucion_de_ibitane_al_5_fco__120_ml",
+    "lot_code": "LOT-1A1931A6BC",
+    "expiration_date": {
+      "$date": "2028-03-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 30,
+    "cost_per_unit": 6.25,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-thimerosal_120_ml_spray-2026-52",
+    "product_id": "thimerosal_120_ml_spray",
+    "lot_code": "LOT-ED582B2BD1",
+    "expiration_date": null,
+    "purchase_date": null,
+    "stock_units": 0,
+    "cost_per_unit": 0.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-thimerosal_30_ml-2026-53",
+    "product_id": "thimerosal_30_ml",
+    "lot_code": "LOT-3028CD837D",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 7.75,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-thimerosal_30_ml-2026-53",
+    "product_id": "thimerosal_30_ml",
+    "lot_code": "LOT-3F1FA1C666",
+    "expiration_date": {
+      "$date": "2026-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    },
+    "stock_units": 3,
+    "cost_per_unit": 7.75,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-vaselina_blanca_58_grs-2026-54",
+    "product_id": "vaselina_blanca_58_grs",
+    "lot_code": "LOT-37EC6593AB",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 5.75,
+    "location": "MOSTRADOR ENTREPAÑO 2",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-vaselina_blanca_58_grs-2026-54",
+    "product_id": "vaselina_blanca_58_grs",
+    "lot_code": "LOT-E25CC10381",
+    "expiration_date": {
+      "$date": "2027-12-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    },
+    "stock_units": 5,
+    "cost_per_unit": 5.75,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-violeta_de_genciana_solucion_2_30_ml-2026-55",
+    "product_id": "violeta_de_genciana_solucion_2_30_ml",
+    "lot_code": "LOT-368247FF11",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 5.25,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-violeta_de_genciana_solucion_2_30_ml-2026-55",
+    "product_id": "violeta_de_genciana_solucion_2_30_ml",
+    "lot_code": "LOT-A0A8E6B8C3",
+    "expiration_date": {
+      "$date": "2027-08-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 5.25,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "batch-violeta_de_genciana_solucion_2_spray_120_ml-2026-56",
+    "product_id": "violeta_de_genciana_solucion_2_spray_120_ml",
+    "lot_code": "LOT-13F0959936",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 2,
+    "cost_per_unit": 12.0,
+    "location": "ESTANTERIA 1 ENTREPAÑO 7",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  },
+  {
+    "_id": "BODEGA-violeta_de_genciana_solucion_2_spray_120_ml-2026-56",
+    "product_id": "violeta_de_genciana_solucion_2_spray_120_ml",
+    "lot_code": "LOT-905959AD41",
+    "expiration_date": {
+      "$date": "2028-02-01T00:00:00.000Z"
+    },
+    "purchase_date": {
+      "$date": "2026-03-01T00:00:00.000Z"
+    },
+    "stock_units": 1,
+    "cost_per_unit": 12.0,
+    "location": "BODEGA",
+    "created_at": "2026-04-20T08:21:02",
+    "updated_at": {
+      "$date": "2026-04-20T08:21:02.000Z"
+    }
+  }
+]

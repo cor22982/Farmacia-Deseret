@@ -1,0 +1,2312 @@
+[
+  {
+    "_id": "aceite_coco_450_ml",
+    "name": "ACEITE COCO 450 ML",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Aceite de coco",
+    "descripcion": "Aceite de coco en presentación de 450 ml, utilizado como suplemento alimenticio y para uso tópico, conocido por sus propiedades hidratantes y antioxidantes.",
+    "image_url": "/uploads/products/aceite_coco_450_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.0,
+        "price": 65.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-B52C1D9E3545"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:08.949764",
+    "updated_at": "2026-04-20T08:26:08.949764"
+  },
+  {
+    "_id": "aceite_de_coco__san_lucas_230__ml",
+    "name": "ACEITE DE COCO  SAN LUCAS 230  ML",
+    "category": "Aceite natural",
+    "principio_activo": "Aceite de coco",
+    "descripcion": "Aceite de coco San Lucas en presentación de 230 ml, utilizado para cuidado de la piel y el cabello, hidratante y nutritivo.",
+    "image_url": "/uploads/products/aceite_de_coco__san_lucas_230__ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 27.0,
+        "price": 44.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-FFAD8884CB16"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:11.766470",
+    "updated_at": "2026-04-20T08:26:11.766470"
+  },
+  {
+    "_id": "acetona_100_ml_darosa",
+    "name": "ACETONA 100 ML DAROSA",
+    "category": "Solvente y removedor de esmalte",
+    "principio_activo": "Acetona",
+    "descripcion": "La acetona es un solvente utilizado principalmente para eliminar esmalte de uñas y limpiar superficies. Es un líquido incoloro, volátil y altamente inflamable.",
+    "image_url": "/uploads/products/acetona_100_ml_darosa.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 9.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-F3B5426CBD9D"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:14.373937",
+    "updated_at": "2026-04-20T08:26:14.373937"
+  },
+  {
+    "_id": "acetona_60_ml_darosa",
+    "name": "ACETONA 60 ML DAROSA",
+    "category": "Solvente y removedor de esmalte",
+    "principio_activo": "Acetona",
+    "descripcion": "Producto utilizado principalmente para eliminar esmalte de uñas y como solvente en aplicaciones cosméticas y farmacéuticas.",
+    "image_url": "/uploads/products/acetona_60_ml_darosa.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.0,
+        "price": 5.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-C499487C868C"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:16.770322",
+    "updated_at": "2026-04-20T08:26:16.770322"
+  },
+  {
+    "_id": "almendra_entera_bolsita",
+    "name": "ALMENDRA ENTERA BOLSITA",
+    "category": "Alimentos y suplementos",
+    "principio_activo": "Almendra entera",
+    "descripcion": "Producto alimenticio compuesto por almendras enteras, presentado en una bolsita para consumo directo o uso en recetas.",
+    "image_url": "/uploads/products/almendra_entera_bolsita.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.65,
+        "price": 10.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-0054D93FB90A"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:20.271229",
+    "updated_at": "2026-04-20T08:26:20.271229"
+  },
+  {
+    "_id": "almendra_rayada_bolsita",
+    "name": "ALMENDRA RAYADA BOLSITA",
+    "category": "Producto alimenticio",
+    "principio_activo": "Almendra rayada",
+    "descripcion": "Almendra rayada en bolsita, utilizada comúnmente como ingrediente en repostería y cocina.",
+    "image_url": "/uploads/products/almendra_rayada_bolsita.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.16,
+        "price": 10.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-E2A5D4CFDAA2"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:23.215614",
+    "updated_at": "2026-04-20T08:26:23.215614"
+  },
+  {
+    "_id": "arandanos_bolsa",
+    "name": "ARANDANOS BOLSA",
+    "category": "Alimentos y suplementos",
+    "principio_activo": "Arándanos",
+    "descripcion": "Bolsa de arándanos frescos, utilizados como alimento o suplemento natural por sus propiedades antioxidantes y beneficios para la salud urinaria.",
+    "image_url": "/uploads/products/arandanos_bolsa.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.0,
+        "price": 10.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-8C7AEA4B35B6"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:25.978564",
+    "updated_at": "2026-04-20T08:26:25.978564"
+  },
+  {
+    "_id": "asepxia_jabon_azufre_100_grs",
+    "name": "ASEPXIA JABON AZUFRE 100 GRS",
+    "category": "Jabón dermatológico",
+    "principio_activo": "Azufre",
+    "descripcion": "Jabón en barra que contiene azufre, utilizado para el tratamiento de afecciones cutáneas como el acné y la dermatitis, ayudando a eliminar bacterias y reducir la inflamación.",
+    "image_url": "/uploads/products/asepxia_jabon_azufre_100_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.9,
+        "price": 30.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-545191925318"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:29.776839",
+    "updated_at": "2026-04-20T08:26:29.776839"
+  },
+  {
+    "_id": "asepxia_jabon_carbon_100_grs",
+    "name": "ASEPXIA JABON CARBON 100 GRS",
+    "category": "Cuidado de la piel",
+    "principio_activo": "Carbón activado",
+    "descripcion": "Jabón facial con carbón activado que ayuda a limpiar profundamente la piel, eliminando impurezas y exceso de grasa, ideal para pieles grasas y con tendencia acneica.",
+    "image_url": "/uploads/products/asepxia_jabon_carbon_100_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.9,
+        "price": 30.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-D91569497ED1"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:33.201343",
+    "updated_at": "2026-04-20T08:26:33.201343"
+  },
+  {
+    "_id": "asepxia_jabon_exfoliante_100_grs",
+    "name": "ASEPXIA JABON EXFOLIANTE 100 GRS",
+    "category": "Cuidado de la piel",
+    "principio_activo": "Ácido salicílico",
+    "descripcion": "Jabón exfoliante diseñado para limpiar profundamente la piel, eliminar impurezas y células muertas, ayudando a prevenir el acné y mejorar la textura de la piel.",
+    "image_url": "/uploads/products/asepxia_jabon_exfoliante_100_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.9,
+        "price": 30.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-B78337AC9626"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:35.959745",
+    "updated_at": "2026-04-20T08:26:35.959745"
+  },
+  {
+    "_id": "bateria_rayovac_doble_a_x_2",
+    "name": "BATERIA RAYOVAC DOBLE A X 2",
+    "category": "Accesorios y dispositivos",
+    "principio_activo": "No aplica",
+    "descripcion": "Batería Rayovac tamaño Doble A (AA), paquete con 2 unidades, utilizada para alimentar dispositivos electrónicos.",
+    "image_url": "/uploads/products/bateria_rayovac_doble_a_x_2.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.5,
+        "price": 13.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-BAAB20B4E815"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:38.393837",
+    "updated_at": "2026-04-20T08:26:38.393837"
+  },
+  {
+    "_id": "bateria_rayovac_triple_a_x_6",
+    "name": "BATERIA RAYOVAC TRIPLE A X 6",
+    "category": "Accesorios y dispositivos",
+    "principio_activo": "No aplica",
+    "descripcion": "Paquete de 6 baterías tamaño AAA de la marca Rayovac, utilizadas para alimentar dispositivos electrónicos pequeños.",
+    "image_url": "/uploads/products/bateria_rayovac_triple_a_x_6.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.5,
+        "price": 13.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-E920A3D8D66D"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:48.101243",
+    "updated_at": "2026-04-20T08:26:48.101243"
+  },
+  {
+    "_id": "bloqueador_insignis_solar_70_grs",
+    "name": "BLOQUEADOR INSIGNIS SOLAR 70 GRS",
+    "category": "Protector solar",
+    "principio_activo": "No especificado",
+    "descripcion": "Bloqueador solar en presentación de 70 gramos, diseñado para proteger la piel de los efectos dañinos de la radiación solar.",
+    "image_url": "/uploads/products/bloqueador_insignis_solar_70_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.0,
+        "price": 25.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-033B94349CF9"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:51.081961",
+    "updated_at": "2026-04-20T08:26:51.081961"
+  },
+  {
+    "_id": "chicle_bubba_rojo",
+    "name": "CHICLE BUBBA ROJO",
+    "category": "Producto de confitería",
+    "principio_activo": "Ninguno",
+    "descripcion": "Chicle de sabor frutal rojo, destinado para masticar y refrescar el aliento.",
+    "image_url": "/uploads/products/chicle_bubba_rojo.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.83,
+        "price": 13.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-584C2F3856BA"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:53.506187",
+    "updated_at": "2026-04-20T08:26:53.506187"
+  },
+  {
+    "_id": "chicles_trident_canela",
+    "name": "CHICLES TRIDENT CANELA",
+    "category": "Chicles",
+    "principio_activo": "No aplica",
+    "descripcion": "Chicles de sabor canela de la marca Trident, utilizados para refrescar el aliento y ayudar a mantener la higiene bucal.",
+    "image_url": "/uploads/products/chicles_trident_canela.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.23,
+        "price": 12.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-994AE18B5758"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:56.347465",
+    "updated_at": "2026-04-20T08:26:56.347465"
+  },
+  {
+    "_id": "chicles_trident_cool_buble",
+    "name": "CHICLES TRIDENT COOL BUBLE",
+    "category": "Producto de confitería",
+    "principio_activo": "Ninguno",
+    "descripcion": "Chicles de sabor menta y burbuja diseñados para refrescar el aliento y proporcionar una experiencia de masticación agradable.",
+    "image_url": "/uploads/products/chicles_trident_cool_buble.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.23,
+        "price": 12.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-CFB566F21E79"
+      }
+    ],
+    "created_at": "2026-04-20T08:26:59.107784",
+    "updated_at": "2026-04-20T08:26:59.107784"
+  },
+  {
+    "_id": "chicles_trident_fresh_mint",
+    "name": "CHICLES TRIDENT FRESH MINT",
+    "category": "Producto de confitería",
+    "principio_activo": "Ninguno",
+    "descripcion": "Chicles de menta fresca que ayudan a refrescar el aliento y mantener la higiene bucal.",
+    "image_url": "/uploads/products/chicles_trident_fresh_mint.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.23,
+        "price": 12.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-35A7B83569CF"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:01.882261",
+    "updated_at": "2026-04-20T08:27:01.882261"
+  },
+  {
+    "_id": "chicles_trident_fruit_mix",
+    "name": "CHICLES TRIDENT FRUIT MIX",
+    "category": "Producto de confitería",
+    "principio_activo": "Ninguno",
+    "descripcion": "Chicles sin azúcar con sabor a mezcla de frutas, diseñados para refrescar el aliento y ayudar a mantener la higiene bucal.",
+    "image_url": "/uploads/products/chicles_trident_fruit_mix.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.23,
+        "price": 12.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-9379C51531F2"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:04.792589",
+    "updated_at": "2026-04-20T08:27:04.792589"
+  },
+  {
+    "_id": "chicles_trident_menta",
+    "name": "CHICLES TRIDENT MENTA",
+    "category": "Producto de confitería",
+    "principio_activo": "Ninguno",
+    "descripcion": "Chicles de menta Trident, diseñados para refrescar el aliento y ayudar a mantener la higiene bucal.",
+    "image_url": "/uploads/products/chicles_trident_menta.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.23,
+        "price": 12.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-EF0F1B5A2A72"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:07.454785",
+    "updated_at": "2026-04-20T08:27:07.454785"
+  },
+  {
+    "_id": "chicles_trident_yerbabuena",
+    "name": "CHICLES TRIDENT YERBABUENA",
+    "category": "Chicles",
+    "principio_activo": "No aplica",
+    "descripcion": "Chicles de sabor a yerbabuena, utilizados para refrescar el aliento y ayudar a mantener la higiene bucal.",
+    "image_url": "/uploads/products/chicles_trident_yerbabuena.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.23,
+        "price": 10.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-4D392ABCC706"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:10.468848",
+    "updated_at": "2026-04-20T08:27:10.468848"
+  },
+  {
+    "_id": "chispitas_de_chocolates",
+    "name": "CHISPITAS DE CHOCOLATES",
+    "category": "Alimentos",
+    "principio_activo": "No aplica",
+    "descripcion": "Pequeñas piezas de chocolate utilizadas comúnmente para decorar o añadir sabor a postres y productos de repostería.",
+    "image_url": "/uploads/products/chispitas_de_chocolates.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.0,
+        "price": 15.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-49E354A0C358"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:13.020002",
+    "updated_at": "2026-04-20T08:27:13.020002"
+  },
+  {
+    "_id": "chocolate_hersheys_blanco_peq",
+    "name": "CHOCOLATE HERSHEYS BLANCO PEQ",
+    "category": "Alimentos y Bebidas",
+    "principio_activo": "No aplica",
+    "descripcion": "Chocolate blanco de la marca Hershey's en presentación pequeña.",
+    "image_url": "/uploads/products/chocolate_hersheys_blanco_peq.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.98,
+        "price": 1.5,
+        "profit_percent": 0.35,
+        "sku": "SKU-2BB067906873"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:15.664358",
+    "updated_at": "2026-04-20T08:27:15.664358"
+  },
+  {
+    "_id": "corta_uñas_corona_mediana_caja_x_12",
+    "name": "CORTA UÑAS CORONA MEDIANA CAJA X 12",
+    "category": "Instrumentos de cuidado personal",
+    "principio_activo": null,
+    "descripcion": "Corta uñas de tamaño mediano, marca Corona, presentados en caja con 12 unidades, utilizados para el cuidado y corte de las uñas.",
+    "image_url": "/uploads/products/corta_uñas_corona_mediana_caja_x_12.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.5,
+        "price": 7.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-3D3C32329CC8"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:18.191056",
+    "updated_at": "2026-04-20T08:27:18.191056"
+  },
+  {
+    "_id": "crema_diabetex__tx_400_ml",
+    "name": "CREMA DIABETEX  TX 400 ML",
+    "category": "Crema dermatológica",
+    "principio_activo": "No especificado",
+    "descripcion": "Crema para el cuidado de la piel, especialmente formulada para personas con diabetes, ayuda a mantener la hidratación y proteger la piel.",
+    "image_url": "/uploads/products/crema_diabetex__tx_400_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 60.0,
+        "price": 98.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-292322593F84"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:20.780291",
+    "updated_at": "2026-04-20T08:27:20.780291"
+  },
+  {
+    "_id": "crema_goicochea_arnica_y_manzanailla_400_ml",
+    "name": "CREMA GOICOCHEA ARNICA Y MANZANAILLA 400 ML",
+    "category": "Crema antiinflamatoria y analgésica",
+    "principio_activo": "Árnica y manzanilla",
+    "descripcion": "Crema tópica de 400 ml que combina extractos de árnica y manzanilla, utilizada para aliviar dolores musculares, inflamaciones y contusiones, promoviendo la recuperación de tejidos.",
+    "image_url": "/uploads/products/crema_goicochea_arnica_y_manzanailla_400_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 44.0,
+        "price": 72.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-61CB2D4D0AB0"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:24.487304",
+    "updated_at": "2026-04-20T08:27:24.487304"
+  },
+  {
+    "_id": "crema_goicochea_doble_mentol",
+    "name": "CREMA GOICOCHEA DOBLE MENTOL",
+    "category": "Analgésico tópico",
+    "principio_activo": "Mentol",
+    "descripcion": "Crema analgésica y refrescante que contiene doble concentración de mentol, utilizada para aliviar dolores musculares y articulares mediante una sensación de frescor.",
+    "image_url": "/uploads/products/crema_goicochea_doble_mentol.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 44.0,
+        "price": 72.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-EB0B0BA5B399"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:27.028298",
+    "updated_at": "2026-04-20T08:27:27.028298"
+  },
+  {
+    "_id": "crema_goicochea_ginko_biloba_400_ml",
+    "name": "CREMA GOICOCHEA GINKO BILOBA 400 ML",
+    "category": "Cosmético / Cuidado de la piel",
+    "principio_activo": "Ginkgo Biloba",
+    "descripcion": "Crema tópica que contiene extracto de Ginkgo Biloba, utilizada para mejorar la circulación y aportar propiedades antioxidantes y antiinflamatorias a la piel.",
+    "image_url": "/uploads/products/crema_goicochea_ginko_biloba_400_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 44.0,
+        "price": 72.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-9D1F373F439F"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:29.721111",
+    "updated_at": "2026-04-20T08:27:29.721111"
+  },
+  {
+    "_id": "crema_goicochea_serum_piel_deshidratada_400_ml",
+    "name": "CREMA GOICOCHEA SERUM PIEL DESHIDRATADA 400 ML",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No especificado",
+    "descripcion": "Crema serum diseñada para piel deshidratada, con una presentación de 400 ml, que ayuda a hidratar y revitalizar la piel.",
+    "image_url": "/uploads/products/crema_goicochea_serum_piel_deshidratada_400_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 42.0,
+        "price": 72.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-CD96FAE08AC7"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:32.096529",
+    "updated_at": "2026-04-20T08:27:32.096529"
+  },
+  {
+    "_id": "crema_goicochea_serum_piel_seca_400_ml",
+    "name": "CREMA GOICOCHEA SERUM PIEL SECA 400 ML",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No especificado",
+    "descripcion": "Crema serum diseñada para piel seca, con una presentación de 400 ml, que ayuda a hidratar y nutrir profundamente la piel.",
+    "image_url": "/uploads/products/crema_goicochea_serum_piel_seca_400_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 44.0,
+        "price": 72.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-0884CD097F5B"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:34.839731",
+    "updated_at": "2026-04-20T08:27:34.839731"
+  },
+  {
+    "_id": "crema_lubriderm_15_lt",
+    "name": "CREMA LUBRIDERM 1.5 LT",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No especificado",
+    "descripcion": "Crema hidratante de uso tópico para el cuidado y la hidratación de la piel, presentada en envase de 1.5 litros.",
+    "image_url": "/uploads/products/crema_lubriderm_15_lt.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 97.0,
+        "price": 150.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-30C3B2A0B72B"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:37.895122",
+    "updated_at": "2026-04-20T08:27:37.895122"
+  },
+  {
+    "_id": "crema_lubriderm_400_ml_azul",
+    "name": "CREMA LUBRIDERM 400 ML AZUL",
+    "category": "Cuidado de la piel",
+    "principio_activo": "Glicerina",
+    "descripcion": "Crema hidratante para el cuidado y protección de la piel, formulada para proporcionar hidratación profunda y duradera.",
+    "image_url": "/uploads/products/crema_lubriderm_400_ml_azul.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.0,
+        "price": 58.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-E1DFE46E7CC9"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:40.607683",
+    "updated_at": "2026-04-20T08:27:40.607683"
+  },
+  {
+    "_id": "crema_lubriderm_400_ml_celeste",
+    "name": "CREMA LUBRIDERM 400 ML CELESTE",
+    "category": "Hidratante corporal",
+    "principio_activo": "Glicerina y otros emolientes",
+    "descripcion": "Crema hidratante para el cuidado y protección de la piel, formulada para mantener la piel suave, humectada y protegida contra la sequedad.",
+    "image_url": "/uploads/products/crema_lubriderm_400_ml_celeste.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.0,
+        "price": 58.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-27820E398F63"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:43.466822",
+    "updated_at": "2026-04-20T08:27:43.466822"
+  },
+  {
+    "_id": "crema_lubriderm_400_ml_dorada",
+    "name": "CREMA LUBRIDERM 400 ML DORADA",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No aplica",
+    "descripcion": "Crema hidratante Lubriderm de 400 ml, formulada para proporcionar hidratación profunda y duradera a la piel seca.",
+    "image_url": "/uploads/products/crema_lubriderm_400_ml_dorada.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 37.0,
+        "price": 63.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-8665CE77BE97"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:46.052112",
+    "updated_at": "2026-04-20T08:27:46.052112"
+  },
+  {
+    "_id": "crema_lubriderm_400_ml_morada",
+    "name": "CREMA LUBRIDERM 400 ML MORADA",
+    "category": "Hidratante corporal",
+    "principio_activo": "Glicerina",
+    "descripcion": "Crema hidratante para el cuidado de la piel, formulada para proporcionar hidratación profunda y duradera, ideal para piel seca.",
+    "image_url": "/uploads/products/crema_lubriderm_400_ml_morada.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 45.0,
+        "price": 72.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-61F10F60D48D"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:48.731359",
+    "updated_at": "2026-04-20T08:27:48.731359"
+  },
+  {
+    "_id": "crema_lubriderm_750_ml_dorada",
+    "name": "CREMA LUBRIDERM 750 ML DORADA",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No especificado",
+    "descripcion": "Crema hidratante Lubriderm en presentación de 750 ml, formulada para proporcionar hidratación profunda y duradera a la piel.",
+    "image_url": "/uploads/products/crema_lubriderm_750_ml_dorada.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 75.0,
+        "price": 121.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-3CABEE25AE0A"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:51.162255",
+    "updated_at": "2026-04-20T08:27:51.162255"
+  },
+  {
+    "_id": "crema_lubriderm_morada_lt",
+    "name": "CREMA LUBRIDERM MORADA LT",
+    "category": "Hidratante corporal",
+    "principio_activo": "Glicerina y otros emolientes",
+    "descripcion": "Crema hidratante para el cuidado de la piel, formulada para proporcionar hidratación profunda y mejorar la suavidad y elasticidad de la piel.",
+    "image_url": "/uploads/products/crema_lubriderm_morada_lt.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 90.0,
+        "price": 137.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-0C2987517844"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:53.995319",
+    "updated_at": "2026-04-20T08:27:53.995319"
+  },
+  {
+    "_id": "crema_nivea_400_ml__milk",
+    "name": "CREMA NIVEA 400 ML  MILK",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No aplica",
+    "descripcion": "Crema hidratante Nivea en presentación de 400 ml con fórmula a base de leche para nutrir y suavizar la piel.",
+    "image_url": "/uploads/products/crema_nivea_400_ml__milk.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 32.5,
+        "price": 52.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-AC0684D1647B"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:57.003855",
+    "updated_at": "2026-04-20T08:27:57.003855"
+  },
+  {
+    "_id": "crema_nivea_400_ml_aloe_refrescante",
+    "name": "CREMA NIVEA 400 ML ALOE REFRESCANTE",
+    "category": "Cuidado de la piel",
+    "principio_activo": "Aloe vera",
+    "descripcion": "Crema hidratante refrescante con aloe vera, ideal para mantener la piel suave y fresca.",
+    "image_url": "/uploads/products/crema_nivea_400_ml_aloe_refrescante.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 32.5,
+        "price": 52.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-9EF7DB6D3332"
+      }
+    ],
+    "created_at": "2026-04-20T08:27:59.871658",
+    "updated_at": "2026-04-20T08:27:59.871658"
+  },
+  {
+    "_id": "crema_nivea_400_ml_express_hydration",
+    "name": "CREMA NIVEA 400 ML EXPRESS HYDRATION",
+    "category": "Cuidado de la piel",
+    "principio_activo": "Glicerina",
+    "descripcion": "Crema hidratante para el cuidado diario de la piel, que proporciona hidratación rápida y duradera, ideal para pieles secas y sensibles.",
+    "image_url": "/uploads/products/crema_nivea_400_ml_express_hydration.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 32.5,
+        "price": 52.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-9D79B7176AA8"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:02.720878",
+    "updated_at": "2026-04-20T08:28:02.720878"
+  },
+  {
+    "_id": "crema_nivea_400_ml_regenaracion_intensiva",
+    "name": "CREMA NIVEA 400 ML REGENARACION INTENSIVA",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No especificado",
+    "descripcion": "Crema hidratante de 400 ml de la marca Nivea, diseñada para la regeneración intensiva de la piel.",
+    "image_url": "/uploads/products/crema_nivea_400_ml_regenaracion_intensiva.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 32.5,
+        "price": 52.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-AA3210F750C9"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:05.297908",
+    "updated_at": "2026-04-20T08:28:05.297908"
+  },
+  {
+    "_id": "crema_nivea_400_ml_soft_milk",
+    "name": "CREMA NIVEA 400 ML SOFT MILK",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No aplica",
+    "descripcion": "Crema hidratante corporal Nivea Soft Milk de 400 ml, diseñada para proporcionar hidratación intensa y suavidad a la piel.",
+    "image_url": "/uploads/products/crema_nivea_400_ml_soft_milk.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.0,
+        "price": 52.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-70FAF6D4103B"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:08.190669",
+    "updated_at": "2026-04-20T08:28:08.190669"
+  },
+  {
+    "_id": "crema_nivea_400_ml_tono_natural",
+    "name": "CREMA NIVEA 400 ML TONO NATURAL",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No aplica",
+    "descripcion": "Crema hidratante Nivea de 400 ml en tono natural, diseñada para proporcionar hidratación y cuidado diario de la piel.",
+    "image_url": "/uploads/products/crema_nivea_400_ml_tono_natural.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 32.5,
+        "price": 52.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-001904D41BFF"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:12.621688",
+    "updated_at": "2026-04-20T08:28:12.621688"
+  },
+  {
+    "_id": "crema_nivea_latita_20_ml",
+    "name": "CREMA NIVEA LATITA 20 ML",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No especificado",
+    "descripcion": "Crema hidratante en envase pequeño de 20 ml, ideal para el cuidado y protección de la piel, especialmente en zonas secas o sensibles.",
+    "image_url": "/uploads/products/crema_nivea_latita_20_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 8.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-CB44DED55C54"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:15.787482",
+    "updated_at": "2026-04-20T08:28:15.787482"
+  },
+  {
+    "_id": "crema_nivea_litro_azul",
+    "name": "CREMA NIVEA LITRO AZUL",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No especificado",
+    "descripcion": "Crema hidratante de la marca Nivea en presentación de un litro, conocida por su fórmula nutritiva y protectora para la piel.",
+    "image_url": "/uploads/products/crema_nivea_litro_azul.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 65.0,
+        "price": 98.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-53014702EEC9"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:18.173212",
+    "updated_at": "2026-04-20T08:28:18.173212"
+  },
+  {
+    "_id": "crema_nivea_tarro_400_ml",
+    "name": "CREMA NIVEA TARRO 400 ML",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No aplica",
+    "descripcion": "Crema hidratante para el cuidado diario de la piel, formulada para proporcionar hidratación intensa y proteger la piel seca.",
+    "image_url": "/uploads/products/crema_nivea_tarro_400_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 37.65,
+        "price": 64.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-9C443A26482F"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:21.255164",
+    "updated_at": "2026-04-20T08:28:21.255164"
+  },
+  {
+    "_id": "desodorante_degree_h_76_grs",
+    "name": "DESODORANTE DEGREE H 76 GRS",
+    "category": "Desodorante",
+    "principio_activo": "Clorhidrato de aluminio",
+    "descripcion": "Desodorante en barra para control de sudor y olor corporal, con fórmula que proporciona protección duradera.",
+    "image_url": "/uploads/products/desodorante_degree_h_76_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 23.6,
+        "price": 35.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-01C6DFAC125B"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:23.809608",
+    "updated_at": "2026-04-20T08:28:23.809608"
+  },
+  {
+    "_id": "desodorante_degree_m_74_grs",
+    "name": "DESODORANTE DEGREE M 74 GRS",
+    "category": "Desodorante",
+    "principio_activo": "Aluminio zirconio tetrachlorohydrex gly",
+    "descripcion": "Desodorante en barra para control de sudor y olor corporal, formulado para uso diario.",
+    "image_url": "/uploads/products/desodorante_degree_m_74_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.6,
+        "price": 30.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-3EB60F6E9D5C"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:26.290835",
+    "updated_at": "2026-04-20T08:28:26.290835"
+  },
+  {
+    "_id": "desodorante_dove_barra_m_50_grs",
+    "name": "DESODORANTE DOVE BARRA M 50 GRS",
+    "category": "Desodorante",
+    "principio_activo": "No especificado",
+    "descripcion": "Desodorante en barra para uso personal, con presentación de 50 gramos, diseñado para controlar el olor corporal y proporcionar frescura.",
+    "image_url": "/uploads/products/desodorante_dove_barra_m_50_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 22.5,
+        "price": 33.0,
+        "profit_percent": 0.32,
+        "sku": "SKU-991292C67F91"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:29.278193",
+    "updated_at": "2026-04-20T08:28:29.278193"
+  },
+  {
+    "_id": "desodorante_dove_spray_169_ml_granada",
+    "name": "DESODORANTE DOVE SPRAY 169 ML GRANADA",
+    "category": "Desodorante",
+    "principio_activo": "No especificado",
+    "descripcion": "Desodorante en spray Dove con fragancia de granada, presentación de 169 ml, diseñado para proporcionar protección contra el mal olor y mantener la frescura durante todo el día.",
+    "image_url": "/uploads/products/desodorante_dove_spray_169_ml_granada.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 21.0,
+        "price": 33.0,
+        "profit_percent": 0.36,
+        "sku": "SKU-3CB40E9CF31F"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:32.163872",
+    "updated_at": "2026-04-20T08:28:32.163872"
+  },
+  {
+    "_id": "desodorante_dove_spray_169_ml_original",
+    "name": "DESODORANTE DOVE SPRAY 169 ML ORIGINAL",
+    "category": "Desodorante",
+    "principio_activo": "No especificado",
+    "descripcion": "Desodorante en spray Dove, presentación de 169 ml, fórmula original diseñada para proporcionar protección contra el mal olor y mantener la piel fresca.",
+    "image_url": "/uploads/products/desodorante_dove_spray_169_ml_original.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 21.75,
+        "price": 33.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-F549FB79E1B0"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:37.029247",
+    "updated_at": "2026-04-20T08:28:37.029247"
+  },
+  {
+    "_id": "desodorante_nivea_rollon_beauty_touch",
+    "name": "DESODORANTE NIVEA ROLL-ON BEAUTY TOUCH",
+    "category": "Desodorante",
+    "principio_activo": "Clorhidrato de aluminio",
+    "descripcion": "Desodorante roll-on que proporciona protección contra el mal olor y la transpiración, con una fórmula suave para la piel y un aroma fresco.",
+    "image_url": "/uploads/products/desodorante_nivea_rollon_beauty_touch.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.08,
+        "price": 16.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-1FD168CC70AC"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:39.896786",
+    "updated_at": "2026-04-20T08:28:39.896786"
+  },
+  {
+    "_id": "desodorante_nivea_rollon_pearl__beauty",
+    "name": "DESODORANTE NIVEA ROLL-ON PEARL & BEAUTY",
+    "category": "Desodorante",
+    "principio_activo": "Clorhidrato de aluminio",
+    "descripcion": "Desodorante roll-on que proporciona protección contra el mal olor y el sudor, con una fórmula suave que cuida la piel y ofrece una fragancia fresca y duradera.",
+    "image_url": "/uploads/products/desodorante_nivea_rollon_pearl__beauty.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.08,
+        "price": 16.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-D55F7F63BF14"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:42.536144",
+    "updated_at": "2026-04-20T08:28:42.536144"
+  },
+  {
+    "_id": "desodorante_old_spice_85_grs",
+    "name": "DESODORANTE OLD SPICE 85 GRS",
+    "category": "Desodorante",
+    "principio_activo": "No especificado",
+    "descripcion": "Desodorante en presentación de 85 gramos de la marca Old Spice, utilizado para controlar el olor corporal.",
+    "image_url": "/uploads/products/desodorante_old_spice_85_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.5,
+        "price": 38.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-2689330B14B0"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:45.188461",
+    "updated_at": "2026-04-20T08:28:45.188461"
+  },
+  {
+    "_id": "desodorante_secret_73_grs_mujer",
+    "name": "DESODORANTE SECRET 73 GRS MUJER",
+    "category": "Desodorante",
+    "principio_activo": "No especificado",
+    "descripcion": "Desodorante para mujer en presentación de 73 gramos, diseñado para controlar el olor corporal y proporcionar frescura.",
+    "image_url": "/uploads/products/desodorante_secret_73_grs_mujer.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.0,
+        "price": 32.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-20FEA24ACA66"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:47.768141",
+    "updated_at": "2026-04-20T08:28:47.768141"
+  },
+  {
+    "_id": "dulces_jolly_rancher",
+    "name": "DULCES JOLLY RANCHER",
+    "category": "Confitería",
+    "principio_activo": "Ninguno",
+    "descripcion": "Dulces Jolly Rancher son caramelos duros con sabores frutales intensos, diseñados para el consumo como golosinas y no tienen propiedades farmacéuticas.",
+    "image_url": "/uploads/products/dulces_jolly_rancher.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.29,
+        "price": 5.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-5CA64BA365C9"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:50.638264",
+    "updated_at": "2026-04-20T08:28:50.638264"
+  },
+  {
+    "_id": "dulces_menta",
+    "name": "DULCES MENTA",
+    "category": "Complemento alimenticio",
+    "principio_activo": "Mentol",
+    "descripcion": "DULCES MENTA son caramelos con sabor a menta que ayudan a refrescar el aliento y pueden aliviar la irritación leve de garganta.",
+    "image_url": "/uploads/products/dulces_menta.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.94,
+        "price": 5.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-286A39C0C60F"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:53.345458",
+    "updated_at": "2026-04-20T08:28:53.345458"
+  },
+  {
+    "_id": "gomitas__bolitas_azucar",
+    "name": "GOMITAS  BOLITAS AZUCAR",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "No especificado",
+    "descripcion": "Gomitas en forma de bolitas azucaradas, generalmente utilizadas como suplemento vitamínico o para el alivio de síntomas menores, dependiendo de su formulación específica.",
+    "image_url": "/uploads/products/gomitas__bolitas_azucar.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-54F8D57D255B"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:56.051663",
+    "updated_at": "2026-04-20T08:28:56.051663"
+  },
+  {
+    "_id": "gomitas__huevitos",
+    "name": "GOMITAS  HUEVITOS",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "Gomitas con forma de huevitos diseñadas para complementar la ingesta diaria de vitaminas y minerales, especialmente formuladas para niños.",
+    "image_url": "/uploads/products/gomitas__huevitos.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-55C465D43FAB"
+      }
+    ],
+    "created_at": "2026-04-20T08:28:59.157128",
+    "updated_at": "2026-04-20T08:28:59.157128"
+  },
+  {
+    "_id": "gomitas__mangitos",
+    "name": "GOMITAS  MANGITOS",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "Gomitas masticables con sabor a mango que aportan vitaminas y minerales para complementar la dieta diaria.",
+    "image_url": "/uploads/products/gomitas__mangitos.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-D807E9679E2F"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:03.309761",
+    "updated_at": "2026-04-20T08:29:03.309761"
+  },
+  {
+    "_id": "gomitas_culebritas",
+    "name": "GOMITAS CULEBRITAS",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "Gomitas con forma de culebritas diseñadas para complementar la ingesta diaria de vitaminas y minerales, especialmente formuladas para niños.",
+    "image_url": "/uploads/products/gomitas_culebritas.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-04EE4AEE51F7"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:06.374815",
+    "updated_at": "2026-04-20T08:29:06.374815"
+  },
+  {
+    "_id": "gomitas_donitas",
+    "name": "GOMITAS DONITAS",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "GOMITAS DONITAS son suplementos masticables en forma de gomitas que contienen una combinación de vitaminas y minerales diseñados para apoyar la salud general y el bienestar.",
+    "image_url": "/uploads/products/gomitas_donitas.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-66F5EC775718"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:09.043817",
+    "updated_at": "2026-04-20T08:29:09.043817"
+  },
+  {
+    "_id": "gomitas_moritas",
+    "name": "GOMITAS MORITAS",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "No especificado",
+    "descripcion": "Gomitas Moritas son un suplemento alimenticio en forma de gomitas, generalmente utilizadas para complementar la dieta con vitaminas o nutrientes específicos. La composición exacta y el principio activo pueden variar según el fabricante.",
+    "image_url": "/uploads/products/gomitas_moritas.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-6536A95A8529"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:11.950386",
+    "updated_at": "2026-04-20T08:29:11.950386"
+  },
+  {
+    "_id": "gomitas_moritas_celeste",
+    "name": "GOMITAS MORITAS CELESTE",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "Gomitas masticables con sabor a moras, diseñadas para complementar la ingesta diaria de vitaminas y minerales esenciales para el bienestar general.",
+    "image_url": "/uploads/products/gomitas_moritas_celeste.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.06,
+        "price": 5.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-7F81647B61FD"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:15.670706",
+    "updated_at": "2026-04-20T08:29:15.670706"
+  },
+  {
+    "_id": "gomitas_ositos",
+    "name": "GOMITAS OSITOS",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "Gomitas con forma de ositos que contienen vitaminas y minerales para complementar la dieta, especialmente diseñadas para niños.",
+    "image_url": "/uploads/products/gomitas_ositos.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-A9D64853CD9E"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:19.057706",
+    "updated_at": "2026-04-20T08:29:19.057706"
+  },
+  {
+    "_id": "gomitas_tiburones",
+    "name": "GOMITAS TIBURONES",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "Gomitas con forma de tiburón que contienen vitaminas y minerales para complementar la dieta y apoyar la salud general.",
+    "image_url": "/uploads/products/gomitas_tiburones.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.32,
+        "price": 14.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-992523F2102E"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:21.651338",
+    "updated_at": "2026-04-20T08:29:21.651338"
+  },
+  {
+    "_id": "hilo_dental_colgate",
+    "name": "HILO DENTAL COLGATE",
+    "category": "Higiene bucal",
+    "principio_activo": "N/A",
+    "descripcion": "Hilo dental Colgate diseñado para eliminar la placa y restos de alimentos entre los dientes, ayudando a mantener una buena salud bucal.",
+    "image_url": "/uploads/products/hilo_dental_colgate.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.5,
+        "price": 29.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-CB7C3A806435"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:24.329930",
+    "updated_at": "2026-04-20T08:29:24.329930"
+  },
+  {
+    "_id": "hilo_dental_oral_b",
+    "name": "HILO DENTAL ORAL B",
+    "category": "Higiene bucal",
+    "principio_activo": "N/A",
+    "descripcion": "Hilo dental para la limpieza interdental, ayuda a eliminar la placa y restos de alimentos entre los dientes, mejorando la salud bucal.",
+    "image_url": "/uploads/products/hilo_dental_oral_b.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.67,
+        "price": 28.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-FF98F82F9C49"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:27.015475",
+    "updated_at": "2026-04-20T08:29:27.015475"
+  },
+  {
+    "_id": "hisopos_x_100",
+    "name": "HISOPOS X 100",
+    "category": "Material de laboratorio",
+    "principio_activo": "No aplica",
+    "descripcion": "Hisopos estériles utilizados para la recolección de muestras en procedimientos médicos y de laboratorio.",
+    "image_url": "/uploads/products/hisopos_x_100.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.16,
+        "price": 5.0,
+        "profit_percent": 0.77,
+        "sku": "SKU-2AA130CE6566"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:29.542349",
+    "updated_at": "2026-04-20T08:29:29.542349"
+  },
+  {
+    "_id": "jabon_dove_135_grs",
+    "name": "JABON DOVE 135 GRS",
+    "category": "Higiene personal",
+    "principio_activo": "No aplica",
+    "descripcion": "Jabón en barra Dove de 135 gramos, diseñado para limpiar y cuidar la piel, proporcionando hidratación y suavidad.",
+    "image_url": "/uploads/products/jabon_dove_135_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 15.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-2C95F7CC5A95"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:32.406104",
+    "updated_at": "2026-04-20T08:29:32.406104"
+  },
+  {
+    "_id": "lasar_mimo_tubo_120_grs",
+    "name": "LASAR MIMO TUBO 120 GRS",
+    "category": "Medicamento dermatológico",
+    "principio_activo": "Miconazol",
+    "descripcion": "Crema antifúngica utilizada para tratar infecciones por hongos en la piel.",
+    "image_url": "/uploads/products/lasar_mimo_tubo_120_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.5,
+        "price": 25.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-62FBBC2F081C"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:34.879855",
+    "updated_at": "2026-04-20T08:29:34.879855"
+  },
+  {
+    "_id": "lima_para_uñas",
+    "name": "LIMA PARA UÑAS",
+    "category": "Cuidado personal",
+    "principio_activo": "No aplica",
+    "descripcion": "Herramienta abrasiva utilizada para limar y dar forma a las uñas.",
+    "image_url": "/uploads/products/lima_para_uñas.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.33,
+        "price": 0.5,
+        "profit_percent": 0.34,
+        "sku": "SKU-E6185A2C198E"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:37.254888",
+    "updated_at": "2026-04-20T08:29:37.254888"
+  },
+  {
+    "_id": "limoncho_120_gramos_caja_x_10",
+    "name": "LIMONCHO 120 GRAMOS CAJA X 10",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Extracto de limoncho",
+    "descripcion": "Producto en caja con 10 unidades de 120 gramos cada una, utilizado como suplemento alimenticio a base de extracto natural de limoncho.",
+    "image_url": "/uploads/products/limoncho_120_gramos_caja_x_10.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.0,
+        "price": 3.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-5D852D16C5E0"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:40.238097",
+    "updated_at": "2026-04-20T08:29:40.238097"
+  },
+  {
+    "_id": "mamon_latex_unidad",
+    "name": "MAMON LATEX UNIDAD",
+    "category": "Materiales de laboratorio",
+    "principio_activo": "Látex natural",
+    "descripcion": "MAMON LATEX UNIDAD es un producto de látex natural utilizado comúnmente en aplicaciones médicas y de laboratorio, como guantes o cubiertas protectoras, proporcionando elasticidad y resistencia.",
+    "image_url": "/uploads/products/mamon_latex_unidad.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.93,
+        "price": 2.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-7A359CF0E8D4"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:42.713370",
+    "updated_at": "2026-04-20T08:29:42.713370"
+  },
+  {
+    "_id": "mamon_silicon_unidad",
+    "name": "MAMON SILICON UNIDAD",
+    "category": "Dispositivo médico",
+    "principio_activo": "Silicona",
+    "descripcion": "MAMON SILICON UNIDAD es un protector o chupete de silicona utilizado para bebés, diseñado para calmar y proteger el pezón durante la lactancia.",
+    "image_url": "/uploads/products/mamon_silicon_unidad.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.01,
+        "price": 2.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-2DF1DEB4ADAB"
+      }
+    ],
+    "created_at": "2026-04-20T08:29:57.716894",
+    "updated_at": "2026-04-20T08:29:57.716894"
+  },
+  {
+    "_id": "nuez_de_nogal",
+    "name": "NUEZ DE NOGAL",
+    "category": "Suplemento natural",
+    "principio_activo": "Juglans regia (Nuez de nogal)",
+    "descripcion": "La nuez de nogal es un producto natural utilizado principalmente por sus propiedades antioxidantes y antiinflamatorias. Se emplea para mejorar la salud cardiovascular, regular el tránsito intestinal y como apoyo en tratamientos dermatológicos debido a sus compuestos bioactivos.",
+    "image_url": "/uploads/products/nuez_de_nogal.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.5,
+        "price": 12.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-EB68630C65D5"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:00.714468",
+    "updated_at": "2026-04-20T08:30:00.714468"
+  },
+  {
+    "_id": "pacha_evenflo__y_baby_farlin_2_onz",
+    "name": "PACHA EVENFLO  Y BABY FARLIN 2 ONZ",
+    "category": "Alimentación infantil",
+    "principio_activo": "No aplica",
+    "descripcion": "Biberón para alimentación de bebés, diseñado para facilitar la alimentación con un flujo adecuado y materiales seguros para el bebé.",
+    "image_url": "/uploads/products/pacha_evenflo__y_baby_farlin_2_onz.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.34,
+        "price": 13.0,
+        "profit_percent": 0.36,
+        "sku": "SKU-7A5079903C14"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:14.839659",
+    "updated_at": "2026-04-20T08:30:14.839659"
+  },
+  {
+    "_id": "pacha_evenflo_8_onz",
+    "name": "PACHA EVENFLO 8 ONZ",
+    "category": "Suplemento nutricional",
+    "principio_activo": "No especificado",
+    "descripcion": "PACHA EVENFLO 8 ONZ es un suplemento nutricional en presentación líquida de 8 onzas, diseñado para apoyar la salud y el bienestar general.",
+    "image_url": "/uploads/products/pacha_evenflo_8_onz.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.2,
+        "price": 17.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-70A657180E60"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:17.622065",
+    "updated_at": "2026-04-20T08:30:17.622065"
+  },
+  {
+    "_id": "pacha_firts_essential_4_onz",
+    "name": "PACHA FIRTS ESSENTIAL 4 ONZ",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto suplementario en presentación de 4 onzas, posiblemente utilizado para apoyo nutricional o bienestar general.",
+    "image_url": "/uploads/products/pacha_firts_essential_4_onz.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.0,
+        "price": 18.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-465AA1A0C460"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:20.428891",
+    "updated_at": "2026-04-20T08:30:20.428891"
+  },
+  {
+    "_id": "pacha_firts_essential_5_onz",
+    "name": "PACHA FIRTS ESSENTIAL 5 ONZ",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "No especificado",
+    "descripcion": "PACHA FIRTS ESSENTIAL 5 ONZ es un suplemento alimenticio que proporciona nutrientes esenciales para el bienestar general.",
+    "image_url": "/uploads/products/pacha_firts_essential_5_onz.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 16.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-39285BF7F981"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:23.112487",
+    "updated_at": "2026-04-20T08:30:23.113486"
+  },
+  {
+    "_id": "pacha_mum_love_3_onz",
+    "name": "PACHA MUM LOVE 3 ONZ",
+    "category": "Suplemento nutricional",
+    "principio_activo": "No especificado",
+    "descripcion": "PACHA MUM LOVE 3 ONZ es un producto que generalmente se utiliza como suplemento nutricional, aunque no se dispone de información detallada sobre sus ingredientes activos específicos.",
+    "image_url": "/uploads/products/pacha_mum_love_3_onz.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.95,
+        "price": 13.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-A0482B40B805"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:26.195491",
+    "updated_at": "2026-04-20T08:30:26.195491"
+  },
+  {
+    "_id": "papillon_bolsa_x_11",
+    "name": "PAPILLON BOLSA X 11",
+    "category": "Producto farmacéutico",
+    "principio_activo": "No especificado",
+    "descripcion": "PAPILLON BOLSA X 11 es un producto farmacéutico presentado en una bolsa con 11 unidades. No se dispone de información adicional sobre su principio activo o indicaciones específicas.",
+    "image_url": "/uploads/products/papillon_bolsa_x_11.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.03,
+        "price": 14.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-4E920E40FE68"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:28.998628",
+    "updated_at": "2026-04-20T08:30:28.998628"
+  },
+  {
+    "_id": "peine_fino",
+    "name": "PEINE FINO",
+    "category": "Accesorios para el cuidado personal",
+    "principio_activo": "N/A",
+    "descripcion": "Peine fino utilizado para desenredar y peinar el cabello, especialmente útil para eliminar piojos y liendres.",
+    "image_url": "/uploads/products/peine_fino.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.5,
+        "price": 1.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-89A5424C8980"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:31.903563",
+    "updated_at": "2026-04-20T08:30:31.903563"
+  },
+  {
+    "_id": "picafresas_bolsa_x_100",
+    "name": "PICAFRESAS BOLSA X 100",
+    "category": "Antihistamínicos",
+    "principio_activo": "Clorfeniramina",
+    "descripcion": "PICAFRESAS BOLSA X 100 es un medicamento antihistamínico utilizado para aliviar síntomas de alergias como picazón, estornudos y secreción nasal.",
+    "image_url": "/uploads/products/picafresas_bolsa_x_100.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.35,
+        "price": 1.0,
+        "profit_percent": 0.65,
+        "sku": "SKU-CBD8131EC46C"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:34.709419",
+    "updated_at": "2026-04-20T08:30:34.709419"
+  },
+  {
+    "_id": "protectores_kotex_x_20",
+    "name": "PROTECTORES KOTEX X 20",
+    "category": "Productos de higiene femenina",
+    "principio_activo": "No aplica",
+    "descripcion": "Protectores diarios Kotex, paquete con 20 unidades, diseñados para brindar comodidad y protección durante el día.",
+    "image_url": "/uploads/products/protectores_kotex_x_20.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.0,
+        "price": 12.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-39F2BC7309E1"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:37.588929",
+    "updated_at": "2026-04-20T08:30:37.588929"
+  },
+  {
+    "_id": "rellerindos_mix_bolsa_x_80",
+    "name": "RELLERINDOS MIX BOLSA X 80",
+    "category": "Suplemento dietético",
+    "principio_activo": "Fibra dietética (mezcla de fibras)",
+    "descripcion": "RELLERINDOS MIX BOLSA X 80 es un suplemento dietético que contiene una mezcla de fibras destinada a mejorar la función intestinal y promover la salud digestiva.",
+    "image_url": "/uploads/products/rellerindos_mix_bolsa_x_80.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.5,
+        "price": 1.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-9FF4E31241E7"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:40.418763",
+    "updated_at": "2026-04-20T08:30:40.418763"
+  },
+  {
+    "_id": "ring_pop",
+    "name": "RING POP",
+    "category": "Dulce / Caramelo comestible",
+    "principio_activo": "No aplica",
+    "descripcion": "RING POP es un caramelo en forma de anillo comestible, diseñado para ser consumido como un dulce y no tiene propiedades farmacéuticas.",
+    "image_url": "/uploads/products/ring_pop.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.08,
+        "price": 5.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-CB9ED5DD9AD3"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:43.204519",
+    "updated_at": "2026-04-20T08:30:43.204519"
+  },
+  {
+    "_id": "shampoo_tio_nacho_415_ml_aclarante",
+    "name": "SHAMPOO TIO NACHO 415 ML ACLARANTE",
+    "category": "Cuidado personal",
+    "principio_activo": "Extracto de hierbas naturales",
+    "descripcion": "Shampoo aclarador de 415 ml formulado con ingredientes naturales para limpiar y aclarar el cabello, proporcionando brillo y suavidad.",
+    "image_url": "/uploads/products/shampoo_tio_nacho_415_ml_aclarante.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 36.0,
+        "price": 61.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-7261272ADA60"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:45.767558",
+    "updated_at": "2026-04-20T08:30:45.767558"
+  },
+  {
+    "_id": "shampoo_tio_nacho_415_ml_anti_edad",
+    "name": "SHAMPOO TIO NACHO 415 ML ANTI EDAD",
+    "category": "Cuidado capilar",
+    "principio_activo": "Extracto de sábila y aceite de argán",
+    "descripcion": "Shampoo anti edad que ayuda a fortalecer y nutrir el cabello, promoviendo su crecimiento saludable y reduciendo la caída.",
+    "image_url": "/uploads/products/shampoo_tio_nacho_415_ml_anti_edad.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 37.0,
+        "price": 61.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-E89402E6BD97"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:48.659471",
+    "updated_at": "2026-04-20T08:30:48.659471"
+  },
+  {
+    "_id": "shampoo_tio_nacho_415_ml_engrosador",
+    "name": "SHAMPOO TIO NACHO 415 ML ENGROSADOR",
+    "category": "Cuidado capilar",
+    "principio_activo": "Extracto de hierbas naturales",
+    "descripcion": "Shampoo engrosador que ayuda a fortalecer y dar volumen al cabello, formulado con ingredientes naturales para mejorar la salud capilar.",
+    "image_url": "/uploads/products/shampoo_tio_nacho_415_ml_engrosador.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 38.0,
+        "price": 61.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-BD21E72A6939"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:53.221907",
+    "updated_at": "2026-04-20T08:30:53.221907"
+  },
+  {
+    "_id": "shampoo_tio_nacho_415_ml_herbolaria",
+    "name": "SHAMPOO TIO NACHO 415 ML HERBOLARIA",
+    "category": "Cuidado personal",
+    "principio_activo": "Extractos naturales de hierbas",
+    "descripcion": "Shampoo formulado con ingredientes naturales para fortalecer y nutrir el cabello, promoviendo su salud y brillo.",
+    "image_url": "/uploads/products/shampoo_tio_nacho_415_ml_herbolaria.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 38.0,
+        "price": 61.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-C49B72F95EB0"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:56.035569",
+    "updated_at": "2026-04-20T08:30:56.035569"
+  },
+  {
+    "_id": "shampoo_tio_nacho_aloe_415_ml",
+    "name": "SHAMPOO TIO NACHO ALOE 415 ML",
+    "category": "Cuidado personal",
+    "principio_activo": "Aloe vera",
+    "descripcion": "Shampoo con aloe vera diseñado para limpiar y nutrir el cabello, proporcionando hidratación y fortalecimiento.",
+    "image_url": "/uploads/products/shampoo_tio_nacho_aloe_415_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 38.0,
+        "price": 61.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-6174FCE04A70"
+      }
+    ],
+    "created_at": "2026-04-20T08:30:58.487601",
+    "updated_at": "2026-04-20T08:30:58.487601"
+  },
+  {
+    "_id": "shampoo_tio_nacho_coco_415_ml",
+    "name": "SHAMPOO TIO NACHO COCO 415 ML",
+    "category": "Cuidado capilar",
+    "principio_activo": "Extracto de coco",
+    "descripcion": "Shampoo formulado con extracto de coco que ayuda a nutrir y fortalecer el cabello, proporcionando hidratación y suavidad.",
+    "image_url": "/uploads/products/shampoo_tio_nacho_coco_415_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 38.0,
+        "price": 61.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-F34DBF86C3EF"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:01.477952",
+    "updated_at": "2026-04-20T08:31:01.477952"
+  },
+  {
+    "_id": "shampoo_tio_nacho_frutos_rojos_415_ml",
+    "name": "SHAMPOO TIO NACHO FRUTOS ROJOS 415 ML",
+    "category": "Cuidado personal - Shampoo",
+    "principio_activo": "Extracto de frutos rojos",
+    "descripcion": "Shampoo Tío Nacho con extracto de frutos rojos, diseñado para limpiar y nutrir el cabello, aportando frescura y un aroma frutal.",
+    "image_url": "/uploads/products/shampoo_tio_nacho_frutos_rojos_415_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 36.0,
+        "price": 61.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-763EA8CD97F4"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:04.187875",
+    "updated_at": "2026-04-20T08:31:04.188876"
+  },
+  {
+    "_id": "shampoo_tio_nacho_ginseng_415_ml",
+    "name": "SHAMPOO TIO NACHO GINSENG 415 ML",
+    "category": "Cuidado personal - Shampoo",
+    "principio_activo": "Ginseng",
+    "descripcion": "Shampoo formulado con extracto de ginseng que ayuda a fortalecer el cabello y promover su crecimiento saludable.",
+    "image_url": "/uploads/products/shampoo_tio_nacho_ginseng_415_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 38.0,
+        "price": 61.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-9D4A72F3E9CA"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:11.765355",
+    "updated_at": "2026-04-20T08:31:11.765355"
+  },
+  {
+    "_id": "shampoo_tio_nacho_purif_cel_madres_415_ml",
+    "name": "SHAMPOO TIO NACHO PURIF CEL MADRES 415 ML",
+    "category": "Cuidado capilar",
+    "principio_activo": "Extracto de hoja de aguacate y extracto de hoja de nogal",
+    "descripcion": "Shampoo purificante para madres, formulado para limpiar profundamente el cuero cabelludo y fortalecer el cabello, con ingredientes naturales que ayudan a mantener el equilibrio y la salud capilar.",
+    "image_url": "/uploads/products/shampoo_tio_nacho_purif_cel_madres_415_ml.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 38.0,
+        "price": 61.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-8DB491C9B252"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:15.022518",
+    "updated_at": "2026-04-20T08:31:15.022518"
+  },
+  {
+    "_id": "splenda_bolsa_de_100",
+    "name": "SPLENDA BOLSA DE 100",
+    "category": "Edulcorante",
+    "principio_activo": "Sucralosa",
+    "descripcion": "Splenda es un edulcorante artificial utilizado como sustituto del azúcar, ideal para personas que buscan reducir su ingesta calórica o controlar sus niveles de glucosa en sangre. La presentación en bolsa de 100 unidades facilita su uso diario en bebidas y alimentos.",
+    "image_url": "/uploads/products/splenda_bolsa_de_100.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.5,
+        "price": 30.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-875184085B7D"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:18.404141",
+    "updated_at": "2026-04-20T08:31:18.404141"
+  },
+  {
+    "_id": "splenda_bolsa_de_50",
+    "name": "SPLENDA BOLSA DE 50",
+    "category": "Edulcorante",
+    "principio_activo": "Sucralosa",
+    "descripcion": "Splenda es un edulcorante artificial utilizado como sustituto del azúcar, ideal para personas que buscan reducir su ingesta calórica o controlar sus niveles de glucosa. La presentación en bolsa de 50 unidades facilita su uso en bebidas y alimentos.",
+    "image_url": "/uploads/products/splenda_bolsa_de_50.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.75,
+        "price": 16.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-A8A0CB0AD8D3"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:21.265838",
+    "updated_at": "2026-04-20T08:31:21.265838"
+  },
+  {
+    "_id": "stevia_bolsa_x_100",
+    "name": "STEVIA BOLSA X 100",
+    "category": "Edulcorante",
+    "principio_activo": "Esteviósidos",
+    "descripcion": "Producto endulzante natural en bolsa, elaborado a base de extracto de stevia, utilizado como sustituto del azúcar.",
+    "image_url": "/uploads/products/stevia_bolsa_x_100.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.0,
+        "price": 22.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-E8241AA179FB"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:24.274740",
+    "updated_at": "2026-04-20T08:31:24.274740"
+  },
+  {
+    "_id": "stevia_bolsa_x_50",
+    "name": "STEVIA BOLSA X 50",
+    "category": "Edulcorante",
+    "principio_activo": "Stevia",
+    "descripcion": "Producto endulzante natural en bolsa, contiene 50 unidades.",
+    "image_url": "/uploads/products/stevia_bolsa_x_50.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.5,
+        "price": 12.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-24C7FB4CD816"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:26.849242",
+    "updated_at": "2026-04-20T08:31:26.849242"
+  },
+  {
+    "_id": "sweetener_bolsa_x_100",
+    "name": "SWEETENER BOLSA X 100",
+    "category": "Edulcorante",
+    "principio_activo": "Sucralosa",
+    "descripcion": "Producto utilizado como sustituto del azúcar para endulzar alimentos y bebidas sin aportar calorías.",
+    "image_url": "/uploads/products/sweetener_bolsa_x_100.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.5,
+        "price": 15.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-A74A57ECE4E6"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:29.642586",
+    "updated_at": "2026-04-20T08:31:29.642586"
+  },
+  {
+    "_id": "sweetener_bolsa_x_50",
+    "name": "SWEETENER BOLSA X 50",
+    "category": "Edulcorante",
+    "principio_activo": "Sucralosa",
+    "descripcion": "Producto utilizado como sustituto del azúcar para endulzar alimentos y bebidas sin aportar calorías.",
+    "image_url": "/uploads/products/sweetener_bolsa_x_50.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.25,
+        "price": 8.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-A7F71EA27494"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:32.474044",
+    "updated_at": "2026-04-20T08:31:32.474044"
+  },
+  {
+    "_id": "tintes",
+    "name": "TINTES",
+    "category": "Cosméticos y productos para el cuidado personal",
+    "principio_activo": "Varía según el tipo de tinte (puede incluir parafenilendiamina, amoníaco, peróxido de hidrógeno, entre otros)",
+    "descripcion": "Los tintes son productos utilizados para cambiar el color del cabello. Contienen sustancias químicas que penetran en la cutícula del cabello para modificar su pigmentación, ya sea para cubrir canas, cambiar el tono natural o crear efectos de coloración.",
+    "image_url": "/uploads/products/tintes.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 23.0,
+        "price": 41.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-BEC417ECED67"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:35.781111",
+    "updated_at": "2026-04-20T08:31:35.781111"
+  },
+  {
+    "_id": "toalla_extra_larga_noct_con_alas_x_8",
+    "name": "TOALLA EXTRA LARGA NOCT CON ALAS X 8",
+    "category": "Toallas sanitarias",
+    "principio_activo": null,
+    "descripcion": "Toalla sanitaria extra larga para uso nocturno con alas, paquete de 8 unidades.",
+    "image_url": "/uploads/products/toalla_extra_larga_noct_con_alas_x_8.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.33,
+        "price": 13.0,
+        "profit_percent": 0.36,
+        "sku": "SKU-BE139D329FB7"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:38.497698",
+    "updated_at": "2026-04-20T08:31:38.497698"
+  },
+  {
+    "_id": "toalla_humeda_family_choice",
+    "name": "TOALLA HUMEDA FAMILY CHOICE",
+    "category": "Higiene personal",
+    "principio_activo": "No aplica",
+    "descripcion": "Toalla húmeda para limpieza y cuidado personal, ideal para uso familiar.",
+    "image_url": "/uploads/products/toalla_humeda_family_choice.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.16,
+        "price": 13.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-A6AC13CBAF66"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:41.144298",
+    "updated_at": "2026-04-20T08:31:41.144298"
+  },
+  {
+    "_id": "toalla_saba_buenas_noches_8",
+    "name": "TOALLA SABA BUENAS NOCHES 8",
+    "category": "Toallas higiénicas",
+    "principio_activo": null,
+    "descripcion": "Toallas sanitarias Saba Buenas Noches, paquete de 8 unidades, diseñadas para uso nocturno con alta absorción y protección.",
+    "image_url": "/uploads/products/toalla_saba_buenas_noches_8.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.64,
+        "price": 13.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-B395272DDADB"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:43.958756",
+    "updated_at": "2026-04-20T08:31:43.958756"
+  },
+  {
+    "_id": "toalla_saba_ui_dia_caja_x_6_paquete_x_12",
+    "name": "TOALLA SABA UI DIA CAJA X 6 PAQUETE X 12",
+    "category": "Higiene personal",
+    "principio_activo": "No aplica",
+    "descripcion": "Toallas sanitarias Saba, uso diario, presentadas en caja con 6 paquetes de 12 unidades cada uno.",
+    "image_url": "/uploads/products/toalla_saba_ui_dia_caja_x_6_paquete_x_12.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.8,
+        "price": 18.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-83D13BB8A155"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:46.925483",
+    "updated_at": "2026-04-20T08:31:46.925483"
+  },
+  {
+    "_id": "toallas_facial_jaloma_x_100",
+    "name": "TOALLAS FACIAL JALOMA X 100",
+    "category": "Higiene personal",
+    "principio_activo": "N/A",
+    "descripcion": "Toallas faciales desechables de la marca Jaloma, presentadas en paquete de 100 unidades, utilizadas para la limpieza y cuidado facial.",
+    "image_url": "/uploads/products/toallas_facial_jaloma_x_100.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.75,
+        "price": 13.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-378213092F86"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:49.487984",
+    "updated_at": "2026-04-20T08:31:49.487984"
+  },
+  {
+    "_id": "toallas_facial_swisspers_x_100",
+    "name": "TOALLAS FACIAL SWISSPERS X 100",
+    "category": "Higiene personal",
+    "principio_activo": "N/A",
+    "descripcion": "Toallas faciales desechables Swisspers, paquete con 100 unidades, diseñadas para limpieza y cuidado facial.",
+    "image_url": "/uploads/products/toallas_facial_swisspers_x_100.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.5,
+        "price": 28.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-A03DE33FDDE8"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:52.032348",
+    "updated_at": "2026-04-20T08:31:52.032348"
+  },
+  {
+    "_id": "vaselina_240_grs",
+    "name": "VASELINA 240 GRS",
+    "category": "Emoliente y protector cutáneo",
+    "principio_activo": "Petrolato (Vaselina)",
+    "descripcion": "La vaselina es una sustancia semisólida derivada del petróleo que se utiliza como emoliente para proteger y humectar la piel, formando una barrera que evita la pérdida de humedad.",
+    "image_url": "/uploads/products/vaselina_240_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.85,
+        "price": 27.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-C2CDB715C28E"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:55.353227",
+    "updated_at": "2026-04-20T08:31:55.353227"
+  },
+  {
+    "_id": "vaselina_blanca_bebe_jaloma_60_grs",
+    "name": "VASELINA BLANCA BEBE JALOMA 60 GRS",
+    "category": "Emoliente y protector cutáneo",
+    "principio_activo": "Vaselina blanca",
+    "descripcion": "Producto utilizado para proteger y humectar la piel, especialmente en bebés, ayudando a prevenir la sequedad y la irritación.",
+    "image_url": "/uploads/products/vaselina_blanca_bebe_jaloma_60_grs.jpg",
+    "supplier": "TIENDA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.0,
+        "price": 13.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-6CFDEF3D0D0B"
+      }
+    ],
+    "created_at": "2026-04-20T08:31:58.363140",
+    "updated_at": "2026-04-20T08:31:58.363140"
+  }
+]

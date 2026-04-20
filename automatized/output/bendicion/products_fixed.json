@@ -1,0 +1,4055 @@
+[
+  {
+    "_id": "acetaminofen_mk_blist_x_10_caja_x_100",
+    "name": "ACETAMINOFEN MK BLIST X 10 CAJA X 100",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/acetaminofen_mk_blist_x_10_caja_x_100.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 8.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-EEA24E38955E"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:13.899432",
+    "updated_at": "2026-04-20T05:59:13.900402"
+  },
+  {
+    "_id": "acetaminofen_mk_gotas_fco_30_ml",
+    "name": "ACETAMINOFEN MK GOTAS FCO 30 ML",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/acetaminofen_mk_gotas_fco_30_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.0,
+        "price": 31.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-A7CAA8849042"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:16.341744",
+    "updated_at": "2026-04-20T05:59:16.341744"
+  },
+  {
+    "_id": "acetaminofen_mk_jbe_niños_120_mg_x_60_ml",
+    "name": "ACETAMINOFEN MK JBE NIÑOS 120 MG X 60 ML",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/acetaminofen_mk_jbe_niños_120_mg_x_60_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.3,
+        "price": 32.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-932B992712E9"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:17.999742",
+    "updated_at": "2026-04-20T05:59:17.999742"
+  },
+  {
+    "_id": "alcohol_120_ml_vesa_55_",
+    "name": "ALCOHOL 120 ML VESA 55 %",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/alcohol_120_ml_vesa_55_.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.53,
+        "price": 2.5,
+        "profit_percent": 0.39,
+        "sku": "SKU-85B1E0BA2625"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:19.652310",
+    "updated_at": "2026-04-20T05:59:19.652310"
+  },
+  {
+    "_id": "algodón_rollo_libra",
+    "name": "ALGODÓN ROLLO LIBRA",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/algodón_rollo_libra.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 23.0,
+        "price": 45.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-3FA1F730E934"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:21.608345",
+    "updated_at": "2026-04-20T05:59:21.608345"
+  },
+  {
+    "_id": "alka__ad_caja_x_72",
+    "name": "ALKA  AD CAJA X 72",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/alka__ad_caja_x_72.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.56,
+        "price": 1.25,
+        "profit_percent": 0.55,
+        "sku": "SKU-13EE418AE468"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:23.523453",
+    "updated_at": "2026-04-20T05:59:23.523453"
+  },
+  {
+    "_id": "alka_seltzer_disp_x_60",
+    "name": "ALKA SELTZER DISP X 60",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/alka_seltzer_disp_x_60.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.92,
+        "price": 1.5,
+        "profit_percent": 0.39,
+        "sku": "SKU-D8C974C84166"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:26.038044",
+    "updated_at": "2026-04-20T05:59:26.038044"
+  },
+  {
+    "_id": "anadent_caja__x_100_blist_x_4",
+    "name": "ANADENT CAJA  X 100 BLIST X 4",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/anadent_caja__x_100_blist_x_4.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.3,
+        "price": 2.25,
+        "profit_percent": 0.42,
+        "sku": "SKU-F83C0515BD15"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:27.557325",
+    "updated_at": "2026-04-20T05:59:27.557325"
+  },
+  {
+    "_id": "antigrip_am_gelcaps__caja_x_24",
+    "name": "ANTIGRIP A.M GELCAPS  CAJA X 24",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/antigrip_am_gelcaps__caja_x_24.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.92,
+        "price": 5.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-E0C438B53697"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:29.379372",
+    "updated_at": "2026-04-20T05:59:29.379372"
+  },
+  {
+    "_id": "antigrip_pm_gelcaps__caja_x_24",
+    "name": "ANTIGRIP P.M GELCAPS  CAJA X 24",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/antigrip_pm_gelcaps__caja_x_24.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.92,
+        "price": 5.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-BE0089A9FAA0"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:31.400102",
+    "updated_at": "2026-04-20T05:59:31.400102"
+  },
+  {
+    "_id": "artri_ajo_king__x_100_tab",
+    "name": "ARTRI AJO KING  X 100 TAB",
+    "category": "otros",
+    "principio_activo": "no especificado",
+    "descripcion": "sin descripcion",
+    "image_url": "/uploads/products/artri_ajo_king__x_100_tab.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 50.3,
+        "price": 85.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-E7AF65B82343"
+      }
+    ],
+    "created_at": "2026-04-20T05:59:33.180513",
+    "updated_at": "2026-04-20T05:59:33.180513"
+  },
+  {
+    "_id": "artri_king_caja_x_100_tabs",
+    "name": "ARTRI KING CAJA X 100 TABS",
+    "category": "Suplemento para la salud articular",
+    "principio_activo": "No especificado",
+    "descripcion": "ARTRI KING es un suplemento diseñado para apoyar la salud de las articulaciones. Se presenta en caja con 100 tabletas.",
+    "image_url": "/uploads/products/artri_king_caja_x_100_tabs.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 50.3,
+        "price": 85.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-5BC087398435"
+      }
+    ],
+    "created_at": "2026-04-20T06:00:48.484337",
+    "updated_at": "2026-04-20T06:00:48.484337"
+  },
+  {
+    "_id": "artribion_bebible_caja_x_10_fcos",
+    "name": "ARTRIBION BEBIBLE CAJA X 10 FCOS",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Colágeno hidrolizado, Ácido hialurónico, Condroitina, Glucosamina",
+    "descripcion": "ARTRIBION BEBIBLE es un suplemento alimenticio en forma líquida que ayuda a mantener la salud de las articulaciones, contribuyendo a la regeneración del cartílago y mejorando la movilidad articular.",
+    "image_url": "/uploads/products/artribion_bebible_caja_x_10_fcos.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.0,
+        "price": 40.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-803ACF6FE816"
+      }
+    ],
+    "created_at": "2026-04-20T06:00:52.895472",
+    "updated_at": "2026-04-20T06:00:52.895472"
+  },
+  {
+    "_id": "artribion_forte_fco_x_100_tabs",
+    "name": "ARTRIBION FORTE FCO X 100 TABS",
+    "category": "Medicamento para el tratamiento de enfermedades articulares",
+    "principio_activo": "Glucosamina y condroitina",
+    "descripcion": "ARTRIBION FORTE es un suplemento utilizado para aliviar los síntomas de la osteoartritis y mejorar la salud de las articulaciones. Contiene glucosamina y condroitina, que ayudan a mantener el cartílago articular y reducir el dolor y la inflamación.",
+    "image_url": "/uploads/products/artribion_forte_fco_x_100_tabs.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.3,
+        "price": 40.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-E856C2CCDB8A"
+      }
+    ],
+    "created_at": "2026-04-20T06:00:56.585387",
+    "updated_at": "2026-04-20T06:00:56.585387"
+  },
+  {
+    "_id": "artribion_vitaminado_blist_x_4_caja_x_20_sobres",
+    "name": "ARTRIBION VITAMINADO BLIST X 4 CAJA X 20 SOBRES",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "Producto en sobres diseñado para complementar la dieta con vitaminas y minerales, favoreciendo la salud articular y general.",
+    "image_url": "/uploads/products/artribion_vitaminado_blist_x_4_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.25,
+        "price": 5.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-667DA8538A15"
+      }
+    ],
+    "created_at": "2026-04-20T06:00:59.284714",
+    "updated_at": "2026-04-20T06:00:59.284714"
+  },
+  {
+    "_id": "ashwagandha_fco_x_100_vesa",
+    "name": "ASHWAGANDHA FCO X 100 VESA",
+    "category": "Suplemento herbal",
+    "principio_activo": "Ashwagandha",
+    "descripcion": "Suplemento a base de Ashwagandha, una planta utilizada tradicionalmente para reducir el estrés, mejorar la energía y promover el bienestar general.",
+    "image_url": "/uploads/products/ashwagandha_fco_x_100_vesa.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 38.3,
+        "price": 68.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-85F0436A2E6C"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:02.156505",
+    "updated_at": "2026-04-20T06:01:02.156505"
+  },
+  {
+    "_id": "axtar_ceftriaxona_1g",
+    "name": "AXTAR CEFTRIAXONA 1G",
+    "category": "Antibiótico",
+    "principio_activo": "Ceftriaxona",
+    "descripcion": "AXTAR CEFTRIAXONA 1G es un antibiótico de la clase de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas graves. Actúa inhibiendo la síntesis de la pared celular bacteriana, lo que conduce a la muerte de las bacterias.",
+    "image_url": "/uploads/products/axtar_ceftriaxona_1g.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.0,
+        "price": 60.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-0FDE937693E1"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:05.564322",
+    "updated_at": "2026-04-20T06:01:05.564322"
+  },
+  {
+    "_id": "azucar_leche_454_g",
+    "name": "AZUCAR LECHE 454 G",
+    "category": "Alimentos y suplementos",
+    "principio_activo": "No aplica",
+    "descripcion": "Producto alimenticio compuesto por azúcar y leche, presentado en un envase de 454 gramos.",
+    "image_url": "/uploads/products/azucar_leche_454_g.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.7,
+        "price": 8.0,
+        "profit_percent": 0.66,
+        "sku": "SKU-959B45B73D84"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:08.274848",
+    "updated_at": "2026-04-20T06:01:08.274848"
+  },
+  {
+    "_id": "bacaolina_jarabe_380_ml",
+    "name": "BACAOLINA JARABE 380 ML",
+    "category": "Jarabe",
+    "principio_activo": "Bacaolina",
+    "descripcion": "Jarabe de 380 ml utilizado para aliviar síntomas respiratorios, como tos y congestión.",
+    "image_url": "/uploads/products/bacaolina_jarabe_380_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.0,
+        "price": 30.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-83528AC346B0"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:11.486849",
+    "updated_at": "2026-04-20T06:01:11.486849"
+  },
+  {
+    "_id": "bebetina__blist_x_10_caja_x_100_tab",
+    "name": "BEBETINA  BLIST X 10 CAJA X 100 TAB",
+    "category": "Antihipertensivo",
+    "principio_activo": "Atenolol",
+    "descripcion": "BEBETINA es un medicamento que contiene atenolol, un betabloqueante utilizado para tratar la hipertensión arterial y otras afecciones cardiovasculares. Se presenta en tabletas, en cajas con 10 blísters de 10 tabletas cada uno.",
+    "image_url": "/uploads/products/bebetina__blist_x_10_caja_x_100_tab.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.55,
+        "price": 0.9,
+        "profit_percent": 0.39,
+        "sku": "SKU-7907BBD037CE"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:14.638431",
+    "updated_at": "2026-04-20T06:01:14.638431"
+  },
+  {
+    "_id": "beta_2_pan_kit_ampolla",
+    "name": "BETA 2 PAN KIT AMPOLLA",
+    "category": "Medicamento para el tratamiento de enfermedades respiratorias",
+    "principio_activo": "Salbutamol",
+    "descripcion": "BETA 2 PAN KIT AMPOLLA es un medicamento que contiene salbutamol, un broncodilatador beta-2 agonista utilizado para aliviar y prevenir el broncoespasmo en enfermedades como el asma y la enfermedad pulmonar obstructiva crónica (EPOC). Se presenta en ampollas para administración parenteral.",
+    "image_url": "/uploads/products/beta_2_pan_kit_ampolla.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 37.3,
+        "price": 63.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-B91748A4FA7C"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:18.202435",
+    "updated_at": "2026-04-20T06:01:18.202435"
+  },
+  {
+    "_id": "bismuto_x_100_u",
+    "name": "BISMUTO X 100 U",
+    "category": "Antidiarreico",
+    "principio_activo": "Subsalicilato de bismuto",
+    "descripcion": "Producto utilizado para el tratamiento de diarreas, incluyendo la diarrea del viajero, y para aliviar molestias gastrointestinales como la acidez y la indigestión.",
+    "image_url": "/uploads/products/bismuto_x_100_u.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.19,
+        "price": 0.75,
+        "profit_percent": 0.75,
+        "sku": "SKU-7A3BBC8D5D49"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:21.768844",
+    "updated_at": "2026-04-20T06:01:21.768844"
+  },
+  {
+    "_id": "broncurol_jbe_120_ml",
+    "name": "BRONCUROL JBE 120 ML",
+    "category": "Jarabe para la tos",
+    "principio_activo": "Bromhexina",
+    "descripcion": "BRONCUROL JBE 120 ML es un jarabe expectorante utilizado para aliviar la tos y facilitar la eliminación de mucosidad en las vías respiratorias.",
+    "image_url": "/uploads/products/broncurol_jbe_120_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.3,
+        "price": 30.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-90E70A48C1B7"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:24.696028",
+    "updated_at": "2026-04-20T06:01:24.696028"
+  },
+  {
+    "_id": "buscapina_compuesta_blister_x_12_caja_x_24",
+    "name": "BUSCAPINA COMPUESTA BLISTER X 12 CAJA X 24",
+    "category": "Antiespasmódico",
+    "principio_activo": "Butilbromuro de escopolamina y paracetamol",
+    "descripcion": "Medicamento utilizado para aliviar el dolor y los espasmos gastrointestinales, combinando un antiespasmódico con un analgésico.",
+    "image_url": "/uploads/products/buscapina_compuesta_blister_x_12_caja_x_24.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.43,
+        "price": 2.5,
+        "profit_percent": 0.83,
+        "sku": "SKU-48BB8830DA3C"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:27.826559",
+    "updated_at": "2026-04-20T06:01:27.826559"
+  },
+  {
+    "_id": "butazolidina_blis_x_10_caja_x_100_sandoz",
+    "name": "BUTAZOLIDINA BLIS X 10 CAJA X 100 SANDOZ",
+    "category": "Antiinflamatorio y analgésico",
+    "principio_activo": "Butazolidina",
+    "descripcion": "Butazolidina es un medicamento utilizado para aliviar el dolor y reducir la inflamación en diversas condiciones musculoesqueléticas.",
+    "image_url": "/uploads/products/butazolidina_blis_x_10_caja_x_100_sandoz.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 7.0,
+        "profit_percent": 0.64,
+        "sku": "SKU-B1C97DAE3EC9"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:31.070927",
+    "updated_at": "2026-04-20T06:01:31.070927"
+  },
+  {
+    "_id": "calcio__magnesio_vesa_fco_x_100_gelcaps",
+    "name": "CALCIO + MAGNESIO VESA FCO X 100 GELCAPS",
+    "category": "Suplemento mineral",
+    "principio_activo": "Calcio y Magnesio",
+    "descripcion": "Suplemento dietético en gelcaps que aporta calcio y magnesio para contribuir al mantenimiento de huesos y músculos saludables.",
+    "image_url": "/uploads/products/calcio__magnesio_vesa_fco_x_100_gelcaps.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.3,
+        "price": 68.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-ADA8395E4D5A"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:33.761225",
+    "updated_at": "2026-04-20T06:01:33.761225"
+  },
+  {
+    "_id": "callosol_liquido_callos_verrugas_y_mezquiinos",
+    "name": "CALLOSOL LIQUIDO (CALLOS, VERRUGAS Y MEZQUIINOS)",
+    "category": "Tratamiento de callos, verrugas y mezquinos",
+    "principio_activo": "Ácido salicílico",
+    "descripcion": "CALLOSOL LÍQUIDO es un producto farmacéutico utilizado para el tratamiento tópico de callos, verrugas y mezquinos. Su principio activo, el ácido salicílico, actúa exfoliando la piel endurecida y facilitando la eliminación de estas lesiones cutáneas.",
+    "image_url": "/uploads/products/callosol_liquido_callos_verrugas_y_mezquiinos.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.0,
+        "price": 30.0,
+        "profit_percent": 0.73,
+        "sku": "SKU-14DE9B4AC889"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:38.031982",
+    "updated_at": "2026-04-20T06:01:38.031982"
+  },
+  {
+    "_id": "canesten_extra",
+    "name": "CANESTEN EXTRA",
+    "category": "Antifúngico",
+    "principio_activo": "Clotrimazol",
+    "descripcion": "CANESTEN EXTRA es un medicamento antifúngico utilizado para tratar infecciones por hongos en la piel, como la candidiasis y la tiña. Contiene clotrimazol, que actúa inhibiendo el crecimiento de los hongos responsables de la infección.",
+    "image_url": "/uploads/products/canesten_extra.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.0,
+        "price": 30.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-904046DEDE06"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:41.114727",
+    "updated_at": "2026-04-20T06:01:41.115721"
+  },
+  {
+    "_id": "cardioaspirina_81_mg_x_30_tab_fco",
+    "name": "CARDIOASPIRINA 81 MG X 30 TAB FCO",
+    "category": "Antiplaquetarios",
+    "principio_activo": "Ácido acetilsalicílico",
+    "descripcion": "CARDIOASPIRINA 81 MG X 30 TAB FCO es un medicamento que contiene ácido acetilsalicílico en dosis baja, utilizado principalmente para prevenir eventos cardiovasculares como infartos y accidentes cerebrovasculares mediante la inhibición de la agregación plaquetaria.",
+    "image_url": "/uploads/products/cardioaspirina_81_mg_x_30_tab_fco.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.3,
+        "price": 65.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-71BAB2B2C96C"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:44.244659",
+    "updated_at": "2026-04-20T06:01:44.244659"
+  },
+  {
+    "_id": "ceftriaxona_1grlidoc_kit_promegal",
+    "name": "CEFTRIAXONA 1GR+LIDOC KIT PROMEGAL",
+    "category": "Antibiótico combinado",
+    "principio_activo": "Ceftriaxona y Lidocaína",
+    "descripcion": "CEFTRIAXONA 1GR+LIDOC KIT PROMEGAL es un medicamento que combina ceftriaxona, un antibiótico de amplio espectro del grupo de las cefalosporinas, con lidocaína, un anestésico local, utilizado para el tratamiento de infecciones bacterianas graves y para minimizar el dolor en la administración intramuscular.",
+    "image_url": "/uploads/products/ceftriaxona_1grlidoc_kit_promegal.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.0,
+        "price": 20.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-94E5B43810C9"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:47.878786",
+    "updated_at": "2026-04-20T06:01:47.878786"
+  },
+  {
+    "_id": "centrum_hombre_caja_x_60",
+    "name": "CENTRUM HOMBRE CAJA X 60",
+    "category": "Multivitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "Suplemento multivitamínico diseñado para hombres, que ayuda a mantener la salud general y el bienestar mediante la aportación de vitaminas y minerales esenciales.",
+    "image_url": "/uploads/products/centrum_hombre_caja_x_60.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.3,
+        "price": 80.0,
+        "profit_percent": 0.62,
+        "sku": "SKU-B2217AE705C9"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:50.687415",
+    "updated_at": "2026-04-20T06:01:50.687415"
+  },
+  {
+    "_id": "centrum_kids",
+    "name": "CENTRUM KIDS",
+    "category": "Suplemento multivitamínico",
+    "principio_activo": "Vitaminas y minerales (incluye vitaminas A, C, D, E, B6, B12, ácido fólico, hierro, zinc, entre otros)",
+    "descripcion": "CENTRUM KIDS es un suplemento multivitamínico diseñado para niños que ayuda a cubrir las necesidades diarias de vitaminas y minerales esenciales para un crecimiento y desarrollo saludable.",
+    "image_url": "/uploads/products/centrum_kids.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.3,
+        "price": 80.0,
+        "profit_percent": 0.62,
+        "sku": "SKU-4627BE9D33F6"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:54.133108",
+    "updated_at": "2026-04-20T06:01:54.133108"
+  },
+  {
+    "_id": "centrum_mujer__caja_x_60",
+    "name": "CENTRUM MUJER  CAJA X 60",
+    "category": "Suplemento multivitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "CENTRUM MUJER es un suplemento multivitamínico diseñado específicamente para cubrir las necesidades nutricionales de las mujeres, ayudando a mantener la salud general y el bienestar.",
+    "image_url": "/uploads/products/centrum_mujer__caja_x_60.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.3,
+        "price": 80.0,
+        "profit_percent": 0.62,
+        "sku": "SKU-41EF7C0BDF06"
+      }
+    ],
+    "created_at": "2026-04-20T06:01:57.103435",
+    "updated_at": "2026-04-20T06:01:57.103435"
+  },
+  {
+    "_id": "centrum_silver_caja_x_60_caps",
+    "name": "CENTRUM SILVER CAJA X 60 CAPS",
+    "category": "Suplemento multivitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "CENTRUM SILVER es un suplemento multivitamínico diseñado para adultos mayores, que contiene una combinación equilibrada de vitaminas y minerales para apoyar la salud general y el bienestar.",
+    "image_url": "/uploads/products/centrum_silver_caja_x_60_caps.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.3,
+        "price": 80.0,
+        "profit_percent": 0.62,
+        "sku": "SKU-A0B212F89221"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:00.189283",
+    "updated_at": "2026-04-20T06:02:00.189283"
+  },
+  {
+    "_id": "cerebral_b12_caja_x10_amp_bebibles",
+    "name": "CEREBRAL B12 CAJA X10 AMP BEBIBLES",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina B12",
+    "descripcion": "Producto farmacéutico en ampollas bebibles que contiene vitamina B12, utilizado para el tratamiento y prevención de deficiencias de esta vitamina, favoreciendo la salud neurológica y la producción de glóbulos rojos.",
+    "image_url": "/uploads/products/cerebral_b12_caja_x10_amp_bebibles.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.0,
+        "price": 35.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-62CF132FA4EE"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:03.084724",
+    "updated_at": "2026-04-20T06:02:03.085714"
+  },
+  {
+    "_id": "citrato_de_potasio_y_magnesio_caja_x_60_caps",
+    "name": "CITRATO DE POTASIO Y MAGNESIO CAJA X 60 CAPS",
+    "category": "Suplemento mineral",
+    "principio_activo": "Citrato de potasio y citrato de magnesio",
+    "descripcion": "Suplemento que aporta potasio y magnesio en forma de citrato, utilizado para prevenir o tratar deficiencias de estos minerales y mantener el equilibrio electrolítico.",
+    "image_url": "/uploads/products/citrato_de_potasio_y_magnesio_caja_x_60_caps.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 65.0,
+        "price": 90.0,
+        "profit_percent": 0.28,
+        "sku": "SKU-D37F09030AD6"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:05.942291",
+    "updated_at": "2026-04-20T06:02:05.942291"
+  },
+  {
+    "_id": "cobalex_10_ml__vial_vijosa_cianocobalamina",
+    "name": "COBALEX 10 ML  VIAL VIJOSA (CIANOCOBALAMINA)",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Cianocobalamina",
+    "descripcion": "COBALEX es un vial de 10 ml que contiene cianocobalamina, una forma de vitamina B12 utilizada para tratar deficiencias de esta vitamina y condiciones relacionadas como anemia perniciosa y neuropatías.",
+    "image_url": "/uploads/products/cobalex_10_ml__vial_vijosa_cianocobalamina.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.66,
+        "price": 17.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-F7C68D749495"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:09.259895",
+    "updated_at": "2026-04-20T06:02:09.259895"
+  },
+  {
+    "_id": "coderpina_10_mg_blist_x_10_tab_frysia_caja_x_20",
+    "name": "CODERPINA 10 MG BLIST X 10 TAB FRYSIA CAJA X 20",
+    "category": "Analgésico y Antiinflamatorio",
+    "principio_activo": "Codeína",
+    "descripcion": "Medicamento que contiene 10 mg de codeína por tableta, utilizado para el alivio del dolor moderado a severo. Presentado en blíster de 10 tabletas, con caja de 20 blísters.",
+    "image_url": "/uploads/products/coderpina_10_mg_blist_x_10_tab_frysia_caja_x_20.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.75,
+        "price": 2.8,
+        "profit_percent": 0.38,
+        "sku": "SKU-3C58BE0BFB1F"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:12.060585",
+    "updated_at": "2026-04-20T06:02:12.060585"
+  },
+  {
+    "_id": "colagenoacido_hialuronico_vesa_fco_x_100_gelcaps",
+    "name": "COLAGENO+ACIDO HIALURONICO VESA FCO X 100 GELCAPS",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Colágeno y ácido hialurónico",
+    "descripcion": "Suplemento en gelcaps que combina colágeno y ácido hialurónico para apoyar la salud de la piel, articulaciones y tejidos conectivos.",
+    "image_url": "/uploads/products/colagenoacido_hialuronico_vesa_fco_x_100_gelcaps.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 37.0,
+        "price": 68.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-98F0F2256CA9"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:14.938503",
+    "updated_at": "2026-04-20T06:02:14.938503"
+  },
+  {
+    "_id": "colector_de_heces_grande",
+    "name": "COLECTOR DE HECES GRANDE",
+    "category": "Material de curación y accesorios médicos",
+    "principio_activo": null,
+    "descripcion": "Dispositivo utilizado para la recolección de heces, generalmente empleado en entornos hospitalarios o domiciliarios para facilitar la recogida y análisis de muestras fecales.",
+    "image_url": "/uploads/products/colector_de_heces_grande.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.0,
+        "price": 4.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-9DA6993319D0"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:17.853013",
+    "updated_at": "2026-04-20T06:02:17.853013"
+  },
+  {
+    "_id": "colitran_blist_x_10_caja_x_100",
+    "name": "COLITRAN BLIST X 10 CAJA X 100",
+    "category": "Medicamento para el tratamiento de trastornos gastrointestinales",
+    "principio_activo": "Trimebutina",
+    "descripcion": "COLITRAN BLIST X 10 CAJA X 100 es un medicamento utilizado para aliviar los síntomas de trastornos gastrointestinales como el colon irritable, actuando como un regulador de la motilidad intestinal.",
+    "image_url": "/uploads/products/colitran_blist_x_10_caja_x_100.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.95,
+        "price": 3.2,
+        "profit_percent": 0.39,
+        "sku": "SKU-C80011984EFE"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:20.630180",
+    "updated_at": "2026-04-20T06:02:20.630180"
+  },
+  {
+    "_id": "compleben_inyectado_caja_x_7",
+    "name": "COMPLEBEN INYECTADO CAJA X 7",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Complejo B (Vitaminas B1, B6, B12)",
+    "descripcion": "Producto inyectable que contiene vitaminas del complejo B, utilizado para tratar deficiencias vitamínicas y apoyar el metabolismo energético.",
+    "image_url": "/uploads/products/compleben_inyectado_caja_x_7.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.3,
+        "price": 68.0,
+        "profit_percent": 0.7,
+        "sku": "SKU-D750894BC90A"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:23.392797",
+    "updated_at": "2026-04-20T06:02:23.392797"
+  },
+  {
+    "_id": "complejo_b__vial_10_ml_bonin",
+    "name": "COMPLEJO B  VIAL 10 ML BONIN",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Complejo B (Vitaminas B1, B6, B12)",
+    "descripcion": "Solución inyectable que contiene vitaminas del complejo B, utilizada para tratar deficiencias vitamínicas y apoyar el metabolismo energético.",
+    "image_url": "/uploads/products/complejo_b__vial_10_ml_bonin.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.3,
+        "price": 10.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-26C67301E021"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:26.140684",
+    "updated_at": "2026-04-20T06:02:26.140684"
+  },
+  {
+    "_id": "conmel_dipirona_caja_x_100_blister_x_4",
+    "name": "CONMEL (DIPIRONA) CAJA X 100 BLISTER X 4",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Dipirona",
+    "descripcion": "CONMEL es un medicamento que contiene dipirona, utilizado para aliviar el dolor y reducir la fiebre. Se presenta en caja con 100 tabletas distribuidas en blísteres de 4 unidades.",
+    "image_url": "/uploads/products/conmel_dipirona_caja_x_100_blister_x_4.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.6,
+        "price": 1.13,
+        "profit_percent": 0.47,
+        "sku": "SKU-D5835F756298"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:29.186198",
+    "updated_at": "2026-04-20T06:02:29.186198"
+  },
+  {
+    "_id": "cranberry_x_100_vesa",
+    "name": "CRANBERRY X 100 VESA",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Extracto de arándano rojo (Cranberry)",
+    "descripcion": "Suplemento a base de extracto de arándano rojo, utilizado principalmente para la salud del tracto urinario y la prevención de infecciones urinarias.",
+    "image_url": "/uploads/products/cranberry_x_100_vesa.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.0,
+        "price": 68.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-4604E0779CB4"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:32.043664",
+    "updated_at": "2026-04-20T06:02:32.043664"
+  },
+  {
+    "_id": "cromatonbic_ferro_caja_x_10_amp_bebibles",
+    "name": "CROMATONBIC FERRO CAJA X 10 AMP BEBIBLES",
+    "category": "Suplemento mineral",
+    "principio_activo": "Hierro",
+    "descripcion": "CROMATONBIC FERRO es un suplemento de hierro en ampollas bebibles, utilizado para tratar y prevenir la anemia ferropénica.",
+    "image_url": "/uploads/products/cromatonbic_ferro_caja_x_10_amp_bebibles.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 85.3,
+        "price": 142.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-799660A255E6"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:35.567830",
+    "updated_at": "2026-04-20T06:02:35.567830"
+  },
+  {
+    "_id": "cuajo_caja_x_100_blister_x_10",
+    "name": "CUAJO CAJA X 100 BLISTER X 10",
+    "category": "Enzimas digestivas",
+    "principio_activo": "Cuajo",
+    "descripcion": "Producto farmacéutico que contiene cuajo, utilizado para facilitar la digestión de proteínas en el sistema digestivo.",
+    "image_url": "/uploads/products/cuajo_caja_x_100_blister_x_10.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.03,
+        "price": 1.8,
+        "profit_percent": 0.43,
+        "sku": "SKU-F2E6F9D21FE4"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:38.774828",
+    "updated_at": "2026-04-20T06:02:38.774828"
+  },
+  {
+    "_id": "curitas_caja_x_100__10",
+    "name": "CURITAS CAJA X 100 + 10",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Caja con 110 curitas adhesivas para protección y cuidado de heridas menores.",
+    "image_url": "/uploads/products/curitas_caja_x_100__10.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.1,
+        "price": 0.25,
+        "profit_percent": 0.6,
+        "sku": "SKU-A56FFE18678F"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:41.648812",
+    "updated_at": "2026-04-20T06:02:41.648812"
+  },
+  {
+    "_id": "curitas_caja_x_100_curefast",
+    "name": "CURITAS CAJA X 100 CUREFAST",
+    "category": "Curitas y apósitos",
+    "principio_activo": "No aplica",
+    "descripcion": "Caja con 100 curitas Curefast, utilizadas para cubrir y proteger pequeñas heridas o cortes, facilitando su cicatrización y evitando infecciones.",
+    "image_url": "/uploads/products/curitas_caja_x_100_curefast.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 17.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-1FEBF067B7BB"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:44.594430",
+    "updated_at": "2026-04-20T06:02:44.594430"
+  },
+  {
+    "_id": "cytottec_caja_x_28_tab_blist_x_14_tab_sublingual",
+    "name": "CYTOTTEC CAJA X 28 TAB BLIST X 14 TAB SUBLINGUAL",
+    "category": "Misceláneos",
+    "principio_activo": "Misoprostol",
+    "descripcion": "Cytotec es un medicamento que contiene misoprostol, utilizado para prevenir úlceras gástricas y para inducir el aborto o el trabajo de parto. Se presenta en caja con 28 tabletas y blíster con 14 tabletas sublinguales.",
+    "image_url": "/uploads/products/cytottec_caja_x_28_tab_blist_x_14_tab_sublingual.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.0,
+        "price": 350.0,
+        "profit_percent": 1.0,
+        "sku": "SKU-CD39D9C91FA6"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:47.829011",
+    "updated_at": "2026-04-20T06:02:47.829011"
+  },
+  {
+    "_id": "dayamineral_fco_240_ml",
+    "name": "DAYAMINERAL FCO 240 ML",
+    "category": "Suplemento mineral",
+    "principio_activo": "Minerales y oligoelementos",
+    "descripcion": "DAYAMINERAL FCO 240 ML es un suplemento mineral diseñado para aportar minerales esenciales y oligoelementos necesarios para el buen funcionamiento del organismo.",
+    "image_url": "/uploads/products/dayamineral_fco_240_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.3,
+        "price": 110.0,
+        "profit_percent": 0.86,
+        "sku": "SKU-349B8F26F8DE"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:50.954924",
+    "updated_at": "2026-04-20T06:02:50.954924"
+  },
+  {
+    "_id": "deka_c_adulto_caja_x_3_ampollas",
+    "name": "DEKA C ADULTO CAJA X 3 AMPOLLAS",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina C",
+    "descripcion": "DEKA C ADULTO es un suplemento vitamínico en ampollas que proporciona vitamina C para fortalecer el sistema inmunológico y prevenir o tratar deficiencias de esta vitamina.",
+    "image_url": "/uploads/products/deka_c_adulto_caja_x_3_ampollas.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.3,
+        "price": 29.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-9BF42BC44CA6"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:53.920635",
+    "updated_at": "2026-04-20T06:02:53.920635"
+  },
+  {
+    "_id": "deka_c_infantil__caja_x3_ampollas",
+    "name": "DEKA C INFANTIL  CAJA X3 AMPOLLAS",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina C",
+    "descripcion": "Suplemento vitamínico en ampollas diseñado para niños, que ayuda a fortalecer el sistema inmunológico y prevenir deficiencias de vitamina C.",
+    "image_url": "/uploads/products/deka_c_infantil__caja_x3_ampollas.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.3,
+        "price": 29.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-77B75635F59A"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:56.682116",
+    "updated_at": "2026-04-20T06:02:56.682116"
+  },
+  {
+    "_id": "deka_c_jbe__adulto_240_ml",
+    "name": "DEKA C JBE  ADULTO 240 ML",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina C",
+    "descripcion": "Jarabe para adultos que proporciona vitamina C para fortalecer el sistema inmunológico y prevenir deficiencias vitamínicas.",
+    "image_url": "/uploads/products/deka_c_jbe__adulto_240_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.3,
+        "price": 25.0,
+        "profit_percent": 0.67,
+        "sku": "SKU-62A721E7616C"
+      }
+    ],
+    "created_at": "2026-04-20T06:02:59.540366",
+    "updated_at": "2026-04-20T06:02:59.540366"
+  },
+  {
+    "_id": "deka_c_jbe_niño__240_ml",
+    "name": "DEKA C JBE NIÑO  240 ML",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina C",
+    "descripcion": "Jarabe para niños que proporciona vitamina C para fortalecer el sistema inmunológico y prevenir deficiencias vitamínicas.",
+    "image_url": "/uploads/products/deka_c_jbe_niño__240_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.3,
+        "price": 20.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-13F620D8FC8E"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:02.349383",
+    "updated_at": "2026-04-20T06:03:02.349383"
+  },
+  {
+    "_id": "denguinita_niños_caja_x_100_blist_x_10",
+    "name": "DENGUINITA NIÑOS CAJA X 100 BLIST X 10",
+    "category": "Medicamento para niños",
+    "principio_activo": "Paracetamol",
+    "descripcion": "Denguinita Niños es un medicamento diseñado para el alivio de síntomas asociados a la fiebre y dolor en niños, presentado en caja con 100 tabletas divididas en blísteres de 10 unidades.",
+    "image_url": "/uploads/products/denguinita_niños_caja_x_100_blist_x_10.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.55,
+        "price": 1.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-0439B175A617"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:05.262737",
+    "updated_at": "2026-04-20T06:03:05.262737"
+  },
+  {
+    "_id": "dexketoprofenoneurotropa_kit",
+    "name": "DEXKETOPROFENO+NEUROTROPA KIT",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Dexketoprofeno",
+    "descripcion": "Kit que combina dexketoprofeno, un antiinflamatorio no esteroideo utilizado para aliviar el dolor y reducir la inflamación, con neurotropas que ayudan a mejorar la función nerviosa y aliviar síntomas relacionados con trastornos neurológicos.",
+    "image_url": "/uploads/products/dexketoprofenoneurotropa_kit.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.3,
+        "price": 18.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-F449DA874141"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:08.290714",
+    "updated_at": "2026-04-20T06:03:08.290714"
+  },
+  {
+    "_id": "dibetes_fco_x_100_tabs",
+    "name": "DIBETES FCO X 100 TABS",
+    "category": "Antidiabético",
+    "principio_activo": "Metformina",
+    "descripcion": "Medicamento utilizado para el tratamiento de la diabetes tipo 2, ayuda a controlar los niveles de glucosa en sangre.",
+    "image_url": "/uploads/products/dibetes_fco_x_100_tabs.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.3,
+        "price": 40.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-663F2BBCE0FB"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:10.867535",
+    "updated_at": "2026-04-20T06:03:10.867535"
+  },
+  {
+    "_id": "dicloneuro_shekinah_blis_x_10_gel_caps_caja_x_100",
+    "name": "DICLO+NEURO SHEKINAH BLIS X 10 GEL CAPS CAJA X 100",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Diclofenaco",
+    "descripcion": "Gel cápsulas que contienen diclofenaco, utilizado para aliviar el dolor y reducir la inflamación en condiciones musculoesqueléticas.",
+    "image_url": "/uploads/products/dicloneuro_shekinah_blis_x_10_gel_caps_caja_x_100.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.8,
+        "price": 10.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-0F0D7B52E1A0"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:14.013008",
+    "updated_at": "2026-04-20T06:03:14.013008"
+  },
+  {
+    "_id": "dolo_neurobion__caja_x_120_blist_x_5",
+    "name": "DOLO NEUROBION  CAJA X 120 BLIST X 5",
+    "category": "Analgésico y Vitaminas",
+    "principio_activo": "Paracetamol, Vitaminas B1, B6 y B12",
+    "descripcion": "DOLO NEUROBION es un medicamento que combina un analgésico (paracetamol) con vitaminas del complejo B (B1, B6 y B12) para aliviar el dolor y mejorar la función nerviosa.",
+    "image_url": "/uploads/products/dolo_neurobion__caja_x_120_blist_x_5.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.21,
+        "price": 4.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-79E8D0115CE1"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:17.118370",
+    "updated_at": "2026-04-20T06:03:17.118370"
+  },
+  {
+    "_id": "dolo_neurobion_forte_dc",
+    "name": "DOLO NEUROBION FORTE DC",
+    "category": "Analgésico y Vitaminas",
+    "principio_activo": "Paracetamol, Diclofenaco, Vitaminas B1, B6 y B12",
+    "descripcion": "DOLO NEUROBION FORTE DC es un medicamento que combina analgésicos y vitaminas del complejo B, utilizado para aliviar el dolor y tratar deficiencias vitamínicas relacionadas con el sistema nervioso.",
+    "image_url": "/uploads/products/dolo_neurobion_forte_dc.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 45.3,
+        "price": 82.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-3192100DAAFD"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:21.012379",
+    "updated_at": "2026-04-20T06:03:21.012379"
+  },
+  {
+    "_id": "dolo_neurobion_xr_blis_x_5_tab_caja_x_60",
+    "name": "DOLO NEUROBION XR BLIS X 5 TAB CAJA X 60",
+    "category": "Analgésicos y Vitaminas",
+    "principio_activo": "Paracetamol, Vitaminas B1, B6 y B12",
+    "descripcion": "DOLO NEUROBION XR es un medicamento que combina analgésicos y vitaminas del complejo B, utilizado para aliviar el dolor y mejorar la función nerviosa. La presentación es en tabletas de liberación prolongada, en caja con 60 unidades.",
+    "image_url": "/uploads/products/dolo_neurobion_xr_blis_x_5_tab_caja_x_60.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 7.0,
+        "profit_percent": 0.64,
+        "sku": "SKU-73ED2CFDB2FE"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:24.812174",
+    "updated_at": "2026-04-20T06:03:24.812174"
+  },
+  {
+    "_id": "dolo_tetravit_kit",
+    "name": "DOLO TETRAVIT KIT",
+    "category": "Kit de medicamentos",
+    "principio_activo": "Paracetamol, Vitamina C, Vitamina B1, Vitamina B6, Vitamina B12",
+    "descripcion": "DOLO TETRAVIT KIT es un conjunto de medicamentos que combina analgésicos y vitaminas del complejo B para el alivio del dolor y la mejora del estado general, especialmente en casos de deficiencias vitamínicas y dolores musculares o articulares.",
+    "image_url": "/uploads/products/dolo_tetravit_kit.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.3,
+        "price": 49.0,
+        "profit_percent": 0.81,
+        "sku": "SKU-B465E8D90B06"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:35.243832",
+    "updated_at": "2026-04-20T06:03:35.243832"
+  },
+  {
+    "_id": "dolofin_disp_x_100",
+    "name": "DOLOFIN DISP X 100",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Ibuprofeno",
+    "descripcion": "DOLOFIN DISP X 100 es un medicamento que contiene ibuprofeno, utilizado para aliviar el dolor y reducir la inflamación en diversas condiciones como dolores musculares, articulares, cefaleas y estados febriles.",
+    "image_url": "/uploads/products/dolofin_disp_x_100.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.65,
+        "price": 1.5,
+        "profit_percent": 0.57,
+        "sku": "SKU-6BA0358BD594"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:38.310220",
+    "updated_at": "2026-04-20T06:03:38.310220"
+  },
+  {
+    "_id": "doloneurotropas_hiper_kit",
+    "name": "DOLONEUROTROPAS HIPER KIT",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas del complejo B (B1, B6, B12)",
+    "descripcion": "DOLONEUROTROPAS HIPER KIT es un suplemento vitamínico que contiene vitaminas del complejo B, utilizadas para el tratamiento y prevención de deficiencias vitamínicas, especialmente en casos de neuropatías y dolor neurogénico.",
+    "image_url": "/uploads/products/doloneurotropas_hiper_kit.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.0,
+        "price": 16.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-43022445EE8F"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:41.549703",
+    "updated_at": "2026-04-20T06:03:41.549703"
+  },
+  {
+    "_id": "dolovitanervo_piersan__blist_x_10__caja_x__150",
+    "name": "DOLOVITANERVO PIERSAN  BLIST X 10  CAJA X  150",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas B1, B6 y B12",
+    "descripcion": "DOLOVITANERVO PIERSAN es un suplemento vitamínico en presentación de blíster con 10 tabletas, contenido en caja de 150 unidades, utilizado para el tratamiento de deficiencias de vitaminas del complejo B y para el alivio de síntomas relacionados con neuropatías.",
+    "image_url": "/uploads/products/dolovitanervo_piersan__blist_x_10__caja_x__150.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.6,
+        "price": 1.2,
+        "profit_percent": 0.5,
+        "sku": "SKU-A3FC8C39BED0"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:45.206065",
+    "updated_at": "2026-04-20T06:03:45.206065"
+  },
+  {
+    "_id": "dominal_caja_x_100_sobres",
+    "name": "DOMINAL CAJA X 100 SOBRES",
+    "category": "Antiespasmódico",
+    "principio_activo": "Butilbromuro de hioscina",
+    "descripcion": "DOMINAL es un medicamento antiespasmódico utilizado para aliviar los espasmos y dolores abdominales. Se presenta en caja con 100 sobres para administración oral.",
+    "image_url": "/uploads/products/dominal_caja_x_100_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.55,
+        "price": 1.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-F926015E33CD"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:50.201161",
+    "updated_at": "2026-04-20T06:03:50.201161"
+  },
+  {
+    "_id": "dorival_caja_x_60_grageas_blist_x_12_tab",
+    "name": "DORIVAL CAJA X 60 GRAGEAS BLIST X 12 TAB",
+    "category": "Analgésicos y Antiinflamatorios",
+    "principio_activo": "Diclofenaco sódico",
+    "descripcion": "DORIVAL es un medicamento antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la inflamación en diversas condiciones musculoesqueléticas.",
+    "image_url": "/uploads/products/dorival_caja_x_60_grageas_blist_x_12_tab.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.66,
+        "price": 2.0,
+        "profit_percent": 0.67,
+        "sku": "SKU-4EE02C15E575"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:53.305772",
+    "updated_at": "2026-04-20T06:03:53.305772"
+  },
+  {
+    "_id": "dulsitos_jbe_120_ml",
+    "name": "DULSITOS JBE 120 ML",
+    "category": "Jarabe",
+    "principio_activo": "Dextrometorfano",
+    "descripcion": "DULSITOS JBE 120 ML es un jarabe utilizado para aliviar la tos seca y otros síntomas respiratorios.",
+    "image_url": "/uploads/products/dulsitos_jbe_120_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.3,
+        "price": 29.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-717322C6B372"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:55.991061",
+    "updated_at": "2026-04-20T06:03:55.991061"
+  },
+  {
+    "_id": "enantyum_25_mg_caja_x_10_tabletas",
+    "name": "ENANTYUM 25 MG CAJA X 10 TABLETAS",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Dexketoprofeno trometamol",
+    "descripcion": "ENANTYUM 25 MG es un medicamento antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor leve a moderado y reducir la inflamación. Se presenta en caja con 10 tabletas de 25 mg cada una.",
+    "image_url": "/uploads/products/enantyum_25_mg_caja_x_10_tabletas.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.5,
+        "price": 12.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-942CE180C0D3"
+      }
+    ],
+    "created_at": "2026-04-20T06:03:59.659698",
+    "updated_at": "2026-04-20T06:03:59.659698"
+  },
+  {
+    "_id": "enterogermina_amp_2_billones_beb_5_ml_cj_x_20",
+    "name": "ENTEROGERMINA AMP 2 BILLONES BEB 5 ML CJ X 20",
+    "category": "Probiótico",
+    "principio_activo": "Bacillus clausii",
+    "descripcion": "Enterogermina es un probiótico en suspensión oral que contiene esporas de Bacillus clausii, utilizado para restaurar la flora intestinal y tratar trastornos gastrointestinales como diarrea y disbiosis.",
+    "image_url": "/uploads/products/enterogermina_amp_2_billones_beb_5_ml_cj_x_20.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.5,
+        "price": 18.0,
+        "profit_percent": 0.53,
+        "sku": "SKU-E27201893D5C"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:02.613745",
+    "updated_at": "2026-04-20T06:04:02.613745"
+  },
+  {
+    "_id": "espasmofin_nf_colicos_caja_x_110_sobres",
+    "name": "ESPASMOFIN NF (COLICOS) CAJA X 110 SOBRES",
+    "category": "Antiespasmódicos",
+    "principio_activo": "Butilbromuro de escopolamina",
+    "descripcion": "ESPASMOFIN NF es un medicamento utilizado para aliviar los cólicos y espasmos del tracto gastrointestinal. Se presenta en caja con 110 sobres.",
+    "image_url": "/uploads/products/espasmofin_nf_colicos_caja_x_110_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.18,
+        "price": 2.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-EFBD5D6BBECD"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:06.572615",
+    "updated_at": "2026-04-20T06:04:06.572615"
+  },
+  {
+    "_id": "fenogreco_frasco",
+    "name": "FENOGRECO FRASCO",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Fenogreco",
+    "descripcion": "Fenogreco Frasco es un suplemento natural elaborado a base de semillas de fenogreco, utilizado para mejorar la digestión, aumentar la producción de leche materna y apoyar la salud metabólica.",
+    "image_url": "/uploads/products/fenogreco_frasco.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.0,
+        "price": 50.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-9F47C333B967"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:10.029657",
+    "updated_at": "2026-04-20T06:04:10.029657"
+  },
+  {
+    "_id": "fibra_gummy_3mg_vesa_fco_x_40_gomitas",
+    "name": "FIBRA GUMMY 3MG VESA FCO X 40 GOMITAS",
+    "category": "Suplemento dietético",
+    "principio_activo": "Fibra",
+    "descripcion": "Gomitas masticables que aportan 3 mg de fibra por porción, diseñadas para mejorar la digestión y promover la salud intestinal.",
+    "image_url": "/uploads/products/fibra_gummy_3mg_vesa_fco_x_40_gomitas.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.3,
+        "price": 68.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-D20D59FCE82A"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:12.999679",
+    "updated_at": "2026-04-20T06:04:12.999679"
+  },
+  {
+    "_id": "flamydol_ampolla",
+    "name": "FLAMYDOL AMPOLLA",
+    "category": "Antiinflamatorio tópico",
+    "principio_activo": "Dexametasona",
+    "descripcion": "FLAMYDOL AMPOLLA es un medicamento antiinflamatorio que contiene dexametasona, utilizado para tratar inflamaciones y alergias en la piel mediante aplicación tópica.",
+    "image_url": "/uploads/products/flamydol_ampolla.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.0,
+        "price": 17.0,
+        "profit_percent": 0.82,
+        "sku": "SKU-8F6D7CA8443B"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:15.890679",
+    "updated_at": "2026-04-20T06:04:15.890679"
+  },
+  {
+    "_id": "flamydol_retard_caja_x_48_blist_x_4",
+    "name": "FLAMYDOL RETARD CAJA X 48 BLIST X 4",
+    "category": "Antiinflamatorio",
+    "principio_activo": "Diclofenaco",
+    "descripcion": "FLAMYDOL RETARD es un medicamento antiinflamatorio no esteroideo (AINE) que contiene diclofenaco en forma de liberación prolongada. Se utiliza para aliviar el dolor y reducir la inflamación en diversas condiciones musculoesqueléticas.",
+    "image_url": "/uploads/products/flamydol_retard_caja_x_48_blist_x_4.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.12,
+        "price": 10.0,
+        "profit_percent": 0.69,
+        "sku": "SKU-B185AE800541"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:19.136423",
+    "updated_at": "2026-04-20T06:04:19.136423"
+  },
+  {
+    "_id": "fludisin_ambroxol_jbe_100_ml_legsa",
+    "name": "FLUDISIN (AMBROXOL) JBE 100 ML LEGSA",
+    "category": "Expectorante",
+    "principio_activo": "Ambroxol",
+    "descripcion": "FLUDISIN es un jarabe que contiene Ambroxol, utilizado para facilitar la expectoración y aliviar la tos productiva en afecciones respiratorias.",
+    "image_url": "/uploads/products/fludisin_ambroxol_jbe_100_ml_legsa.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.3,
+        "price": 35.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-8CEC6E7ED9ED"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:22.197930",
+    "updated_at": "2026-04-20T06:04:22.197930"
+  },
+  {
+    "_id": "gasa_por_unidad_bolsa_x_100",
+    "name": "GASA POR UNIDAD BOLSA X 100",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Gasa estéril para uso en la limpieza y protección de heridas, presentada en bolsa con 100 unidades.",
+    "image_url": "/uploads/products/gasa_por_unidad_bolsa_x_100.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.3,
+        "price": 0.5,
+        "profit_percent": 0.4,
+        "sku": "SKU-77CE5E9C0667"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:24.857513",
+    "updated_at": "2026-04-20T06:04:24.857513"
+  },
+  {
+    "_id": "genogastril__caja_x_2_fcos__60_caps",
+    "name": "GENOGASTRIL  CAJA X 2 FCOS  60 CAPS",
+    "category": "Suplemento dietético / Probiótico",
+    "principio_activo": "Probióticos y prebióticos",
+    "descripcion": "GENOGASTRIL es un suplemento dietético que contiene probióticos y prebióticos, diseñado para mejorar la salud gastrointestinal y favorecer el equilibrio de la flora intestinal. Se presenta en caja con 2 frascos de 60 cápsulas cada uno.",
+    "image_url": "/uploads/products/genogastril__caja_x_2_fcos__60_caps.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 50.0,
+        "price": 95.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-CE36A4EE55B6"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:27.877666",
+    "updated_at": "2026-04-20T06:04:27.877666"
+  },
+  {
+    "_id": "glicitos_l_ambroxolloratadina120_ml_selec",
+    "name": "GLICITOS L (AMBROXOL+LORATADINA)120 ML SELEC",
+    "category": "Jarabe para la tos",
+    "principio_activo": "Ambroxol, Loratadina",
+    "descripcion": "GLICITOS L es un jarabe que combina Ambroxol, un mucolítico que ayuda a fluidificar y eliminar las secreciones bronquiales, y Loratadina, un antihistamínico que alivia los síntomas alérgicos como la congestión nasal y el picor. Está indicado para el tratamiento de la tos con congestión y síntomas alérgicos respiratorios.",
+    "image_url": "/uploads/products/glicitos_l_ambroxolloratadina120_ml_selec.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 22.3,
+        "price": 37.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-3BFA387C9E1F"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:31.402561",
+    "updated_at": "2026-04-20T06:04:31.402561"
+  },
+  {
+    "_id": "graneodin_frambuesa_caja_x_24_blister_x_12",
+    "name": "GRANEODIN FRAMBUESA CAJA X 24 BLISTER X 12",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Multivitamínicos y minerales",
+    "descripcion": "GRANEODIN FRAMBUESA es un suplemento vitamínico que contiene una combinación de vitaminas y minerales, presentado en caja con 24 blísteres de 12 tabletas cada uno, con sabor a frambuesa.",
+    "image_url": "/uploads/products/graneodin_frambuesa_caja_x_24_blister_x_12.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.08,
+        "price": 3.5,
+        "profit_percent": 0.41,
+        "sku": "SKU-92346819B59F"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:34.303871",
+    "updated_at": "2026-04-20T06:04:34.303871"
+  },
+  {
+    "_id": "graneodin_miel_limon_caja_x_24_pastillas",
+    "name": "GRANEODIN MIEL LIMON CAJA X 24 PASTILLAS",
+    "category": "Antitusivos y Expectorantes",
+    "principio_activo": "Dextrometorfano, Guaifenesina, Miel y Limón",
+    "descripcion": "Pastillas para aliviar la tos y suavizar la garganta, combinando dextrometorfano como antitusivo, guaifenesina como expectorante, y miel con limón para calmar la irritación.",
+    "image_url": "/uploads/products/graneodin_miel_limon_caja_x_24_pastillas.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.08,
+        "price": 3.5,
+        "profit_percent": 0.41,
+        "sku": "SKU-F8F0C882880B"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:37.453939",
+    "updated_at": "2026-04-20T06:04:37.453939"
+  },
+  {
+    "_id": "guayacolatoeucalipto_fco_x_100_vesa",
+    "name": "GUAYACOLATO+EUCALIPTO FCO X 100 VESA",
+    "category": "Expectorante y descongestionante",
+    "principio_activo": "Guayacolato y Eucalipto",
+    "descripcion": "Producto farmacéutico utilizado para aliviar la congestión respiratoria y facilitar la expectoración, combinando las propiedades mucolíticas del guayacolato con el efecto descongestionante y refrescante del eucalipto.",
+    "image_url": "/uploads/products/guayacolatoeucalipto_fco_x_100_vesa.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.3,
+        "price": 68.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-1B0A51DF76F5"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:40.538308",
+    "updated_at": "2026-04-20T06:04:40.538308"
+  },
+  {
+    "_id": "hemobex_10_ml_higado_crudo__complejo_b",
+    "name": "HEMOBEX 10 ML HIGADO CRUDO + COMPLEJO B",
+    "category": "Suplemento vitamínico y hepático",
+    "principio_activo": "Extracto de hígado crudo y complejo B",
+    "descripcion": "HEMOBEX 10 ML es un suplemento que combina extracto de hígado crudo con complejo vitamínico B, utilizado para mejorar la función hepática y aportar nutrientes esenciales para el metabolismo energético y la salud general.",
+    "image_url": "/uploads/products/hemobex_10_ml_higado_crudo__complejo_b.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.3,
+        "price": 10.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-F1762B5C0D05"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:43.742726",
+    "updated_at": "2026-04-20T06:04:43.742726"
+  },
+  {
+    "_id": "higavyt_5_10_ml_extrtacto_de_higado",
+    "name": "HIGAVYT 5 10 ML EXTRTACTO DE HIGADO",
+    "category": "Suplemento nutricional",
+    "principio_activo": "Extracto de hígado",
+    "descripcion": "Producto que contiene extracto de hígado, utilizado como suplemento para aportar nutrientes esenciales y apoyar la función hepática.",
+    "image_url": "/uploads/products/higavyt_5_10_ml_extrtacto_de_higado.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.3,
+        "price": 10.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-6405A823DBF2"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:46.489305",
+    "updated_at": "2026-04-20T06:04:46.489305"
+  },
+  {
+    "_id": "ibuprofeno_forte_800_mgs_caja_x_100_blist_x_10",
+    "name": "IBUPROFENO FORTE 800 MGS CAJA X 100 BLIST X 10",
+    "category": "Analgésicos y Antiinflamatorios",
+    "principio_activo": "Ibuprofeno",
+    "descripcion": "Ibuprofeno Forte 800 mg en caja con 100 blísteres de 10 tabletas cada uno, utilizado para aliviar el dolor y reducir la inflamación.",
+    "image_url": "/uploads/products/ibuprofeno_forte_800_mgs_caja_x_100_blist_x_10.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.8,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-6B05D6D29163"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:49.703577",
+    "updated_at": "2026-04-20T06:04:49.703577"
+  },
+  {
+    "_id": "kura_kura_latita_plastica",
+    "name": "KURA KURA LATITA PLASTICA",
+    "category": "Material de empaque",
+    "principio_activo": "N/A",
+    "descripcion": "Envase plástico utilizado para almacenamiento y transporte de productos farmacéuticos.",
+    "image_url": "/uploads/products/kura_kura_latita_plastica.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.0,
+        "price": 12.0,
+        "profit_percent": 0.75,
+        "sku": "SKU-0376B4EF058A"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:53.558680",
+    "updated_at": "2026-04-20T06:04:53.558680"
+  },
+  {
+    "_id": "leche_de_magnesia_philips_60_ml",
+    "name": "LECHE DE MAGNESIA PHILIPS 60 ML",
+    "category": "Antiácido y laxante",
+    "principio_activo": "Hidróxido de magnesio",
+    "descripcion": "La leche de magnesia es un antiácido y laxante utilizado para aliviar la acidez estomacal, la indigestión y el estreñimiento ocasional. Actúa neutralizando el exceso de ácido en el estómago y promoviendo el movimiento intestinal.",
+    "image_url": "/uploads/products/leche_de_magnesia_philips_60_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.3,
+        "price": 23.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-51A06E7CA713"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:56.815113",
+    "updated_at": "2026-04-20T06:04:56.815113"
+  },
+  {
+    "_id": "levofloxacina_750mg_balaxi_caja_x_100_blist_x_10",
+    "name": "LEVOFLOXACINA 750MG BALAXI CAJA X 100 BLIST X 10",
+    "category": "Antibiótico",
+    "principio_activo": "Levofloxacina",
+    "descripcion": "Levofloxacina 750 mg en presentación de caja con 100 tabletas divididas en 10 blísteres, utilizada para tratar infecciones bacterianas.",
+    "image_url": "/uploads/products/levofloxacina_750mg_balaxi_caja_x_100_blist_x_10.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.0,
+        "price": 25.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-2C108C18C31A"
+      }
+    ],
+    "created_at": "2026-04-20T06:04:59.577521",
+    "updated_at": "2026-04-20T06:04:59.577521"
+  },
+  {
+    "_id": "levonorgestrel_dispensador_x_11_tab",
+    "name": "LEVONORGESTREL DISPENSADOR X 11 TAB",
+    "category": "Anticonceptivos hormonales",
+    "principio_activo": "Levonorgestrel",
+    "descripcion": "Levonorgestrel dispensador en presentación de 11 tabletas, utilizado como método anticonceptivo hormonal para prevenir el embarazo.",
+    "image_url": "/uploads/products/levonorgestrel_dispensador_x_11_tab.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.0,
+        "price": 90.0,
+        "profit_percent": 0.78,
+        "sku": "SKU-06401E3E0B41"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:02.406984",
+    "updated_at": "2026-04-20T06:05:02.406984"
+  },
+  {
+    "_id": "limpia_colon_fco_x_100_tabs",
+    "name": "LIMPIA COLON FCO X 100 TABS",
+    "category": "Laxantes y Reguladores Intestinales",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico en tabletas diseñado para la limpieza del colon, facilitando la evacuación intestinal y promoviendo la salud digestiva.",
+    "image_url": "/uploads/products/limpia_colon_fco_x_100_tabs.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.3,
+        "price": 40.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-3A4396642381"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:05.407253",
+    "updated_at": "2026-04-20T06:05:05.407253"
+  },
+  {
+    "_id": "lombriniños_caja_x_40_sobres",
+    "name": "LOMBRINIÑOS CAJA X 40 SOBRES",
+    "category": "Laxantes",
+    "principio_activo": "Senósidos",
+    "descripcion": "LOMBRINIÑOS es un laxante natural en sobres que contiene senósidos, utilizado para aliviar el estreñimiento ocasional en niños.",
+    "image_url": "/uploads/products/lombriniños_caja_x_40_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.0,
+        "price": 2.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-C42B007CA501"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:08.482413",
+    "updated_at": "2026-04-20T06:05:08.482413"
+  },
+  {
+    "_id": "mariguanol_bote",
+    "name": "MARIGUANOL BOTE",
+    "category": "Medicamento",
+    "principio_activo": "Cannabis sativa",
+    "descripcion": "MARIGUANOL BOTE es un producto farmacéutico que contiene extracto de Cannabis sativa, utilizado principalmente para el alivio de síntomas relacionados con dolor crónico, espasticidad y otras condiciones médicas que responden a cannabinoides.",
+    "image_url": "/uploads/products/mariguanol_bote.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.0,
+        "price": 13.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-C04D5A1F3962"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:11.439639",
+    "updated_at": "2026-04-20T06:05:11.439639"
+  },
+  {
+    "_id": "melatonina_5mgs_fco_x_100_bolsa_x_10_vesa",
+    "name": "MELATONINA 5MGS FCO X 100 BOLSA X 10 VESA",
+    "category": "Suplemento para el sueño",
+    "principio_activo": "Melatonina",
+    "descripcion": "Melatonina 5 mg en frasco con 100 cápsulas, presentadas en bolsa de 10 unidades, utilizada para regular el ciclo del sueño.",
+    "image_url": "/uploads/products/melatonina_5mgs_fco_x_100_bolsa_x_10_vesa.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.8,
+        "price": 15.0,
+        "profit_percent": 0.75,
+        "sku": "SKU-24CC7B87ED71"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:14.350905",
+    "updated_at": "2026-04-20T06:05:14.350905"
+  },
+  {
+    "_id": "mentol_davis_muestra",
+    "name": "MENTOL DAVIS MUESTRA",
+    "category": "Analgésico tópico",
+    "principio_activo": "Mentol",
+    "descripcion": "Mentol Davis Muestra es un producto farmacéutico utilizado para aliviar dolores musculares y articulares mediante su efecto refrescante y analgésico tópico.",
+    "image_url": "/uploads/products/mentol_davis_muestra.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.66,
+        "price": 3.5,
+        "profit_percent": 0.53,
+        "sku": "SKU-E0A91AB5AED4"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:17.181927",
+    "updated_at": "2026-04-20T06:05:17.181927"
+  },
+  {
+    "_id": "migradorixina_blist_x_10_caja_x_200",
+    "name": "MIGRADORIXINA BLIST X 10 CAJA X 200",
+    "category": "Analgésicos y Antiinflamatorios",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico en presentación de blíster con 10 unidades, caja con 200 unidades, utilizado para el alivio del dolor y la migraña.",
+    "image_url": "/uploads/products/migradorixina_blist_x_10_caja_x_200.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.55,
+        "price": 4.7,
+        "profit_percent": 0.88,
+        "sku": "SKU-406517EE9040"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:20.203845",
+    "updated_at": "2026-04-20T06:05:20.203845"
+  },
+  {
+    "_id": "nauseol_blister_x_10_tab_bonin_caja_x_500",
+    "name": "NAUSEOL BLISTER X 10 TAB BONIN CAJA X 500",
+    "category": "Antiemético",
+    "principio_activo": "Metoclopramida",
+    "descripcion": "Nauseol es un medicamento utilizado para prevenir y tratar náuseas y vómitos. Se presenta en blíster con 10 tabletas y se comercializa en caja de 500 unidades.",
+    "image_url": "/uploads/products/nauseol_blister_x_10_tab_bonin_caja_x_500.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.2,
+        "price": 1.0,
+        "profit_percent": 0.8,
+        "sku": "SKU-C5795A782751"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:23.790423",
+    "updated_at": "2026-04-20T06:05:23.790423"
+  },
+  {
+    "_id": "neobol_crema_30_grs",
+    "name": "NEOBOL CREMA 30 GRS",
+    "category": "Crema dermatológica",
+    "principio_activo": "Neomicina",
+    "descripcion": "NEOBOL CREMA 30 GRS es una crema tópica utilizada para tratar infecciones bacterianas en la piel, gracias a su principio activo neomicina, que es un antibiótico de amplio espectro.",
+    "image_url": "/uploads/products/neobol_crema_30_grs.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.0,
+        "price": 77.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-09FE493DF910"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:28.613965",
+    "updated_at": "2026-04-20T06:05:28.613965"
+  },
+  {
+    "_id": "neobol_spray_30_ml",
+    "name": "NEOBOL SPRAY 30 ML",
+    "category": "Spray bucal",
+    "principio_activo": "Neomicina, Bacitracina, Dexametasona",
+    "descripcion": "NEOBOL SPRAY 30 ML es un medicamento en forma de spray bucal utilizado para el tratamiento de infecciones e inflamaciones en la cavidad oral, combinando antibióticos y un corticosteroide para reducir la infección y la inflamación.",
+    "image_url": "/uploads/products/neobol_spray_30_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 50.3,
+        "price": 84.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-74E003E20869"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:31.647669",
+    "updated_at": "2026-04-20T06:05:31.647669"
+  },
+  {
+    "_id": "neomelubrina_ampolla_2_ml",
+    "name": "NEOMELUBRINA AMPOLLA 2 ML",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Dipirona sódica",
+    "descripcion": "NEOMELUBRINA AMPOLLA 2 ML es un medicamento utilizado para aliviar el dolor y reducir la fiebre. Contiene dipirona sódica como principio activo y se administra por vía intramuscular o intravenosa.",
+    "image_url": "/uploads/products/neomelubrina_ampolla_2_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 8.0,
+        "profit_percent": 0.69,
+        "sku": "SKU-1F860D0D2C62"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:38.655201",
+    "updated_at": "2026-04-20T06:05:38.655201"
+  },
+  {
+    "_id": "neomelubrina_caja_x_100_blist_x_4",
+    "name": "NEOMELUBRINA CAJA X 100 BLIST X 4",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Metamizol sódico",
+    "descripcion": "NEOMELUBRINA es un medicamento utilizado para aliviar el dolor y reducir la fiebre. Contiene metamizol sódico como principio activo y se presenta en cajas con 100 tabletas distribuidas en 4 blísteres.",
+    "image_url": "/uploads/products/neomelubrina_caja_x_100_blist_x_4.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.25,
+        "price": 1.25,
+        "profit_percent": 0.8,
+        "sku": "SKU-38BC3F41A8BB"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:42.164540",
+    "updated_at": "2026-04-20T06:05:42.164540"
+  },
+  {
+    "_id": "nervessa_pastillas_disp__50",
+    "name": "NERVESSA PASTILLAS DISP  50",
+    "category": "Medicamento para el sistema nervioso",
+    "principio_activo": "Clonazepam",
+    "descripcion": "NERVESSA PASTILLAS DISP 50 es un medicamento utilizado para el tratamiento de trastornos de ansiedad, convulsiones y otros problemas relacionados con el sistema nervioso central. Contiene clonazepam, un benzodiacepina que actúa como un sedante y anticonvulsivo.",
+    "image_url": "/uploads/products/nervessa_pastillas_disp__50.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.1,
+        "price": 3.5,
+        "profit_percent": 0.4,
+        "sku": "SKU-0D9688199944"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:45.336398",
+    "updated_at": "2026-04-20T06:05:45.336398"
+  },
+  {
+    "_id": "nervotiamin_d_sobre_x_4_tab_caja_x_100__ancalmo",
+    "name": "NERVOTIAMIN D SOBRE X 4 TAB CAJA X 100  ANCALMO",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Tiamina (Vitamina B1) y Vitamina D",
+    "descripcion": "NERVOTIAMIN D es un suplemento vitamínico en sobres que contiene tiamina (vitamina B1) y vitamina D, utilizado para apoyar la función nerviosa y el metabolismo óseo.",
+    "image_url": "/uploads/products/nervotiamin_d_sobre_x_4_tab_caja_x_100__ancalmo.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.95,
+        "price": 1.75,
+        "profit_percent": 0.46,
+        "sku": "SKU-09FE23176961"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:48.247058",
+    "updated_at": "2026-04-20T06:05:48.247058"
+  },
+  {
+    "_id": "neumonil_ampolla_1_ml",
+    "name": "NEUMONIL AMPOLLA 1 ML",
+    "category": "Antibiótico",
+    "principio_activo": "Ceftriaxona",
+    "descripcion": "NEUMONIL AMPOLLA 1 ML es un antibiótico de la clase de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas graves, incluyendo neumonía, infecciones del tracto respiratorio, infecciones del tracto urinario, y otras infecciones sistémicas.",
+    "image_url": "/uploads/products/neumonil_ampolla_1_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.0,
+        "price": 10.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-E288E1BE6F68"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:51.228665",
+    "updated_at": "2026-04-20T06:05:51.228665"
+  },
+  {
+    "_id": "neurobion__caja_x_120_tab_blist_x_10",
+    "name": "NEUROBION  CAJA X 120 TAB BLIST X 10",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas B1, B6 y B12",
+    "descripcion": "Neurobion es un suplemento vitamínico que contiene vitaminas del complejo B (B1, B6 y B12) utilizado para el tratamiento y prevención de deficiencias de estas vitaminas, ayudando a mantener la salud del sistema nervioso y mejorar el metabolismo energético.",
+    "image_url": "/uploads/products/neurobion__caja_x_120_tab_blist_x_10.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.25,
+        "price": 4.0,
+        "profit_percent": 0.69,
+        "sku": "SKU-6B9F917022B3"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:54.483781",
+    "updated_at": "2026-04-20T06:05:54.483781"
+  },
+  {
+    "_id": "neurobion_25000_1_dosis_camara",
+    "name": "NEUROBION 25,000 1 DOSIS CAMARA",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas B1, B6 y B12",
+    "descripcion": "NEUROBION 25,000 1 DOSIS CAMARA es un suplemento vitamínico que contiene altas dosis de vitaminas del complejo B, utilizado para el tratamiento y prevención de deficiencias vitamínicas, especialmente en casos de neuropatías y trastornos del sistema nervioso.",
+    "image_url": "/uploads/products/neurobion_25000_1_dosis_camara.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 45.3,
+        "price": 77.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-E9DF39130F6B"
+      }
+    ],
+    "created_at": "2026-04-20T06:05:57.794844",
+    "updated_at": "2026-04-20T06:05:57.794844"
+  },
+  {
+    "_id": "neurobion_25000_kit_inyectado__1_amp",
+    "name": "NEUROBION 25,000 KIT INYECTADO  1 AMP",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas B1, B6 y B12",
+    "descripcion": "NEUROBION 25,000 KIT INYECTADO 1 AMP es un suplemento vitamínico inyectable que contiene altas dosis de vitaminas del complejo B, utilizadas para tratar deficiencias vitamínicas y neuropatías.",
+    "image_url": "/uploads/products/neurobion_25000_kit_inyectado__1_amp.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.3,
+        "price": 34.0,
+        "profit_percent": 0.73,
+        "sku": "SKU-713684A3C659"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:01.164486",
+    "updated_at": "2026-04-20T06:06:01.164486"
+  },
+  {
+    "_id": "neurotropas_forte_hiper_kit",
+    "name": "NEUROTROPAS FORTE HIPER KIT",
+    "category": "Suplemento nutricional",
+    "principio_activo": "Vitaminas del complejo B (B1, B6, B12), ácido alfa lipoico, y otros nutrientes neuroprotectores",
+    "descripcion": "NEUROTROPAS FORTE HIPER KIT es un suplemento diseñado para apoyar la salud del sistema nervioso, ayudando a mejorar la función neurológica y reducir síntomas asociados a neuropatías.",
+    "image_url": "/uploads/products/neurotropas_forte_hiper_kit.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.0,
+        "price": 15.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-9AA9CC88121C"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:04.281260",
+    "updated_at": "2026-04-20T06:06:04.281260"
+  },
+  {
+    "_id": "next_blist_x_10_caja_x_20",
+    "name": "NEXT BLIST X 10 CAJA X 20",
+    "category": "Desconocida",
+    "principio_activo": "Desconocido",
+    "descripcion": "Producto farmacéutico denominado NEXT BLIST, presentado en caja con 10 blísters, cada uno con 20 unidades.",
+    "image_url": "/uploads/products/next_blist_x_10_caja_x_20.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.25,
+        "price": 2.3,
+        "profit_percent": 0.46,
+        "sku": "SKU-DEBAEB41D85E"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:07.172992",
+    "updated_at": "2026-04-20T06:06:07.172992"
+  },
+  {
+    "_id": "nikson_caja_x_90_blist_x_10",
+    "name": "NIKSON CAJA X 90 BLIST X 10",
+    "category": "Medicamento",
+    "principio_activo": "NIKSON",
+    "descripcion": "Caja con 90 blísteres, cada blíster contiene 10 unidades del producto farmacéutico NIKSON.",
+    "image_url": "/uploads/products/nikson_caja_x_90_blist_x_10.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.39,
+        "price": 2.7,
+        "profit_percent": 0.49,
+        "sku": "SKU-4557AAE9A1DB"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:10.210555",
+    "updated_at": "2026-04-20T06:06:10.210555"
+  },
+  {
+    "_id": "omega_3_1000_mg_caja_x_30_blist_x_10_foralsalud",
+    "name": "OMEGA 3 1000 MG caja x 30 BLIST. X 10 FORALSALUD",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Ácidos grasos Omega 3",
+    "descripcion": "Suplemento de ácidos grasos Omega 3 con una concentración de 1000 mg por cápsula, presentado en caja con 30 blísteres de 10 cápsulas cada uno, utilizado para apoyar la salud cardiovascular y cerebral.",
+    "image_url": "/uploads/products/omega_3_1000_mg_caja_x_30_blist_x_10_foralsalud.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 18.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-1C968284730C"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:13.372132",
+    "updated_at": "2026-04-20T06:06:13.372132"
+  },
+  {
+    "_id": "omega_3_6_9_1200_mg_vesa_fco_x_100_gelcaps",
+    "name": "OMEGA 3 6 9 1200 MG VESA FCO X 100 GELCAPS",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Ácidos grasos Omega 3, Omega 6 y Omega 9",
+    "descripcion": "Suplemento en cápsulas gelatinosas que aporta ácidos grasos esenciales Omega 3, 6 y 9 para apoyar la salud cardiovascular, cerebral y articular.",
+    "image_url": "/uploads/products/omega_3_6_9_1200_mg_vesa_fco_x_100_gelcaps.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.0,
+        "price": 68.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-C246E305050E"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:16.500054",
+    "updated_at": "2026-04-20T06:06:16.500054"
+  },
+  {
+    "_id": "ovaricion_caja_x_30_tab",
+    "name": "OVARICION CAJA X 30 TAB",
+    "category": "Medicamento hormonal",
+    "principio_activo": "Estrógenos y progestágenos",
+    "descripcion": "OVARICION es un medicamento en forma de tabletas que contiene hormonas femeninas utilizadas para el tratamiento de trastornos hormonales, como la regulación del ciclo menstrual, terapia de reemplazo hormonal y otras condiciones ginecológicas.",
+    "image_url": "/uploads/products/ovaricion_caja_x_30_tab.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.0,
+        "price": 50.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-4C43EC41F9BD"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:19.470671",
+    "updated_at": "2026-04-20T06:06:19.470671"
+  },
+  {
+    "_id": "ovaricion_jarabe_240_ml",
+    "name": "OVARICION JARABE 240 ML",
+    "category": "Suplemento vitamínico y mineral",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "OVARICION JARABE 240 ML es un suplemento vitamínico y mineral diseñado para apoyar la salud general, especialmente en casos de deficiencias nutricionales. Se presenta en forma de jarabe para facilitar su administración.",
+    "image_url": "/uploads/products/ovaricion_jarabe_240_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.0,
+        "price": 24.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-3C3186885D5C"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:22.496121",
+    "updated_at": "2026-04-20T06:06:22.496121"
+  },
+  {
+    "_id": "panadol_extrafuerte_x_50_sobre",
+    "name": "PANADOL EXTRAFUERTE X 50 SOBRE",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Paracetamol",
+    "descripcion": "PANADOL EXTRAFUERTE X 50 SOBRE es un medicamento utilizado para aliviar el dolor y reducir la fiebre. Contiene paracetamol como principio activo, que actúa inhibiendo la síntesis de prostaglandinas en el sistema nervioso central, proporcionando un efecto analgésico y antipirético eficaz.",
+    "image_url": "/uploads/products/panadol_extrafuerte_x_50_sobre.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.9,
+        "price": 2.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-9A4338C2E507"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:25.578461",
+    "updated_at": "2026-04-20T06:06:25.578461"
+  },
+  {
+    "_id": "panadol_multisintomas_x_24_sobres",
+    "name": "PANADOL MULTISINTOMAS X 24 SOBRES",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Paracetamol",
+    "descripcion": "PANADOL MULTISINTOMAS es un medicamento utilizado para aliviar el dolor y reducir la fiebre, indicado para tratar síntomas asociados a resfriados y gripes. Cada sobre contiene paracetamol y otros componentes que ayudan a aliviar múltiples síntomas como dolor de cabeza, fiebre, congestión nasal y malestar general.",
+    "image_url": "/uploads/products/panadol_multisintomas_x_24_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.53,
+        "price": 3.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-2B2748D5A89B"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:29.414321",
+    "updated_at": "2026-04-20T06:06:29.414321"
+  },
+  {
+    "_id": "panadol_sinus_x_26_sobres",
+    "name": "PANADOL SINUS X 26 SOBRES",
+    "category": "Analgésico y descongestionante",
+    "principio_activo": "Paracetamol, Fenilefrina",
+    "descripcion": "PANADOL SINUS X 26 SOBRES es un medicamento utilizado para aliviar el dolor y la congestión nasal asociados con resfriados y sinusitis. Contiene paracetamol, que actúa como analgésico y antipirético, y fenilefrina, un descongestionante nasal que ayuda a reducir la inflamación de las vías respiratorias.",
+    "image_url": "/uploads/products/panadol_sinus_x_26_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.53,
+        "price": 3.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-7FB07E1489F2"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:33.012874",
+    "updated_at": "2026-04-20T06:06:33.012874"
+  },
+  {
+    "_id": "panadol_ultra_x_52_sobres",
+    "name": "PANADOL ULTRA X 52 SOBRES",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Paracetamol",
+    "descripcion": "PANADOL ULTRA X 52 SOBRES es un medicamento utilizado para aliviar el dolor y reducir la fiebre. Contiene paracetamol como principio activo, que actúa inhibiendo la síntesis de prostaglandinas en el sistema nervioso central.",
+    "image_url": "/uploads/products/panadol_ultra_x_52_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.41,
+        "price": 2.5,
+        "profit_percent": 0.44,
+        "sku": "SKU-10EF0BC49CB7"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:36.513992",
+    "updated_at": "2026-04-20T06:06:36.513992"
+  },
+  {
+    "_id": "paracetamol_750_mg__ecomed_caja_x_60_tab__blist_x5",
+    "name": "PARACETAMOL 750 MG  ECOMED CAJA X 60 TAB  BLIST X5",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Paracetamol",
+    "descripcion": "Paracetamol 750 mg en tabletas, presentación en caja con 60 tabletas distribuidas en blísteres de 5 unidades, marca Ecomed.",
+    "image_url": "/uploads/products/paracetamol_750_mg__ecomed_caja_x_60_tab__blist_x5.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.58,
+        "price": 12.0,
+        "profit_percent": 0.62,
+        "sku": "SKU-49E1F73F3D83"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:39.472790",
+    "updated_at": "2026-04-20T06:06:39.472790"
+  },
+  {
+    "_id": "pasiflora_comp_caja_x_30_blister_x_10",
+    "name": "PASIFLORA COMP CAJA X 30 BLISTER X 10",
+    "category": "Medicamento ansiolítico",
+    "principio_activo": "Pasiflora",
+    "descripcion": "Complemento herbal utilizado para aliviar la ansiedad y el insomnio, presentado en caja con 30 comprimidos en blíster de 10 unidades.",
+    "image_url": "/uploads/products/pasiflora_comp_caja_x_30_blister_x_10.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.66,
+        "price": 2.7,
+        "profit_percent": 0.39,
+        "sku": "SKU-0FB6F30DEDB0"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:42.135106",
+    "updated_at": "2026-04-20T06:06:42.135106"
+  },
+  {
+    "_id": "pepto_bismol_118_ml_4_onz",
+    "name": "PEPTO BISMOL 118 ML (4 ONZ)",
+    "category": "Antidiarreico",
+    "principio_activo": "Subsalicilato de bismuto",
+    "descripcion": "PEPTO BISMOL es un medicamento utilizado para aliviar la diarrea, la indigestión, la acidez estomacal y las náuseas. Contiene subsalicilato de bismuto, que actúa protegiendo el revestimiento del estómago y los intestinos, y tiene propiedades antimicrobianas y antiinflamatorias.",
+    "image_url": "/uploads/products/pepto_bismol_118_ml_4_onz.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.0,
+        "price": 43.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-B96AA47B8771"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:45.897972",
+    "updated_at": "2026-04-20T06:06:45.897972"
+  },
+  {
+    "_id": "peptobismol_tira__x_24_tab",
+    "name": "PEPTOBISMOL TIRA  X 24 TAB",
+    "category": "Antidiarreico",
+    "principio_activo": "Subsalicilato de bismuto",
+    "descripcion": "PEPTOBISMOL TIRA X 24 TAB es un medicamento utilizado para aliviar la diarrea, la indigestión, la acidez estomacal y las náuseas. Contiene subsalicilato de bismuto, que actúa protegiendo la mucosa gastrointestinal y reduciendo la inflamación.",
+    "image_url": "/uploads/products/peptobismol_tira__x_24_tab.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.0,
+        "price": 2.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-5F5FE9AAEE9A"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:49.127621",
+    "updated_at": "2026-04-20T06:06:49.127621"
+  },
+  {
+    "_id": "plan_b_carterita_x_2_dispensador_x_12__1",
+    "name": "PLAN B CARTERITA X 2 DISPENSADOR X 12 + 1",
+    "category": "Anticonceptivos de emergencia",
+    "principio_activo": "Levonorgestrel",
+    "descripcion": "Plan B Carterita es un anticonceptivo de emergencia que contiene levonorgestrel. Se presenta en un dispensador con 12 unidades más 1 adicional, diseñado para prevenir el embarazo después de una relación sexual sin protección o fallo anticonceptivo.",
+    "image_url": "/uploads/products/plan_b_carterita_x_2_dispensador_x_12__1.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.83,
+        "price": 40.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-F5AE17C53746"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:52.214669",
+    "updated_at": "2026-04-20T06:06:52.214669"
+  },
+  {
+    "_id": "pomada_de_la_campana_19_grs",
+    "name": "POMADA DE LA CAMPANA 19 GRS",
+    "category": "Pomada dermatológica",
+    "principio_activo": "Óxido de zinc",
+    "descripcion": "Pomada utilizada para proteger y tratar irritaciones menores de la piel, como quemaduras leves, rozaduras y dermatitis, gracias a sus propiedades protectoras y cicatrizantes.",
+    "image_url": "/uploads/products/pomada_de_la_campana_19_grs.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.25,
+        "price": 13.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-6C17399E2CAA"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:55.061491",
+    "updated_at": "2026-04-20T06:06:55.061491"
+  },
+  {
+    "_id": "pomada_de_la_campana_35_grs",
+    "name": "POMADA DE LA CAMPANA 35 GRS",
+    "category": "Pomada dermatológica",
+    "principio_activo": "Óxido de zinc",
+    "descripcion": "Pomada utilizada para proteger y tratar irritaciones menores de la piel, como quemaduras leves, rozaduras y dermatitis, gracias a sus propiedades protectoras y calmantes.",
+    "image_url": "/uploads/products/pomada_de_la_campana_35_grs.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.5,
+        "price": 20.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-FA6F68A30FB2"
+      }
+    ],
+    "created_at": "2026-04-20T06:06:57.887697",
+    "updated_at": "2026-04-20T06:06:57.887697"
+  },
+  {
+    "_id": "prometest_prueba_de_embarazo",
+    "name": "PROMETEST PRUEBA DE EMBARAZO",
+    "category": "Prueba de embarazo",
+    "principio_activo": "No aplica",
+    "descripcion": "PROMETEST PRUEBA DE EMBARAZO es un test rápido para detectar la presencia de la hormona hCG en la orina, indicando un posible embarazo.",
+    "image_url": "/uploads/products/prometest_prueba_de_embarazo.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.0,
+        "price": 15.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-63514B4D105D"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:01.108647",
+    "updated_at": "2026-04-20T06:07:01.108647"
+  },
+  {
+    "_id": "prostalex_caja_x40",
+    "name": "PROSTALEX CAJA X40",
+    "category": "Suplemento para la salud prostática",
+    "principio_activo": "Extractos naturales (saw palmetto, pygeum africanum, ortiga, zinc)",
+    "descripcion": "PROSTALEX CAJA X40 es un suplemento dietético formulado para apoyar la salud de la próstata y el bienestar urinario en hombres, ayudando a aliviar síntomas asociados con la hiperplasia prostática benigna.",
+    "image_url": "/uploads/products/prostalex_caja_x40.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 85.0,
+        "price": 140.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-350BFE5159D8"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:04.293285",
+    "updated_at": "2026-04-20T06:07:04.293285"
+  },
+  {
+    "_id": "pulmo_grip_kit_balsamico",
+    "name": "PULMO GRIP KIT BALSAMICO",
+    "category": "Medicamento para el alivio de síntomas respiratorios",
+    "principio_activo": "Mentol, Eucaliptol, Cajeput",
+    "descripcion": "PULMO GRIP KIT BALSAMICO es un producto farmacéutico utilizado para aliviar síntomas de congestión nasal y molestias respiratorias, gracias a su acción balsámica y descongestionante.",
+    "image_url": "/uploads/products/pulmo_grip_kit_balsamico.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.0,
+        "price": 19.0,
+        "profit_percent": 0.53,
+        "sku": "SKU-4C8C65291892"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:07.445838",
+    "updated_at": "2026-04-20T06:07:07.445838"
+  },
+  {
+    "_id": "qg5_duo_caja_x_2_fcos",
+    "name": "QG5 DUO CAJA X 2 FCOS",
+    "category": "Suplemento mineral",
+    "principio_activo": "Calcio",
+    "descripcion": "QG5 DUO es un suplemento que contiene calcio, presentado en caja con 2 frascos, utilizado para prevenir y tratar deficiencias de calcio en el organismo.",
+    "image_url": "/uploads/products/qg5_duo_caja_x_2_fcos.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.5,
+        "price": 40.0,
+        "profit_percent": 0.69,
+        "sku": "SKU-020F5AEC2697"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:10.116671",
+    "updated_at": "2026-04-20T06:07:10.116671"
+  },
+  {
+    "_id": "rabano_yodado_240_ml_dragon",
+    "name": "RABANO YODADO 240 ML DRAGON",
+    "category": "Suplemento dietético",
+    "principio_activo": "Rábano yodado",
+    "descripcion": "Producto líquido a base de rábano yodado, utilizado como suplemento para mejorar la función tiroidea y apoyar la salud respiratoria.",
+    "image_url": "/uploads/products/rabano_yodado_240_ml_dragon.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.3,
+        "price": 18.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-5368F16E84A3"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:13.276622",
+    "updated_at": "2026-04-20T06:07:13.276622"
+  },
+  {
+    "_id": "sal_andrews_disp_x_50_sobres",
+    "name": "SAL ANDREWS DISP X 50 SOBRES",
+    "category": "Sales de rehidratación oral",
+    "principio_activo": "Sales minerales y glucosa",
+    "descripcion": "Producto utilizado para la rehidratación oral en casos de diarrea o deshidratación, compuesto por sales minerales y glucosa en sobres para disolver en agua.",
+    "image_url": "/uploads/products/sal_andrews_disp_x_50_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.14,
+        "price": 2.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-AB76FC390F41"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:16.410895",
+    "updated_at": "2026-04-20T06:07:16.410895"
+  },
+  {
+    "_id": "sal_de_uvas_picot_caja_x_50",
+    "name": "SAL DE UVAS PICOT CAJA X 50",
+    "category": "Antiácido",
+    "principio_activo": "Bicarbonato de sodio, ácido cítrico, carbonato de sodio",
+    "descripcion": "Sal de Uvas Picot es un antiácido efervescente utilizado para aliviar la acidez estomacal, la indigestión y el malestar gástrico. Se presenta en caja con 50 sobres.",
+    "image_url": "/uploads/products/sal_de_uvas_picot_caja_x_50.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.96,
+        "price": 2.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-5555A5E6EB3E"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:19.374562",
+    "updated_at": "2026-04-20T06:07:19.374562"
+  },
+  {
+    "_id": "salbutamol_promegal",
+    "name": "SALBUTAMOL PROMEGAL",
+    "category": "Broncodilatador",
+    "principio_activo": "Salbutamol",
+    "descripcion": "Salbutamol Promegal es un medicamento utilizado para el tratamiento y alivio de broncoespasmos en enfermedades respiratorias como el asma y la enfermedad pulmonar obstructiva crónica (EPOC). Actúa relajando los músculos de las vías respiratorias, facilitando la respiración.",
+    "image_url": "/uploads/products/salbutamol_promegal.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.75,
+        "price": 26.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-5C9B8A577925"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:23.857274",
+    "updated_at": "2026-04-20T06:07:23.857274"
+  },
+  {
+    "_id": "saluprim_tab_caja_x_50_blist_x_5_trimetroprim",
+    "name": "SALUPRIM TAB CAJA X 50 BLIST X 5 (TRIMETROPRIM)",
+    "category": "Antibiótico",
+    "principio_activo": "Trimetoprim",
+    "descripcion": "SALUPRIM es un medicamento que contiene trimetoprim, un antibiótico utilizado para tratar infecciones bacterianas, especialmente infecciones del tracto urinario.",
+    "image_url": "/uploads/products/saluprim_tab_caja_x_50_blist_x_5_trimetroprim.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 8.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-E6DA5E979270"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:26.835224",
+    "updated_at": "2026-04-20T06:07:26.835224"
+  },
+  {
+    "_id": "sana_sana_pomada_latita_de_plastico",
+    "name": "SANA SANA POMADA LATITA DE PLASTICO",
+    "category": "Pomada tópica",
+    "principio_activo": "No especificado",
+    "descripcion": "Pomada para uso tópico en latita de plástico, utilizada para aliviar irritaciones menores de la piel.",
+    "image_url": "/uploads/products/sana_sana_pomada_latita_de_plastico.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.0,
+        "price": 8.0,
+        "profit_percent": 0.63,
+        "sku": "SKU-A3AA221F4AC3"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:29.507589",
+    "updated_at": "2026-04-20T06:07:29.507589"
+  },
+  {
+    "_id": "sanirenal_caja_x_100_blist_x_10",
+    "name": "SANIRENAL CAJA X 100 BLIST X 10",
+    "category": "Suplemento renal",
+    "principio_activo": "No especificado",
+    "descripcion": "SANIRENAL es un producto farmacéutico presentado en caja con 100 blísteres de 10 unidades cada uno, utilizado como suplemento para el apoyo de la función renal.",
+    "image_url": "/uploads/products/sanirenal_caja_x_100_blist_x_10.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.6,
+        "price": 1.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-20ADB055BC7D"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:32.556630",
+    "updated_at": "2026-04-20T06:07:32.556630"
+  },
+  {
+    "_id": "sertal_compuesto_blis_x_10_caja_x_200",
+    "name": "SERTAL COMPUESTO BLIS X 10 CAJA X 200",
+    "category": "Antiinflamatorio y Analgésico",
+    "principio_activo": "Sertal",
+    "descripcion": "Sertal Compuesto es un medicamento utilizado para aliviar el dolor y reducir la inflamación. Se presenta en una caja con 10 blísteres, cada uno con 200 unidades.",
+    "image_url": "/uploads/products/sertal_compuesto_blis_x_10_caja_x_200.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.9,
+        "price": 3.3,
+        "profit_percent": 0.42,
+        "sku": "SKU-8FC2380C0F0E"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:35.680521",
+    "updated_at": "2026-04-20T06:07:35.680521"
+  },
+  {
+    "_id": "sertal_compuesto_x_3_dosis",
+    "name": "SERTAL COMPUESTO X 3 DOSIS",
+    "category": "Analgésico y Antiinflamatorio",
+    "principio_activo": "Paracetamol, Cafeína y Codeína",
+    "descripcion": "SERTAL COMPUESTO X 3 DOSIS es un medicamento utilizado para el alivio del dolor moderado a severo, combinando analgésicos y un estimulante para potenciar el efecto analgésico.",
+    "image_url": "/uploads/products/sertal_compuesto_x_3_dosis.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 20.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-1219527CB9E2"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:38.587670",
+    "updated_at": "2026-04-20T06:07:38.588624"
+  },
+  {
+    "_id": "shampoo_medicasp_130ml",
+    "name": "SHAMPOO MEDICASP 130.ML",
+    "category": "Shampoo medicinal",
+    "principio_activo": "Clorhexidina",
+    "descripcion": "Shampoo antiséptico utilizado para la limpieza y desinfección del cuero cabelludo, ayudando a controlar infecciones y reducir la proliferación bacteriana.",
+    "image_url": "/uploads/products/shampoo_medicasp_130ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.0,
+        "price": 0.0,
+        "profit_percent": 0.0,
+        "sku": "SKU-B89D00AF049B"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:41.500447",
+    "updated_at": "2026-04-20T06:07:41.500447"
+  },
+  {
+    "_id": "sixtynine_silden_x_100_mgs_caja_x_30_sob_y_cart_x_4",
+    "name": "SIXTYNINE (SILDEN X 100 MGS) CAJA X 30 SOB Y CART X 4",
+    "category": "Medicamento para disfunción eréctil",
+    "principio_activo": "Sildenafil",
+    "descripcion": "SIXTYNINE es un medicamento que contiene sildenafil 100 mg, utilizado para el tratamiento de la disfunción eréctil. Se presenta en caja con 30 sobres y cartón con 4 unidades.",
+    "image_url": "/uploads/products/sixtynine_silden_x_100_mgs_caja_x_30_sob_y_cart_x_4.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.0,
+        "price": 10.0,
+        "profit_percent": 1.0,
+        "sku": "SKU-3C45BD17435E"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:44.110271",
+    "updated_at": "2026-04-20T06:07:44.110271"
+  },
+  {
+    "_id": "spasmo_cibalgina_blist_x_10_tab_caja_x_100",
+    "name": "SPASMO CIBALGINA BLIST X 10 TAB CAJA X 100",
+    "category": "Antiespasmódico y analgésico",
+    "principio_activo": "Metamizol sódico, Cibalgina",
+    "descripcion": "SPASMO CIBALGINA es un medicamento utilizado para aliviar el dolor y los espasmos musculares, especialmente en el tracto gastrointestinal. Viene en presentación de tabletas en blíster de 10 unidades, con caja de 100 tabletas.",
+    "image_url": "/uploads/products/spasmo_cibalgina_blist_x_10_tab_caja_x_100.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.9,
+        "price": 2.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-98F261C9E1FC"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:47.291840",
+    "updated_at": "2026-04-20T06:07:47.291840"
+  },
+  {
+    "_id": "sucradel_caja_x_30_sobres",
+    "name": "SUCRADEL CAJA X 30 SOBRES",
+    "category": "Antidiarreico",
+    "principio_activo": "Sacralfato",
+    "descripcion": "SUCRADEL es un medicamento utilizado para el tratamiento de úlceras gástricas y duodenales, que actúa formando una barrera protectora sobre la mucosa gastrointestinal. Se presenta en caja con 30 sobres.",
+    "image_url": "/uploads/products/sucradel_caja_x_30_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 4.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-C0B0E3053E42"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:50.591126",
+    "updated_at": "2026-04-20T06:07:50.591126"
+  },
+  {
+    "_id": "sudagrip_kit_ampolla",
+    "name": "SUDAGRIP KIT AMPOLLA",
+    "category": "Kit de diagnóstico o tratamiento para síntomas gripales",
+    "principio_activo": "No especificado (depende del contenido del kit)",
+    "descripcion": "SUDAGRIP KIT AMPOLLA es un producto farmacéutico utilizado para el tratamiento o diagnóstico de síntomas relacionados con la gripe. Generalmente, estos kits contienen ampollas con medicamentos o soluciones para aliviar síntomas gripales como fiebre, dolor y congestión.",
+    "image_url": "/uploads/products/sudagrip_kit_ampolla.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 16.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-1F942FB5766B"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:53.954201",
+    "updated_at": "2026-04-20T06:07:53.954201"
+  },
+  {
+    "_id": "sukrol_bebible_caja_x_10_vial",
+    "name": "SUKROL BEBIBLE CAJA X 10 VIAL",
+    "category": "Suplemento nutricional",
+    "principio_activo": "Sucralosa",
+    "descripcion": "SUKROL BEBIBLE es un edulcorante líquido en presentación de viales, utilizado para endulzar bebidas y alimentos sin aportar calorías, ideal para personas que requieren controlar su ingesta de azúcar.",
+    "image_url": "/uploads/products/sukrol_bebible_caja_x_10_vial.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.5,
+        "profit_percent": 0.55,
+        "sku": "SKU-79DE82972644"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:56.826192",
+    "updated_at": "2026-04-20T06:07:56.826192"
+  },
+  {
+    "_id": "sukrol_niño_jarabe_240_ml",
+    "name": "SUKROL NIÑO JARABE 240 ML",
+    "category": "Jarabe para niños",
+    "principio_activo": "Sukralosa",
+    "descripcion": "SUKROL NIÑO JARABE 240 ML es un edulcorante en jarabe diseñado para uso pediátrico, utilizado para mejorar el sabor de medicamentos y facilitar su administración en niños.",
+    "image_url": "/uploads/products/sukrol_niño_jarabe_240_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.0,
+        "price": 25.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-856EEB5987BE"
+      }
+    ],
+    "created_at": "2026-04-20T06:07:59.425051",
+    "updated_at": "2026-04-20T06:07:59.425051"
+  },
+  {
+    "_id": "sukrol_tabletas_caja_x_100",
+    "name": "SUKROL TABLETAS CAJA X 100",
+    "category": "Antidiabético",
+    "principio_activo": "Sucralosa",
+    "descripcion": "SUKROL TABLETAS CAJA X 100 es un edulcorante artificial utilizado como sustituto del azúcar en pacientes diabéticos para controlar los niveles de glucosa en sangre.",
+    "image_url": "/uploads/products/sukrol_tabletas_caja_x_100.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 52.0,
+        "price": 86.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-7ECE0DA61346"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:02.316123",
+    "updated_at": "2026-04-20T06:08:02.316123"
+  },
+  {
+    "_id": "tabcin_gripe_y_tos_liquid_gel_x_30",
+    "name": "TABCIN GRIPE Y TOS LIQUID GEL X 30",
+    "category": "Antigripal y Antitusivo",
+    "principio_activo": "Paracetamol, Clorfeniramina, Dextrometorfano",
+    "descripcion": "TABCIN GRIPE Y TOS LIQUID GEL X 30 es un medicamento indicado para el alivio de los síntomas asociados a la gripe y la tos, combinando analgésicos, antihistamínicos y antitusivos en una presentación líquida en gel.",
+    "image_url": "/uploads/products/tabcin_gripe_y_tos_liquid_gel_x_30.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.08,
+        "price": 5.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-CC772AE86602"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:05.330704",
+    "updated_at": "2026-04-20T06:08:05.330704"
+  },
+  {
+    "_id": "tabcin_liquid_gel_dia_x_30",
+    "name": "TABCIN LIQUID GEL DIA X 30",
+    "category": "Antitusivo",
+    "principio_activo": "Dextrometorfano",
+    "descripcion": "TABCIN LIQUID GEL DIA X 30 es un medicamento utilizado para aliviar la tos seca y el malestar asociado con resfriados y gripes. Su formulación en gel facilita la administración y proporciona un efecto calmante en la garganta.",
+    "image_url": "/uploads/products/tabcin_liquid_gel_dia_x_30.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.16,
+        "price": 5.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-9A2C3A308C8A"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:08.316619",
+    "updated_at": "2026-04-20T06:08:08.316619"
+  },
+  {
+    "_id": "tabcin_liquid_gel_noche_x_30",
+    "name": "TABCIN LIQUID GEL NOCHE X 30",
+    "category": "Suplemento para el sueño",
+    "principio_activo": "Melatonina",
+    "descripcion": "TABCIN LIQUID GEL NOCHE X 30 es un suplemento en forma de gel líquido diseñado para ayudar a regular el ciclo del sueño y mejorar la calidad del descanso nocturno.",
+    "image_url": "/uploads/products/tabcin_liquid_gel_noche_x_30.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.14,
+        "price": 5.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-5A6ECEF5B5F4"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:11.211021",
+    "updated_at": "2026-04-20T06:08:11.211021"
+  },
+  {
+    "_id": "te_alcachofa_gnv_x_30_sobres",
+    "name": "TE ALCACHOFA GN+V X 30 SOBRES",
+    "category": "Té e infusiones",
+    "principio_activo": "Alcachofa",
+    "descripcion": "Producto en sobres para infusión que contiene alcachofa, utilizada comúnmente para favorecer la digestión y el funcionamiento hepático.",
+    "image_url": "/uploads/products/te_alcachofa_gnv_x_30_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.3,
+        "price": 57.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-F97213761E58"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:13.954584",
+    "updated_at": "2026-04-20T06:08:13.954584"
+  },
+  {
+    "_id": "te_antigripal_caja_x_20_sobres",
+    "name": "TE ANTIGRIPAL CAJA X 20 SOBRES",
+    "category": "Antigripales",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto en presentación de caja con 20 sobres de té antigripal, utilizado para aliviar síntomas de resfriados y gripes.",
+    "image_url": "/uploads/products/te_antigripal_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.5,
+        "price": 1.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-D69EF1D4C6BC"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:16.680781",
+    "updated_at": "2026-04-20T06:08:16.680781"
+  },
+  {
+    "_id": "te_chupa_grasa_caja_x_30",
+    "name": "TE CHUPA GRASA CAJA X 30",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto en presentación de caja con 30 unidades, comercializado como té para ayudar en la reducción de grasa corporal.",
+    "image_url": "/uploads/products/te_chupa_grasa_caja_x_30.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.0,
+        "price": 57.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-94E8866CB36E"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:19.588988",
+    "updated_at": "2026-04-20T06:08:19.588988"
+  },
+  {
+    "_id": "te_chupa_panza_caja_x_30",
+    "name": "TE CHUPA PANZA CAJA X 30",
+    "category": "Té herbal",
+    "principio_activo": "Mezcla de hierbas naturales",
+    "descripcion": "Producto en presentación de caja con 30 unidades de té herbal diseñado para ayudar en la digestión y reducción de la sensación de hinchazón abdominal.",
+    "image_url": "/uploads/products/te_chupa_panza_caja_x_30.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.0,
+        "price": 57.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-C4A99F1BF442"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:22.714994",
+    "updated_at": "2026-04-20T06:08:22.714994"
+  },
+  {
+    "_id": "te_diabetes_caja_x_20_sob_vida",
+    "name": "TE DIABETES CAJA X 20 SOB VIDA",
+    "category": "Té para diabetes",
+    "principio_activo": "Extractos naturales para control glucémico",
+    "descripcion": "Producto en caja con 20 sobres de té diseñado para ayudar en el control de la diabetes mediante ingredientes naturales.",
+    "image_url": "/uploads/products/te_diabetes_caja_x_20_sob_vida.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.0,
+        "price": 2.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-B16A30393E25"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:25.392063",
+    "updated_at": "2026-04-20T06:08:25.392063"
+  },
+  {
+    "_id": "te_digestivo_caja_x_20_sobres",
+    "name": "TE DIGESTIVO CAJA X 20 SOBRES",
+    "category": "Té digestivo",
+    "principio_activo": "Mezcla de hierbas digestivas",
+    "descripcion": "Producto en sobres diseñado para facilitar la digestión y aliviar molestias estomacales.",
+    "image_url": "/uploads/products/te_digestivo_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.7,
+        "price": 1.5,
+        "profit_percent": 0.53,
+        "sku": "SKU-5E40F0824C16"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:28.312880",
+    "updated_at": "2026-04-20T06:08:28.312880"
+  },
+  {
+    "_id": "te_ginko_biloba_caja_x_20_sobres",
+    "name": "TE GINKO BILOBA CAJA X 20 SOBRES",
+    "category": "Suplemento Herbal",
+    "principio_activo": "Ginkgo Biloba",
+    "descripcion": "Té en sobres que contiene extracto de Ginkgo Biloba, utilizado como suplemento para mejorar la circulación y la función cognitiva.",
+    "image_url": "/uploads/products/te_ginko_biloba_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.75,
+        "price": 1.5,
+        "profit_percent": 0.5,
+        "sku": "SKU-D5F9948CDD86"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:30.776839",
+    "updated_at": "2026-04-20T06:08:30.776839"
+  },
+  {
+    "_id": "te_limon__jengibre_caja_x_20_sobres",
+    "name": "TE LIMON + JENGIBRE CAJA X 20 SOBRES",
+    "category": "Té e infusiones",
+    "principio_activo": "Té, Limón, Jengibre",
+    "descripcion": "Producto en caja con 20 sobres de té con sabor a limón y jengibre, utilizado como infusión para consumo.",
+    "image_url": "/uploads/products/te_limon__jengibre_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.75,
+        "price": 1.5,
+        "profit_percent": 0.5,
+        "sku": "SKU-78B4DC83F057"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:33.766238",
+    "updated_at": "2026-04-20T06:08:33.766238"
+  },
+  {
+    "_id": "te_manzanilla__tilo__caja_x_20_sobres",
+    "name": "TE MANZANILLA + TILO  CAJA X 20 SOBRES",
+    "category": "Infusión / Té",
+    "principio_activo": "Manzanilla y Tilo",
+    "descripcion": "Producto en caja con 20 sobres para preparar infusión de manzanilla y tilo, utilizado comúnmente para aliviar molestias digestivas y promover la relajación.",
+    "image_url": "/uploads/products/te_manzanilla__tilo__caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.75,
+        "price": 1.5,
+        "profit_percent": 0.5,
+        "sku": "SKU-4B32B9397A9F"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:37.159439",
+    "updated_at": "2026-04-20T06:08:37.159439"
+  },
+  {
+    "_id": "te_manzanilla_caja_x_20_sobres",
+    "name": "TE MANZANILLA CAJA X 20 SOBRES",
+    "category": "Té e infusiones",
+    "principio_activo": "Manzanilla",
+    "descripcion": "Té de manzanilla en caja con 20 sobres, utilizado comúnmente para aliviar molestias digestivas y promover la relajación.",
+    "image_url": "/uploads/products/te_manzanilla_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.5,
+        "price": 1.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-2DE642DE32B3"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:40.606844",
+    "updated_at": "2026-04-20T06:08:40.606844"
+  },
+  {
+    "_id": "te_nervios_caja_x_20_sob_vida",
+    "name": "TE NERVIOS CAJA X 20 SOB VIDA",
+    "category": "Té medicinal",
+    "principio_activo": "Hierbas relajantes (mezcla de plantas para nervios)",
+    "descripcion": "Té en sobres diseñado para aliviar el estrés y la ansiedad, promoviendo la relajación y el bienestar nervioso.",
+    "image_url": "/uploads/products/te_nervios_caja_x_20_sob_vida.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.6,
+        "price": 1.5,
+        "profit_percent": 0.6,
+        "sku": "SKU-9CD5F07B269E"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:43.551375",
+    "updated_at": "2026-04-20T06:08:43.551375"
+  },
+  {
+    "_id": "te_noche_caja_x_20_sobres",
+    "name": "TE NOCHE CAJA X 20 SOBRES",
+    "category": "Té e infusiones",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto en caja con 20 sobres de té para consumo nocturno, generalmente utilizado para favorecer la relajación y el descanso.",
+    "image_url": "/uploads/products/te_noche_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.5,
+        "price": 1.5,
+        "profit_percent": 0.67,
+        "sku": "SKU-FB4908058F6C"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:46.922768",
+    "updated_at": "2026-04-20T06:08:46.922768"
+  },
+  {
+    "_id": "te_pericon_caja_x_20_sobres",
+    "name": "TE PERICON CAJA X 20 SOBRES",
+    "category": "Té e infusiones",
+    "principio_activo": "Hierba de Pericón (Tagetes lucida)",
+    "descripcion": "Infusión elaborada con hierba de pericón, utilizada tradicionalmente para aliviar problemas digestivos, mejorar la digestión y como relajante natural.",
+    "image_url": "/uploads/products/te_pericon_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.6,
+        "price": 1.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-FC5992A06130"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:49.629646",
+    "updated_at": "2026-04-20T06:08:49.629646"
+  },
+  {
+    "_id": "te_piñalin_caja_x_30_sobres",
+    "name": "TE PIÑALIN CAJA X 30 SOBRES",
+    "category": "Té e infusiones",
+    "principio_activo": "Extractos de plantas medicinales",
+    "descripcion": "Producto en sobres para infusión, utilizado como complemento herbal para aliviar molestias digestivas y promover el bienestar general.",
+    "image_url": "/uploads/products/te_piñalin_caja_x_30_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.0,
+        "price": 57.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-AD21458E5E0F"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:52.404662",
+    "updated_at": "2026-04-20T06:08:52.404662"
+  },
+  {
+    "_id": "te_presion_caja_x_20_sob_vida",
+    "name": "TE PRESION CAJA X 20 SOB VIDA",
+    "category": "Té para la presión arterial",
+    "principio_activo": "Hierbas naturales para control de la presión",
+    "descripcion": "Producto en caja con 20 sobres de té diseñado para ayudar a controlar la presión arterial.",
+    "image_url": "/uploads/products/te_presion_caja_x_20_sob_vida.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.6,
+        "price": 1.15,
+        "profit_percent": 0.48,
+        "sku": "SKU-DA89739ED5F8"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:56.595780",
+    "updated_at": "2026-04-20T06:08:56.595780"
+  },
+  {
+    "_id": "te_renal_caja_x_20_sobres",
+    "name": "TE RENAL CAJA X 20 SOBRES",
+    "category": "Té medicinal",
+    "principio_activo": "Extractos de plantas con propiedades diuréticas y depurativas",
+    "descripcion": "Producto en sobres para preparar infusión, utilizado para apoyar la función renal y promover la eliminación de líquidos.",
+    "image_url": "/uploads/products/te_renal_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.6,
+        "price": 1.5,
+        "profit_percent": 0.6,
+        "sku": "SKU-47C33EFCBD10"
+      }
+    ],
+    "created_at": "2026-04-20T06:08:59.376807",
+    "updated_at": "2026-04-20T06:08:59.376807"
+  },
+  {
+    "_id": "te_tilo_caja_x_20_sobres",
+    "name": "TE TILO CAJA X 20 SOBRES",
+    "category": "Té e infusiones",
+    "principio_activo": "Tilo",
+    "descripcion": "Producto farmacéutico en presentación de caja con 20 sobres de té de tilo, utilizado comúnmente por sus propiedades relajantes y para aliviar el estrés y la ansiedad.",
+    "image_url": "/uploads/products/te_tilo_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.5,
+        "price": 1.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-6874863385BD"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:02.083580",
+    "updated_at": "2026-04-20T06:09:02.083580"
+  },
+  {
+    "_id": "te_verde_piña_caja_x_20_sobres",
+    "name": "TE VERDE PIÑA CAJA X 20 SOBRES",
+    "category": "Té e infusiones",
+    "principio_activo": "Extracto de té verde y piña",
+    "descripcion": "Producto en caja con 20 sobres de té verde con sabor a piña, utilizado como infusión para consumo diario.",
+    "image_url": "/uploads/products/te_verde_piña_caja_x_20_sobres.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.6,
+        "price": 1.5,
+        "profit_percent": 0.6,
+        "sku": "SKU-8CDC0533C5B5"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:04.838156",
+    "updated_at": "2026-04-20T06:09:04.838156"
+  },
+  {
+    "_id": "terramicina_ungüento_5_grs",
+    "name": "TERRAMICINA UNGÜENTO 5 GRS",
+    "category": "Antibiótico tópico",
+    "principio_activo": "Oxitetraciclina",
+    "descripcion": "Ungüento antibiótico utilizado para tratar infecciones bacterianas en la piel y mucosas.",
+    "image_url": "/uploads/products/terramicina_ungüento_5_grs.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.0,
+        "price": 33.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-39355F102B4E"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:07.582546",
+    "updated_at": "2026-04-20T06:09:07.582546"
+  },
+  {
+    "_id": "tiamina_300_ancalmo_caja_x_100",
+    "name": "TIAMINA 300 ANCALMO CAJA X 100",
+    "category": "Vitaminas y suplementos",
+    "principio_activo": "Tiamina",
+    "descripcion": "Suplemento vitamínico que contiene tiamina (vitamina B1) utilizado para prevenir o tratar deficiencias de esta vitamina.",
+    "image_url": "/uploads/products/tiamina_300_ancalmo_caja_x_100.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.4,
+        "price": 1.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-D6CD4E7448AF"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:11.288873",
+    "updated_at": "2026-04-20T06:09:11.288873"
+  },
+  {
+    "_id": "tramadol_capsula__caja_x_100_blist_x_10_milan",
+    "name": "TRAMADOL CAPSULA  CAJA X 100 BLIST X 10 MILAN",
+    "category": "Analgésico opioide",
+    "principio_activo": "Tramadol",
+    "descripcion": "Tramadol cápsula, caja con 100 blísteres de 10 unidades cada uno, utilizado para el alivio del dolor moderado a severo.",
+    "image_url": "/uploads/products/tramadol_capsula__caja_x_100_blist_x_10_milan.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.5,
+        "price": 10.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-4869EDCA4FE6"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:14.090273",
+    "updated_at": "2026-04-20T06:09:14.090273"
+  },
+  {
+    "_id": "triple_forte_dx_caja_x_3_inyec",
+    "name": "TRIPLE FORTE DX CAJA X 3 INYEC",
+    "category": "Medicamento inyectable",
+    "principio_activo": "No especificado",
+    "descripcion": "TRIPLE FORTE DX CAJA X 3 INYEC es un producto farmacéutico presentado en caja con 3 inyecciones, utilizado para tratamientos que requieren administración parenteral. La composición exacta del principio activo no está especificada en el nombre del producto.",
+    "image_url": "/uploads/products/triple_forte_dx_caja_x_3_inyec.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.3,
+        "price": 30.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-5B1384C33FE4"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:16.969819",
+    "updated_at": "2026-04-20T06:09:16.969819"
+  },
+  {
+    "_id": "tusilexil_fco_x_120_ml",
+    "name": "TUSILEXIL FCO X 120 ML",
+    "category": "Expectorante",
+    "principio_activo": "Bromhexina",
+    "descripcion": "TUSILEXIL es un jarabe expectorante que ayuda a fluidificar y eliminar las secreciones bronquiales, facilitando la respiración en casos de tos productiva.",
+    "image_url": "/uploads/products/tusilexil_fco_x_120_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.3,
+        "price": 50.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-57477331F901"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:19.550650",
+    "updated_at": "2026-04-20T06:09:19.550650"
+  },
+  {
+    "_id": "unesia_20_grs",
+    "name": "UNESIA 20 GRS",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Clorhexidina",
+    "descripcion": "UNESIA 20 GRS es un producto antiséptico utilizado para la desinfección de la piel y mucosas, ayudando a prevenir infecciones en heridas y procedimientos médicos.",
+    "image_url": "/uploads/products/unesia_20_grs.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.0,
+        "price": 49.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-9DE517F55736"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:22.396296",
+    "updated_at": "2026-04-20T06:09:22.396296"
+  },
+  {
+    "_id": "unipulmin_antgripal_inyectable",
+    "name": "UNIPULMIN ANTGRIPAL INYECTABLE",
+    "category": "Antigripal",
+    "principio_activo": "No especificado",
+    "descripcion": "UNIPULMIN ANTGRIPAL INYECTABLE es un medicamento utilizado para el tratamiento de síntomas gripales, administrado por vía inyectable.",
+    "image_url": "/uploads/products/unipulmin_antgripal_inyectable.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.3,
+        "price": 16.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-8EA62815BFF0"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:24.883572",
+    "updated_at": "2026-04-20T06:09:24.883572"
+  },
+  {
+    "_id": "unipulmin_gripe_y_tos_inyectable",
+    "name": "UNIPULMIN GRIPE Y TOS INYECTABLE",
+    "category": "Medicamento para el tratamiento de la gripe y la tos",
+    "principio_activo": "No especificado",
+    "descripcion": "UNIPULMIN GRIPE Y TOS INYECTABLE es un medicamento utilizado para el alivio de los síntomas asociados a la gripe y la tos. Su formulación inyectable permite una administración rápida y efectiva.",
+    "image_url": "/uploads/products/unipulmin_gripe_y_tos_inyectable.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.3,
+        "price": 16.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-452A3D395A34"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:27.762909",
+    "updated_at": "2026-04-20T06:09:27.762909"
+  },
+  {
+    "_id": "urofin_dispens_x_100",
+    "name": "UROFIN DISPENS X 100",
+    "category": "Diurético",
+    "principio_activo": "Furosemida",
+    "descripcion": "UROFIN DISPENS X 100 es un medicamento diurético utilizado para tratar la retención de líquidos asociada a insuficiencia cardíaca, enfermedades renales y hepáticas, facilitando la eliminación de exceso de agua y sal del cuerpo.",
+    "image_url": "/uploads/products/urofin_dispens_x_100.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.85,
+        "price": 3.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-76704765F9DC"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:30.935053",
+    "updated_at": "2026-04-20T06:09:30.935053"
+  },
+  {
+    "_id": "varifin__fco_100_tabs",
+    "name": "VARIFIN  FCO 100 TABS",
+    "category": "Anticoagulante",
+    "principio_activo": "Varfarina",
+    "descripcion": "VARIFIN es un medicamento anticoagulante utilizado para prevenir y tratar trombosis y embolias mediante la inhibición de la síntesis de factores de coagulación dependientes de vitamina K.",
+    "image_url": "/uploads/products/varifin__fco_100_tabs.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.3,
+        "price": 40.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-C20C0BE82E29"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:33.797033",
+    "updated_at": "2026-04-20T06:09:33.797033"
+  },
+  {
+    "_id": "vick_vaporub_12g__caja_x_12_latitas",
+    "name": "VICK VAPORUB 12G  CAJA X 12 LATITAS",
+    "category": "Analgésicos y descongestionantes",
+    "principio_activo": "Mentol, alcanfor, aceite de eucalipto",
+    "descripcion": "Ungüento tópico utilizado para aliviar la congestión nasal y síntomas de resfriado mediante la aplicación en el pecho y la garganta.",
+    "image_url": "/uploads/products/vick_vaporub_12g__caja_x_12_latitas.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.25,
+        "price": 10.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-5F42B1889031"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:36.823423",
+    "updated_at": "2026-04-20T06:09:36.823423"
+  },
+  {
+    "_id": "vital_fuerte_10_amp_beb_10_ml",
+    "name": "VITAL FUERTE 10 AMP BEB 10 ML",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "VITAL FUERTE 10 AMP BEB 10 ML es un suplemento vitamínico en ampollas bebibles que proporciona una combinación de vitaminas y minerales esenciales para fortalecer el organismo y mejorar el bienestar general.",
+    "image_url": "/uploads/products/vital_fuerte_10_amp_beb_10_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-0A6C235D3CE4"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:40.033006",
+    "updated_at": "2026-04-20T06:09:40.033006"
+  },
+  {
+    "_id": "vitalfuerte_x_100_tab",
+    "name": "VITALFUERTE X 100 TAB",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "VITALFUERTE X 100 TAB es un suplemento multivitamínico diseñado para fortalecer el sistema inmunológico y mejorar el estado general de salud mediante la aportación de vitaminas y minerales esenciales.",
+    "image_url": "/uploads/products/vitalfuerte_x_100_tab.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.3,
+        "price": 48.0,
+        "profit_percent": 0.58,
+        "sku": "SKU-9FB868D11CB8"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:42.681424",
+    "updated_at": "2026-04-20T06:09:42.681424"
+  },
+  {
+    "_id": "vitamina_e_1000_x_1_unidad_vesa",
+    "name": "VITAMINA E 1000 X 1 UNIDAD VESA",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina E",
+    "descripcion": "Suplemento de vitamina E con una dosis de 1000 UI por unidad, utilizado para prevenir o tratar deficiencias de vitamina E y como antioxidante.",
+    "image_url": "/uploads/products/vitamina_e_1000_x_1_unidad_vesa.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.38,
+        "price": 2.0,
+        "profit_percent": 0.81,
+        "sku": "SKU-84905E92EE75"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:45.267928",
+    "updated_at": "2026-04-20T06:09:45.267928"
+  },
+  {
+    "_id": "vitamina_e_1000_x_100_vesa",
+    "name": "VITAMINA E 1000 X 100 VESA",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina E",
+    "descripcion": "Suplemento de vitamina E en cápsulas de 1000 UI, presentación de 100 unidades, utilizado para prevenir y tratar deficiencias de vitamina E y como antioxidante.",
+    "image_url": "/uploads/products/vitamina_e_1000_x_100_vesa.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 38.0,
+        "price": 68.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-84913506F072"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:48.151913",
+    "updated_at": "2026-04-20T06:09:48.151913"
+  },
+  {
+    "_id": "vive_amor_16_cajas_x_3_und",
+    "name": "VIVE AMOR 16 CAJAS X 3 UND",
+    "category": "Producto farmacéutico",
+    "principio_activo": "No especificado",
+    "descripcion": "Paquete de 16 cajas, cada una con 3 unidades del producto 'VIVE AMOR'.",
+    "image_url": "/uploads/products/vive_amor_16_cajas_x_3_und.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.7,
+        "price": 8.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-10F32F5441A0"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:50.916953",
+    "updated_at": "2026-04-20T06:09:50.916953"
+  },
+  {
+    "_id": "vive_coor_sab_uvnar_frechoman_men",
+    "name": "VIVE COOR SAB (UV,NAR, FRE,CHO,MAN, MEN)",
+    "category": "Suplemento vitamínico y mineral",
+    "principio_activo": "Vitaminas UV, Naranja, Fresa, Chocolate, Manzana, Menta",
+    "descripcion": "VIVE COOR SAB es un suplemento vitamínico con sabor a diversas frutas y menta, diseñado para complementar la dieta con vitaminas y minerales esenciales.",
+    "image_url": "/uploads/products/vive_coor_sab_uvnar_frechoman_men.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.81,
+        "price": 15.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-FF5E104ED581"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:53.953214",
+    "updated_at": "2026-04-20T06:09:53.953214"
+  },
+  {
+    "_id": "vive_original_16_cajas_x_3_und",
+    "name": "VIVE ORIGINAL 16 CAJAS X 3 UND",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Multivitamínicos",
+    "descripcion": "VIVE ORIGINAL es un suplemento vitamínico presentado en cajas que contienen 3 unidades cada una, diseñado para complementar la dieta y aportar vitaminas esenciales para el bienestar general.",
+    "image_url": "/uploads/products/vive_original_16_cajas_x_3_und.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.87,
+        "price": 8.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-A1C4D54FD8F5"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:56.614901",
+    "updated_at": "2026-04-20T06:09:56.614901"
+  },
+  {
+    "_id": "winasorb_gotas_15_ml",
+    "name": "WINASORB GOTAS 15 ML",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "WINASORB GOTAS 15 ML es un suplemento vitamínico en forma de gotas que ayuda a complementar la dieta con vitaminas y minerales esenciales para el desarrollo y bienestar general.",
+    "image_url": "/uploads/products/winasorb_gotas_15_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.0,
+        "price": 27.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-16FBE21F0564"
+      }
+    ],
+    "created_at": "2026-04-20T06:09:59.415140",
+    "updated_at": "2026-04-20T06:09:59.415140"
+  },
+  {
+    "_id": "winasorb_jbe_60_ml",
+    "name": "WINASORB JBE 60 ML",
+    "category": "Jarabe",
+    "principio_activo": "No especificado",
+    "descripcion": "WINASORB JBE 60 ML es un jarabe utilizado para aliviar síntomas respiratorios, como tos y congestión. La composición exacta del principio activo no está especificada.",
+    "image_url": "/uploads/products/winasorb_jbe_60_ml.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.0,
+        "price": 29.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-07C94E79B0C1"
+      }
+    ],
+    "created_at": "2026-04-20T06:10:02.341758",
+    "updated_at": "2026-04-20T06:10:02.341758"
+  },
+  {
+    "_id": "yodoclorina_disp_x_100_caps",
+    "name": "YODOCLORINA DISP X 100 CAPS",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Yodoclorina",
+    "descripcion": "Yodoclorina en cápsulas, utilizada como antiséptico para la desinfección y tratamiento de infecciones.",
+    "image_url": "/uploads/products/yodoclorina_disp_x_100_caps.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.4,
+        "price": 0.9,
+        "profit_percent": 0.56,
+        "sku": "SKU-3EA58F19423B"
+      }
+    ],
+    "created_at": "2026-04-20T06:10:05.127130",
+    "updated_at": "2026-04-20T06:10:05.127130"
+  },
+  {
+    "_id": "zarzaparrilla_fco_240_ml_higsa",
+    "name": "ZARZAPARRILLA FCO 240 ML (HIGSA)",
+    "category": "Suplemento herbal",
+    "principio_activo": "Zarzaparrilla",
+    "descripcion": "Extracto líquido de zarzaparrilla en frasco de 240 ml, utilizado tradicionalmente como depurativo y para mejorar la salud de la piel.",
+    "image_url": "/uploads/products/zarzaparrilla_fco_240_ml_higsa.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.3,
+        "price": 20.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-D7471A1775A0"
+      }
+    ],
+    "created_at": "2026-04-20T06:10:07.765094",
+    "updated_at": "2026-04-20T06:10:07.765094"
+  },
+  {
+    "_id": "zincvitamina_c_fco_x_100_vesa",
+    "name": "ZINC+VITAMINA C FCO X 100 VESA",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Zinc, Vitamina C",
+    "descripcion": "Suplemento que combina zinc y vitamina C para fortalecer el sistema inmunológico y mejorar la salud general.",
+    "image_url": "/uploads/products/zincvitamina_c_fco_x_100_vesa.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.3,
+        "price": 68.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-22685E0EC091"
+      }
+    ],
+    "created_at": "2026-04-20T06:10:10.523579",
+    "updated_at": "2026-04-20T06:10:10.523579"
+  },
+  {
+    "_id": "zorritone_caramelo_barra_caja_x_16_cereza",
+    "name": "ZORRITONE CARAMELO BARRA CAJA X 16 CEREZA",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Multivitamínicos y minerales",
+    "descripcion": "ZORRITONE CARAMELO BARRA CAJA X 16 CEREZA es un suplemento vitamínico en forma de caramelos con sabor a cereza, diseñado para aportar vitaminas y minerales esenciales que contribuyen al bienestar general.",
+    "image_url": "/uploads/products/zorritone_caramelo_barra_caja_x_16_cereza.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 5.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-2ACD09F9C10D"
+      }
+    ],
+    "created_at": "2026-04-20T06:10:13.344937",
+    "updated_at": "2026-04-20T06:10:13.344937"
+  },
+  {
+    "_id": "zorritone_caramelo_barra_caja_x_16_miel_limon",
+    "name": "ZORRITONE CARAMELO BARRA CAJA X 16 MIEL LIMON",
+    "category": "Jarabe y pastillas para la tos",
+    "principio_activo": "No especificado",
+    "descripcion": "ZORRITONE CARAMELO BARRA CAJA X 16 MIEL LIMON es un producto farmacéutico en forma de caramelos que ayuda a aliviar la irritación de la garganta, con sabor a miel y limón.",
+    "image_url": "/uploads/products/zorritone_caramelo_barra_caja_x_16_miel_limon.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.65,
+        "price": 5.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-42E472E15564"
+      }
+    ],
+    "created_at": "2026-04-20T06:10:16.434234",
+    "updated_at": "2026-04-20T06:10:16.434234"
+  },
+  {
+    "_id": "zorritone_caramelo_barra_caja_x_16_tradicional",
+    "name": "ZORRITONE CARAMELO BARRA CAJA X 16 TRADICIONAL",
+    "category": "Antiinflamatorio y Analgésico",
+    "principio_activo": "Ketoprofeno",
+    "descripcion": "ZORRITONE CARAMELO BARRA CAJA X 16 TRADICIONAL es un medicamento en forma de caramelo que contiene ketoprofeno, utilizado para aliviar el dolor y reducir la inflamación.",
+    "image_url": "/uploads/products/zorritone_caramelo_barra_caja_x_16_tradicional.jpg",
+    "supplier": "BENDICION",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.19,
+        "price": 5.0,
+        "profit_percent": 0.56,
+        "sku": "SKU-93E655BC3CEA"
+      }
+    ],
+    "created_at": "2026-04-20T06:10:22.033179",
+    "updated_at": "2026-04-20T06:10:22.033179"
+  }
+]

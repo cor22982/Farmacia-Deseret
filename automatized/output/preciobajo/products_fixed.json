@@ -1,0 +1,464 @@
+[
+  {
+    "_id": "algodón_2_grs_bolsa_x_25_vesa",
+    "name": "ALGODÓN 2 GRS BOLSA X 25 VESA",
+    "category": "Material de curación",
+    "principio_activo": "Algodón",
+    "descripcion": "Bolsa con 25 unidades de algodón de 2 gramos cada una, utilizado para limpieza y cuidado de heridas.",
+    "image_url": "/uploads/products/algodón_2_grs_bolsa_x_25_vesa.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.36,
+        "price": 0.5,
+        "profit_percent": 0.28,
+        "sku": "SKU-40F3EE0B5CE3"
+      }
+    ],
+    "created_at": "2026-04-20T08:05:58.075170",
+    "updated_at": "2026-04-20T08:05:58.076148"
+  },
+  {
+    "_id": "anara_solucion_gotas_20ml",
+    "name": "ANARA SOLUCION GOTAS 20ML",
+    "category": "Solución oftálmica",
+    "principio_activo": "Anaranjado de metilo",
+    "descripcion": "ANARA SOLUCION GOTAS 20ML es una solución oftálmica utilizada para teñir y facilitar la visualización de lesiones oculares, ayudando en el diagnóstico y tratamiento de afecciones oculares.",
+    "image_url": "/uploads/products/anara_solucion_gotas_20ml.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 54.85,
+        "price": 73.0,
+        "profit_percent": 0.25,
+        "sku": "SKU-B729ED9C5679"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:01.498514",
+    "updated_at": "2026-04-20T08:06:01.498514"
+  },
+  {
+    "_id": "broncodil_gotas_de_30_ml",
+    "name": "BRONCODIL GOTAS DE 30 ML",
+    "category": "Broncodilatadores",
+    "principio_activo": "Salbutamol",
+    "descripcion": "BRONCODIL GOTAS DE 30 ML es un medicamento utilizado para el tratamiento y alivio de los síntomas del asma y otras enfermedades respiratorias obstructivas, actuando como broncodilatador para facilitar la respiración.",
+    "image_url": "/uploads/products/broncodil_gotas_de_30_ml.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 43.46,
+        "price": 59.0,
+        "profit_percent": 0.26,
+        "sku": "SKU-75C04ACCE6C3"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:04.552228",
+    "updated_at": "2026-04-20T08:06:04.552228"
+  },
+  {
+    "_id": "broncodil_jbe_120ml",
+    "name": "BRONCODIL JBE. 120ML",
+    "category": "Jarabe para el tratamiento de enfermedades respiratorias",
+    "principio_activo": "Salbutamol",
+    "descripcion": "BRONCODIL JBE. 120ML es un jarabe utilizado para aliviar los síntomas de enfermedades respiratorias obstructivas, como el asma y la bronquitis, actuando como broncodilatador para facilitar la respiración.",
+    "image_url": "/uploads/products/broncodil_jbe_120ml.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 59.14,
+        "price": 79.0,
+        "profit_percent": 0.25,
+        "sku": "SKU-DADDB93B1A64"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:07.958406",
+    "updated_at": "2026-04-20T08:06:07.958406"
+  },
+  {
+    "_id": "chocolates_pequeños",
+    "name": "CHOCOLATES PEQUEÑOS",
+    "category": "Alimentos y Golosinas",
+    "principio_activo": "No aplica",
+    "descripcion": "Producto alimenticio compuesto principalmente por chocolate en porciones pequeñas, destinado al consumo como golosina o snack.",
+    "image_url": "/uploads/products/chocolates_pequeños.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.91,
+        "price": 1.25,
+        "profit_percent": 0.27,
+        "sku": "SKU-C8B0F387BD80"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:10.860868",
+    "updated_at": "2026-04-20T08:06:10.860868"
+  },
+  {
+    "_id": "desodorante_gillet_gel_107_grs",
+    "name": "DESODORANTE GILLET GEL 107 GRS",
+    "category": "Desodorante",
+    "principio_activo": "No especificado",
+    "descripcion": "Desodorante en gel de la marca Gillette, presentación de 107 gramos, diseñado para controlar el olor corporal y mantener la frescura.",
+    "image_url": "/uploads/products/desodorante_gillet_gel_107_grs.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.0,
+        "price": 46.0,
+        "profit_percent": 0.24,
+        "sku": "SKU-C376E7A14622"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:14.226841",
+    "updated_at": "2026-04-20T08:06:14.226841"
+  },
+  {
+    "_id": "dolo_kalorub_linim_spray_425_ml",
+    "name": "DOLO KALORUB LINIM SPRAY 425 ML",
+    "category": "Analgésico y antiinflamatorio tópico",
+    "principio_activo": "Salicilato de metilo, alcanfor, mentol",
+    "descripcion": "DOLO KALORUB LINIM SPRAY es un spray tópico utilizado para aliviar dolores musculares y articulares, gracias a su acción analgésica y antiinflamatoria. Se aplica directamente sobre la piel en la zona afectada para proporcionar un efecto refrescante y calmante.",
+    "image_url": "/uploads/products/dolo_kalorub_linim_spray_425_ml.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 32.31,
+        "price": 45.0,
+        "profit_percent": 0.28,
+        "sku": "SKU-68F0AA7A6BCC"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:17.819731",
+    "updated_at": "2026-04-20T08:06:17.819731"
+  },
+  {
+    "_id": "ferridoce_jbe_240ml",
+    "name": "FERRIDOCE JBE 240ML",
+    "category": "Suplemento de hierro",
+    "principio_activo": "Sulfato ferroso",
+    "descripcion": "FERRIDOCE JBE 240ML es un jarabe utilizado para tratar y prevenir la deficiencia de hierro y la anemia ferropénica, especialmente en niños.",
+    "image_url": "/uploads/products/ferridoce_jbe_240ml.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.8,
+        "price": 55.0,
+        "profit_percent": 0.26,
+        "sku": "SKU-B2978C9AF36A"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:20.876650",
+    "updated_at": "2026-04-20T08:06:20.876650"
+  },
+  {
+    "_id": "hipopress_gotas_20_ml",
+    "name": "HIPOPRESS GOTAS 20 ML",
+    "category": "Antihipertensivo",
+    "principio_activo": "Enalapril",
+    "descripcion": "HIPOPRESS GOTAS 20 ML es un medicamento utilizado para el tratamiento de la hipertensión arterial. Contiene enalapril, un inhibidor de la enzima convertidora de angiotensina (IECA) que ayuda a relajar los vasos sanguíneos y reducir la presión arterial.",
+    "image_url": "/uploads/products/hipopress_gotas_20_ml.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 50.71,
+        "price": 72.0,
+        "profit_percent": 0.3,
+        "sku": "SKU-A067A8CB2CB8"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:24.175742",
+    "updated_at": "2026-04-20T08:06:24.175742"
+  },
+  {
+    "_id": "leche_de_magnesia_philips_120_ml",
+    "name": "LECHE DE MAGNESIA PHILIPS 120 ML",
+    "category": "Antiácidos y antiácidos tópicos",
+    "principio_activo": "Hidróxido de magnesio",
+    "descripcion": "La leche de magnesia Philips es un antiácido y laxante suave que se utiliza para aliviar la acidez estomacal, la indigestión y el estreñimiento ocasional. Actúa neutralizando el exceso de ácido en el estómago y promoviendo el movimiento intestinal.",
+    "image_url": "/uploads/products/leche_de_magnesia_philips_120_ml.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 31.0,
+        "price": 42.0,
+        "profit_percent": 0.26,
+        "sku": "SKU-A5392DC4E241"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:27.265455",
+    "updated_at": "2026-04-20T08:06:27.265455"
+  },
+  {
+    "_id": "levusol_500_ml_cereza",
+    "name": "LEVUSOL 500 ML CEREZA",
+    "category": "Jarabe antitusivo",
+    "principio_activo": "Levodropropizina",
+    "descripcion": "Levusol 500 ml sabor cereza es un jarabe utilizado para aliviar la tos seca y no productiva, actuando como un supresor de la tos.",
+    "image_url": "/uploads/products/levusol_500_ml_cereza.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.5,
+        "price": 22.0,
+        "profit_percent": 0.25,
+        "sku": "SKU-2ADF5657AC07"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:30.027629",
+    "updated_at": "2026-04-20T08:06:30.027629"
+  },
+  {
+    "_id": "levusol_500_ml_coco",
+    "name": "LEVUSOL 500 ML COCO",
+    "category": "Solución oral",
+    "principio_activo": "Levosol",
+    "descripcion": "Levusol 500 ml Coco es una solución oral con sabor a coco utilizada para el tratamiento de desequilibrios electrolíticos y deshidratación.",
+    "image_url": "/uploads/products/levusol_500_ml_coco.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.5,
+        "price": 22.0,
+        "profit_percent": 0.25,
+        "sku": "SKU-5ADA10AE9323"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:33.761191",
+    "updated_at": "2026-04-20T08:06:33.761191"
+  },
+  {
+    "_id": "levusol_500_ml_manzana",
+    "name": "LEVUSOL 500 ML MANZANA",
+    "category": "Jarabe para la tos",
+    "principio_activo": "Levosalbutamol",
+    "descripcion": "Levusol 500 ml Manzana es un jarabe utilizado para aliviar la tos y facilitar la respiración, con sabor a manzana para mejorar su palatabilidad.",
+    "image_url": "/uploads/products/levusol_500_ml_manzana.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.5,
+        "price": 22.0,
+        "profit_percent": 0.25,
+        "sku": "SKU-8E33A9996327"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:36.765904",
+    "updated_at": "2026-04-20T08:06:36.765904"
+  },
+  {
+    "_id": "levusol_500_ml_piña",
+    "name": "LEVUSOL 500 ML PIÑA",
+    "category": "Solución oral",
+    "principio_activo": "Levosulfirina",
+    "descripcion": "Levusol 500 ml Piña es una solución oral con sabor a piña utilizada para el tratamiento de deficiencias de sulfatos y como suplemento mineral.",
+    "image_url": "/uploads/products/levusol_500_ml_piña.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.5,
+        "price": 22.0,
+        "profit_percent": 0.25,
+        "sku": "SKU-3D111D84DD54"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:39.613028",
+    "updated_at": "2026-04-20T08:06:39.613028"
+  },
+  {
+    "_id": "milorix_crema_hemorroidal_20mg",
+    "name": "MILORIX CREMA HEMORROIDAL 20MG",
+    "category": "Crema Hemorroidal",
+    "principio_activo": "20 mg de principio activo no especificado",
+    "descripcion": "Milorix Crema Hemorroidal es un medicamento tópico utilizado para aliviar los síntomas asociados con las hemorroides, como el dolor, la inflamación y la irritación.",
+    "image_url": "/uploads/products/milorix_crema_hemorroidal_20mg.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 72.58,
+        "price": 97.0,
+        "profit_percent": 0.25,
+        "sku": "SKU-2B7E4DD79CC9"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:42.940712",
+    "updated_at": "2026-04-20T08:06:42.940712"
+  },
+  {
+    "_id": "mommex_spray_nasal_18g18ml_140_dosis",
+    "name": "MOMMEX SPRAY NASAL 18G/18ML 140 DOSIS",
+    "category": "Spray nasal",
+    "principio_activo": "Oxymetazolina",
+    "descripcion": "MOMMEX SPRAY NASAL es un descongestionante nasal que alivia la congestión nasal causada por resfriados, alergias o sinusitis. Contiene 18 gramos de solución en un frasco de 18 ml, proporcionando hasta 140 dosis.",
+    "image_url": "/uploads/products/mommex_spray_nasal_18g18ml_140_dosis.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 217.64,
+        "price": 290.0,
+        "profit_percent": 0.25,
+        "sku": "SKU-A0FAEC193B7E"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:47.280176",
+    "updated_at": "2026-04-20T08:06:47.280176"
+  },
+  {
+    "_id": "qg5_plus_bebible_caja_x_24_sachets_de_10_ml",
+    "name": "QG5 PLUS BEBIBLE CAJA X 24 SACHETS DE 10 ML",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Coenzima Q10",
+    "descripcion": "QG5 PLUS BEBIBLE es un suplemento alimenticio en presentación de caja con 24 sachets de 10 ml, diseñado para apoyar la salud cardiovascular y el metabolismo energético mediante la administración de coenzima Q10.",
+    "image_url": "/uploads/products/qg5_plus_bebible_caja_x_24_sachets_de_10_ml.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.55,
+        "price": 10.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-B87781F8BB67"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:50.213199",
+    "updated_at": "2026-04-20T08:06:50.213199"
+  },
+  {
+    "_id": "ssn_gotas",
+    "name": "S.S.N. GOTAS",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas del complejo B",
+    "descripcion": "S.S.N. GOTAS es un suplemento vitamínico en forma de gotas que contiene vitaminas del complejo B, utilizado para tratar y prevenir deficiencias vitamínicas y mejorar el estado nutricional.",
+    "image_url": "/uploads/products/ssn_gotas.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 27.0,
+        "price": 35.0,
+        "profit_percent": 0.23,
+        "sku": "SKU-54B1D435B448"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:53.301223",
+    "updated_at": "2026-04-20T08:06:53.301223"
+  },
+  {
+    "_id": "ssn_spray_nasal_50_ml",
+    "name": "S.S.N. SPRAY NASAL 50 ML",
+    "category": "Spray nasal",
+    "principio_activo": "Solución salina normal (cloruro de sodio)",
+    "descripcion": "Spray nasal de solución salina normal para la limpieza y humidificación de las fosas nasales.",
+    "image_url": "/uploads/products/ssn_spray_nasal_50_ml.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 52.2,
+        "price": 75.0,
+        "profit_percent": 0.3,
+        "sku": "SKU-9A730FC1FC8B"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:56.281184",
+    "updated_at": "2026-04-20T08:06:56.281184"
+  },
+  {
+    "_id": "sukrol_vigor_mujer_x_30_tabs",
+    "name": "SUKROL VIGOR MUJER X 30 TABS",
+    "category": "Suplemento vitamínico y mineral",
+    "principio_activo": "Vitaminas y minerales específicos para la mujer",
+    "descripcion": "SUKROL VIGOR MUJER X 30 TABS es un suplemento diseñado para apoyar la salud y vitalidad femenina, proporcionando vitaminas y minerales esenciales para el bienestar general.",
+    "image_url": "/uploads/products/sukrol_vigor_mujer_x_30_tabs.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 50.4,
+        "price": 69.0,
+        "profit_percent": 0.27,
+        "sku": "SKU-6DAADC7B001C"
+      }
+    ],
+    "created_at": "2026-04-20T08:06:59.761457",
+    "updated_at": "2026-04-20T08:06:59.761457"
+  },
+  {
+    "_id": "toalla_humeda_pom_pom_x_80",
+    "name": "TOALLA HUMEDA POM POM X 80",
+    "category": "Higiene personal",
+    "principio_activo": "",
+    "descripcion": "Toalla húmeda para limpieza y cuidado de la piel, paquete con 80 unidades.",
+    "image_url": "/uploads/products/toalla_humeda_pom_pom_x_80.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.67,
+        "price": 11.0,
+        "profit_percent": 0.3,
+        "sku": "SKU-E0F82817E3F3"
+      }
+    ],
+    "created_at": "2026-04-20T08:07:02.438748",
+    "updated_at": "2026-04-20T08:07:02.438748"
+  },
+  {
+    "_id": "vitaflenaco_25_mg_caja_x_30_blister_x_15",
+    "name": "VITAFLENACO 25 MG CAJA X 30 BLISTER X 15",
+    "category": "Antiinflamatorio no esteroideo",
+    "principio_activo": "Piroxicam",
+    "descripcion": "VITAFLENACO 25 MG es un medicamento antiinflamatorio no esteroideo que contiene piroxicam, utilizado para aliviar el dolor y la inflamación en diversas condiciones musculoesqueléticas.",
+    "image_url": "/uploads/products/vitaflenaco_25_mg_caja_x_30_blister_x_15.jpg",
+    "supplier": "PRECIO BAJO",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.09,
+        "price": 1.5,
+        "profit_percent": 0.27,
+        "sku": "SKU-5849E5BA9FD5"
+      }
+    ],
+    "created_at": "2026-04-20T08:07:05.628170",
+    "updated_at": "2026-04-20T08:07:05.628170"
+  }
+]

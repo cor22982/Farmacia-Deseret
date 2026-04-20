@@ -1,0 +1,1031 @@
+[
+  {
+    "_id": "acetaminofen_gel_caps_caja_x_50_blist_x_10_balaxi",
+    "name": "ACETAMINOFEN GEL CAPS CAJA X 50 BLIST X 10 BALAXI",
+    "category": "Analgésicos y antipiréticos",
+    "principio_activo": "Acetaminofén",
+    "descripcion": "Gel capsulas de acetaminofén presentadas en caja con 50 blisters de 10 cápsulas cada uno, utilizadas para aliviar el dolor y reducir la fiebre.",
+    "image_url": "/uploads/products/acetaminofen_gel_caps_caja_x_50_blist_x_10_balaxi.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.0,
+        "price": 12.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-8CEAAA8124B1"
+      }
+    ],
+    "created_at": "2026-04-20T07:38:45.554447",
+    "updated_at": "2026-04-20T07:38:45.555447"
+  },
+  {
+    "_id": "aciclovir_400_mg_blister_x_10_caja_x_100_caplin",
+    "name": "ACICLOVIR 400 MG BLISTER X 10 CAJA X 100 CAPLIN",
+    "category": "Antiviral",
+    "principio_activo": "Aciclovir",
+    "descripcion": "Medicamento antiviral utilizado para el tratamiento de infecciones causadas por virus herpes, como herpes labial, herpes genital y varicela.",
+    "image_url": "/uploads/products/aciclovir_400_mg_blister_x_10_caja_x_100_caplin.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.7,
+        "price": 12.0,
+        "profit_percent": 0.61,
+        "sku": "SKU-64C360D245BA"
+      }
+    ],
+    "created_at": "2026-04-20T07:38:51.402379",
+    "updated_at": "2026-04-20T07:38:51.402379"
+  },
+  {
+    "_id": "aciclovir_5_crema_15_gms_caplin",
+    "name": "ACICLOVIR 5% CREMA 15 GMS CAPLIN",
+    "category": "Antiviral tópico",
+    "principio_activo": "Aciclovir",
+    "descripcion": "Crema al 5% de aciclovir utilizada para el tratamiento de infecciones virales de la piel causadas por el virus del herpes simple, como herpes labial y herpes genital.",
+    "image_url": "/uploads/products/aciclovir_5_crema_15_gms_caplin.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 10.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-075BBBC7D888"
+      }
+    ],
+    "created_at": "2026-04-20T07:38:54.266740",
+    "updated_at": "2026-04-20T07:38:54.266740"
+  },
+  {
+    "_id": "aciclovir_800_mg_blister_x_10_caja_x_30",
+    "name": "ACICLOVIR 800 MG BLISTER X 10 CAJA X 30",
+    "category": "Antiviral",
+    "principio_activo": "Aciclovir",
+    "descripcion": "Medicamento antiviral en tabletas de 800 mg, presentado en blíster de 10 unidades, caja con 30 blísteres.",
+    "image_url": "/uploads/products/aciclovir_800_mg_blister_x_10_caja_x_30.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.17,
+        "price": 24.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-D6914D88DFF2"
+      }
+    ],
+    "created_at": "2026-04-20T07:38:56.923854",
+    "updated_at": "2026-04-20T07:38:56.923854"
+  },
+  {
+    "_id": "atenolol_caja_caplin_x_100",
+    "name": "ATENOLOL CAJA CAPLIN X 100",
+    "category": "Antihipertensivo",
+    "principio_activo": "Atenolol",
+    "descripcion": "Atenolol es un medicamento betabloqueante utilizado para tratar la hipertensión arterial y otras afecciones cardiovasculares. La presentación 'ATENOLOL CAJA CAPLIN X 100' indica que contiene 100 tabletas del principio activo atenolol.",
+    "image_url": "/uploads/products/atenolol_caja_caplin_x_100.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 28.0,
+        "price": 45.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-4A4F3C1D83D6"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:00.016446",
+    "updated_at": "2026-04-20T07:39:00.016446"
+  },
+  {
+    "_id": "atorvastatina_40_mg_caplin_blist_x_10_cja_x_30_tab",
+    "name": "ATORVASTATINA 40 MG CAPLIN BLIST X 10 CJA X 30 TAB",
+    "category": "Medicamento para el control del colesterol",
+    "principio_activo": "Atorvastatina",
+    "descripcion": "Atorvastatina 40 mg en tabletas, presentadas en blíster de 10 unidades, caja con 30 tabletas, utilizada para reducir los niveles de colesterol y prevenir enfermedades cardiovasculares.",
+    "image_url": "/uploads/products/atorvastatina_40_mg_caplin_blist_x_10_cja_x_30_tab.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.66,
+        "price": 27.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-E1C3946694BD"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:03.447981",
+    "updated_at": "2026-04-20T07:39:03.447981"
+  },
+  {
+    "_id": "azitromicina_200_mgs_susp_fco_x_15_ml_selec",
+    "name": "AZITROMICINA 200 MGS SUSP FCO X 15 ML SELEC",
+    "category": "Antibiótico",
+    "principio_activo": "Azitromicina",
+    "descripcion": "Suspensión oral de azitromicina 200 mg en frasco de 15 ml, utilizada para tratar infecciones bacterianas.",
+    "image_url": "/uploads/products/azitromicina_200_mgs_susp_fco_x_15_ml_selec.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.65,
+        "price": 25.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-52C314FFD00C"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:07.027120",
+    "updated_at": "2026-04-20T07:39:07.027120"
+  },
+  {
+    "_id": "barmicil__tubo_40_grs",
+    "name": "BARMICIL  TUBO 40 GRS",
+    "category": "Antibiótico tópico",
+    "principio_activo": "Bacitracina y Neomicina",
+    "descripcion": "BARMICIL es una pomada antibiótica tópica utilizada para prevenir y tratar infecciones bacterianas en heridas, cortes y quemaduras menores.",
+    "image_url": "/uploads/products/barmicil__tubo_40_grs.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.0,
+        "price": 23.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-6091E80B9381"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:10.024783",
+    "updated_at": "2026-04-20T07:39:10.024783"
+  },
+  {
+    "_id": "broncotos__carbclorfedextro_fco_120_ml_gebequimic",
+    "name": "BRONCOTOS ( CARB+CLORFE+DEXTRO) FCO 120 ML GEBEQUIMIC",
+    "category": "Jarabe para la tos",
+    "principio_activo": "Carbocisteína, Clorfeniramina, Dextrometorfano",
+    "descripcion": "BRONCOTOS es un jarabe que combina carbocisteína, un mucolítico que ayuda a fluidificar las secreciones bronquiales; clorfeniramina, un antihistamínico que reduce la congestión y alergias; y dextrometorfano, un antitusivo que suprime la tos. Está indicado para el alivio de la tos y la congestión en afecciones respiratorias.",
+    "image_url": "/uploads/products/broncotos__carbclorfedextro_fco_120_ml_gebequimic.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 31.5,
+        "price": 55.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-1D6DC0A24EFC"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:13.364079",
+    "updated_at": "2026-04-20T07:39:13.364079"
+  },
+  {
+    "_id": "calamina_locion_100ml_caplin",
+    "name": "CALAMINA LOCION 100ML CAPLIN",
+    "category": "Loción tópica",
+    "principio_activo": "Calamina",
+    "descripcion": "Loción tópica utilizada para aliviar irritaciones, picaduras de insectos, quemaduras leves y otras afecciones cutáneas, proporcionando un efecto calmante y refrescante.",
+    "image_url": "/uploads/products/calamina_locion_100ml_caplin.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.5,
+        "price": 14.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-B0847041AB60"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:17.347723",
+    "updated_at": "2026-04-20T07:39:17.347723"
+  },
+  {
+    "_id": "candersartan_32__bls_x_10_caja_x_30_tabs_caplin",
+    "name": "CANDERSARTAN 32  BLS X 10 CAJA X 30 TABS CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Candesartán",
+    "descripcion": "Medicamento utilizado para el tratamiento de la hipertensión arterial. Presentación en tabletas de 32 mg, caja con 30 tabletas.",
+    "image_url": "/uploads/products/candersartan_32__bls_x_10_caja_x_30_tabs_caplin.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.33,
+        "price": 31.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-024CD5123DD0"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:20.842665",
+    "updated_at": "2026-04-20T07:39:20.842665"
+  },
+  {
+    "_id": "cerebrex_capsula_blist_x_10_caja_x_60",
+    "name": "CEREBREX CAPSULA BLIST X 10 CAJA X 60",
+    "category": "Medicamento neurológico",
+    "principio_activo": "Piracetam",
+    "descripcion": "CEREBREX es un medicamento en cápsulas que contiene piracetam, utilizado para mejorar la función cerebral y tratar trastornos cognitivos y neurológicos.",
+    "image_url": "/uploads/products/cerebrex_capsula_blist_x_10_caja_x_60.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.25,
+        "price": 18.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-9A5145E1FCEF"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:23.530741",
+    "updated_at": "2026-04-20T07:39:23.530741"
+  },
+  {
+    "_id": "cerebrex_ginko_amp_bebibles_x_10",
+    "name": "CEREBREX GINKO AMP BEBIBLES X 10",
+    "category": "Suplemento dietético / Neuroprotector",
+    "principio_activo": "Ginkgo biloba",
+    "descripcion": "CEREBREX GINKO AMP BEBIBLES X 10 es un suplemento que contiene extracto de Ginkgo biloba, utilizado para mejorar la circulación cerebral y la función cognitiva. Se presenta en ampollas bebibles para facilitar su administración.",
+    "image_url": "/uploads/products/cerebrex_ginko_amp_bebibles_x_10.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.0,
+        "price": 8.5,
+        "profit_percent": 0.41,
+        "sku": "SKU-D61C3D08E1DA"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:27.248777",
+    "updated_at": "2026-04-20T07:39:27.248777"
+  },
+  {
+    "_id": "cetix_25_mg_blister_x_10_tab",
+    "name": "CETIX 25 MG BLISTER X 10 TAB",
+    "category": "Antihistamínico",
+    "principio_activo": "Cetirizina",
+    "descripcion": "CETIX 25 MG es un medicamento antihistamínico utilizado para aliviar los síntomas de alergias, como rinitis alérgica y urticaria. Se presenta en blister con 10 tabletas de 25 mg cada una.",
+    "image_url": "/uploads/products/cetix_25_mg_blister_x_10_tab.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.5,
+        "price": 3.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-52C680D4579F"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:30.516645",
+    "updated_at": "2026-04-20T07:39:30.516645"
+  },
+  {
+    "_id": "cetix_25_mg_solucion_oral_10_ml",
+    "name": "CETIX 25 MG SOLUCION ORAL 10 ML",
+    "category": "Antibiótico",
+    "principio_activo": "Cefixima",
+    "descripcion": "CETIX 25 MG SOLUCION ORAL 10 ML es un antibiótico de la familia de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas.",
+    "image_url": "/uploads/products/cetix_25_mg_solucion_oral_10_ml.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 17.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-52910FD31146"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:33.483913",
+    "updated_at": "2026-04-20T07:39:33.483913"
+  },
+  {
+    "_id": "cikrasel_40g_spray",
+    "name": "CIKRASEL 40G SPRAY",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Clorhexidina",
+    "descripcion": "CIKRASEL 40G SPRAY es un spray antiséptico que contiene clorhexidina, utilizado para la desinfección de la piel y mucosas, ayudando a prevenir infecciones en heridas, cortes y quemaduras.",
+    "image_url": "/uploads/products/cikrasel_40g_spray.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 41.75,
+        "price": 71.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-EA80915B405D"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:36.715371",
+    "updated_at": "2026-04-20T07:39:36.715371"
+  },
+  {
+    "_id": "cikrasel_crema_tubo_30gms",
+    "name": "CIKRASEL CREMA TUBO 30GMS",
+    "category": "Crema dermatológica",
+    "principio_activo": "Ciclopirox olamina",
+    "descripcion": "CIKRASEL CREMA es una crema antifúngica utilizada para tratar infecciones micóticas de la piel, como tiña, candidiasis y otras micosis superficiales.",
+    "image_url": "/uploads/products/cikrasel_crema_tubo_30gms.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.5,
+        "price": 35.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-7328BECF8772"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:39.399693",
+    "updated_at": "2026-04-20T07:39:39.399693"
+  },
+  {
+    "_id": "cloranfenicol_05_gotas_15_ml_selec",
+    "name": "CLORANFENICOL 0.5% GOTAS 15 ML SELEC",
+    "category": "Antibiótico oftálmico",
+    "principio_activo": "Cloranfenicol",
+    "descripcion": "Gotas oftálmicas con una concentración del 0.5% de cloranfenicol, utilizadas para tratar infecciones bacterianas en los ojos.",
+    "image_url": "/uploads/products/cloranfenicol_05_gotas_15_ml_selec.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.8,
+        "price": 16.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-421A42024D3F"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:41.984430",
+    "updated_at": "2026-04-20T07:39:41.984430"
+  },
+  {
+    "_id": "cuerpo_amarillo_ampolla_kit_piersan",
+    "name": "CUERPO AMARILLO AMPOLLA KIT PIERSAN",
+    "category": "Kit de diagnóstico hormonal",
+    "principio_activo": "No aplica",
+    "descripcion": "Kit para la detección del cuerpo amarillo mediante análisis hormonal, utilizado para evaluar la función ovárica y la fase lútea en el ciclo menstrual.",
+    "image_url": "/uploads/products/cuerpo_amarillo_ampolla_kit_piersan.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 26.9,
+        "price": 45.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-858EE2EB0E9E"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:44.654036",
+    "updated_at": "2026-04-20T07:39:44.654036"
+  },
+  {
+    "_id": "diosmina_caja_x_10_blist_x_10_qadira",
+    "name": "DIOSMINA CAJA X 10 BLIST X 10 QADIRA",
+    "category": "Vasoprotectores",
+    "principio_activo": "Diosmina",
+    "descripcion": "Medicamento utilizado para el tratamiento de trastornos venosos, como insuficiencia venosa crónica y hemorroides, que mejora la circulación sanguínea y reduce la inflamación.",
+    "image_url": "/uploads/products/diosmina_caja_x_10_blist_x_10_qadira.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.4,
+        "price": 30.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-AEB15A610C3C"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:47.956916",
+    "updated_at": "2026-04-20T07:39:47.957915"
+  },
+  {
+    "_id": "dolo_menalgil_kit_ampolla_menarini",
+    "name": "DOLO MENALGIL KIT AMPOLLA MENARINI",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Paracetamol, Cafeína, Metamizol sódico",
+    "descripcion": "DOLO MENALGIL KIT AMPOLLA MENARINI es un medicamento utilizado para el alivio del dolor y la fiebre. Contiene una combinación de principios activos que actúan como analgésicos y antiinflamatorios, indicado para tratar dolores de diversa índole como cefaleas, dolores musculares y articulares.",
+    "image_url": "/uploads/products/dolo_menalgil_kit_ampolla_menarini.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 28.0,
+        "price": 50.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-A8891B712134"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:51.685806",
+    "updated_at": "2026-04-20T07:39:51.685806"
+  },
+  {
+    "_id": "esencia_maravillosa_sierra_fco",
+    "name": "ESENCIA MARAVILLOSA SIERRA FCO",
+    "category": "Producto natural / Suplemento herbal",
+    "principio_activo": "Extracto de plantas medicinales (mezcla específica no detallada)",
+    "descripcion": "Esencia Maravillosa Sierra es un producto natural elaborado a base de extractos de plantas medicinales, utilizado tradicionalmente como suplemento para mejorar el bienestar general y apoyar funciones específicas del organismo.",
+    "image_url": "/uploads/products/esencia_maravillosa_sierra_fco.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.25,
+        "price": 15.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-38FAB1E70E01"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:55.113565",
+    "updated_at": "2026-04-20T07:39:55.113565"
+  },
+  {
+    "_id": "femitab_keto_clinda_ovulos_caja_x_7",
+    "name": "FEMITAB (KETO +CLINDA) OVULOS CAJA X 7",
+    "category": "Antibiótico y Antifúngico",
+    "principio_activo": "Ketoconazol y Clindamicina",
+    "descripcion": "FEMITAB (KETO + CLINDA) es un tratamiento en óvulos que combina ketoconazol, un antifúngico, y clindamicina, un antibiótico, utilizado para tratar infecciones vaginales mixtas causadas por hongos y bacterias.",
+    "image_url": "/uploads/products/femitab_keto_clinda_ovulos_caja_x_7.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 51.0,
+        "price": 96.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-A87EA266521F"
+      }
+    ],
+    "created_at": "2026-04-20T07:39:58.170670",
+    "updated_at": "2026-04-20T07:39:58.170670"
+  },
+  {
+    "_id": "flucolene_200_mg_caja_1_capsula",
+    "name": "FLUCOLENE 200 MG CAJA 1 CAPSULA",
+    "category": "Antifúngicos",
+    "principio_activo": "Fluconazol",
+    "descripcion": "FLUCOLENE 200 MG es un medicamento antifúngico utilizado para tratar infecciones causadas por hongos, administrado en cápsulas de 200 mg.",
+    "image_url": "/uploads/products/flucolene_200_mg_caja_1_capsula.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 17.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-8AF837EFC8F7"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:00.912829",
+    "updated_at": "2026-04-20T07:40:00.912829"
+  },
+  {
+    "_id": "fludisin_l_amb__loratad_100_ml_legsa",
+    "name": "FLUDISIN L (AMB + LORATAD) 100 ML LEGSA",
+    "category": "Medicamento combinado",
+    "principio_activo": "Ambroxol + Loratadina",
+    "descripcion": "FLUDISIN L es un jarabe que combina Ambroxol, un mucolítico que ayuda a fluidificar y eliminar las secreciones respiratorias, y Loratadina, un antihistamínico que alivia los síntomas alérgicos como la congestión nasal y estornudos. Está indicado para el tratamiento de afecciones respiratorias con tos y congestión nasal.",
+    "image_url": "/uploads/products/fludisin_l_amb__loratad_100_ml_legsa.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 26.0,
+        "price": 41.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-1FA860F1AEAA"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:04.852717",
+    "updated_at": "2026-04-20T07:40:04.852717"
+  },
+  {
+    "_id": "gentamicina_80_mg_ampolla_umedica",
+    "name": "GENTAMICINA 80 MG AMPOLLA UMEDICA",
+    "category": "Antibiótico",
+    "principio_activo": "Gentamicina",
+    "descripcion": "Antibiótico aminoglucósido utilizado para tratar infecciones bacterianas graves. La presentación es en ampolla de 80 mg para administración parenteral.",
+    "image_url": "/uploads/products/gentamicina_80_mg_ampolla_umedica.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.25,
+        "price": 5.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-AB25DB52E0C6"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:07.883323",
+    "updated_at": "2026-04-20T07:40:07.883323"
+  },
+  {
+    "_id": "guayacolato_con_jbetolu_120ml_mentol_hiperfarm",
+    "name": "GUAYACOLATO CON JBE.TOLU 120ML MENTOL HIPERFARM",
+    "category": "Jarabe para la tos",
+    "principio_activo": "Guayacolato de glicerilo",
+    "descripcion": "Jarabe expectorante con mentol utilizado para aliviar la tos y facilitar la expulsión de mucosidades en las vías respiratorias.",
+    "image_url": "/uploads/products/guayacolato_con_jbetolu_120ml_mentol_hiperfarm.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.5,
+        "price": 26.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-53FA9006DB47"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:15.923913",
+    "updated_at": "2026-04-20T07:40:15.923913"
+  },
+  {
+    "_id": "higo_miel__120_ml",
+    "name": "HIGO MIEL  120 ML",
+    "category": "Jarabe",
+    "principio_activo": "Extracto de higo y miel",
+    "descripcion": "Jarabe natural a base de extracto de higo y miel, utilizado para aliviar la tos y mejorar la salud respiratoria.",
+    "image_url": "/uploads/products/higo_miel__120_ml.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 39.75,
+        "price": 58.0,
+        "profit_percent": 0.31,
+        "sku": "SKU-E635923B9206"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:18.654296",
+    "updated_at": "2026-04-20T07:40:18.654296"
+  },
+  {
+    "_id": "ibuprofeno_600_mg_mk_caja_x_50_blist_x_10",
+    "name": "IBUPROFENO 600 MG MK CAJA X 50 BLIST X 10",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Ibuprofeno",
+    "descripcion": "Ibuprofeno 600 mg en caja con 50 blísteres de 10 tabletas cada uno, utilizado para aliviar el dolor y reducir la inflamación.",
+    "image_url": "/uploads/products/ibuprofeno_600_mg_mk_caja_x_50_blist_x_10.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.8,
+        "price": 4.5,
+        "profit_percent": 0.38,
+        "sku": "SKU-0A7C28C0B8A2"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:21.394314",
+    "updated_at": "2026-04-20T07:40:21.394314"
+  },
+  {
+    "_id": "irbersartan_150_mg_blist_x_10_caja_x_30caplin",
+    "name": "IRBERSARTAN 150 MG BLIST X 10 CAJA X 30CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Irbesartán",
+    "descripcion": "Medicamento utilizado para el tratamiento de la hipertensión arterial. Cada caja contiene 30 blísteres, cada blíster con 10 cápsulas de 150 mg de Irbesartán.",
+    "image_url": "/uploads/products/irbersartan_150_mg_blist_x_10_caja_x_30caplin.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.34,
+        "price": 29.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-085531155684"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:24.065567",
+    "updated_at": "2026-04-20T07:40:24.065567"
+  },
+  {
+    "_id": "irbersartan_300mg_blist_x_10_caja_x_30_caplin",
+    "name": "IRBERSARTAN 300MG BLIST X 10 CAJA X 30 CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Irbesartán",
+    "descripcion": "Medicamento utilizado para el tratamiento de la hipertensión arterial. Presentación en caja con 30 blísteres, cada uno con 10 cápsulas de 300 mg.",
+    "image_url": "/uploads/products/irbersartan_300mg_blist_x_10_caja_x_30_caplin.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.0,
+        "price": 33.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-A0EFF04EFD85"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:26.746713",
+    "updated_at": "2026-04-20T07:40:26.746713"
+  },
+  {
+    "_id": "kolicon_15_ml",
+    "name": "KOLICON 15 ML",
+    "category": "Antiespasmódico",
+    "principio_activo": "Hioscina butilbromuro",
+    "descripcion": "KOLICON 15 ML es un medicamento utilizado para aliviar los espasmos del tracto gastrointestinal, biliar y genitourinario. Su principio activo, la hioscina butilbromuro, actúa relajando los músculos lisos, reduciendo el dolor y las molestias asociadas a los espasmos.",
+    "image_url": "/uploads/products/kolicon_15_ml.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.95,
+        "price": 27.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-3FF580697CB8"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:29.981979",
+    "updated_at": "2026-04-20T07:40:29.981979"
+  },
+  {
+    "_id": "losart50125mg_hidro_cj_x_30__blist_x_10_tabs_caplin",
+    "name": "LOSART50/12.5MG HIDRO CJ X 30  BLIST X 10 TABS CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Losartán potásico 50 mg / Hidroclorotiazida 12.5 mg",
+    "descripcion": "Combinación de Losartán potásico e Hidroclorotiazida en tabletas para el tratamiento de la hipertensión arterial. Presentación en blíster con 10 tabletas, caja con 30 blísters.",
+    "image_url": "/uploads/products/losart50125mg_hidro_cj_x_30__blist_x_10_tabs_caplin.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.8,
+        "price": 14.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-5A9A37C4E146"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:33.192371",
+    "updated_at": "2026-04-20T07:40:33.192371"
+  },
+  {
+    "_id": "mavifem_crema_vaginal_caja_x_6_clindaketo",
+    "name": "MAVIFEM CREMA VAGINAL CAJA X 6 (CLINDA+KETO)",
+    "category": "Antimicóticos y antibióticos vaginales",
+    "principio_activo": "Clindamicina y Ketoconazol",
+    "descripcion": "Crema vaginal que combina clindamicina, un antibiótico, y ketoconazol, un antimicótico, utilizada para tratar infecciones vaginales mixtas causadas por bacterias y hongos.",
+    "image_url": "/uploads/products/mavifem_crema_vaginal_caja_x_6_clindaketo.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 43.5,
+        "price": 85.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-5548B1ECA02F"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:36.656043",
+    "updated_at": "2026-04-20T07:40:36.656043"
+  },
+  {
+    "_id": "neofebrina_jarabe_100_ml",
+    "name": "NEOFEBRINA JARABE 100 ML",
+    "category": "Jarabe para el alivio de síntomas respiratorios",
+    "principio_activo": "Paracetamol, Clorfeniramina, Fenilefrina",
+    "descripcion": "NEOFEBRINA JARABE 100 ML es un medicamento utilizado para aliviar síntomas de resfriados y gripes, como fiebre, congestión nasal y alergias, combinando analgésico, antihistamínico y descongestionante.",
+    "image_url": "/uploads/products/neofebrina_jarabe_100_ml.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 21.32,
+        "price": 37.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-C481F5E02AD1"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:40.968343",
+    "updated_at": "2026-04-20T07:40:40.968343"
+  },
+  {
+    "_id": "pantoprazol_40_mg_blist_x_10_caja_x_100_caplin",
+    "name": "PANTOPRAZOL 40 MG BLIST X 10 CAJA X 100 CAPLIN",
+    "category": "Inhibidor de la bomba de protones",
+    "principio_activo": "Pantoprazol",
+    "descripcion": "Pantoprazol 40 mg en blíster de 10 cápsulas, caja con 100 cápsulas. Utilizado para reducir la producción de ácido gástrico en el tratamiento de enfermedades como la enfermedad por reflujo gastroesofágico y úlceras gástricas.",
+    "image_url": "/uploads/products/pantoprazol_40_mg_blist_x_10_caja_x_100_caplin.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.42,
+        "price": 15.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-C15EB9092F06"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:44.077258",
+    "updated_at": "2026-04-20T07:40:44.077258"
+  },
+  {
+    "_id": "pediaflora_granu_disp_x_50_sobres_pahil",
+    "name": "PEDIAFLORA GRANU DISP X 50 SOBRES PAHIL",
+    "category": "Probiótico",
+    "principio_activo": "Lactobacillus reuteri",
+    "descripcion": "PEDIAFLORA GRANU DISP X 50 SOBRES PAHIL es un suplemento probiótico en forma de gránulos para disolver, indicado para el mantenimiento y restauración de la flora intestinal en niños.",
+    "image_url": "/uploads/products/pediaflora_granu_disp_x_50_sobres_pahil.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.56,
+        "price": 18.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-5A414BAF4781"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:46.886420",
+    "updated_at": "2026-04-20T07:40:46.886420"
+  },
+  {
+    "_id": "perenterol_sobre_250_mgs_caja_x_10",
+    "name": "PERENTEROL SOBRE 250 MGS CAJA X 10",
+    "category": "Antidiarreico",
+    "principio_activo": "Saccharomyces boulardii",
+    "descripcion": "PERENTEROL SOBRE 250 MGS es un medicamento utilizado para el tratamiento de diarreas agudas y crónicas, que contiene Saccharomyces boulardii, un probiótico que ayuda a restaurar la flora intestinal.",
+    "image_url": "/uploads/products/perenterol_sobre_250_mgs_caja_x_10.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.0,
+        "price": 23.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-313F6A90B938"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:49.973568",
+    "updated_at": "2026-04-20T07:40:49.973568"
+  },
+  {
+    "_id": "repelente_off_crema_familiar_200_ml",
+    "name": "REPELENTE OFF CREMA FAMILIAR 200 ML",
+    "category": "Repelente de insectos",
+    "principio_activo": "DEET",
+    "descripcion": "Crema repelente familiar de 200 ml diseñada para proteger la piel contra picaduras de insectos.",
+    "image_url": "/uploads/products/repelente_off_crema_familiar_200_ml.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 34.75,
+        "price": 62.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-6311C2FADD33"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:52.725554",
+    "updated_at": "2026-04-20T07:40:52.726553"
+  },
+  {
+    "_id": "repelente_off_spray_170_grs",
+    "name": "REPELENTE OFF SPRAY 170 GRS",
+    "category": "Repelente de insectos",
+    "principio_activo": "DEET",
+    "descripcion": "Spray repelente de insectos para aplicación tópica, diseñado para proteger contra picaduras de mosquitos y otros insectos.",
+    "image_url": "/uploads/products/repelente_off_spray_170_grs.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.3,
+        "price": 65.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-AAE1F91A5912"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:55.222870",
+    "updated_at": "2026-04-20T07:40:55.222870"
+  },
+  {
+    "_id": "rowachol_blister_x_10_caja_x_50_gel_cpas",
+    "name": "ROWACHOL BLISTER X 10 CAJA X 50 GEL CPAS",
+    "category": "Medicamento digestivo",
+    "principio_activo": "Aceite de menta, aceite de alcanfor, aceite de eucalipto, aceite de cajeput, aceite de clavo, aceite de romero",
+    "descripcion": "ROWACHOL es un medicamento utilizado para el tratamiento de trastornos biliares y digestivos, que ayuda a mejorar la función hepática y la digestión mediante la estimulación de la producción y el flujo de bilis.",
+    "image_url": "/uploads/products/rowachol_blister_x_10_caja_x_50_gel_cpas.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.52,
+        "price": 6.5,
+        "profit_percent": 0.46,
+        "sku": "SKU-897EF34A0954"
+      }
+    ],
+    "created_at": "2026-04-20T07:40:58.711399",
+    "updated_at": "2026-04-20T07:40:58.711399"
+  },
+  {
+    "_id": "rowatinex_perlas_amarillas_bli_x_10",
+    "name": "ROWATINEX PERLAS AMARILLAS BLI X 10",
+    "category": "Medicamento para el tratamiento de trastornos urinarios",
+    "principio_activo": "Extractos de aceites esenciales (incluyendo aceite de hinojo, aceite de anís, aceite de romero, aceite de menta, aceite de eucalipto, aceite de lavanda, aceite de tomillo)",
+    "descripcion": "ROWATINEX PERLAS AMARILLAS BLI X 10 es un medicamento utilizado para facilitar la eliminación de cálculos renales y aliviar los síntomas asociados a trastornos urinarios, gracias a su acción antiespasmódica, analgésica y antiinflamatoria derivada de sus aceites esenciales.",
+    "image_url": "/uploads/products/rowatinex_perlas_amarillas_bli_x_10.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 6.5,
+        "profit_percent": 0.62,
+        "sku": "SKU-84B31668D34A"
+      }
+    ],
+    "created_at": "2026-04-20T07:41:03.063152",
+    "updated_at": "2026-04-20T07:41:03.063152"
+  },
+  {
+    "_id": "sitagliptina__metoformina_501000_blis_x_10_seven",
+    "name": "SITAGLIPTINA + METOFORMINA (50/1000) BLIS X 10 SEVEN",
+    "category": "Antidiabético",
+    "principio_activo": "Sitagliptina y Metformina",
+    "descripcion": "Combinación de sitagliptina y metformina utilizada para el tratamiento de la diabetes tipo 2, ayudando a controlar los niveles de glucosa en sangre.",
+    "image_url": "/uploads/products/sitagliptina__metoformina_501000_blis_x_10_seven.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.0,
+        "price": 58.0,
+        "profit_percent": 0.57,
+        "sku": "SKU-D598418BC11E"
+      }
+    ],
+    "created_at": "2026-04-20T07:41:06.430003",
+    "updated_at": "2026-04-20T07:41:06.430003"
+  },
+  {
+    "_id": "sitagliptina_blist_x_10_tab",
+    "name": "SITAGLIPTINA BLIST X 10 TAB",
+    "category": "Antidiabético",
+    "principio_activo": "Sitagliptina",
+    "descripcion": "Sitagliptina es un medicamento utilizado para el tratamiento de la diabetes tipo 2. Actúa como un inhibidor de la dipeptidil peptidasa-4 (DPP-4), ayudando a controlar los niveles de glucosa en sangre.",
+    "image_url": "/uploads/products/sitagliptina_blist_x_10_tab.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.5,
+        "price": 30.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-91318CE30011"
+      }
+    ],
+    "created_at": "2026-04-20T07:41:09.648472",
+    "updated_at": "2026-04-20T07:41:09.648472"
+  },
+  {
+    "_id": "telmisartan_80_mg_caja_x_30_blist_x_10",
+    "name": "TELMISARTAN 80 MG CAJA X 30 BLIST X 10",
+    "category": "Antihipertensivo",
+    "principio_activo": "Telmisartán",
+    "descripcion": "Medicamento utilizado para el tratamiento de la hipertensión arterial. Cada caja contiene 30 blísteres, cada blíster con 10 tabletas de 80 mg de telmisartán.",
+    "image_url": "/uploads/products/telmisartan_80_mg_caja_x_30_blist_x_10.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.0,
+        "price": 44.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-9C8DC2A4F61E"
+      }
+    ],
+    "created_at": "2026-04-20T07:41:12.746309",
+    "updated_at": "2026-04-20T07:41:12.746309"
+  },
+  {
+    "_id": "tinidazol_500_mg_blist_x_10_caja_x_100_caplin",
+    "name": "TINIDAZOL 500 MG BLIST X 10 CAJA X 100 CAPLIN",
+    "category": "Antiprotozoarios y Antibacterianos",
+    "principio_activo": "Tinidazol",
+    "descripcion": "Tinidazol 500 mg en presentación de blíster con 10 cápsulas, caja con 100 unidades. Utilizado para el tratamiento de infecciones causadas por protozoos y bacterias anaerobias.",
+    "image_url": "/uploads/products/tinidazol_500_mg_blist_x_10_caja_x_100_caplin.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.6,
+        "price": 6.0,
+        "profit_percent": 0.57,
+        "sku": "SKU-0F1435DD584D"
+      }
+    ],
+    "created_at": "2026-04-20T07:41:15.616816",
+    "updated_at": "2026-04-20T07:41:15.616816"
+  },
+  {
+    "_id": "trimetoprim_blister_x_10_tabs_caja_x_100__caplin",
+    "name": "TRIMETOPRIM BLISTER X 10 TABS CAJA X 100  CAPLIN",
+    "category": "Antibiótico",
+    "principio_activo": "Trimetoprim",
+    "descripcion": "Trimetoprim es un antibiótico utilizado para tratar infecciones bacterianas, especialmente infecciones del tracto urinario. Se presenta en blíster con 10 tabletas por caja, con un total de 100 tabletas, fabricado por Caplin.",
+    "image_url": "/uploads/products/trimetoprim_blister_x_10_tabs_caja_x_100__caplin.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.2,
+        "price": 6.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-B142D2BE4690"
+      }
+    ],
+    "created_at": "2026-04-20T07:41:18.755996",
+    "updated_at": "2026-04-20T07:41:18.755996"
+  },
+  {
+    "_id": "urin_blist_x_5_tab_caja_x_100",
+    "name": "URIN BLIST X 5 TAB CAJA X 100",
+    "category": "Medicamento para el tracto urinario",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico en caja con 100 tabletas, utilizado para el tratamiento de afecciones urinarias.",
+    "image_url": "/uploads/products/urin_blist_x_5_tab_caja_x_100.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.5,
+        "price": 6.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-DC8A6E527118"
+      }
+    ],
+    "created_at": "2026-04-20T07:41:21.618249",
+    "updated_at": "2026-04-20T07:41:21.618249"
+  },
+  {
+    "_id": "verticen_difenidol_25_mgs_blist_x_15",
+    "name": "VERTICEN (DIFENIDOL 25 MGS) BLIST X 15",
+    "category": "Medicamento para el vértigo",
+    "principio_activo": "Difenidol",
+    "descripcion": "VERTICEN es un medicamento que contiene 25 mg de Difenidol por comprimido, utilizado para el tratamiento y prevención de vértigo y mareos. Se presenta en blíster con 15 comprimidos.",
+    "image_url": "/uploads/products/verticen_difenidol_25_mgs_blist_x_15.jpg",
+    "supplier": "EMMANUEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.66,
+        "price": 2.8,
+        "profit_percent": 0.41,
+        "sku": "SKU-B0D12A199374"
+      }
+    ],
+    "created_at": "2026-04-20T07:41:25.533240",
+    "updated_at": "2026-04-20T07:41:25.533240"
+  }
+]

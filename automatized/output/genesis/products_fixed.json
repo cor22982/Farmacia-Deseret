@@ -1,0 +1,1808 @@
+[
+  {
+    "_id": "aceite_baby_chic_115_ml",
+    "name": "ACEITE BABY CHIC 115 ML",
+    "category": "Cuidado infantil",
+    "principio_activo": "No especificado",
+    "descripcion": "Aceite para el cuidado de la piel del bebé, utilizado para hidratar y proteger la piel delicada.",
+    "image_url": "/uploads/products/aceite_baby_chic_115_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.5,
+        "price": 10.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-C3E4B4CB43EB"
+      }
+    ],
+    "created_at": "2026-04-20T07:07:52.907334",
+    "updated_at": "2026-04-20T07:07:52.907334"
+  },
+  {
+    "_id": "aceite_baby_chic_240_ml",
+    "name": "ACEITE BABY CHIC 240 ML",
+    "category": "Cuidado infantil",
+    "principio_activo": "Aceite mineral",
+    "descripcion": "Aceite para el cuidado de la piel del bebé, utilizado para hidratar y proteger la piel delicada.",
+    "image_url": "/uploads/products/aceite_baby_chic_240_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.1,
+        "price": 14.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-CE670CCE8D3B"
+      }
+    ],
+    "created_at": "2026-04-20T07:07:55.573176",
+    "updated_at": "2026-04-20T07:07:55.573176"
+  },
+  {
+    "_id": "acetaminofen__500_mg_blistr_x_10_caja_x_100",
+    "name": "ACETAMINOFEN  500 MG BLISTR X 10 CAJA X 100",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Acetaminofén",
+    "descripcion": "Medicamento utilizado para aliviar el dolor y reducir la fiebre. Presentación en blíster de 10 tabletas, caja con 100 tabletas de 500 mg cada una.",
+    "image_url": "/uploads/products/acetaminofen__500_mg_blistr_x_10_caja_x_100.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.25,
+        "price": 2.5,
+        "profit_percent": 0.5,
+        "sku": "SKU-0344316AFFD9"
+      }
+    ],
+    "created_at": "2026-04-20T07:07:58.401047",
+    "updated_at": "2026-04-20T07:07:58.401047"
+  },
+  {
+    "_id": "amoxicilinaclavul_40057_100_ml_pharm_inter",
+    "name": "AMOXICILINA+CLAVUL 400/57 100 ML PHARM INTER",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina y Ácido Clavulánico",
+    "descripcion": "Suspensión oral que combina amoxicilina y ácido clavulánico, utilizada para tratar infecciones bacterianas sensibles a estos antibióticos.",
+    "image_url": "/uploads/products/amoxicilinaclavul_40057_100_ml_pharm_inter.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.0,
+        "price": 45.0,
+        "profit_percent": 0.62,
+        "sku": "SKU-6F8735D9D76F"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:02.373134",
+    "updated_at": "2026-04-20T07:08:02.374132"
+  },
+  {
+    "_id": "angiocat__18",
+    "name": "ANGIOCAT # 18",
+    "category": "Catéteres y dispositivos médicos",
+    "principio_activo": "No aplica",
+    "descripcion": "ANGIOCAT # 18 es un catéter utilizado para acceso vascular en procedimientos médicos, facilitando la administración de líquidos, medicamentos o la toma de muestras sanguíneas.",
+    "image_url": "/uploads/products/angiocat__18.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.65,
+        "price": 10.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-F0B7D3167BAD"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:05.344261",
+    "updated_at": "2026-04-20T07:08:05.344261"
+  },
+  {
+    "_id": "angiocat__20",
+    "name": "ANGIOCAT # 20",
+    "category": "Medicamento cardiovascular",
+    "principio_activo": "Nifedipino",
+    "descripcion": "ANGIOCAT # 20 es un medicamento utilizado para el tratamiento de la hipertensión arterial y angina de pecho. Contiene nifedipino, un bloqueador de los canales de calcio que ayuda a dilatar los vasos sanguíneos y mejorar el flujo sanguíneo.",
+    "image_url": "/uploads/products/angiocat__20.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.4,
+        "price": 10.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-8F8B79D01F9A"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:08.309923",
+    "updated_at": "2026-04-20T07:08:08.309923"
+  },
+  {
+    "_id": "angiocat__22",
+    "name": "ANGIOCAT # 22",
+    "category": "Medicamento cardiovascular",
+    "principio_activo": "No especificado",
+    "descripcion": "ANGIOCAT # 22 es un producto farmacéutico utilizado en el tratamiento de enfermedades cardiovasculares. La información específica sobre su principio activo no está disponible.",
+    "image_url": "/uploads/products/angiocat__22.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.4,
+        "price": 10.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-317B10D79A1B"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:11.586963",
+    "updated_at": "2026-04-20T07:08:11.586963"
+  },
+  {
+    "_id": "angiocat__24",
+    "name": "ANGIOCAT # 24",
+    "category": "Medicamento cardiovascular",
+    "principio_activo": "Amlodipino",
+    "descripcion": "ANGIOCAT # 24 es un medicamento utilizado para el tratamiento de la hipertensión arterial y la angina de pecho, cuyo principio activo es el amlodipino, un bloqueador de los canales de calcio que ayuda a dilatar los vasos sanguíneos y mejorar el flujo sanguíneo.",
+    "image_url": "/uploads/products/angiocat__24.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.4,
+        "price": 10.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-B24D25013CDB"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:14.535061",
+    "updated_at": "2026-04-20T07:08:14.535061"
+  },
+  {
+    "_id": "arco_cort_40mg_kit",
+    "name": "ARCO CORT 40MG KIT",
+    "category": "Corticosteroides",
+    "principio_activo": "Prednisona",
+    "descripcion": "ARCO CORT 40MG KIT es un medicamento que contiene prednisona, un corticosteroide utilizado para reducir la inflamación y suprimir el sistema inmunológico en diversas condiciones médicas.",
+    "image_url": "/uploads/products/arco_cort_40mg_kit.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 26.0,
+        "price": 44.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-E0D5788464DB"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:17.256347",
+    "updated_at": "2026-04-20T07:08:17.256347"
+  },
+  {
+    "_id": "arket_ketoprofeno_bolsa_con_7_parches",
+    "name": "ARKET KETOPROFENO BOLSA CON 7 PARCHES",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Ketoprofeno",
+    "descripcion": "Parche transdérmico que contiene ketoprofeno, utilizado para el alivio del dolor y la inflamación en condiciones musculoesqueléticas.",
+    "image_url": "/uploads/products/arket_ketoprofeno_bolsa_con_7_parches.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 32.5,
+        "price": 55.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-3F4E3074EC1F"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:19.834372",
+    "updated_at": "2026-04-20T07:08:19.834372"
+  },
+  {
+    "_id": "arnica_gel_120_ml",
+    "name": "ARNICA GEL 120 ML",
+    "category": "Analgésicos y antiinflamatorios tópicos",
+    "principio_activo": "Árnica montana",
+    "descripcion": "Gel tópico utilizado para aliviar dolores musculares, contusiones, inflamaciones y hematomas mediante la aplicación directa sobre la piel.",
+    "image_url": "/uploads/products/arnica_gel_120_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.75,
+        "price": 19.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-FBDDC0FCD009"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:22.646706",
+    "updated_at": "2026-04-20T07:08:22.646706"
+  },
+  {
+    "_id": "avamigran_blister_x_10",
+    "name": "AVAMIGRAN BLISTER X 10",
+    "category": "Analgésicos y Antimigrañosos",
+    "principio_activo": "Acetaminofén y Cafeína",
+    "descripcion": "AVAMIGRAN BLISTER X 10 es un medicamento utilizado para el alivio del dolor de cabeza y síntomas asociados a la migraña. Contiene acetaminofén, un analgésico, y cafeína, que potencia el efecto analgésico.",
+    "image_url": "/uploads/products/avamigran_blister_x_10.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.2,
+        "price": 5.5,
+        "profit_percent": 0.42,
+        "sku": "SKU-F8F299F0E76A"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:25.782958",
+    "updated_at": "2026-04-20T07:08:25.782958"
+  },
+  {
+    "_id": "azitromicina_500_mg_caja_x_3_tab",
+    "name": "AZITROMICINA 500 MG CAJA X 3 TAB",
+    "category": "Antibiótico",
+    "principio_activo": "Azitromicina",
+    "descripcion": "Azitromicina 500 mg en caja con 3 tabletas, utilizada para tratar infecciones bacterianas.",
+    "image_url": "/uploads/products/azitromicina_500_mg_caja_x_3_tab.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.0,
+        "price": 18.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-AFE1027B4EB0"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:28.431591",
+    "updated_at": "2026-04-20T07:08:28.431591"
+  },
+  {
+    "_id": "bactid_spray_topico_30_ml",
+    "name": "BACTID SPRAY TOPICO 30 ML",
+    "category": "Antiséptico tópico",
+    "principio_activo": "Clorhexidina",
+    "descripcion": "BACTID SPRAY TÓPICO 30 ML es un antiséptico utilizado para la desinfección de la piel y heridas superficiales, ayudando a prevenir infecciones.",
+    "image_url": "/uploads/products/bactid_spray_topico_30_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 22.0,
+        "price": 44.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-C47982C4F35D"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:31.826653",
+    "updated_at": "2026-04-20T07:08:31.826653"
+  },
+  {
+    "_id": "betablock_05_mg_betametasona_caja_x_30",
+    "name": "BETABLOCK 0.5 MG BETAMETASONA CAJA X 30",
+    "category": "Corticosteroides",
+    "principio_activo": "Betametasona",
+    "descripcion": "BETABLOCK 0.5 MG contiene betametasona, un corticosteroide utilizado para reducir la inflamación y tratar diversas condiciones inflamatorias y alérgicas. Presentado en caja con 30 unidades.",
+    "image_url": "/uploads/products/betablock_05_mg_betametasona_caja_x_30.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.0,
+        "price": 1.9,
+        "profit_percent": 0.47,
+        "sku": "SKU-319A633F8AD5"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:34.751976",
+    "updated_at": "2026-04-20T07:08:34.751976"
+  },
+  {
+    "_id": "bifonazol_gotas_topicas_15_ml",
+    "name": "BIFONAZOL GOTAS TOPICAS 15 ML",
+    "category": "Antifúngico tópico",
+    "principio_activo": "Bifonazol",
+    "descripcion": "Bifonazol gotas tópicas es un medicamento antifúngico utilizado para tratar infecciones micóticas de la piel, como tiña, candidiasis y otras micosis superficiales. Se aplica directamente sobre la zona afectada para eliminar hongos y aliviar síntomas asociados.",
+    "image_url": "/uploads/products/bifonazol_gotas_topicas_15_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 23.0,
+        "price": 44.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-AEC2606C26A7"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:43.462362",
+    "updated_at": "2026-04-20T07:08:43.462362"
+  },
+  {
+    "_id": "binotal_ampicilina_1000mg_blister_x_6",
+    "name": "BINOTAL (AMPICILINA) 1000MG BLISTER X 6",
+    "category": "Antibiótico",
+    "principio_activo": "Ampicilina",
+    "descripcion": "BINOTAL es un medicamento que contiene ampicilina, un antibiótico de la familia de las penicilinas, utilizado para tratar infecciones bacterianas. La presentación es en blister de 6 cápsulas de 1000 mg cada una.",
+    "image_url": "/uploads/products/binotal_ampicilina_1000mg_blister_x_6.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.56,
+        "price": 8.0,
+        "profit_percent": 0.56,
+        "sku": "SKU-63A855E626C1"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:46.325483",
+    "updated_at": "2026-04-20T07:08:46.325483"
+  },
+  {
+    "_id": "bromhexina_caplin_jarabe_120_ml",
+    "name": "BROMHEXINA CAPLIN JARABE 120 ML",
+    "category": "Expectorante",
+    "principio_activo": "Bromhexina",
+    "descripcion": "Jarabe utilizado para facilitar la expulsión de mucosidades en las vías respiratorias, ayudando a aliviar la tos y mejorar la respiración.",
+    "image_url": "/uploads/products/bromhexina_caplin_jarabe_120_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 8.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-8454636C7137"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:48.895475",
+    "updated_at": "2026-04-20T07:08:48.895475"
+  },
+  {
+    "_id": "budesonida_spray_200_mcg_porfonsa_y_caplin",
+    "name": "BUDESONIDA SPRAY 200 MCG PORFONSA Y CAPLIN",
+    "category": "Corticosteroides inhalados",
+    "principio_activo": "Budesonida",
+    "descripcion": "Budesonida Spray 200 mcg es un medicamento utilizado principalmente para el tratamiento y control del asma y otras enfermedades respiratorias inflamatorias. Actúa reduciendo la inflamación en las vías respiratorias, facilitando la respiración.",
+    "image_url": "/uploads/products/budesonida_spray_200_mcg_porfonsa_y_caplin.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 52.0,
+        "price": 98.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-1D34A156E126"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:52.116993",
+    "updated_at": "2026-04-20T07:08:52.116993"
+  },
+  {
+    "_id": "ceftriaxona_1g_kit__caplin",
+    "name": "CEFTRIAXONA 1G KIT  CAPLIN",
+    "category": "Antibiótico",
+    "principio_activo": "Ceftriaxona",
+    "descripcion": "Antibiótico de la clase de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas graves. Se administra por vía intramuscular o intravenosa.",
+    "image_url": "/uploads/products/ceftriaxona_1g_kit__caplin.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.5,
+        "price": 15.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-EAD545CCC907"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:55.672886",
+    "updated_at": "2026-04-20T07:08:55.672886"
+  },
+  {
+    "_id": "ceftriaxona_1g_kit_balaxi",
+    "name": "CEFTRIAXONA 1G KIT BALAXI",
+    "category": "Antibiótico",
+    "principio_activo": "Ceftriaxona",
+    "descripcion": "Ceftriaxona 1g es un antibiótico de la clase de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas graves. El kit Balaxi incluye el polvo para reconstituir y el diluyente necesario para su administración por vía intramuscular o intravenosa.",
+    "image_url": "/uploads/products/ceftriaxona_1g_kit_balaxi.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.5,
+        "price": 10.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-7487248B6214"
+      }
+    ],
+    "created_at": "2026-04-20T07:08:58.826807",
+    "updated_at": "2026-04-20T07:08:58.826807"
+  },
+  {
+    "_id": "chupon_con_miel_paquete_x_2_piezas_jaloma",
+    "name": "CHUPON CON MIEL PAQUETE X 2 PIEZAS JALOMA",
+    "category": "Producto para el alivio de la tos y la irritación de garganta",
+    "principio_activo": "Miel",
+    "descripcion": "Chupón con miel en paquete de 2 piezas, utilizado para aliviar la irritación de garganta y la tos.",
+    "image_url": "/uploads/products/chupon_con_miel_paquete_x_2_piezas_jaloma.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.0,
+        "price": 12.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-F9E5E7319D5B"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:01.484030",
+    "updated_at": "2026-04-20T07:09:01.484030"
+  },
+  {
+    "_id": "claritromicina_500_mgs_blist_x_10_balaxi",
+    "name": "CLARITROMICINA 500 MGS BLIST X 10 BALAXI",
+    "category": "Antibiótico",
+    "principio_activo": "Claritromicina",
+    "descripcion": "Antibiótico macrólido utilizado para tratar infecciones bacterianas. Presentación en tabletas de 500 mg, empaque en blíster de 10 unidades, marca Balaxi.",
+    "image_url": "/uploads/products/claritromicina_500_mgs_blist_x_10_balaxi.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.0,
+        "price": 33.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-7FEC8B730E87"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:04.549948",
+    "updated_at": "2026-04-20T07:09:04.549948"
+  },
+  {
+    "_id": "conka_elixir_240_ml_gluconato_de_potasio",
+    "name": "CON-KA ELIXIR 240 ML GLUCONATO DE POTASIO",
+    "category": "Suplemento mineral",
+    "principio_activo": "Gluconato de potasio",
+    "descripcion": "El CON-KA ELIXIR 240 ML es un suplemento de potasio en forma de gluconato, utilizado para prevenir y tratar deficiencias de potasio en el organismo.",
+    "image_url": "/uploads/products/conka_elixir_240_ml_gluconato_de_potasio.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 59.9,
+        "price": 92.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-BDAE848640A2"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:08.186526",
+    "updated_at": "2026-04-20T07:09:08.186526"
+  },
+  {
+    "_id": "cyclonor_nordic_anticoncep_mensual_vijosa",
+    "name": "CYCLONOR NORDIC ANTICONCEP. MENSUAL VIJOSA",
+    "category": "Anticonceptivos",
+    "principio_activo": "Noretisterona y Etinilestradiol",
+    "descripcion": "Cyclonor Nordic es un anticonceptivo hormonal mensual que contiene noretisterona y etinilestradiol, utilizado para prevenir el embarazo mediante la inhibición de la ovulación y alteración del moco cervical.",
+    "image_url": "/uploads/products/cyclonor_nordic_anticoncep_mensual_vijosa.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 34.0,
+        "price": 56.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-71152A02C2D4"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:11.034318",
+    "updated_at": "2026-04-20T07:09:11.034318"
+  },
+  {
+    "_id": "dearexin_400_mg_nifuroxazida_blis_x_4_caja_x_8_tab",
+    "name": "DEAREXIN 400 MG (NIFUROXAZIDA) BLIS X 4 CAJA X 8 TAB",
+    "category": "Antibiótico",
+    "principio_activo": "Nifuroxazida",
+    "descripcion": "DEAREXIN 400 MG es un medicamento que contiene nifuroxazida, un antibiótico utilizado para tratar infecciones gastrointestinales causadas por bacterias. Se presenta en tabletas, en blíster de 4 unidades, con caja de 8 blísteres.",
+    "image_url": "/uploads/products/dearexin_400_mg_nifuroxazida_blis_x_4_caja_x_8_tab.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.9,
+        "price": 30.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-4608164D99F2"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:14.006248",
+    "updated_at": "2026-04-20T07:09:14.006248"
+  },
+  {
+    "_id": "dearexin_suspensión_120_ml",
+    "name": "DEAREXIN SUSPENSIÓN 120 ML",
+    "category": "Antibiótico",
+    "principio_activo": "Claritromicina",
+    "descripcion": "DEAREXIN SUSPENSIÓN 120 ML es un antibiótico macrólido utilizado para tratar infecciones bacterianas en vías respiratorias, piel y tejidos blandos. Su presentación en suspensión facilita la administración en pacientes pediátricos.",
+    "image_url": "/uploads/products/dearexin_suspensión_120_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 29.99,
+        "price": 51.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-0169E3AE61E1"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:17.470035",
+    "updated_at": "2026-04-20T07:09:17.470035"
+  },
+  {
+    "_id": "delrect_crema_rectal_phem_30_grs_caplin",
+    "name": "DELRECT (CREMA RECTAL P/HEM 30 GRS CAPLIN)",
+    "category": "Crema rectal para hemorroides",
+    "principio_activo": "No especificado",
+    "descripcion": "DELRECT es una crema rectal de 30 gramos utilizada para el alivio de los síntomas asociados con las hemorroides.",
+    "image_url": "/uploads/products/delrect_crema_rectal_phem_30_grs_caplin.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.5,
+        "price": 35.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-4053D953CA69"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:20.080551",
+    "updated_at": "2026-04-20T07:09:20.080551"
+  },
+  {
+    "_id": "dexavitanervo_kit_ampolla",
+    "name": "DEXAVITANERVO KIT AMPOLLA",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas del complejo B (B1, B6, B12)",
+    "descripcion": "DEXAVITANERVO KIT AMPOLLA es un suplemento vitamínico inyectable que contiene vitaminas del complejo B, utilizado para tratar deficiencias vitamínicas y apoyar la función nerviosa.",
+    "image_url": "/uploads/products/dexavitanervo_kit_ampolla.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.9,
+        "price": 23.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-21017B1780DB"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:22.884775",
+    "updated_at": "2026-04-20T07:09:22.884775"
+  },
+  {
+    "_id": "enantyum_25_mg_solucion_oral_10_ml",
+    "name": "ENANTYUM 25 MG SOLUCION ORAL 10 ML",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Dexketoprofeno trometamol",
+    "descripcion": "ENANTYUM 25 MG SOLUCION ORAL 10 ML es un medicamento antiinflamatorio no esteroideo (AINE) utilizado para el alivio del dolor leve a moderado y para reducir la inflamación.",
+    "image_url": "/uploads/products/enantyum_25_mg_solucion_oral_10_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.0,
+        "price": 25.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-CD1E78376F74"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:26.269405",
+    "updated_at": "2026-04-20T07:09:26.269405"
+  },
+  {
+    "_id": "enziflat_enzimas_blist_x_10_caja_x_120_tabs",
+    "name": "ENZIFLAT (ENZIMAS) BLIST X 10 CAJA X 120 TABS",
+    "category": "Digestivos",
+    "principio_activo": "Enzimas digestivas",
+    "descripcion": "ENZIFLAT es un medicamento que contiene enzimas digestivas utilizadas para mejorar la digestión y aliviar síntomas relacionados con la indigestión y la flatulencia. Se presenta en blíster de 10 tabletas, con caja de 120 tabletas.",
+    "image_url": "/uploads/products/enziflat_enzimas_blist_x_10_caja_x_120_tabs.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.77,
+        "price": 1.5,
+        "profit_percent": 0.49,
+        "sku": "SKU-4CB12C97767A"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:29.114957",
+    "updated_at": "2026-04-20T07:09:29.114957"
+  },
+  {
+    "_id": "erbitrax_t_terbinafina_250_mg_cja_x_28_blist_x_7",
+    "name": "ERBITRAX -T TERBINAFINA 250 MG CJA X 28 BLIST X 7",
+    "category": "Antifúngico",
+    "principio_activo": "Terbinafina",
+    "descripcion": "ERBITRAX -T es un medicamento antifúngico que contiene Terbinafina 250 mg. Se presenta en caja con 28 blísteres de 7 tabletas cada uno, utilizado para el tratamiento de infecciones fúngicas.",
+    "image_url": "/uploads/products/erbitrax_t_terbinafina_250_mg_cja_x_28_blist_x_7.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.29,
+        "price": 7.14,
+        "profit_percent": 0.4,
+        "sku": "SKU-2D5E5163A1A0"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:32.159327",
+    "updated_at": "2026-04-20T07:09:32.159327"
+  },
+  {
+    "_id": "erbitrax_t_terbinafina_ungüento",
+    "name": "ERBITRAX -T TERBINAFINA UNGÜENTO",
+    "category": "Antifúngicos tópicos",
+    "principio_activo": "Terbinafina",
+    "descripcion": "Ungüento antifúngico utilizado para tratar infecciones micóticas de la piel, como tiña, pie de atleta y candidiasis cutánea.",
+    "image_url": "/uploads/products/erbitrax_t_terbinafina_ungüento.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 28.0,
+        "price": 55.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-BB3417358BB0"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:34.924637",
+    "updated_at": "2026-04-20T07:09:34.924637"
+  },
+  {
+    "_id": "expectorante_compuesto_lancasco_120_ml",
+    "name": "EXPECTORANTE COMPUESTO LANCASCO 120 ML",
+    "category": "Expectorante",
+    "principio_activo": "Guaifenesina",
+    "descripcion": "Medicamento utilizado para facilitar la expulsión de mucosidad en las vías respiratorias, ayudando a aliviar la tos productiva.",
+    "image_url": "/uploads/products/expectorante_compuesto_lancasco_120_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 31.0,
+        "price": 49.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-81EBCB18CA63"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:37.405277",
+    "updated_at": "2026-04-20T07:09:37.405277"
+  },
+  {
+    "_id": "farlaborin_pharland",
+    "name": "FARLABORIN PHARLAND",
+    "category": "Desconocida",
+    "principio_activo": "Desconocido",
+    "descripcion": "No se dispone de información específica sobre el producto farmacéutico 'FARLABORIN PHARLAND'.",
+    "image_url": "/uploads/products/farlaborin_pharland.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.2,
+        "price": 7.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-9F93DDABFCC2"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:39.980385",
+    "updated_at": "2026-04-20T07:09:39.980385"
+  },
+  {
+    "_id": "gabapentina_400_mg_balaxi_caja_x100_blist_x_10",
+    "name": "GABAPENTINA 400 MG BALAXI CAJA X100 BLIST X 10",
+    "category": "Antiepilépticos",
+    "principio_activo": "Gabapentina",
+    "descripcion": "Gabapentina 400 mg en presentación de caja con 100 comprimidos divididos en blísteres de 10 unidades, utilizada para el tratamiento de epilepsia y neuropatías.",
+    "image_url": "/uploads/products/gabapentina_400_mg_balaxi_caja_x100_blist_x_10.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.04,
+        "price": 1.8,
+        "profit_percent": 0.42,
+        "sku": "SKU-ABA51AAA381E"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:42.800188",
+    "updated_at": "2026-04-20T07:09:42.800188"
+  },
+  {
+    "_id": "gargadin_frambuesa_caja_x_56_pasti",
+    "name": "GARGADIN FRAMBUESA CAJA X 56 PASTI",
+    "category": "Antiséptico bucal",
+    "principio_activo": "Clorhexidina",
+    "descripcion": "GARGADIN FRAMBUESA es un antiséptico bucal en forma de pastillas que ayuda a prevenir y tratar infecciones en la cavidad oral, proporcionando un efecto desinfectante y refrescante con sabor a frambuesa.",
+    "image_url": "/uploads/products/gargadin_frambuesa_caja_x_56_pasti.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.32,
+        "price": 2.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-822AF6A306E7"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:45.684062",
+    "updated_at": "2026-04-20T07:09:45.684062"
+  },
+  {
+    "_id": "gargadin_miel_limon_caja_x_56_pasti",
+    "name": "GARGADIN MIEL LIMON CAJA X 56 PASTI",
+    "category": "Antiséptico y analgésico bucal",
+    "principio_activo": "Clorhexidina",
+    "descripcion": "GARGADIN MIEL LIMON es un medicamento en pastillas para la garganta que combina clorhexidina, un antiséptico, con miel y limón para aliviar el dolor y la irritación de la garganta.",
+    "image_url": "/uploads/products/gargadin_miel_limon_caja_x_56_pasti.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.35,
+        "price": 2.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-837A9BA9FC76"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:48.598618",
+    "updated_at": "2026-04-20T07:09:48.598618"
+  },
+  {
+    "_id": "gargadin_sabor_naranja_blistser_x_8_pastillas",
+    "name": "GARGADIN SABOR NARANJA BLISTSER X 8 PASTILLAS",
+    "category": "Antiséptico bucal",
+    "principio_activo": "Clorhexidina",
+    "descripcion": "Pastillas para la garganta con sabor a naranja, utilizadas para aliviar el dolor y la irritación de la garganta, con acción antiséptica.",
+    "image_url": "/uploads/products/gargadin_sabor_naranja_blistser_x_8_pastillas.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.09,
+        "price": 2.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-2D744E2D0949"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:51.938038",
+    "updated_at": "2026-04-20T07:09:51.938038"
+  },
+  {
+    "_id": "glicitos_c_ambroxolclembuterol_120_ml_selec",
+    "name": "GLICITOS C (AMBROXOL+CLEMBUTEROL) 120 ML SELEC",
+    "category": "Medicamento para el sistema respiratorio",
+    "principio_activo": "Ambroxol, Clembuterol",
+    "descripcion": "GLICITOS C es un jarabe de 120 ml que combina Ambroxol, un mucolítico que ayuda a disolver y eliminar la mucosidad en las vías respiratorias, y Clembuterol, un broncodilatador que facilita la respiración al relajar los músculos de las vías aéreas. Está indicado para el tratamiento de enfermedades respiratorias con tos y dificultad para expectorar.",
+    "image_url": "/uploads/products/glicitos_c_ambroxolclembuterol_120_ml_selec.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.95,
+        "price": 23.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-6ED2916236F3"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:55.146148",
+    "updated_at": "2026-04-20T07:09:55.146148"
+  },
+  {
+    "_id": "glicitos_s_ambroxolsalbutamol_120ml_selec",
+    "name": "GLICITOS S (AMBROXOL+SALBUTAMOL) 120ML SELEC",
+    "category": "Medicamento para el sistema respiratorio",
+    "principio_activo": "Ambroxol y Salbutamol",
+    "descripcion": "GLICITOS S es un jarabe de 120 ml que combina Ambroxol, un mucolítico que ayuda a disolver y eliminar la mucosidad en las vías respiratorias, y Salbutamol, un broncodilatador que facilita la respiración al relajar los músculos de las vías respiratorias. Está indicado para el tratamiento de enfermedades respiratorias con tos y dificultad para respirar.",
+    "image_url": "/uploads/products/glicitos_s_ambroxolsalbutamol_120ml_selec.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.5,
+        "price": 33.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-23011A2A0D1B"
+      }
+    ],
+    "created_at": "2026-04-20T07:09:58.446502",
+    "updated_at": "2026-04-20T07:09:58.447542"
+  },
+  {
+    "_id": "guantes_latex_grande_x_100",
+    "name": "GUANTES LATEX GRANDE X 100",
+    "category": "Material de protección personal",
+    "principio_activo": "N/A",
+    "descripcion": "Guantes de látex tamaño grande, presentados en paquete de 100 unidades, utilizados para protección en procedimientos médicos y de higiene.",
+    "image_url": "/uploads/products/guantes_latex_grande_x_100.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.39,
+        "price": 1.15,
+        "profit_percent": 0.66,
+        "sku": "SKU-2EB6D2C8737C"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:01.094367",
+    "updated_at": "2026-04-20T07:10:01.094367"
+  },
+  {
+    "_id": "guantes_latex_mediano_x_100",
+    "name": "GUANTES LATEX MEDIANO X 100",
+    "category": "Material de protección personal",
+    "principio_activo": "N/A",
+    "descripcion": "Guantes de látex de tamaño mediano, presentados en paquete de 100 unidades, utilizados para protección en procedimientos médicos y de laboratorio.",
+    "image_url": "/uploads/products/guantes_latex_mediano_x_100.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.39,
+        "price": 1.15,
+        "profit_percent": 0.66,
+        "sku": "SKU-71DA8666692F"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:03.968151",
+    "updated_at": "2026-04-20T07:10:03.968151"
+  },
+  {
+    "_id": "guantes_latex_pequeño_x_100",
+    "name": "GUANTES LATEX PEQUEÑO X 100",
+    "category": "Material de protección",
+    "principio_activo": "N/A",
+    "descripcion": "Guantes de látex tamaño pequeño, paquete con 100 unidades, utilizados para protección manual en procedimientos médicos y de higiene.",
+    "image_url": "/uploads/products/guantes_latex_pequeño_x_100.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.48,
+        "price": 1.15,
+        "profit_percent": 0.59,
+        "sku": "SKU-0676488C73EC"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:06.498693",
+    "updated_at": "2026-04-20T07:10:06.498693"
+  },
+  {
+    "_id": "ibuprofeno_600_mg_caja_x_100_blist_x_10_promegal",
+    "name": "IBUPROFENO 600 MG CAJA X 100 BLIST X 10 PROMEGAL",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Ibuprofeno",
+    "descripcion": "Ibuprofeno 600 mg en caja con 100 blísteres de 10 tabletas cada uno, utilizado para aliviar el dolor y reducir la inflamación.",
+    "image_url": "/uploads/products/ibuprofeno_600_mg_caja_x_100_blist_x_10_promegal.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.95,
+        "price": 3.5,
+        "profit_percent": 0.44,
+        "sku": "SKU-93C01FEDA525"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:09.555166",
+    "updated_at": "2026-04-20T07:10:09.555166"
+  },
+  {
+    "_id": "jabon_para_bebe_johnson_antes_de_dormir_75_grs",
+    "name": "JABON PARA BEBE JOHNSON ANTES DE DORMIR 75 GRS",
+    "category": "Cuidado personal - Higiene infantil",
+    "principio_activo": "No aplica",
+    "descripcion": "Jabón suave especialmente formulado para la piel delicada del bebé, ideal para usar antes de dormir, ayuda a limpiar y calmar la piel sin irritarla.",
+    "image_url": "/uploads/products/jabon_para_bebe_johnson_antes_de_dormir_75_grs.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.05,
+        "price": 14.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-1A813A8453FD"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:12.301230",
+    "updated_at": "2026-04-20T07:10:12.301230"
+  },
+  {
+    "_id": "koreofin_caplin",
+    "name": "KOREOFIN CAPLIN",
+    "category": "Antiinflamatorio y Analgésico",
+    "principio_activo": "Aceclofenaco",
+    "descripcion": "KOREOFIN CAPLIN es un medicamento utilizado para aliviar el dolor y reducir la inflamación en condiciones musculoesqueléticas como artritis, osteoartritis y dolor lumbar.",
+    "image_url": "/uploads/products/koreofin_caplin.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.75,
+        "price": 16.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-0F21AD5FA1CA"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:14.951946",
+    "updated_at": "2026-04-20T07:10:14.951946"
+  },
+  {
+    "_id": "lansoprazol_30_mgs_caja_x_100_blist_x_10_futura",
+    "name": "LANSOPRAZOL 30 MGS CAJA X 100 BLIST X 10 FUTURA",
+    "category": "Inhibidor de la bomba de protones",
+    "principio_activo": "Lansoprazol",
+    "descripcion": "Lansoprazol 30 mg en caja con 100 blísteres de 10 cápsulas cada uno, utilizado para reducir la producción de ácido en el estómago y tratar condiciones como reflujo gastroesofágico, úlceras gástricas y esofagitis erosiva.",
+    "image_url": "/uploads/products/lansoprazol_30_mgs_caja_x_100_blist_x_10_futura.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.3,
+        "price": 7.0,
+        "profit_percent": 0.53,
+        "sku": "SKU-AAFBD97729E0"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:18.305251",
+    "updated_at": "2026-04-20T07:10:18.305251"
+  },
+  {
+    "_id": "levotiroxina_merck_blister_x_25_caja_x_100",
+    "name": "LEVOTIROXINA MERCK BLISTER X 25 CAJA X 100",
+    "category": "Hormonas y Modificadores del Sistema Endocrino",
+    "principio_activo": "Levotiroxina",
+    "descripcion": "Levotiroxina Merck es un medicamento utilizado para el tratamiento del hipotiroidismo, que contiene levotiroxina sódica, una hormona tiroidea sintética que reemplaza o suplementa la hormona tiroidea natural.",
+    "image_url": "/uploads/products/levotiroxina_merck_blister_x_25_caja_x_100.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.5,
+        "price": 35.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-55784879C11E"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:21.647117",
+    "updated_at": "2026-04-20T07:10:21.647117"
+  },
+  {
+    "_id": "lusia_fx_caja_x_28_tab",
+    "name": "LUSIA FX CAJA X 28 TAB",
+    "category": "Medicamento",
+    "principio_activo": "Fluoxetina",
+    "descripcion": "LUSIA FX es un medicamento que contiene fluoxetina, un antidepresivo inhibidor selectivo de la recaptación de serotonina (ISRS), utilizado para tratar trastornos depresivos, trastornos de ansiedad y otros trastornos psiquiátricos. La presentación es en caja con 28 tabletas.",
+    "image_url": "/uploads/products/lusia_fx_caja_x_28_tab.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 19.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-DC57448B6FCC"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:24.672526",
+    "updated_at": "2026-04-20T07:10:24.672526"
+  },
+  {
+    "_id": "mascarilla_quirurgica_celeste_caja_x_50",
+    "name": "MASCARILLA QUIRURGICA CELESTE CAJA X 50",
+    "category": "Mascarillas quirúrgicas",
+    "principio_activo": "No aplica",
+    "descripcion": "Mascarilla quirúrgica de color celeste, diseñada para uso médico y protección facial, presentada en caja con 50 unidades.",
+    "image_url": "/uploads/products/mascarilla_quirurgica_celeste_caja_x_50.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.24,
+        "price": 0.6,
+        "profit_percent": 0.6,
+        "sku": "SKU-334544BE9897"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:27.742364",
+    "updated_at": "2026-04-20T07:10:27.742364"
+  },
+  {
+    "_id": "mascarilla_quirurgica_negra_caja_x_50",
+    "name": "MASCARILLA QUIRURGICA NEGRA CAJA X 50",
+    "category": "Mascarillas quirúrgicas",
+    "principio_activo": "N/A",
+    "descripcion": "Mascarilla quirúrgica de color negro, diseñada para uso médico y protección facial, presentada en caja con 50 unidades.",
+    "image_url": "/uploads/products/mascarilla_quirurgica_negra_caja_x_50.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.3,
+        "price": 0.7,
+        "profit_percent": 0.57,
+        "sku": "SKU-DF457D6153A3"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:30.309037",
+    "updated_at": "2026-04-20T07:10:30.309037"
+  },
+  {
+    "_id": "mascarilla_quirurgica_niño_caja_x_50",
+    "name": "MASCARILLA QUIRURGICA NIÑO CAJA X 50",
+    "category": "Mascarillas quirúrgicas",
+    "principio_activo": "No aplica",
+    "descripcion": "Mascarilla quirúrgica diseñada para niños, en caja con 50 unidades, utilizada para protección respiratoria y prevención de contagios.",
+    "image_url": "/uploads/products/mascarilla_quirurgica_niño_caja_x_50.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.4,
+        "price": 1.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-528ED8AA1EB6"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:33.016509",
+    "updated_at": "2026-04-20T07:10:33.016509"
+  },
+  {
+    "_id": "mebendamin_100_mg_susp_30_ml",
+    "name": "MEBENDAMIN 100 MG SUSP 30 ML",
+    "category": "Antiparasitario",
+    "principio_activo": "Mebendazol",
+    "descripcion": "Suspensión oral de 100 mg/30 ml utilizada para el tratamiento de infecciones por helmintos intestinales.",
+    "image_url": "/uploads/products/mebendamin_100_mg_susp_30_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.0,
+        "price": 22.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-D7458AC41BB1"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:35.556336",
+    "updated_at": "2026-04-20T07:10:35.556336"
+  },
+  {
+    "_id": "mebendamin_100_mg_tabs_sobre_x_6",
+    "name": "MEBENDAMIN 100 MG TABS SOBRE X 6",
+    "category": "Antiparasitario",
+    "principio_activo": "Mebendazol",
+    "descripcion": "MEBENDAMIN 100 MG TABS SOBRE X 6 es un medicamento antiparasitario utilizado para el tratamiento de infecciones causadas por helmintos intestinales.",
+    "image_url": "/uploads/products/mebendamin_100_mg_tabs_sobre_x_6.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.0,
+        "price": 22.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-FB222461351D"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:38.348204",
+    "updated_at": "2026-04-20T07:10:38.348204"
+  },
+  {
+    "_id": "mesi_3__anticonceptivo_3_meses_piersan",
+    "name": "MESI 3 ( ANTICONCEPTIVO 3 MESES) PIERSAN",
+    "category": "Anticonceptivos",
+    "principio_activo": "Medroxiprogesterona",
+    "descripcion": "MESI 3 (ANTICONCEPTIVO 3 MESES) PIERSAN es un anticonceptivo inyectable de acción prolongada que contiene medroxiprogesterona, utilizado para la prevención del embarazo durante un período de tres meses.",
+    "image_url": "/uploads/products/mesi_3__anticonceptivo_3_meses_piersan.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 33.0,
+        "price": 53.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-BB21129EFE31"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:43.061571",
+    "updated_at": "2026-04-20T07:10:43.061571"
+  },
+  {
+    "_id": "metafe_spray_60_ml_vesa",
+    "name": "METAFE SPRAY 60 ML VESA",
+    "category": "Spray para el alivio del dolor muscular y articular",
+    "principio_activo": "Metilsalicilato, alcanfor, mentol",
+    "descripcion": "METAFE SPRAY es un spray tópico utilizado para aliviar el dolor muscular y articular, proporcionando una sensación de frescor y mejorando la circulación local.",
+    "image_url": "/uploads/products/metafe_spray_60_ml_vesa.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.35,
+        "price": 15.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-B7166E3097FF"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:46.309807",
+    "updated_at": "2026-04-20T07:10:46.309807"
+  },
+  {
+    "_id": "micropore_blanco_1_x_10_yds",
+    "name": "MICROPORE BLANCO 1 X 10 YDS",
+    "category": "Material de curación",
+    "principio_activo": "Ninguno",
+    "descripcion": "Cinta adhesiva microporosa blanca utilizada para fijar apósitos y vendajes en la piel, permitiendo la transpiración y evitando irritaciones.",
+    "image_url": "/uploads/products/micropore_blanco_1_x_10_yds.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.0,
+        "price": 12.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-744785849C9E"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:49.201039",
+    "updated_at": "2026-04-20T07:10:49.201039"
+  },
+  {
+    "_id": "micropore_blanco_12_pulgada",
+    "name": "MICROPORE BLANCO 1/2 PULGADA",
+    "category": "Cinta adhesiva médica",
+    "principio_activo": "Ninguno",
+    "descripcion": "Cinta adhesiva microporosa blanca de 1/2 pulgada, utilizada para fijar apósitos y vendajes en la piel, permitiendo la transpiración y evitando irritaciones.",
+    "image_url": "/uploads/products/micropore_blanco_12_pulgada.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.9,
+        "price": 9.0,
+        "profit_percent": 0.57,
+        "sku": "SKU-86FAA6CE69B0"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:51.960408",
+    "updated_at": "2026-04-20T07:10:51.960408"
+  },
+  {
+    "_id": "micropore_piel_1_pulgada",
+    "name": "MICROPORE PIEL 1 PULGADA",
+    "category": "Cinta adhesiva médica",
+    "principio_activo": "Ninguno",
+    "descripcion": "Cinta adhesiva microporosa utilizada para fijar apósitos y vendajes en la piel, permitiendo la transpiración y minimizando la irritación.",
+    "image_url": "/uploads/products/micropore_piel_1_pulgada.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.0,
+        "price": 15.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-A8D1B42E2F47"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:54.761733",
+    "updated_at": "2026-04-20T07:10:54.761733"
+  },
+  {
+    "_id": "migradolosina_piersan_blist_x_10",
+    "name": "MIGRADOLOSINA PIERSAN BLIST X 10",
+    "category": "Analgésico y antimigrañoso",
+    "principio_activo": "Sumatriptán",
+    "descripcion": "MIGRADOLOSINA PIERSAN es un medicamento utilizado para el tratamiento agudo de la migraña con o sin aura. Contiene sumatriptán, un agonista selectivo de los receptores 5-HT1 que ayuda a aliviar el dolor de cabeza y otros síntomas asociados a la migraña.",
+    "image_url": "/uploads/products/migradolosina_piersan_blist_x_10.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.77,
+        "price": 1.4,
+        "profit_percent": 0.45,
+        "sku": "SKU-173C1E1C4FAA"
+      }
+    ],
+    "created_at": "2026-04-20T07:10:58.136123",
+    "updated_at": "2026-04-20T07:10:58.136123"
+  },
+  {
+    "_id": "omega_kids__3_6_9_gomitas_fco_x_60",
+    "name": "OMEGA KIDS  3 6 9 GOMITAS FCO X 60",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Ácidos grasos Omega 3, 6 y 9",
+    "descripcion": "Gomitas masticables diseñadas para niños que aportan ácidos grasos esenciales Omega 3, 6 y 9, contribuyendo al desarrollo cerebral, visual y al fortalecimiento del sistema inmunológico.",
+    "image_url": "/uploads/products/omega_kids__3_6_9_gomitas_fco_x_60.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 39.95,
+        "price": 67.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-8D98ED94340A"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:01.388234",
+    "updated_at": "2026-04-20T07:11:01.388234"
+  },
+  {
+    "_id": "pamedan_dexpantenol_5_30_g",
+    "name": "PAMEDAN DEXPANTENOL 5% 30 G",
+    "category": "Dermatológico",
+    "principio_activo": "Dexpantenol",
+    "descripcion": "Pomada tópica al 5% de dexpantenol, utilizada para la hidratación y reparación de la piel, favoreciendo la cicatrización de heridas, quemaduras y otras lesiones cutáneas.",
+    "image_url": "/uploads/products/pamedan_dexpantenol_5_30_g.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 24.95,
+        "price": 42.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-309CBC7E6CA0"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:04.454908",
+    "updated_at": "2026-04-20T07:11:04.454908"
+  },
+  {
+    "_id": "paracetamol_500_mgs_blist_x_10_caja_x_100",
+    "name": "PARACETAMOL 500 MGS BLIST X 10 CAJA X 100",
+    "category": "Analgésicos y antipiréticos",
+    "principio_activo": "Paracetamol",
+    "descripcion": "Caja con 100 blísteres, cada blíster contiene 10 tabletas de 500 mg de paracetamol, utilizado para aliviar el dolor y reducir la fiebre.",
+    "image_url": "/uploads/products/paracetamol_500_mgs_blist_x_10_caja_x_100.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.0,
+        "price": 4.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-110C6E15B896"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:07.727228",
+    "updated_at": "2026-04-20T07:11:07.727228"
+  },
+  {
+    "_id": "pregabalina_150_mg_balaxi_caja_x_100_blist_x_10",
+    "name": "PREGABALINA 150 MG BALAXI CAJA X 100 BLIST X 10",
+    "category": "Medicamento anticonvulsivante y analgésico",
+    "principio_activo": "Pregabalina",
+    "descripcion": "PREGABALINA 150 MG BALAXI es un medicamento utilizado para el tratamiento del dolor neuropático, epilepsia y trastornos de ansiedad generalizada. Se presenta en caja con 100 comprimidos divididos en 10 blísteres.",
+    "image_url": "/uploads/products/pregabalina_150_mg_balaxi_caja_x_100_blist_x_10.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.0,
+        "price": 25.0,
+        "profit_percent": 0.56,
+        "sku": "SKU-8E99DF930E96"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:12.814099",
+    "updated_at": "2026-04-20T07:11:12.814099"
+  },
+  {
+    "_id": "promegrip_jbe_120_ml_promegal",
+    "name": "PROMEGRIP JBE 120 ML PROMEGAL",
+    "category": "Jarabe",
+    "principio_activo": "Paracetamol, Clorfeniramina, Fenilefrina",
+    "descripcion": "PROMEGRIP JBE 120 ML PROMEGAL es un jarabe utilizado para aliviar los síntomas del resfriado común y la gripe, como fiebre, congestión nasal y alergias.",
+    "image_url": "/uploads/products/promegrip_jbe_120_ml_promegal.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.5,
+        "price": 33.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-D86DDF22A274"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:15.902846",
+    "updated_at": "2026-04-20T07:11:15.902846"
+  },
+  {
+    "_id": "protector_de_labios_vaseina_sabores",
+    "name": "PROTECTOR DE LABIOS VASEINA SABORES",
+    "category": "Cuidado labial",
+    "principio_activo": "Vaselina",
+    "descripcion": "Producto para proteger y humectar los labios, con diferentes sabores para una aplicación agradable.",
+    "image_url": "/uploads/products/protector_de_labios_vaseina_sabores.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.19,
+        "price": 14.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-A7E45431554D"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:18.580566",
+    "updated_at": "2026-04-20T07:11:18.580566"
+  },
+  {
+    "_id": "relaflex_kit_ampolla_vijosa",
+    "name": "RELAFLEX KIT AMPOLLA VIJOSA",
+    "category": "Kit de Ampollas",
+    "principio_activo": "No especificado",
+    "descripcion": "RELAFLEX KIT AMPOLLA VIJOSA es un producto farmacéutico presentado en formato de kit de ampollas, utilizado generalmente para el alivio de dolores musculares y articulares. La composición exacta del principio activo no está especificada en el nombre del producto.",
+    "image_url": "/uploads/products/relaflex_kit_ampolla_vijosa.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 24.93,
+        "price": 45.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-797D0AD3651D"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:21.903316",
+    "updated_at": "2026-04-20T07:11:21.903316"
+  },
+  {
+    "_id": "rofemed_ceftriaxona_1_gr_med_pharma",
+    "name": "ROFEMED (CEFTRIAXONA) 1 GR MED PHARMA",
+    "category": "Antibiótico",
+    "principio_activo": "Ceftriaxona",
+    "descripcion": "ROFEMED (CEFTRIAXONA) 1 GR MED PHARMA es un antibiótico de la clase de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas graves. Actúa inhibiendo la síntesis de la pared celular bacteriana, lo que conduce a la muerte de las bacterias.",
+    "image_url": "/uploads/products/rofemed_ceftriaxona_1_gr_med_pharma.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.0,
+        "price": 50.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-88EF8B775FFD"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:25.434600",
+    "updated_at": "2026-04-20T07:11:25.434600"
+  },
+  {
+    "_id": "salbutamol_inhalador_caplin",
+    "name": "SALBUTAMOL INHALADOR CAPLIN",
+    "category": "Broncodilatador",
+    "principio_activo": "Salbutamol",
+    "descripcion": "Salbutamol inhalador utilizado para el alivio y tratamiento del broncoespasmo en enfermedades respiratorias como el asma y la enfermedad pulmonar obstructiva crónica (EPOC).",
+    "image_url": "/uploads/products/salbutamol_inhalador_caplin.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.0,
+        "price": 33.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-0F001A636581"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:28.281528",
+    "updated_at": "2026-04-20T07:11:28.281528"
+  },
+  {
+    "_id": "sarpiol_fco_30_ml",
+    "name": "SARPIOL FCO 30 ML",
+    "category": "Descongestionante nasal",
+    "principio_activo": "Oximetazolina",
+    "descripcion": "SARPIOL es un medicamento en solución para uso nasal que contiene oximetazolina, utilizado para aliviar la congestión nasal causada por resfriados, alergias o sinusitis.",
+    "image_url": "/uploads/products/sarpiol_fco_30_ml.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.5,
+        "price": 25.0,
+        "profit_percent": 0.58,
+        "sku": "SKU-8C9EA8FAE03E"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:31.047369",
+    "updated_at": "2026-04-20T07:11:31.047369"
+  },
+  {
+    "_id": "sello_de_heparina_esteril_operson",
+    "name": "SELLO DE HEPARINA ESTERIL OPERSON",
+    "category": "Anticoagulante",
+    "principio_activo": "Heparina",
+    "descripcion": "Sello estéril que contiene heparina, utilizado para prevenir la coagulación sanguínea en procedimientos médicos.",
+    "image_url": "/uploads/products/sello_de_heparina_esteril_operson.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.5,
+        "price": 5.0,
+        "profit_percent": 0.7,
+        "sku": "SKU-4DFCF5437522"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:33.860729",
+    "updated_at": "2026-04-20T07:11:33.860729"
+  },
+  {
+    "_id": "senosiain_adulto_supositorio_caja_x_20",
+    "name": "SENOSIAIN ADULTO SUPOSITORIO CAJA X 20",
+    "category": "Supositorios",
+    "principio_activo": "Senosain",
+    "descripcion": "Supositorios para uso adulto, presentados en caja con 20 unidades, utilizados para el alivio de síntomas relacionados con afecciones anales y rectales.",
+    "image_url": "/uploads/products/senosiain_adulto_supositorio_caja_x_20.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.05,
+        "price": 4.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-491363B821FE"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:37.306048",
+    "updated_at": "2026-04-20T07:11:37.306048"
+  },
+  {
+    "_id": "senosiain_niño_supositorio_caja_x_20",
+    "name": "SENOSIAIN NIÑO SUPOSITORIO CAJA X 20",
+    "category": "Supositorios pediátricos",
+    "principio_activo": "Paracetamol",
+    "descripcion": "Supositorios para el alivio del dolor y la fiebre en niños.",
+    "image_url": "/uploads/products/senosiain_niño_supositorio_caja_x_20.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.1,
+        "price": 4.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-788AAB3984D0"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:39.863307",
+    "updated_at": "2026-04-20T07:11:39.863307"
+  },
+  {
+    "_id": "simeticona_125_mg_gelcaps_caplin_cja_x_30_blist_x_10",
+    "name": "SIMETICONA 125 MG GELCAPS CAPLIN CJA X 30 BLIST X 10",
+    "category": "Antiflatulentos",
+    "principio_activo": "Simeticona",
+    "descripcion": "Simeticona 125 mg en gelcaps, utilizada para aliviar la acumulación de gases en el tracto digestivo. Presentación en caja con 30 gelcaps, cada blíster contiene 10 cápsulas.",
+    "image_url": "/uploads/products/simeticona_125_mg_gelcaps_caplin_cja_x_30_blist_x_10.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.6,
+        "price": 1.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-C77C2F1D6419"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:43.520693",
+    "updated_at": "2026-04-20T07:11:43.520693"
+  },
+  {
+    "_id": "spasmourolong_blist_x_10tab",
+    "name": "SPASMO-UROLONG BLIST X 10TAB",
+    "category": "Antiespasmódico Urinario",
+    "principio_activo": "Butilbromuro de escopolamina",
+    "descripcion": "SPASMO-UROLONG es un medicamento utilizado para aliviar los espasmos del tracto urinario, ayudando a reducir el dolor y la incomodidad asociados con trastornos urinarios.",
+    "image_url": "/uploads/products/spasmourolong_blist_x_10tab.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.3,
+        "price": 6.8,
+        "profit_percent": 0.51,
+        "sku": "SKU-D77137DB541D"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:47.589729",
+    "updated_at": "2026-04-20T07:11:47.589729"
+  },
+  {
+    "_id": "suero_oral_ancalmo_coco_x_54",
+    "name": "SUERO ORAL ANCALMO COCO X 54",
+    "category": "Suero Oral",
+    "principio_activo": "Sales de rehidratación oral",
+    "descripcion": "Solución oral para rehidratación y reposición de electrolitos, sabor coco, presentación de 54 unidades.",
+    "image_url": "/uploads/products/suero_oral_ancalmo_coco_x_54.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.21,
+        "price": 2.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-406111BA94D3"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:51.356112",
+    "updated_at": "2026-04-20T07:11:51.356112"
+  },
+  {
+    "_id": "suero_oral_ancalmo_fresa_x_54",
+    "name": "SUERO ORAL ANCALMO FRESA X 54",
+    "category": "Suero Oral",
+    "principio_activo": "Sales de rehidratación oral",
+    "descripcion": "Solución oral para rehidratación y reposición de electrolitos, sabor fresa, presentación de 54 gramos.",
+    "image_url": "/uploads/products/suero_oral_ancalmo_fresa_x_54.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.21,
+        "price": 2.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-52D21851AF77"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:53.934764",
+    "updated_at": "2026-04-20T07:11:53.934764"
+  },
+  {
+    "_id": "suero_oral_ancalmo_frutas_x_54",
+    "name": "SUERO ORAL ANCALMO FRUTAS X 54",
+    "category": "Suero Oral",
+    "principio_activo": "Sales de rehidratación oral",
+    "descripcion": "Solución oral para rehidratación y reposición de electrolitos, sabor frutas, envase de 54 unidades.",
+    "image_url": "/uploads/products/suero_oral_ancalmo_frutas_x_54.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.21,
+        "price": 2.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-BE8431E60509"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:56.464017",
+    "updated_at": "2026-04-20T07:11:56.464017"
+  },
+  {
+    "_id": "suero_oral_ancalmo_naranja_x_54",
+    "name": "SUERO ORAL ANCALMO NARANJA X 54",
+    "category": "Suero Oral",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "Solución oral para rehidratación y reposición de electrolitos, sabor naranja, presentación de 54 unidades.",
+    "image_url": "/uploads/products/suero_oral_ancalmo_naranja_x_54.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.21,
+        "price": 2.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-0ACE11A56C51"
+      }
+    ],
+    "created_at": "2026-04-20T07:11:59.353282",
+    "updated_at": "2026-04-20T07:11:59.353282"
+  },
+  {
+    "_id": "valsartan_80_mg_caja_x_30_tab_caplin",
+    "name": "VALSARTAN 80 MG CAJA X 30 TAB CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Valsartán",
+    "descripcion": "Medicamento utilizado para el tratamiento de la hipertensión arterial y la insuficiencia cardíaca. Cada tableta contiene 80 mg de valsartán.",
+    "image_url": "/uploads/products/valsartan_80_mg_caja_x_30_tab_caplin.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 25.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-B51509250B82"
+      }
+    ],
+    "created_at": "2026-04-20T07:12:02.197329",
+    "updated_at": "2026-04-20T07:12:02.197329"
+  },
+  {
+    "_id": "virogrip_3_doble_terapia_inyectado",
+    "name": "VIROGRIP 3 DOBLE TERAPIA INYECTADO",
+    "category": "Vacuna",
+    "principio_activo": "Antígenos inactivados de virus de la influenza",
+    "descripcion": "Vacuna inyectable para la prevención de la influenza, que contiene tres cepas virales inactivadas para proporcionar inmunidad contra la gripe estacional.",
+    "image_url": "/uploads/products/virogrip_3_doble_terapia_inyectado.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.9,
+        "price": 29.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-C0F998F66A79"
+      }
+    ],
+    "created_at": "2026-04-20T07:12:04.906304",
+    "updated_at": "2026-04-20T07:12:04.906304"
+  },
+  {
+    "_id": "zetawin_bebible_500_mg10_ml_bebible",
+    "name": "ZETAWIN BEBIBLE 500 MG/10 ML BEBIBLE",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina",
+    "descripcion": "ZETAWIN BEBIBLE 500 MG/10 ML BEBIBLE es una suspensión oral que contiene amoxicilina, un antibiótico del grupo de las penicilinas, utilizado para tratar infecciones bacterianas en niños.",
+    "image_url": "/uploads/products/zetawin_bebible_500_mg10_ml_bebible.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.75,
+        "price": 10.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-07FE0BB806D7"
+      }
+    ],
+    "created_at": "2026-04-20T07:12:08.264120",
+    "updated_at": "2026-04-20T07:12:08.264120"
+  },
+  {
+    "_id": "zignet_plus_caja_x_10_tabs",
+    "name": "ZIGNET PLUS CAJA X 10 TABS",
+    "category": "Antibiótico",
+    "principio_activo": "Cefuroxima y Ácido Clavulánico",
+    "descripcion": "ZIGNET PLUS es un antibiótico que combina cefuroxima y ácido clavulánico, utilizado para tratar infecciones bacterianas en diferentes partes del cuerpo. La presentación es en caja con 10 tabletas.",
+    "image_url": "/uploads/products/zignet_plus_caja_x_10_tabs.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.2,
+        "price": 2.3,
+        "profit_percent": 0.48,
+        "sku": "SKU-DF05D9BE647B"
+      }
+    ],
+    "created_at": "2026-04-20T07:12:11.615629",
+    "updated_at": "2026-04-20T07:12:11.615629"
+  },
+  {
+    "_id": "zinc_pharmazinc_jbe_120_ml_pharmedic",
+    "name": "ZINC PHARMAZINC JBE 120 ML PHARMEDIC",
+    "category": "Suplemento mineral",
+    "principio_activo": "Zinc",
+    "descripcion": "Jarabe oral de zinc utilizado como suplemento para prevenir o tratar deficiencias de zinc, contribuyendo al fortalecimiento del sistema inmunológico y al mantenimiento de la salud general.",
+    "image_url": "/uploads/products/zinc_pharmazinc_jbe_120_ml_pharmedic.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 26.0,
+        "price": 45.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-A6C0AF3F6396"
+      }
+    ],
+    "created_at": "2026-04-20T07:12:14.347763",
+    "updated_at": "2026-04-20T07:12:14.347763"
+  },
+  {
+    "_id": "zorritone_caramelo_x_500",
+    "name": "ZORRITONE CARAMELO X 500",
+    "category": "Antitusivo",
+    "principio_activo": "Dextrometorfano",
+    "descripcion": "ZORRITONE CARAMELO X 500 es un medicamento en forma de caramelo utilizado para aliviar la tos seca y el malestar de garganta. Contiene dextrometorfano, un antitusivo que actúa suprimiendo el reflejo de la tos.",
+    "image_url": "/uploads/products/zorritone_caramelo_x_500.jpg",
+    "supplier": "GENESIS",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.29,
+        "price": 0.5,
+        "profit_percent": 0.42,
+        "sku": "SKU-E194889F3033"
+      }
+    ],
+    "created_at": "2026-04-20T07:12:17.422107",
+    "updated_at": "2026-04-20T07:12:17.422107"
+  }
+]

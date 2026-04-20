@@ -1,0 +1,254 @@
+[
+  {
+    "_id": "alprazolam_lyverium__05_mg_blist_x_10_tabs",
+    "name": "ALPRAZOLAM (LYVERIUM)  0.5 MG BLIST X 10 TABS",
+    "category": "Ansiolítico",
+    "principio_activo": "Alprazolam",
+    "descripcion": "Alprazolam es un medicamento ansiolítico de la clase de las benzodiacepinas, utilizado para el tratamiento de trastornos de ansiedad y pánico. La presentación 'ALPRAZOLAM (LYVERIUM) 0.5 MG BLIST X 10 TABS' corresponde a tabletas de 0.5 mg en blíster con 10 unidades.",
+    "image_url": "/uploads/products/alprazolam_lyverium__05_mg_blist_x_10_tabs.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 4.8,
+        "profit_percent": 0.48,
+        "sku": "SKU-41CDFD844ED4"
+      }
+    ],
+    "created_at": "2026-04-20T07:33:45.881362",
+    "updated_at": "2026-04-20T07:33:45.882326"
+  },
+  {
+    "_id": "brominter_bromazepan_3_mgs_blist_x_20_tabs",
+    "name": "BROMINTER (BROMAZEPAN 3 MGS) BLIST X 20 TABS",
+    "category": "Ansiolítico",
+    "principio_activo": "Bromazepam",
+    "descripcion": "BROMINTER es un medicamento que contiene bromazepam, un ansiolítico de la clase de las benzodiacepinas, utilizado para el tratamiento de la ansiedad, tensión y trastornos relacionados.",
+    "image_url": "/uploads/products/brominter_bromazepan_3_mgs_blist_x_20_tabs.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.4,
+        "price": 4.8,
+        "profit_percent": 0.5,
+        "sku": "SKU-8A258AEE07AF"
+      }
+    ],
+    "created_at": "2026-04-20T07:33:48.709767",
+    "updated_at": "2026-04-20T07:33:48.709767"
+  },
+  {
+    "_id": "clonofax_clonazepan_2_mg_blist_x_20_tab",
+    "name": "CLONOFAX (CLONAZEPAN 2 MG) BLIST X 20 TAB",
+    "category": "Ansiolíticos y anticonvulsivos",
+    "principio_activo": "Clonazepam",
+    "descripcion": "Clonofax es un medicamento que contiene clonazepam, un benzodiacepina utilizado para tratar trastornos de ansiedad, convulsiones y epilepsia. Cada tableta contiene 2 mg de clonazepam y se presenta en blíster de 20 tabletas.",
+    "image_url": "/uploads/products/clonofax_clonazepan_2_mg_blist_x_20_tab.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.25,
+        "price": 5.5,
+        "profit_percent": 0.41,
+        "sku": "SKU-7941375111E2"
+      }
+    ],
+    "created_at": "2026-04-20T07:33:52.149064",
+    "updated_at": "2026-04-20T07:33:52.149064"
+  },
+  {
+    "_id": "diazepan_10_mgs_mk_blis_x_10_caja_x_100",
+    "name": "DIAZEPAN 10 MGS MK BLIS X 10 CAJA X 100",
+    "category": "Ansiolítico",
+    "principio_activo": "Diazepam",
+    "descripcion": "Diazepam 10 mg en blíster de 10 tabletas, caja con 100 unidades. Utilizado para el tratamiento de ansiedad, espasmos musculares y convulsiones.",
+    "image_url": "/uploads/products/diazepan_10_mgs_mk_blis_x_10_caja_x_100.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.7,
+        "price": 4.4,
+        "profit_percent": 0.61,
+        "sku": "SKU-F6F7029A5C5A"
+      }
+    ],
+    "created_at": "2026-04-20T07:33:55.341859",
+    "updated_at": "2026-04-20T07:33:55.341859"
+  },
+  {
+    "_id": "equiliv_2_mg__blist_x_10_tabs_clonazepam",
+    "name": "EQUILIV 2 MG  BLIST X 10 TABS (CLONAZEPAM)",
+    "category": "Ansiolítico",
+    "principio_activo": "Clonazepam",
+    "descripcion": "EQUILIV es un medicamento que contiene clonazepam, un fármaco utilizado principalmente para el tratamiento de trastornos de ansiedad, ataques de pánico y ciertos tipos de convulsiones. Actúa sobre el sistema nervioso central potenciando el efecto del neurotransmisor GABA, lo que produce un efecto sedante, ansiolítico y anticonvulsivante.",
+    "image_url": "/uploads/products/equiliv_2_mg__blist_x_10_tabs_clonazepam.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.04,
+        "price": 5.5,
+        "profit_percent": 0.45,
+        "sku": "SKU-F8881D94EF3B"
+      }
+    ],
+    "created_at": "2026-04-20T07:34:00.930130",
+    "updated_at": "2026-04-20T07:34:00.930130"
+  },
+  {
+    "_id": "equiliv_gotas_10_ml",
+    "name": "EQUILIV GOTAS 10 ML",
+    "category": "Suplemento dietético",
+    "principio_activo": "Extractos de plantas y vitaminas",
+    "descripcion": "EQUILIV GOTAS 10 ML es un suplemento dietético en forma de gotas que combina extractos de plantas y vitaminas para apoyar el equilibrio emocional y el bienestar general.",
+    "image_url": "/uploads/products/equiliv_gotas_10_ml.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 90.0,
+        "price": 150.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-7575B1153EB9"
+      }
+    ],
+    "created_at": "2026-04-20T07:34:03.837848",
+    "updated_at": "2026-04-20T07:34:03.837848"
+  },
+  {
+    "_id": "escitalopram_10_mgs_blist_x_10_inhiser_med_farma",
+    "name": "ESCITALOPRAM 10 MGS BLIST X 10 (INHISER) MED FARMA",
+    "category": "Antidepresivo",
+    "principio_activo": "Escitalopram",
+    "descripcion": "Escitalopram es un inhibidor selectivo de la recaptación de serotonina (ISRS) utilizado para el tratamiento de la depresión y trastornos de ansiedad. La presentación es en tabletas de 10 mg, en blíster de 10 unidades, fabricado por MED FARMA bajo la marca INHISER.",
+    "image_url": "/uploads/products/escitalopram_10_mgs_blist_x_10_inhiser_med_farma.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.3,
+        "price": 9.3,
+        "profit_percent": 0.43,
+        "sku": "SKU-40A61B8194C0"
+      }
+    ],
+    "created_at": "2026-04-20T07:34:06.702860",
+    "updated_at": "2026-04-20T07:34:06.702860"
+  },
+  {
+    "_id": "fenobarbital_caja_x_100_blist_x_10",
+    "name": "FENOBARBITAL CAJA X 100 BLIST X 10",
+    "category": "Anticonvulsivante",
+    "principio_activo": "Fenobarbital",
+    "descripcion": "Fenobarbital es un barbitúrico utilizado principalmente como anticonvulsivante para el tratamiento de epilepsia y como sedante.",
+    "image_url": "/uploads/products/fenobarbital_caja_x_100_blist_x_10.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.49,
+        "price": 14.0,
+        "profit_percent": 0.61,
+        "sku": "SKU-E701D53D90EB"
+      }
+    ],
+    "created_at": "2026-04-20T07:34:09.682747",
+    "updated_at": "2026-04-20T07:34:09.682747"
+  },
+  {
+    "_id": "lorazepan_2_mg_mk_blist_x_10",
+    "name": "LORAZEPAN 2 MG MK BLIST X 10",
+    "category": "Ansiolíticos",
+    "principio_activo": "Lorazepam",
+    "descripcion": "Lorazepam 2 mg en presentación de blíster con 10 tabletas, utilizado para el tratamiento de la ansiedad y trastornos relacionados.",
+    "image_url": "/uploads/products/lorazepan_2_mg_mk_blist_x_10.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.2,
+        "price": 5.8,
+        "profit_percent": 0.45,
+        "sku": "SKU-9F65E8C320B9"
+      }
+    ],
+    "created_at": "2026-04-20T07:34:12.196720",
+    "updated_at": "2026-04-20T07:34:12.196720"
+  },
+  {
+    "_id": "paranten_diazepan_10_mg_bist_x_10_caja_x_40",
+    "name": "PARANTEN (DIAZEPAN 10 MG) BIST X 10 CAJA X 40",
+    "category": "Ansiolítico",
+    "principio_activo": "Diazepam",
+    "descripcion": "PARANTEN es un medicamento que contiene Diazepam 10 mg, utilizado principalmente para tratar la ansiedad, espasmos musculares y convulsiones. Se presenta en cajas con 40 comprimidos, cada uno con una dosis de 10 mg.",
+    "image_url": "/uploads/products/paranten_diazepan_10_mg_bist_x_10_caja_x_40.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.31,
+        "price": 2.8,
+        "profit_percent": 0.53,
+        "sku": "SKU-2AFFDF37363D"
+      }
+    ],
+    "created_at": "2026-04-20T07:34:15.668549",
+    "updated_at": "2026-04-20T07:34:15.668549"
+  },
+  {
+    "_id": "sublimex_alprazolam_05_blist_x_20",
+    "name": "SUBLIMEX (ALPRAZOLAM 0.5) BLIST X 20",
+    "category": "Ansiolítico",
+    "principio_activo": "Alprazolam 0.5 mg",
+    "descripcion": "SUBLIMEX es un medicamento que contiene alprazolam, utilizado para el tratamiento de trastornos de ansiedad y pánico. Se presenta en blíster con 20 tabletas.",
+    "image_url": "/uploads/products/sublimex_alprazolam_05_blist_x_20.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.82,
+        "price": 4.8,
+        "profit_percent": 0.41,
+        "sku": "SKU-8C8B2F91D13E"
+      }
+    ],
+    "created_at": "2026-04-20T07:34:18.492281",
+    "updated_at": "2026-04-20T07:34:18.492281"
+  },
+  {
+    "_id": "tensil_25_mg_caja_x_40_blist_x_20",
+    "name": "TENSIL 25 MG CAJA X 40 BLIST X 20",
+    "category": "Medicamento",
+    "principio_activo": "Tensilon (Edrofonio)",
+    "descripcion": "TENSIL 25 MG CAJA X 40 BLIST X 20 es un medicamento que contiene 25 mg de principio activo por unidad, presentado en una caja con 40 blísteres, cada uno con 20 unidades. Se utiliza para el tratamiento de enfermedades específicas bajo prescripción médica.",
+    "image_url": "/uploads/products/tensil_25_mg_caja_x_40_blist_x_20.jpg",
+    "supplier": "TORRE FUERTE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.23,
+        "price": 4.3,
+        "profit_percent": 0.48,
+        "sku": "SKU-58113F04C0A6"
+      }
+    ],
+    "created_at": "2026-04-20T07:34:21.749546",
+    "updated_at": "2026-04-20T07:34:21.749546"
+  }
+]

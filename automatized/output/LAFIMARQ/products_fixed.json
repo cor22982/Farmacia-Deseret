@@ -1,0 +1,1178 @@
+[
+  {
+    "_id": "aceite_de_ajenjo_30_ml_1_onz",
+    "name": "ACEITE DE AJENJO 30 ML 1 ONZ",
+    "category": "Aceites esenciales",
+    "principio_activo": "Ajenjo",
+    "descripcion": "Aceite esencial extraído del ajenjo, utilizado tradicionalmente por sus propiedades digestivas y antiparasitarias.",
+    "image_url": "/uploads/products/aceite_de_ajenjo_30_ml_1_onz.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.75,
+        "price": 12.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-8DF91ED66580"
+      }
+    ],
+    "created_at": "2026-04-20T08:16:37.707765",
+    "updated_at": "2026-04-20T08:16:37.709800"
+  },
+  {
+    "_id": "aceite_de_almendras_30_ml",
+    "name": "ACEITE DE ALMENDRAS 30 ML",
+    "category": "Cosmético / Cuidado de la piel",
+    "principio_activo": "Aceite de almendras",
+    "descripcion": "Aceite natural extraído de almendras, utilizado para hidratar y suavizar la piel, así como para masajes y cuidado capilar.",
+    "image_url": "/uploads/products/aceite_de_almendras_30_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.0,
+        "price": 10.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-C6E7FFF8404A"
+      }
+    ],
+    "created_at": "2026-04-20T08:16:40.822579",
+    "updated_at": "2026-04-20T08:16:40.822579"
+  },
+  {
+    "_id": "aceite_de_nervino_30_ml",
+    "name": "ACEITE DE NERVINO 30 ML",
+    "category": "Suplemento y remedio tradicional",
+    "principio_activo": "Extractos naturales y aceites esenciales",
+    "descripcion": "Aceite utilizado tradicionalmente para aliviar nerviosismo y promover la relajación, generalmente compuesto por una mezcla de aceites esenciales y extractos naturales.",
+    "image_url": "/uploads/products/aceite_de_nervino_30_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.0,
+        "price": 9.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-A9B5D0ED90AB"
+      }
+    ],
+    "created_at": "2026-04-20T08:16:43.698054",
+    "updated_at": "2026-04-20T08:16:43.698054"
+  },
+  {
+    "_id": "aceite_mineral_30_ml",
+    "name": "ACEITE MINERAL 30 ML",
+    "category": "Laxantes",
+    "principio_activo": "Aceite mineral",
+    "descripcion": "El aceite mineral es un laxante que actúa lubricando el intestino para facilitar el tránsito intestinal y aliviar el estreñimiento.",
+    "image_url": "/uploads/products/aceite_mineral_30_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.0,
+        "price": 7.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-0D4BB59C56E2"
+      }
+    ],
+    "created_at": "2026-04-20T08:16:46.622311",
+    "updated_at": "2026-04-20T08:16:46.622311"
+  },
+  {
+    "_id": "aceite_mineral_60_ml",
+    "name": "ACEITE MINERAL 60 ML",
+    "category": "Laxantes",
+    "principio_activo": "Aceite mineral",
+    "descripcion": "El aceite mineral es un laxante que actúa lubricando el intestino para facilitar el tránsito intestinal y aliviar el estreñimiento.",
+    "image_url": "/uploads/products/aceite_mineral_60_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.75,
+        "price": 10.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-AFF93B7E3799"
+      }
+    ],
+    "created_at": "2026-04-20T08:16:49.305887",
+    "updated_at": "2026-04-20T08:16:49.305887"
+  },
+  {
+    "_id": "aceite_rosasdo_de_mosca",
+    "name": "ACEITE ROSASDO DE MOSCA",
+    "category": "Aceite esencial",
+    "principio_activo": "Aceite de rosas de mosqueta",
+    "descripcion": "Aceite natural extraído de las semillas de la rosa mosqueta, utilizado principalmente para la regeneración de la piel, tratamiento de cicatrices, hidratación y mejora de la elasticidad cutánea.",
+    "image_url": "/uploads/products/aceite_rosasdo_de_mosca.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.0,
+        "price": 9.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-06B24687C66F"
+      }
+    ],
+    "created_at": "2026-04-20T08:16:52.474461",
+    "updated_at": "2026-04-20T08:16:52.474461"
+  },
+  {
+    "_id": "acetona_120_ml_pura",
+    "name": "ACETONA 120 ML PURA",
+    "category": "Solvente y removedor",
+    "principio_activo": "Acetona",
+    "descripcion": "Líquido incoloro y volátil utilizado principalmente como solvente en la industria farmacéutica y cosmética, especialmente para remover esmalte de uñas.",
+    "image_url": "/uploads/products/acetona_120_ml_pura.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.5,
+        "price": 20.0,
+        "profit_percent": 0.63,
+        "sku": "SKU-F4FE6D8262B9"
+      }
+    ],
+    "created_at": "2026-04-20T08:16:55.278682",
+    "updated_at": "2026-04-20T08:16:55.278682"
+  },
+  {
+    "_id": "acetona_60_ml_pura",
+    "name": "ACETONA 60 ML PURA",
+    "category": "Solvente y removedor de esmalte",
+    "principio_activo": "Acetona",
+    "descripcion": "Líquido incoloro utilizado principalmente como solvente para remover esmalte de uñas y limpiar superficies. Es altamente inflamable y debe usarse con precaución.",
+    "image_url": "/uploads/products/acetona_60_ml_pura.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.5,
+        "price": 15.0,
+        "profit_percent": 0.63,
+        "sku": "SKU-B4DD8E45BA2B"
+      }
+    ],
+    "created_at": "2026-04-20T08:16:59.086294",
+    "updated_at": "2026-04-20T08:16:59.086294"
+  },
+  {
+    "_id": "achicoria_jbe_30_ml",
+    "name": "ACHICORIA JBE 30 ML",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Extracto de achicoria",
+    "descripcion": "Jarabe de achicoria utilizado como suplemento para mejorar la digestión y estimular el apetito.",
+    "image_url": "/uploads/products/achicoria_jbe_30_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 9.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-218F1E159C70"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:02.311807",
+    "updated_at": "2026-04-20T08:17:02.311807"
+  },
+  {
+    "_id": "agua_de_rosas",
+    "name": "AGUA DE ROSAS",
+    "category": "Cosmético",
+    "principio_activo": "Agua de rosas",
+    "descripcion": "Producto líquido obtenido por destilación de pétalos de rosa, utilizado principalmente como tónico facial, para refrescar y suavizar la piel.",
+    "image_url": "/uploads/products/agua_de_rosas.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.5,
+        "price": 7.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-BE8EF99EC7BA"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:05.191619",
+    "updated_at": "2026-04-20T08:17:05.191619"
+  },
+  {
+    "_id": "añilina_amarilla",
+    "name": "AÑILINA AMARILLA",
+    "category": "Colorante",
+    "principio_activo": "Aminofenol",
+    "descripcion": "La anilina amarilla es un compuesto químico utilizado principalmente como colorante en la industria textil y en la fabricación de tintes. No es un producto farmacéutico destinado a uso medicinal.",
+    "image_url": "/uploads/products/añilina_amarilla.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.79,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-E3CA46F9E53C"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:07.855192",
+    "updated_at": "2026-04-20T08:17:07.855192"
+  },
+  {
+    "_id": "añilina_anaranjada",
+    "name": "AÑILINA ANARANJADA",
+    "category": "Colorante",
+    "principio_activo": "Añilina anaranjada",
+    "descripcion": "La añilina anaranjada es un colorante utilizado en la industria farmacéutica y química para teñir productos y materiales. No es un medicamento y no tiene propiedades terapéuticas.",
+    "image_url": "/uploads/products/añilina_anaranjada.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.79,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-6062282BB439"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:10.621653",
+    "updated_at": "2026-04-20T08:17:10.621653"
+  },
+  {
+    "_id": "añilina_azul",
+    "name": "AÑILINA AZUL",
+    "category": "Colorante",
+    "principio_activo": "Anilina azul",
+    "descripcion": "La anilina azul es un colorante utilizado en la industria textil y en laboratorios para tinción y análisis. No es un medicamento y no tiene uso terapéutico.",
+    "image_url": "/uploads/products/añilina_azul.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.86,
+        "price": 1.5,
+        "profit_percent": 0.43,
+        "sku": "SKU-6A3FAA82E26D"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:13.328618",
+    "updated_at": "2026-04-20T08:17:13.328618"
+  },
+  {
+    "_id": "añilina_café",
+    "name": "AÑILINA CAFÉ",
+    "category": "Colorante y reactivo químico",
+    "principio_activo": "Anilina",
+    "descripcion": "La Anilina Café es un compuesto químico utilizado principalmente como colorante y en la síntesis de productos químicos. No es un medicamento y no debe usarse con fines terapéuticos debido a su toxicidad.",
+    "image_url": "/uploads/products/añilina_café.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.79,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-5594ECC44B5C"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:16.125196",
+    "updated_at": "2026-04-20T08:17:16.125196"
+  },
+  {
+    "_id": "añilina_celeste",
+    "name": "AÑILINA CELESTE",
+    "category": "Colorante",
+    "principio_activo": "Anilina",
+    "descripcion": "La Anilina Celeste es un colorante utilizado en aplicaciones farmacéuticas y químicas para teñir tejidos y productos. No es un medicamento, sino un compuesto químico empleado principalmente en laboratorios.",
+    "image_url": "/uploads/products/añilina_celeste.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.79,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-BAC14342C35C"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:18.921968",
+    "updated_at": "2026-04-20T08:17:18.921968"
+  },
+  {
+    "_id": "añilina_corinta",
+    "name": "AÑILINA CORINTA",
+    "category": "Colorante",
+    "principio_activo": "Anilina",
+    "descripcion": "La Anilina Corinta es un colorante utilizado principalmente en la industria textil y en laboratorios para teñir tejidos y realizar pruebas químicas.",
+    "image_url": "/uploads/products/añilina_corinta.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.79,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-DD044E28480F"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:21.890366",
+    "updated_at": "2026-04-20T08:17:21.890366"
+  },
+  {
+    "_id": "añilina_negra",
+    "name": "AÑILINA NEGRA",
+    "category": "No es un producto farmacéutico",
+    "principio_activo": null,
+    "descripcion": "La anilina negra es un compuesto químico utilizado principalmente como tinte y en la fabricación de productos industriales, no es un medicamento ni un producto farmacéutico.",
+    "image_url": "/uploads/products/añilina_negra.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.79,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-B1198094259F"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:25.214114",
+    "updated_at": "2026-04-20T08:17:25.214114"
+  },
+  {
+    "_id": "añilina_roja",
+    "name": "AÑILINA ROJA",
+    "category": "Colorante",
+    "principio_activo": "Anilina roja",
+    "descripcion": "La anilina roja es un colorante orgánico utilizado principalmente en la industria textil y en laboratorios para tinciones. No es un producto farmacéutico destinado a uso terapéutico.",
+    "image_url": "/uploads/products/añilina_roja.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.79,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-6A739D8174A3"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:28.046934",
+    "updated_at": "2026-04-20T08:17:28.046934"
+  },
+  {
+    "_id": "añilina_rosada",
+    "name": "AÑILINA ROSADA",
+    "category": "Colorante y reactivo químico",
+    "principio_activo": "Anilina rosada",
+    "descripcion": "La anilina rosada es un compuesto utilizado principalmente como colorante en laboratorios y en la industria farmacéutica para la identificación y tinción de tejidos. No es un medicamento, sino un reactivo químico empleado en análisis y pruebas diagnósticas.",
+    "image_url": "/uploads/products/añilina_rosada.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.79,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-1B6BDBA1872C"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:31.976227",
+    "updated_at": "2026-04-20T08:17:31.976227"
+  },
+  {
+    "_id": "añilina_turquesa",
+    "name": "AÑILINA TURQUESA",
+    "category": "Químicos y reactivos",
+    "principio_activo": "Anilina",
+    "descripcion": "La Anilina Turquesa es un compuesto químico utilizado principalmente como reactivo en síntesis orgánica y en la fabricación de colorantes. No es un medicamento, sino un producto químico industrial.",
+    "image_url": "/uploads/products/añilina_turquesa.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.79,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-7012FAA1C064"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:36.117996",
+    "updated_at": "2026-04-20T08:17:36.117996"
+  },
+  {
+    "_id": "añilina_verde",
+    "name": "AÑILINA VERDE",
+    "category": "Colorante",
+    "principio_activo": "Anilina verde",
+    "descripcion": "La anilina verde es un colorante utilizado en aplicaciones industriales y científicas, no es un producto farmacéutico para uso terapéutico.",
+    "image_url": "/uploads/products/añilina_verde.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.79,
+        "price": 1.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-648ADC2FA747"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:39.262510",
+    "updated_at": "2026-04-20T08:17:39.262510"
+  },
+  {
+    "_id": "azucar_de_aniz_1_onza",
+    "name": "AZUCAR DE ANIZ 1 ONZA",
+    "category": "Producto farmacéutico tradicional",
+    "principio_activo": "Anís",
+    "descripcion": "Azúcar aromatizada con anís, utilizada comúnmente para aliviar molestias digestivas y como caramelo para el aliento.",
+    "image_url": "/uploads/products/azucar_de_aniz_1_onza.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.25,
+        "price": 4.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-4F7EBE9F5EEA"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:42.357468",
+    "updated_at": "2026-04-20T08:17:42.357468"
+  },
+  {
+    "_id": "azucar_de_leche_1_onz",
+    "name": "AZUCAR DE LECHE 1 ONZ",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Lactosa",
+    "descripcion": "Producto utilizado como fuente de lactosa, un azúcar natural presente en la leche, comúnmente empleado en la industria farmacéutica y alimentaria.",
+    "image_url": "/uploads/products/azucar_de_leche_1_onz.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.75,
+        "price": 8.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-EC32DC08B992"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:45.348758",
+    "updated_at": "2026-04-20T08:17:45.348758"
+  },
+  {
+    "_id": "bicarbonato_de_sodio_libra",
+    "name": "BICARBONATO DE SODIO LIBRA",
+    "category": "Antiácido y alcalinizante",
+    "principio_activo": "Bicarbonato de sodio",
+    "descripcion": "El bicarbonato de sodio es un compuesto utilizado para neutralizar el exceso de ácido en el estómago, aliviando la acidez y la indigestión. También se emplea para alcalinizar la orina y tratar ciertas condiciones metabólicas.",
+    "image_url": "/uploads/products/bicarbonato_de_sodio_libra.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.4,
+        "price": 15.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-4BEB3E78985D"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:48.530607",
+    "updated_at": "2026-04-20T08:17:48.530607"
+  },
+  {
+    "_id": "borax_1_onz",
+    "name": "BORAX 1 ONZ",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Borato de sodio",
+    "descripcion": "BORAX 1 ONZ es un producto utilizado principalmente como antiséptico y desinfectante. Se emplea para la limpieza y desinfección de heridas menores, así como en aplicaciones domésticas y farmacéuticas para eliminar bacterias y hongos.",
+    "image_url": "/uploads/products/borax_1_onz.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.25,
+        "price": 4.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-C5B45857D5FE"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:51.866324",
+    "updated_at": "2026-04-20T08:17:51.866324"
+  },
+  {
+    "_id": "color_vegetal_amarillo_carton_x_24",
+    "name": "COLOR VEGETAL AMARILLO CARTON X 24",
+    "category": "Colorante alimentario",
+    "principio_activo": "Colorante vegetal amarillo",
+    "descripcion": "Producto utilizado para dar color amarillo a alimentos y productos farmacéuticos, presentado en envase de cartón con 24 unidades.",
+    "image_url": "/uploads/products/color_vegetal_amarillo_carton_x_24.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.72,
+        "price": 1.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-DF24336E17D7"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:54.906581",
+    "updated_at": "2026-04-20T08:17:54.906581"
+  },
+  {
+    "_id": "color_vegetal_anaranjado",
+    "name": "COLOR VEGETAL ANARANJADO",
+    "category": "Colorante alimentario",
+    "principio_activo": "Colorante vegetal anaranjado",
+    "descripcion": "Producto utilizado para dar color anaranjado a alimentos y productos farmacéuticos, derivado de fuentes vegetales naturales.",
+    "image_url": "/uploads/products/color_vegetal_anaranjado.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.72,
+        "price": 1.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-902EBB2023EA"
+      }
+    ],
+    "created_at": "2026-04-20T08:17:58.058563",
+    "updated_at": "2026-04-20T08:17:58.058563"
+  },
+  {
+    "_id": "color_vegetal_azul",
+    "name": "COLOR VEGETAL AZUL",
+    "category": "Colorante alimentario",
+    "principio_activo": "Azul de índigo natural",
+    "descripcion": "Colorante vegetal utilizado para dar color azul a alimentos y productos farmacéuticos, derivado de fuentes naturales.",
+    "image_url": "/uploads/products/color_vegetal_azul.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.72,
+        "price": 1.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-727D3B7A9A30"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:01.214983",
+    "updated_at": "2026-04-20T08:18:01.214983"
+  },
+  {
+    "_id": "color_vegetal_celeste",
+    "name": "COLOR VEGETAL CELESTE",
+    "category": "Colorante alimentario",
+    "principio_activo": "Colorante vegetal azul",
+    "descripcion": "Colorante natural de origen vegetal utilizado para dar color celeste a alimentos y productos farmacéuticos.",
+    "image_url": "/uploads/products/color_vegetal_celeste.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.72,
+        "price": 1.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-5EBF54E0490B"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:04.259761",
+    "updated_at": "2026-04-20T08:18:04.259761"
+  },
+  {
+    "_id": "color_vegetal_corinto",
+    "name": "COLOR VEGETAL CORINTO",
+    "category": "Colorante alimentario",
+    "principio_activo": "Colorante vegetal corinto",
+    "descripcion": "Colorante natural utilizado para dar color rojo oscuro o marrón a alimentos y productos farmacéuticos, derivado de fuentes vegetales.",
+    "image_url": "/uploads/products/color_vegetal_corinto.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.72,
+        "price": 1.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-48565DA800CD"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:07.155682",
+    "updated_at": "2026-04-20T08:18:07.155682"
+  },
+  {
+    "_id": "color_vegetal_morado",
+    "name": "COLOR VEGETAL MORADO",
+    "category": "Colorante alimentario",
+    "principio_activo": "Extracto de color vegetal morado",
+    "descripcion": "Colorante natural obtenido de fuentes vegetales, utilizado para dar color morado a alimentos y productos farmacéuticos.",
+    "image_url": "/uploads/products/color_vegetal_morado.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.72,
+        "price": 1.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-3A73BFDDE077"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:09.942256",
+    "updated_at": "2026-04-20T08:18:09.942256"
+  },
+  {
+    "_id": "color_vegetal_negro",
+    "name": "COLOR VEGETAL NEGRO",
+    "category": "Colorante alimentario",
+    "principio_activo": "Negro vegetal",
+    "descripcion": "Colorante natural obtenido a partir de carbón vegetal, utilizado para dar color negro a alimentos y productos farmacéuticos.",
+    "image_url": "/uploads/products/color_vegetal_negro.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.72,
+        "price": 1.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-9CBB70EE03C3"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:12.447532",
+    "updated_at": "2026-04-20T08:18:12.447532"
+  },
+  {
+    "_id": "color_vegetal_rojo",
+    "name": "COLOR VEGETAL ROJO",
+    "category": "Colorante alimentario",
+    "principio_activo": "Colorante vegetal rojo",
+    "descripcion": "Producto utilizado para dar color rojo a alimentos y productos farmacéuticos, elaborado a partir de pigmentos naturales de origen vegetal.",
+    "image_url": "/uploads/products/color_vegetal_rojo.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.78,
+        "price": 1.5,
+        "profit_percent": 0.48,
+        "sku": "SKU-C9EC38966748"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:15.353326",
+    "updated_at": "2026-04-20T08:18:15.353326"
+  },
+  {
+    "_id": "color_vegetal_rosado",
+    "name": "COLOR VEGETAL ROSADO",
+    "category": "Colorante alimentario",
+    "principio_activo": "Colorante vegetal rosado",
+    "descripcion": "Producto utilizado para dar color rosado a alimentos y productos farmacéuticos, elaborado a partir de pigmentos vegetales naturales.",
+    "image_url": "/uploads/products/color_vegetal_rosado.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.72,
+        "price": 1.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-9ADCD01C3271"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:19.884092",
+    "updated_at": "2026-04-20T08:18:19.884092"
+  },
+  {
+    "_id": "color_vegetal_turquesa",
+    "name": "COLOR VEGETAL TURQUESA",
+    "category": "Colorante alimentario",
+    "principio_activo": "Colorante vegetal turquesa",
+    "descripcion": "Colorante natural utilizado para dar color turquesa a alimentos y productos farmacéuticos.",
+    "image_url": "/uploads/products/color_vegetal_turquesa.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.72,
+        "price": 1.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-5BC99C8438C5"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:23.380358",
+    "updated_at": "2026-04-20T08:18:23.380358"
+  },
+  {
+    "_id": "color_vegetal_verde",
+    "name": "COLOR VEGETAL VERDE",
+    "category": "Colorante alimentario",
+    "principio_activo": "Clorofila",
+    "descripcion": "Colorante vegetal de tono verde utilizado para dar color a alimentos y productos farmacéuticos, derivado de extractos naturales de plantas.",
+    "image_url": "/uploads/products/color_vegetal_verde.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.72,
+        "price": 1.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-F50BA424E2C9"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:26.218428",
+    "updated_at": "2026-04-20T08:18:26.218428"
+  },
+  {
+    "_id": "creolina_comercial_120_ml",
+    "name": "CREOLINA COMERCIAL 120 ML",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Cresol",
+    "descripcion": "Creolina Comercial es un desinfectante y antiséptico utilizado para la limpieza y desinfección de superficies, ambientes y heridas, ayudando a eliminar bacterias, hongos y virus.",
+    "image_url": "/uploads/products/creolina_comercial_120_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.5,
+        "price": 14.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-5140C6FDAEA0"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:29.003570",
+    "updated_at": "2026-04-20T08:18:29.003570"
+  },
+  {
+    "_id": "creolina_comercial_240_ml",
+    "name": "CREOLINA COMERCIAL 240 ML",
+    "category": "Desinfectante",
+    "principio_activo": "Cresol",
+    "descripcion": "Creolina Comercial es un desinfectante y limpiador utilizado para eliminar bacterias, virus y hongos en superficies. Se presenta en presentación líquida de 240 ml y es comúnmente usado en ambientes domésticos e industriales para desinfección general.",
+    "image_url": "/uploads/products/creolina_comercial_240_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.0,
+        "price": 20.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-157360FC87F2"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:31.897011",
+    "updated_at": "2026-04-20T08:18:31.897011"
+  },
+  {
+    "_id": "creolina_comercial_500_ml",
+    "name": "CREOLINA COMERCIAL 500 ML",
+    "category": "Desinfectante",
+    "principio_activo": "Cresol",
+    "descripcion": "Creolina Comercial es un desinfectante y limpiador utilizado para eliminar bacterias, virus y hongos en superficies, ideal para uso doméstico e industrial.",
+    "image_url": "/uploads/products/creolina_comercial_500_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.5,
+        "price": 27.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-7AF0EDC84C7C"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:34.751982",
+    "updated_at": "2026-04-20T08:18:34.751982"
+  },
+  {
+    "_id": "creolina_comercial_litro",
+    "name": "CREOLINA COMERCIAL LITRO",
+    "category": "Desinfectante y Antiséptico",
+    "principio_activo": "Cresol y otros derivados fenólicos",
+    "descripcion": "Creolina Comercial Litro es un desinfectante y antiséptico utilizado para la limpieza y desinfección de superficies, ambientes y materiales, especialmente en entornos agrícolas, ganaderos e industriales. Su fórmula a base de cresol ayuda a eliminar bacterias, hongos y virus, contribuyendo a mantener ambientes higiénicos.",
+    "image_url": "/uploads/products/creolina_comercial_litro.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 27.0,
+        "price": 47.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-FF63A46346A4"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:39.252533",
+    "updated_at": "2026-04-20T08:18:39.252533"
+  },
+  {
+    "_id": "envases_de_plastico_120ml",
+    "name": "ENVASES DE PLASTICO 120ML",
+    "category": "Envases y embalajes",
+    "principio_activo": null,
+    "descripcion": "Envases de plástico con capacidad de 120 ml, utilizados para almacenar y transportar productos farmacéuticos líquidos o semilíquidos.",
+    "image_url": "/uploads/products/envases_de_plastico_120ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.25,
+        "price": 3.0,
+        "profit_percent": 0.58,
+        "sku": "SKU-11EA698532BA"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:42.103600",
+    "updated_at": "2026-04-20T08:18:42.103600"
+  },
+  {
+    "_id": "glicerina_38_ml",
+    "name": "GLICERINA 38 ML",
+    "category": "Laxantes",
+    "principio_activo": "Glicerina",
+    "descripcion": "La glicerina es un laxante osmótico utilizado para aliviar el estreñimiento ocasional. Se presenta en forma de supositorios o solución para administración rectal, facilitando la evacuación intestinal al aumentar el contenido de agua en el intestino.",
+    "image_url": "/uploads/products/glicerina_38_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.0,
+        "price": 15.0,
+        "profit_percent": 0.53,
+        "sku": "SKU-2A2197036FCC"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:45.160367",
+    "updated_at": "2026-04-20T08:18:45.160367"
+  },
+  {
+    "_id": "mercurio_cromo_2_spray_120_ml",
+    "name": "MERCURIO CROMO 2% SPRAY 120 ML",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Mercurio cromo 2%",
+    "descripcion": "Spray antiséptico utilizado para la desinfección de heridas y prevención de infecciones en la piel.",
+    "image_url": "/uploads/products/mercurio_cromo_2_spray_120_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.75,
+        "price": 29.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-581903993B3E"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:48.064193",
+    "updated_at": "2026-04-20T08:18:48.064193"
+  },
+  {
+    "_id": "mercurio_cromo_30_ml",
+    "name": "MERCURIO CROMO 30 ML",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Mercurio cromo",
+    "descripcion": "Solución antiséptica utilizada para la desinfección de heridas y cortes menores, ayudando a prevenir infecciones.",
+    "image_url": "/uploads/products/mercurio_cromo_30_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.5,
+        "price": 14.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-E7AD48AFBB0F"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:51.056578",
+    "updated_at": "2026-04-20T08:18:51.056578"
+  },
+  {
+    "_id": "miel_rosada_30_ml",
+    "name": "MIEL ROSADA 30 ML",
+    "category": "Jarabe para la tos",
+    "principio_activo": "Dextrometorfano",
+    "descripcion": "Miel Rosada 30 ml es un jarabe utilizado para aliviar la tos seca y el malestar de garganta, con un sabor agradable que facilita su administración.",
+    "image_url": "/uploads/products/miel_rosada_30_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.0,
+        "price": 9.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-EB84755F4569"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:54.033058",
+    "updated_at": "2026-04-20T08:18:54.033058"
+  },
+  {
+    "_id": "neftalina__bolsa_x_5_unidades",
+    "name": "NEFTALINA  BOLSA X 5 UNIDADES",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Neftalina",
+    "descripcion": "Producto farmacéutico en bolsa que contiene 5 unidades de Neftalina, utilizado como antiséptico y desinfectante para prevenir infecciones.",
+    "image_url": "/uploads/products/neftalina__bolsa_x_5_unidades.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.0,
+        "price": 4.0,
+        "profit_percent": 0.75,
+        "sku": "SKU-0B0BFA867A5B"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:56.544685",
+    "updated_at": "2026-04-20T08:18:56.544685"
+  },
+  {
+    "_id": "pomada_de_sulfatiazol_1_onza",
+    "name": "POMADA DE SULFATIAZOL 1 ONZA",
+    "category": "Antibiótico tópico",
+    "principio_activo": "Sulfatiazol",
+    "descripcion": "Pomada tópica que contiene sulfatiazol al 1%, utilizada para prevenir y tratar infecciones bacterianas en heridas, quemaduras y lesiones cutáneas.",
+    "image_url": "/uploads/products/pomada_de_sulfatiazol_1_onza.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.13,
+        "price": 10.0,
+        "profit_percent": 0.59,
+        "sku": "SKU-BA9891CE0963"
+      }
+    ],
+    "created_at": "2026-04-20T08:18:59.830478",
+    "updated_at": "2026-04-20T08:18:59.830478"
+  },
+  {
+    "_id": "ruibarbo_tintura_30_ml",
+    "name": "RUIBARBO TINTURA 30 ML",
+    "category": "Tintura",
+    "principio_activo": "RUIBARBO",
+    "descripcion": "Tintura de Ruibarbo, utilizada como laxante y para estimular la digestión.",
+    "image_url": "/uploads/products/ruibarbo_tintura_30_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.0,
+        "price": 9.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-9E038F9984C7"
+      }
+    ],
+    "created_at": "2026-04-20T08:19:03.309314",
+    "updated_at": "2026-04-20T08:19:03.309314"
+  },
+  {
+    "_id": "siete_espiritus_30_ml",
+    "name": "SIETE ESPIRITUS 30 ML",
+    "category": "Producto herbolario / Suplemento natural",
+    "principio_activo": "Extractos de hierbas y esencias naturales",
+    "descripcion": "Siete Espíritus es un producto tradicional a base de extractos de hierbas y esencias naturales utilizado comúnmente para aliviar molestias digestivas, mejorar la circulación y promover el bienestar general.",
+    "image_url": "/uploads/products/siete_espiritus_30_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 10.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-78A2C687826F"
+      }
+    ],
+    "created_at": "2026-04-20T08:19:06.619254",
+    "updated_at": "2026-04-20T08:19:06.619254"
+  },
+  {
+    "_id": "soda_caustica_en_escamas_libra",
+    "name": "SODA CAUSTICA EN ESCAMAS LIBRA",
+    "category": "Producto químico industrial",
+    "principio_activo": "Hidróxido de sodio",
+    "descripcion": "Soda cáustica en escamas, utilizada principalmente en procesos industriales y de limpieza, es un compuesto químico altamente alcalino y corrosivo.",
+    "image_url": "/uploads/products/soda_caustica_en_escamas_libra.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.5,
+        "price": 25.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-BC8340021616"
+      }
+    ],
+    "created_at": "2026-04-20T08:19:09.567603",
+    "updated_at": "2026-04-20T08:19:09.567603"
+  },
+  {
+    "_id": "solucion_de_ibitane_al_5_fco__120_ml",
+    "name": "SOLUCION DE IBITANE AL 5% FCO  120 ML",
+    "category": "Solución tópica",
+    "principio_activo": "Ibitane",
+    "descripcion": "Solución al 5% de Ibitane en frasco de 120 ml, utilizada para aplicaciones tópicas.",
+    "image_url": "/uploads/products/solucion_de_ibitane_al_5_fco__120_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.25,
+        "price": 12.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-D02737627826"
+      }
+    ],
+    "created_at": "2026-04-20T08:19:12.474133",
+    "updated_at": "2026-04-20T08:19:12.474133"
+  },
+  {
+    "_id": "thimerosal_120_ml_spray",
+    "name": "THIMEROSAL 120 ML SPRAY",
+    "category": "Antiséptico",
+    "principio_activo": "Thimerosal",
+    "descripcion": "Spray antiséptico de 120 ml utilizado para la desinfección de heridas y prevención de infecciones.",
+    "image_url": "/uploads/products/thimerosal_120_ml_spray.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.0,
+        "price": 18.0,
+        "profit_percent": 1.0,
+        "sku": "SKU-40C6E7233F30"
+      }
+    ],
+    "created_at": "2026-04-20T08:19:15.320756",
+    "updated_at": "2026-04-20T08:19:15.320756"
+  },
+  {
+    "_id": "thimerosal_30_ml",
+    "name": "THIMEROSAL 30 ML",
+    "category": "Conservante y antiséptico",
+    "principio_activo": "Timerosal (Thimerosal)",
+    "descripcion": "El Thimerosal es un compuesto organomercurial utilizado como conservante en productos farmacéuticos y vacunas para prevenir la contaminación bacteriana y fúngica. Se presenta en solución, comúnmente en frascos de 30 ml, y se emplea en dosis controladas debido a su contenido de mercurio.",
+    "image_url": "/uploads/products/thimerosal_30_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.75,
+        "price": 14.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-4C3CFFB9849F"
+      }
+    ],
+    "created_at": "2026-04-20T08:19:18.270262",
+    "updated_at": "2026-04-20T08:19:18.270262"
+  },
+  {
+    "_id": "vaselina_blanca_58_grs",
+    "name": "VASELINA BLANCA 58 GRS",
+    "category": "Emoliente y protector cutáneo",
+    "principio_activo": "Petrolato",
+    "descripcion": "La vaselina blanca es una sustancia semisólida derivada del petróleo que se utiliza como emoliente para proteger y humectar la piel, formando una barrera que evita la pérdida de humedad.",
+    "image_url": "/uploads/products/vaselina_blanca_58_grs.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.75,
+        "price": 13.0,
+        "profit_percent": 0.56,
+        "sku": "SKU-828ADD2D6031"
+      }
+    ],
+    "created_at": "2026-04-20T08:19:21.257189",
+    "updated_at": "2026-04-20T08:19:21.257189"
+  },
+  {
+    "_id": "violeta_de_genciana_solucion_2_30_ml",
+    "name": "VIOLETA DE GENCIANA SOLUCION 2% 30 ML",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Violeta de genciana",
+    "descripcion": "Solución al 2% de violeta de genciana utilizada como antiséptico tópico para el tratamiento de infecciones cutáneas y mucosas.",
+    "image_url": "/uploads/products/violeta_de_genciana_solucion_2_30_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.25,
+        "price": 10.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-F713169CF255"
+      }
+    ],
+    "created_at": "2026-04-20T08:19:24.666973",
+    "updated_at": "2026-04-20T08:19:24.666973"
+  },
+  {
+    "_id": "violeta_de_genciana_solucion_2_spray_120_ml",
+    "name": "VIOLETA DE GENCIANA SOLUCION 2% SPRAY 120 ML",
+    "category": "Antiséptico y antifúngico",
+    "principio_activo": "Violeta de genciana 2%",
+    "descripcion": "Solución en spray al 2% de violeta de genciana, utilizada como antiséptico y antifúngico para el tratamiento de infecciones cutáneas y mucosas.",
+    "image_url": "/uploads/products/violeta_de_genciana_solucion_2_spray_120_ml.jpg",
+    "supplier": "LAFIMARQ",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.0,
+        "price": 23.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-F7F9DF25FA36"
+      }
+    ],
+    "created_at": "2026-04-20T08:19:27.700754",
+    "updated_at": "2026-04-20T08:19:27.700754"
+  }
+]

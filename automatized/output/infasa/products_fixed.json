@@ -1,0 +1,716 @@
+[
+  {
+    "_id": "amoxicilina_500_mg_blister_x_10_caja_x50",
+    "name": "AMOXICILINA 500 MG BLISTER X 10 CAJA X50",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina",
+    "descripcion": "Amoxicilina 500 mg en presentación de blister con 10 unidades, caja con 50 blisters.",
+    "image_url": "/uploads/products/amoxicilina_500_mg_blister_x_10_caja_x50.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.7,
+        "price": 20.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-9ACC57933494"
+      }
+    ],
+    "created_at": "2026-04-20T08:00:40.137146",
+    "updated_at": "2026-04-20T08:00:40.137146"
+  },
+  {
+    "_id": "arginina_forte_10_amp_bebibles",
+    "name": "ARGININA FORTE 10 AMP BEBIBLES",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Arginina",
+    "descripcion": "Suplemento en ampollas bebibles que contiene arginina, un aminoácido que contribuye a la producción de óxido nítrico, mejorando la circulación sanguínea y el rendimiento físico.",
+    "image_url": "/uploads/products/arginina_forte_10_amp_bebibles.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.5,
+        "price": 16.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-8C66DF2FE21D"
+      }
+    ],
+    "created_at": "2026-04-20T08:00:43.745939",
+    "updated_at": "2026-04-20T08:00:43.745939"
+  },
+  {
+    "_id": "atorvastatina_20_mg_caja_x_30_tab__blist_x_5",
+    "name": "ATORVASTATINA 20 MG CAJA X 30 TAB  BLIST X 5",
+    "category": "Medicamento para el control del colesterol",
+    "principio_activo": "Atorvastatina",
+    "descripcion": "Caja con 30 tabletas de 20 mg de Atorvastatina, presentadas en blíster de 5 tabletas cada uno.",
+    "image_url": "/uploads/products/atorvastatina_20_mg_caja_x_30_tab__blist_x_5.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.86,
+        "price": 23.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-893E247A34A5"
+      }
+    ],
+    "created_at": "2026-04-20T08:00:50.153869",
+    "updated_at": "2026-04-20T08:00:50.153869"
+  },
+  {
+    "_id": "atorvastatina_40_mg_caja_x_30_tab__blist_x_5",
+    "name": "ATORVASTATINA 40 MG CAJA X 30 TAB  BLIST X 5",
+    "category": "Medicamento para el control del colesterol",
+    "principio_activo": "Atorvastatina",
+    "descripcion": "Caja con 30 tabletas de 40 mg de Atorvastatina, presentadas en blíster de 5 tabletas cada uno.",
+    "image_url": "/uploads/products/atorvastatina_40_mg_caja_x_30_tab__blist_x_5.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.46,
+        "price": 33.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-E4DA75D5CC11"
+      }
+    ],
+    "created_at": "2026-04-20T08:00:53.177169",
+    "updated_at": "2026-04-20T08:00:53.177169"
+  },
+  {
+    "_id": "azitromicina_500_mg_b_x_5_caja_x_30",
+    "name": "AZITROMICINA 500 MG B X 5 CAJA X 30",
+    "category": "Antibiótico",
+    "principio_activo": "Azitromicina",
+    "descripcion": "Azitromicina 500 mg en caja con 5 blísteres de 30 tabletas cada uno.",
+    "image_url": "/uploads/products/azitromicina_500_mg_b_x_5_caja_x_30.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 33.0,
+        "price": 49.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-926B799BF20A"
+      }
+    ],
+    "created_at": "2026-04-20T08:00:56.599651",
+    "updated_at": "2026-04-20T08:00:56.599651"
+  },
+  {
+    "_id": "azitromicina_polvo_susp_200_mg5ml_15ml",
+    "name": "AZITROMICINA POLVO SUSP 200 MG/5ML 15ML",
+    "category": "Antibiótico",
+    "principio_activo": "Azitromicina",
+    "descripcion": "Suspensión oral en polvo para reconstituir, con una concentración de 200 mg de azitromicina por cada 5 ml, en un envase de 15 ml.",
+    "image_url": "/uploads/products/azitromicina_polvo_susp_200_mg5ml_15ml.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 31.68,
+        "price": 51.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-2F2FD0CE12A9"
+      }
+    ],
+    "created_at": "2026-04-20T08:00:59.540543",
+    "updated_at": "2026-04-20T08:00:59.540543"
+  },
+  {
+    "_id": "cefradoxilo_500_mg_cap_caja_x_30_blis_x_10",
+    "name": "CEFRADOXILO 500 MG CAP CAJA X 30 BLIS X 10",
+    "category": "Antibiótico",
+    "principio_activo": "Cefadroxilo",
+    "descripcion": "Antibiótico de la familia de las cefalosporinas de primera generación, utilizado para tratar infecciones bacterianas. Presentación en cápsulas de 500 mg, caja con 30 blísteres de 10 cápsulas cada uno.",
+    "image_url": "/uploads/products/cefradoxilo_500_mg_cap_caja_x_30_blis_x_10.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.85,
+        "price": 29.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-1E601212068A"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:03.072137",
+    "updated_at": "2026-04-20T08:01:03.072137"
+  },
+  {
+    "_id": "ciprofloxacina_500_mg_caja_x_60_bl_x_10",
+    "name": "CIPROFLOXACINA 500 MG CAJA X 60 BL X 10",
+    "category": "Antibiótico",
+    "principio_activo": "Ciprofloxacina",
+    "descripcion": "Caja con 60 blísteres, cada blíster contiene 10 tabletas de 500 mg de ciprofloxacina.",
+    "image_url": "/uploads/products/ciprofloxacina_500_mg_caja_x_60_bl_x_10.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.2,
+        "price": 27.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-2B1283C87A9D"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:05.992381",
+    "updated_at": "2026-04-20T08:01:05.992381"
+  },
+  {
+    "_id": "dextrium_plus_75mg25mg_caja_x_10_dextram",
+    "name": "DEXTRIUM PLUS 75MG/25MG CAJA X 10 (DEX/TRAM)",
+    "category": "Analgésico combinado",
+    "principio_activo": "Dextropropoxifeno y Tramadol",
+    "descripcion": "Medicamento utilizado para el alivio del dolor moderado a severo, que combina dos analgésicos: dextropropoxifeno y tramadol.",
+    "image_url": "/uploads/products/dextrium_plus_75mg25mg_caja_x_10_dextram.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.95,
+        "price": 18.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-FEDC5A2274CE"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:08.976102",
+    "updated_at": "2026-04-20T08:01:08.976102"
+  },
+  {
+    "_id": "diclofenaco_gotas_de_15_ml",
+    "name": "DICLOFENACO GOTAS DE 15 ML",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Diclofenaco",
+    "descripcion": "Diclofenaco en gotas de 15 ml, utilizado para aliviar el dolor y reducir la inflamación en diversas condiciones musculoesqueléticas y articulares.",
+    "image_url": "/uploads/products/diclofenaco_gotas_de_15_ml.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.09,
+        "price": 20.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-AA57A375D33C"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:11.862179",
+    "updated_at": "2026-04-20T08:01:11.863150"
+  },
+  {
+    "_id": "dolo_glucoflex_caja_x_15_sobres",
+    "name": "DOLO GLUCOFLEX CAJA X 15 SOBRES",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Glucosamina, Condroitina",
+    "descripcion": "Producto diseñado para el alivio del dolor articular y la mejora de la movilidad, contiene glucosamina y condroitina que ayudan a mantener la salud del cartílago.",
+    "image_url": "/uploads/products/dolo_glucoflex_caja_x_15_sobres.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.74,
+        "price": 17.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-E53EF2098A92"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:14.809544",
+    "updated_at": "2026-04-20T08:01:14.809544"
+  },
+  {
+    "_id": "donadax_caja_x_10_tabs",
+    "name": "DONADAX CAJA X 10 TABS",
+    "category": "Antiinflamatorio y analgésico",
+    "principio_activo": "Nimesulida",
+    "descripcion": "DONADAX es un medicamento antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la inflamación en diversas condiciones como artritis, dolor muscular y dolor postoperatorio.",
+    "image_url": "/uploads/products/donadax_caja_x_10_tabs.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.68,
+        "price": 9.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-990AF5F048FC"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:18.042216",
+    "updated_at": "2026-04-20T08:01:18.042216"
+  },
+  {
+    "_id": "esogastric_10_mg_caja_x__15_sobres",
+    "name": "ESOGASTRIC 10 MG CAJA X  15 SOBRES",
+    "category": "Inhibidores de la bomba de protones",
+    "principio_activo": "Esomeprazol",
+    "descripcion": "ESOGASTRIC 10 MG es un medicamento utilizado para reducir la producción de ácido en el estómago, indicado para el tratamiento de enfermedades relacionadas con el exceso de ácido gástrico, como la enfermedad por reflujo gastroesofágico y úlceras gástricas.",
+    "image_url": "/uploads/products/esogastric_10_mg_caja_x__15_sobres.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.0,
+        "price": 19.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-EF1F2EA4933F"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:21.392690",
+    "updated_at": "2026-04-20T08:01:21.392690"
+  },
+  {
+    "_id": "famoxide_40_mg_caja_de_10_comprimidos",
+    "name": "FAMOXIDE 40 MG CAJA DE 10 COMPRIMIDOS",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina",
+    "descripcion": "FAMOXIDE 40 MG es un medicamento en forma de comprimidos que contiene amoxicilina, un antibiótico utilizado para tratar infecciones bacterianas.",
+    "image_url": "/uploads/products/famoxide_40_mg_caja_de_10_comprimidos.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.43,
+        "price": 4.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-1A49AEFE077A"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:25.098360",
+    "updated_at": "2026-04-20T08:01:25.098360"
+  },
+  {
+    "_id": "fenitoina_sod_100mg_caja_x__100_caps_blist_x_10",
+    "name": "FENITOINA SOD 100MG CAJA X  100 CAPS BLIST X 10",
+    "category": "Antiepiléptico",
+    "principio_activo": "Fenitoína sódica",
+    "descripcion": "Medicamento utilizado para el control de crisis epilépticas, presentado en cápsulas de 100 mg, caja con 100 cápsulas en blíster de 10 unidades.",
+    "image_url": "/uploads/products/fenitoina_sod_100mg_caja_x__100_caps_blist_x_10.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.86,
+        "price": 10.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-850647ABCA22"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:27.698913",
+    "updated_at": "2026-04-20T08:01:27.698913"
+  },
+  {
+    "_id": "ferkel_f800_caja_x_30_caps_blist_x_5",
+    "name": "FERKEL F-800 CAJA X 30 CAPS BLIST X 5",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Ferrochel (Hierro bisglicinato)",
+    "descripcion": "FERKEL F-800 es un suplemento de hierro en cápsulas, diseñado para prevenir y tratar la deficiencia de hierro y la anemia ferropénica.",
+    "image_url": "/uploads/products/ferkel_f800_caja_x_30_caps_blist_x_5.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 33.35,
+        "price": 51.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-97A7F2B834AA"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:31.932349",
+    "updated_at": "2026-04-20T08:01:31.932349"
+  },
+  {
+    "_id": "irs_gotas_de_20_ml",
+    "name": "IRS GOTAS DE 20 ML",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Yodopovidona",
+    "descripcion": "IRS GOTAS DE 20 ML es una solución antiséptica utilizada para la desinfección de heridas, cortes y quemaduras menores, ayudando a prevenir infecciones.",
+    "image_url": "/uploads/products/irs_gotas_de_20_ml.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 47.75,
+        "price": 75.0,
+        "profit_percent": 0.36,
+        "sku": "SKU-99CBD84F09B6"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:35.267607",
+    "updated_at": "2026-04-20T08:01:35.267607"
+  },
+  {
+    "_id": "irs_jarabe_de_120_ml",
+    "name": "IRS JARABE DE 120 ML",
+    "category": "Jarabe",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico en forma de jarabe con un volumen de 120 ml. La composición específica del principio activo no está indicada en el nombre del producto.",
+    "image_url": "/uploads/products/irs_jarabe_de_120_ml.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 48.89,
+        "price": 75.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-A3C43B994D04"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:38.354036",
+    "updated_at": "2026-04-20T08:01:38.354036"
+  },
+  {
+    "_id": "irs_tabelta_blist_x_10_caja_x_20",
+    "name": "IRS TABELTA BLIST X 10 CAJA X 20",
+    "category": "Medicamento",
+    "principio_activo": "IRS",
+    "descripcion": "Caja con 20 blísteres, cada uno con 10 tabletas del producto farmacéutico IRS.",
+    "image_url": "/uploads/products/irs_tabelta_blist_x_10_caja_x_20.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.44,
+        "price": 3.75,
+        "profit_percent": 0.35,
+        "sku": "SKU-994B70C1CEBF"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:41.823208",
+    "updated_at": "2026-04-20T08:01:41.823208"
+  },
+  {
+    "_id": "lansoprazol_30_mg_blist_x_10_caja_x_50___infasa",
+    "name": "LANSOPRAZOL 30 MG BLIST X 10 CAJA X 50   INFASA",
+    "category": "Inhibidor de la bomba de protones",
+    "principio_activo": "Lansoprazol",
+    "descripcion": "Lansoprazol 30 mg en blíster de 10 unidades, caja con 50 blísteres. Utilizado para reducir la producción de ácido gástrico en el tratamiento de úlceras gástricas, reflujo gastroesofágico y otras condiciones relacionadas con el exceso de ácido.",
+    "image_url": "/uploads/products/lansoprazol_30_mg_blist_x_10_caja_x_50___infasa.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.79,
+        "price": 19.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-0B90AA57D145"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:45.705348",
+    "updated_at": "2026-04-20T08:01:45.705348"
+  },
+  {
+    "_id": "loratadina_10_mg_blist_x_10_caja_x_100",
+    "name": "LORATADINA 10 MG BLIST X 10 CAJA X 100",
+    "category": "Antihistamínico",
+    "principio_activo": "Loratadina",
+    "descripcion": "Loratadina 10 mg en blíster de 10 tabletas, caja con 100 unidades. Utilizado para aliviar síntomas de alergias como rinitis alérgica y urticaria.",
+    "image_url": "/uploads/products/loratadina_10_mg_blist_x_10_caja_x_100.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.62,
+        "price": 6.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-5E936D0A9982"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:49.066715",
+    "updated_at": "2026-04-20T08:01:49.066715"
+  },
+  {
+    "_id": "metfoglib_5005mg_blist_x_10_caja_x_100_infasa",
+    "name": "METFO+GLIB 500/5MG BLIST X 10 CAJA X 100 INFASA",
+    "category": "Antidiabético",
+    "principio_activo": "Metformina + Glibenclamida",
+    "descripcion": "Combinación de metformina 500 mg y glibenclamida 5 mg en tabletas, utilizada para el tratamiento de la diabetes mellitus tipo 2. Presentación en blíster de 10 tabletas, caja con 100 unidades.",
+    "image_url": "/uploads/products/metfoglib_5005mg_blist_x_10_caja_x_100_infasa.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.43,
+        "price": 9.0,
+        "profit_percent": 0.51,
+        "sku": "SKU-A6B4A95C43F8"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:52.404279",
+    "updated_at": "2026-04-20T08:01:52.404279"
+  },
+  {
+    "_id": "metfoglib_8505mg_blist_x_10_caja_x_100_infasa",
+    "name": "METFO+GLIB 850/5MG BLIST X 10 CAJA X 100 INFASA",
+    "category": "Antidiabético",
+    "principio_activo": "Metformina + Glibenclamida",
+    "descripcion": "Medicamento combinado utilizado para el tratamiento de la diabetes mellitus tipo 2, que contiene metformina 850 mg y glibenclamida 5 mg en tabletas, presentadas en blíster de 10 unidades, caja con 100 tabletas.",
+    "image_url": "/uploads/products/metfoglib_8505mg_blist_x_10_caja_x_100_infasa.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.86,
+        "price": 9.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-A35DA0644843"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:55.531588",
+    "updated_at": "2026-04-20T08:01:55.531588"
+  },
+  {
+    "_id": "metformina_1g_blist_x10_tab_caja_x_100_infasa",
+    "name": "METFORMINA 1G BLIST X10 TAB CAJA X 100 INFASA",
+    "category": "Antidiabético",
+    "principio_activo": "Metformina",
+    "descripcion": "Medicamento utilizado para el tratamiento de la diabetes tipo 2, ayuda a controlar los niveles de glucosa en sangre.",
+    "image_url": "/uploads/products/metformina_1g_blist_x10_tab_caja_x_100_infasa.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.66,
+        "price": 10.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-4455098790A5"
+      }
+    ],
+    "created_at": "2026-04-20T08:01:58.780903",
+    "updated_at": "2026-04-20T08:01:58.780903"
+  },
+  {
+    "_id": "metocarban_ac_500_mg_blist_x_10_caja_x_30_tab",
+    "name": "METOCARBAN AC 500 MG BLIST X 10 CAJA X 30 TAB",
+    "category": "Antibiótico",
+    "principio_activo": "Metocarbamol",
+    "descripcion": "Medicamento utilizado como relajante muscular para aliviar el dolor y la rigidez muscular.",
+    "image_url": "/uploads/products/metocarban_ac_500_mg_blist_x_10_caja_x_30_tab.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.6,
+        "price": 4.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-A4A084433DAB"
+      }
+    ],
+    "created_at": "2026-04-20T08:02:01.667113",
+    "updated_at": "2026-04-20T08:02:01.667113"
+  },
+  {
+    "_id": "neurofortan_blister_x_5_caja_x_60",
+    "name": "NEUROFORTAN BLISTER X 5 CAJA X 60",
+    "category": "Suplemento neurológico",
+    "principio_activo": "Vitaminas del complejo B",
+    "descripcion": "NEUROFORTAN es un suplemento vitamínico que contiene vitaminas del complejo B, utilizado para el mantenimiento y recuperación de la salud neurológica. Se presenta en blísteres de 5 unidades, con una caja que contiene 60 blísteres.",
+    "image_url": "/uploads/products/neurofortan_blister_x_5_caja_x_60.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.63,
+        "price": 6.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-16DACA2C74DF"
+      }
+    ],
+    "created_at": "2026-04-20T08:02:05.094766",
+    "updated_at": "2026-04-20T08:02:05.094766"
+  },
+  {
+    "_id": "nutrison_jbe_niños_240_ml",
+    "name": "NUTRISON JBE NIÑOS 240 ML",
+    "category": "Nutrición enteral",
+    "principio_activo": "Nutrientes variados (proteínas, carbohidratos, grasas, vitaminas y minerales)",
+    "descripcion": "NUTRISON JBE NIÑOS 240 ML es un suplemento nutricional en forma de jarabe diseñado para niños, que proporciona una fuente equilibrada de nutrientes esenciales para apoyar el crecimiento y desarrollo en casos de desnutrición o necesidades nutricionales aumentadas.",
+    "image_url": "/uploads/products/nutrison_jbe_niños_240_ml.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 32.25,
+        "price": 55.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-7DD844E40EA9"
+      }
+    ],
+    "created_at": "2026-04-20T08:02:08.403387",
+    "updated_at": "2026-04-20T08:02:08.403387"
+  },
+  {
+    "_id": "osmopeg_polvo_caja_x_15_sobres",
+    "name": "OSMOPEG POLVO CAJA X 15 SOBRES",
+    "category": "Laxantes osmóticos",
+    "principio_activo": "Polietilenglicol",
+    "descripcion": "OSMOPEG es un laxante osmótico en polvo que se presenta en sobres, utilizado para el tratamiento del estreñimiento ocasional y para la preparación intestinal antes de procedimientos médicos.",
+    "image_url": "/uploads/products/osmopeg_polvo_caja_x_15_sobres.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.1,
+        "price": 24.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-53C3129BF46E"
+      }
+    ],
+    "created_at": "2026-04-20T08:02:11.436219",
+    "updated_at": "2026-04-20T08:02:11.436219"
+  },
+  {
+    "_id": "pasinerva_caja_x_30_caps_blister_x_5",
+    "name": "PASINERVA CAJA X 30 CAPS BLISTER X 5",
+    "category": "Suplemento nutricional",
+    "principio_activo": "Vitaminas del complejo B",
+    "descripcion": "PASINERVA es un suplemento vitamínico que contiene vitaminas del complejo B, utilizado para el tratamiento de deficiencias vitamínicas y para mejorar la función nerviosa.",
+    "image_url": "/uploads/products/pasinerva_caja_x_30_caps_blister_x_5.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.0,
+        "price": 2.2,
+        "profit_percent": 0.55,
+        "sku": "SKU-71D354EFE188"
+      }
+    ],
+    "created_at": "2026-04-20T08:02:14.381591",
+    "updated_at": "2026-04-20T08:02:14.381591"
+  },
+  {
+    "_id": "paverin_compuesto_caja_x_20_tab_blist_x_5",
+    "name": "PAVERIN COMPUESTO CAJA X 20 TAB BLIST X 5",
+    "category": "Antiespasmódico",
+    "principio_activo": "Clorhidrato de papaverina y cafeína",
+    "descripcion": "Paverin Compuesto es un medicamento antiespasmódico utilizado para aliviar espasmos musculares en el tracto gastrointestinal, biliar y genitourinario. Se presenta en caja con 20 tabletas, distribuidas en blísteres de 5 unidades.",
+    "image_url": "/uploads/products/paverin_compuesto_caja_x_20_tab_blist_x_5.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.64,
+        "price": 2.8,
+        "profit_percent": 0.41,
+        "sku": "SKU-A96A77FC08FB"
+      }
+    ],
+    "created_at": "2026-04-20T08:02:17.894501",
+    "updated_at": "2026-04-20T08:02:17.894501"
+  },
+  {
+    "_id": "pirex_100_mgs_dispensador_x_12_caja_x_2_tab",
+    "name": "PIREX 100 MGS DISPENSADOR X 12 CAJA X 2 TAB",
+    "category": "Antipirético y analgésico",
+    "principio_activo": "Paracetamol",
+    "descripcion": "PIREX 100 MGS es un medicamento en forma de tabletas, presentado en un dispensador con 12 unidades por caja, utilizado para aliviar el dolor y reducir la fiebre.",
+    "image_url": "/uploads/products/pirex_100_mgs_dispensador_x_12_caja_x_2_tab.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.0,
+        "price": 12.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-783DF6652997"
+      }
+    ],
+    "created_at": "2026-04-20T08:02:20.930598",
+    "updated_at": "2026-04-20T08:02:20.930598"
+  },
+  {
+    "_id": "vintax_6_mgs_caja_x_2_tab",
+    "name": "VINTAX 6 MGS CAJA X 2 TAB",
+    "category": "Antidepresivo",
+    "principio_activo": "Venlafaxina",
+    "descripcion": "VINTAX 6 MGS CAJA X 2 TAB es un medicamento que contiene venlafaxina, utilizado principalmente para el tratamiento de la depresión y trastornos de ansiedad.",
+    "image_url": "/uploads/products/vintax_6_mgs_caja_x_2_tab.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 23.75,
+        "price": 40.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-013E2E8F7324"
+      }
+    ],
+    "created_at": "2026-04-20T08:02:23.885029",
+    "updated_at": "2026-04-20T08:02:23.885029"
+  },
+  {
+    "_id": "vitaminas_prenatales_x_100_blist_x_10",
+    "name": "VITAMINAS PRENATALES X 100 BLIST X 10",
+    "category": "Suplementos vitamínicos",
+    "principio_activo": "Vitaminas prenatales",
+    "descripcion": "Suplemento vitamínico diseñado para mujeres embarazadas que contiene una combinación de vitaminas esenciales para apoyar la salud materna y el desarrollo fetal.",
+    "image_url": "/uploads/products/vitaminas_prenatales_x_100_blist_x_10.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.94,
+        "price": 5.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-44156085FD9B"
+      }
+    ],
+    "created_at": "2026-04-20T08:02:27.014083",
+    "updated_at": "2026-04-20T08:02:27.014083"
+  },
+  {
+    "_id": "zinc_20_mg_kipp_b_x_10_tab_caja_x_30",
+    "name": "ZINC 20 MG KIPP B X 10 TAB CAJA X 30",
+    "category": "Suplemento mineral",
+    "principio_activo": "Zinc",
+    "descripcion": "Suplemento de zinc en tabletas de 20 mg, presentadas en cajas con 30 tabletas, para uso oral.",
+    "image_url": "/uploads/products/zinc_20_mg_kipp_b_x_10_tab_caja_x_30.jpg",
+    "supplier": "INFASA",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.98,
+        "price": 20.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-F2FABB75DB18"
+      }
+    ],
+    "created_at": "2026-04-20T08:02:29.618498",
+    "updated_at": "2026-04-20T08:02:29.618498"
+  }
+]

@@ -1,0 +1,2501 @@
+[
+  {
+    "_id": "aceite_de_higado_x_100_siete_mares",
+    "name": "ACEITE DE HIGADO X 100 SIETE MARES",
+    "category": "Suplemento nutricional",
+    "principio_activo": "Aceite de hígado de bacalao",
+    "descripcion": "Producto a base de aceite de hígado de bacalao, utilizado como suplemento nutricional para aportar vitaminas A y D, así como ácidos grasos omega-3.",
+    "image_url": "/uploads/products/aceite_de_higado_x_100_siete_mares.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 24.0,
+        "price": 37.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-525B0795D984"
+      }
+    ],
+    "created_at": "2026-04-20T06:51:47.496259",
+    "updated_at": "2026-04-20T06:51:47.501259"
+  },
+  {
+    "_id": "aguja_18g_x_112_rosada",
+    "name": "AGUJA 18G X 1-1/2 ROSADA",
+    "category": "Material de curación",
+    "principio_activo": null,
+    "descripcion": "Aguja hipodérmica de calibre 18G y longitud 1-1/2 pulgadas, color rosada, utilizada para inyecciones o extracciones.",
+    "image_url": "/uploads/products/aguja_18g_x_112_rosada.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.28,
+        "price": 0.5,
+        "profit_percent": 0.44,
+        "sku": "SKU-3A7D3E2F6F1E"
+      }
+    ],
+    "created_at": "2026-04-20T06:51:50.733447",
+    "updated_at": "2026-04-20T06:51:50.733447"
+  },
+  {
+    "_id": "aguja_21g_x_1_x_12_verde",
+    "name": "AGUJA 21G X 1 X 1/2 VERDE",
+    "category": "Material de curación",
+    "principio_activo": "N/A",
+    "descripcion": "Aguja hipodérmica de calibre 21G, longitud 1 pulgada y 1/2, color verde, utilizada para inyecciones y extracciones.",
+    "image_url": "/uploads/products/aguja_21g_x_1_x_12_verde.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.23,
+        "price": 0.5,
+        "profit_percent": 0.54,
+        "sku": "SKU-E97A6E79B398"
+      }
+    ],
+    "created_at": "2026-04-20T06:51:53.407058",
+    "updated_at": "2026-04-20T06:51:53.407058"
+  },
+  {
+    "_id": "aguja_23g_x_1___azul_nipro_ped",
+    "name": "AGUJA 23G X 1\"   AZUL (NIPRO) PED",
+    "category": "Material de curación",
+    "principio_activo": "N/A",
+    "descripcion": "Aguja hipodérmica de calibre 23G y longitud 1 pulgada, color azul, marca Nipro, diseñada para uso pediátrico.",
+    "image_url": "/uploads/products/aguja_23g_x_1___azul_nipro_ped.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.2,
+        "price": 0.5,
+        "profit_percent": 0.61,
+        "sku": "SKU-82E425E87424"
+      }
+    ],
+    "created_at": "2026-04-20T06:51:56.402730",
+    "updated_at": "2026-04-20T06:51:56.402730"
+  },
+  {
+    "_id": "aguja_23g_x_112_celeste_nipro",
+    "name": "AGUJA 23G X 1-1/2\" CELESTE (NIPRO)",
+    "category": "Material de inyección",
+    "principio_activo": "",
+    "descripcion": "Aguja hipodérmica calibre 23G de 1-1/2 pulgadas de longitud, color celeste, fabricada por Nipro, utilizada para inyecciones y extracciones de líquidos.",
+    "image_url": "/uploads/products/aguja_23g_x_112_celeste_nipro.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.31,
+        "price": 0.5,
+        "profit_percent": 0.38,
+        "sku": "SKU-E7DC0911DF2D"
+      }
+    ],
+    "created_at": "2026-04-20T06:51:59.333055",
+    "updated_at": "2026-04-20T06:51:59.333055"
+  },
+  {
+    "_id": "aleve_extra_fuerte_x_36_tab",
+    "name": "ALEVE EXTRA FUERTE X 36 TAB",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Naproxeno",
+    "descripcion": "ALEVE EXTRA FUERTE X 36 TAB es un medicamento antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la inflamación en condiciones como dolores musculares, artritis, dolor menstrual y otros tipos de dolor agudo o crónico.",
+    "image_url": "/uploads/products/aleve_extra_fuerte_x_36_tab.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.2,
+        "price": 2.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-D9408781B3FD"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:02.518787",
+    "updated_at": "2026-04-20T06:52:02.518787"
+  },
+  {
+    "_id": "algodón_2_grs_bolsa_x_25_vesa",
+    "name": "ALGODÓN 2 GRS BOLSA X 25 VESA",
+    "category": "Material de curación",
+    "principio_activo": "Algodón",
+    "descripcion": "Bolsa con 25 unidades de algodón de 2 gramos cada una, utilizado para limpieza y cuidado de heridas.",
+    "image_url": "/uploads/products/algodón_2_grs_bolsa_x_25_vesa.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.37,
+        "price": 1.0,
+        "profit_percent": 0.63,
+        "sku": "SKU-F4F21A51A9A8"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:05.168658",
+    "updated_at": "2026-04-20T06:52:05.168658"
+  },
+  {
+    "_id": "alka_gastric_blist_x_6_disp_x_36_tab",
+    "name": "ALKA GASTRIC BLIST X 6 DISP. X 36 TAB",
+    "category": "Antiácido",
+    "principio_activo": "Almagato",
+    "descripcion": "ALKA GASTRIC es un antiácido utilizado para aliviar la acidez estomacal, la indigestión y el malestar gástrico. Contiene almagato, que neutraliza el exceso de ácido en el estómago y protege la mucosa gástrica.",
+    "image_url": "/uploads/products/alka_gastric_blist_x_6_disp_x_36_tab.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.03,
+        "price": 3.5,
+        "profit_percent": 0.42,
+        "sku": "SKU-1CE1CC11DBEE"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:08.422375",
+    "updated_at": "2026-04-20T06:52:08.422375"
+  },
+  {
+    "_id": "anestenca_tubo_x_5_ml",
+    "name": "ANESTENCA TUBO X 5 ML",
+    "category": "Anestésico local",
+    "principio_activo": "Lidocaína",
+    "descripcion": "ANESTENCA TUBO X 5 ML es un anestésico local utilizado para bloquear la conducción nerviosa y proporcionar alivio temporal del dolor en procedimientos médicos y dentales.",
+    "image_url": "/uploads/products/anestenca_tubo_x_5_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.96,
+        "price": 32.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-4727D8A0A5CA"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:11.624484",
+    "updated_at": "2026-04-20T06:52:11.624484"
+  },
+  {
+    "_id": "anestevil_gotas_5_ml_anestesico_local",
+    "name": "ANESTEVIL GOTAS 5 ML (ANESTESICO LOCAL)",
+    "category": "Anestésico local",
+    "principio_activo": "Lidocaína",
+    "descripcion": "ANESTEVIL GOTAS 5 ML es un anestésico local utilizado para aliviar el dolor y la sensibilidad en áreas específicas mediante la aplicación tópica.",
+    "image_url": "/uploads/products/anestevil_gotas_5_ml_anestesico_local.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.4,
+        "price": 22.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-AE4437FB37ED"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:14.453773",
+    "updated_at": "2026-04-20T06:52:14.453773"
+  },
+  {
+    "_id": "anestil_5_ml_x_12_tubos",
+    "name": "ANESTIL 5 ML X 12 TUBOS",
+    "category": "Anestésico local",
+    "principio_activo": "Lidocaína",
+    "descripcion": "ANESTIL es un anestésico local utilizado para bloquear la conducción nerviosa y proporcionar anestesia en procedimientos médicos y dentales. Presentado en tubos de 5 ml, paquete con 12 unidades.",
+    "image_url": "/uploads/products/anestil_5_ml_x_12_tubos.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 21.0,
+        "price": 35.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-49DB73EB7353"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:17.214113",
+    "updated_at": "2026-04-20T06:52:17.214113"
+  },
+  {
+    "_id": "angiocat__16",
+    "name": "ANGIOCAT # 16",
+    "category": "Medicamento cardiovascular",
+    "principio_activo": "No especificado",
+    "descripcion": "ANGIOCAT # 16 es un producto farmacéutico utilizado en el tratamiento de enfermedades cardiovasculares. La información específica sobre su principio activo no está disponible.",
+    "image_url": "/uploads/products/angiocat__16.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.1,
+        "price": 10.0,
+        "profit_percent": 0.59,
+        "sku": "SKU-09FD7275F059"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:19.961603",
+    "updated_at": "2026-04-20T06:52:19.961603"
+  },
+  {
+    "_id": "apositos_para_cayos_hansaplast__x_6",
+    "name": "APOSITOS PARA CAYOS HANSAPLAST  X 6",
+    "category": "Cuidado de la piel",
+    "principio_activo": "No aplica",
+    "descripcion": "Apósitos diseñados para aliviar y proteger los callos, proporcionando comodidad y facilitando la curación.",
+    "image_url": "/uploads/products/apositos_para_cayos_hansaplast__x_6.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.33,
+        "price": 8.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-B6CF6353D83E"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:22.461798",
+    "updated_at": "2026-04-20T06:52:22.461798"
+  },
+  {
+    "_id": "aquamar_fco_50_ml_spray_nasal",
+    "name": "AQUAMAR FCO 50 ML SPRAY NASAL",
+    "category": "Spray nasal",
+    "principio_activo": "Agua de mar isotónica",
+    "descripcion": "Solución salina isotónica en spray para la limpieza y humidificación de las fosas nasales.",
+    "image_url": "/uploads/products/aquamar_fco_50_ml_spray_nasal.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 66.6,
+        "price": 110.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-7EAEB67B5628"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:25.520068",
+    "updated_at": "2026-04-20T06:52:25.520068"
+  },
+  {
+    "_id": "aspirador_nasal_gerber",
+    "name": "ASPIRADOR NASAL GERBER",
+    "category": "Dispositivo médico",
+    "principio_activo": "N/A",
+    "descripcion": "Dispositivo diseñado para aspirar y eliminar secreciones nasales en bebés y niños pequeños, facilitando la respiración.",
+    "image_url": "/uploads/products/aspirador_nasal_gerber.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.58,
+        "price": 33.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-84F65E0084D8"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:28.007438",
+    "updated_at": "2026-04-20T06:52:28.007438"
+  },
+  {
+    "_id": "aspirina_adulto_blist_x_10_caja_x_100",
+    "name": "ASPIRINA ADULTO BLIST X 10 CAJA X 100",
+    "category": "Analgésicos y antipiréticos",
+    "principio_activo": "Ácido acetilsalicílico",
+    "descripcion": "Aspirina adulto en presentación de blíster con 10 tabletas, caja con 100 unidades. Utilizado para aliviar el dolor, reducir la fiebre y como antiinflamatorio.",
+    "image_url": "/uploads/products/aspirina_adulto_blist_x_10_caja_x_100.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.71,
+        "price": 1.2,
+        "profit_percent": 0.41,
+        "sku": "SKU-75E79DCA267D"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:30.802961",
+    "updated_at": "2026-04-20T06:52:30.802961"
+  },
+  {
+    "_id": "aspirina_forte_caja_x_100_blist_x_10",
+    "name": "ASPIRINA FORTE CAJA X 100 BLIST X 10",
+    "category": "Analgésicos y antipiréticos",
+    "principio_activo": "Ácido acetilsalicílico",
+    "descripcion": "Aspirina Forte es un medicamento utilizado para aliviar el dolor, reducir la inflamación y bajar la fiebre. Presentado en caja con 100 tabletas divididas en 10 blísteres.",
+    "image_url": "/uploads/products/aspirina_forte_caja_x_100_blist_x_10.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.82,
+        "price": 1.2,
+        "profit_percent": 0.32,
+        "sku": "SKU-576D24CF283D"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:33.533036",
+    "updated_at": "2026-04-20T06:52:33.533036"
+  },
+  {
+    "_id": "aspirina_niños_blist_x_10_caja_x_100",
+    "name": "ASPIRINA NIÑOS BLIST X 10 CAJA X 100",
+    "category": "Analgésicos y antipiréticos",
+    "principio_activo": "Ácido acetilsalicílico",
+    "descripcion": "Aspirina en presentación para niños, en blíster de 10 unidades, caja con 100 comprimidos. Utilizada para aliviar el dolor y reducir la fiebre.",
+    "image_url": "/uploads/products/aspirina_niños_blist_x_10_caja_x_100.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.7,
+        "price": 1.2,
+        "profit_percent": 0.42,
+        "sku": "SKU-DA69DEFD9948"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:36.414538",
+    "updated_at": "2026-04-20T06:52:36.414538"
+  },
+  {
+    "_id": "ballena_azul_200_ml",
+    "name": "BALLENA AZUL 200 ml",
+    "category": "Desconocida",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico denominado 'BALLENA AZUL 200 ml'. No se dispone de información adicional sobre su categoría, principio activo o indicaciones.",
+    "image_url": "/uploads/products/ballena_azul_200_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 33.9,
+        "price": 51.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-219EB17ABC6B"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:39.659598",
+    "updated_at": "2026-04-20T06:52:39.660598"
+  },
+  {
+    "_id": "balsamico_gms_12_grs",
+    "name": "BALSAMICO GMS 12 GRS",
+    "category": "Ungüento / Bálsamo",
+    "principio_activo": "Mentol, alcanfor y otros ingredientes tópicos",
+    "descripcion": "Bálsamo tópico utilizado para aliviar dolores musculares, congestión nasal y molestias respiratorias. Se aplica sobre la piel para proporcionar una sensación de frescor y alivio.",
+    "image_url": "/uploads/products/balsamico_gms_12_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.75,
+        "price": 12.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-425838979668"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:42.402408",
+    "updated_at": "2026-04-20T06:52:42.402408"
+  },
+  {
+    "_id": "baykid_dolor_y_fiebre_caja_x_36_blist_x_12_tab",
+    "name": "BAYKID DOLOR Y FIEBRE CAJA X 36 BLIST X 12 TAB",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Paracetamol",
+    "descripcion": "Producto farmacéutico utilizado para aliviar el dolor y reducir la fiebre. Presentado en caja con 36 blísteres, cada uno con 12 tabletas.",
+    "image_url": "/uploads/products/baykid_dolor_y_fiebre_caja_x_36_blist_x_12_tab.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.05,
+        "price": 1.83,
+        "profit_percent": 0.43,
+        "sku": "SKU-0D25B70C8F4D"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:44.915562",
+    "updated_at": "2026-04-20T06:52:44.915562"
+  },
+  {
+    "_id": "bep0anthene_pomada_30_grs",
+    "name": "BEP0ANTHENE POMADA 30 GRS",
+    "category": "Pomada dermatológica",
+    "principio_activo": "Dexpantenol",
+    "descripcion": "Pomada tópica utilizada para la reparación y protección de la piel, favoreciendo la cicatrización de heridas, quemaduras y otras lesiones cutáneas.",
+    "image_url": "/uploads/products/bep0anthene_pomada_30_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 50.46,
+        "price": 78.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-FA34AB592903"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:47.508982",
+    "updated_at": "2026-04-20T06:52:47.508982"
+  },
+  {
+    "_id": "bephanthene_crema_5_30g_quemaduras",
+    "name": "BEPHANTHENE CREMA 5% 30G QUEMADURAS",
+    "category": "Cremas para quemaduras",
+    "principio_activo": "Dexpantenol",
+    "descripcion": "Crema tópica al 5% indicada para el tratamiento y cuidado de quemaduras, favoreciendo la regeneración de la piel y aliviando el dolor.",
+    "image_url": "/uploads/products/bephanthene_crema_5_30g_quemaduras.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 55.18,
+        "price": 81.0,
+        "profit_percent": 0.32,
+        "sku": "SKU-E7E6B0660A1F"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:51.064402",
+    "updated_at": "2026-04-20T06:52:51.064402"
+  },
+  {
+    "_id": "bicarbonato__x_25_sobres_de_10_grs_vesa",
+    "name": "BICARBONATO  X 25 SOBRES DE 10 GRS VESA",
+    "category": "Antiácido",
+    "principio_activo": "Bicarbonato de sodio",
+    "descripcion": "Producto farmacéutico en sobres de 10 gramos que contiene bicarbonato de sodio, utilizado para neutralizar la acidez estomacal y aliviar la indigestión.",
+    "image_url": "/uploads/products/bicarbonato__x_25_sobres_de_10_grs_vesa.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.23,
+        "price": 0.5,
+        "profit_percent": 0.54,
+        "sku": "SKU-5A801EFC1435"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:54.116658",
+    "updated_at": "2026-04-20T06:52:54.116658"
+  },
+  {
+    "_id": "bicarbonato_x_1_libra_disfavil",
+    "name": "BICARBONATO X 1 LIBRA DISFAVIL",
+    "category": "Antiácido",
+    "principio_activo": "Bicarbonato de sodio",
+    "descripcion": "Producto utilizado para neutralizar el exceso de ácido en el estómago, aliviando la acidez y la indigestión.",
+    "image_url": "/uploads/products/bicarbonato_x_1_libra_disfavil.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.92,
+        "price": 15.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-AE6C80CCCBF7"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:56.889849",
+    "updated_at": "2026-04-20T06:52:56.889849"
+  },
+  {
+    "_id": "bicarbonato_x_16_sobres_de_28_grs_disfavil",
+    "name": "BICARBONATO X 16 SOBRES DE 28 GRS DISFAVIL",
+    "category": "Antiácidos",
+    "principio_activo": "Bicarbonato de sodio",
+    "descripcion": "Producto farmacéutico en sobres de 28 gramos que contiene bicarbonato de sodio, utilizado para aliviar la acidez estomacal y la indigestión.",
+    "image_url": "/uploads/products/bicarbonato_x_16_sobres_de_28_grs_disfavil.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.61,
+        "price": 1.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-347DFAD19296"
+      }
+    ],
+    "created_at": "2026-04-20T06:52:59.795596",
+    "updated_at": "2026-04-20T06:52:59.795596"
+  },
+  {
+    "_id": "bolsa_de_algodón_160_bolitas_superior",
+    "name": "BOLSA DE ALGODÓN 160 BOLITAS SUPERIOR",
+    "category": "Material de curación",
+    "principio_activo": "Ninguno",
+    "descripcion": "Bolsa de algodón con 160 bolitas, utilizada para limpieza y cuidado de heridas o aplicaciones médicas.",
+    "image_url": "/uploads/products/bolsa_de_algodón_160_bolitas_superior.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.75,
+        "price": 16.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-57691DBAAAE7"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:02.304604",
+    "updated_at": "2026-04-20T06:53:02.304604"
+  },
+  {
+    "_id": "calcio_vitaminado_ampolla",
+    "name": "CALCIO VITAMINADO AMPOLLA",
+    "category": "Suplemento mineral y vitamínico",
+    "principio_activo": "Calcio y vitaminas",
+    "descripcion": "Producto farmacéutico en forma de ampolla que combina calcio con vitaminas para apoyar la salud ósea y el metabolismo.",
+    "image_url": "/uploads/products/calcio_vitaminado_ampolla.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.17,
+        "price": 20.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-E9ABD7288F10"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:04.887684",
+    "updated_at": "2026-04-20T06:53:04.887684"
+  },
+  {
+    "_id": "callofin_pomada_12_grs",
+    "name": "CALLOFIN POMADA 12 GRS",
+    "category": "Pomada dermatológica",
+    "principio_activo": "Ácido salicílico y otros queratolíticos",
+    "descripcion": "Pomada utilizada para el tratamiento de callos y durezas en la piel, facilitando su eliminación mediante la acción queratolítica.",
+    "image_url": "/uploads/products/callofin_pomada_12_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.92,
+        "price": 7.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-F98EA47AF1AF"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:07.905635",
+    "updated_at": "2026-04-20T06:53:07.905635"
+  },
+  {
+    "_id": "calmante_sobre_bolsa_x_100",
+    "name": "CALMANTE SOBRE BOLSA X 100",
+    "category": "Calmantes y sedantes",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico en presentación de sobre bolsa de 100 unidades, utilizado para aliviar síntomas de ansiedad, estrés o nerviosismo.",
+    "image_url": "/uploads/products/calmante_sobre_bolsa_x_100.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.16,
+        "price": 0.25,
+        "profit_percent": 0.36,
+        "sku": "SKU-05202C01FABF"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:10.646284",
+    "updated_at": "2026-04-20T06:53:10.646284"
+  },
+  {
+    "_id": "canesten_100_mg_x_18_ovulos_vag",
+    "name": "CANESTEN 100 MG X 18 OVULOS VAG",
+    "category": "Antifúngicos",
+    "principio_activo": "Clotrimazol",
+    "descripcion": "Canesten 100 mg x 18 óvulos vaginales es un medicamento antifúngico utilizado para el tratamiento de infecciones vaginales causadas por hongos, especialmente candidiasis vaginal.",
+    "image_url": "/uploads/products/canesten_100_mg_x_18_ovulos_vag.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.25,
+        "price": 20.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-3FDBABA8F9F4"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:13.995611",
+    "updated_at": "2026-04-20T06:53:13.995611"
+  },
+  {
+    "_id": "canesten_triple_accion_15_grs",
+    "name": "CANESTEN TRIPLE ACCION 15 GRS",
+    "category": "Antifúngico tópico",
+    "principio_activo": "Clotrimazol",
+    "descripcion": "CANESTEN TRIPLE ACCION 15 GRS es una crema antifúngica utilizada para tratar infecciones por hongos en la piel, como la tiña, candidiasis y otras micosis superficiales. Su fórmula ayuda a eliminar el hongo causante de la infección y alivia los síntomas asociados como picazón, enrojecimiento y descamación.",
+    "image_url": "/uploads/products/canesten_triple_accion_15_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 51.17,
+        "price": 77.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-97FE9B4D1550"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:17.922250",
+    "updated_at": "2026-04-20T06:53:17.922250"
+  },
+  {
+    "_id": "cardioaspirina_caja_x_48_tab",
+    "name": "CARDIOASPIRINA CAJA X 48 TAB",
+    "category": "Antiplaquetarios",
+    "principio_activo": "Ácido acetilsalicílico",
+    "descripcion": "Medicamento utilizado para prevenir eventos cardiovasculares como infartos y accidentes cerebrovasculares, mediante la inhibición de la agregación plaquetaria.",
+    "image_url": "/uploads/products/cardioaspirina_caja_x_48_tab.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.12,
+        "price": 3.2,
+        "profit_percent": 0.34,
+        "sku": "SKU-2141171D9C86"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:20.558067",
+    "updated_at": "2026-04-20T06:53:20.558067"
+  },
+  {
+    "_id": "cirbral_25_mg_blist_x_20_caja_x_60",
+    "name": "CIRBRAL 25 MG BLIST X 20 CAJA X 60",
+    "category": "Medicamento",
+    "principio_activo": "Cinnarizina",
+    "descripcion": "CIRBRAL 25 MG es un medicamento que contiene 25 mg de cinnarizina por comprimido. Se presenta en blísteres de 20 unidades, con 60 cajas disponibles. Se utiliza principalmente para tratar trastornos del equilibrio y problemas circulatorios en el oído interno.",
+    "image_url": "/uploads/products/cirbral_25_mg_blist_x_20_caja_x_60.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.53,
+        "price": 0.9,
+        "profit_percent": 0.41,
+        "sku": "SKU-3FF067522328"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:23.276109",
+    "updated_at": "2026-04-20T06:53:23.276109"
+  },
+  {
+    "_id": "cirbral_forte_75_mg_blist_x_10_caja_x_30",
+    "name": "CIRBRAL FORTE 75 MG BLIST X 10 CAJA X 30",
+    "category": "Medicamento",
+    "principio_activo": "Cirbral",
+    "descripcion": "CIRBRAL FORTE 75 MG es un medicamento presentado en blíster de 10 unidades, con una caja que contiene 30 blísters. Se utiliza para el tratamiento de condiciones específicas según indicación médica.",
+    "image_url": "/uploads/products/cirbral_forte_75_mg_blist_x_10_caja_x_30.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.79,
+        "price": 2.8,
+        "profit_percent": 0.36,
+        "sku": "SKU-BDA6A993B044"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:26.091234",
+    "updated_at": "2026-04-20T06:53:26.091234"
+  },
+  {
+    "_id": "citrato_de_magnesia_bolsa_x_16_sobres",
+    "name": "CITRATO DE MAGNESIA BOLSA X 16 SOBRES",
+    "category": "Laxantes",
+    "principio_activo": "Citrato de magnesio",
+    "descripcion": "Producto utilizado como laxante osmótico para aliviar el estreñimiento ocasional.",
+    "image_url": "/uploads/products/citrato_de_magnesia_bolsa_x_16_sobres.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.02,
+        "price": 2.5,
+        "profit_percent": 0.59,
+        "sku": "SKU-C9F26336AEFF"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:28.792601",
+    "updated_at": "2026-04-20T06:53:28.792601"
+  },
+  {
+    "_id": "cloprim_01mggotas_15_ml",
+    "name": "CLO-PRIM 0.1MG/GOTAS 15 ML",
+    "category": "Antibiótico",
+    "principio_activo": "Cloranfenicol",
+    "descripcion": "CLO-PRIM 0.1MG/GOTAS 15 ML es un medicamento en forma de gotas oftálmicas que contiene cloranfenicol, un antibiótico utilizado para tratar infecciones bacterianas en los ojos.",
+    "image_url": "/uploads/products/cloprim_01mggotas_15_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 36.07,
+        "price": 55.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-9A42DFE19A47"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:31.632639",
+    "updated_at": "2026-04-20T06:53:31.632639"
+  },
+  {
+    "_id": "cloprim_10mg_blist_x_10_caja_x_40_tabs",
+    "name": "CLO-PRIM 10MG BLIST X 10 CAJA X 40 TABS",
+    "category": "Antibiótico",
+    "principio_activo": "Cloranfenicol",
+    "descripcion": "CLO-PRIM 10MG es un medicamento en tabletas que contiene 10 mg de cloranfenicol por unidad. Se presenta en blísteres de 10 tabletas, con una caja que contiene 40 tabletas en total. Está indicado para el tratamiento de infecciones bacterianas sensibles al cloranfenicol.",
+    "image_url": "/uploads/products/cloprim_10mg_blist_x_10_caja_x_40_tabs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.79,
+        "price": 3.5,
+        "profit_percent": 0.49,
+        "sku": "SKU-B663DAF7B752"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:35.316124",
+    "updated_at": "2026-04-20T06:53:35.316124"
+  },
+  {
+    "_id": "cloprim_5mg5ml_jarabe_120_ml",
+    "name": "CLOPRIM 5MG/5ML JARABE 120 ML",
+    "category": "Jarabe",
+    "principio_activo": "Clopidogrel",
+    "descripcion": "Jarabe de 120 ml con una concentración de 5 mg por 5 ml, utilizado para prevenir eventos trombóticos.",
+    "image_url": "/uploads/products/cloprim_5mg5ml_jarabe_120_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 53.14,
+        "price": 79.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-79E81A274660"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:37.946272",
+    "updated_at": "2026-04-20T06:53:37.946272"
+  },
+  {
+    "_id": "cloprim_caja_x_3_ampollas",
+    "name": "CLOPRIM CAJA X 3 AMPOLLAS",
+    "category": "Antibiótico",
+    "principio_activo": "Clorhidrato de clorpromazina",
+    "descripcion": "CLOPRIM es un medicamento en presentación de caja con 3 ampollas, utilizado principalmente como antipsicótico para el tratamiento de trastornos psiquiátricos y algunas condiciones médicas específicas.",
+    "image_url": "/uploads/products/cloprim_caja_x_3_ampollas.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.38,
+        "price": 19.0,
+        "profit_percent": 0.51,
+        "sku": "SKU-3800B656A152"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:40.779268",
+    "updated_at": "2026-04-20T06:53:40.779268"
+  },
+  {
+    "_id": "coderpina_jbe_60_ml",
+    "name": "CODERPINA JBE 60 ML",
+    "category": "Jarabe antitusivo",
+    "principio_activo": "Codeína",
+    "descripcion": "Jarabe utilizado para aliviar la tos seca y persistente, contiene codeína que actúa como un supresor de la tos.",
+    "image_url": "/uploads/products/coderpina_jbe_60_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 26.04,
+        "price": 41.0,
+        "profit_percent": 0.36,
+        "sku": "SKU-E11DAC7C146B"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:43.253986",
+    "updated_at": "2026-04-20T06:53:43.253986"
+  },
+  {
+    "_id": "coqueluche_fco_120_ml",
+    "name": "COQUELUCHE FCO 120 ML",
+    "category": "Vacuna",
+    "principio_activo": "Bordetella pertussis (vacuna contra la tos ferina)",
+    "descripcion": "Vacuna destinada a la prevención de la tos ferina (coqueluche), administrada en suspensión líquida en frasco de 120 ml.",
+    "image_url": "/uploads/products/coqueluche_fco_120_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 22.82,
+        "price": 39.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-9CE977FAD7B6"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:46.415713",
+    "updated_at": "2026-04-20T06:53:46.415713"
+  },
+  {
+    "_id": "curita_redonda__cureband_caja_x_100",
+    "name": "CURITA REDONDA  CUREBAND CAJA X 100",
+    "category": "Material de curación",
+    "principio_activo": "Ninguno",
+    "descripcion": "Curita redonda de la marca Cureband, utilizada para cubrir y proteger pequeñas heridas o cortes. Presentada en caja con 100 unidades.",
+    "image_url": "/uploads/products/curita_redonda__cureband_caja_x_100.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.11,
+        "price": 0.25,
+        "profit_percent": 0.56,
+        "sku": "SKU-197C87D457FE"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:49.068557",
+    "updated_at": "2026-04-20T06:53:49.068557"
+  },
+  {
+    "_id": "dapaz_amitrip__clordia__caja_x_30_blist_x_10",
+    "name": "DAPAZ (AMITRIP + CLORDIA)  CAJA X 30 BLIST X 10",
+    "category": "Antidepresivo",
+    "principio_activo": "Amitriptilina y Clordiazepóxido",
+    "descripcion": "DAPAZ es un medicamento que combina Amitriptilina, un antidepresivo tricíclico, y Clordiazepóxido, un ansiolítico benzodiacepínico, utilizado para tratar trastornos depresivos con ansiedad.",
+    "image_url": "/uploads/products/dapaz_amitrip__clordia__caja_x_30_blist_x_10.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.66,
+        "price": 2.7,
+        "profit_percent": 0.39,
+        "sku": "SKU-AA94380A2054"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:51.930986",
+    "updated_at": "2026-04-20T06:53:51.930986"
+  },
+  {
+    "_id": "diyodo_650_caja_x_100_blist_x_10_tab",
+    "name": "DIYODO 650 CAJA X 100 BLIST X 10 TAB",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Paracetamol",
+    "descripcion": "DIYODO 650 es un medicamento que contiene 650 mg de paracetamol por tableta, utilizado para aliviar el dolor y reducir la fiebre. Se presenta en caja con 100 tabletas distribuidas en 10 blísteres de 10 tabletas cada uno.",
+    "image_url": "/uploads/products/diyodo_650_caja_x_100_blist_x_10_tab.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.61,
+        "price": 1.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-A1248B1D593A"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:54.667727",
+    "updated_at": "2026-04-20T06:53:54.667727"
+  },
+  {
+    "_id": "dolovitanervo_kit_ampolla",
+    "name": "DOLOVITANERVO KIT AMPOLLA",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas B1, B6 y B12",
+    "descripcion": "DOLOVITANERVO KIT AMPOLLA es un suplemento vitamínico inyectable que contiene vitaminas del complejo B, utilizado para el tratamiento de deficiencias vitamínicas y como coadyuvante en neuropatías y otras afecciones relacionadas con el sistema nervioso.",
+    "image_url": "/uploads/products/dolovitanervo_kit_ampolla.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.26,
+        "price": 19.0,
+        "profit_percent": 0.51,
+        "sku": "SKU-A79BA15BEEBE"
+      }
+    ],
+    "created_at": "2026-04-20T06:53:58.015464",
+    "updated_at": "2026-04-20T06:53:58.015464"
+  },
+  {
+    "_id": "dorival_gel_200mg_caja_x_36_gelcaps",
+    "name": "DORIVAL GEL 200MG CAJA X 36 GELCAPS",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Diclofenaco sódico",
+    "descripcion": "DORIVAL GEL 200MG es un medicamento en presentación de gelcaps que contiene diclofenaco sódico, utilizado para aliviar el dolor y reducir la inflamación en diversas condiciones musculoesqueléticas.",
+    "image_url": "/uploads/products/dorival_gel_200mg_caja_x_36_gelcaps.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.39,
+        "price": 4.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-2AD7EC555602"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:00.622400",
+    "updated_at": "2026-04-20T06:54:00.622400"
+  },
+  {
+    "_id": "enteroguanil_adulto_dis_x_200_blist_x_4_tabs",
+    "name": "ENTEROGUANIL ADULTO DIS X 200 BLIST X 4 TABS",
+    "category": "Antidiarreico",
+    "principio_activo": "Guanilato cíclico",
+    "descripcion": "Medicamento utilizado para el tratamiento de diarreas agudas y crónicas, ayuda a regular la motilidad intestinal y mejorar la absorción de líquidos y electrolitos.",
+    "image_url": "/uploads/products/enteroguanil_adulto_dis_x_200_blist_x_4_tabs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.31,
+        "price": 1.0,
+        "profit_percent": 0.69,
+        "sku": "SKU-E430A971B937"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:03.666475",
+    "updated_at": "2026-04-20T06:54:03.666475"
+  },
+  {
+    "_id": "escabin_jabon_de_azufre_80_grs_sante",
+    "name": "ESCABIN JABON DE AZUFRE 80 GRS SANTE",
+    "category": "Jabón dermatológico",
+    "principio_activo": "Azufre",
+    "descripcion": "Jabón de azufre utilizado para el tratamiento de afecciones cutáneas como acné, dermatitis y otras enfermedades de la piel, ayudando a reducir la inflamación y eliminar bacterias.",
+    "image_url": "/uploads/products/escabin_jabon_de_azufre_80_grs_sante.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.7,
+        "price": 10.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-31F8A469C939"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:06.579510",
+    "updated_at": "2026-04-20T06:54:06.579510"
+  },
+  {
+    "_id": "ferridoce_caja_x_30tab_blist_x_10",
+    "name": "FERRIDOCE CAJA X 30TAB BLIST X 10",
+    "category": "Suplemento de hierro",
+    "principio_activo": "Hierro",
+    "descripcion": "FERRIDOCE es un suplemento de hierro utilizado para tratar y prevenir la deficiencia de hierro y la anemia ferropénica. Se presenta en caja con 30 tabletas, en blíster de 10 unidades.",
+    "image_url": "/uploads/products/ferridoce_caja_x_30tab_blist_x_10.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.8,
+        "price": 19.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-84BAFB3307D3"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:09.246346",
+    "updated_at": "2026-04-20T06:54:09.246346"
+  },
+  {
+    "_id": "gasa_enfermerita__12_x_1_yd",
+    "name": "GASA ENFERMERITA  1/2 X 1 YD.",
+    "category": "Material de curación",
+    "principio_activo": "Ninguno",
+    "descripcion": "Gasa esterilizada utilizada para la limpieza y protección de heridas, de tamaño 1/2 x 1 yarda.",
+    "image_url": "/uploads/products/gasa_enfermerita__12_x_1_yd.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.6,
+        "price": 8.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-045B6896C251"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:11.673851",
+    "updated_at": "2026-04-20T06:54:11.673851"
+  },
+  {
+    "_id": "gasa_enfermerita_3_x_1",
+    "name": "GASA ENFERMERITA 3 X 1",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Gasa esterilizada utilizada para la limpieza y protección de heridas, presentando un tamaño de 3 x 1 pulgadas.",
+    "image_url": "/uploads/products/gasa_enfermerita_3_x_1.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 25.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-41FC6F2E7375"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:14.548904",
+    "updated_at": "2026-04-20T06:54:14.548904"
+  },
+  {
+    "_id": "gasa_superior__2_x_10_yd",
+    "name": "GASA SUPERIOR  2 X 10 YD",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Gasa estéril para uso médico, utilizada para cubrir y proteger heridas, absorbiendo exudados y facilitando la cicatrización. Presentación en rollo de 2 pulgadas por 10 yardas.",
+    "image_url": "/uploads/products/gasa_superior__2_x_10_yd.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.9,
+        "price": 9.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-F298721558C7"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:17.147917",
+    "updated_at": "2026-04-20T06:54:17.147917"
+  },
+  {
+    "_id": "gasa_superior__3_x_10_yd",
+    "name": "GASA SUPERIOR  3 X 10 YD",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Gasa estéril para uso médico, utilizada para cubrir y proteger heridas, absorbiendo exudados y facilitando la cicatrización.",
+    "image_url": "/uploads/products/gasa_superior__3_x_10_yd.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.0,
+        "price": 12.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-AFBCC154079C"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:19.794524",
+    "updated_at": "2026-04-20T06:54:19.794524"
+  },
+  {
+    "_id": "gasa_superior__4_x_10",
+    "name": "GASA SUPERIOR  4 X 10",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Gasa estéril para uso en la limpieza y protección de heridas, tamaño 4 x 10 cm.",
+    "image_url": "/uploads/products/gasa_superior__4_x_10.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.0,
+        "price": 14.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-DA6F4A4ACC35"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:22.877789",
+    "updated_at": "2026-04-20T06:54:22.877789"
+  },
+  {
+    "_id": "gasa_superior_6_x_10_yds",
+    "name": "GASA SUPERIOR 6 X 10 YDS",
+    "category": "Material de curación",
+    "principio_activo": "Ninguno",
+    "descripcion": "Gasa estéril para uso médico, utilizada para cubrir y proteger heridas, absorbiendo exudados y facilitando la cicatrización.",
+    "image_url": "/uploads/products/gasa_superior_6_x_10_yds.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.25,
+        "price": 22.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-F0F024265414"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:25.651459",
+    "updated_at": "2026-04-20T06:54:25.651459"
+  },
+  {
+    "_id": "gingivex_pinceladas_fco_27_ml",
+    "name": "GINGIVEX PINCELADAS FCO. 27 ML",
+    "category": "Cuidado bucal",
+    "principio_activo": "Clorhexidina",
+    "descripcion": "GINGIVEX PINCELADAS es un enjuague bucal antiséptico que ayuda a prevenir y tratar la gingivitis y otras afecciones de las encías, proporcionando una acción antibacteriana y antiinflamatoria.",
+    "image_url": "/uploads/products/gingivex_pinceladas_fco_27_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.04,
+        "price": 22.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-5D328911F9A3"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:28.833572",
+    "updated_at": "2026-04-20T06:54:28.833572"
+  },
+  {
+    "_id": "jabòn_hipoalergènico__100g_neutro",
+    "name": "JABÒN HIPOALERGÈNICO  100G (NEUTRO)",
+    "category": "Higiene personal",
+    "principio_activo": "No especificado",
+    "descripcion": "Jabón hipoalergénico de 100 gramos con fórmula neutra, diseñado para minimizar el riesgo de alergias y cuidar la piel sensible.",
+    "image_url": "/uploads/products/jabòn_hipoalergènico__100g_neutro.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.75,
+        "price": 17.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-7ECBC23F8622"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:31.384503",
+    "updated_at": "2026-04-20T06:54:31.384503"
+  },
+  {
+    "_id": "jeringa_5_cc_23_x_1_12",
+    "name": "JERINGA 5 CC 23 X 1 1/2",
+    "category": "Material de curación",
+    "principio_activo": "N/A",
+    "descripcion": "Jeringa de 5 cc con aguja de calibre 23 y longitud 1 1/2 pulgadas, utilizada para administración de medicamentos o extracción de líquidos.",
+    "image_url": "/uploads/products/jeringa_5_cc_23_x_1_12.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.37,
+        "price": 1.0,
+        "profit_percent": 0.63,
+        "sku": "SKU-24404EE0F659"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:34.001545",
+    "updated_at": "2026-04-20T06:54:34.001545"
+  },
+  {
+    "_id": "kura_kura_lata_13_grs",
+    "name": "KURA KURA LATA 13 GRS",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "No especificado",
+    "descripcion": "KURA KURA LATA 13 GRS es un producto presentado en lata de 13 gramos, generalmente utilizado como suplemento alimenticio o producto farmacéutico. No se dispone de información específica sobre su principio activo.",
+    "image_url": "/uploads/products/kura_kura_lata_13_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.0,
+        "price": 20.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-2D0DFE3F5C15"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:37.104775",
+    "updated_at": "2026-04-20T06:54:37.104775"
+  },
+  {
+    "_id": "lassar_crema_lafco_120_grs",
+    "name": "LASSAR CREMA LAFCO 120 GRS",
+    "category": "Crema dermatológica",
+    "principio_activo": "Ácido fusídico",
+    "descripcion": "LASSAR CREMA LAFCO 120 GRS es una crema tópica utilizada para tratar infecciones bacterianas de la piel, especialmente aquellas causadas por bacterias sensibles al ácido fusídico.",
+    "image_url": "/uploads/products/lassar_crema_lafco_120_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.75,
+        "price": 25.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-4D1688E4BF40"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:40.304730",
+    "updated_at": "2026-04-20T06:54:40.304730"
+  },
+  {
+    "_id": "levadura_sante_frasco_x100tab",
+    "name": "LEVADURA SANTE FRASCO X100TAB",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Levadura",
+    "descripcion": "Suplemento nutricional en tabletas que contiene levadura, utilizada para complementar la dieta con vitaminas del complejo B y otros nutrientes esenciales.",
+    "image_url": "/uploads/products/levadura_sante_frasco_x100tab.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.53,
+        "price": 18.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-AF0EF2AD149F"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:42.859725",
+    "updated_at": "2026-04-20T06:54:42.859725"
+  },
+  {
+    "_id": "magnesia_de_salud_therfam_dispen_x_72_sob",
+    "name": "MAGNESIA DE SALUD THERFAM DISPEN X 72 SOB",
+    "category": "Suplemento mineral",
+    "principio_activo": "Magnesio",
+    "descripcion": "Magnesia de Salud Therfam es un suplemento mineral en presentación de 72 sobres, utilizado para complementar la ingesta de magnesio, esencial para el funcionamiento muscular y nervioso.",
+    "image_url": "/uploads/products/magnesia_de_salud_therfam_dispen_x_72_sob.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.17,
+        "price": 2.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-3E7ED0592E82"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:45.462098",
+    "updated_at": "2026-04-20T06:54:45.462098"
+  },
+  {
+    "_id": "mana_sobre_laxante_1_onz",
+    "name": "MANA SOBRE (LAXANTE) 1 ONZ",
+    "category": "Laxante",
+    "principio_activo": "Senósidos",
+    "descripcion": "MANA SOBRE es un laxante utilizado para aliviar el estreñimiento ocasional. Contiene senósidos, que actúan estimulando el movimiento intestinal para facilitar la evacuación.",
+    "image_url": "/uploads/products/mana_sobre_laxante_1_onz.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.48,
+        "price": 10.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-A1136E08FB53"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:48.207669",
+    "updated_at": "2026-04-20T06:54:48.207669"
+  },
+  {
+    "_id": "manteca_de_cacao",
+    "name": "MANTECA DE CACAO",
+    "category": "Cosmético / Ingrediente natural",
+    "principio_activo": "Manteca de cacao",
+    "descripcion": "Grasa vegetal extraída de las semillas del cacao, utilizada principalmente en la industria cosmética para hidratación y protección de la piel, así como en la fabricación de productos farmacéuticos y alimenticios.",
+    "image_url": "/uploads/products/manteca_de_cacao.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.54,
+        "price": 3.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-AB60EEF92F72"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:50.902718",
+    "updated_at": "2026-04-20T06:54:50.902718"
+  },
+  {
+    "_id": "mentol_davis_grande_12_grs",
+    "name": "MENTOL DAVIS GRANDE 12 GRS",
+    "category": "Analgésicos y antipiréticos",
+    "principio_activo": "Mentol",
+    "descripcion": "Mentol Davis Grande es un producto farmacéutico utilizado principalmente como analgésico tópico para aliviar dolores musculares y articulares, gracias a su efecto refrescante y calmante.",
+    "image_url": "/uploads/products/mentol_davis_grande_12_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.0,
+        "price": 10.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-ED94C96C2E7D"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:53.672785",
+    "updated_at": "2026-04-20T06:54:53.672785"
+  },
+  {
+    "_id": "meprogesico_ii__blister_x_10",
+    "name": "MEPROGESICO II  BLISTER X 10",
+    "category": "Anticonceptivos hormonales",
+    "principio_activo": "Levonorgestrel",
+    "descripcion": "MEPROGESICO II es un anticonceptivo hormonal oral que contiene levonorgestrel, utilizado para prevenir el embarazo. Se presenta en blister con 10 tabletas.",
+    "image_url": "/uploads/products/meprogesico_ii__blister_x_10.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.66,
+        "price": 6.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-AB381240181A"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:56.202656",
+    "updated_at": "2026-04-20T06:54:56.202656"
+  },
+  {
+    "_id": "micropore_cureband_blanco__2_x_10_yd",
+    "name": "MICROPORE CUREBAND BLANCO  2 X 10 YD",
+    "category": "Material de curación",
+    "principio_activo": "No aplica",
+    "descripcion": "Cinta adhesiva microporosa blanca, utilizada para fijar apósitos y vendajes, permitiendo la transpiración de la piel.",
+    "image_url": "/uploads/products/micropore_cureband_blanco__2_x_10_yd.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.15,
+        "price": 26.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-502F24D9857B"
+      }
+    ],
+    "created_at": "2026-04-20T06:54:58.827283",
+    "updated_at": "2026-04-20T06:54:58.827283"
+  },
+  {
+    "_id": "micropore_cureband_piel_2_x_10_yd",
+    "name": "MICROPORE CUREBAND PIEL 2 X 10 YD",
+    "category": "Cinta adhesiva médica",
+    "principio_activo": "Ninguno",
+    "descripcion": "Cinta adhesiva microporosa para uso en piel, ideal para fijar apósitos y vendajes, permitiendo la transpiración y minimizando irritaciones.",
+    "image_url": "/uploads/products/micropore_cureband_piel_2_x_10_yd.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.15,
+        "price": 26.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-AFD87F114C29"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:01.496795",
+    "updated_at": "2026-04-20T06:55:01.496795"
+  },
+  {
+    "_id": "micropore_piel_12_cureband",
+    "name": "MICROPORE PIEL 1/2 CUREBAND",
+    "category": "Material de curación",
+    "principio_activo": "Ninguno",
+    "descripcion": "Cinta microporosa adhesiva para el cuidado de la piel, utilizada para fijar apósitos y vendajes, permitiendo la transpiración y minimizando la irritación cutánea.",
+    "image_url": "/uploads/products/micropore_piel_12_cureband.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.25,
+        "price": 10.0,
+        "profit_percent": 0.58,
+        "sku": "SKU-06FB506B86E8"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:04.265306",
+    "updated_at": "2026-04-20T06:55:04.265306"
+  },
+  {
+    "_id": "nauseol_1_ml_x_1_ampolla",
+    "name": "NAUSEOL 1 ML X 1 AMPOLLA",
+    "category": "Antiemético",
+    "principio_activo": "Metoclopramida",
+    "descripcion": "NAUSEOL es un medicamento en ampolla de 1 ml utilizado para prevenir y tratar náuseas y vómitos. Contiene metoclopramida, que actúa como un agente procinético y antiemético, facilitando el vaciamiento gástrico y bloqueando los receptores de dopamina en el sistema nervioso central.",
+    "image_url": "/uploads/products/nauseol_1_ml_x_1_ampolla.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.46,
+        "price": 10.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-C284180458B1"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:09.185039",
+    "updated_at": "2026-04-20T06:55:09.185039"
+  },
+  {
+    "_id": "nauseol_infantil_supositorios_x_6_bonin",
+    "name": "NAUSEOL INFANTIL SUPOSITORIOS X 6 BONIN",
+    "category": "Antiemético",
+    "principio_activo": "Dimenhidrinato",
+    "descripcion": "NAUSEOL INFANTIL SUPOSITORIOS X 6 BONIN es un medicamento indicado para el tratamiento y prevención de náuseas y vómitos en niños. Contiene dimenhidrinato, un antihistamínico con propiedades antieméticas que ayuda a controlar los síntomas asociados a mareos, vértigos y otras causas de náuseas.",
+    "image_url": "/uploads/products/nauseol_infantil_supositorios_x_6_bonin.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.38,
+        "price": 8.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-B046D5A8F883"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:12.304307",
+    "updated_at": "2026-04-20T06:55:12.304307"
+  },
+  {
+    "_id": "nauseol_susp_jbe_fco_60_ml",
+    "name": "NAUSEOL SUSP JBE FCO 60 ML",
+    "category": "Antiemético",
+    "principio_activo": "Dimenhidrinato",
+    "descripcion": "Suspensión oral utilizada para prevenir y tratar náuseas, vómitos y mareos asociados a diversas condiciones.",
+    "image_url": "/uploads/products/nauseol_susp_jbe_fco_60_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 42.73,
+        "price": 72.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-B87C94C0CD8B"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:14.808293",
+    "updated_at": "2026-04-20T06:55:14.808293"
+  },
+  {
+    "_id": "neomelubrina_caja_x_5_supositorios",
+    "name": "NEOMELUBRINA CAJA X 5 SUPOSITORIOS",
+    "category": "Analgésicos y Antipiréticos",
+    "principio_activo": "Dipirona (Metamizol sódico)",
+    "descripcion": "NEOMELUBRINA es un medicamento utilizado para aliviar el dolor y reducir la fiebre. Se presenta en forma de supositorios, facilitando su administración en pacientes que no pueden tomar medicamentos por vía oral.",
+    "image_url": "/uploads/products/neomelubrina_caja_x_5_supositorios.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.8,
+        "price": 14.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-19A7023E847A"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:17.707114",
+    "updated_at": "2026-04-20T06:55:17.707114"
+  },
+  {
+    "_id": "neomelubrina_jbe_100_ml",
+    "name": "NEOMELUBRINA JBE 100 ML",
+    "category": "Jarabe",
+    "principio_activo": "Paracetamol",
+    "descripcion": "NEOMELUBRINA JBE 100 ML es un jarabe utilizado para aliviar el dolor y reducir la fiebre, especialmente en niños.",
+    "image_url": "/uploads/products/neomelubrina_jbe_100_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 56.75,
+        "price": 86.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-1178CCBA10F3"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:20.288094",
+    "updated_at": "2026-04-20T06:55:20.288094"
+  },
+  {
+    "_id": "nervaden_caja_x_30_blist_x_10_caps",
+    "name": "NERVADEN CAJA X 30 BLIST X 10 CAPS",
+    "category": "Suplemento nutricional",
+    "principio_activo": "Vitaminas del complejo B",
+    "descripcion": "NERVADEN es un suplemento que contiene vitaminas del complejo B, utilizado para el apoyo del sistema nervioso y el metabolismo energético. Se presenta en caja con 30 blísteres, cada uno con 10 cápsulas.",
+    "image_url": "/uploads/products/nervaden_caja_x_30_blist_x_10_caps.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.73,
+        "price": 4.4,
+        "profit_percent": 0.38,
+        "sku": "SKU-D01812CADED2"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:23.053790",
+    "updated_at": "2026-04-20T06:55:23.053790"
+  },
+  {
+    "_id": "nervifen_blist_x_10_caja_x_30_pheniel",
+    "name": "NERVIFEN BLIST X 10 CAJA X 30 PHENIEL",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Fenilefrina",
+    "descripcion": "NERVIFEN BLIST X 10 CAJA X 30 PHENIEL es un medicamento utilizado para aliviar el dolor y reducir la inflamación, que contiene fenilefrina como principio activo, un descongestionante que ayuda a aliviar la congestión nasal.",
+    "image_url": "/uploads/products/nervifen_blist_x_10_caja_x_30_pheniel.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.77,
+        "price": 1.2,
+        "profit_percent": 0.36,
+        "sku": "SKU-5FB40B5A51FC"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:26.461060",
+    "updated_at": "2026-04-20T06:55:26.461060"
+  },
+  {
+    "_id": "neumonil_forte_disp_x_100_blist_x_2_tab",
+    "name": "NEUMONIL FORTE DISP X 100 BLIST X 2 TAB",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina y Ácido Clavulánico",
+    "descripcion": "NEUMONIL FORTE es un medicamento antibiótico utilizado para tratar infecciones bacterianas, especialmente infecciones respiratorias. Viene en presentación de 100 blísteres con 2 tabletas cada uno.",
+    "image_url": "/uploads/products/neumonil_forte_disp_x_100_blist_x_2_tab.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.08,
+        "price": 1.75,
+        "profit_percent": 0.38,
+        "sku": "SKU-875129DFCE3D"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:29.553719",
+    "updated_at": "2026-04-20T06:55:29.553719"
+  },
+  {
+    "_id": "neumonil_g_x_60_tabs",
+    "name": "NEUMONIL G X 60 TABS",
+    "category": "Antibiótico",
+    "principio_activo": "Claritromicina",
+    "descripcion": "NEUMONIL G es un antibiótico utilizado para tratar infecciones bacterianas, especialmente infecciones respiratorias como neumonía. Contiene claritromicina, que pertenece a la clase de los macrólidos y actúa inhibiendo la síntesis de proteínas bacterianas.",
+    "image_url": "/uploads/products/neumonil_g_x_60_tabs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.52,
+        "price": 2.5,
+        "profit_percent": 0.39,
+        "sku": "SKU-DFD0C91E3E50"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:32.503017",
+    "updated_at": "2026-04-20T06:55:32.503017"
+  },
+  {
+    "_id": "nomagest_caja_x_1_ampolla_1_ml",
+    "name": "NOMAGEST CAJA X 1 AMPOLLA 1 ML",
+    "category": "Hormonas y moduladores del sistema hormonal",
+    "principio_activo": "Noretisterona",
+    "descripcion": "NOMAGEST es un medicamento que contiene noretisterona, un progestágeno utilizado para tratar trastornos menstruales, amenorrea y como parte de terapias hormonales. Se presenta en ampolleta de 1 ml para administración intramuscular.",
+    "image_url": "/uploads/products/nomagest_caja_x_1_ampolla_1_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.0,
+        "price": 58.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-F0F8EFD40054"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:35.585972",
+    "updated_at": "2026-04-20T06:55:35.585972"
+  },
+  {
+    "_id": "oidol_gotas_15_ml",
+    "name": "OIDOL GOTAS 15 ML",
+    "category": "Antiséptico y desinfectante",
+    "principio_activo": "Povidona yodada",
+    "descripcion": "OIDOL GOTAS 15 ML es un antiséptico tópico utilizado para la desinfección de heridas, cortes y quemaduras menores, ayudando a prevenir infecciones gracias a su contenido de povidona yodada.",
+    "image_url": "/uploads/products/oidol_gotas_15_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.95,
+        "price": 44.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-5B34EFF39E1E"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:38.829899",
+    "updated_at": "2026-04-20T06:55:38.829899"
+  },
+  {
+    "_id": "ojo_de_aguila_gotas",
+    "name": "OJO DE AGUILA GOTAS",
+    "category": "Oftálmico",
+    "principio_activo": "Tetryzolina",
+    "descripcion": "Ojo de Águila Gotas es un colirio descongestionante ocular que alivia el enrojecimiento y la irritación de los ojos causados por alergias, fatiga o exposición a agentes irritantes.",
+    "image_url": "/uploads/products/ojo_de_aguila_gotas.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.54,
+        "price": 18.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-AE147A68D9FB"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:41.909099",
+    "updated_at": "2026-04-20T06:55:41.909099"
+  },
+  {
+    "_id": "orfengesic_orfeparac_blist_x_10_caja_x_20",
+    "name": "ORFENGESIC (ORFE/PARAC) BLIST X 10 CAJA X 20",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Orfenadrina y Paracetamol",
+    "descripcion": "ORFENGESIC es un medicamento que combina orfenadrina, un relajante muscular, y paracetamol, un analgésico y antipirético, utilizado para aliviar el dolor muscular y reducir la fiebre.",
+    "image_url": "/uploads/products/orfengesic_orfeparac_blist_x_10_caja_x_20.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.59,
+        "price": 6.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-3E5D5F53D936"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:44.715113",
+    "updated_at": "2026-04-20T06:55:44.715113"
+  },
+  {
+    "_id": "otik_gotas",
+    "name": "OTIK GOTAS",
+    "category": "Antiinflamatorio y analgésico para oídos",
+    "principio_activo": "Flurbiprofeno",
+    "descripcion": "OTIK GOTAS es un medicamento en forma de gotas óticas utilizado para aliviar el dolor y la inflamación en el oído, especialmente en casos de otitis externa. Contiene flurbiprofeno, un antiinflamatorio no esteroideo que ayuda a reducir la inflamación y el dolor local.",
+    "image_url": "/uploads/products/otik_gotas.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.5,
+        "price": 23.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-E9F0E28BB4B0"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:48.098270",
+    "updated_at": "2026-04-20T06:55:48.098270"
+  },
+  {
+    "_id": "panadol_niños_disp_x_100_tab_mastic",
+    "name": "PANADOL NIÑOS DISP X 100 TAB MASTIC",
+    "category": "Analgésicos y antipiréticos",
+    "principio_activo": "Paracetamol",
+    "descripcion": "Panadol Niños es un medicamento en tabletas masticables indicado para aliviar el dolor y reducir la fiebre en niños.",
+    "image_url": "/uploads/products/panadol_niños_disp_x_100_tab_mastic.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.61,
+        "price": 1.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-575650B4EF0B"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:50.779203",
+    "updated_at": "2026-04-20T06:55:50.779203"
+  },
+  {
+    "_id": "parche_leon",
+    "name": "PARCHE LEON",
+    "category": "Analgésico tópico",
+    "principio_activo": "Mentol y salicilato de metilo",
+    "descripcion": "Parche adhesivo utilizado para aliviar dolores musculares y articulares mediante la aplicación tópica de sus principios activos que proporcionan un efecto refrescante y analgésico.",
+    "image_url": "/uploads/products/parche_leon.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 20.75,
+        "price": 33.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-AEB56FA56892"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:53.555420",
+    "updated_at": "2026-04-20T06:55:53.555420"
+  },
+  {
+    "_id": "pezonera_de_vidrio_edigar",
+    "name": "PEZONERA DE VIDRIO EDIGAR",
+    "category": "Accesorios para lactancia",
+    "principio_activo": null,
+    "descripcion": "Pezonera de vidrio utilizada para proteger el pezón durante la lactancia, facilitando la alimentación del bebé y evitando irritaciones.",
+    "image_url": "/uploads/products/pezonera_de_vidrio_edigar.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.0,
+        "price": 20.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-8C16BF377CE2"
+      }
+    ],
+    "created_at": "2026-04-20T06:55:56.122119",
+    "updated_at": "2026-04-20T06:55:56.122119"
+  },
+  {
+    "_id": "pomada_gms_12_grs",
+    "name": "POMADA GMS 12 GRS",
+    "category": "Pomada dermatológica",
+    "principio_activo": "Glucantime (antimoniato de meglumina)",
+    "descripcion": "Pomada tópica utilizada para el tratamiento de lesiones cutáneas causadas por leishmaniasis y otras infecciones parasitarias.",
+    "image_url": "/uploads/products/pomada_gms_12_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.0,
+        "price": 15.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-045248558D40"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:00.138465",
+    "updated_at": "2026-04-20T06:56:00.138465"
+  },
+  {
+    "_id": "pomada_gms_tarro_50_grs",
+    "name": "POMADA GMS TARRO 50 GRS",
+    "category": "Pomada dermatológica",
+    "principio_activo": "GMS (Gliceril Monostearato)",
+    "descripcion": "Pomada en tarro de 50 gramos utilizada para la hidratación y protección de la piel, ayudando a mantener la barrera cutánea y prevenir la sequedad.",
+    "image_url": "/uploads/products/pomada_gms_tarro_50_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 31.25,
+        "price": 49.0,
+        "profit_percent": 0.36,
+        "sku": "SKU-6EDE5DE5F557"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:02.876634",
+    "updated_at": "2026-04-20T06:56:02.876634"
+  },
+  {
+    "_id": "reumetan_crema_30_grs_tubo",
+    "name": "REUMETAN CREMA 30 GRS. TUBO",
+    "category": "Antiinflamatorio tópico",
+    "principio_activo": "Metilprednisolona aceponato",
+    "descripcion": "Crema antiinflamatoria utilizada para aliviar el dolor y la inflamación en afecciones reumáticas y musculares.",
+    "image_url": "/uploads/products/reumetan_crema_30_grs_tubo.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 24.0,
+        "price": 38.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-533B9C797F3B"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:05.637681",
+    "updated_at": "2026-04-20T06:56:05.637681"
+  },
+  {
+    "_id": "reumetan_s_25_mg_blist_x_10_caja_x_100",
+    "name": "REUMETAN S 25 MG BLIST X 10 CAJA X 100",
+    "category": "Antiinflamatorio",
+    "principio_activo": "Metotrexato",
+    "descripcion": "REUMETAN S 25 MG es un medicamento que contiene metotrexato, utilizado principalmente para el tratamiento de enfermedades reumáticas como la artritis reumatoide. Se presenta en blíster con 10 tabletas, y la caja contiene 100 tabletas.",
+    "image_url": "/uploads/products/reumetan_s_25_mg_blist_x_10_caja_x_100.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.75,
+        "price": 8.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-A8D469132793"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:08.464148",
+    "updated_at": "2026-04-20T06:56:08.464148"
+  },
+  {
+    "_id": "santemicina_75_grs_sobre_caja_x_50",
+    "name": "SANTEMICINA 7.5 GRS SOBRE CAJA X 50",
+    "category": "Antibiótico",
+    "principio_activo": "Oxitetraciclina",
+    "descripcion": "SANTEMICINA 7.5 GRS SOBRE CAJA X 50 es un antibiótico en polvo para suspensión oral, utilizado para tratar infecciones bacterianas en animales.",
+    "image_url": "/uploads/products/santemicina_75_grs_sobre_caja_x_50.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.11,
+        "price": 2.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-AE473DFD0E91"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:11.188441",
+    "updated_at": "2026-04-20T06:56:11.188441"
+  },
+  {
+    "_id": "scudo_natural_caja_x_3",
+    "name": "SCUDO NATURAL CAJA X 3",
+    "category": "Suplemento natural",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto natural presentado en caja con 3 unidades, utilizado como suplemento para el bienestar general.",
+    "image_url": "/uploads/products/scudo_natural_caja_x_3.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.8,
+        "price": 14.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-51D9E0CC5D71"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:13.711455",
+    "updated_at": "2026-04-20T06:56:13.711455"
+  },
+  {
+    "_id": "scudo_oro_retardante_caja_x_3",
+    "name": "SCUDO ORO RETARDANTE CAJA X 3",
+    "category": "Retardantes de eyaculación",
+    "principio_activo": "Benzocaína",
+    "descripcion": "SCUDO ORO RETARDANTE es un producto diseñado para ayudar a retrasar la eyaculación, mejorando el control durante las relaciones sexuales. Viene en presentación de caja con 3 unidades.",
+    "image_url": "/uploads/products/scudo_oro_retardante_caja_x_3.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.17,
+        "price": 24.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-6C1F6B434D93"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:16.323149",
+    "updated_at": "2026-04-20T06:56:16.323149"
+  },
+  {
+    "_id": "sinsueño_blist_x_10",
+    "name": "SINSUEÑO BLIST X 10",
+    "category": "Medicamento para el insomnio",
+    "principio_activo": "Melatonina",
+    "descripcion": "SINSUEÑO BLIST X 10 es un medicamento utilizado para el tratamiento del insomnio y trastornos del sueño, facilitando la conciliación del sueño mediante la administración de melatonina.",
+    "image_url": "/uploads/products/sinsueño_blist_x_10.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.54,
+        "price": 1.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-E0B0CFA08A95"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:19.157170",
+    "updated_at": "2026-04-20T06:56:19.157170"
+  },
+  {
+    "_id": "solutina_gotas_oftalmicas",
+    "name": "SOLUTINA GOTAS OFTALMICAS",
+    "category": "Medicamento oftálmico",
+    "principio_activo": "Tobramicina",
+    "descripcion": "Solutina gotas oftálmicas es un antibiótico en forma de gotas para los ojos, utilizado para tratar infecciones bacterianas oculares.",
+    "image_url": "/uploads/products/solutina_gotas_oftalmicas.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.29,
+        "price": 26.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-AA9AF06EC93A"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:21.788178",
+    "updated_at": "2026-04-20T06:56:21.788178"
+  },
+  {
+    "_id": "sucrassyl_caja_x_30_pahil",
+    "name": "SUCRASSYL CAJA X 30 PAHIL",
+    "category": "Antiácido",
+    "principio_activo": "Sucralfato",
+    "descripcion": "Sucrassyl es un medicamento utilizado para el tratamiento y prevención de úlceras gástricas y duodenales. Actúa formando una barrera protectora sobre la mucosa gástrica, ayudando a protegerla del ácido y facilitando la cicatrización.",
+    "image_url": "/uploads/products/sucrassyl_caja_x_30_pahil.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.8,
+        "price": 5.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-7BE388813D2F"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:24.823541",
+    "updated_at": "2026-04-20T06:56:24.823541"
+  },
+  {
+    "_id": "suero_mixto_5_fco_500_ml",
+    "name": "SUERO MIXTO 5% FCO 500 ML",
+    "category": "Soluciones parenterales",
+    "principio_activo": "Cloruro de sodio, glucosa y otros electrolitos",
+    "descripcion": "Solución intravenosa utilizada para reponer líquidos y electrolitos en pacientes, combinando glucosa al 5% con electrolitos en un frasco de 500 ml.",
+    "image_url": "/uploads/products/suero_mixto_5_fco_500_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.04,
+        "price": 19.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-032527619B85"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:27.727502",
+    "updated_at": "2026-04-20T06:56:27.727502"
+  },
+  {
+    "_id": "tabcin_ad_fm_ef_dispen_x_72_sobresceleste",
+    "name": "TABCIN AD FM EF DISPEN X 72 SOBRES(CELESTE)",
+    "category": "Antitabáquico",
+    "principio_activo": "Bupropión",
+    "descripcion": "TABCIN AD FM EF DISPEN X 72 SOBRES(CELESTE) es un medicamento utilizado para ayudar a dejar de fumar, contiene bupropión como principio activo, que actúa sobre el sistema nervioso central para reducir los síntomas de abstinencia y el deseo de fumar.",
+    "image_url": "/uploads/products/tabcin_ad_fm_ef_dispen_x_72_sobresceleste.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.35,
+        "price": 2.5,
+        "profit_percent": 0.46,
+        "sku": "SKU-388B1A61C7CE"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:30.580066",
+    "updated_at": "2026-04-20T06:56:30.580066"
+  },
+  {
+    "_id": "tabcin_extra_fuerte_x_60_eferv_rojo",
+    "name": "TABCIN EXTRA FUERTE X 60 EFERV (ROJO)",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Paracetamol, Cafeína, Ácido Acetilsalicílico",
+    "descripcion": "TABCIN EXTRA FUERTE es un medicamento efervescente utilizado para aliviar dolores de cabeza, musculares, dentales y síntomas de resfriado, combinando analgésicos y estimulantes para un efecto rápido y efectivo.",
+    "image_url": "/uploads/products/tabcin_extra_fuerte_x_60_eferv_rojo.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.6,
+        "price": 2.5,
+        "profit_percent": 0.36,
+        "sku": "SKU-2E2FEDA9DF56"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:33.542030",
+    "updated_at": "2026-04-20T06:56:33.542030"
+  },
+  {
+    "_id": "tabcin_gripe_y_tos_x_60_tabs_eferv_morado",
+    "name": "TABCIN GRIPE Y TOS X 60 TABS EFERV (MORADO)",
+    "category": "Antigripal y Antitusivo",
+    "principio_activo": "Paracetamol, Clorfeniramina, Dextrometorfano",
+    "descripcion": "Medicamento efervescente indicado para el alivio de los síntomas asociados a la gripe y la tos, como fiebre, congestión nasal, dolor de cabeza y malestar general.",
+    "image_url": "/uploads/products/tabcin_gripe_y_tos_x_60_tabs_eferv_morado.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.42,
+        "price": 2.5,
+        "profit_percent": 0.43,
+        "sku": "SKU-F53A31FA90B9"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:36.789148",
+    "updated_at": "2026-04-20T06:56:36.789148"
+  },
+  {
+    "_id": "tabcin_niños_disp_x_48_blist_x_12_mastic",
+    "name": "TABCIN NIÑOS DISP X 48 BLIST X 12 MASTIC",
+    "category": "Antitusivo",
+    "principio_activo": "Dextrometorfano",
+    "descripcion": "TABCIN NIÑOS es un medicamento antitusivo en presentación de tabletas masticables, indicado para el alivio de la tos en niños. Cada blíster contiene 12 tabletas y el envase incluye 48 blísters.",
+    "image_url": "/uploads/products/tabcin_niños_disp_x_48_blist_x_12_mastic.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.03,
+        "price": 1.67,
+        "profit_percent": 0.38,
+        "sku": "SKU-57F267419E0B"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:39.508265",
+    "updated_at": "2026-04-20T06:56:39.508265"
+  },
+  {
+    "_id": "tabcin_niños_x_60_eferv",
+    "name": "TABCIN NIÑOS X 60 EFERV",
+    "category": "Antitusivos y expectorantes",
+    "principio_activo": "Dextrometorfano y Guaifenesina",
+    "descripcion": "TABCIN NIÑOS X 60 EFERV es un medicamento en forma de tabletas efervescentes indicado para el alivio de la tos y la congestión en niños. Combina dextrometorfano, un supresor de la tos, con guaifenesina, un expectorante que ayuda a eliminar las secreciones bronquiales.",
+    "image_url": "/uploads/products/tabcin_niños_x_60_eferv.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.31,
+        "price": 2.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-DA19CEAF1E45"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:43.423696",
+    "updated_at": "2026-04-20T06:56:43.423696"
+  },
+  {
+    "_id": "talco_dermog11_300_grs",
+    "name": "TALCO DERMO-G11 300 GRS",
+    "category": "Talco dermatológico",
+    "principio_activo": "Talco",
+    "descripcion": "Producto en polvo utilizado para el cuidado y protección de la piel, ayudando a mantenerla seca y libre de irritaciones.",
+    "image_url": "/uploads/products/talco_dermog11_300_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.8,
+        "price": 27.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-1DF6D76BE296"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:45.986460",
+    "updated_at": "2026-04-20T06:56:45.986460"
+  },
+  {
+    "_id": "talco_sudorin_110_grs",
+    "name": "TALCO SUDORIN 110 GRS",
+    "category": "Antitranspirante / Talco",
+    "principio_activo": "Clorhidrato de aluminio",
+    "descripcion": "Talco antitranspirante en polvo que ayuda a controlar la sudoración y mantener la piel seca y fresca.",
+    "image_url": "/uploads/products/talco_sudorin_110_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.5,
+        "price": 18.0,
+        "profit_percent": 0.36,
+        "sku": "SKU-A111D2C5ED7F"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:48.932618",
+    "updated_at": "2026-04-20T06:56:48.932618"
+  },
+  {
+    "_id": "termometro_de_cinta_meditem_front",
+    "name": "TERMOMETRO DE CINTA MEDITEM FRONT",
+    "category": "Instrumentos de medición",
+    "principio_activo": "N/A",
+    "descripcion": "Termómetro de cinta adhesiva para medir la temperatura corporal en la frente de manera rápida y no invasiva.",
+    "image_url": "/uploads/products/termometro_de_cinta_meditem_front.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.6,
+        "price": 25.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-1D15FF4EC326"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:51.579802",
+    "updated_at": "2026-04-20T06:56:51.579802"
+  },
+  {
+    "_id": "tiamina_100_mg_fco_x_10__ml_piersan",
+    "name": "TIAMINA 100 MG FCO X 10  ML PIERSAN",
+    "category": "Vitaminas y suplementos",
+    "principio_activo": "Tiamina",
+    "descripcion": "Solución inyectable de tiamina (vitamina B1) 100 mg en frasco de 10 ml, utilizada para tratar deficiencias de tiamina y condiciones relacionadas.",
+    "image_url": "/uploads/products/tiamina_100_mg_fco_x_10__ml_piersan.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.55,
+        "price": 15.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-C8FDC5A94E78"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:54.317054",
+    "updated_at": "2026-04-20T06:56:54.317054"
+  },
+  {
+    "_id": "tintura_de_yodo_negro_1_onz",
+    "name": "TINTURA DE YODO NEGRO 1 ONZ",
+    "category": "Antiséptico",
+    "principio_activo": "Yodo",
+    "descripcion": "Solución tópica de yodo en alcohol utilizada para desinfectar heridas y prevenir infecciones.",
+    "image_url": "/uploads/products/tintura_de_yodo_negro_1_onz.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.25,
+        "price": 19.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-7B7AC57AC955"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:56.840955",
+    "updated_at": "2026-04-20T06:56:56.840955"
+  },
+  {
+    "_id": "tira_leche_dan_plastico",
+    "name": "TIRA LECHE DAN PLASTICO",
+    "category": "Accesorios para lactancia",
+    "principio_activo": null,
+    "descripcion": "Tira para extracción y almacenamiento de leche materna, fabricada en plástico.",
+    "image_url": "/uploads/products/tira_leche_dan_plastico.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.37,
+        "price": 47.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-53A02317FD6A"
+      }
+    ],
+    "created_at": "2026-04-20T06:56:59.855621",
+    "updated_at": "2026-04-20T06:56:59.855621"
+  },
+  {
+    "_id": "venditas_curebands_kids_niña_caja_x_20",
+    "name": "VENDITAS CUREBANDS KIDS NIÑA CAJA X 20",
+    "category": "Curitas y apósitos",
+    "principio_activo": "No aplica",
+    "descripcion": "Venditas Curebands Kids Niña es una caja con 20 apósitos adhesivos diseñados especialmente para niños, con motivos decorativos para hacer más divertida la protección de pequeñas heridas y cortes.",
+    "image_url": "/uploads/products/venditas_curebands_kids_niña_caja_x_20.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.71,
+        "price": 1.5,
+        "profit_percent": 0.53,
+        "sku": "SKU-3619251404EB"
+      }
+    ],
+    "created_at": "2026-04-20T06:57:02.564548",
+    "updated_at": "2026-04-20T06:57:02.564548"
+  },
+  {
+    "_id": "vick_inhalador",
+    "name": "VICK INHALADOR",
+    "category": "Descongestionante nasal",
+    "principio_activo": "Mentol",
+    "descripcion": "VICK INHALADOR es un producto utilizado para aliviar la congestión nasal causada por resfriados, alergias o sinusitis. Contiene mentol, que ayuda a despejar las vías respiratorias y facilita la respiración.",
+    "image_url": "/uploads/products/vick_inhalador.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.71,
+        "price": 29.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-6D9E40ABA8F3"
+      }
+    ],
+    "created_at": "2026-04-20T06:57:05.323444",
+    "updated_at": "2026-04-20T06:57:05.323444"
+  },
+  {
+    "_id": "vick_tarro_100_grs",
+    "name": "VICK TARRO 100 GRS",
+    "category": "Ungüento",
+    "principio_activo": "Mentol, alcanfor, eucaliptol",
+    "descripcion": "Vick Tarro es un ungüento tópico utilizado para aliviar la congestión nasal y los síntomas del resfriado común. Se aplica en el pecho y la garganta para proporcionar una sensación de frescura y facilitar la respiración.",
+    "image_url": "/uploads/products/vick_tarro_100_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 41.11,
+        "price": 68.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-79445C239FA0"
+      }
+    ],
+    "created_at": "2026-04-20T06:57:09.111667",
+    "updated_at": "2026-04-20T06:57:09.111667"
+  },
+  {
+    "_id": "vick_tarro_50_grs",
+    "name": "VICK TARRO 50 GRS",
+    "category": "Ungüento para el alivio de congestión y dolores musculares",
+    "principio_activo": "Mentol, alcanfor, aceite de eucalipto",
+    "descripcion": "VICK TARRO 50 GRS es un ungüento tópico utilizado para aliviar la congestión nasal, dolores musculares y resfriados. Su fórmula contiene mentol, alcanfor y aceite de eucalipto, que proporcionan una sensación refrescante y ayudan a descongestionar las vías respiratorias.",
+    "image_url": "/uploads/products/vick_tarro_50_grs.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.32,
+        "price": 39.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-8CD1E1DD63D7"
+      }
+    ],
+    "created_at": "2026-04-20T06:57:12.322882",
+    "updated_at": "2026-04-20T06:57:12.322882"
+  },
+  {
+    "_id": "viro_grip_gripe_y_tos_jbe_120_ml",
+    "name": "VIRO GRIP GRIPE Y TOS JBE 120 ML",
+    "category": "Antigripal y antitusivo",
+    "principio_activo": "Paracetamol, Dextrometorfano, Clorfeniramina",
+    "descripcion": "Jarabe indicado para el alivio de los síntomas de la gripe y la tos, como fiebre, dolor de cabeza, congestión nasal y tos.",
+    "image_url": "/uploads/products/viro_grip_gripe_y_tos_jbe_120_ml.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.86,
+        "price": 35.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-B363A74BA366"
+      }
+    ],
+    "created_at": "2026-04-20T06:57:15.208611",
+    "updated_at": "2026-04-20T06:57:15.208611"
+  },
+  {
+    "_id": "vitamina_c_zinc_mk_caja_x_100_blist_x_10",
+    "name": "VITAMINA C +ZINC MK CAJA X 100 BLIST X 10",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina C, Zinc",
+    "descripcion": "Suplemento que combina vitamina C y zinc para fortalecer el sistema inmunológico. Presentado en caja con 100 blísteres de 10 unidades cada uno.",
+    "image_url": "/uploads/products/vitamina_c_zinc_mk_caja_x_100_blist_x_10.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.28,
+        "price": 23.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-9923965AC801"
+      }
+    ],
+    "created_at": "2026-04-20T06:57:17.989135",
+    "updated_at": "2026-04-20T06:57:17.989135"
+  },
+  {
+    "_id": "vitanervo_25000_kit_amp_piersan",
+    "name": "VITANERVO 25,000 KIT AMP PIERSAN",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas del complejo B",
+    "descripcion": "VITANERVO 25,000 KIT AMP PIERSAN es un suplemento vitamínico que contiene altas dosis de vitaminas del complejo B, utilizado para tratar deficiencias vitamínicas y apoyar el metabolismo energético.",
+    "image_url": "/uploads/products/vitanervo_25000_kit_amp_piersan.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.85,
+        "price": 18.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-EBA10452D50F"
+      }
+    ],
+    "created_at": "2026-04-20T06:57:21.024040",
+    "updated_at": "2026-04-20T06:57:21.024040"
+  },
+  {
+    "_id": "vitapyrena_disp_x50",
+    "name": "VITAPYRENA DISP X50",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "VITAPYRENA DISP X50 es un suplemento vitamínico que contiene una combinación de vitaminas y minerales esenciales para apoyar el bienestar general y fortalecer el sistema inmunológico.",
+    "image_url": "/uploads/products/vitapyrena_disp_x50.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.52,
+        "price": 4.5,
+        "profit_percent": 0.44,
+        "sku": "SKU-907D51B43392"
+      }
+    ],
+    "created_at": "2026-04-20T06:57:23.609572",
+    "updated_at": "2026-04-20T06:57:23.609572"
+  },
+  {
+    "_id": "xiconeural_caja_x_30_inductor_del_sueño",
+    "name": "XICONEURAL CAJA X 30 INDUCTOR DEL SUEÑO",
+    "category": "Inductor del sueño",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico utilizado para inducir el sueño, presentado en caja con 30 unidades.",
+    "image_url": "/uploads/products/xiconeural_caja_x_30_inductor_del_sueño.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.18,
+        "price": 2.5,
+        "profit_percent": 0.53,
+        "sku": "SKU-99A379184C5C"
+      }
+    ],
+    "created_at": "2026-04-20T06:57:28.947886",
+    "updated_at": "2026-04-20T06:57:28.947886"
+  },
+  {
+    "_id": "xirmen_4_mg_2_ml_x_1_amp_inyect",
+    "name": "XIRMEN 4 MG /2 ML X 1 AMP INYECT",
+    "category": "Medicamento inyectable",
+    "principio_activo": "XIRMEN",
+    "descripcion": "Ampolla inyectable de 4 mg en 2 ml",
+    "image_url": "/uploads/products/xirmen_4_mg_2_ml_x_1_amp_inyect.jpg",
+    "supplier": "COIDE",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 28.25,
+        "price": 48.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-62D8098B38D0"
+      }
+    ],
+    "created_at": "2026-04-20T06:57:32.072937",
+    "updated_at": "2026-04-20T06:57:32.072937"
+  }
+]

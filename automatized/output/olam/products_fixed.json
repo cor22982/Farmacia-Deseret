@@ -1,0 +1,2165 @@
+[
+  {
+    "_id": "aceite_coco_120_ml",
+    "name": "ACEITE COCO 120 ML",
+    "category": "Aceite natural",
+    "principio_activo": "Aceite de coco",
+    "descripcion": "Aceite de coco puro en presentación de 120 ml, utilizado para hidratación de la piel, cuidado del cabello y como suplemento natural.",
+    "image_url": "/uploads/products/aceite_coco_120_ml.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.65,
+        "price": 29.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-D74F64C99AAF"
+      }
+    ],
+    "created_at": "2026-04-20T07:20:48.265576",
+    "updated_at": "2026-04-20T07:20:48.266576"
+  },
+  {
+    "_id": "acetaminofen_125mg_jbe_ruipharm",
+    "name": "ACETAMINOFEN 125MG JBE RUIPHARM",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Acetaminofén",
+    "descripcion": "Jarabe de acetaminofén 125 mg por dosis, utilizado para aliviar el dolor y reducir la fiebre.",
+    "image_url": "/uploads/products/acetaminofen_125mg_jbe_ruipharm.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.65,
+        "price": 10.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-1137E722FD16"
+      }
+    ],
+    "created_at": "2026-04-20T07:20:51.213389",
+    "updated_at": "2026-04-20T07:20:51.213389"
+  },
+  {
+    "_id": "acetaminofen_500_mg_promegal_caja_x_100_blist_x_10",
+    "name": "ACETAMINOFEN 500 MG PROMEGAL CAJA X 100 BLIST X 10",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Acetaminofén",
+    "descripcion": "Medicamento utilizado para aliviar el dolor y reducir la fiebre. Presentación en caja con 100 tabletas divididas en 10 blísteres, cada tableta contiene 500 mg de acetaminofén.",
+    "image_url": "/uploads/products/acetaminofen_500_mg_promegal_caja_x_100_blist_x_10.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.89,
+        "price": 1.5,
+        "profit_percent": 0.41,
+        "sku": "SKU-9D9684C3FAF7"
+      }
+    ],
+    "created_at": "2026-04-20T07:20:54.134941",
+    "updated_at": "2026-04-20T07:20:54.134941"
+  },
+  {
+    "_id": "aflac_gotas_pediatricas_15_ml__diclofenaco",
+    "name": "AFLAC GOTAS PEDIATRICAS 15 ML  (DICLOFENACO)",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Diclofenaco",
+    "descripcion": "AFLAC GOTAS PEDIÁTRICAS es un medicamento en forma de gotas indicado para el alivio del dolor y la inflamación en pacientes pediátricos, cuyo principio activo es el diclofenaco, un antiinflamatorio no esteroideo (AINE).",
+    "image_url": "/uploads/products/aflac_gotas_pediatricas_15_ml__diclofenaco.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.95,
+        "price": 29.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-6BD845AE653B"
+      }
+    ],
+    "created_at": "2026-04-20T07:20:57.976882",
+    "updated_at": "2026-04-20T07:20:57.976882"
+  },
+  {
+    "_id": "agua_florida_4_rosas_vesa__fco_70_ml",
+    "name": "AGUA FLORIDA 4 ROSAS VESA  FCO 70 ML",
+    "category": "Producto cosmético",
+    "principio_activo": "No aplica",
+    "descripcion": "Agua Florida 4 Rosas Vesa es una loción aromática utilizada para perfumar y refrescar la piel, comúnmente empleada en rituales de limpieza y bienestar.",
+    "image_url": "/uploads/products/agua_florida_4_rosas_vesa__fco_70_ml.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.2,
+        "price": 4.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-C48D69983EF1"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:01.766215",
+    "updated_at": "2026-04-20T07:21:01.766215"
+  },
+  {
+    "_id": "aguja_22_g_x_1_12_caplin_negra",
+    "name": "AGUJA 22 G X 1 1/2 CAPLIN (NEGRA)",
+    "category": "Material de curación",
+    "principio_activo": "N/A",
+    "descripcion": "Aguja hipodérmica calibre 22, longitud 1 1/2 pulgadas, marca Caplin, color negra, utilizada para inyecciones y extracciones.",
+    "image_url": "/uploads/products/aguja_22_g_x_1_12_caplin_negra.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.25,
+        "price": 0.5,
+        "profit_percent": 0.5,
+        "sku": "SKU-648183B66DA3"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:05.016204",
+    "updated_at": "2026-04-20T07:21:05.016204"
+  },
+  {
+    "_id": "albendazol_mk_400_mg_susp_10_ml",
+    "name": "ALBENDAZOL MK 400 MG SUSP 10 ML",
+    "category": "Antiparasitario",
+    "principio_activo": "Albendazol",
+    "descripcion": "Suspensión oral de 400 mg de albendazol por 10 ml, utilizada para el tratamiento de infecciones parasitarias.",
+    "image_url": "/uploads/products/albendazol_mk_400_mg_susp_10_ml.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 22.25,
+        "price": 37.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-99744C969223"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:07.649204",
+    "updated_at": "2026-04-20T07:21:07.649204"
+  },
+  {
+    "_id": "albendazol_mk_cja_x_2_tab",
+    "name": "ALBENDAZOL MK CJA X 2 TAB",
+    "category": "Antiparasitario",
+    "principio_activo": "Albendazol",
+    "descripcion": "Albendazol MK CJA X 2 TAB es un medicamento antiparasitario utilizado para tratar infecciones causadas por diversos tipos de parásitos intestinales.",
+    "image_url": "/uploads/products/albendazol_mk_cja_x_2_tab.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.75,
+        "price": 22.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-FA15B5D134BF"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:11.185305",
+    "updated_at": "2026-04-20T07:21:11.185305"
+  },
+  {
+    "_id": "aleve_lquid_gels_x_24",
+    "name": "ALEVE LQUID GELS X 24",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Naproxeno sódico",
+    "descripcion": "ALEVE LIQUID GELS X 24 son cápsulas líquidas que contienen naproxeno sódico, un medicamento utilizado para aliviar el dolor y reducir la inflamación en condiciones como artritis, dolor muscular, dolor de cabeza y otros tipos de dolor agudo.",
+    "image_url": "/uploads/products/aleve_lquid_gels_x_24.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.47,
+        "price": 4.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-516106A827A1"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:14.549438",
+    "updated_at": "2026-04-20T07:21:14.549438"
+  },
+  {
+    "_id": "alfer_nicol_ungüento_tubo_5_grs",
+    "name": "ALFER NICOL UNGÜENTO TUBO 5 GRS",
+    "category": "Ungüento dermatológico",
+    "principio_activo": "Nicol",
+    "descripcion": "Ungüento tópico en tubo de 5 gramos utilizado para el tratamiento de afecciones cutáneas.",
+    "image_url": "/uploads/products/alfer_nicol_ungüento_tubo_5_grs.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 32.95,
+        "price": 54.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-FF4998B3D8DA"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:18.280360",
+    "updated_at": "2026-04-20T07:21:18.280360"
+  },
+  {
+    "_id": "alfuzocina_10_mg_blist_x_10_caja_x_100_lotus",
+    "name": "ALFUZOCINA 10 MG BLIST X 10 CAJA X 100 LOTUS",
+    "category": "Alfa-bloqueantes",
+    "principio_activo": "Alfuzocina",
+    "descripcion": "Alfuzocina 10 mg en blíster de 10 unidades, caja con 100 blísteres. Utilizado para el tratamiento de los síntomas del agrandamiento prostático benigno.",
+    "image_url": "/uploads/products/alfuzocina_10_mg_blist_x_10_caja_x_100_lotus.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 10.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-844F4A154AF7"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:21.619569",
+    "updated_at": "2026-04-20T07:21:21.619569"
+  },
+  {
+    "_id": "amoxiclavu_susp_3125mg5ml_100__ml_balaxi",
+    "name": "AMOXI+CLAVU SUSP 312.5MG/5ML 100  ML BALAXI",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina + Clavulanato de Potasio",
+    "descripcion": "Suspensión oral de amoxicilina y clavulanato de potasio, utilizada para tratar infecciones bacterianas. Presenta una concentración de 312.5 mg por cada 5 ml y un volumen total de 100 ml.",
+    "image_url": "/uploads/products/amoxiclavu_susp_3125mg5ml_100__ml_balaxi.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.75,
+        "price": 33.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-6642A7E844CB"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:24.992393",
+    "updated_at": "2026-04-20T07:21:24.992393"
+  },
+  {
+    "_id": "amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7",
+    "name": "AMOXIPLUS 1 G (AMOXI+CLAV) BALAXI CJ X 14 BLIST X 7",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina + Clavulanato de Potasio",
+    "descripcion": "AMOXIPLUS 1 G es un antibiótico que combina amoxicilina y clavulanato de potasio, utilizado para tratar infecciones bacterianas. Se presenta en caja con 14 blísteres de 7 comprimidos cada uno.",
+    "image_url": "/uploads/products/amoxiplus_1_g_amoxiclav_balaxi_cj_x_14_blist_x_7.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.8,
+        "price": 35.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-F631FD8305B0"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:28.431096",
+    "updated_at": "2026-04-20T07:21:28.431096"
+  },
+  {
+    "_id": "anestesin_2_c_epinefrina_50_ml_lidocaina",
+    "name": "ANESTESIN 2% C/ EPINEFRINA 50 ML LIDOCAINA",
+    "category": "Anestésico local",
+    "principio_activo": "Lidocaína con epinefrina",
+    "descripcion": "Solución anestésica local al 2% de lidocaína con epinefrina, utilizada para bloquear la conducción nerviosa y proporcionar anestesia local prolongada.",
+    "image_url": "/uploads/products/anestesin_2_c_epinefrina_50_ml_lidocaina.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 30.45,
+        "price": 51.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-83A040663D29"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:31.931712",
+    "updated_at": "2026-04-20T07:21:31.931712"
+  },
+  {
+    "_id": "arnidol_pomada_arnica_12_grs",
+    "name": "ARNIDOL POMADA ARNICA 12 GRS",
+    "category": "Pomada antiinflamatoria y analgésica",
+    "principio_activo": "Árnica",
+    "descripcion": "Pomada tópica que contiene árnica, utilizada para aliviar dolores musculares, inflamaciones y contusiones.",
+    "image_url": "/uploads/products/arnidol_pomada_arnica_12_grs.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.88,
+        "price": 15.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-BB5D3E675CC5"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:34.674741",
+    "updated_at": "2026-04-20T07:21:34.674741"
+  },
+  {
+    "_id": "azitromicina_500_mgs_caja_x_3_umedica",
+    "name": "AZITROMICINA 500 MGS CAJA X 3 UMEDICA",
+    "category": "Antibiótico",
+    "principio_activo": "Azitromicina",
+    "descripcion": "Antibiótico macrólido utilizado para tratar infecciones bacterianas como infecciones respiratorias, de piel y de transmisión sexual.",
+    "image_url": "/uploads/products/azitromicina_500_mgs_caja_x_3_umedica.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.75,
+        "price": 15.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-70A4418CEC73"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:37.164056",
+    "updated_at": "2026-04-20T07:21:37.164056"
+  },
+  {
+    "_id": "baja_lenguas__de_madera_caja_x_100",
+    "name": "BAJA LENGUAS  DE MADERA CAJA X 100",
+    "category": "Material de consulta médica",
+    "principio_activo": "No aplica",
+    "descripcion": "Bajas lenguas de madera, utilizadas comúnmente para examinar la cavidad oral y la garganta. Presentación en caja con 100 unidades.",
+    "image_url": "/uploads/products/baja_lenguas__de_madera_caja_x_100.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.14,
+        "price": 0.25,
+        "profit_percent": 0.44,
+        "sku": "SKU-A1B49EAB096E"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:39.899248",
+    "updated_at": "2026-04-20T07:21:39.899248"
+  },
+  {
+    "_id": "balsamico_del_deportista_lata_12_grs",
+    "name": "BALSAMICO DEL DEPORTISTA LATA 12 GRS",
+    "category": "Producto tópico para alivio muscular",
+    "principio_activo": "Mentol, alcanfor",
+    "descripcion": "Bálsamo en lata de 12 gramos utilizado para aliviar dolores musculares y articulares, especialmente en deportistas. Proporciona una sensación de frescor y ayuda a reducir la inflamación y el malestar.",
+    "image_url": "/uploads/products/balsamico_del_deportista_lata_12_grs.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.65,
+        "price": 9.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-6E73EC584459"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:42.585208",
+    "updated_at": "2026-04-20T07:21:42.585208"
+  },
+  {
+    "_id": "bismuto_bebible_caja_x_10_unidosis_hiper",
+    "name": "BISMUTO BEBIBLE CAJA X 10 UNIDOSIS HIPER",
+    "category": "Antidiarreico",
+    "principio_activo": "Bismuto",
+    "descripcion": "Producto farmacéutico en presentación de unidosis, utilizado para el tratamiento de trastornos gastrointestinales como la diarrea.",
+    "image_url": "/uploads/products/bismuto_bebible_caja_x_10_unidosis_hiper.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.0,
+        "price": 5.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-734D3B62E0C6"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:45.206851",
+    "updated_at": "2026-04-20T07:21:45.206851"
+  },
+  {
+    "_id": "bolsa_horina_ppierna",
+    "name": "BOLSA HORINA P/PIERNA",
+    "category": "Dispositivos médicos",
+    "principio_activo": null,
+    "descripcion": "Bolsa para orina diseñada para ser colocada en la pierna, utilizada para la recolección y almacenamiento de orina en pacientes con catéter urinario.",
+    "image_url": "/uploads/products/bolsa_horina_ppierna.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.1,
+        "price": 15.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-3827D2925C2E"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:47.953635",
+    "updated_at": "2026-04-20T07:21:47.953635"
+  },
+  {
+    "_id": "cabestrillo__l",
+    "name": "CABESTRILLO  L",
+    "category": "Ortopedia",
+    "principio_activo": "No aplica",
+    "descripcion": "Cabestrillo para soporte y inmovilización del brazo y hombro, utilizado en casos de lesiones, fracturas o postoperatorios.",
+    "image_url": "/uploads/products/cabestrillo__l.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 39.85,
+        "price": 68.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-9B36ED7B1E89"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:50.567207",
+    "updated_at": "2026-04-20T07:21:50.567207"
+  },
+  {
+    "_id": "cabestrillo_s_y_m",
+    "name": "CABESTRILLO S Y M",
+    "category": "Dispositivo ortopédico",
+    "principio_activo": "N/A",
+    "descripcion": "Cabestrillo utilizado para inmovilizar y sostener el brazo y el hombro en casos de lesiones, fracturas o postoperatorios.",
+    "image_url": "/uploads/products/cabestrillo_s_y_m.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.93,
+        "price": 68.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-45489EBDDFEF"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:53.425822",
+    "updated_at": "2026-04-20T07:21:53.425822"
+  },
+  {
+    "_id": "cardiovital_caja_x_60_blister_x_10",
+    "name": "CARDIOVITAL CAJA X 60 BLISTER X 10",
+    "category": "Suplemento cardiovascular",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico en caja con 60 unidades, presentadas en blísteres de 10 unidades cada uno, destinado al cuidado cardiovascular.",
+    "image_url": "/uploads/products/cardiovital_caja_x_60_blister_x_10.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.41,
+        "price": 2.2,
+        "profit_percent": 0.36,
+        "sku": "SKU-1F03015C84B7"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:56.196834",
+    "updated_at": "2026-04-20T07:21:56.196834"
+  },
+  {
+    "_id": "carvedilol_125_cj_x_100_blist_x_10_lotus",
+    "name": "CARVEDILOL 12.5 CJ X 100 BLIST X 10 LOTUS",
+    "category": "Antihipertensivo",
+    "principio_activo": "Carvedilol",
+    "descripcion": "Carvedilol 12.5 mg en blíster de 10 tabletas, presentación de 100 blísteres, utilizado para el tratamiento de la hipertensión y la insuficiencia cardíaca.",
+    "image_url": "/uploads/products/carvedilol_125_cj_x_100_blist_x_10_lotus.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.9,
+        "price": 12.0,
+        "profit_percent": 0.59,
+        "sku": "SKU-3E08C774E85C"
+      }
+    ],
+    "created_at": "2026-04-20T07:21:58.965575",
+    "updated_at": "2026-04-20T07:21:58.965575"
+  },
+  {
+    "_id": "cefixima_400_mg_caja_x_10_tab",
+    "name": "CEFIXIMA 400 MG CAJA X 10 TAB",
+    "category": "Antibiótico",
+    "principio_activo": "Cefixima",
+    "descripcion": "Antibiótico de la clase de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas.",
+    "image_url": "/uploads/products/cefixima_400_mg_caja_x_10_tab.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 46.75,
+        "price": 80.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-C8F658A6BE77"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:02.854692",
+    "updated_at": "2026-04-20T07:22:02.854692"
+  },
+  {
+    "_id": "ceftriaxona_1g_vitalis_vial_iny",
+    "name": "CEFTRIAXONA 1G VITALIS VIAL INY",
+    "category": "Antibiótico",
+    "principio_activo": "Ceftriaxona",
+    "descripcion": "Antibiótico de la clase de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas graves. Se administra por vía intramuscular o intravenosa.",
+    "image_url": "/uploads/products/ceftriaxona_1g_vitalis_vial_iny.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.89,
+        "price": 17.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-0A25076426CB"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:05.359259",
+    "updated_at": "2026-04-20T07:22:05.359259"
+  },
+  {
+    "_id": "cetirizina__10_mg__caja_x_100_blist_x_10",
+    "name": "CETIRIZINA  10 MG  CAJA X 100 BLIST X 10",
+    "category": "Antihistamínico",
+    "principio_activo": "Cetirizina",
+    "descripcion": "Medicamento utilizado para aliviar los síntomas de alergias, como rinitis alérgica y urticaria. Cada caja contiene 100 blísteres con 10 tabletas de 10 mg cada una.",
+    "image_url": "/uploads/products/cetirizina__10_mg__caja_x_100_blist_x_10.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.35,
+        "price": 3.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-1C7C920FFCF8"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:08.034275",
+    "updated_at": "2026-04-20T07:22:08.034275"
+  },
+  {
+    "_id": "ciruela_sen_caja_x_15_h__v",
+    "name": "CIRUELA SEN CAJA X 15 H & V",
+    "category": "Laxantes",
+    "principio_activo": "Senósidos",
+    "descripcion": "Producto farmacéutico utilizado como laxante para el tratamiento del estreñimiento ocasional. Contiene senósidos, que estimulan el movimiento intestinal para facilitar la evacuación.",
+    "image_url": "/uploads/products/ciruela_sen_caja_x_15_h__v.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.22,
+        "price": 2.33,
+        "profit_percent": 0.48,
+        "sku": "SKU-BA7BCBBC17A2"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:10.810229",
+    "updated_at": "2026-04-20T07:22:10.810229"
+  },
+  {
+    "_id": "clopidrogel_75_mgs_blist_x_10_caja_x_100_lotus",
+    "name": "CLOPIDROGEL 75 MGS BLIST X 10 CAJA X 100 LOTUS",
+    "category": "Antiplaquetario",
+    "principio_activo": "Clopidogrel",
+    "descripcion": "Clopidogrel 75 mg en blíster de 10 tabletas, caja con 100 unidades, utilizado para prevenir eventos trombóticos en pacientes con riesgo cardiovascular.",
+    "image_url": "/uploads/products/clopidrogel_75_mgs_blist_x_10_caja_x_100_lotus.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.97,
+        "price": 15.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-138225ED0572"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:13.682999",
+    "updated_at": "2026-04-20T07:22:13.682999"
+  },
+  {
+    "_id": "coliverio_plus_cj_x30_caps__blist_x_5",
+    "name": "COLIVERIO PLUS CJ X30 CAPS  BLIST X 5",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Colina, Vitamina B12, Ácido fólico",
+    "descripcion": "Complemento alimenticio en cápsulas que combina colina, vitamina B12 y ácido fólico para apoyar la función cerebral y el metabolismo celular.",
+    "image_url": "/uploads/products/coliverio_plus_cj_x30_caps__blist_x_5.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.67,
+        "price": 7.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-A670EDD270B0"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:17.966270",
+    "updated_at": "2026-04-20T07:22:17.966270"
+  },
+  {
+    "_id": "dexketoprofeno_25_mgs_cj_x_100_tab_blist_x_10_balaxi",
+    "name": "DEXKETOPROFENO 25 MGS CJ X 100 TAB BLIST X 10 BALAXI",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Dexketoprofeno",
+    "descripcion": "Medicamento antiinflamatorio no esteroideo (AINE) utilizado para el alivio del dolor leve a moderado y para reducir la inflamación.",
+    "image_url": "/uploads/products/dexketoprofeno_25_mgs_cj_x_100_tab_blist_x_10_balaxi.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.75,
+        "price": 7.0,
+        "profit_percent": 0.61,
+        "sku": "SKU-1CDBC3EA9249"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:20.802564",
+    "updated_at": "2026-04-20T07:22:20.802564"
+  },
+  {
+    "_id": "dextrovita_al_5_1_litro",
+    "name": "DEXTROVITA AL 5% 1 LITRO",
+    "category": "Solución glucosada",
+    "principio_activo": "Dextrosa (glucosa)",
+    "descripcion": "Solución al 5% de dextrosa en agua, utilizada para hidratación y aporte energético en pacientes.",
+    "image_url": "/uploads/products/dextrovita_al_5_1_litro.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 37.86,
+        "price": 63.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-7F2EE7DC8EF2"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:25.485743",
+    "updated_at": "2026-04-20T07:22:25.485743"
+  },
+  {
+    "_id": "dextrovita_al_5_12_litro",
+    "name": "DEXTROVITA AL 5% 1/2 LITRO",
+    "category": "Solución glucosada",
+    "principio_activo": "Dextrosa",
+    "descripcion": "Solución al 5% de dextrosa en agua para administración intravenosa, utilizada para aportar energía y mantener el equilibrio hídrico y glucémico.",
+    "image_url": "/uploads/products/dextrovita_al_5_12_litro.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.95,
+        "price": 42.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-1A277BBD7E7D"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:28.208111",
+    "updated_at": "2026-04-20T07:22:28.208111"
+  },
+  {
+    "_id": "dipronova_1_ml_amp",
+    "name": "DIPRONOVA 1 ML AMP",
+    "category": "Corticosteroides",
+    "principio_activo": "Betametasona",
+    "descripcion": "DIPRONOVA 1 ML AMP es una solución inyectable que contiene betametasona, un corticosteroide utilizado para tratar inflamaciones, alergias y diversas condiciones autoinmunes.",
+    "image_url": "/uploads/products/dipronova_1_ml_amp.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 31.97,
+        "price": 57.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-E42708D174CF"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:31.238683",
+    "updated_at": "2026-04-20T07:22:31.238683"
+  },
+  {
+    "_id": "dipronova_vial_2_ml",
+    "name": "DIPRONOVA VIAL 2 ML",
+    "category": "Corticosteroides",
+    "principio_activo": "Dexametasona",
+    "descripcion": "DIPRONOVA VIAL 2 ML es un medicamento inyectable que contiene dexametasona, un corticosteroide utilizado para reducir la inflamación y suprimir el sistema inmunológico en diversas condiciones médicas.",
+    "image_url": "/uploads/products/dipronova_vial_2_ml.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 50.0,
+        "price": 99.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-007BB90B4B16"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:34.049328",
+    "updated_at": "2026-04-20T07:22:34.049328"
+  },
+  {
+    "_id": "enzimas_diges_blist_x_10_caja_x_30_conamep",
+    "name": "ENZIMAS DIGES BLIST X 10 CAJA X 30 CONAMEP",
+    "category": "Suplemento digestivo",
+    "principio_activo": "Enzimas digestivas",
+    "descripcion": "Producto farmacéutico que contiene enzimas digestivas para facilitar la digestión de alimentos. Presentado en blíster de 10 unidades, caja con 30 blísters.",
+    "image_url": "/uploads/products/enzimas_diges_blist_x_10_caja_x_30_conamep.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.98,
+        "price": 15.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-AC56FD043721"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:39.406722",
+    "updated_at": "2026-04-20T07:22:39.406722"
+  },
+  {
+    "_id": "equipo__para_suero_nipro",
+    "name": "EQUIPO  PARA SUERO NIPRO",
+    "category": "Equipo para administración de líquidos intravenosos",
+    "principio_activo": "No aplica",
+    "descripcion": "Equipo utilizado para la administración de sueros y líquidos intravenosos, compuesto por tubos, conectores y reguladores de flujo, diseñado para uso médico en la hidratación y administración de medicamentos.",
+    "image_url": "/uploads/products/equipo__para_suero_nipro.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.5,
+        "price": 7.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-170A35FE97EA"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:42.287104",
+    "updated_at": "2026-04-20T07:22:42.287104"
+  },
+  {
+    "_id": "esomeprazol_40_mg_iv_ampolla_lotus_balaxi",
+    "name": "ESOMEPRAZOL 40 MG IV AMPOLLA LOTUS BALAXI",
+    "category": "Inhibidor de la bomba de protones",
+    "principio_activo": "Esomeprazol",
+    "descripcion": "Esomeprazol 40 mg en solución para administración intravenosa, utilizado para reducir la producción de ácido gástrico en el tratamiento de enfermedades relacionadas con el exceso de ácido, como úlceras gástricas, reflujo gastroesofágico y síndrome de Zollinger-Ellison.",
+    "image_url": "/uploads/products/esomeprazol_40_mg_iv_ampolla_lotus_balaxi.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.95,
+        "price": 30.0,
+        "profit_percent": 0.77,
+        "sku": "SKU-195CDF1E5A2A"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:45.433303",
+    "updated_at": "2026-04-20T07:22:45.433303"
+  },
+  {
+    "_id": "ferula_tipo_basball_talla_m",
+    "name": "FERULA TIPO BASBALL TALLA M",
+    "category": "Ortopedia",
+    "principio_activo": "No aplica",
+    "descripcion": "Férula tipo baseball talla M utilizada para inmovilización y soporte en lesiones musculoesqueléticas.",
+    "image_url": "/uploads/products/ferula_tipo_basball_talla_m.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.95,
+        "price": 32.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-BA03B5D6BEBB"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:48.010634",
+    "updated_at": "2026-04-20T07:22:48.010634"
+  },
+  {
+    "_id": "ferula_tipo_ranita_talla_m",
+    "name": "FERULA TIPO RANITA TALLA M",
+    "category": "Ortopedia",
+    "principio_activo": "No aplica",
+    "descripcion": "Ferula tipo ranita talla M utilizada para inmovilización y soporte en lesiones de extremidades.",
+    "image_url": "/uploads/products/ferula_tipo_ranita_talla_m.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.75,
+        "price": 32.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-0D368E9D968C"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:50.538700",
+    "updated_at": "2026-04-20T07:22:50.538700"
+  },
+  {
+    "_id": "fludisin_d_adulto_100_ml_ambrodexkto",
+    "name": "FLUDISIN D ADULTO 100 ML (AMBRO+DEXKTO)",
+    "category": "Solución para rehidratación oral",
+    "principio_activo": "Ambroxol + Dextrosa",
+    "descripcion": "FLUDISIN D ADULTO es una solución para rehidratación oral que combina Ambroxol, un mucolítico que ayuda a fluidificar las secreciones respiratorias, con Dextrosa, que proporciona energía y ayuda en la rehidratación. Está indicado para adultos que requieren hidratación y alivio de la congestión respiratoria.",
+    "image_url": "/uploads/products/fludisin_d_adulto_100_ml_ambrodexkto.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.67,
+        "price": 44.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-BC373377BFF8"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:54.011014",
+    "updated_at": "2026-04-20T07:22:54.011014"
+  },
+  {
+    "_id": "fludisin_d_niños_100_ml_ambrodextro",
+    "name": "FLUDISIN D NIÑOS 100 ML (AMBRO+DEXTRO)",
+    "category": "Solución oral para rehidratación",
+    "principio_activo": "Ambroxol + Dextrosa",
+    "descripcion": "FLUDISIN D NIÑOS es una solución oral indicada para la rehidratación y el tratamiento de la tos en niños, combinando las propiedades mucolíticas del ambroxol con la energía proporcionada por la dextrosa.",
+    "image_url": "/uploads/products/fludisin_d_niños_100_ml_ambrodextro.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 23.95,
+        "price": 42.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-C328CCB6596F"
+      }
+    ],
+    "created_at": "2026-04-20T07:22:57.397294",
+    "updated_at": "2026-04-20T07:22:57.397294"
+  },
+  {
+    "_id": "fryster__salino_120_ml",
+    "name": "FRYSTER  SALINO 120 ML",
+    "category": "Solución salina",
+    "principio_activo": "Cloruro de sodio",
+    "descripcion": "FRYSTER SALINO 120 ML es una solución salina isotónica utilizada para la limpieza y humectación de las fosas nasales, ayudando a aliviar la congestión nasal y mantener la hidratación de las mucosas.",
+    "image_url": "/uploads/products/fryster__salino_120_ml.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.25,
+        "price": 35.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-2100EFC8C0AB"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:00.282736",
+    "updated_at": "2026-04-20T07:23:00.282736"
+  },
+  {
+    "_id": "fryster_lavado_120_ml",
+    "name": "FRYSTER LAVADO 120 ML",
+    "category": "Lavado ocular",
+    "principio_activo": "Solución salina estéril",
+    "descripcion": "FRYSTER LAVADO 120 ML es una solución estéril utilizada para la limpieza y lavado de los ojos, ayudando a eliminar partículas extrañas y aliviar irritaciones oculares.",
+    "image_url": "/uploads/products/fryster_lavado_120_ml.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 22.72,
+        "price": 42.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-F672A913564E"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:03.271597",
+    "updated_at": "2026-04-20T07:23:03.271597"
+  },
+  {
+    "_id": "fungifar_talco_mediano_phongos_50_grs",
+    "name": "FUNGIFAR TALCO MEDIANO P/HONGOS 50 GRS",
+    "category": "Antifúngicos tópicos",
+    "principio_activo": "Tolnaftato",
+    "descripcion": "Talco antifúngico en presentación de 50 gramos, indicado para el tratamiento y prevención de infecciones por hongos en la piel.",
+    "image_url": "/uploads/products/fungifar_talco_mediano_phongos_50_grs.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.25,
+        "price": 26.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-D9274E56C5F8"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:06.063298",
+    "updated_at": "2026-04-20T07:23:06.064299"
+  },
+  {
+    "_id": "fungifar_ultra_cerema_15_grs_butenafina",
+    "name": "FUNGIFAR ULTRA CEREMA 15 GRS (BUTENAFINA)",
+    "category": "Antifúngico tópico",
+    "principio_activo": "Butenafina",
+    "descripcion": "FUNGIFAR ULTRA CEREMA es un medicamento en crema que contiene butenafina, un antifúngico utilizado para tratar infecciones fúngicas de la piel como pie de atleta, tiña y candidiasis cutánea.",
+    "image_url": "/uploads/products/fungifar_ultra_cerema_15_grs_butenafina.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 40.6,
+        "price": 68.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-3AE822F5C1E4"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:08.872910",
+    "updated_at": "2026-04-20T07:23:08.872910"
+  },
+  {
+    "_id": "gelprofen_600_mg_cj_x50_caps",
+    "name": "GELPROFEN 600 MG CJ X50 CAPS",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Ibuprofeno",
+    "descripcion": "Gelprofen 600 mg es un medicamento en cápsulas que contiene ibuprofeno, utilizado para aliviar el dolor y reducir la inflamación en diversas condiciones como artritis, dolor muscular, y otros trastornos inflamatorios.",
+    "image_url": "/uploads/products/gelprofen_600_mg_cj_x50_caps.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.1,
+        "price": 7.5,
+        "profit_percent": 0.45,
+        "sku": "SKU-E3C04E47DD1B"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:11.823717",
+    "updated_at": "2026-04-20T07:23:11.823717"
+  },
+  {
+    "_id": "glimepirida_4_mg_blister_x_10_washington",
+    "name": "GLIMEPIRIDA 4 MG BLISTER X 10 WASHINGTON",
+    "category": "Antidiabético",
+    "principio_activo": "Glimepirida",
+    "descripcion": "Glimepirida 4 mg en presentación de blister con 10 tabletas, utilizado para el tratamiento de la diabetes tipo 2.",
+    "image_url": "/uploads/products/glimepirida_4_mg_blister_x_10_washington.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.0,
+        "price": 7.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-383A10983B90"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:14.507863",
+    "updated_at": "2026-04-20T07:23:14.507863"
+  },
+  {
+    "_id": "gloranta_jengibre_menta_caja_x_25_sob_x_4",
+    "name": "GLORANTA JENGIBRE- MENTA CAJA X 25 SOB X 4",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Jengibre y menta",
+    "descripcion": "Producto en caja con 25 sobres de 4 gramos cada uno, que combina jengibre y menta para ayudar en la digestión y aliviar molestias estomacales.",
+    "image_url": "/uploads/products/gloranta_jengibre_menta_caja_x_25_sob_x_4.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.4,
+        "price": 12.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-FDFA27EF0A24"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:17.034569",
+    "updated_at": "2026-04-20T07:23:17.034569"
+  },
+  {
+    "_id": "gloranta_miel_menta__caja_x_25_sob_x_4",
+    "name": "GLORANTA MIEL MENTA  CAJA X 25 SOB X 4",
+    "category": "Jarabe para la tos",
+    "principio_activo": "Mentol",
+    "descripcion": "GLORANTA MIEL MENTA es un jarabe que combina miel y mentol, utilizado para aliviar la tos y suavizar la garganta. Presentado en caja con 25 sobres de 4 gramos cada uno.",
+    "image_url": "/uploads/products/gloranta_miel_menta__caja_x_25_sob_x_4.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.4,
+        "price": 12.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-F92C22845CE8"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:19.824797",
+    "updated_at": "2026-04-20T07:23:19.824797"
+  },
+  {
+    "_id": "guantes_esteriles_caja_x_50",
+    "name": "GUANTES ESTERILES CAJA X 50",
+    "category": "Material de curación",
+    "principio_activo": "Ninguno",
+    "descripcion": "Guantes estériles para uso médico, presentados en caja con 50 unidades, diseñados para proteger al personal sanitario y mantener la asepsia durante procedimientos médicos.",
+    "image_url": "/uploads/products/guantes_esteriles_caja_x_50.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.95,
+        "price": 7.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-95AFAE909002"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:22.453508",
+    "updated_at": "2026-04-20T07:23:22.453508"
+  },
+  {
+    "_id": "guata_4x4_relleno_ortopedico_100_algodón",
+    "name": "GUATA 4X4 (RELLENO ORTOPEDICO) 100% ALGODÓN",
+    "category": "Materiales ortopédicos",
+    "principio_activo": "No aplica",
+    "descripcion": "Guata 4x4 de relleno ortopédico fabricada 100% en algodón, utilizada para acolchonamiento y protección en aplicaciones médicas y ortopédicas.",
+    "image_url": "/uploads/products/guata_4x4_relleno_ortopedico_100_algodón.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.25,
+        "price": 12.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-554115E58521"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:25.550714",
+    "updated_at": "2026-04-20T07:23:25.550714"
+  },
+  {
+    "_id": "guayacolato_jbe_120_ml_ruipharm",
+    "name": "GUAYACOLATO JBE 120 ML RUIPHARM",
+    "category": "Expectorante",
+    "principio_activo": "Guayacolato de glicerilo",
+    "descripcion": "Jarabe utilizado para facilitar la expectoración en casos de tos y afecciones respiratorias, ayudando a fluidificar las secreciones bronquiales.",
+    "image_url": "/uploads/products/guayacolato_jbe_120_ml_ruipharm.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.75,
+        "price": 12.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-1140F2BF4A98"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:28.360329",
+    "updated_at": "2026-04-20T07:23:28.360329"
+  },
+  {
+    "_id": "hartmann_1000_1_litro",
+    "name": "HARTMANN (1000) 1 LITRO",
+    "category": "Solución intravenosa",
+    "principio_activo": "Electrolitos (Sodio, Potasio, Calcio, Cloruro, Lactato)",
+    "descripcion": "Solución de Hartmann, utilizada para reponer líquidos y electrolitos en pacientes con deshidratación o desequilibrio electrolítico.",
+    "image_url": "/uploads/products/hartmann_1000_1_litro.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.98,
+        "price": 25.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-7B1F92F57431"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:31.112280",
+    "updated_at": "2026-04-20T07:23:31.112280"
+  },
+  {
+    "_id": "hierro_sacarosa_100mg5ml_caja_x_10_vitalis",
+    "name": "HIERRO SACAROSA 100MG/5ML CAJA X 10 VITALIS",
+    "category": "Suplemento mineral",
+    "principio_activo": "Hierro sacarosa",
+    "descripcion": "Suplemento de hierro en forma de sacarosa para el tratamiento y prevención de la deficiencia de hierro.",
+    "image_url": "/uploads/products/hierro_sacarosa_100mg5ml_caja_x_10_vitalis.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 28.75,
+        "price": 63.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-C4A2D2EEB537"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:33.897083",
+    "updated_at": "2026-04-20T07:23:33.897083"
+  },
+  {
+    "_id": "hioscina_10_mg_blister_x_10_caja_x_100",
+    "name": "HIOSCINA 10 MG BLISTER X 10 CAJA X 100",
+    "category": "Antiespasmódico",
+    "principio_activo": "Hioscina",
+    "descripcion": "Medicamento utilizado para aliviar espasmos del tracto gastrointestinal, urinario y biliar.",
+    "image_url": "/uploads/products/hioscina_10_mg_blister_x_10_caja_x_100.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.2,
+        "price": 2.5,
+        "profit_percent": 0.52,
+        "sku": "SKU-560CB5DD6B23"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:36.398863",
+    "updated_at": "2026-04-20T07:23:36.398863"
+  },
+  {
+    "_id": "ibuplus_firt_800_mgs_caha_x_50_blist_x_10_lotus",
+    "name": "IBU-PLUS FIRT 800 MGS CAHA X 50 BLIST X 10 LOTUS",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Ibuprofeno",
+    "descripcion": "IBU-PLUS FIRT 800 MGS es un medicamento que contiene 800 mg de ibuprofeno por dosis, utilizado para aliviar el dolor y reducir la inflamación. Se presenta en cajas con 50 blísteres de 10 tabletas cada uno.",
+    "image_url": "/uploads/products/ibuplus_firt_800_mgs_caha_x_50_blist_x_10_lotus.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.0,
+        "price": 14.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-F8B1C5032818"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:41.214567",
+    "updated_at": "2026-04-20T07:23:41.214567"
+  },
+  {
+    "_id": "indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira",
+    "name": "INDAPAMIDA SR 1.5 MGS CAJA X 100 BLIST X 10 QADIRA",
+    "category": "Diurético",
+    "principio_activo": "Indapamida",
+    "descripcion": "Indapamida SR 1.5 mg es un medicamento diurético utilizado para el tratamiento de la hipertensión arterial y edema. La presentación es en caja con 100 blísteres de 10 comprimidos cada uno.",
+    "image_url": "/uploads/products/indapamida_sr_15_mgs_caja_x_100_blist_x_10_qadira.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.2,
+        "price": 23.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-92495F207A0E"
+      }
+    ],
+    "created_at": "2026-04-20T07:23:43.840347",
+    "updated_at": "2026-04-20T07:23:43.840347"
+  },
+  {
+    "_id": "koact_1_gr_amoxclav_caja_x_15_tab_blister_x_5",
+    "name": "KOACT 1 GR AMOX+CLAV CAJA X 15 TAB BLISTER X 5",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina + Clavulanato de Potasio",
+    "descripcion": "Medicamento antibiótico que combina amoxicilina y ácido clavulánico, utilizado para tratar infecciones bacterianas. Presentado en caja con 15 tabletas en blíster de 5 unidades.",
+    "image_url": "/uploads/products/koact_1_gr_amoxclav_caja_x_15_tab_blister_x_5.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.13,
+        "price": 6.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-88CEEF653BA9"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:01.258176",
+    "updated_at": "2026-04-20T07:24:01.258176"
+  },
+  {
+    "_id": "koact_625_amoxi_500_acidoclav_x_15_tab_blister_x_5",
+    "name": "KOACT 62.5 AMOXI 500 ACIDOCLAV X 15 TAB BLISTER X 5",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina y Ácido Clavulánico",
+    "descripcion": "Medicamento antibiótico que combina amoxicilina y ácido clavulánico, utilizado para tratar infecciones bacterianas. Presentación en tabletas blister, cada tableta contiene 500 mg de amoxicilina y 62.5 mg de ácido clavulánico, paquete con 15 tabletas.",
+    "image_url": "/uploads/products/koact_625_amoxi_500_acidoclav_x_15_tab_blister_x_5.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.0,
+        "price": 4.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-00FEE240E64F"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:04.099356",
+    "updated_at": "2026-04-20T07:24:04.099356"
+  },
+  {
+    "_id": "lancetas_nipro_caja_x_100",
+    "name": "LANCETAS NIPRO CAJA X 100",
+    "category": "Material de diagnóstico",
+    "principio_activo": "No aplica",
+    "descripcion": "Lancetas desechables utilizadas para la punción capilar y obtención de muestras de sangre, presentadas en caja con 100 unidades.",
+    "image_url": "/uploads/products/lancetas_nipro_caja_x_100.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 45.0,
+        "price": 85.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-3E1332DEDA12"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:06.867938",
+    "updated_at": "2026-04-20T07:24:06.867938"
+  },
+  {
+    "_id": "leflunomida_20_mg_blist_x_10_caja_x_100_lotus",
+    "name": "LEFLUNOMIDA 20 MG BLIST X 10 CAJA X 100 LOTUS",
+    "category": "Antirreumático",
+    "principio_activo": "Leflunomida",
+    "descripcion": "Medicamento utilizado para el tratamiento de la artritis reumatoide y otras enfermedades autoinmunes, presentado en tabletas de 20 mg en blíster de 10 unidades, caja con 100 blísters.",
+    "image_url": "/uploads/products/leflunomida_20_mg_blist_x_10_caja_x_100_lotus.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.5,
+        "price": 17.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-A1686CED7F73"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:14.973935",
+    "updated_at": "2026-04-20T07:24:14.973935"
+  },
+  {
+    "_id": "loratadina_10_mgs_cj_x_100_blist_x10_gel_caps_coname",
+    "name": "LORATADINA 10 MGS CJ X 100 BLIST X10 GEL CAPS CONAME",
+    "category": "Antihistamínico",
+    "principio_activo": "Loratadina",
+    "descripcion": "Loratadina 10 mg en gel caps, presentación en caja con 100 blísteres de 10 cápsulas cada uno, utilizada para el alivio de síntomas alérgicos.",
+    "image_url": "/uploads/products/loratadina_10_mgs_cj_x_100_blist_x10_gel_caps_coname.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.55,
+        "price": 13.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-52CFB775440B"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:22.070141",
+    "updated_at": "2026-04-20T07:24:22.070141"
+  },
+  {
+    "_id": "losartan_potasico_50mg_blist_x_10_caja_x_100_lotus",
+    "name": "LOSARTAN POTASICO 50MG BLIST X 10 CAJA X 100 LOTUS",
+    "category": "Antihipertensivo",
+    "principio_activo": "Losartán potásico",
+    "descripcion": "Losartán potásico 50 mg en blíster de 10 tabletas, caja con 100 unidades, utilizado para el tratamiento de la hipertensión arterial.",
+    "image_url": "/uploads/products/losartan_potasico_50mg_blist_x_10_caja_x_100_lotus.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.2,
+        "price": 4.0,
+        "profit_percent": 0.7,
+        "sku": "SKU-90FCA79B05D2"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:25.282275",
+    "updated_at": "2026-04-20T07:24:25.282275"
+  },
+  {
+    "_id": "mascarilla_nebulizar__neonato_operson",
+    "name": "MASCARILLA NEBULIZAR  (NEONATO) OPERSON",
+    "category": "Mascarilla para nebulización",
+    "principio_activo": "No aplica",
+    "descripcion": "Mascarilla diseñada para nebulizar medicamentos en neonatos, facilitando la administración de tratamientos respiratorios.",
+    "image_url": "/uploads/products/mascarilla_nebulizar__neonato_operson.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.95,
+        "price": 29.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-FD10FBD2DF5A"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:27.809604",
+    "updated_at": "2026-04-20T07:24:27.809604"
+  },
+  {
+    "_id": "mascarilla_nebulizar__niño_operson",
+    "name": "MASCARILLA NEBULIZAR  (NIÑO) OPERSON",
+    "category": "Dispositivos médicos",
+    "principio_activo": "N/A",
+    "descripcion": "Mascarilla diseñada para nebulización en niños, utilizada para administrar medicamentos en forma de vapor para tratar enfermedades respiratorias.",
+    "image_url": "/uploads/products/mascarilla_nebulizar__niño_operson.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.95,
+        "price": 29.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-7DF87E57DCDC"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:31.560768",
+    "updated_at": "2026-04-20T07:24:31.560768"
+  },
+  {
+    "_id": "mascarilla_nebulizar_adulto_operson",
+    "name": "MASCARILLA NEBULIZAR (ADULTO) OPERSON",
+    "category": "Dispositivo médico",
+    "principio_activo": "N/A",
+    "descripcion": "Mascarilla para nebulización destinada a adultos, utilizada para administrar medicamentos en forma de aerosol directamente a las vías respiratorias.",
+    "image_url": "/uploads/products/mascarilla_nebulizar_adulto_operson.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.95,
+        "price": 29.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-89B5E825541D"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:34.159870",
+    "updated_at": "2026-04-20T07:24:34.159870"
+  },
+  {
+    "_id": "meropenem_cj_x_vial_20_ml",
+    "name": "MEROPENEM CJ X VIAL 20 ML",
+    "category": "Antibiótico Carbapenémico",
+    "principio_activo": "Meropenem",
+    "descripcion": "Meropenem es un antibiótico de amplio espectro perteneciente a la clase de los carbapenémicos, utilizado para tratar infecciones bacterianas graves. Se administra por vía intravenosa y es efectivo contra una amplia variedad de bacterias grampositivas y gramnegativas.",
+    "image_url": "/uploads/products/meropenem_cj_x_vial_20_ml.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 34.95,
+        "price": 59.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-876DDCA26274"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:37.227312",
+    "updated_at": "2026-04-20T07:24:37.227312"
+  },
+  {
+    "_id": "neutragel_blister_x_10_tab_bonin",
+    "name": "NEUTRAGEL BLISTER X 10 TAB (BONIN)",
+    "category": "Antiácido",
+    "principio_activo": "Almagato",
+    "descripcion": "Neutragel es un antiácido utilizado para aliviar la acidez estomacal y la indigestión, proporcionando una capa protectora en la mucosa gástrica.",
+    "image_url": "/uploads/products/neutragel_blister_x_10_tab_bonin.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.68,
+        "price": 1.2,
+        "profit_percent": 0.43,
+        "sku": "SKU-39B0ADEAFA57"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:40.114620",
+    "updated_at": "2026-04-20T07:24:40.114620"
+  },
+  {
+    "_id": "nodik_500_mg_blister_x3_tab",
+    "name": "NODIK 500 MG BLISTER X3 TAB",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Nimesulida",
+    "descripcion": "NODIK 500 MG es un medicamento que contiene nimesulida, utilizado para aliviar el dolor y reducir la inflamación en diversas condiciones como artritis, dolor muscular y dolor postoperatorio. Se presenta en blíster con 3 tabletas de 500 mg cada una.",
+    "image_url": "/uploads/products/nodik_500_mg_blister_x3_tab.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.75,
+        "price": 27.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-BDCAAAA7DE52"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:43.503474",
+    "updated_at": "2026-04-20T07:24:43.503474"
+  },
+  {
+    "_id": "omeprazol_40_mg_vial_iv_vitalis",
+    "name": "OMEPRAZOL 40 MG VIAL IV (VITALIS)",
+    "category": "Inhibidor de la bomba de protones",
+    "principio_activo": "Omeprazol",
+    "descripcion": "Omeprazol 40 mg en vial para administración intravenosa, utilizado para reducir la producción de ácido gástrico en el tratamiento de úlceras gástricas, reflujo gastroesofágico y otras condiciones relacionadas con la hipersecreción ácida.",
+    "image_url": "/uploads/products/omeprazol_40_mg_vial_iv_vitalis.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.1,
+        "price": 30.0,
+        "profit_percent": 0.63,
+        "sku": "SKU-74A9D5D7A3BC"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:46.522162",
+    "updated_at": "2026-04-20T07:24:46.522162"
+  },
+  {
+    "_id": "oxido_zinc_sobre_28_grs_bolsa_x__16",
+    "name": "OXIDO ZINC SOBRE 28 GRS BOLSA X  16",
+    "category": "Antisépticos y protectores cutáneos",
+    "principio_activo": "Óxido de zinc",
+    "descripcion": "Producto en sobre de 28 gramos que contiene óxido de zinc, utilizado para proteger y tratar irritaciones de la piel.",
+    "image_url": "/uploads/products/oxido_zinc_sobre_28_grs_bolsa_x__16.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.52,
+        "price": 6.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-B66C6EEF2285"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:49.311382",
+    "updated_at": "2026-04-20T07:24:49.311382"
+  },
+  {
+    "_id": "panclasa_pague_30_lleve_40_blister_x_10",
+    "name": "PANCLASA PAGUE 30 LLEVE 40 BLISTER X 10",
+    "category": "Enzimas digestivas",
+    "principio_activo": "Pancreatina",
+    "descripcion": "PANCLASA es un medicamento que contiene pancreatina, una mezcla de enzimas digestivas que ayudan a la digestión de grasas, proteínas y carbohidratos. La presentación 'PAGUE 30 LLEVE 40 BLISTER X 10' indica una promoción donde se adquieren 30 cápsulas pero se reciben 40, en blíster de 10 cápsulas cada uno.",
+    "image_url": "/uploads/products/panclasa_pague_30_lleve_40_blister_x_10.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 33.74,
+        "price": 50.0,
+        "profit_percent": 0.33,
+        "sku": "SKU-96C85C6043CA"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:53.179474",
+    "updated_at": "2026-04-20T07:24:53.179474"
+  },
+  {
+    "_id": "pomada_de_oxido_zinc",
+    "name": "POMADA DE OXIDO ZINC",
+    "category": "Dermatológico",
+    "principio_activo": "Óxido de zinc",
+    "descripcion": "Pomada utilizada para proteger y tratar irritaciones menores de la piel, como quemaduras leves, rozaduras y dermatitis del pañal, gracias a sus propiedades astringentes, antisépticas y protectoras.",
+    "image_url": "/uploads/products/pomada_de_oxido_zinc.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.25,
+        "price": 11.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-83EF1062642C"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:56.287894",
+    "updated_at": "2026-04-20T07:24:56.287894"
+  },
+  {
+    "_id": "prednisolona_15_mgs_jbe_120_ml_pharmadel",
+    "name": "PREDNISOLONA 15 MGS JBE 120 ML PHARMADEL",
+    "category": "Corticosteroides",
+    "principio_activo": "Prednisolona",
+    "descripcion": "Jarabe de prednisolona 15 mg en 120 ml, utilizado como antiinflamatorio y para tratar diversas condiciones alérgicas y autoinmunes.",
+    "image_url": "/uploads/products/prednisolona_15_mgs_jbe_120_ml_pharmadel.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 46.95,
+        "price": 79.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-9A3843943C55"
+      }
+    ],
+    "created_at": "2026-04-20T07:24:58.866958",
+    "updated_at": "2026-04-20T07:24:58.866958"
+  },
+  {
+    "_id": "pregabalina_75_mg_caja_x_100__blist_x_10_caps",
+    "name": "PREGABALINA 75 MG CAJA X 100  BLIST X 10 CAPS",
+    "category": "Medicamento anticonvulsivante y analgésico",
+    "principio_activo": "Pregabalina",
+    "descripcion": "Caja con 100 cápsulas de 75 mg de pregabalina, utilizadas para el tratamiento del dolor neuropático, epilepsia y trastornos de ansiedad.",
+    "image_url": "/uploads/products/pregabalina_75_mg_caja_x_100__blist_x_10_caps.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.9,
+        "price": 2.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-0F708F3F5106"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:01.618433",
+    "updated_at": "2026-04-20T07:25:01.618433"
+  },
+  {
+    "_id": "prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv",
+    "name": "PRENATALES FLOUR CON BIOTINA CAJA X 30 BLIST X 10 HV",
+    "category": "Suplementos vitamínicos y minerales",
+    "principio_activo": "Ácido fólico, biotina",
+    "descripcion": "Suplemento prenatal que contiene ácido fólico y biotina, diseñado para apoyar la salud de la madre y el desarrollo del feto durante el embarazo.",
+    "image_url": "/uploads/products/prenatales_flour_con_biotina_caja_x_30_blist_x_10_hv.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.81,
+        "price": 15.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-1192EAF513F3"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:04.497004",
+    "updated_at": "2026-04-20T07:25:04.497004"
+  },
+  {
+    "_id": "propoltox_propoleo_jbe_120_ml",
+    "name": "PROPOLTOX (PROPOLEO) JBE 120 ML",
+    "category": "Jarabe",
+    "principio_activo": "Propóleo",
+    "descripcion": "Jarabe de propóleo utilizado para aliviar irritaciones de garganta y fortalecer el sistema inmunológico.",
+    "image_url": "/uploads/products/propoltox_propoleo_jbe_120_ml.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 24.25,
+        "price": 41.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-64BAFD41654F"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:07.447571",
+    "updated_at": "2026-04-20T07:25:07.447571"
+  },
+  {
+    "_id": "ranitidina_50_mgs2ml_x_10_ampollas_vitalis",
+    "name": "RANITIDINA 50 MGS/2ML X 10 AMPOLLAS VITALIS",
+    "category": "Antiácido / Antiulceroso",
+    "principio_activo": "Ranitidina",
+    "descripcion": "Ranitidina 50 mg/2 ml en ampollas, utilizada para reducir la producción de ácido en el estómago y tratar úlceras gástricas, reflujo gastroesofágico y otras condiciones relacionadas con el exceso de ácido.",
+    "image_url": "/uploads/products/ranitidina_50_mgs2ml_x_10_ampollas_vitalis.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.0,
+        "price": 12.0,
+        "profit_percent": 1.0,
+        "sku": "SKU-553E6B548244"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:10.407060",
+    "updated_at": "2026-04-20T07:25:10.407060"
+  },
+  {
+    "_id": "rhelax_fleb__pomada_60_grs",
+    "name": "RHELAX FLEB  POMADA 60 GRS",
+    "category": "Pomada para tratamiento de problemas venosos",
+    "principio_activo": "Extractos de plantas con propiedades flebotónicas y antiinflamatorias",
+    "descripcion": "RHELAX FLEB es una pomada de 60 gramos utilizada para aliviar síntomas asociados a problemas venosos como varices, pesadez y dolor en las piernas, mejorando la circulación y reduciendo la inflamación.",
+    "image_url": "/uploads/products/rhelax_fleb__pomada_60_grs.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.45,
+        "price": 27.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-C0119E9CE5E0"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:13.905923",
+    "updated_at": "2026-04-20T07:25:13.905923"
+  },
+  {
+    "_id": "rinofed_plus_cj_x_12_tabs",
+    "name": "RINOFED PLUS CJ X 12 TABS",
+    "category": "Descongestionante nasal",
+    "principio_activo": "Pseudoefedrina y clorfeniramina",
+    "descripcion": "RINOFED PLUS CJ X 12 TABS es un medicamento utilizado para aliviar los síntomas de congestión nasal y alergias, combinando un descongestionante y un antihistamínico.",
+    "image_url": "/uploads/products/rinofed_plus_cj_x_12_tabs.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.1,
+        "price": 9.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-0CF55E80F1DA"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:17.274564",
+    "updated_at": "2026-04-20T07:25:17.274564"
+  },
+  {
+    "_id": "salbutamol_spray_10mcx_dosis_200_balaxi",
+    "name": "SALBUTAMOL SPRAY 10MCX DOSIS 200 BALAXI",
+    "category": "Broncodilatador",
+    "principio_activo": "Salbutamol",
+    "descripcion": "Spray inhalador que contiene 10 microgramos por dosis, utilizado para el alivio y tratamiento del broncoespasmo en enfermedades respiratorias como el asma y la enfermedad pulmonar obstructiva crónica (EPOC).",
+    "image_url": "/uploads/products/salbutamol_spray_10mcx_dosis_200_balaxi.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.95,
+        "price": 24.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-F94A4641CD10"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:20.544179",
+    "updated_at": "2026-04-20T07:25:20.544179"
+  },
+  {
+    "_id": "secnidazol_500_mg_12_blist_x_4_caja_x_48_infasa",
+    "name": "SECNIDAZOL 500 MG 12 BLIST X 4 CAJA X 48 INFASA",
+    "category": "Antiparasitario",
+    "principio_activo": "Secnidazol",
+    "descripcion": "Secnidazol 500 mg en presentación de 12 blísteres por caja, cada blíster contiene 4 tabletas, total 48 tabletas. Utilizado para el tratamiento de infecciones parasitarias.",
+    "image_url": "/uploads/products/secnidazol_500_mg_12_blist_x_4_caja_x_48_infasa.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.75,
+        "price": 10.0,
+        "profit_percent": 0.53,
+        "sku": "SKU-FCF522C77E56"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:23.258700",
+    "updated_at": "2026-04-20T07:25:23.258700"
+  },
+  {
+    "_id": "sedatos_plus_120_ml_bonin",
+    "name": "SEDATOS PLUS 120 ML (BONIN)",
+    "category": "Sedante y relajante muscular",
+    "principio_activo": "Clorhidrato de clobutinol y otros componentes",
+    "descripcion": "SEDATOS PLUS 120 ML (BONIN) es un medicamento utilizado para aliviar la ansiedad, el estrés y facilitar la relajación muscular. Su fórmula está diseñada para proporcionar un efecto sedante suave, ayudando a mejorar el descanso y reducir la tensión.",
+    "image_url": "/uploads/products/sedatos_plus_120_ml_bonin.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 22.15,
+        "price": 38.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-04961ACF1D04"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:26.571840",
+    "updated_at": "2026-04-20T07:25:26.571840"
+  },
+  {
+    "_id": "serafon_guayacoleucali_x_1000",
+    "name": "SERAFON GUAYACOL+EUCALI) X 1000",
+    "category": "Expectorante y descongestionante",
+    "principio_activo": "Guayacol y Eucaliptol",
+    "descripcion": "Medicamento utilizado para aliviar la congestión respiratoria y facilitar la expulsión de mucosidades en vías respiratorias.",
+    "image_url": "/uploads/products/serafon_guayacoleucali_x_1000.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.13,
+        "price": 0.25,
+        "profit_percent": 0.5,
+        "sku": "SKU-16EC53B062F4"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:29.269400",
+    "updated_at": "2026-04-20T07:25:29.269400"
+  },
+  {
+    "_id": "solucion_salina_para_nebulizar_250_ml",
+    "name": "SOLUCION SALINA PARA NEBULIZAR 250 ML",
+    "category": "Solución salina",
+    "principio_activo": "Cloruro de sodio",
+    "descripcion": "Solución salina estéril para nebulización, utilizada para humidificar las vías respiratorias y facilitar la expectoración.",
+    "image_url": "/uploads/products/solucion_salina_para_nebulizar_250_ml.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.9,
+        "price": 16.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-F16F759851C0"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:32.669612",
+    "updated_at": "2026-04-20T07:25:32.669612"
+  },
+  {
+    "_id": "sucralfato___200_ml__susp_rhemus",
+    "name": "SUCRALFATO   200 ML  SUSP RHEMUS",
+    "category": "Antiácido y protector gástrico",
+    "principio_activo": "Sucralfato",
+    "descripcion": "Suspensión oral de sucralfato 200 ml, utilizada para el tratamiento y prevención de úlceras gástricas y duodenales, formando una barrera protectora sobre la mucosa gastrointestinal.",
+    "image_url": "/uploads/products/sucralfato___200_ml__susp_rhemus.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 29.95,
+        "price": 52.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-881CC8155C4C"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:36.824770",
+    "updated_at": "2026-04-20T07:25:36.824770"
+  },
+  {
+    "_id": "sucralfato_1g_180_ml_susp_jelse",
+    "name": "SUCRALFATO 1G 180 ML SUSP JELSE",
+    "category": "Antiácido y protector gástrico",
+    "principio_activo": "Sucralfato",
+    "descripcion": "Suspensión oral de sucralfato 1g en 180 ml, utilizada para el tratamiento y prevención de úlceras gástricas y duodenales, actuando como una barrera protectora sobre la mucosa gastrointestinal.",
+    "image_url": "/uploads/products/sucralfato_1g_180_ml_susp_jelse.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 31.95,
+        "price": 49.0,
+        "profit_percent": 0.35,
+        "sku": "SKU-BDDF00FC13A7"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:41.936345",
+    "updated_at": "2026-04-20T07:25:41.936345"
+  },
+  {
+    "_id": "suero_en_polvo_naranja_1_lt_promegal_x_25",
+    "name": "SUERO EN POLVO NARANJA 1 LT PROMEGAL X 25",
+    "category": "Suplemento electrolítico",
+    "principio_activo": "Sales minerales y glucosa",
+    "descripcion": "Suero en polvo sabor naranja para rehidratación oral, indicado para prevenir y tratar la deshidratación causada por diarrea, vómitos o ejercicio intenso.",
+    "image_url": "/uploads/products/suero_en_polvo_naranja_1_lt_promegal_x_25.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.02,
+        "price": 4.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-252354075CDC"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:44.663835",
+    "updated_at": "2026-04-20T07:25:44.663835"
+  },
+  {
+    "_id": "termometro_digital_cazul_operson",
+    "name": "TERMOMETRO DIGITAL C/AZUL (OPERSON)",
+    "category": "Instrumentos médicos",
+    "principio_activo": "N/A",
+    "descripcion": "Termómetro digital con pantalla azul para medir la temperatura corporal de manera rápida y precisa.",
+    "image_url": "/uploads/products/termometro_digital_cazul_operson.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.95,
+        "price": 33.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-ABD0B41743D3"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:47.286919",
+    "updated_at": "2026-04-20T07:25:47.286919"
+  },
+  {
+    "_id": "termometro_frontal_1_tira_hierfarma",
+    "name": "TERMOMETRO FRONTAL 1 TIRA HIERFARMA",
+    "category": "Termómetros",
+    "principio_activo": "",
+    "descripcion": "Termómetro frontal de una tira de la marca Hierfarma, diseñado para medir la temperatura corporal de manera rápida y sin contacto directo.",
+    "image_url": "/uploads/products/termometro_frontal_1_tira_hierfarma.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.95,
+        "price": 9.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-17EBCEAD1CB1"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:50.161852",
+    "updated_at": "2026-04-20T07:25:50.161852"
+  },
+  {
+    "_id": "tiras__premier_nipro_caja_x_50",
+    "name": "TIRAS  PREMIER NIPRO CAJA X 50",
+    "category": "Tiras reactivas para glucosa",
+    "principio_activo": "No aplica",
+    "descripcion": "Tiras reactivas para la medición de glucosa en sangre, utilizadas con medidores de glucosa para el control de la diabetes. Presentación en caja con 50 tiras.",
+    "image_url": "/uploads/products/tiras__premier_nipro_caja_x_50.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 121.95,
+        "price": 190.0,
+        "profit_percent": 0.36,
+        "sku": "SKU-936A0920C863"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:53.484985",
+    "updated_at": "2026-04-20T07:25:53.484985"
+  },
+  {
+    "_id": "trimetoprim_sulfa_40200mg_ruipharm",
+    "name": "TRIMETOPRIM SULFA 40-200MG RUIPHARM",
+    "category": "Antibiótico",
+    "principio_activo": "Trimetoprim y Sulfametoxazol",
+    "descripcion": "Combinación de antibióticos utilizada para tratar infecciones bacterianas, especialmente infecciones del tracto urinario.",
+    "image_url": "/uploads/products/trimetoprim_sulfa_40200mg_ruipharm.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.95,
+        "price": 14.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-FAF8BBE726BE"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:55.996248",
+    "updated_at": "2026-04-20T07:25:55.996248"
+  },
+  {
+    "_id": "tylenol_rojo_extra_f_cj_x_20_tab_10_sob",
+    "name": "TYLENOL ROJO EXTRA F CJ X 20 TAB 10 SOB",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Paracetamol",
+    "descripcion": "Tylenol Rojo Extra es un medicamento utilizado para aliviar el dolor y reducir la fiebre. Contiene paracetamol como principio activo y se presenta en caja con 20 tabletas y 10 sobres.",
+    "image_url": "/uploads/products/tylenol_rojo_extra_f_cj_x_20_tab_10_sob.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.3,
+        "price": 5.0,
+        "profit_percent": 0.34,
+        "sku": "SKU-9BBFD804F376"
+      }
+    ],
+    "created_at": "2026-04-20T07:25:58.956885",
+    "updated_at": "2026-04-20T07:25:58.956885"
+  },
+  {
+    "_id": "unicil_12_megas_unipharm",
+    "name": "UNICIL 1.2 MEGAS (UNIPHARM)",
+    "category": "Antibiótico",
+    "principio_activo": "Cefalexina",
+    "descripcion": "UNICIL 1.2 MEGAS (UNIPHARM) es un antibiótico del grupo de las cefalosporinas de primera generación, utilizado para tratar infecciones bacterianas sensibles a este medicamento.",
+    "image_url": "/uploads/products/unicil_12_megas_unipharm.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 21.25,
+        "price": 37.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-F86DD294565C"
+      }
+    ],
+    "created_at": "2026-04-20T07:26:02.116478",
+    "updated_at": "2026-04-20T07:26:02.116478"
+  },
+  {
+    "_id": "unicil_4_megas_unhipharm",
+    "name": "UNICIL 4 MEGAS (UNHIPHARM)",
+    "category": "Antibiótico",
+    "principio_activo": "Penicilina G benzatina",
+    "descripcion": "UNICIL 4 MEGAS (UNHIPHARM) es un antibiótico de la familia de las penicilinas, utilizado para tratar infecciones bacterianas sensibles a la penicilina G benzatina. Se administra por vía intramuscular y es efectivo contra infecciones como faringitis estreptocócica, sífilis y otras infecciones causadas por bacterias susceptibles.",
+    "image_url": "/uploads/products/unicil_4_megas_unhipharm.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.95,
+        "price": 40.0,
+        "profit_percent": 0.53,
+        "sku": "SKU-AD2A0EDBF915"
+      }
+    ],
+    "created_at": "2026-04-20T07:26:07.544106",
+    "updated_at": "2026-04-20T07:26:07.544106"
+  },
+  {
+    "_id": "vick_caramelos_frasco_x_125",
+    "name": "VICK CARAMELOS FRASCO X 125",
+    "category": "Antitusivos y Expectorantes",
+    "principio_activo": "Mentol",
+    "descripcion": "Caramelos para aliviar la tos y la irritación de garganta, con efecto refrescante y descongestionante.",
+    "image_url": "/uploads/products/vick_caramelos_frasco_x_125.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.56,
+        "price": 1.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-328328E565AD"
+      }
+    ],
+    "created_at": "2026-04-20T07:26:10.075119",
+    "updated_at": "2026-04-20T07:26:10.075119"
+  },
+  {
+    "_id": "visina_esteri_jj_gotas_15_ml_tetrizolin",
+    "name": "VISINA ESTERI J&J GOTAS 15 ML (TETRIZOLIN)",
+    "category": "Colirios y gotas oftálmicas",
+    "principio_activo": "Tetrizolina",
+    "descripcion": "VISINA ESTERI J&J GOTAS 15 ML es un colirio que contiene tetrizolina, un vasoconstrictor ocular utilizado para aliviar el enrojecimiento y la irritación de los ojos.",
+    "image_url": "/uploads/products/visina_esteri_jj_gotas_15_ml_tetrizolin.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 45.25,
+        "price": 72.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-A2188A63D6A1"
+      }
+    ],
+    "created_at": "2026-04-20T07:26:13.467492",
+    "updated_at": "2026-04-20T07:26:13.467492"
+  },
+  {
+    "_id": "vista_clara_15_ml_antialergico",
+    "name": "VISTA CLARA 15 ML (ANTIALERGICO)",
+    "category": "Antialérgicos oftálmicos",
+    "principio_activo": "Antihistamínicos tópicos",
+    "descripcion": "Solución oftálmica de 15 ml utilizada para aliviar los síntomas de alergias oculares como picazón, enrojecimiento y lagrimeo.",
+    "image_url": "/uploads/products/vista_clara_15_ml_antialergico.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 23.75,
+        "price": 40.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-D6AE2A616ED4"
+      }
+    ],
+    "created_at": "2026-04-20T07:26:17.506725",
+    "updated_at": "2026-04-20T07:26:17.506725"
+  },
+  {
+    "_id": "vitamina_c_500_mg_masticable_blist_x_10_caja_x_100",
+    "name": "VITAMINA C 500 MG MASTICABLE BLIST, X 10 CAJA X 100",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Ácido ascórbico (Vitamina C)",
+    "descripcion": "Vitamina C 500 mg en tabletas masticables, presentadas en blíster, caja con 10 blísteres de 100 tabletas cada uno.",
+    "image_url": "/uploads/products/vitamina_c_500_mg_masticable_blist_x_10_caja_x_100.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.79,
+        "price": 10.0,
+        "profit_percent": 0.72,
+        "sku": "SKU-5A54E2453F58"
+      }
+    ],
+    "created_at": "2026-04-20T07:26:20.608848",
+    "updated_at": "2026-04-20T07:26:20.608848"
+  },
+  {
+    "_id": "vitamina_d_2000_blist_x_15_caja_x_30_hv",
+    "name": "VITAMINA D 2000 BLIST X 15 CAJA X 30 H&V",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina D",
+    "descripcion": "Vitamina D 2000 UI en presentación de blíster con 15 unidades, caja con 30 blísteres, marca H&V.",
+    "image_url": "/uploads/products/vitamina_d_2000_blist_x_15_caja_x_30_hv.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.48,
+        "price": 25.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-849FF53B810D"
+      }
+    ],
+    "created_at": "2026-04-20T07:26:24.010489",
+    "updated_at": "2026-04-20T07:26:24.010489"
+  },
+  {
+    "_id": "zinc_30_mg_caja_x_30__blist_x_10_caps_foral_salud",
+    "name": "ZINC 30 MG CAJA X 30  BLIST X 10 CAPS (FORAL SALUD)",
+    "category": "Suplemento mineral",
+    "principio_activo": "Zinc",
+    "descripcion": "Suplemento de zinc en cápsulas de 30 mg, presentado en caja con 30 cápsulas divididas en blísteres de 10 unidades, utilizado para complementar la ingesta de zinc y apoyar funciones inmunológicas y metabólicas.",
+    "image_url": "/uploads/products/zinc_30_mg_caja_x_30__blist_x_10_caps_foral_salud.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.48,
+        "price": 10.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-8789F85561CA"
+      }
+    ],
+    "created_at": "2026-04-20T07:26:27.433888",
+    "updated_at": "2026-04-20T07:26:27.433888"
+  },
+  {
+    "_id": "zorritone_caramelo_barra_caja_x_12_jengibre",
+    "name": "ZORRITONE CARAMELO BARRA CAJA X 12 JENGIBRE",
+    "category": "Caramelos medicinales",
+    "principio_activo": "Jengibre",
+    "descripcion": "Caramelos con sabor a jengibre utilizados para aliviar molestias de garganta y mejorar la digestión.",
+    "image_url": "/uploads/products/zorritone_caramelo_barra_caja_x_12_jengibre.jpg",
+    "supplier": "OLAM",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.98,
+        "price": 5.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-FAB0786C805C"
+      }
+    ],
+    "created_at": "2026-04-20T07:26:30.453424",
+    "updated_at": "2026-04-20T07:26:30.453424"
+  }
+]

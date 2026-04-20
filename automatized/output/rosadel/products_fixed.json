@@ -1,0 +1,3740 @@
+[
+  {
+    "_id": "abrexil_susp_120ml",
+    "name": "ABREXIL SUSP 120ML",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina",
+    "descripcion": "ABREXIL SUSP 120ML es una suspensión oral que contiene amoxicilina, un antibiótico del grupo de las penicilinas utilizado para tratar infecciones bacterianas en diferentes partes del cuerpo.",
+    "image_url": "/uploads/products/abrexil_susp_120ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.9,
+        "price": 40.0,
+        "profit_percent": 0.53,
+        "sku": "SKU-CBE574696C08"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:07.250518",
+    "updated_at": "2026-04-20T06:19:07.250518"
+  },
+  {
+    "_id": "acetaminofen_gotas_100_mg_fco_30_ml_selec",
+    "name": "ACETAMINOFEN GOTAS 100 MG FCO 30 ML SELEC",
+    "category": "Analgésicos y antipiréticos",
+    "principio_activo": "Acetaminofén",
+    "descripcion": "Gotas orales de acetaminofén 100 mg por 1 ml en frasco de 30 ml, utilizadas para aliviar el dolor y reducir la fiebre.",
+    "image_url": "/uploads/products/acetaminofen_gotas_100_mg_fco_30_ml_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 18.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-5525214CD459"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:10.436191",
+    "updated_at": "2026-04-20T06:19:10.436191"
+  },
+  {
+    "_id": "acetaminofen_jbe_120_ml_selec",
+    "name": "ACETAMINOFEN JBE 120 ML SELEC",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Acetaminofén",
+    "descripcion": "Jarabe de 120 ml utilizado para aliviar el dolor y reducir la fiebre.",
+    "image_url": "/uploads/products/acetaminofen_jbe_120_ml_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.0,
+        "price": 13.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-AA765618C6E6"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:13.895551",
+    "updated_at": "2026-04-20T06:19:13.895551"
+  },
+  {
+    "_id": "aciclovir_400_mg_blist_x_10_caja_x_50_selec",
+    "name": "ACICLOVIR 400 MG BLIST X 10 CAJA X 50 SELEC",
+    "category": "Antiviral",
+    "principio_activo": "Aciclovir",
+    "descripcion": "Medicamento antiviral utilizado para el tratamiento de infecciones causadas por virus del herpes, como herpes simple y herpes zóster. Presentación en tabletas de 400 mg, empaque en blíster de 10 unidades, caja con 50 blísters.",
+    "image_url": "/uploads/products/aciclovir_400_mg_blist_x_10_caja_x_50_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 18.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-97E01F2E8883"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:16.773525",
+    "updated_at": "2026-04-20T06:19:16.773525"
+  },
+  {
+    "_id": "aciclovir_5_crema_10_gms_selec",
+    "name": "ACICLOVIR 5% CREMA 10 GMS SELEC",
+    "category": "Antiviral tópico",
+    "principio_activo": "Aciclovir",
+    "descripcion": "Crema al 5% de aciclovir indicada para el tratamiento de infecciones cutáneas causadas por virus herpes simplex, como el herpes labial y el herpes genital.",
+    "image_url": "/uploads/products/aciclovir_5_crema_10_gms_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.15,
+        "price": 9.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-85B5D6EF7683"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:19.572826",
+    "updated_at": "2026-04-20T06:19:19.572826"
+  },
+  {
+    "_id": "acido_folico_5_mg_blister_x_20_caja_x_100_selec",
+    "name": "ACIDO FOLICO 5 MG BLISTER X 20 CAJA X 100 SELEC",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Ácido fólico",
+    "descripcion": "Ácido fólico 5 mg en presentación de blister con 20 unidades, caja con 100 blisters. Utilizado para prevenir y tratar deficiencias de ácido fólico.",
+    "image_url": "/uploads/products/acido_folico_5_mg_blister_x_20_caja_x_100_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.25,
+        "price": 5.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-5EE9BD246B5F"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:23.371947",
+    "updated_at": "2026-04-20T06:19:23.371947"
+  },
+  {
+    "_id": "agua_oxigenada_3_sol_loralva_120_ml",
+    "name": "AGUA OXIGENADA 3% SOL LORALVA 120 ML",
+    "category": "Antiséptico",
+    "principio_activo": "Peróxido de hidrógeno",
+    "descripcion": "Solución acuosa al 3% de peróxido de hidrógeno utilizada como antiséptico para limpiar heridas y prevenir infecciones.",
+    "image_url": "/uploads/products/agua_oxigenada_3_sol_loralva_120_ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.17,
+        "price": 2.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-2FC060887650"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:26.084443",
+    "updated_at": "2026-04-20T06:19:26.084443"
+  },
+  {
+    "_id": "albendazol_200mg5ml_susp_selecpharma",
+    "name": "ALBENDAZOL 200MG/5ML SUSP SELECPHARMA",
+    "category": "Antiparasitario",
+    "principio_activo": "Albendazol",
+    "descripcion": "Suspensión oral de albendazol 200 mg por 5 ml, utilizada para el tratamiento de infecciones parasitarias.",
+    "image_url": "/uploads/products/albendazol_200mg5ml_susp_selecpharma.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.65,
+        "price": 8.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-729EB748918E"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:28.626424",
+    "updated_at": "2026-04-20T06:19:28.626424"
+  },
+  {
+    "_id": "alermine_cort_caja_x_10_tabs",
+    "name": "ALERMINE CORT CAJA X 10 TABS",
+    "category": "Antialérgicos y Corticoides",
+    "principio_activo": "Loratadina y Prednisolona",
+    "descripcion": "ALERMINE CORT es un medicamento que combina un antihistamínico (loratadina) con un corticosteroide (prednisolona) para el tratamiento de alergias y condiciones inflamatorias. Se presenta en caja con 10 tabletas.",
+    "image_url": "/uploads/products/alermine_cort_caja_x_10_tabs.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.8,
+        "price": 10.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-E5EC8C460198"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:32.140607",
+    "updated_at": "2026-04-20T06:19:32.140607"
+  },
+  {
+    "_id": "alermine_cort_jbe_60_ml",
+    "name": "ALERMINE CORT JBE 60 ML",
+    "category": "Jarabe antialérgico",
+    "principio_activo": "Clorfeniramina y Betametasona",
+    "descripcion": "ALERMINE CORT JBE es un jarabe utilizado para el alivio de síntomas alérgicos, combinando un antihistamínico (clorfeniramina) con un corticosteroide (betametasona) para reducir la inflamación y la reacción alérgica.",
+    "image_url": "/uploads/products/alermine_cort_jbe_60_ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 38.6,
+        "price": 65.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-00E6622A1528"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:35.068341",
+    "updated_at": "2026-04-20T06:19:35.068341"
+  },
+  {
+    "_id": "amoxicilina_250_mg_120_ml_select",
+    "name": "AMOXICILINA 250 MG/ 120 ML SELECT",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina",
+    "descripcion": "Amoxicilina 250 mg por 120 ml es un antibiótico del grupo de las penicilinas, utilizado para tratar infecciones bacterianas en diferentes partes del cuerpo.",
+    "image_url": "/uploads/products/amoxicilina_250_mg_120_ml_select.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.9,
+        "price": 19.0,
+        "profit_percent": 0.58,
+        "sku": "SKU-287BD7E7DAA4"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:38.218780",
+    "updated_at": "2026-04-20T06:19:38.218780"
+  },
+  {
+    "_id": "amoxicilina_gotas_100_mgs_15_ml_selec",
+    "name": "AMOXICILINA GOTAS 100 MGS 15 ML SELEC",
+    "category": "Antibióticos",
+    "principio_activo": "Amoxicilina",
+    "descripcion": "Amoxicilina gotas 100 mg/15 ml es un antibiótico del grupo de las penicilinas, utilizado para tratar infecciones bacterianas en niños y adultos, administrado en forma de gotas orales.",
+    "image_url": "/uploads/products/amoxicilina_gotas_100_mgs_15_ml_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.2,
+        "price": 22.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-DF436D4CBF28"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:41.846745",
+    "updated_at": "2026-04-20T06:19:41.846745"
+  },
+  {
+    "_id": "amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14",
+    "name": "AMOXIPLUS 625 MGS (AMOX+CLAV) BALAXI CAJA X 14",
+    "category": "Antibiótico",
+    "principio_activo": "Amoxicilina + Clavulanato de Potasio",
+    "descripcion": "AMOXIPLUS 625 MGS es un antibiótico que combina amoxicilina y clavulanato de potasio, utilizado para tratar infecciones bacterianas. La presentación es en caja con 14 tabletas.",
+    "image_url": "/uploads/products/amoxiplus_625_mgs_amoxclav_balaxi_caja_x_14.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.5,
+        "price": 22.5,
+        "profit_percent": 0.44,
+        "sku": "SKU-8B4923C7DD01"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:44.831402",
+    "updated_at": "2026-04-20T06:19:44.831402"
+  },
+  {
+    "_id": "antigrip_sobre_x_4_tab_disp_x_100",
+    "name": "ANTIGRIP SOBRE X 4 TAB DISP X 100",
+    "category": "Antigripales",
+    "principio_activo": "Paracetamol, Cafeína, Fenilefrina",
+    "descripcion": "Producto farmacéutico en sobres que contiene 4 tabletas, utilizado para aliviar síntomas de gripe y resfriado como fiebre, dolor de cabeza, congestión nasal y malestar general.",
+    "image_url": "/uploads/products/antigrip_sobre_x_4_tab_disp_x_100.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.44,
+        "price": 6.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-138902CBEC3E"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:48.117959",
+    "updated_at": "2026-04-20T06:19:48.117959"
+  },
+  {
+    "_id": "antigripito_sobre_x_4_tab_disp_x_100",
+    "name": "ANTIGRIPITO SOBRE X 4 TAB DISP X 100",
+    "category": "Antigripales",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico en presentación de sobres con 4 tabletas cada uno, utilizado para el alivio de síntomas gripales.",
+    "image_url": "/uploads/products/antigripito_sobre_x_4_tab_disp_x_100.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.51,
+        "price": 4.5,
+        "profit_percent": 0.44,
+        "sku": "SKU-6A4B26174D82"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:51.175150",
+    "updated_at": "2026-04-20T06:19:51.175150"
+  },
+  {
+    "_id": "atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10",
+    "name": "ATORVASTATINA 40 MG SELEC (CARTOR) CJ X 20 BLIST X 10",
+    "category": "Medicamento para el control del colesterol",
+    "principio_activo": "Atorvastatina",
+    "descripcion": "Atorvastatina 40 mg en presentación de caja con 20 blísteres de 10 tabletas cada uno, utilizada para reducir los niveles de colesterol y prevenir enfermedades cardiovasculares.",
+    "image_url": "/uploads/products/atorvastatina_40_mg_selec_cartor_cj_x_20_blist_x_10.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 27.3,
+        "price": 47.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-AFBA8B6EA1B9"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:53.990890",
+    "updated_at": "2026-04-20T06:19:53.990890"
+  },
+  {
+    "_id": "azitromicina_500_mgs_caja_x_5_select",
+    "name": "AZITROMICINA 500 MGS CAJA X 5 SELECT",
+    "category": "Antibióticos",
+    "principio_activo": "Azitromicina",
+    "descripcion": "Azitromicina 500 mg en presentación de caja con 5 tabletas, utilizada para tratar infecciones bacterianas.",
+    "image_url": "/uploads/products/azitromicina_500_mgs_caja_x_5_select.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.8,
+        "price": 27.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-4758C0283B6D"
+      }
+    ],
+    "created_at": "2026-04-20T06:19:56.658039",
+    "updated_at": "2026-04-20T06:19:56.658039"
+  },
+  {
+    "_id": "baby_or_not_prueba_de_embarazo_dismev",
+    "name": "BABY OR NOT PRUEBA DE EMBARAZO DISMEV",
+    "category": "Prueba de embarazo",
+    "principio_activo": "Hormona gonadotropina coriónica humana (hCG)",
+    "descripcion": "Prueba rápida para detectar la presencia de la hormona hCG en la orina, utilizada para confirmar el embarazo.",
+    "image_url": "/uploads/products/baby_or_not_prueba_de_embarazo_dismev.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.5,
+        "price": 10.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-F93BE99D356C"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:00.797905",
+    "updated_at": "2026-04-20T06:20:00.797905"
+  },
+  {
+    "_id": "betametasona_05acido_salici_3_selec_tubo",
+    "name": "BETAMETASONA .05%+ACIDO SALICI 3% SELEC TUBO",
+    "category": "Corticosteroides tópicos y queratolíticos",
+    "principio_activo": "Betametasona 0.05%, Ácido salicílico 3%",
+    "descripcion": "Producto farmacéutico en tubo que combina un corticosteroide potente (betametasona) con un queratolítico (ácido salicílico) para el tratamiento de afecciones inflamatorias de la piel con descamación, como psoriasis y dermatitis.",
+    "image_url": "/uploads/products/betametasona_05acido_salici_3_selec_tubo.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.05,
+        "price": 23.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-F323DBC2DFC6"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:03.893717",
+    "updated_at": "2026-04-20T06:20:03.893717"
+  },
+  {
+    "_id": "bifonex__crema_1_15g_selec_tubo",
+    "name": "BIFONEX  CREMA 1% 15G SELEC TUBO",
+    "category": "Crema dermatológica",
+    "principio_activo": "Bifonazol 1%",
+    "descripcion": "BIFONEX CREMA 1% es una crema antifúngica que contiene bifonazol al 1%, utilizada para el tratamiento de infecciones fúngicas de la piel. Se presenta en un tubo de 15 gramos.",
+    "image_url": "/uploads/products/bifonex__crema_1_15g_selec_tubo.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.9,
+        "price": 34.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-37C2653C8FC8"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:06.787154",
+    "updated_at": "2026-04-20T06:20:06.787154"
+  },
+  {
+    "_id": "bisalex_laxante_blister_x_10",
+    "name": "BISALEX LAXANTE BLISTER X 10",
+    "category": "Laxante",
+    "principio_activo": "Bisacodilo",
+    "descripcion": "BISALEX LAXANTE BLISTER X 10 es un medicamento utilizado para aliviar el estreñimiento ocasional. Contiene bisacodilo, un laxante estimulante que actúa aumentando el movimiento intestinal para facilitar la evacuación.",
+    "image_url": "/uploads/products/bisalex_laxante_blister_x_10.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.61,
+        "price": 1.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-21EB169E119F"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:09.995959",
+    "updated_at": "2026-04-20T06:20:09.995959"
+  },
+  {
+    "_id": "bosman__caja_x_16_sobre_x_3_condones",
+    "name": "BOSMAN  CAJA X 16 SOBRE X 3 CONDONES",
+    "category": "Anticonceptivos",
+    "principio_activo": "No especificado",
+    "descripcion": "Caja con 16 sobres, cada uno contiene 3 condones. Producto utilizado para la prevención del embarazo y enfermedades de transmisión sexual.",
+    "image_url": "/uploads/products/bosman__caja_x_16_sobre_x_3_condones.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.84,
+        "price": 1.67,
+        "profit_percent": 0.5,
+        "sku": "SKU-FC9411FA5B9F"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:12.786315",
+    "updated_at": "2026-04-20T06:20:12.786315"
+  },
+  {
+    "_id": "bromhexina_120_ml_jbe_selec_exiflem",
+    "name": "BROMHEXINA 120 ML JBE SELEC (EXIFLEM)",
+    "category": "Expectorante",
+    "principio_activo": "Bromhexina",
+    "descripcion": "Jarabe de 120 ml utilizado para facilitar la eliminación de mucosidades en las vías respiratorias, ayudando a aliviar la tos y mejorar la respiración.",
+    "image_url": "/uploads/products/bromhexina_120_ml_jbe_selec_exiflem.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.4,
+        "price": 12.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-6E4D31EF9C39"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:15.603853",
+    "updated_at": "2026-04-20T06:20:15.603853"
+  },
+  {
+    "_id": "bromuro_de_otilonio_caja_x_30_blist_x_15",
+    "name": "BROMURO DE OTILONIO CAJA X 30 BLIST X 15",
+    "category": "Antiespasmódico",
+    "principio_activo": "Bromuro de otilonio",
+    "descripcion": "Medicamento utilizado para aliviar los espasmos del músculo liso en el tracto gastrointestinal, especialmente en el intestino.",
+    "image_url": "/uploads/products/bromuro_de_otilonio_caja_x_30_blist_x_15.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.34,
+        "price": 3.8,
+        "profit_percent": 0.39,
+        "sku": "SKU-2B3D286FC1CB"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:19.467818",
+    "updated_at": "2026-04-20T06:20:19.467818"
+  },
+  {
+    "_id": "broncomat_15_ml_solpara_raespirar",
+    "name": "BRONCOMAT 15 ML SOL/PARA RAESPIRAR",
+    "category": "Medicamento para el sistema respiratorio",
+    "principio_activo": "Salbutamol",
+    "descripcion": "BRONCOMAT es una solución para inhalación que se utiliza para aliviar y prevenir el broncoespasmo en enfermedades respiratorias como el asma y la enfermedad pulmonar obstructiva crónica (EPOC).",
+    "image_url": "/uploads/products/broncomat_15_ml_solpara_raespirar.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 35.0,
+        "price": 58.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-E2F516B53E1A"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:22.249146",
+    "updated_at": "2026-04-20T06:20:22.249146"
+  },
+  {
+    "_id": "broncurol_nf_blist_x_10_tabs",
+    "name": "BRONCUROL NF BLIST X 10 TABS",
+    "category": "Broncodilatador",
+    "principio_activo": "Bromuro de Ipratropio",
+    "descripcion": "BRONCUROL NF es un medicamento utilizado para el tratamiento de enfermedades respiratorias obstructivas, como el asma y la enfermedad pulmonar obstructiva crónica (EPOC). Contiene bromuro de ipratropio, que actúa como broncodilatador para facilitar la respiración.",
+    "image_url": "/uploads/products/broncurol_nf_blist_x_10_tabs.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.39,
+        "price": 2.5,
+        "profit_percent": 0.44,
+        "sku": "SKU-CF93C94E66A1"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:25.221442",
+    "updated_at": "2026-04-20T06:20:25.221442"
+  },
+  {
+    "_id": "cefadroxilo_250mg60ml_sus_selec",
+    "name": "CEFADROXILO 250MG/60ML SUS SELEC",
+    "category": "Antibiótico",
+    "principio_activo": "Cefadroxilo",
+    "descripcion": "Suspensión oral de cefadroxilo 250 mg por 60 ml, utilizada para tratar infecciones bacterianas.",
+    "image_url": "/uploads/products/cefadroxilo_250mg60ml_sus_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.55,
+        "price": 22.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-BAE852C06EA6"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:28.269950",
+    "updated_at": "2026-04-20T06:20:28.269950"
+  },
+  {
+    "_id": "cefadroxilo_500mg_blis_x_10_caja_50_tab_select",
+    "name": "CEFADROXILO 500MG BLIS X 10 CAJA 50 TAB SELECT",
+    "category": "Antibiótico",
+    "principio_activo": "Cefadroxilo",
+    "descripcion": "Antibiótico del grupo de las cefalosporinas de primera generación, utilizado para tratar infecciones bacterianas. Presentación en tabletas de 500 mg, empaque blíster de 10 tabletas, caja con 50 tabletas.",
+    "image_url": "/uploads/products/cefadroxilo_500mg_blis_x_10_caja_50_tab_select.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.67,
+        "price": 15.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-45F35ABA48FB"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:31.118029",
+    "updated_at": "2026-04-20T06:20:31.118029"
+  },
+  {
+    "_id": "cefixima_400_mg_caja_x_5_caps_selec",
+    "name": "CEFIXIMA 400 MG CAJA X 5 CAPS SELEC",
+    "category": "Antibiótico",
+    "principio_activo": "Cefixima",
+    "descripcion": "Cefixima 400 mg en cápsulas, utilizada para tratar infecciones bacterianas. Presentación en caja con 5 cápsulas.",
+    "image_url": "/uploads/products/cefixima_400_mg_caja_x_5_caps_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.1,
+        "price": 11.0,
+        "profit_percent": 0.72,
+        "sku": "SKU-24738A8A53B4"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:33.669529",
+    "updated_at": "2026-04-20T06:20:33.669529"
+  },
+  {
+    "_id": "ceftriaxona_1_gr_panal_caplin",
+    "name": "CEFTRIAXONA 1 GR PANAL CAPLIN",
+    "category": "Antibiótico",
+    "principio_activo": "Ceftriaxona",
+    "descripcion": "Antibiótico de la clase de las cefalosporinas de tercera generación, utilizado para tratar infecciones bacterianas graves.",
+    "image_url": "/uploads/products/ceftriaxona_1_gr_panal_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.05,
+        "price": 10.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-3A60202E6E17"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:36.210230",
+    "updated_at": "2026-04-20T06:20:36.210230"
+  },
+  {
+    "_id": "ciprofibrato_100mg_blister_x_10_caja_x_30_selec",
+    "name": "CIPROFIBRATO 100MG BLISTER X 10 CAJA X 30 SELEC",
+    "category": "Hipolipemiante",
+    "principio_activo": "Ciprofibrato",
+    "descripcion": "Ciprofibrato 100 mg en presentación de blister con 10 tabletas, caja con 30 blisters. Utilizado para el tratamiento de dislipidemias y reducción de niveles elevados de colesterol y triglicéridos.",
+    "image_url": "/uploads/products/ciprofibrato_100mg_blister_x_10_caja_x_30_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.9,
+        "price": 33.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-AFD1AAD3D8B0"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:38.899671",
+    "updated_at": "2026-04-20T06:20:38.899671"
+  },
+  {
+    "_id": "ciprofloxacina_500_mgs_blist_x_10_caja_x_100",
+    "name": "CIPROFLOXACINA 500 MGS BLIST X 10 CAJA X 100",
+    "category": "Antibiótico",
+    "principio_activo": "Ciprofloxacina",
+    "descripcion": "Antibiótico de la familia de las fluoroquinolonas, utilizado para tratar infecciones bacterianas. Presentación en tabletas de 500 mg, en blíster de 10 unidades, caja con 100 tabletas.",
+    "image_url": "/uploads/products/ciprofloxacina_500_mgs_blist_x_10_caja_x_100.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.85,
+        "price": 7.0,
+        "profit_percent": 0.59,
+        "sku": "SKU-C90A9D1F01E2"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:41.942831",
+    "updated_at": "2026-04-20T06:20:41.942831"
+  },
+  {
+    "_id": "ciruelax_75_mg_blister_x_10__garden",
+    "name": "CIRUELAX 75 MG BLISTER X 10  GARDEN",
+    "category": "Laxantes",
+    "principio_activo": "Bisacodilo",
+    "descripcion": "CIRUELAX 75 MG es un laxante estimulante utilizado para el tratamiento del estreñimiento ocasional. Presentado en blíster de 10 tabletas, ayuda a estimular el movimiento intestinal para facilitar la evacuación.",
+    "image_url": "/uploads/products/ciruelax_75_mg_blister_x_10__garden.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.73,
+        "price": 3.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-6B4C5598DBC5"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:46.792194",
+    "updated_at": "2026-04-20T06:20:46.792194"
+  },
+  {
+    "_id": "ciruelax_forte_caja_x_24_tab",
+    "name": "CIRUELAX FORTE CAJA X 24 TAB",
+    "category": "Laxantes",
+    "principio_activo": "Sennósidos",
+    "descripcion": "CIRUELAX FORTE es un laxante utilizado para el tratamiento del estreñimiento ocasional. Contiene sennósidos, que actúan estimulando el movimiento intestinal para facilitar la evacuación.",
+    "image_url": "/uploads/products/ciruelax_forte_caja_x_24_tab.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.91,
+        "price": 5.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-525D6958AFBE"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:50.288036",
+    "updated_at": "2026-04-20T06:20:50.288036"
+  },
+  {
+    "_id": "clindamicina_300_mg_blister_x_10_med_pharma",
+    "name": "CLINDAMICINA 300 MG BLISTER X 10 MED PHARMA",
+    "category": "Antibiótico",
+    "principio_activo": "Clindamicina",
+    "descripcion": "Clindamicina 300 mg en presentación de blister con 10 cápsulas, utilizada para tratar infecciones bacterianas.",
+    "image_url": "/uploads/products/clindamicina_300_mg_blister_x_10_med_pharma.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.75,
+        "price": 32.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-63F81840545F"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:52.812646",
+    "updated_at": "2026-04-20T06:20:52.812646"
+  },
+  {
+    "_id": "cloradexanafa_gotas_selec",
+    "name": "CLORA+DEXA+NAFA GOTAS SELEC",
+    "category": "Medicamento combinado",
+    "principio_activo": "Clorfeniramina, Dexametasona, Nafazolina",
+    "descripcion": "Gotas oftálmicas que combinan un antihistamínico (clorfeniramina), un corticosteroide (dexametasona) y un descongestionante nasal (nafazolina) para aliviar síntomas de alergias oculares y congestión.",
+    "image_url": "/uploads/products/cloradexanafa_gotas_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 23.05,
+        "price": 39.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-184DB9FEA7CE"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:55.736864",
+    "updated_at": "2026-04-20T06:20:55.736864"
+  },
+  {
+    "_id": "cloranfdexametasona_colirio_15_ml_selec",
+    "name": "CLORANF+DEXAMETASONA COLIRIO 15 ML SELEC",
+    "category": "Colirio",
+    "principio_activo": "Cloranfenicol y Dexametasona",
+    "descripcion": "Colirio que combina un antibiótico (cloranfenicol) y un corticosteroide (dexametasona) para el tratamiento de infecciones oculares con inflamación.",
+    "image_url": "/uploads/products/cloranfdexametasona_colirio_15_ml_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 19.2,
+        "price": 33.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-C90CB17BC14D"
+      }
+    ],
+    "created_at": "2026-04-20T06:20:58.572731",
+    "updated_at": "2026-04-20T06:20:58.572731"
+  },
+  {
+    "_id": "clorfeniramina_10_mg_amp_selec",
+    "name": "CLORFENIRAMINA 10 MG AMP SELEC",
+    "category": "Antihistamínico",
+    "principio_activo": "Clorfeniramina",
+    "descripcion": "Clorfeniramina es un antihistamínico utilizado para aliviar los síntomas de alergias, como estornudos, picazón, ojos llorosos y secreción nasal. La presentación en ampolla de 10 mg es comúnmente usada para administración intramuscular o intravenosa en casos que requieren un efecto rápido.",
+    "image_url": "/uploads/products/clorfeniramina_10_mg_amp_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.5,
+        "price": 4.5,
+        "profit_percent": 0.44,
+        "sku": "SKU-342A2488198F"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:01.438322",
+    "updated_at": "2026-04-20T06:21:01.438322"
+  },
+  {
+    "_id": "clorfeniramina_4_mg_blis_x_20_selec_caja_x_100",
+    "name": "CLORFENIRAMINA 4 MG BLIS X 20 SELEC CAJA X 100",
+    "category": "Antihistamínico",
+    "principio_activo": "Clorfeniramina",
+    "descripcion": "Clorfeniramina 4 mg en blíster de 20 unidades, caja con 100 blísteres. Utilizado para aliviar síntomas de alergias.",
+    "image_url": "/uploads/products/clorfeniramina_4_mg_blis_x_20_selec_caja_x_100.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.9,
+        "price": 4.0,
+        "profit_percent": 0.53,
+        "sku": "SKU-CD1D3FB07ECD"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:04.394687",
+    "updated_at": "2026-04-20T06:21:04.394687"
+  },
+  {
+    "_id": "clorfeniramina_maleato_2mg_jbe_select",
+    "name": "CLORFENIRAMINA MALEATO 2MG JBE. SELECT",
+    "category": "Antihistamínico",
+    "principio_activo": "Clorfeniramina maleato",
+    "descripcion": "Medicamento utilizado para aliviar síntomas de alergias, como estornudos, picazón, ojos llorosos y secreción nasal.",
+    "image_url": "/uploads/products/clorfeniramina_maleato_2mg_jbe_select.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.05,
+        "price": 10.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-DC1BFB7686C9"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:07.148222",
+    "updated_at": "2026-04-20T06:21:07.148222"
+  },
+  {
+    "_id": "cloromilan_caja_x_102",
+    "name": "CLOROMILAN CAJA X 102",
+    "category": "Antibiótico",
+    "principio_activo": "Cloranfenicol",
+    "descripcion": "CLOROMILAN es un antibiótico utilizado para tratar infecciones bacterianas. La presentación 'CAJA X 102' indica que contiene 102 unidades del producto.",
+    "image_url": "/uploads/products/cloromilan_caja_x_102.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.38,
+        "price": 1.0,
+        "profit_percent": 0.62,
+        "sku": "SKU-24A664B53F3D"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:10.010635",
+    "updated_at": "2026-04-20T06:21:10.010635"
+  },
+  {
+    "_id": "clotrimazol_1__crema_20_grs_selec",
+    "name": "CLOTRIMAZOL 1 % CREMA 20 GRS SELEC",
+    "category": "Antimicótico tópico",
+    "principio_activo": "Clotrimazol",
+    "descripcion": "Crema dermatológica que contiene clotrimazol al 1%, utilizada para el tratamiento de infecciones fúngicas de la piel como tiña, candidiasis y otras micosis superficiales.",
+    "image_url": "/uploads/products/clotrimazol_1__crema_20_grs_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.65,
+        "price": 10.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-6FAD48660734"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:14.125500",
+    "updated_at": "2026-04-20T06:21:14.125500"
+  },
+  {
+    "_id": "clotrimazol_1__gel_topico_tubo_20_grs_balaxi",
+    "name": "CLOTRIMAZOL 1 % GEL TOPICO TUBO 20 GRS BALAXI",
+    "category": "Antimicótico tópico",
+    "principio_activo": "Clotrimazol",
+    "descripcion": "Gel tópico al 1% utilizado para el tratamiento de infecciones micóticas de la piel.",
+    "image_url": "/uploads/products/clotrimazol_1__gel_topico_tubo_20_grs_balaxi.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.6,
+        "price": 9.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-F648A70228E6"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:17.119494",
+    "updated_at": "2026-04-20T06:21:17.119494"
+  },
+  {
+    "_id": "clotrimazol_ov_vag_100_mg_caja_x_6_caplin",
+    "name": "CLOTRIMAZOL OV VAG 100 MG CAJA X 6 CAPLIN",
+    "category": "Antifúngicos",
+    "principio_activo": "Clotrimazol",
+    "descripcion": "Ovulos vaginales de 100 mg de clotrimazol, indicados para el tratamiento de infecciones vaginales por hongos.",
+    "image_url": "/uploads/products/clotrimazol_ov_vag_100_mg_caja_x_6_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.7,
+        "price": 20.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-77FB8D919441"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:20.040321",
+    "updated_at": "2026-04-20T06:21:20.040321"
+  },
+  {
+    "_id": "clotriplex_crematubo_15_gms",
+    "name": "CLOTRIPLEX CREMATUBO 15 GMS",
+    "category": "Antifúngico tópico",
+    "principio_activo": "Clotrimazol",
+    "descripcion": "CLOTRIPLEX CREMATUBO 15 GMS es una crema antifúngica utilizada para tratar infecciones de la piel causadas por hongos, como la tiña, candidiasis y otras micosis superficiales.",
+    "image_url": "/uploads/products/clotriplex_crematubo_15_gms.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.95,
+        "price": 16.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-283957567D49"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:22.910320",
+    "updated_at": "2026-04-20T06:21:22.910320"
+  },
+  {
+    "_id": "colageno_caja_x_100_cap_gel_blister_x_10",
+    "name": "COLAGENO CAJA X 100 CAP GEL BLISTER X 10",
+    "category": "Suplemento alimenticio",
+    "principio_activo": "Colágeno",
+    "descripcion": "Producto en cápsulas de gelatina blanda que contiene colágeno, utilizado para mejorar la salud de la piel, articulaciones y tejidos conectivos.",
+    "image_url": "/uploads/products/colageno_caja_x_100_cap_gel_blister_x_10.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.2,
+        "price": 17.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-8E3CD159738F"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:26.525244",
+    "updated_at": "2026-04-20T06:21:26.525244"
+  },
+  {
+    "_id": "colchicina_05_mg_blister_x_20_caja_x_100__selec",
+    "name": "COLCHICINA 0.5 MG BLISTER X 20 CAJA X 100  SELEC",
+    "category": "Antiinflamatorio",
+    "principio_activo": "Colchicina",
+    "descripcion": "Colchicina 0.5 mg en presentación de blister con 20 tabletas, caja con 100 unidades. Utilizada principalmente para el tratamiento de la gota y otras enfermedades inflamatorias.",
+    "image_url": "/uploads/products/colchicina_05_mg_blister_x_20_caja_x_100__selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.7,
+        "price": 20.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-6DA842BEC51B"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:29.372285",
+    "updated_at": "2026-04-20T06:21:29.372285"
+  },
+  {
+    "_id": "colchicina_05mg_blister_x_10_caplin",
+    "name": "COLCHICINA 0.5MG BLISTER X 10 CAPLIN",
+    "category": "Antiinflamatorio",
+    "principio_activo": "Colchicina",
+    "descripcion": "Colchicina 0.5 mg en presentación de blister con 10 cápsulas, utilizada principalmente para el tratamiento de la gota y otras enfermedades inflamatorias.",
+    "image_url": "/uploads/products/colchicina_05mg_blister_x_10_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.09,
+        "price": 10.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-CE4FCAFC26B2"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:32.313147",
+    "updated_at": "2026-04-20T06:21:32.313147"
+  },
+  {
+    "_id": "colector_de_heces_cpaleta_60ml",
+    "name": "COLECTOR DE HECES C/PALETA 60ML",
+    "category": "Material de laboratorio / Equipos de recolección",
+    "principio_activo": null,
+    "descripcion": "Dispositivo utilizado para la recolección y transporte de muestras de heces, con capacidad de 60 ml y paleta incorporada para facilitar la toma de la muestra.",
+    "image_url": "/uploads/products/colector_de_heces_cpaleta_60ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.2,
+        "price": 3.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-B59DFC9EE123"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:35.346100",
+    "updated_at": "2026-04-20T06:21:35.346100"
+  },
+  {
+    "_id": "colector_de_orina_120ml",
+    "name": "COLECTOR DE ORINA 120ML",
+    "category": "Material de curación y dispositivos médicos",
+    "principio_activo": "N/A",
+    "descripcion": "Dispositivo utilizado para la recolección y almacenamiento temporal de orina, con capacidad de 120 ml.",
+    "image_url": "/uploads/products/colector_de_orina_120ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.35,
+        "price": 3.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-B46D1C59E4CB"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:39.107996",
+    "updated_at": "2026-04-20T06:21:39.107996"
+  },
+  {
+    "_id": "colector_orina_pediatrico_bolsa_operson",
+    "name": "COLECTOR ORINA PEDIATRICO BOLSA OPERSON",
+    "category": "Dispositivo médico",
+    "principio_activo": null,
+    "descripcion": "Bolsa colectora de orina diseñada para uso pediátrico, utilizada para la recolección y medición de orina en pacientes infantiles.",
+    "image_url": "/uploads/products/colector_orina_pediatrico_bolsa_operson.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.35,
+        "price": 3.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-FA73EA40EF9D"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:41.864078",
+    "updated_at": "2026-04-20T06:21:41.864078"
+  },
+  {
+    "_id": "crospovidona_20__susp_60_ml_selec",
+    "name": "CROSPOVIDONA 20%  SUSP 60 ML SELEC",
+    "category": "Excipiente farmacéutico",
+    "principio_activo": "Crosprovidona",
+    "descripcion": "Suspensión al 20% de crosprovidona en presentación de 60 ml, utilizada como excipiente para mejorar la disolución y biodisponibilidad de medicamentos.",
+    "image_url": "/uploads/products/crospovidona_20__susp_60_ml_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 29.3,
+        "price": 58.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-511ABE52EBD9"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:44.773575",
+    "updated_at": "2026-04-20T06:21:44.773575"
+  },
+  {
+    "_id": "cyclofem_ampolla_panal_1_ml",
+    "name": "CYCLOFEM AMPOLLA PANAL 1 ML",
+    "category": "Anticonceptivos hormonales",
+    "principio_activo": "Medroxiprogesterona",
+    "descripcion": "CYCLOFEM AMPOLLA PANAL 1 ML es un anticonceptivo hormonal inyectable que contiene medroxiprogesterona, utilizado para la prevención del embarazo mediante la administración intramuscular de una dosis mensual.",
+    "image_url": "/uploads/products/cyclofem_ampolla_panal_1_ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.5,
+        "price": 43.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-7FCA5C196CA8"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:47.993635",
+    "updated_at": "2026-04-20T06:21:47.993635"
+  },
+  {
+    "_id": "denguina_caja_x_100_blist_x_10",
+    "name": "DENGUINA CAJA X 100 BLIST X 10",
+    "category": "Antipirético y analgésico",
+    "principio_activo": "Paracetamol",
+    "descripcion": "DENGUINA es un medicamento utilizado para aliviar el dolor y reducir la fiebre, comúnmente empleado en el tratamiento de síntomas asociados a la dengue y otras enfermedades febriles.",
+    "image_url": "/uploads/products/denguina_caja_x_100_blist_x_10.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.56,
+        "price": 1.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-13C43BED62E7"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:50.717604",
+    "updated_at": "2026-04-20T06:21:50.717604"
+  },
+  {
+    "_id": "dexaneomicina_1__oftalmica_selec",
+    "name": "DEXA+NEOMICINA 1 % OFTALMICA SELEC",
+    "category": "Antibiótico oftálmico",
+    "principio_activo": "Dexametasona y Neomicina",
+    "descripcion": "Medicamento oftálmico que combina un corticosteroide (dexametasona) con un antibiótico (neomicina) para tratar infecciones oculares inflamatorias y bacterianas.",
+    "image_url": "/uploads/products/dexaneomicina_1__oftalmica_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.3,
+        "price": 26.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-548785A54089"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:53.716264",
+    "updated_at": "2026-04-20T06:21:53.716264"
+  },
+  {
+    "_id": "dexametasona_ampolla_8_mg_caplin",
+    "name": "DEXAMETASONA AMPOLLA 8 MG CAPLIN",
+    "category": "Corticosteroides",
+    "principio_activo": "Dexametasona",
+    "descripcion": "Dexametasona ampolleta de 8 mg es un corticosteroide utilizado para reducir la inflamación y suprimir el sistema inmunológico en diversas condiciones médicas.",
+    "image_url": "/uploads/products/dexametasona_ampolla_8_mg_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.92,
+        "price": 4.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-CC13DF70AAC0"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:56.413338",
+    "updated_at": "2026-04-20T06:21:56.413338"
+  },
+  {
+    "_id": "dexanervisel_kit",
+    "name": "DEXANERVISEL KIT",
+    "category": "Medicamento neurológico",
+    "principio_activo": "Vitaminas del complejo B (B1, B6, B12)",
+    "descripcion": "DEXANERVISEL KIT es un medicamento utilizado para el tratamiento de neuropatías y trastornos del sistema nervioso periférico, que contiene vitaminas del complejo B para ayudar a la regeneración y mantenimiento de los nervios.",
+    "image_url": "/uploads/products/dexanervisel_kit.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.4,
+        "price": 19.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-3B1B997C3445"
+      }
+    ],
+    "created_at": "2026-04-20T06:21:59.449045",
+    "updated_at": "2026-04-20T06:21:59.449045"
+  },
+  {
+    "_id": "diclofenaco_1_gel_tubo_20_gr_select",
+    "name": "DICLOFENACO 1% GEL TUBO 20 GR SELECT",
+    "category": "Analgésico y antiinflamatorio tópico",
+    "principio_activo": "Diclofenaco",
+    "descripcion": "Gel al 1% de diclofenaco indicado para el alivio del dolor y la inflamación en lesiones musculares, articulares y traumatismos.",
+    "image_url": "/uploads/products/diclofenaco_1_gel_tubo_20_gr_select.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.7,
+        "price": 12.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-A558600B7098"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:02.297906",
+    "updated_at": "2026-04-20T06:22:02.297906"
+  },
+  {
+    "_id": "diclofenaco_1_gel_tubo_25_gr_balaxi",
+    "name": "DICLOFENACO 1% GEL TUBO 25 GR BALAXI",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Diclofenaco",
+    "descripcion": "Gel tópico al 1% de diclofenaco en tubo de 25 gramos, utilizado para aliviar el dolor y la inflamación en músculos y articulaciones.",
+    "image_url": "/uploads/products/diclofenaco_1_gel_tubo_25_gr_balaxi.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.8,
+        "price": 9.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-C75773E1F854"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:05.559412",
+    "updated_at": "2026-04-20T06:22:05.559412"
+  },
+  {
+    "_id": "diclofenaco_acido_libre_9mg_fco_120_ml_sele",
+    "name": "DICLOFENACO ACIDO LIBRE 9MG FCO 120 ML SELE",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Diclofenaco ácido libre",
+    "descripcion": "Medicamento antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la inflamación. Presentación en frasco de 120 ml con una concentración de 9 mg/ml.",
+    "image_url": "/uploads/products/diclofenaco_acido_libre_9mg_fco_120_ml_sele.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.3,
+        "price": 20.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-D25BAA87A925"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:09.067528",
+    "updated_at": "2026-04-20T06:22:09.067528"
+  },
+  {
+    "_id": "diclofenaco_ampolla_75_mgs",
+    "name": "DICLOFENACO AMPOLLA 75 MGS",
+    "category": "Antiinflamatorio no esteroideo (AINE)",
+    "principio_activo": "Diclofenaco",
+    "descripcion": "Diclofenaco en presentación de ampolla de 75 mg, utilizado para el tratamiento del dolor e inflamación en diversas condiciones musculoesqueléticas y artríticas.",
+    "image_url": "/uploads/products/diclofenaco_ampolla_75_mgs.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.84,
+        "price": 2.0,
+        "profit_percent": 0.58,
+        "sku": "SKU-08ACE7BB1DF0"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:12.089823",
+    "updated_at": "2026-04-20T06:22:12.089823"
+  },
+  {
+    "_id": "diclofenaco_pot_50_mgs_blist_x_10_caja_x_100_rojo",
+    "name": "DICLOFENACO POT 50 MGS BLIST X 10 CAJA X 100 ROJO",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Diclofenaco potásico",
+    "descripcion": "Medicamento antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la inflamación. Presentación en tabletas de 50 mg, en blíster de 10 unidades, caja con 100 tabletas, de color rojo.",
+    "image_url": "/uploads/products/diclofenaco_pot_50_mgs_blist_x_10_caja_x_100_rojo.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.33,
+        "price": 2.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-0C24A5E44E76"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:15.591645",
+    "updated_at": "2026-04-20T06:22:15.591645"
+  },
+  {
+    "_id": "dolofor_500_mgs_dipirona_magnesica_blist_x_10",
+    "name": "DOLOFOR 500 MGS (DIPIRONA MAGNESICA) BLIST X 10",
+    "category": "Analgésico y antipirético",
+    "principio_activo": "Dipirona magnésica",
+    "descripcion": "DOLOFOR 500 MGS es un medicamento que contiene dipirona magnésica, utilizado para aliviar el dolor y reducir la fiebre. Se presenta en blíster con 10 tabletas.",
+    "image_url": "/uploads/products/dolofor_500_mgs_dipirona_magnesica_blist_x_10.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.12,
+        "price": 2.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-A42007A45510"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:18.496492",
+    "updated_at": "2026-04-20T06:22:18.496492"
+  },
+  {
+    "_id": "dolonervisel_blist_x_10_caja_x_100",
+    "name": "DOLONERVISEL BLIST X 10 CAJA X 100",
+    "category": "Analgésico y neuroprotector",
+    "principio_activo": "Vitamina B1, Vitamina B6, Vitamina B12",
+    "descripcion": "DOLONERVISEL es un medicamento utilizado para el tratamiento de dolores neuropáticos y para mejorar la función nerviosa, conteniendo vitaminas del complejo B que ayudan a la regeneración y protección de los nervios.",
+    "image_url": "/uploads/products/dolonervisel_blist_x_10_caja_x_100.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.52,
+        "price": 11.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-806402820BB2"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:21.622429",
+    "updated_at": "2026-04-20T06:22:21.622429"
+  },
+  {
+    "_id": "dropa_gel_ketoprofeno_25_50g",
+    "name": "DROPA GEL (KETOPROFENO 2.5%) 50G",
+    "category": "Analgésicos y antiinflamatorios tópicos",
+    "principio_activo": "Ketoprofeno 2.5%",
+    "descripcion": "Gel tópico que contiene ketoprofeno al 2.5%, utilizado para aliviar el dolor y reducir la inflamación en músculos y articulaciones.",
+    "image_url": "/uploads/products/dropa_gel_ketoprofeno_25_50g.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 21.15,
+        "price": 40.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-44D7ACFC49B0"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:25.182374",
+    "updated_at": "2026-04-20T06:22:25.182374"
+  },
+  {
+    "_id": "enalapril_10_mgs_blister_x_20__caja_x_100_selec",
+    "name": "ENALAPRIL 10 MGS BLISTER X 20  CAJA X 100 SELEC",
+    "category": "Antihipertensivo",
+    "principio_activo": "Enalapril",
+    "descripcion": "Enalapril 10 mg en presentación de blister con 20 tabletas, caja con 100 unidades. Utilizado para el tratamiento de la hipertensión arterial y la insuficiencia cardíaca.",
+    "image_url": "/uploads/products/enalapril_10_mgs_blister_x_20__caja_x_100_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.52,
+        "price": 8.0,
+        "profit_percent": 0.56,
+        "sku": "SKU-E10B586E4D6C"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:28.052330",
+    "updated_at": "2026-04-20T06:22:28.052330"
+  },
+  {
+    "_id": "enalapril_20_mg_blister_x_10_caja_x_100__caplin",
+    "name": "ENALAPRIL 20 MG BLISTER X 10 CAJA X 100  CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Enalapril",
+    "descripcion": "Enalapril 20 mg en presentación de blister con 10 tabletas, caja con 100 unidades, fabricado por Caplin. Utilizado para el tratamiento de la hipertensión arterial y la insuficiencia cardíaca.",
+    "image_url": "/uploads/products/enalapril_20_mg_blister_x_10_caja_x_100__caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.85,
+        "price": 3.5,
+        "profit_percent": 0.47,
+        "sku": "SKU-8F29E3FB7968"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:31.153597",
+    "updated_at": "2026-04-20T06:22:31.153597"
+  },
+  {
+    "_id": "enalapril_20mg_blist_x_20_select_caja_x_100",
+    "name": "ENALAPRIL 20MG BLIST X 20 SELECT CAJA X 100",
+    "category": "Antihipertensivo",
+    "principio_activo": "Enalapril",
+    "descripcion": "Enalapril 20 mg en blíster de 20 unidades, presentado en caja de 100 blísteres. Utilizado para el tratamiento de la hipertensión arterial y la insuficiencia cardíaca.",
+    "image_url": "/uploads/products/enalapril_20mg_blist_x_20_select_caja_x_100.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.33,
+        "price": 8.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-C5DFA3AD51C2"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:33.823128",
+    "updated_at": "2026-04-20T06:22:33.823128"
+  },
+  {
+    "_id": "esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi",
+    "name": "ESOMEPRAZOL 40 MG BLIS X 10  CAJA X 30 BALAXI",
+    "category": "Inhibidores de la bomba de protones",
+    "principio_activo": "Esomeprazol",
+    "descripcion": "Esomeprazol 40 mg en blíster de 10 unidades, caja con 30 blísteres, utilizado para reducir la producción de ácido gástrico.",
+    "image_url": "/uploads/products/esomeprazol_40_mg_blis_x_10__caja_x_30_balaxi.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.76,
+        "price": 12.0,
+        "profit_percent": 0.77,
+        "sku": "SKU-83D1F0B01C58"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:36.613867",
+    "updated_at": "2026-04-20T06:22:36.613867"
+  },
+  {
+    "_id": "ex_flu_antigripal_gotas_30ml_selec",
+    "name": "EX -FLU ANTIGRIPAL GOTAS 30ML SELEC",
+    "category": "Antigripales",
+    "principio_activo": "Paracetamol, Fenilefrina, Clorfeniramina",
+    "descripcion": "Gotas para el alivio de los síntomas del resfriado y la gripe, como fiebre, congestión nasal y alergias.",
+    "image_url": "/uploads/products/ex_flu_antigripal_gotas_30ml_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.75,
+        "price": 23.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-2EAF552DF6C4"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:39.441278",
+    "updated_at": "2026-04-20T06:22:39.441278"
+  },
+  {
+    "_id": "exflu_ampolla_panal_selec",
+    "name": "EXFLU AMPOLLA PANAL SELEC",
+    "category": "Medicamento para el tratamiento de enfermedades respiratorias",
+    "principio_activo": "Ambroxol",
+    "descripcion": "EXFLU AMPOLLA PANAL SELEC es un medicamento utilizado para facilitar la expectoración y aliviar los síntomas de enfermedades respiratorias que cursan con mucosidad espesa, como bronquitis y otras afecciones pulmonares.",
+    "image_url": "/uploads/products/exflu_ampolla_panal_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.22,
+        "price": 8.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-F3BDE1A74C29"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:42.061876",
+    "updated_at": "2026-04-20T06:22:42.061876"
+  },
+  {
+    "_id": "exflu_antigripal_blister_x_10_caja_x_70",
+    "name": "EXFLU ANTIGRIPAL BLISTER X 10 CAJA X 70",
+    "category": "Antigripal",
+    "principio_activo": "No especificado",
+    "descripcion": "Producto farmacéutico en presentación de blister con 10 unidades, caja con 70 blisters, utilizado para el alivio de síntomas gripales.",
+    "image_url": "/uploads/products/exflu_antigripal_blister_x_10_caja_x_70.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.5,
+        "price": 0.9,
+        "profit_percent": 0.44,
+        "sku": "SKU-10D76F92B7FD"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:44.660251",
+    "updated_at": "2026-04-20T06:22:44.660251"
+  },
+  {
+    "_id": "exflu_kit_ampolla_selec",
+    "name": "EX-FLU KIT AMPOLLA SELEC",
+    "category": "Antigripal",
+    "principio_activo": "Paracetamol, Cafeína, Fenilefrina",
+    "descripcion": "Kit de ampolletas para el tratamiento sintomático de la gripe y resfriados, que ayuda a aliviar fiebre, dolor de cabeza, congestión nasal y malestar general.",
+    "image_url": "/uploads/products/exflu_kit_ampolla_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.6,
+        "price": 20.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-CA53F84BC061"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:47.730417",
+    "updated_at": "2026-04-20T06:22:47.730417"
+  },
+  {
+    "_id": "exflu_niños_sinus_120_ml",
+    "name": "EX-FLU NIÑOS SINUS 120 ML",
+    "category": "Medicamento para el resfriado y la sinusitis",
+    "principio_activo": "Paracetamol, Fenilefrina, Clorfeniramina",
+    "descripcion": "EX-FLU NIÑOS SINUS 120 ML es un medicamento indicado para el alivio de los síntomas del resfriado y la sinusitis en niños, como congestión nasal, dolor de cabeza, fiebre y malestar general.",
+    "image_url": "/uploads/products/exflu_niños_sinus_120_ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.8,
+        "price": 23.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-968122448BED"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:50.622245",
+    "updated_at": "2026-04-20T06:22:50.622245"
+  },
+  {
+    "_id": "famotidina_40_mg_caja_x_100_tab_caplin",
+    "name": "FAMOTIDINA 40 MG CAJA X 100 TAB CAPLIN",
+    "category": "Antiácido / Antiulceroso",
+    "principio_activo": "Famotidina",
+    "descripcion": "Famotidina 40 mg en caja con 100 tabletas, utilizada para reducir la producción de ácido en el estómago y tratar condiciones como úlceras gástricas, reflujo gastroesofágico y otras enfermedades relacionadas con el exceso de ácido.",
+    "image_url": "/uploads/products/famotidina_40_mg_caja_x_100_tab_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.18,
+        "price": 0.5,
+        "profit_percent": 0.64,
+        "sku": "SKU-5922E4B7E670"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:54.029995",
+    "updated_at": "2026-04-20T06:22:54.029995"
+  },
+  {
+    "_id": "ferrociton_b_caja_x_10_amp_bebibles",
+    "name": "FERROCITON B CAJA X 10 AMP BEBIBLES",
+    "category": "Suplemento de hierro",
+    "principio_activo": "Hierro",
+    "descripcion": "FERROCITON B es un suplemento de hierro en ampollas bebibles, utilizado para tratar y prevenir la anemia ferropénica.",
+    "image_url": "/uploads/products/ferrociton_b_caja_x_10_amp_bebibles.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 45.6,
+        "price": 82.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-7810BA183698"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:56.513256",
+    "updated_at": "2026-04-20T06:22:56.513256"
+  },
+  {
+    "_id": "fluconazol_150_mgs_caja_x_2_caps_selec",
+    "name": "FLUCONAZOL 150 MGS CAJA X 2 CAPS SELEC",
+    "category": "Antifúngicos",
+    "principio_activo": "Fluconazol",
+    "descripcion": "Fluconazol 150 mg en caja con 2 cápsulas, utilizado para el tratamiento de infecciones fúngicas.",
+    "image_url": "/uploads/products/fluconazol_150_mgs_caja_x_2_caps_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.55,
+        "price": 6.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-256DC7A12B73"
+      }
+    ],
+    "created_at": "2026-04-20T06:22:59.073330",
+    "updated_at": "2026-04-20T06:22:59.073330"
+  },
+  {
+    "_id": "fluconazol_200_mg_x_4_caps_hiperfarma",
+    "name": "FLUCONAZOL 200 MG X 4 CAPS HIPERFARMA",
+    "category": "Antifúngicos",
+    "principio_activo": "Fluconazol",
+    "descripcion": "Fluconazol es un medicamento antifúngico utilizado para tratar infecciones causadas por hongos y levaduras. Se presenta en cápsulas de 200 mg y es efectivo contra infecciones como candidiasis, meningitis criptocócica y otras micosis sistémicas.",
+    "image_url": "/uploads/products/fluconazol_200_mg_x_4_caps_hiperfarma.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.7,
+        "price": 15.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-699C52ED72C3"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:01.729341",
+    "updated_at": "2026-04-20T06:23:01.729341"
+  },
+  {
+    "_id": "fluconazol_200mg_select_x2_tab_caja",
+    "name": "FLUCONAZOL 200MG SELECT X2 TAB CAJA",
+    "category": "Antifúngicos",
+    "principio_activo": "Fluconazol",
+    "descripcion": "Medicamento antifúngico utilizado para tratar infecciones por hongos, especialmente candidiasis. Cada tableta contiene 200 mg de fluconazol.",
+    "image_url": "/uploads/products/fluconazol_200mg_select_x2_tab_caja.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.63,
+        "price": 8.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-9F08BABF9333"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:05.619303",
+    "updated_at": "2026-04-20T06:23:05.620304"
+  },
+  {
+    "_id": "flufin_alergias_caja_x_50_blis_x_10_gel_blanda",
+    "name": "FLUFIN ALERGIAS CAJA X 50 BLIS X 10 GEL BLANDA",
+    "category": "Antihistamínicos",
+    "principio_activo": "Fluticasona",
+    "descripcion": "Gel blando para el tratamiento de alergias, especialmente para aliviar síntomas nasales y respiratorios asociados a reacciones alérgicas.",
+    "image_url": "/uploads/products/flufin_alergias_caja_x_50_blis_x_10_gel_blanda.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.69,
+        "price": 1.2,
+        "profit_percent": 0.42,
+        "sku": "SKU-FDD48D09F82A"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:08.122275",
+    "updated_at": "2026-04-20T06:23:08.122275"
+  },
+  {
+    "_id": "flufin_am_sobre_2_gel_caps_caplin_x_25_sobres",
+    "name": "FLUFIN AM SOBRE 2 GEL CAPS CAPLIN X 25 SOBRES",
+    "category": "Antigripal",
+    "principio_activo": "Paracetamol, Fenilefrina, Clorfeniramina",
+    "descripcion": "FLUFIN AM SOBRE 2 GEL CAPS CAPLIN X 25 SOBRES es un medicamento utilizado para aliviar los síntomas del resfriado y la gripe, como fiebre, congestión nasal y alergias. Contiene paracetamol para el alivio del dolor y la fiebre, fenilefrina como descongestionante nasal y clorfeniramina como antihistamínico.",
+    "image_url": "/uploads/products/flufin_am_sobre_2_gel_caps_caplin_x_25_sobres.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.76,
+        "price": 3.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-757FC59A4DA3"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:11.978371",
+    "updated_at": "2026-04-20T06:23:11.978371"
+  },
+  {
+    "_id": "flufin_pm_sobre_2_gel_caps_cap_cja_x_25_sobres",
+    "name": "FLUFIN PM SOBRE 2 GEL CAPS CAP CJA X 25 SOBRES",
+    "category": "Medicamento para el resfriado y la gripe",
+    "principio_activo": "Paracetamol, Fenilefrina, Difenhidramina",
+    "descripcion": "FLUFIN PM es un medicamento en sobres que combina analgésicos, descongestionantes y antihistamínicos para aliviar síntomas de resfriado y gripe, como dolor, fiebre, congestión nasal y dificultad para dormir.",
+    "image_url": "/uploads/products/flufin_pm_sobre_2_gel_caps_cap_cja_x_25_sobres.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.76,
+        "price": 3.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-6538A0628345"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:15.340057",
+    "updated_at": "2026-04-20T06:23:15.340057"
+  },
+  {
+    "_id": "furosemida_20_mg_ampolla_2_ml_caplin",
+    "name": "FUROSEMIDA 20 MG AMPOLLA 2 ML CAPLIN",
+    "category": "Diurético",
+    "principio_activo": "Furosemida",
+    "descripcion": "Furosemida 20 mg en ampolla de 2 ml, utilizada para el tratamiento de edema asociado a insuficiencia cardíaca, enfermedad renal o hepática, y para el manejo de hipertensión.",
+    "image_url": "/uploads/products/furosemida_20_mg_ampolla_2_ml_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.02,
+        "price": 4.0,
+        "profit_percent": 0.75,
+        "sku": "SKU-C480D1807F96"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:18.922371",
+    "updated_at": "2026-04-20T06:23:18.922371"
+  },
+  {
+    "_id": "furosemida_40_mg_caja_x_100_blist_x_10_caplin",
+    "name": "FUROSEMIDA 40 MG CAJA X 100 BLIST X 10 CAPLIN",
+    "category": "Diurético",
+    "principio_activo": "Furosemida",
+    "descripcion": "Medicamento diurético utilizado para tratar la retención de líquidos y la hipertensión arterial. Presentado en caja con 100 blísteres de 10 tabletas cada uno, con una dosis de 40 mg por tableta.",
+    "image_url": "/uploads/products/furosemida_40_mg_caja_x_100_blist_x_10_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.84,
+        "price": 3.0,
+        "profit_percent": 0.72,
+        "sku": "SKU-72B6077638C7"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:21.789081",
+    "updated_at": "2026-04-20T06:23:21.789081"
+  },
+  {
+    "_id": "furosemida_40mg_blister_x_10_selec",
+    "name": "FUROSEMIDA 40MG BLISTER X 10 SELEC",
+    "category": "Diurético",
+    "principio_activo": "Furosemida",
+    "descripcion": "Furosemida 40mg en presentación de blister con 10 tabletas, utilizada para el tratamiento de edema asociado a insuficiencia cardíaca, enfermedad renal o hepática, y para el manejo de hipertensión.",
+    "image_url": "/uploads/products/furosemida_40mg_blister_x_10_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.24,
+        "price": 5.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-94C0F36591FD"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:24.843271",
+    "updated_at": "2026-04-20T06:23:24.843271"
+  },
+  {
+    "_id": "gentamicina_80_mg2ml_ampolla_caplin",
+    "name": "GENTAMICINA 80 MG/2ML AMPOLLA CAPLIN",
+    "category": "Antibiótico",
+    "principio_activo": "Gentamicina",
+    "descripcion": "Gentamicina 80 mg/2 ml en ampolla, utilizada para tratar infecciones bacterianas graves mediante administración intramuscular o intravenosa.",
+    "image_url": "/uploads/products/gentamicina_80_mg2ml_ampolla_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.2,
+        "price": 3.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-4651FA41B2D2"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:27.926454",
+    "updated_at": "2026-04-20T06:23:27.926454"
+  },
+  {
+    "_id": "glibenclamida_5_mg___blister_x_20_caja_x_100_selec",
+    "name": "GLIBENCLAMIDA 5 MG   BLISTER X 20 CAJA X 100 SELEC",
+    "category": "Antidiabético",
+    "principio_activo": "Glibenclamida",
+    "descripcion": "Glibenclamida 5 mg en presentación de blister con 20 tabletas, caja con 100 unidades. Utilizado para el tratamiento de la diabetes mellitus tipo 2.",
+    "image_url": "/uploads/products/glibenclamida_5_mg___blister_x_20_caja_x_100_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.92,
+        "price": 4.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-2ECB7AA784AE"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:30.705074",
+    "updated_at": "2026-04-20T06:23:30.705074"
+  },
+  {
+    "_id": "glimepirida_4_mg_blister_x_10_caja_x_100_caplin",
+    "name": "GLIMEPIRIDA 4 MG BLISTER X 10 CAJA X 100 CAPLIN",
+    "category": "Antidiabético",
+    "principio_activo": "Glimepirida",
+    "descripcion": "Medicamento utilizado para el tratamiento de la diabetes mellitus tipo 2, que ayuda a controlar los niveles de glucosa en sangre.",
+    "image_url": "/uploads/products/glimepirida_4_mg_blister_x_10_caja_x_100_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.36,
+        "price": 6.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-12F8D1DF9C4A"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:33.416367",
+    "updated_at": "2026-04-20T06:23:33.416367"
+  },
+  {
+    "_id": "gotero_plastico",
+    "name": "GOTERO PLASTICO",
+    "category": "Material de curación",
+    "principio_activo": "N/A",
+    "descripcion": "Dispositivo médico utilizado para administrar líquidos en gotas, comúnmente en tratamientos oftálmicos o para la administración de medicamentos líquidos.",
+    "image_url": "/uploads/products/gotero_plastico.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.35,
+        "price": 4.0,
+        "profit_percent": 0.66,
+        "sku": "SKU-5001DE3D9EA7"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:36.544408",
+    "updated_at": "2026-04-20T06:23:36.544408"
+  },
+  {
+    "_id": "hidrocortisona_025_selec",
+    "name": "HIDROCORTISONA 0.25 SELEC",
+    "category": "Corticosteroides tópicos",
+    "principio_activo": "Hidrocortisona",
+    "descripcion": "Hidrocortisona 0.25 SELEC es un medicamento en forma de crema o pomada que contiene hidrocortisona al 0.25%, un corticosteroide utilizado para reducir la inflamación, el enrojecimiento y la picazón en diversas afecciones dermatológicas como dermatitis, eczema y reacciones alérgicas de la piel.",
+    "image_url": "/uploads/products/hidrocortisona_025_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.2,
+        "price": 16.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-77EC7C9CC957"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:40.038647",
+    "updated_at": "2026-04-20T06:23:40.038647"
+  },
+  {
+    "_id": "hidrocortizona_1_crema_30_grs_selec",
+    "name": "HIDROCORTIZONA 1% CREMA 30 GRS SELEC",
+    "category": "Corticosteroides tópicos",
+    "principio_activo": "Hidrocortisona",
+    "descripcion": "Crema dermatológica que contiene hidrocortisona al 1%, utilizada para tratar inflamaciones y afecciones de la piel como dermatitis, eczema y alergias cutáneas.",
+    "image_url": "/uploads/products/hidrocortizona_1_crema_30_grs_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.8,
+        "price": 26.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-6EF8A0C256A5"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:44.619441",
+    "updated_at": "2026-04-20T06:23:44.619441"
+  },
+  {
+    "_id": "hierro_acido_folico_x_30_tab_selec",
+    "name": "HIERRO +ACIDO FOLICO X 30 TAB. SELEC",
+    "category": "Suplemento vitamínico y mineral",
+    "principio_activo": "Hierro y ácido fólico",
+    "descripcion": "Producto farmacéutico que combina hierro y ácido fólico en tabletas, utilizado para prevenir y tratar deficiencias de hierro y folato, especialmente en casos de anemia y durante el embarazo.",
+    "image_url": "/uploads/products/hierro_acido_folico_x_30_tab_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.53,
+        "price": 17.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-540DC294FE19"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:48.048116",
+    "updated_at": "2026-04-20T06:23:48.048116"
+  },
+  {
+    "_id": "ibuprofen_100mg5ml_susp_selec",
+    "name": "IBUPROFEN 100MG/5ML SUSP SELEC",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Ibuprofeno",
+    "descripcion": "Suspensión oral de ibuprofeno con una concentración de 100 mg por cada 5 ml, utilizada para aliviar el dolor y reducir la inflamación y la fiebre.",
+    "image_url": "/uploads/products/ibuprofen_100mg5ml_susp_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.3,
+        "price": 15.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-929984083D82"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:50.841964",
+    "updated_at": "2026-04-20T06:23:50.841964"
+  },
+  {
+    "_id": "ibuprofenometocarba_caja_x_30_blist_x_10",
+    "name": "IBUPROFENO+METOCARBA CAJA X 30 BLIST X 10",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Ibuprofeno, Metocarbamol",
+    "descripcion": "Producto farmacéutico que combina ibuprofeno, un antiinflamatorio no esteroideo, con metocarbamol, un relajante muscular, indicado para el alivio del dolor y la inflamación asociados a contracturas musculares.",
+    "image_url": "/uploads/products/ibuprofenometocarba_caja_x_30_blist_x_10.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.04,
+        "price": 1.9,
+        "profit_percent": 0.45,
+        "sku": "SKU-3BB448225A57"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:53.900552",
+    "updated_at": "2026-04-20T06:23:53.900552"
+  },
+  {
+    "_id": "irbersahidro_30025_blist_x_10_caj_x_30_caplin",
+    "name": "IRBERSA+HIDRO 300/25 BLIST X 10 CAJ X 30 CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Irbesartán + Hidroclorotiazida",
+    "descripcion": "Combinación de irbesartán, un antagonista del receptor de angiotensina II, e hidroclorotiazida, un diurético tiazídico, utilizada para el tratamiento de la hipertensión arterial.",
+    "image_url": "/uploads/products/irbersahidro_30025_blist_x_10_caj_x_30_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 33.85,
+        "price": 57.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-877734A30C4D"
+      }
+    ],
+    "created_at": "2026-04-20T06:23:56.803131",
+    "updated_at": "2026-04-20T06:23:56.804131"
+  },
+  {
+    "_id": "irbersartan_150_mgs_caja_x_30_blist_x_10_selec",
+    "name": "IRBERSARTAN 150 MGS CAJA X 30 BLIST X 10 SELEC",
+    "category": "Antihipertensivo",
+    "principio_activo": "Irbesartán",
+    "descripcion": "Caja con 30 blísteres, cada blíster contiene 10 tabletas de 150 mg de Irbesartán, utilizado para el tratamiento de la hipertensión arterial.",
+    "image_url": "/uploads/products/irbersartan_150_mgs_caja_x_30_blist_x_10_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.24,
+        "price": 28.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-5E4EE1B39C9C"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:00.094494",
+    "updated_at": "2026-04-20T06:24:00.094494"
+  },
+  {
+    "_id": "irbersartan_300_mg_caja_x_30_blist_x_10__selec",
+    "name": "IRBERSARTAN 300 MG CAJA X 30 BLIST X 10  SELEC",
+    "category": "Antihipertensivo",
+    "principio_activo": "Irbesartán",
+    "descripcion": "Medicamento utilizado para el tratamiento de la hipertensión arterial. Presentación en caja con 30 blísteres de 10 tabletas cada uno, dosis de 300 mg por tableta.",
+    "image_url": "/uploads/products/irbersartan_300_mg_caja_x_30_blist_x_10__selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.0,
+        "price": 33.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-7362C1DDE6F1"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:03.029034",
+    "updated_at": "2026-04-20T06:24:03.029034"
+  },
+  {
+    "_id": "irbesartan_150125mg_hidroclo_x_30_tabs_caplin",
+    "name": "IRBESARTAN 150/12.5MG HIDROCLO X 30 TABS CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Irbesartán e Hidroclorotiazida",
+    "descripcion": "Medicamento combinado que contiene 150 mg de Irbesartán y 12.5 mg de Hidroclorotiazida por tableta, utilizado para el tratamiento de la hipertensión arterial.",
+    "image_url": "/uploads/products/irbesartan_150125mg_hidroclo_x_30_tabs_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 24.0,
+        "price": 38.33,
+        "profit_percent": 0.37,
+        "sku": "SKU-93305553B992"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:06.466569",
+    "updated_at": "2026-04-20T06:24:06.466569"
+  },
+  {
+    "_id": "ketorolaco_60mg2ml_ampolla_bonket",
+    "name": "KETOROLACO 60MG/2ML AMPOLLA BONKET",
+    "category": "Analgésicos y antiinflamatorios",
+    "principio_activo": "Ketorolaco",
+    "descripcion": "Ketorolaco es un medicamento antiinflamatorio no esteroideo (AINE) utilizado para el alivio del dolor moderado a severo. Se administra comúnmente por vía intramuscular o intravenosa en forma de ampolla.",
+    "image_url": "/uploads/products/ketorolaco_60mg2ml_ampolla_bonket.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.84,
+        "price": 13.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-4DEDD0288AEE"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:09.582135",
+    "updated_at": "2026-04-20T06:24:09.582135"
+  },
+  {
+    "_id": "lactulosa_10_grs_susp_240_ml_caplin",
+    "name": "LACTULOSA 10 GRS SUSP 240 ML CAPLIN",
+    "category": "Laxantes",
+    "principio_activo": "Lactulosa",
+    "descripcion": "Suspensión oral de lactulosa 10 gramos por 240 ml, utilizada para el tratamiento del estreñimiento y para mejorar la función hepática en casos de encefalopatía hepática.",
+    "image_url": "/uploads/products/lactulosa_10_grs_susp_240_ml_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 78.0,
+        "price": 130.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-9F2008CD020F"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:12.575670",
+    "updated_at": "2026-04-20T06:24:12.575670"
+  },
+  {
+    "_id": "lagrimas_oculares_grs_15_ml_gotas_selec",
+    "name": "LAGRIMAS OCULARES GRS 15 ML GOTAS SELEC",
+    "category": "Lágrimas artificiales",
+    "principio_activo": "Carboximetilcelulosa sódica",
+    "descripcion": "Solución oftálmica en gotas para lubricar y aliviar la sequedad ocular.",
+    "image_url": "/uploads/products/lagrimas_oculares_grs_15_ml_gotas_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.21,
+        "price": 38.0,
+        "profit_percent": 0.57,
+        "sku": "SKU-7C2236311959"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:15.341714",
+    "updated_at": "2026-04-20T06:24:15.341714"
+  },
+  {
+    "_id": "levofloxacina_500_mg_blist_x_10_selec_umedica",
+    "name": "LEVOFLOXACINA 500 MG BLIST X 10 SELEC UMEDICA",
+    "category": "Antibiótico",
+    "principio_activo": "Levofloxacina",
+    "descripcion": "Levofloxacina 500 mg en presentación de blíster con 10 unidades, utilizada para tratar infecciones bacterianas.",
+    "image_url": "/uploads/products/levofloxacina_500_mg_blist_x_10_selec_umedica.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.0,
+        "price": 28.0,
+        "profit_percent": 0.54,
+        "sku": "SKU-AD7C8022DAF4"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:18.047104",
+    "updated_at": "2026-04-20T06:24:18.047104"
+  },
+  {
+    "_id": "lidocaina_1_35_ml_promegal",
+    "name": "LIDOCAINA 1% 3,5 ML PROMEGAL",
+    "category": "Anestésico local",
+    "principio_activo": "Lidocaína",
+    "descripcion": "Lidocaína al 1% en solución de 3,5 ml, utilizada como anestésico local para procedimientos médicos y odontológicos.",
+    "image_url": "/uploads/products/lidocaina_1_35_ml_promegal.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.08,
+        "price": 3.0,
+        "profit_percent": 0.64,
+        "sku": "SKU-D666E9D5F49A"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:21.131799",
+    "updated_at": "2026-04-20T06:24:21.132798"
+  },
+  {
+    "_id": "lidocaina_2_caplin_3ml",
+    "name": "LIDOCAINA 2% CAPLIN 3ML",
+    "category": "Anestésico local",
+    "principio_activo": "Lidocaína",
+    "descripcion": "Lidocaína al 2% en presentación de 3 ml, utilizada como anestésico local para bloquear la conducción nerviosa y aliviar el dolor durante procedimientos médicos y dentales.",
+    "image_url": "/uploads/products/lidocaina_2_caplin_3ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.08,
+        "price": 3.0,
+        "profit_percent": 0.64,
+        "sku": "SKU-C0CAA7959C01"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:24.234372",
+    "updated_at": "2026-04-20T06:24:24.235373"
+  },
+  {
+    "_id": "loperamida_2mg_caja_x_100_blist_x_20_select",
+    "name": "LOPERAMIDA 2MG CAJA X 100 BLIST X 20 SELECT",
+    "category": "Antidiarreicos",
+    "principio_activo": "Loperamida",
+    "descripcion": "Medicamento utilizado para el tratamiento sintomático de la diarrea aguda y crónica, que actúa disminuyendo la motilidad intestinal.",
+    "image_url": "/uploads/products/loperamida_2mg_caja_x_100_blist_x_20_select.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.82,
+        "price": 10.0,
+        "profit_percent": 0.72,
+        "sku": "SKU-52EC8DA15C57"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:27.379635",
+    "updated_at": "2026-04-20T06:24:27.379635"
+  },
+  {
+    "_id": "losartan_100_mgs_caja_x_100_blister_x_10_caplin",
+    "name": "LOSARTAN 100 MGS CAJA X 100 BLISTER X 10 CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Losartán",
+    "descripcion": "Losartán 100 mg en caja con 100 blísteres de 10 cápsulas cada uno, utilizado para el tratamiento de la hipertensión arterial y para proteger los riñones en pacientes con diabetes tipo 2.",
+    "image_url": "/uploads/products/losartan_100_mgs_caja_x_100_blister_x_10_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.1,
+        "price": 9.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-1BC5927081EB"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:31.172783",
+    "updated_at": "2026-04-20T06:24:31.172783"
+  },
+  {
+    "_id": "losartan_50_mg_blis_x_10_caja_x_100_caplin",
+    "name": "LOSARTAN 50 MG BLIS X 10 CAJA X 100 CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Losartán",
+    "descripcion": "Losartán 50 mg en blíster de 10 cápsulas, caja con 100 cápsulas. Utilizado para el tratamiento de la hipertensión arterial y para proteger los riñones en pacientes con diabetes tipo 2.",
+    "image_url": "/uploads/products/losartan_50_mg_blis_x_10_caja_x_100_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.0,
+        "price": 10.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-16803803A78B"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:34.291672",
+    "updated_at": "2026-04-20T06:24:34.291672"
+  },
+  {
+    "_id": "lubricante_vive_sashet_5_ml_fresa",
+    "name": "LUBRICANTE VIVE SASHET 5 ML FRESA",
+    "category": "Lubricante íntimo",
+    "principio_activo": "No especificado",
+    "descripcion": "Lubricante íntimo en sachet de 5 ml con sabor a fresa, diseñado para facilitar la lubricación y mejorar la comodidad durante las relaciones sexuales.",
+    "image_url": "/uploads/products/lubricante_vive_sashet_5_ml_fresa.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.2,
+        "price": 6.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-47DD98C310D3"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:37.096329",
+    "updated_at": "2026-04-20T06:24:37.096329"
+  },
+  {
+    "_id": "lubricante_vive_sashet_5_ml_sin_sabor",
+    "name": "LUBRICANTE VIVE SASHET 5 ML SIN SABOR",
+    "category": "Lubricante íntimo",
+    "principio_activo": "No aplica",
+    "descripcion": "Lubricante íntimo en presentación sachet de 5 ml, sin sabor, diseñado para facilitar la lubricación y mejorar la comodidad durante la actividad sexual.",
+    "image_url": "/uploads/products/lubricante_vive_sashet_5_ml_sin_sabor.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.2,
+        "price": 6.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-D9F4CECFFE37"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:42.620516",
+    "updated_at": "2026-04-20T06:24:42.620516"
+  },
+  {
+    "_id": "mebendazol_100mg_susp_30_ml_selec",
+    "name": "MEBENDAZOL 100MG SUSP 30 ML SELEC",
+    "category": "Antiparasitario",
+    "principio_activo": "Mebendazol",
+    "descripcion": "Suspensión oral de 100 mg/30 ml utilizada para el tratamiento de infecciones por helmintos y otros parásitos intestinales.",
+    "image_url": "/uploads/products/mebendazol_100mg_susp_30_ml_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.0,
+        "price": 10.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-09B9A657EFC2"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:45.457289",
+    "updated_at": "2026-04-20T06:24:45.457289"
+  },
+  {
+    "_id": "mebendazol_100mgx_blist_x_6_tab",
+    "name": "MEBENDAZOL 100MGX BLIST X 6 TAB",
+    "category": "Antiparasitario",
+    "principio_activo": "Mebendazol",
+    "descripcion": "Mebendazol 100 mg en blíster con 6 tabletas, utilizado para el tratamiento de infecciones por helmintos y otros parásitos intestinales.",
+    "image_url": "/uploads/products/mebendazol_100mgx_blist_x_6_tab.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.4,
+        "price": 5.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-A5A6ABB98497"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:48.451775",
+    "updated_at": "2026-04-20T06:24:48.451775"
+  },
+  {
+    "_id": "meloxicam_15_mg15_ml_amp_selec",
+    "name": "MELOXICAM 15 MG/1.5 ML AMP SELEC",
+    "category": "Antiinflamatorio no esteroideo (AINE)",
+    "principio_activo": "Meloxicam",
+    "descripcion": "Meloxicam 15 mg/1.5 ml ampolla solución inyectable, utilizado para el tratamiento del dolor e inflamación en enfermedades reumáticas y otras condiciones inflamatorias.",
+    "image_url": "/uploads/products/meloxicam_15_mg15_ml_amp_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.76,
+        "price": 7.0,
+        "profit_percent": 0.61,
+        "sku": "SKU-53A2CEF7B14C"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:51.902404",
+    "updated_at": "2026-04-20T06:24:51.902404"
+  },
+  {
+    "_id": "meloxican_15mg_caja_x_30_tabs_blist_x_10_selec",
+    "name": "MELOXICAN 15MG CAJA X 30 TABS BLIST X 10 SELEC",
+    "category": "Antiinflamatorio no esteroideo",
+    "principio_activo": "Meloxicam",
+    "descripcion": "Meloxicam 15 mg en caja con 30 tabletas, presentadas en blíster de 10 unidades. Utilizado para aliviar el dolor y la inflamación en condiciones como artritis.",
+    "image_url": "/uploads/products/meloxican_15mg_caja_x_30_tabs_blist_x_10_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.35,
+        "price": 6.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-0E0298EE1A96"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:54.995224",
+    "updated_at": "2026-04-20T06:24:54.995224"
+  },
+  {
+    "_id": "merlix_dexketoprofeno__inyect_unipharm",
+    "name": "MERLIX (DEXKETOPROFENO ) INYECT UNIPHARM",
+    "category": "Analgésico y antiinflamatorio",
+    "principio_activo": "Dexketoprofeno",
+    "descripcion": "MERLIX es un medicamento inyectable que contiene dexketoprofeno, un antiinflamatorio no esteroideo (AINE) utilizado para el alivio del dolor agudo de intensidad leve a moderada.",
+    "image_url": "/uploads/products/merlix_dexketoprofeno__inyect_unipharm.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.0,
+        "price": 12.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-41C09A9ABA15"
+      }
+    ],
+    "created_at": "2026-04-20T06:24:58.645510",
+    "updated_at": "2026-04-20T06:24:58.645510"
+  },
+  {
+    "_id": "metformina_500_mg__blist_x_10_caja_x_30_selec",
+    "name": "METFORMINA 500 MG  BLIST X 10 CAJA X 30 SELEC",
+    "category": "Antidiabético",
+    "principio_activo": "Metformina",
+    "descripcion": "Medicamento utilizado para el tratamiento de la diabetes tipo 2, que ayuda a controlar los niveles de glucosa en sangre. Presentación en tabletas de 500 mg, en blíster de 10 unidades, caja con 30 blísteres.",
+    "image_url": "/uploads/products/metformina_500_mg__blist_x_10_caja_x_30_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.77,
+        "price": 8.33,
+        "profit_percent": 0.43,
+        "sku": "SKU-822ED80B8113"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:02.025246",
+    "updated_at": "2026-04-20T06:25:02.025246"
+  },
+  {
+    "_id": "metocarbamol_amp_select",
+    "name": "METOCARBAMOL AMP SELECT",
+    "category": "Relajante muscular",
+    "principio_activo": "Metocarbamol",
+    "descripcion": "Metocarbamol es un relajante muscular utilizado para aliviar el dolor y la rigidez causados por espasmos musculares. Se administra por vía intramuscular o intravenosa en forma de ampollas para un efecto rápido.",
+    "image_url": "/uploads/products/metocarbamol_amp_select.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.97,
+        "price": 8.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-E69BBDD78AEF"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:05.133322",
+    "updated_at": "2026-04-20T06:25:05.133322"
+  },
+  {
+    "_id": "metronidazol_125_mg_susp_120_ml_selec",
+    "name": "METRONIDAZOL 125 MG SUSP 120 ML SELEC",
+    "category": "Antibiótico y antiparasitario",
+    "principio_activo": "Metronidazol",
+    "descripcion": "Suspensión oral de metronidazol 125 mg en 120 ml, utilizada para tratar infecciones bacterianas y parasitarias.",
+    "image_url": "/uploads/products/metronidazol_125_mg_susp_120_ml_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.4,
+        "price": 13.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-C0AB9B1CD004"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:08.427276",
+    "updated_at": "2026-04-20T06:25:08.427276"
+  },
+  {
+    "_id": "metronidazol_500_mg_blist_x_10_caja_x_100__caplin",
+    "name": "METRONIDAZOL 500 MG BLIST X 10 CAJA X 100  CAPLIN",
+    "category": "Antibiótico",
+    "principio_activo": "Metronidazol",
+    "descripcion": "Medicamento antibacteriano y antiparasitario utilizado para tratar infecciones causadas por bacterias anaerobias y protozoos.",
+    "image_url": "/uploads/products/metronidazol_500_mg_blist_x_10_caja_x_100__caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.66,
+        "price": 5.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-744575072CEC"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:11.074961",
+    "updated_at": "2026-04-20T06:25:11.074961"
+  },
+  {
+    "_id": "metronidazol_500_mgs_x_10_ovulos_vag_caplin",
+    "name": "METRONIDAZOL 500 MGS X 10 OVULOS VAG CAPLIN",
+    "category": "Antibiótico y Antiprotozoario",
+    "principio_activo": "Metronidazol",
+    "descripcion": "Medicamento en forma de óvulos vaginales de 500 mg, utilizado para tratar infecciones bacterianas y protozoarias en la zona vaginal.",
+    "image_url": "/uploads/products/metronidazol_500_mgs_x_10_ovulos_vag_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.4,
+        "price": 25.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-EAA02D2259AF"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:14.269222",
+    "updated_at": "2026-04-20T06:25:14.269222"
+  },
+  {
+    "_id": "metronidazol_nist_caja_5_ov_caplin",
+    "name": "METRONIDAZOL+ NIST CAJA 5 OV CAPLIN",
+    "category": "Antibiótico y Antiprotozoario",
+    "principio_activo": "Metronidazol y Nistatina",
+    "descripcion": "Producto farmacéutico que combina Metronidazol, un antibiótico y antiprotozoario, con Nistatina, un antifúngico, en forma de óvulos para tratamiento de infecciones vaginales mixtas.",
+    "image_url": "/uploads/products/metronidazol_nist_caja_5_ov_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 15.0,
+        "price": 26.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-620A0BD12B1A"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:17.053243",
+    "updated_at": "2026-04-20T06:25:17.053243"
+  },
+  {
+    "_id": "miconazol_2_crema_15_grs_caplin",
+    "name": "MICONAZOL 2% CREMA 15 GRS CAPLIN",
+    "category": "Antifúngico tópico",
+    "principio_activo": "Miconazol",
+    "descripcion": "Crema antifúngica al 2% utilizada para el tratamiento de infecciones micóticas de la piel.",
+    "image_url": "/uploads/products/miconazol_2_crema_15_grs_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.5,
+        "price": 12.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-A5B41C6435C1"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:19.650049",
+    "updated_at": "2026-04-20T06:25:19.650049"
+  },
+  {
+    "_id": "mucobroxol_120_ml",
+    "name": "MUCOBROXOL 120 ML",
+    "category": "Expectorante",
+    "principio_activo": "Bromhexina",
+    "descripcion": "MUCOBROXOL 120 ML es un jarabe expectorante que ayuda a fluidificar y eliminar las secreciones bronquiales, facilitando la respiración en casos de tos y afecciones respiratorias.",
+    "image_url": "/uploads/products/mucobroxol_120_ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.8,
+        "price": 32.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-C95EFDAB6E33"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:24.824687",
+    "updated_at": "2026-04-20T06:25:24.824687"
+  },
+  {
+    "_id": "nervisel_10000_ampolla_selec_panal",
+    "name": "NERVISEL 10,000 AMPOLLA SELEC PANAL",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Complejo B (Vitaminas B1, B6, B12)",
+    "descripcion": "NERVISEL 10,000 AMPOLLA SELEC PANAL es un suplemento vitamínico inyectable que contiene altas dosis de vitaminas del complejo B, utilizado para tratar deficiencias vitamínicas y apoyar la función nerviosa.",
+    "image_url": "/uploads/products/nervisel_10000_ampolla_selec_panal.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.77,
+        "price": 10.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-56DD7D760058"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:30.467317",
+    "updated_at": "2026-04-20T06:25:30.467317"
+  },
+  {
+    "_id": "nervisel_25000__ampolla_panal_select",
+    "name": "NERVISEL 25,000  AMPOLLA PANAL SELECT",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas del complejo B",
+    "descripcion": "NERVISEL 25,000 AMPOLLA PANAL SELECT es un suplemento vitamínico inyectable que contiene altas dosis de vitaminas del complejo B, utilizado para tratar deficiencias vitamínicas y apoyar la función nerviosa.",
+    "image_url": "/uploads/products/nervisel_25000__ampolla_panal_select.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.84,
+        "price": 12.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-FD356DCF7B9C"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:34.193941",
+    "updated_at": "2026-04-20T06:25:34.193941"
+  },
+  {
+    "_id": "nervisel_25000_kit_selec",
+    "name": "NERVISEL 25,000 KIT SELEC",
+    "category": "Suplemento nutricional",
+    "principio_activo": "Vitaminas del complejo B (B1, B6, B12)",
+    "descripcion": "NERVISEL 25,000 KIT SELEC es un suplemento vitamínico indicado para el tratamiento de deficiencias de vitaminas del complejo B, especialmente en casos de neuropatías y trastornos del sistema nervioso periférico.",
+    "image_url": "/uploads/products/nervisel_25000_kit_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.15,
+        "price": 19.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-62D3FCD01B19"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:37.534152",
+    "updated_at": "2026-04-20T06:25:37.534152"
+  },
+  {
+    "_id": "nervisel_tabs_blist_x_10_caja_x_30",
+    "name": "NERVISEL TABS BLIST X 10 CAJA X 30",
+    "category": "Medicamento para el sistema nervioso",
+    "principio_activo": "No especificado",
+    "descripcion": "NERVISEL TABS BLIST X 10 CAJA X 30 es un medicamento en tabletas, presentado en blísteres de 10 unidades, con una caja que contiene 30 blísteres. Se utiliza para el tratamiento de trastornos relacionados con el sistema nervioso.",
+    "image_url": "/uploads/products/nervisel_tabs_blist_x_10_caja_x_30.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.7,
+        "price": 10.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-FAF5AD33D05B"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:40.897039",
+    "updated_at": "2026-04-20T06:25:40.897039"
+  },
+  {
+    "_id": "olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap",
+    "name": "OLMERSARTAN MEDOXOMIL 40 MGS BLIST X 10 AJA X 30 CAP",
+    "category": "Antihipertensivo",
+    "principio_activo": "Olmesartán medoxomil",
+    "descripcion": "Medicamento utilizado para el tratamiento de la hipertensión arterial. Presentación en cápsulas de 40 mg, en blíster de 10 unidades, caja con 30 cápsulas.",
+    "image_url": "/uploads/products/olmersartan_medoxomil_40_mgs_blist_x_10_aja_x_30_cap.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 29.57,
+        "price": 49.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-189FFF982A68"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:43.443412",
+    "updated_at": "2026-04-20T06:25:43.443412"
+  },
+  {
+    "_id": "piroxicam_20_mg_blist_x_10_caja_x_100",
+    "name": "PIROXICAM 20 MG BLIST X 10 CAJA X 100",
+    "category": "Antiinflamatorio no esteroideo",
+    "principio_activo": "Piroxicam",
+    "descripcion": "Piroxicam 20 mg en presentación de blíster con 10 unidades, caja con 100 blísters. Utilizado para aliviar el dolor y la inflamación en condiciones como artritis.",
+    "image_url": "/uploads/products/piroxicam_20_mg_blist_x_10_caja_x_100.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.08,
+        "price": 4.0,
+        "profit_percent": 0.73,
+        "sku": "SKU-E8EC2AF8202A"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:46.202858",
+    "updated_at": "2026-04-20T06:25:46.202858"
+  },
+  {
+    "_id": "piroxicam_ampolla_40_mgs",
+    "name": "PIROXICAM AMPOLLA 40 MGS",
+    "category": "Antiinflamatorio no esteroideo (AINE)",
+    "principio_activo": "Piroxicam",
+    "descripcion": "Piroxicam es un medicamento antiinflamatorio no esteroideo utilizado para aliviar el dolor y la inflamación en condiciones como artritis reumatoide y osteoartritis. La presentación en ampolla de 40 mg está destinada a administración intramuscular o intravenosa para un efecto rápido.",
+    "image_url": "/uploads/products/piroxicam_ampolla_40_mgs.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.56,
+        "price": 3.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-E3B4A3D40E17"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:49.284827",
+    "updated_at": "2026-04-20T06:25:49.284827"
+  },
+  {
+    "_id": "prednisona_5mg_blist_x_20_caja_x_100__selec",
+    "name": "PREDNISONA 5MG BLIST X 20 CAJA X 100  SELEC",
+    "category": "Corticosteroides",
+    "principio_activo": "Prednisona",
+    "descripcion": "Prednisona 5 mg en blíster de 20 tabletas, caja con 100 unidades. Utilizado como antiinflamatorio e inmunosupresor.",
+    "image_url": "/uploads/products/prednisona_5mg_blist_x_20_caja_x_100__selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.12,
+        "price": 10.0,
+        "profit_percent": 0.49,
+        "sku": "SKU-84B7848F474E"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:51.962150",
+    "updated_at": "2026-04-20T06:25:51.962150"
+  },
+  {
+    "_id": "propanolol_40_mg_caja_x_100_blist_x_10_caplin",
+    "name": "PROPANOLOL 40 MG CAJA X 100 BLIST X 10 CAPLIN",
+    "category": "Betabloqueante",
+    "principio_activo": "Propranolol",
+    "descripcion": "Medicamento utilizado para tratar hipertensión, angina de pecho, arritmias y otras condiciones cardiovasculares. Cada cápsula contiene 40 mg de propranolol.",
+    "image_url": "/uploads/products/propanolol_40_mg_caja_x_100_blist_x_10_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 1.2,
+        "price": 3.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-6E6E6AE1BBFB"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:54.938219",
+    "updated_at": "2026-04-20T06:25:54.938219"
+  },
+  {
+    "_id": "propolderma_spray_bucal_30_ml",
+    "name": "PROPOLDERMA SPRAY BUCAL 30 ML",
+    "category": "Spray bucal",
+    "principio_activo": "Propóleo",
+    "descripcion": "Spray bucal de 30 ml utilizado para aliviar irritaciones y promover la salud bucal gracias a las propiedades antimicrobianas y antiinflamatorias del propóleo.",
+    "image_url": "/uploads/products/propolderma_spray_bucal_30_ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 27.5,
+        "price": 49.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-FB72D0C4EFEA"
+      }
+    ],
+    "created_at": "2026-04-20T06:25:58.188966",
+    "updated_at": "2026-04-20T06:25:58.188966"
+  },
+  {
+    "_id": "recover_1_lt_cereza",
+    "name": "RECOVER 1 LT CEREZA",
+    "category": "Bebida isotónica",
+    "principio_activo": "Electrolitos (sodio, potasio, magnesio)",
+    "descripcion": "RECOVER 1 LT CEREZA es una bebida isotónica sabor cereza diseñada para rehidratar y reponer electrolitos perdidos durante la actividad física.",
+    "image_url": "/uploads/products/recover_1_lt_cereza.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.6,
+        "price": 23.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-91A3801B5271"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:02.282571",
+    "updated_at": "2026-04-20T06:26:02.282571"
+  },
+  {
+    "_id": "recover_1_lt_coco",
+    "name": "RECOVER 1 LT COCO",
+    "category": "Bebida isotónica",
+    "principio_activo": "Electrolitos (sodio, potasio, magnesio)",
+    "descripcion": "RECOVER 1 LT COCO es una bebida isotónica con sabor a coco diseñada para rehidratar y reponer electrolitos perdidos durante la actividad física o en casos de deshidratación.",
+    "image_url": "/uploads/products/recover_1_lt_coco.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.6,
+        "price": 23.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-0BCA67EBDD3F"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:05.292838",
+    "updated_at": "2026-04-20T06:26:05.292838"
+  },
+  {
+    "_id": "recover_1_lt_manzana",
+    "name": "RECOVER 1 LT MANZANA",
+    "category": "Bebida isotónica",
+    "principio_activo": "Electrolitos (sodio, potasio, magnesio)",
+    "descripcion": "Bebida isotónica sabor manzana diseñada para rehidratar y reponer electrolitos perdidos durante la actividad física o en casos de deshidratación.",
+    "image_url": "/uploads/products/recover_1_lt_manzana.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.6,
+        "price": 23.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-0A85959D7E5F"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:08.281153",
+    "updated_at": "2026-04-20T06:26:08.281153"
+  },
+  {
+    "_id": "recover_1_lt_melocoton",
+    "name": "RECOVER 1 LT MELOCOTON",
+    "category": "Bebida isotónica",
+    "principio_activo": "Electrolitos y carbohidratos",
+    "descripcion": "RECOVER 1 LT MELOCOTON es una bebida isotónica diseñada para rehidratar y reponer electrolitos y energía durante o después del ejercicio físico. Contiene una mezcla de sales minerales y azúcares que ayudan a mantener el equilibrio hídrico y mejorar el rendimiento deportivo.",
+    "image_url": "/uploads/products/recover_1_lt_melocoton.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.6,
+        "price": 23.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-354FF994D95D"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:11.967516",
+    "updated_at": "2026-04-20T06:26:11.967516"
+  },
+  {
+    "_id": "recover_1_lt_uva",
+    "name": "RECOVER 1 LT UVA",
+    "category": "Bebida hidratante",
+    "principio_activo": "Electrolitos y carbohidratos",
+    "descripcion": "RECOVER 1 LT UVA es una bebida hidratante con sabor a uva diseñada para reponer líquidos y electrolitos perdidos durante la actividad física o en casos de deshidratación.",
+    "image_url": "/uploads/products/recover_1_lt_uva.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.6,
+        "price": 23.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-2664B0294F41"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:14.825496",
+    "updated_at": "2026-04-20T06:26:14.825496"
+  },
+  {
+    "_id": "recover_500_ml_uva",
+    "name": "RECOVER 500 ML UVA",
+    "category": "Bebida hidratante",
+    "principio_activo": "Electrolitos y glucosa",
+    "descripcion": "RECOVER 500 ML UVA es una bebida isotónica con sabor a uva diseñada para rehidratar y reponer electrolitos y energía después del ejercicio o en casos de deshidratación.",
+    "image_url": "/uploads/products/recover_500_ml_uva.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.45,
+        "price": 15.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-D7EF62BE4A0D"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:17.791380",
+    "updated_at": "2026-04-20T06:26:17.791380"
+  },
+  {
+    "_id": "recover_500ml_cereza",
+    "name": "RECOVER 500ML CEREZA",
+    "category": "Bebida de rehidratación",
+    "principio_activo": "Electrolitos y carbohidratos",
+    "descripcion": "RECOVER 500ML CEREZA es una bebida diseñada para rehidratar y reponer electrolitos y energía después del ejercicio o en casos de deshidratación, con sabor a cereza.",
+    "image_url": "/uploads/products/recover_500ml_cereza.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.45,
+        "price": 15.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-BED539176055"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:21.188410",
+    "updated_at": "2026-04-20T06:26:21.188410"
+  },
+  {
+    "_id": "recover_500ml_coco",
+    "name": "RECOVER 500ML COCO",
+    "category": "Bebida isotónica",
+    "principio_activo": "Electrolitos y carbohidratos",
+    "descripcion": "RECOVER 500ML COCO es una bebida isotónica con sabor a coco diseñada para rehidratar y reponer electrolitos y energía después del ejercicio físico.",
+    "image_url": "/uploads/products/recover_500ml_coco.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.45,
+        "price": 15.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-92575C9345C1"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:24.012403",
+    "updated_at": "2026-04-20T06:26:24.012403"
+  },
+  {
+    "_id": "recover_500ml_manzana",
+    "name": "RECOVER 500ML MANZANA",
+    "category": "Bebida de rehidratación",
+    "principio_activo": "Electrolitos y azúcares",
+    "descripcion": "RECOVER 500ML MANZANA es una bebida diseñada para rehidratar y reponer electrolitos y energía tras la actividad física o en casos de deshidratación, con sabor a manzana.",
+    "image_url": "/uploads/products/recover_500ml_manzana.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.45,
+        "price": 15.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-86649E076E4A"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:26.943430",
+    "updated_at": "2026-04-20T06:26:26.943430"
+  },
+  {
+    "_id": "recover_500ml_melocoton",
+    "name": "RECOVER 500ML MELOCOTON",
+    "category": "Bebida de recuperación",
+    "principio_activo": "Electrolitos y carbohidratos",
+    "descripcion": "RECOVER 500ML MELOCOTON es una bebida isotónica diseñada para rehidratar y reponer electrolitos y energía después del ejercicio físico, con sabor a melocotón.",
+    "image_url": "/uploads/products/recover_500ml_melocoton.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 9.45,
+        "price": 15.0,
+        "profit_percent": 0.37,
+        "sku": "SKU-43908A0D7F6F"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:30.112555",
+    "updated_at": "2026-04-20T06:26:30.112555"
+  },
+  {
+    "_id": "recover_diabetico_litro_cereza",
+    "name": "RECOVER DIABETICO LITRO CEREZA",
+    "category": "Suplemento nutricional para diabéticos",
+    "principio_activo": "No especificado (producto nutricional)",
+    "descripcion": "Bebida nutricional sabor cereza diseñada para personas con diabetes, que ayuda a recuperar energía y mantener un adecuado control glucémico.",
+    "image_url": "/uploads/products/recover_diabetico_litro_cereza.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.45,
+        "price": 29.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-6845230B0770"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:32.830480",
+    "updated_at": "2026-04-20T06:26:32.830480"
+  },
+  {
+    "_id": "recover_diabetico_litro_coco",
+    "name": "RECOVER DIABETICO LITRO COCO",
+    "category": "Suplemento nutricional",
+    "principio_activo": "No aplica",
+    "descripcion": "Bebida nutricional diseñada para personas con diabetes, sabor coco, en presentación de un litro.",
+    "image_url": "/uploads/products/recover_diabetico_litro_coco.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.45,
+        "price": 29.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-9D3FCE50017B"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:35.439322",
+    "updated_at": "2026-04-20T06:26:35.439322"
+  },
+  {
+    "_id": "recover_diabetico_litro_manzana",
+    "name": "RECOVER DIABETICO LITRO MANZANA",
+    "category": "Suplemento nutricional para diabéticos",
+    "principio_activo": "N/A",
+    "descripcion": "Bebida nutricional sabor manzana diseñada para personas con diabetes, que ayuda a recuperar energía y mantener niveles adecuados de glucosa.",
+    "image_url": "/uploads/products/recover_diabetico_litro_manzana.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.45,
+        "price": 29.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-AB508D7CB03B"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:38.223220",
+    "updated_at": "2026-04-20T06:26:38.223220"
+  },
+  {
+    "_id": "recover_diabetico_litro_piña",
+    "name": "RECOVER DIABETICO LITRO PIÑA",
+    "category": "Bebida nutricional para diabéticos",
+    "principio_activo": "N/A",
+    "descripcion": "Bebida nutricional sabor piña diseñada para personas con diabetes, que ayuda a recuperar energía y mantener niveles adecuados de glucosa en sangre.",
+    "image_url": "/uploads/products/recover_diabetico_litro_piña.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 17.45,
+        "price": 29.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-A5D81FE71CD4"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:41.174720",
+    "updated_at": "2026-04-20T06:26:41.174720"
+  },
+  {
+    "_id": "restaler_loratad__beta_caja_x_10_tab",
+    "name": "RESTALER (LORATAD + BETA) CAJA X 10 TAB",
+    "category": "Antihistamínico y descongestionante",
+    "principio_activo": "Loratadina y Betametasona",
+    "descripcion": "RESTALER es un medicamento que combina loratadina, un antihistamínico utilizado para aliviar síntomas de alergias, con betametasona, un corticosteroide que reduce la inflamación. Se presenta en caja con 10 tabletas y se utiliza para tratar síntomas alérgicos como rinitis, urticaria y otras reacciones alérgicas.",
+    "image_url": "/uploads/products/restaler_loratad__beta_caja_x_10_tab.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.54,
+        "price": 6.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-9F7BB66A9DE7"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:44.414418",
+    "updated_at": "2026-04-20T06:26:44.414418"
+  },
+  {
+    "_id": "salbutamol_2mg_120_ml_selec",
+    "name": "SALBUTAMOL 2MG 120 ML SELEC",
+    "category": "Broncodilatador",
+    "principio_activo": "Salbutamol",
+    "descripcion": "Salbutamol 2mg en solución de 120 ml, utilizado para el tratamiento y alivio de broncoespasmos en enfermedades respiratorias como el asma y la enfermedad pulmonar obstructiva crónica (EPOC).",
+    "image_url": "/uploads/products/salbutamol_2mg_120_ml_selec.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.7,
+        "price": 11.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-1F2DB2B223E2"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:47.529201",
+    "updated_at": "2026-04-20T06:26:47.529201"
+  },
+  {
+    "_id": "sextron_sildenafil_100_mg_x_1tab",
+    "name": "SEXTRON (SILDENAFIL) 100 MG X 1TAB",
+    "category": "Medicamento para disfunción eréctil",
+    "principio_activo": "Sildenafil",
+    "descripcion": "SEXTRON es un medicamento que contiene sildenafil, utilizado para el tratamiento de la disfunción eréctil en hombres. Cada tableta contiene 100 mg de sildenafil.",
+    "image_url": "/uploads/products/sextron_sildenafil_100_mg_x_1tab.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.3,
+        "price": 9.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-BD36C051C663"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:50.910204",
+    "updated_at": "2026-04-20T06:26:50.910204"
+  },
+  {
+    "_id": "sildenalfin_100_mg_x4_tbs_umedica",
+    "name": "SILDENALFIN 100 MG X4 TBS UMEDICA",
+    "category": "Medicamento para disfunción eréctil",
+    "principio_activo": "Sildenafil",
+    "descripcion": "SILDENALFIN 100 MG X4 TBS UMEDICA es un medicamento que contiene sildenafil, utilizado para el tratamiento de la disfunción eréctil en hombres. Actúa aumentando el flujo sanguíneo al pene para ayudar a lograr y mantener una erección.",
+    "image_url": "/uploads/products/sildenalfin_100_mg_x4_tbs_umedica.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 7.23,
+        "price": 17.0,
+        "profit_percent": 0.57,
+        "sku": "SKU-3D20510AE48E"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:54.147351",
+    "updated_at": "2026-04-20T06:26:54.147351"
+  },
+  {
+    "_id": "simeticona_100mgml_gts_fco_30ml_select",
+    "name": "SIMETICONA 100MG/ML GTS. FCO 30ML SELECT",
+    "category": "Antiflatulentos",
+    "principio_activo": "Simeticona",
+    "descripcion": "Solución oral de simeticona 100 mg/ml en frasco de 30 ml, utilizada para aliviar los síntomas de exceso de gases en el tracto digestivo.",
+    "image_url": "/uploads/products/simeticona_100mgml_gts_fco_30ml_select.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 13.0,
+        "price": 25.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-CFCF593C2E9D"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:57.012731",
+    "updated_at": "2026-04-20T06:26:57.012731"
+  },
+  {
+    "_id": "simeticona_40mg_mast_blist_x_10_selec_caja_x_30",
+    "name": "SIMETICONA 40MG MAST BLIST X 10 SELEC CAJA X 30",
+    "category": "Antiflatulentos",
+    "principio_activo": "Simeticona",
+    "descripcion": "Medicamento utilizado para aliviar los síntomas de exceso de gases en el tracto digestivo, como hinchazón y flatulencias. Presentado en tabletas masticables de 40 mg, en blíster de 10 unidades, con caja de 30 blísters.",
+    "image_url": "/uploads/products/simeticona_40mg_mast_blist_x_10_selec_caja_x_30.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.4,
+        "price": 0.7,
+        "profit_percent": 0.43,
+        "sku": "SKU-2DDE2576F485"
+      }
+    ],
+    "created_at": "2026-04-20T06:26:59.839104",
+    "updated_at": "2026-04-20T06:26:59.839104"
+  },
+  {
+    "_id": "soluto_vital_15_ml",
+    "name": "SOLUTO VITAL 15 ML",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitaminas y minerales",
+    "descripcion": "Soluto Vital 15 ml es un suplemento vitamínico diseñado para aportar nutrientes esenciales que contribuyen al bienestar general y al mantenimiento de las funciones corporales.",
+    "image_url": "/uploads/products/soluto_vital_15_ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 18.0,
+        "price": 30.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-51406EAC9CFD"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:02.575017",
+    "updated_at": "2026-04-20T06:27:02.575017"
+  },
+  {
+    "_id": "suero_en_polvo_cereza__1lt_caplin_x_50",
+    "name": "SUERO EN POLVO CEREZA  1LT CAPLIN X 50",
+    "category": "Suplemento Hidratante",
+    "principio_activo": "Sales de rehidratación oral",
+    "descripcion": "Suero en polvo sabor cereza para preparar solución de rehidratación oral, utilizado para prevenir y tratar la deshidratación causada por diarrea o vómitos.",
+    "image_url": "/uploads/products/suero_en_polvo_cereza__1lt_caplin_x_50.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.07,
+        "price": 4.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-EDB91349D929"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:05.275826",
+    "updated_at": "2026-04-20T06:27:05.275826"
+  },
+  {
+    "_id": "sulfacetamida_10_15_ml_got_slect",
+    "name": "SULFACETAMIDA 10% 15 ML GOT SLECT",
+    "category": "Antibiótico tópico",
+    "principio_activo": "Sulfacetamida",
+    "descripcion": "Sulfacetamida al 10% en solución oftálmica de 15 ml, utilizada para tratar infecciones bacterianas en los ojos.",
+    "image_url": "/uploads/products/sulfacetamida_10_15_ml_got_slect.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.3,
+        "price": 22.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-D6EC35526D10"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:08.040693",
+    "updated_at": "2026-04-20T06:27:08.040693"
+  },
+  {
+    "_id": "tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4",
+    "name": "TADALALFIL 20 MG X 4 TAB BALAXI DISP X 10 CAJITAS BLIST X 4",
+    "category": "Medicamento para disfunción eréctil",
+    "principio_activo": "Tadalafilo",
+    "descripcion": "Tadalafilo 20 mg en tabletas, presentación en blíster de 4 tabletas, con 10 cajitas que contienen 4 blíster cada una.",
+    "image_url": "/uploads/products/tadalalfil_20_mg_x_4_tab_balaxi_disp_x_10_cajitas_blist_x_4.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.7,
+        "price": 9.0,
+        "profit_percent": 0.7,
+        "sku": "SKU-59CE7AF1B6E3"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:11.226678",
+    "updated_at": "2026-04-20T06:27:11.226678"
+  },
+  {
+    "_id": "thiorelax_tiocolchicósico_8_mg_x_10_tabs",
+    "name": "THIORELAX (TIOCOLCHICÓSICO) 8 MG X 10 TABS",
+    "category": "Antiinflamatorio y Antigotoso",
+    "principio_activo": "Tiocolchicósido",
+    "descripcion": "THIORELAX es un medicamento que contiene tiocolchicósido, un relajante muscular utilizado para aliviar el dolor y la rigidez muscular en condiciones musculoesqueléticas.",
+    "image_url": "/uploads/products/thiorelax_tiocolchicósico_8_mg_x_10_tabs.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.29,
+        "price": 8.0,
+        "profit_percent": 0.46,
+        "sku": "SKU-C41D8209877C"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:16.185237",
+    "updated_at": "2026-04-20T06:27:16.185237"
+  },
+  {
+    "_id": "toallitas_de_alcohol_x_200",
+    "name": "TOALLITAS DE ALCOHOL X 200",
+    "category": "Antisépticos y desinfectantes",
+    "principio_activo": "Alcohol etílico",
+    "descripcion": "Toallitas impregnadas con alcohol etílico al 70%, utilizadas para la desinfección y limpieza de la piel o superficies.",
+    "image_url": "/uploads/products/toallitas_de_alcohol_x_200.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.8,
+        "price": 30.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-CC0C65DCB10D"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:19.020565",
+    "updated_at": "2026-04-20T06:27:19.020565"
+  },
+  {
+    "_id": "tosiflem_jarabe_240_ml",
+    "name": "TOSIFLEM JARABE 240 ML",
+    "category": "Jarabe para la tos",
+    "principio_activo": "Levodropropizina",
+    "descripcion": "TOSIFLEM JARABE 240 ML es un jarabe utilizado para aliviar la tos seca y no productiva, actuando como un supresor de la tos.",
+    "image_url": "/uploads/products/tosiflem_jarabe_240_ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 21.0,
+        "price": 37.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-7F8C736D1561"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:21.892438",
+    "updated_at": "2026-04-20T06:27:21.892438"
+  },
+  {
+    "_id": "tossadios_fco_con__100_caramelos",
+    "name": "TOSSADIOS FCO CON  100 CARAMELOS",
+    "category": "Antitusivos",
+    "principio_activo": "No especificado",
+    "descripcion": "Caramelos para aliviar la tos y calmar la garganta irritada.",
+    "image_url": "/uploads/products/tossadios_fco_con__100_caramelos.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.3,
+        "price": 0.5,
+        "profit_percent": 0.4,
+        "sku": "SKU-37ECC4C934B2"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:24.621654",
+    "updated_at": "2026-04-20T06:27:24.621654"
+  },
+  {
+    "_id": "tramadol_50_mg_caja_x_100_blist_x_10_getics",
+    "name": "TRAMADOL 50 MG CAJA X 100 BLIST X 10 GETICS",
+    "category": "Analgésico opioide",
+    "principio_activo": "Tramadol",
+    "descripcion": "Tramadol 50 mg en presentación de caja con 100 blísteres de 10 tabletas cada uno, utilizado para el alivio del dolor moderado a severo.",
+    "image_url": "/uploads/products/tramadol_50_mg_caja_x_100_blist_x_10_getics.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 3.6,
+        "price": 9.0,
+        "profit_percent": 0.6,
+        "sku": "SKU-6C4D69142671"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:27.427236",
+    "updated_at": "2026-04-20T06:27:27.427236"
+  },
+  {
+    "_id": "tramadol_50mg_caja_x_100_blist_x_10_caplin",
+    "name": "TRAMADOL 50MG CAJA X 100 BLIST X 10 CAPLIN",
+    "category": "Analgésico opioide",
+    "principio_activo": "Tramadol",
+    "descripcion": "Tramadol 50 mg en cápsulas, caja con 100 blísteres de 10 cápsulas cada uno, utilizado para el alivio del dolor moderado a severo.",
+    "image_url": "/uploads/products/tramadol_50mg_caja_x_100_blist_x_10_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.6,
+        "price": 12.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-6AD95016A885"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:30.419363",
+    "updated_at": "2026-04-20T06:27:30.419363"
+  },
+  {
+    "_id": "tramadol_ampolla__2ml_bandeja_x_10_amp",
+    "name": "TRAMADOL AMPOLLA  2ML BANDEJA X 10 AMP",
+    "category": "Analgésicos opioides",
+    "principio_activo": "Tramadol",
+    "descripcion": "Ampollas de 2 ml de tramadol, presentadas en bandeja con 10 ampollas, utilizadas para el tratamiento del dolor moderado a severo.",
+    "image_url": "/uploads/products/tramadol_ampolla__2ml_bandeja_x_10_amp.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 5.73,
+        "price": 10.0,
+        "profit_percent": 0.43,
+        "sku": "SKU-A4B96BCB3836"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:33.177646",
+    "updated_at": "2026-04-20T06:27:33.177646"
+  },
+  {
+    "_id": "tresbiot_20_grs_caplin",
+    "name": "TRESBIOT 20 GRS CAPLIN",
+    "category": "Suplemento probiótico",
+    "principio_activo": "Probióticos (mezcla de bacterias beneficiosas)",
+    "descripcion": "TRESBIOT 20 GRS CAPLIN es un suplemento probiótico que contiene una mezcla de bacterias beneficiosas destinadas a mejorar la flora intestinal y apoyar la salud digestiva.",
+    "image_url": "/uploads/products/tresbiot_20_grs_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 14.85,
+        "price": 25.0,
+        "profit_percent": 0.41,
+        "sku": "SKU-8BCBA71B1B11"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:36.019094",
+    "updated_at": "2026-04-20T06:27:36.019094"
+  },
+  {
+    "_id": "trilox_180_ml",
+    "name": "TRILOX 180 ML",
+    "category": "Jarabe antitusivo",
+    "principio_activo": "Dextrometorfano",
+    "descripcion": "TRILOX 180 ML es un jarabe utilizado para aliviar la tos seca y persistente. Contiene dextrometorfano, un supresor de la tos que actúa sobre el centro de la tos en el cerebro para reducir el reflejo tusígeno.",
+    "image_url": "/uploads/products/trilox_180_ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 11.6,
+        "price": 20.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-3F56F7A379FD"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:39.860482",
+    "updated_at": "2026-04-20T06:27:39.860482"
+  },
+  {
+    "_id": "trilox_360_ml",
+    "name": "TRILOX 360 ML",
+    "category": "Jarabe",
+    "principio_activo": "Dextrometorfano",
+    "descripcion": "TRILOX 360 ML es un jarabe utilizado para aliviar la tos seca y otros síntomas respiratorios. Contiene dextrometorfano, un antitusivo que actúa sobre el centro de la tos en el cerebro para reducir el reflejo de la tos.",
+    "image_url": "/uploads/products/trilox_360_ml.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 16.86,
+        "price": 28.0,
+        "profit_percent": 0.4,
+        "sku": "SKU-2C0525DB3D36"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:43.765149",
+    "updated_at": "2026-04-20T06:27:43.765149"
+  },
+  {
+    "_id": "trimetoprim_120_ml_selec_sulfabac",
+    "name": "TRIMETOPRIM 120 ML SELEC (SULFABAC)",
+    "category": "Antibiótico",
+    "principio_activo": "Trimetoprim",
+    "descripcion": "Trimetoprim es un antibiótico utilizado para tratar infecciones bacterianas, especialmente infecciones del tracto urinario. Actúa inhibiendo la síntesis de ácido fólico en las bacterias, lo que impide su crecimiento y reproducción.",
+    "image_url": "/uploads/products/trimetoprim_120_ml_selec_sulfabac.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.5,
+        "price": 18.0,
+        "profit_percent": 0.42,
+        "sku": "SKU-1DCE0996633F"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:46.825125",
+    "updated_at": "2026-04-20T06:27:46.825125"
+  },
+  {
+    "_id": "uniactv__jabon_intimo_femenino_200_ml_caplin",
+    "name": "UNIACT-V  JABON INTIMO FEMENINO 200 ML CAPLIN",
+    "category": "Higiene personal",
+    "principio_activo": "No especificado",
+    "descripcion": "Jabón íntimo femenino diseñado para la limpieza y cuidado de la zona íntima femenina, presentado en envase de 200 ml.",
+    "image_url": "/uploads/products/uniactv__jabon_intimo_femenino_200_ml_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 26.4,
+        "price": 43.0,
+        "profit_percent": 0.39,
+        "sku": "SKU-42AAA8D78DA5"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:49.582583",
+    "updated_at": "2026-04-20T06:27:49.582583"
+  },
+  {
+    "_id": "unicil_la_24_mega_peni_bena_vial_unipharm",
+    "name": "UNICIL L-A 2.4 MEGA (PENI BENA) VIAL UNIPHARM",
+    "category": "Antibiótico",
+    "principio_activo": "Penicilina benzatina",
+    "descripcion": "UNICIL L-A 2.4 MEGA (PENI BENA) VIAL UNIPHARM es un antibiótico de la familia de las penicilinas, utilizado para tratar infecciones bacterianas sensibles a la penicilina benzatina.",
+    "image_url": "/uploads/products/unicil_la_24_mega_peni_bena_vial_unipharm.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 25.95,
+        "price": 47.0,
+        "profit_percent": 0.45,
+        "sku": "SKU-26A42FA6F23A"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:52.533150",
+    "updated_at": "2026-04-20T06:27:52.533150"
+  },
+  {
+    "_id": "valsartan_80_mg_caja_x_30_tab_caplin",
+    "name": "VALSARTAN 80 MG CAJA X 30 TAB CAPLIN",
+    "category": "Antihipertensivo",
+    "principio_activo": "Valsartán",
+    "descripcion": "Medicamento utilizado para el tratamiento de la hipertensión arterial y la insuficiencia cardíaca. Cada tableta contiene 80 mg de valsartán.",
+    "image_url": "/uploads/products/valsartan_80_mg_caja_x_30_tab_caplin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 35.0,
+        "profit_percent": 0.71,
+        "sku": "SKU-122E38ED5028"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:55.092454",
+    "updated_at": "2026-04-20T06:27:55.092454"
+  },
+  {
+    "_id": "venda_elastica_2_x_5",
+    "name": "VENDA ELASTICA 2\" X 5",
+    "category": "Material de curación",
+    "principio_activo": "N/A",
+    "descripcion": "Venda elástica de 2 pulgadas de ancho y 5 metros de largo, utilizada para compresión y soporte en lesiones musculares y articulares.",
+    "image_url": "/uploads/products/venda_elastica_2_x_5.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 2.7,
+        "price": 6.0,
+        "profit_percent": 0.55,
+        "sku": "SKU-E156F4F88080"
+      }
+    ],
+    "created_at": "2026-04-20T06:27:57.710418",
+    "updated_at": "2026-04-20T06:27:57.710418"
+  },
+  {
+    "_id": "venda_elastica_3_x_5",
+    "name": "VENDA ELASTICA 3 X 5",
+    "category": "Material de curación",
+    "principio_activo": "N/A",
+    "descripcion": "Venda elástica de 3 metros de largo por 5 centímetros de ancho, utilizada para compresión y soporte en lesiones musculares y articulares.",
+    "image_url": "/uploads/products/venda_elastica_3_x_5.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.2,
+        "price": 8.0,
+        "profit_percent": 0.48,
+        "sku": "SKU-7CD74B8F0DB1"
+      }
+    ],
+    "created_at": "2026-04-20T06:28:00.518625",
+    "updated_at": "2026-04-20T06:28:00.518625"
+  },
+  {
+    "_id": "venda_elastica_4_x_5",
+    "name": "VENDA ELASTICA 4\" X 5",
+    "category": "Material de curación",
+    "principio_activo": "N/A",
+    "descripcion": "Venda elástica de 4 pulgadas de ancho y 5 metros de largo, utilizada para compresión y soporte en lesiones musculares y articulares.",
+    "image_url": "/uploads/products/venda_elastica_4_x_5.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 6.0,
+        "price": 12.0,
+        "profit_percent": 0.5,
+        "sku": "SKU-205F1DC93190"
+      }
+    ],
+    "created_at": "2026-04-20T06:28:03.343062",
+    "updated_at": "2026-04-20T06:28:03.343062"
+  },
+  {
+    "_id": "venda_elastica_6_x_5",
+    "name": "VENDA ELASTICA 6 X 5",
+    "category": "Material de curación",
+    "principio_activo": "Ninguno",
+    "descripcion": "Venda elástica de 6 cm de ancho por 5 metros de largo, utilizada para compresión y soporte en lesiones musculares y articulares.",
+    "image_url": "/uploads/products/venda_elastica_6_x_5.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 8.45,
+        "price": 16.0,
+        "profit_percent": 0.47,
+        "sku": "SKU-A0535018C646"
+      }
+    ],
+    "created_at": "2026-04-20T06:28:06.141719",
+    "updated_at": "2026-04-20T06:28:06.141719"
+  },
+  {
+    "_id": "venotropa_x_30caps_farmalin",
+    "name": "VENOTROPA X 30CAPS FARMALIN",
+    "category": "Suplemento para la salud venosa",
+    "principio_activo": "Extracto de castaño de indias",
+    "descripcion": "VENOTROPA X 30CAPS FARMALIN es un suplemento que ayuda a mejorar la circulación venosa y aliviar síntomas asociados a la insuficiencia venosa, como pesadez y dolor en las piernas.",
+    "image_url": "/uploads/products/venotropa_x_30caps_farmalin.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 10.0,
+        "price": 16.0,
+        "profit_percent": 0.38,
+        "sku": "SKU-35A61C291B99"
+      }
+    ],
+    "created_at": "2026-04-20T06:28:09.371611",
+    "updated_at": "2026-04-20T06:28:09.371611"
+  },
+  {
+    "_id": "viriman_plus_tadalafil_20_mg_selec_caja_x_1_tab",
+    "name": "VIRIMAN PLUS (TADALAFIL 20 MG SELEC) CAJA X 1 TAB",
+    "category": "Medicamento para disfunción eréctil",
+    "principio_activo": "Tadalafilo 20 mg",
+    "descripcion": "VIRIMAN PLUS es un medicamento que contiene Tadalafilo 20 mg, utilizado para el tratamiento de la disfunción eréctil. Se presenta en caja con 1 tableta.",
+    "image_url": "/uploads/products/viriman_plus_tadalafil_20_mg_selec_caja_x_1_tab.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 4.45,
+        "price": 8.0,
+        "profit_percent": 0.44,
+        "sku": "SKU-8B7D48663114"
+      }
+    ],
+    "created_at": "2026-04-20T06:28:12.309441",
+    "updated_at": "2026-04-20T06:28:12.309441"
+  },
+  {
+    "_id": "vitamina_e_1000_ui_blist_x_10_caja_x_60_gelc_kurantis",
+    "name": "VITAMINA E 1000 UI BLIST X 10 CAJA X 60 GELC KURANTIS",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina E",
+    "descripcion": "Suplemento de vitamina E en cápsulas gelatinosas blandas, 1000 UI por dosis, presentadas en blíster de 10 unidades, caja con 60 gelcaps.",
+    "image_url": "/uploads/products/vitamina_e_1000_ui_blist_x_10_caja_x_60_gelc_kurantis.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 12.6,
+        "price": 26.0,
+        "profit_percent": 0.52,
+        "sku": "SKU-144455F7749B"
+      }
+    ],
+    "created_at": "2026-04-20T06:28:15.007474",
+    "updated_at": "2026-04-20T06:28:15.007474"
+  },
+  {
+    "_id": "vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis",
+    "name": "VITAMINA E 400 IU BLIS X 10 GEL CAPS CAJA X 60  KURANTIS",
+    "category": "Suplemento vitamínico",
+    "principio_activo": "Vitamina E",
+    "descripcion": "Suplemento de vitamina E en cápsulas gelatinosas blandas, 400 UI por cápsula, presentadas en blíster de 10 unidades, caja con 60 cápsulas.",
+    "image_url": "/uploads/products/vitamina_e_400_iu_blis_x_10_gel_caps_caja_x_60__kurantis.jpg",
+    "supplier": "ROSADEL",
+    "presentations": [
+      {
+        "presentation_name": "unidad",
+        "units": 1,
+        "cost": 0.76,
+        "price": 1.5,
+        "profit_percent": 0.49,
+        "sku": "SKU-62070F1990A4"
+      }
+    ],
+    "created_at": "2026-04-20T06:28:17.759389",
+    "updated_at": "2026-04-20T06:28:17.759389"
+  }
+]
