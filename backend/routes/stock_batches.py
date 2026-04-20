@@ -55,6 +55,21 @@ def get_batches_by_product_id(product_id: str):
     return batches
 
 
+@router.get("/productidwithoutbodega/{product_id}")
+def get_batches_by_product_id(product_id: str):
+    """Obtener todos los lotes de un producto"""
+    batches_cursor = stock_batches_collection.find({"product_id": product_id})
+
+    batches = [
+        serialize_doc(batch) for batch in batches_cursor
+        if batch.get("location") != "BODEGA"  # 👈 solo esto se agrega
+    ]
+
+    if not batches:
+        raise HTTPException(status_code=404, detail="No hay lotes para este producto")
+
+    return batches
+
 @router.put("/{batch_id}")
 def upsert_batch(batch_id: str, batch: dict = Body(...)):
 

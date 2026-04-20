@@ -30,7 +30,7 @@ export function ProductDetailModal({
     refetch,
   } = useFetch<StockBatch[]>({
     url: open && product?._id 
-      ? `/stock-batches/productid/${product._id}` 
+      ? `/stock-batches/productidwithoutbodega/${product._id}` 
       : null,
   });
   
