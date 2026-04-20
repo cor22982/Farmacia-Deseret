@@ -153,8 +153,10 @@ def sales_inventory_report(
         }))
 
         # ✅ DIVIDIR stock_units entre base_units
-        existencia_raw = sum(b.get("stock_units", 0) for b in batches)
+        existencia_raw = sum(b.get("stock_units", 0) for b in batches if b.get("location", "").upper() != "BODEGA")
+        bodega_raw     = sum(b.get("stock_units", 0) for b in batches if b.get("location", "").upper() == "BODEGA")
         existencia = existencia_raw / base_units
+        bodega     = bodega_raw     / base_units
 
         # 🔧 Normalizar lotes
         normalized_batches = []
@@ -266,7 +268,7 @@ def sales_inventory_report(
             "pp": pp,
             "fecha_vencimiento": format_date(next_batch["_exp_dt"] if next_batch else None),
             "fecha_compra": format_date(next_batch["_pur_dt"] if next_batch else None),
-            "bodega": 0,
+            "bodega": bodega,
             "compras": 0,
             "semanas": {
                 "sem_1": week_totals[0],  # ✅ YA normalizado

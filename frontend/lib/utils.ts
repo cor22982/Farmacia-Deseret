@@ -164,9 +164,21 @@ export function getCurrentWeekDates() {
   };
 }
 export const SUPPLIERS = [
-  { label: "T FUERTE", value: "T FUERTE" },
-  { label: "BENDICIÓN", value: "BENDICION" },
+  { label: "AMICELCO", value: "AMICELCO" },
+  { label: "BENDICION", value: "BENDICION" },
   { label: "BYF", value: "BYF" },
+  { label: "COIDE", value: "COIDE" },
+  { label: "EMMANUEL", value: "EMMANUEL" },
+  { label: "ESTUARDO", value: "ESTUARDO" },
+  { label: "GENESIS", value: "GENESIS" },
+  { label: "INFASA", value: "INFASA" },
+  { label: "OLAM", value: "OLAM" },
+  { label: "PRECIO BAJO", value: "PRECIO BAJO" },
+  { label: "ROSADEL", value: "ROSADEL" },
+  { label: "TORRE FUERTE", value: "TORRE FUERTE" },
+  { label: "LAFIMARQ", value: "LAFIMARQ" },
+  { label: "TIENDA", value: "TIENDA" },
+  { label: "ROXVEL Y RABI", value: "ROXVEL Y RABI" }
 ];
 
 
