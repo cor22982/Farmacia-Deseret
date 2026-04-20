@@ -26,7 +26,7 @@ def create_batch(batch: dict = Body(...)):
         raise HTTPException(status_code=400, detail=f"Error: {str(e)}")
 
 @router.get("")
-def get_batches(skip: int = 0, limit: int = 1000, product_id: str = None):
+def get_batches(skip: int = 0, limit: int = 1000000, product_id: str = None):
     query = {}
     if product_id:
         query["product_id"] = product_id

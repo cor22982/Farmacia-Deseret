@@ -178,7 +178,8 @@ export const SUPPLIERS = [
   { label: "TORRE FUERTE", value: "TORRE FUERTE" },
   { label: "LAFIMARQ", value: "LAFIMARQ" },
   { label: "TIENDA", value: "TIENDA" },
-  { label: "ROXVEL Y RABI", value: "ROXVEL Y RABI" }
+  { label: "ROXVEL Y RABI", value: "ROXVEL Y RABI" },
+  { label: "NO SISTEMA", value: "NO SISTEMA" }
 ];
 
 
